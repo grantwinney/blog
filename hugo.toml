@@ -6,3 +6,7 @@ theme = 'papermod'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[permalinks]
+  [permalinks.page]
+    posts = '/:slug/'
