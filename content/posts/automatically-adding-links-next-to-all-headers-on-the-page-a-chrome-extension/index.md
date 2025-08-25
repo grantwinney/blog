@@ -1,0 +1,82 @@
++++
+categories = ["Browser Extension"]
+date = 2018-02-25T21:33:09Z
+description = ""
+draft = false
+image = "https://images.unsplash.com/photo-1563115298-e9585e7943d4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
+slug = "automatically-adding-links-next-to-all-headers-on-the-page-a-chrome-extension"
+summary = "Ever needed to link directly to one section of a webpage? You can, as long as there's a header (or another element nearby like a div) with an ID assigned to it. Getting the ID isn't tough, but it's a bit of a pain. It doesn't have to be that hard."
+tags = ["Browser Extension"]
+title = "Automatically add links to all headers on a website (a Chrome extension)"
+
++++
+
+
+Ever needed to link directly to one section of a webpage? You can, as long as there's a header (or another element nearby like a div) with an ID assigned to it. The presence of an ID isn't guaranteed for every website, but a lot of personal blogs and technical doc sites use them.
+
+Getting the ID isn't tough, but it's a bit of a pain. You have to view the source code for the page, find the header to get the ID, and then append the ID to the URL before sharing it.
+
+It doesn't have to be that hard.
+
+
+A smarter way to link directly to a section
+
+This weekend I wrote an extension for the Chrome browser to make this easier. When you open a webpage, it scans the DOM for headers, and generates a link for each header that has an ID. When you hover over the header, you can see the link and click on it to copy it to your clipboard.
+
+Get it from the Chrome webstore.
+
+
+See it in action
+
+
+Random resources and notes
+
+This was a true "programming by stack overflow" experience, as there were a myriad of things I didn't know how to do before writing this. But that's the fun part of writing something like this - you end up learning about things you didn't even know existed!
+
+
+Getting the bookmark (chain link) icon
+
+For the icon, I considered using an image first, then thought I'd use a unicode character. But I was concerned the image might be difficult to inject into the page, and that the unicode character might not render correctly on some systems.
+
+I ended up using the same SVG element that GitHub uses for their anchor icon. Here's an interesting article I found while doing research:
+
+How To Define SVG Content for Reuse — The defs, symbol, And use Elements
+
+
+Positioning the icon
+
+I used a few other posts to figure out how to position the icon where I did, making it seem to hover to the left of the header, and hiding it until the user hovers over the header. Gotta give credit where it's due:
+
+ * How to Set a Fixed Width for a Div Element with Display Inline?
+ * Using only CSS, show div on hover over <a>
+ * How to affect other elements when a div is hovered
+
+I also made use of css transitions for a nice little fade-in/fade-out effect on the icon, whereas the GitHub icon is either visible or not.
+
+
+Linking the icon to the header
+
+I had considered building the link in javascript, which worked, but ultimately I didn't need that level of flexibility so I opted to just hardcode it instead.
+
+As for constructing the URL itself, I found the location object to be immensely useful. I wasn't sure whether an anchor should come before a querystring or after, so this was useful - fwiw, the querystring comes before the anchor.
+
+
+Copying the link to the clipboard
+
+I had no idea how to copy something to the clipboard, and figured it'd be somewhat restricted because, well, can you imagine if every site could touch your clipboard? I found a great SO post on how to copy to the clipboard, and it was so helpful I awarded a bounty to it.
+
+The execCommand the thread suggested works on all modern browsers, including Chrome.
+
+After I had the script though, I still had to figure out how to get it into the website - having it in the extension was not good enough. SO to the rescue again, which a helpful post on how to insert code into the page context.
+
+
+Miscellaneous
+
+I ended up not using this, but Window.getComputedStyle() looks extremely helpful if you need it.
+
+The Window.getComputedStyle() method returns an object that reports the values of all CSS properties of an element after applying active stylesheets and resolving any basic computation those values may contain. Individual CSS property values are accessed through APIs provided by the object or by simply indexing with CSS property names.
+
+
+For the future...
+
+It'd be nice to display a small confirmation that the text has been copied, maybe like this, but I don't think it's necessary.

@@ -1,0 +1,51 @@
++++
+categories = ["C#", "LINQ", "Coding"]
+date = 2019-11-11T23:36:00Z
+description = ""
+draft = false
+image = "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
+slug = "what-is-the-opposite-method-of-any-t-in-linq"
+summary = "One of the many nice functions in LINQ is a single word that iterates through a collection, returning true if at least one item in the collection matches the condition you specify. But what's the opposite of the Any keyword in LINQ?"
+tags = ["C#", "LINQ", "Coding"]
+title = "What is the opposite of Any in LINQ?"
+
++++
+
+
+If you are (or hope to be) a .NET developer, knowing LINQ is a huge time-saver. It's a syntax that allows you to manipulate data in a fashion that'll be familiar to anyone who's worked in a database.
+
+
+Any
+
+One of the many nice functions in LINQ is a single word that iterates through a collection, returning true if at least one item in the collection matches the condition you specify.
+
+var currencies = new[] { "USD", "EUR", "JPY" };
+
+Console.WriteLine(currencies.Any(x => x == "MXN"));  // False
+
+But what's the opposite of Any<T>()?
+
+What if, instead of finding out whether the list of currencies includes "peso", you wanted to make sure the list of currencies did not include "peso"? You could negate the above, but you might think that reads a bit funny... and I'd agree.
+
+var currencies = new[] { "USD", "EUR", "JPY" };
+
+Console.WriteLine(!currencies.Any(x => x == "MXN"));  // True
+
+
+All
+
+The only way to make sure that a list doesn't include a particular value, or that no item in the collection matches a particular condition, is to check every single item in the collection... and that's what All<T>() is for.
+
+var currencies = new[] { "USD", "EUR", "JPY" };
+
+Console.WriteLine(currencies.All(x => x != "MXN"));          // True
+
+Console.WriteLine(currencies.All(x => !x.StartsWith("M")));  // True
+
+
+Try it out
+
+Try it out yourself below. And to learn more, read about All and Any.
+
+
+
