@@ -16,8 +16,7 @@ _(Getting it work on Facebook was a pain, and required constant updates, so I do
 
 Available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/hide-comments-everywhere/) and [Chrome](https://chrome.google.com/webstore/detail/hide-comments-everywhere/bmhkdngdngchlneelllmdennfpmepbnc), and works on Brave _([natively](https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-))_ and Opera _(requires an [additional extension](https://addons.opera.com/en/extensions/details/install-chrome-extensions/)) too._
 
-<!-- {{< gallery >}}
-{{< galleryImg  src="__GHOST_URL__/content/images/2019/07/hide-comments-2.jpg" width="640" height="400" >}}{{< galleryImg  src="__GHOST_URL__/content/images/2022/03/popup.png" width="451" height="206" >}}{{< galleryImg  src="__GHOST_URL__/content/images/2022/03/options1.png" width="869" height="800" >}}{{< galleryImg  src="__GHOST_URL__/content/images/2022/03/options2.png" width="884" height="800" >}}{{< /gallery >}} -->
+
 
 ## How's it work?
 
