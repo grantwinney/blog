@@ -22,6 +22,8 @@ The C# and .NET teams are always adding interesting, useful features, more frequ
 
 One of the features we got as part of C# 12 is called primary constructors, which gives us a different way to define classes and structs. Let's take a closer look at what we can do with them and how they differ from traditional constructors.
 
+> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2012/PrimaryConstructors?ref=grantwinney.com), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
+
 ## Using Primary Constructors in Classes
 
 Here's a standard class, representing a satellite. There's a constructor that sets some properties, only one of which (`IsActive`) can be changed after instantiation: __(why? who knows, lol)__
@@ -172,28 +174,6 @@ Unless the default values make sense though, then just sticking with a normal co
 
 To learn more about primary constructors, explore the [official docs](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/instance-constructors#primary-constructors). Or to learn more about records, see my other article here:
 
-[
-
-Records, Classes and Equality in C# 9 / .NET 5
-
-The record modifier can define properties and equality in our classes for us, saving time and keeping our code cleaner. Let’s see how it works!
-
-![](https://grantwinney.com/content/images/icon/favicon-2-2.png)Grant WinneyGrant
-
-![](https://grantwinney.com/content/images/thumbnail/maksym-kaharlytskyi-Q9y3LRuuxmg-unsplash.jpg)
-
-](https://grantwinney.com/records-classes-and-equality-in-csharp/)
+[Records, Classes and Equality in C# 9 / .NET 5](https://grantwinney.com/records-classes-and-equality-in-csharp/)
 
 If you found this content useful, and would like to learn more about a variety of [C#](https://grantwinney.com/tag/csharp/) features, check out my [CSharpDotNetFeatures repo](https://github.com/grantwinney/CSharpDotNetFeatures), where you'll find links to plenty more blog posts and practical examples!
-
-[
-
-GitHub - grantwinney/CSharpDotNetExamples: Discovering and learning about the various features of the C# programming language and .NET Framework.
-
-Discovering and learning about the various features of the C# programming language and .NET Framework. - GitHub - grantwinney/CSharpDotNetExamples: Discovering and learning about the various featur…
-
-![](https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg)GitHubgrantwinney
-
-![](https://opengraph.githubassets.com/b521c7430efc12e5c048d5a0b3e0c221c55b63945bea686c91865a5042071b43/grantwinney/CSharpDotNetExamples)
-
-](https://github.com/grantwinney/CSharpDotNetExamples)

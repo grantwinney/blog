@@ -19,6 +19,8 @@ title: WebView2, a browser for WinForms in .NET 5
 ---
 When one thinks of WinForms, one does __not__ generally think of the web at the same time, unless it's how they wish they could move their app from one to the other. However, there's a number of controls for displaying web pages in a WinForms app, and with .NET 5 we got a new one called [WebView2](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/whats-new/net50?view=netdesktop-9.0#new-controls).
 
+> The code in this post is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/.NET%2005/WebView2Sample?ref=grantwinney.com), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
+
 I spent a couple evenings playing around and barely scratched the surface. Here's what I learned.
 
 ## What is WebView2?

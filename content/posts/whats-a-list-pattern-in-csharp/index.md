@@ -17,12 +17,11 @@ tags:
 - Coding
 title: What are list patterns in C#?
 ---
+[As I've mentioned before](https://grantwinney.com/adding-deconstructors-in-csharp-is-it-worth-it/), there's very little I miss from my days of Erlang programming. One of the things I do miss, though, is pattern matching. Erlang does a __lot__ with it, and it's interesting to see C# doing more with it in the last few major releases too.
 
+Imagine, for a moment, if we could do some kind of pattern matching while [overloading methods](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/member-overloading). In the (completely invalid) code beow, the first method catches any call where the first parameter is "Anne", the second catches any call where the year is 1999, and the last one catches everything else. It's not a perfect analogy, but it's similar to what you can do in Erlang, without needing to have a bunch of `IF/ELSE` statements.
 
-As I've mentioned before, there's very little I miss from my days of Erlang programming. One of the things I do miss, though, is pattern matching. Erlang does a lot with it, and it's interesting to see C# doing more with it in the last few major releases too.
-
-Imagine, for a moment, if we could do some kind of pattern matching while overloading methods. In the (completely invalid) code beow, the first method catches any call where the first parameter is "Anne", the second catches any call where the year is 1999, and the last one catches everything else. It's not a perfect analogy, but it's similar to what you can do in Erlang, without needing to have a bunch of IF/ELSE statements.
-
+```csharp
 public void RunAwfulBdayRoutine()
 {
     WishHappyBirthday("Anne", new DateOnly(1990,1,1));
@@ -43,32 +42,29 @@ public void WishHappyBirthday(string name, DateOnly birthdate)
     var today = DateOnly.FromDateTime(DateTime.Now);
     Console.WriteLine($"You're {today.DayNumber - birthdate.DayNumber} days old, {name}... quite the uh, large number.");
 }
+```
 
-Obviously C# doesn't allow anything like that (yet anyway), but they did introduce something called list patterns in C# 11 that's worth checking out. Unfortunately, although Microsoft's docs have improved a lot over the years, the docs aren't selling this feature well.. at least not to me.
+Obviously C# doesn't allow anything like that (yet anyway), but they __did__ introduce something called [list patterns](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns#list-patterns) in C# 11 that's worth checking out. Unfortunately, although Microsoft's docs have improved a lot over the years, the docs aren't selling this feature well.. at least not to me.
 
-I looked up some other examples around the web too, but they're all similarly unrealistic, typically showing a list of numbers being passed around and acted on. What these numbers mean is anyone's guess, and then the new list pattern feature is used to make sure they all fall within certain ranges and whatnot.
+I looked up some other examples around the web too, but they're all similarly unrealistic, typically showing a list of numbers being passed around and acted on. What these numbers mean is anyone's guess__,__ and then the new list pattern feature is used to make sure they all fall within certain ranges and whatnot.
 
-Almost every time I've had a collection of anything, it's coming from a db and represents a list of employees, security settings, subscriptions... things that should have their own class. If I had a list of seemingly-random numbers like in the examples I saw, I'd find a better way to represent that data first, and then using list patterns probably wouldn't apply anyway.
+Almost every time I've had a collection of __anything,__ it's coming from a db and represents a list of employees, security settings, subscriptions... things that should have their own class. If I had a list of seemingly-random numbers like in the examples I saw, I'd find a better way to represent that data first, and then using list patterns probably wouldn't apply anyway.
 
-So I'm left wondering, what are some realistic usages for this new feature? What can we use it for, and how can it make our lives as programmers a little easier? Let's look at a few use cases.
+So I'm left wondering, what __are__ some realistic usages for this new feature? What can we use it for, and how can it make our lives as programmers a little easier? Let's look at a few use cases.
 
+> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/ListPatternMatching?ref=grantwinney.com), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
-
-The code in this post is available on GitHub, for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
-
-
-
-
-Matching on CSV files with inconsistent formats
+## Matching on CSV files with inconsistent formats
 
 One possibility is using it to parse CSV files with somewhat unpredictable formats. CSV files are just comma-delimited files after all, so each line/record is easily split into a collection of strings. Let's assume a few things for a hypothetical scenario:
 
- 1. We've got an app that needs to import a variety of CSV files.
- 2. All the CSV files represent data about stores, but they all look slightly different.
- 3. The only thing we can rely on is that the first "column" is the store's name and the last "column" is the store's total sales. Some files have just those 2 columns, but others have dozens in between, none of which we care about.
+1. We've got an app that needs to import a variety of CSV files.
+2. All the CSV files represent data about stores, but they all look slightly different.
+3. The only thing we can rely on is that the first "column" is the store's name and the last "column" is the store's total sales. Some files have just those 2 columns, but others have dozens in between, none of which we care about.
 
 Our data from the various files might look like this hodge-podge.
 
+```csharp
 // Pretend we're actually loading a variety of inconsistently formatted CSV files,
 // which may have been exported from some third-party system
 var inconsistentCSVFileRecords = new[]
@@ -77,9 +73,11 @@ var inconsistentCSVFileRecords = new[]
     "The Shop Around The Corner, true, false, maybe, 12, 1200, M-F, 15000.00",
     "Zonko's Joke Shop, 13000.00",
 };
+```
 
-After splitting each string, we can define a pattern that grabs the name and sales (first and last) values for further processing, while ignoring everything (or nothing!) in between, with the .. slice pattern.
+After splitting each string, we can define a pattern that grabs the name and sales (first and last) values for further processing, while ignoring everything __(or nothing!)__ in between, with the `..` slice pattern.
 
+```csharp
 var stores = new List<string>();
 var totalSales = 0m;
 
@@ -94,27 +92,32 @@ foreach (var record in inconsistentCSVFileRecords)
 
 Console.WriteLine($"The following stores had combined sales of ${totalSales}:");
 Console.WriteLine(string.Join(", ", stores));
+```
 
 The slice pattern is a special pattern that matches 0 or more elements, so we get only the values we're interested in, and toss out the rest.
 
+![](https://grantwinney.com/content/images/2023/08/image-17.png)
 
-Matching on lists in an XML node
+## Matching on lists in an XML node
 
-If you haven't had to before, there may be a time when you have to create or manipulate an XML file, such as when you're integrating with a SOAP API. Or maybe not, unless you're dealing with a legacy app.. you never know.
+If you haven't had to before, there may be a time when you have to create or manipulate an XML file, such as when you're integrating with a [SOAP API](https://blog.postman.com/soap-api-definition/). Or maybe not, unless you're dealing with a legacy app.. you never know.
 
 Let's assume we're getting a response back from some API endpoint that returns student info, with a node that contains a list of grades. There's nothing in the XML itself that says what the grades mean, but there's some documentation somewhere else that tells us which subjects each grade represents.
 
+```csharp
 // Pretend we're actually receiving XML like you might get from a SOAP API,
 // but this could just as well be JSON from a REST API...
 var xml = @"<students>
                 <student><name>Greg</name><grades>92,91,77,89,85</grades></student>
                 <student><name>Tina</name><grades>97,88,84,91,80</grades></student>
             </students>";
+```
 
 We know we want to parse them out, but don't want to create an entire class to store them because they won't be passed around or saved as-is. And we've been told to only use a couple of the grades, and toss out the rest.
 
-Using list patterns, we can parse out each student's grades. The underscore discards the second value, because we're not interested in it... for invent-your-own reason. The slice pattern is used to discard everything after the third grade, but what's the { Length: 2 } mean? That makes sure that the slice pattern matches on two elements, so if the list of grades for one record has 4 numbers, or 6 or more, the code below won't match on it and won't print it out.
+Using list patterns, we can parse out each student's grades. The underscore discards the second value, because we're not interested in it... for invent-your-own reason. The slice pattern is used to discard everything after the third grade, but what's the `{ Length: 2 }` mean? That makes sure that the slice pattern matches on two elements, so if the list of grades for one record has 4 numbers, or 6 or more, the code below won't match on it and won't print it out.
 
+```csharp
 var xdoc = XDocument.Parse(xml);
 
 foreach (var student in xdoc.Root.Elements("student"))
@@ -126,14 +129,17 @@ foreach (var student in xdoc.Root.Elements("student"))
         Console.WriteLine($"{name} got a {math}% in math and a {art}% in art.");
     }
 }
+```
 
+![](https://grantwinney.com/content/images/2023/08/image-18.png)
 
-Matching on the header in some text files
+## Matching on the header in some text files
 
-It's also possible that you'll have some text files which have some pattern to them, some predictable portion, and that you'll need to extract that portion. The call to File.ReadAllLines returns (conveniently) all the lines of a file as a string array.
+It's also possible that you'll have some text files which have some pattern to them, some predictable portion, and that you'll need to extract that portion. The call to `File.ReadAllLines` returns (conveniently) all the lines of a file as a string array.
 
 Imagine we have a series of text files, each with a different presidential speech in them, but no matter the content, there's always a header with the author, title, and the date of the speech.
 
+```txt
 Author: Abraham Lincoln
 Title: Gettysburg Address
 Date: 11/19/1863
@@ -141,9 +147,11 @@ Date: 11/19/1863
 Four score and seven years ago our fathers brought forth on this continent...
 ...
 ...
+```
 
 By reading the lines of each file and then using a list pattern, we can pull out the first three lines, discard the blank line that comes next, and then store all the rest (the speech itself) in another variable. The content that's matched by the slice pattern can actually be stored too, and not simply discarded.
 
+```csharp
 foreach (var filePath in Directory.GetFiles("c:\somefilepath\"))
 {
     var file = File.ReadAllLines(filePath);
@@ -156,14 +164,17 @@ foreach (var filePath in Directory.GetFiles("c:\somefilepath\"))
         Console.WriteLine($"""On {publishDate}, {author} gave the "{title}". ({speech.Length} lines)""");
     }
 }
+```
 
+![](https://grantwinney.com/content/images/2023/08/image-22.png)
 
-Matching on arguments passed to a console app
+## Matching on arguments passed to a console app
 
 Let's look at one more. It's possible for a console app to accepts a list of arguments. Maybe you wrote an app that can manipulate a file - create it, delete it, search through it, etc. You want users to specify the action with the first parameter, like "s" for search or "d" for delete.
 
-Since args is just another string array, you can use list patterns on it as well, performing different logic depending on what that first parameter is.
+Since `args` is just another string array, you can use list patterns on it as well, performing different logic depending on what that first parameter is.
 
+```csharp
 if (args is ["s", var fileToSearch, var searchTerm])
 {
     // Search for specified file
@@ -183,14 +194,14 @@ else if (args is [..])
 {
     Console.WriteLine("Invalid input for args!");
 }
+```
 
 By passing in different parameter values, you can see the different results.
 
+![](https://grantwinney.com/content/images/2023/08/image-20.png)
+
 Are these examples more realistic? At the very least, I hope these show off more opportunities for using the list patterns feature than just a random series of numbers.
 
-If you want to mess around with any of the code yourself, it's available on GitHub as usual. Get it, play with it, and see what you can do.
+> If you want to mess around with any of the code yourself, [it's available on GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/ListPatternMatching) as usual. Get it, play with it, and see what you can do.
 
-If you found this content useful, and want to learn more about a variety of C# features, check out this GitHub repo, where you'll find links to plenty more blog posts and practical examples!
-
-GitHub - grantwinney/CSharpDotNetExamples: Discovering and learning about the various features of the C# programming language and .NET Framework.Discovering and learning about the various features of the C# programming language and .NET Framework. - GitHub - grantwinney/CSharpDotNetExamples: Discovering and learning about the various featur…GitHubgrantwinney
-
+If you found this content useful, and want to learn more about a variety of [C#](https://grantwinney.com/tag/csharp/) features, check out [this GitHub repo](https://github.com/grantwinney/CSharpDotNetExamples), where you'll find links to plenty more blog posts and practical examples!

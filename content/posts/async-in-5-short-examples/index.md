@@ -17,28 +17,22 @@ tags:
 - Coding
 title: Async, CancellationToken, and IProgress in 5 Short Examples
 ---
+Learning to write code asynchronously does __not__ come naturally, at least not for this dev. We're wired to give the majority of our attention to [one thing at a time](https://www.psychologytoday.com/us/blog/creativity-without-borders/201405/the-myth-of-multitasking), so it can be difficult to write code that takes advantage of the fact that a computer can multitask __very__ well.
 
+A few years ago, I wrote [an async article](https://grantwinney.com/using-async-await-and-task-to-keep-the-winforms-ui-more-responsive/) that shows (in a small way) how much faster it can be when we tell the computer to do many things at once. The trick is that we have to tell it which things can be done in parallel, and safely bring everything back together at the end.
 
-Learning to write code asynchronously does not come naturally, at least not for this dev. We're wired to give the majority of our attention to one thing at a time, so it can be difficult to write code that takes advantage of the fact that a computer can multitask very well.
+I don't feel completely comfortable with `async` yet, but learning to use and get comfortable with it really intrigues me, in the same way that [LINQ](https://grantwinney.com/10-resources-for-learning-linq) did years ago. Here's a few examples I put together to show off a little `async` code as well as cancellation tokens and how to report progress. I'm not running a lot of parallel code here, but I __am__ running things in a way that the task can be canceled and the UI won't be locked up.
 
-A few years ago, I wrote an async article that shows (in a small way) how much faster it can be when we tell the computer to do many things at once. The trick is that we have to tell it which things can be done in parallel, and safely bring everything back together at the end.
+> The code in this post is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Threading/SimpleAsyncExamples?ref=grantwinney.com), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
 
-I don't feel completely comfortable with async yet, but learning to use and get comfortable with it really intrigues me, in the same way that LINQ did years ago. Here's a few examples I put together to show off a little async code as well as cancellation tokens and how to report progress. I'm not running a lot of parallel code here, but I am running things in a way that the task can be canceled and the UI won't be locked up.
-
-
-
-The code in this post is available on GitHub, for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
-
-
-
-
-A 5-second Task that just completes
+## A 5-second Task that just completes
 
 Here's a really simple example that just waits 5 seconds and then completes.
 
- * Either the Run or the Cancel button (in later examples) should be enabled – never both at once
- * Task.Delay effectively pauses for x seconds, in a way that won't block the UI
+- Either the Run or the Cancel button (in later examples) should be enabled – never both at once
+- Task.Delay effectively pauses for x seconds, in a way that won't block the UI
 
+```cs
 // ** AsyncUI form **
 // Ex 1: Runs 5-second task and then completes
 
@@ -67,20 +61,21 @@ public static async Task Example1Async()
 {
     await Task.Delay(5000);
 }
+```
 
 For all of these examples, like the one above, there's two classes at play.
 
-The first is the code-behind file of a WinForms app, where the button click event methods live, but you can use this kind of logic in any .NET app. The second is a static class that defines what each Task actually does.
+The first is the code-behind file of a WinForms app, where the button click event methods live, but you can use this kind of logic in any .NET app. The second is a static class that defines what each `Task` actually does.
 
+## A 5-second Task that auto-cancels in 3 seconds
 
-A 5-second Task that auto-cancels in 3 seconds
+Here's another simple example. It also waits 5 seconds, although it checks for a pending cancellation once a second, and cancels the `Task` if needed. It also sets the `CancellationTokenSource` to automatically cancel after 3 seconds, so it'll never run to completion.
 
-Here's another simple example. It also waits 5 seconds, although it checks for a pending cancellation once a second, and cancels the Task if needed. It also sets the CancellationTokenSource to automatically cancel after 3 seconds, so it'll never run to completion.
+- The `CancellationTokeSource` is configured to automatically cancel after 3 seconds
+- The `Task` checks for a cancellation request every second, which throws an `OperationCancelledException` if needed
+- The caller is catching the `OperationCanceledException` to update the user
 
- * The CancellationTokeSource is configured to automatically cancel after 3 seconds
- * The Task checks for a cancellation request every second, which throws an OperationCancelledException if needed
- * The caller is catching the OperationCanceledException to update the user
-
+```cs
 // ** AsyncUI form **
 // Ex 2: Runs 5-second task for 3 seconds and then cancels it
 //  A CancellationTokenSource can be automatically canceled after a set delay
@@ -114,17 +109,18 @@ public static async Task Example2Async(CancellationToken cToken)
         await Task.Delay(1000);
     }
 }
+```
 
-I've left out most of the code that's enabling buttons, updating labels, etc, outside of stuff directly related to the Task to reduce some of the clutter, but if you check out the code on GitHub, you'll see it's still doing it.
+I've left out most of the code that's enabling buttons, updating labels, etc, outside of stuff directly related to the `Task` to reduce some of the clutter, but if you check out the code on GitHub, you'll see it's still doing it.
 
+## A 10-second Task that's user cancellable
 
-A 10-second Task that's user cancellable
+This example adds something new – a button the user can press to cancel the `Task`. It checks for a cancellation request every half-second for 10 seconds.
 
-This example adds something new – a button the user can press to cancel the Task. It checks for a cancellation request every half-second for 10 seconds.
+- The `Token.Register()` method lets us specify code to run on cancellation, instead of catching the exception
+- The code will likely still throw an `OperationCanceledException`, and here we'll just ignore it
 
- * The Token.Register() method lets us specify code to run on cancellation, instead of catching the exception
- * The code will likely still throw an OperationCanceledException, and here we'll just ignore it
-
+```cs
 // ** AsyncUI form **
 // Ex 3: Runs 10-second task, during which it can be canceled
 
@@ -170,15 +166,16 @@ public static async Task Example3Async(CancellationToken cToken)
         await Task.Delay(500, cToken);
     }
 }
+```
 
+## An endless Task that's user cancellable
 
-An endless Task that's user cancellable
+This one's just a slight variation of the last one, representing some `Task` that runs a very long time (maybe any time the app is running).
 
-This one's just a slight variation of the last one, representing some Task that runs a very long time (maybe any time the app is running).
+- The `Task` runs forever until the user presses the Cancel button to stop it
+- It checks every tenth of a second for a cancellation request
 
- * The Task runs forever until the user presses the Cancel button to stop it
- * It checks every tenth of a second for a cancellation request
-
+```cs
 // ** AsyncUI form **
 // Ex 4: Runs task indefinitely, during which it can be manually canceled
 
@@ -221,17 +218,18 @@ public static async Task Example4Async(CancellationToken cToken)
         await Task.Delay(100);
     }
 }
+```
 
+## A 10-second Task that reports progress updates
 
-A 10-second Task that reports progress updates
+This last example introduces one more concept – the `IProgress<T>` construct, which allows us to send progress updates from the `Task` to the caller.
 
-This last example introduces one more concept – the IProgress<T> construct, which allows us to send progress updates from the Task to the caller.
+- The `T` can be any type – here it's a `Tuple<int, string>` representing a percentage complete and a status message
+- The `Task` returns a status update every second, which may be a message that it's been canceled
+- The `Task` also throws an `OperationCanceledException` on cancellation, because that's expected; as the caller, we can choose to ignore it
+- Since we're using a status message to update the user, we just eat the exception
 
- * The T can be any type – here it's a Tuple<int, string> representing a percentage complete and a status message
- * The Task returns a status update every second, which may be a message that it's been canceled
- * The Task also throws an OperationCanceledException on cancellation, because that's expected; as the caller, we can choose to ignore it
- * Since we're using a status message to update the user, we just eat the exception
-
+```cs
 // ** AsyncUI form **
 // Ex 5: Runs 10-second task that's cancellable AND reports progress as it runs
 
@@ -293,10 +291,10 @@ public static async Task Example5Async(CancellationToken cToken, IProgress<(int,
             progress.Report((percentage, $"{percentage}% Complete!"));
     }
 }
+```
 
+## Learning More
 
-Learning More
+If you'd like to read more, I've written a few other articles on [async](https://grantwinney.com/tag/async/) that may or may not be helpful.
 
-If you'd like to read more, I've written a few other articles on async that may or may not be helpful.
-
-One of the best sources I've found for all things async is Stephen Cleary's blog. After reading through his 5-part (as of the time of this writing) series on Cancellation recently, I decided to play around a bit and share what I learned – hence the article you just read. 😄
+One of the best sources I've found for all things async is Stephen Cleary's blog. After reading through his 5-part __(as of the time of this writing)__ series on [Cancellation](https://blog.stephencleary.com/2022/02/cancellation-1-overview.html) recently, I decided to play around a bit and share what I learned – hence the article you just read. 😄

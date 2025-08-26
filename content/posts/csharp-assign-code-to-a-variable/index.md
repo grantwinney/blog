@@ -1,19 +1,17 @@
 ---
 categories:
-- C#
-- Coding
-date: "2019-11-13T17:45:00Z"
+  - C#
+  - Coding
+date: 2019-11-13T17:45:00Z
 description: ""
 draft: false
 cover:
   image: photo-1515879218367-8466d910aaa4.jpg
 slug: csharp-assign-code-to-a-variable
-summary: Did you know most languages have a way to pass around code to other functions,
-  so you can call (invoke) it in other parts of your application? In C#, it's called
-  a delegate.
+summary: Did you know most languages have a way to pass around code to other functions, so you can call (invoke) it in other parts of your application? In C#, it's called a delegate.
 tags:
-- C#
-- Coding
+  - csharp
+  - coding
 title: Assign C# code to a variable and then run it
 ---
 
@@ -140,3 +138,4 @@ Func delegate demo (.NET Fiddle)
 If you found this content useful, and would like to learn more about a variety of C# features, check out my CSharpDotNetFeatures repo, where you'll find links to plenty more blog posts and practical examples!
 
 GitHub - grantwinney/CSharpDotNetExamples: Discovering and learning about the various features of the C# programming language and .NET Framework.Discovering and learning about the various features of the C# programming language and .NET Framework. - GitHub - grantwinney/CSharpDotNetExamples: Discovering and learning about the various featur…GitHubgrantwinney
+bgrantwinney

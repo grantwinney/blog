@@ -1,16 +1,15 @@
 ---
 categories:
-- DigitalOcean
-date: "2021-01-12T16:42:00Z"
+  - DigitalOcean
+date: 2021-01-12T16:42:00Z
 description: ""
 draft: false
 cover:
   image: photo-1504384764586-bb4cdc1707b0.jpg
 slug: 3-inspiring-apps-from-the-digitalocean-app-platform-hackathon
-summary: A few of my favorite submissions from DigitalOcean's App Platform hackathon,
-  that hold real promise for bringing people together!
+summary: A few of my favorite submissions from DigitalOcean's App Platform hackathon, that hold real promise for bringing people together!
 tags:
-- DigitalOcean
+  - digitalocean
 title: 3 inspiring apps from the DigitalOcean App Platform Hackathon
 ---
 [DigitalOcean](https://m.do.co/c/448f25462030) ran a month-long [hackathon](https://dev.to/devteam/announcing-the-digitalocean-app-platform-hackathon-on-dev-2i1k) to drum up excitement for their new [App Platform PaaS](https://www.digitalocean.com/docs/app-platform/). I haven't tried it yet, but I'd like to (and probably should have since they were offering $50 credits). Most devs just want to bang out code, not worry about provisioning hardware and infrastructure, and it sounds like that's where App Platform comes in.

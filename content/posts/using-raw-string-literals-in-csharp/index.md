@@ -22,6 +22,8 @@ Some of the many additions to C# and the .NET Framework are huge (like LINQ or a
 
 Before we dig into them, let's take a brief look at what we had before that, and then see what new things they bring to the table.
 
+> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2011/RawStringLiterals?ref=grantwinney.com), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
+
 ## Quoted Strings
 
 Here's a normal, quoted string. They allow [escaped sequences](https://learn.microsoft.com/en-us/dotnet/standard/base-types/character-escapes-in-regular-expressions) such as tabs, newlines, quotes, etc. If we want a quote in the string, it has to be escaped:

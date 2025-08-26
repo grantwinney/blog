@@ -21,15 +21,13 @@ tags:
 - Coding
 title: What are generic attributes in C# 11?
 ---
+For the uninitiated, [attributes](https://learn.microsoft.com/en-us/dotnet/csharp/advanced-topics/reflection-and-attributes/) provide a way to attach extra metadata to a variety of C# elements. They're built into the .NET Framework (like [Description](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.descriptionattribute)), third-party libraries (like NUnit's [TestFixture](https://docs.nunit.org/articles/nunit/writing-tests/attributes/testfixture.html)), and you can even [define your own](https://learn.microsoft.com/en-us/dotnet/csharp/advanced-topics/reflection-and-attributes/attribute-tutorial). While they don't directly affect your code, per se, they generally affect your application in some way, like how it compiles or what the user sees at runtime.
 
+## A review of traditional attributes
 
-For the uninitiated, attributes provide a way to attach extra metadata to a variety of C# elements. They're built into the .NET Framework (like Description), third-party libraries (like NUnit's TestFixture), and you can even define your own. While they don't directly affect your code, per se, they generally affect your application in some way, like how it compiles or what the user sees at runtime.
+The [Obsolete](https://learn.microsoft.com/en-us/dotnet/api/system.obsoleteattribute) attribute, for example, is a built-in one used by the compiler to warn other developers that some element is (or soon will be) deprecated.
 
-
-A review of traditional attributes
-
-The Obsolete attribute, for example, is a built-in one used by the compiler to warn other developers that some element is (or soon will be) deprecated.
-
+```csharp
 class BarberShopCustomer
 {
     public string Name { get; set; } = string.Empty;
@@ -48,26 +46,25 @@ class BarberShopCustomer
         LastVisit = DateTime.Now;
     }
 }
+```
+
+![](https://grantwinney.com/content/images/2023/08/image-13.png)
+
+![](https://grantwinney.com/content/images/2023/08/image-14.png)
 
 If you want to see other examples of attribute usage, here's an article I wrote a few years ago, but today I want to look at a new feature we got in C# 11 called generic attributes.
 
-What are attributes in C#, and why do we need them?Ever thought it’d be convenient to attach metadata to your code at design time, then read it at runtime? Attributes let you do just that!Grant WinneyGrant Winney
+The new [generic attribute](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#generic-attributes) brings (as the name suggests) the power of generics to attributes; in other words, an Attribute that can apply to more than one type. When I read this, it wasn't immediately obvious to me how this would be useful. I mean, I get how assigning metadata to an element to indicate that it's obsolete, or is an initializer for tests, or should be serialized is beneficial... but what do we get from passing the __type__ to the Attribute?
 
-The new generic attribute brings (as the name suggests) the power of generics to attributes; in other words, an Attribute that can apply to more than one type. When I read this, it wasn't immediately obvious to me how this would be useful. I mean, I get how assigning metadata to an element to indicate that it's obsolete, or is an initializer for tests, or should be serialized is beneficial... but what do we get from passing the type to the Attribute?
+Well, other times we opt in for using generics, like [`List<T>`](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1) or with [Generic Math](https://grantwinney.com/whats-generic-math-support-in-csharp/), it's because we have a series of methods and whatever else that can be reused, and only the type of object being acted upon changes. So what's a case where we can use attributes in the same way? Validation comes to mind as one possibility...
 
-Well, other times we opt in for using generics, like List<T> or with Generic Math, it's because we have a series of methods and whatever else that can be reused, and only the type of object being acted upon changes. So what's a case where we can use attributes in the same way? Validation comes to mind as one possibility...
+> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericAttributes?ref=grantwinney.com), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
-
-
-The code in this post is available on GitHub, for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
-
-
-
-
-A traditional attribute with room to improve
+## A traditional attribute with room to improve
 
 Let's see how we'd create our own validation attributes using what came before. We'll start with a class like this one, with some integer and double values in it that need to be validated.
 
+```csharp
 class Moon
 {
     public string Name { get; set; }
@@ -83,9 +80,11 @@ class Moon
     [DoubleValidation(MinValue = 0)]
     public double OrbitEccentricity { get; set; }
 }
+```
 
 Then we create a couple "validation" classes to act on those different types. There's really nothing different between the two, other than the types themselves. Looking unnecessarily repetitive...
 
+```csharp
 class IntegerValidation : ValidationAttribute
 {
     public int MinValue { get; set; } = int.MinValue;
@@ -110,9 +109,11 @@ class DoubleValidation : ValidationAttribute
         return num >= MinValue && num <= MaxValue ? ValidationResult.Success : new ValidationResult(null);
     }
 }
+```
 
-Finally, this is what it might look like to run the validators against a new instance of the class. I'm using TryValidateObject because this is just a console app.
+Finally, this is what it might look like to run the validators against a new instance of the class. I'm using [TryValidateObject](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.validator.tryvalidateobject) because this is just a console app.
 
+```csharp
 var validationResults = new List<ValidationResult>();
 
 var moon = new Moon
@@ -130,14 +131,17 @@ Console.WriteLine($"Results of {nameof(ValidationAttributeExample)}:\r\n");
 
 foreach (var vr in validationResults)
     Console.WriteLine(vr.ErrorMessage);
+```
 
 The output correctly reports that DiscoveryYear and OrbitEccentricity are invalid, because the former is past the current year (2023), and the latter is a negative value.
 
+![](https://grantwinney.com/content/images/2023/08/image-15.png)
 
-A generic attribute that keeps things DRYer
+## A generic attribute that keeps things DRYer
 
 There's definitely an opportunity here to DRY up some code, using the new generic attribute feature. We'll start with the same class as the previous example, with one significant change - the validation attribute on the 3 numeric fields is the same now.
 
+```csharp
 class Moon
 {
     public string Name { get; set; }
@@ -153,12 +157,14 @@ class Moon
     [NumberValidation<double>(MinValue = 0.0)]
     public double OrbitEccentricity { get; set; }
 }
+```
 
 The "integer" and "double" validators can be combined into a single validator that accepts either type. There's some caveats here that I'll point out, and you can leave a comment below if you think I'm doing something too crazy here.. lol.
 
- * This validator only makes sense with a numerical input, so I restricted it to types that implements the INumber<T> interface, also introduced in C#11.
- * I wanted to set a default value for MinValue and MaxValue, but I can't access those directly since I'm using the generic T type, so reflection to the rescue.
+- This validator only makes sense with a numerical input, so I restricted it to types that implements the [`INumber<T>`](https://learn.microsoft.com/en-us/dotnet/api/system.numerics.inumber-1) interface, also introduced in C#11.
+- I wanted to set a default value for `MinValue` and `MaxValue`, but I can't access those directly since I'm using the generic `T` type, so reflection to the rescue.
 
+```csharp
 class NumberValidation<T> : ValidationAttribute where T : INumber<T>
 {
     public T MinValue { get; set; } = (T)typeof(T).GetField("MinValue").GetValue(null);
@@ -171,9 +177,10 @@ class NumberValidation<T> : ValidationAttribute where T : INumber<T>
         return num != null && num >= MinValue && num <= MaxValue ? ValidationResult.Success : new ValidationResult(null);
     }
 }
+```
 
 The output is the same as before, detecting that 2 of the 3 properties have values that are outside the acceptable range.
 
-If you find your own interesting use for generic attributes, feel free to share them in the comments below! And if you found this content useful, and want to learn more about a variety of C# features, check out my CSharpDotNetExamples repo, where you'll find links to plenty more blog posts and practical examples.
+![](https://grantwinney.com/content/images/2023/08/image-16.png)
 
-GitHub - grantwinney/CSharpDotNetExamples: Discovering and learning about the various features of the C# programming language and .NET Framework.Discovering and learning about the various features of the C# programming language and .NET Framework. - GitHub - grantwinney/CSharpDotNetExamples: Discovering and learning about the various featur…GitHubgrantwinney
+If you find your own interesting use for generic attributes, feel free to share them in the comments below! And if you found this content useful, and want to learn more about a variety of [C#](https://grantwinney.com/tag/csharp/) features, check out my [CSharpDotNetExamples repo](https://github.com/grantwinney/CSharpDotNetExamples), where you'll find links to plenty more blog posts and practical examples.
