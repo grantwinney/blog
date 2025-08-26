@@ -5,7 +5,7 @@ date: "2021-01-12T16:42:00Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDQxfHxwcm9ncmFtbWluZ3xlbnwwfHx8fDE2MzMxODcwOTg&ixlib=rb-1.2.1&q=80&w=2000
+  image: photo-1504384764586-bb4cdc1707b0.jpg
 slug: 3-inspiring-apps-from-the-digitalocean-app-platform-hackathon
 summary: A few of my favorite submissions from DigitalOcean's App Platform hackathon,
   that hold real promise for bringing people together!

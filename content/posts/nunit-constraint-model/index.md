@@ -7,7 +7,7 @@ date: "2023-06-26T10:45:44Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDl8fHRlc3R8ZW58MHx8fHwxNjg2ODcyMTIyfDA&ixlib=rb-4.0.3&q=80&w=2000
+  image: photo-1454165804606-c3d57bc86b40.jpg
 slug: nunit-constraint-model
 summary: I recently discovered the constraint model in NUnit. It's been there for
   years, hiding in plain sight! What is it? Is it worth using? Let's check it out.

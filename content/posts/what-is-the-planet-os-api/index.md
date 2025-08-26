@@ -6,7 +6,7 @@ date: "2018-01-23T04:58:58Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1446776811953-b23d57bd21aa.jpg
 slug: what-is-the-planet-os-api
 summary: Planet OS seems to have found a great number of services that provide scientific/weather/earth
   related data, regularly download a small sample set from each, and provide a way

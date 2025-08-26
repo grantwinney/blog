@@ -9,7 +9,7 @@ date: "2022-06-28T23:07:09Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1573867639040-6dd25fa5f597?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE1fHx3ZWJzaXRlfGVufDB8fHx8MTY1NjEyMjIyNQ&ixlib=rb-1.2.1&q=80&w=2000
+  image: photo-1573867639040-6dd25fa5f597.jpg
 slug: hosting-a-simple-webpage-in-winforms-with-cefsharp
 summary: WinForms and the web. Like oil and water, they don't mix well. But with CEFSharp,
   they mix a LOT better. Let's check it out.

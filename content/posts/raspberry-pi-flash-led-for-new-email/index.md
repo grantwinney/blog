@@ -7,7 +7,7 @@ date: "2016-05-28T21:19:25Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1581869399661-d6b14e4f6121?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1581869399661-d6b14e4f6121.jpg
 slug: raspberry-pi-flash-led-for-new-email
 summary: Let's learn how to flash an LED on the Raspberry Pi when someone sends us
   a new email.

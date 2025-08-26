@@ -6,7 +6,7 @@ date: "2023-11-03T16:35:50Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1429743305873-d4065c15f93e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEzfHxwYXRofGVufDB8fHx8MTY5ODM3Nzc2N3ww&ixlib=rb-4.0.3&q=80&w=2000
+  image: photo-1429743305873-d4065c15f93e.jpg
 slug: if-else-vs-switch-case-pattern-matching
 summary: 'A look at if/else, switch/case, pattern matching, other options ... and
   which is best. (spoiler: none ;) )'

@@ -7,7 +7,7 @@ date: "2023-03-22T10:32:44Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1506621791785-381723a87549?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDExMnx8bnVtYmVyc3xlbnwwfHx8fDE2Nzg5MzQwMjY&ixlib=rb-4.0.3&q=80&w=2000
+  image: photo-1506621791785-381723a87549.jpg
 slug: whats-the-point-of-points
 summary: "Points aren't hours, but they sorta represent hours. Or do they? \U0001F914
   If you're as perplexed as I used to be, here's a few thoughts about points."

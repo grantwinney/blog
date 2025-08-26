@@ -6,7 +6,7 @@ date: "2020-09-09T16:28:52Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1579860823000-fe1f66864d88?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1579860823000-fe1f66864d88.jpg
 slug: 30th-anniversary-zelda-tribute
 summary: A few years ago, on the 30th anniversary of the Legend of Zelda, Scott Lininger
   and Mike Magee open sourced a 3D version of the original LoZ. The site was taken

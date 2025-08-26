@@ -5,7 +5,7 @@ date: "2021-07-05T19:20:06Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1592819695396-064b9572a660?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDh8fHdyaXRpbmd8ZW58MHx8fHwxNjI1NTA1NzMz&ixlib=rb-1.2.1&q=80&w=2000
+  image: photo-1592819695396-064b9572a660.jpg
 slug: avoiding-tribal-knowledge-in-programming
 summary: When I was less skilled as a developer, it was enough to just stay afloat,
   learning what I needed for the current day or project. As my skill and confidence

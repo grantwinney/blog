@@ -6,7 +6,7 @@ date: "2019-10-06T03:55:19Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1512908593802-fc940f380825?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1512908593802-fc940f380825.jpg
 slug: first-look-github-package-registry-beta
 summary: Most of us host something (and some of us everything) on GitHub, especially
   since they host private repos for free too now. I've been eager to try the GitHub

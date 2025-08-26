@@ -5,7 +5,7 @@ date: "2019-02-10T18:58:54Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1514329926535-7f6dbfbfb114?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1514329926535-7f6dbfbfb114.jpg
 slug: web-comics-for-devs
 summary: Need a comic break? Here's some web comics I've stumbled upon over the years
   - the funny, sarcastic, informative, and just plain weird.

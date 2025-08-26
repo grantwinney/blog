@@ -5,7 +5,7 @@ date: "2018-01-25T04:59:32Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/31/RpgvvtYAQeqAIs1knERU_vegetables.jpg?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: RpgvvtYAQeqAIs1knERU_vegetables.jpg.jpg
 slug: what-is-an-api-wrapper
 summary: When you find an API to use in your app, you'll need to access it in a specific
   language - not always an easy or straightforward task. As long as you're doing all

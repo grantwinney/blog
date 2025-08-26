@@ -6,7 +6,7 @@ date: "2020-04-04T19:01:02Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1527896573815-b7dd74893deb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1527896573815-b7dd74893deb.jpg
 slug: 13-addons-that-power-up-your-github-game
 summary: GitHub is an amazing set of tools around Git, but it's lacking in certain
   areas. Where it fails to impress, browser addons often pick up the slack. Here's

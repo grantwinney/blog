@@ -7,7 +7,7 @@ date: "2021-05-29T21:40:16Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDl8fGNvbXB1dGVyfGVufDB8fHx8MTYyMjI1NjI0NQ&ixlib=rb-1.2.1&q=80&w=2000
+  image: photo-1498050108023-c5249f4df085.jpg
 slug: what-is-dotnet-try
 summary: Do you prefer reading or doing? How about both? DotNet Try pulls in C# code
   from your project and turns your docs into an interactive experience.

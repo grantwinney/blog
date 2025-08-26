@@ -7,7 +7,7 @@ date: "2022-12-31T17:18:11Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDI0fHxvbmxpbmV8ZW58MHx8fHwxNjcyNTA3MDM4&ixlib=rb-4.0.3&q=80&w=2000
+  image: photo-1515378960530-7c0da6231fb1.jpg
 slug: why-do-i-need-to-install-an-extension-just-to-copy-paste
 summary: I was creating a document in Office365 the other day - something I've done
   a hundred times - but when I tried to paste with their custom right-click menu I

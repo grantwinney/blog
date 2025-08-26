@@ -5,7 +5,7 @@ date: "2022-08-09T13:07:49Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1506324587841-69c8c9aaa05c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fGNsaW1ifGVufDB8fHx8MTY2MDAxNzM3MQ&ixlib=rb-1.2.1&q=80&w=2000
+  image: photo-1506324587841-69c8c9aaa05c.jpg
 slug: enjoying-the-wins-accepting-the-losses
 summary: When our code isn't clicking, negativity can quickly overshadow all the positive.
   That's when we need to remember our victories!

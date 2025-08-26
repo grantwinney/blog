@@ -5,7 +5,7 @@ date: "2017-12-16T04:58:47Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1517959184834-fed20bdba773?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1517959184834-fed20bdba773.jpg
 slug: what-is-twitter-api
 summary: The Twitter API lets you access tweets, users who tweet, metadata, manipulate
   lists, and more. Let's check it out!

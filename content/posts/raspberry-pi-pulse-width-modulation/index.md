@@ -7,7 +7,7 @@ date: "2016-08-22T07:28:52Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1543005183-b66272de41f3?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1543005183-b66272de41f3.jpg
 slug: raspberry-pi-pulse-width-modulation
 tags:
 - Raspberry PI

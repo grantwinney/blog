@@ -7,7 +7,7 @@ date: "2019-12-01T01:51:59Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1512856246663-647a81ef198e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1512856246663-647a81ef198e.jpg
 slug: how-do-i-add-seconds-minutes-or-hours-to-a-datetime-structure-in-erlang
 summary: I was trying to add times in Erlang, but couldn't find an existing function,
   so I wrote my own.

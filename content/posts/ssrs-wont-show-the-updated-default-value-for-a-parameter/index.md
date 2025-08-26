@@ -5,7 +5,7 @@ date: "2024-01-31T02:40:31Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1591696205602-2f950c417cb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDMzfHxyZXBvcnRpbmd8ZW58MHx8fHwxNzA2NTg5MTAyfDA&ixlib=rb-4.0.3&q=80&w=2000
+  image: photo-1591696205602-2f950c417cb9.jpg
 slug: ssrs-wont-show-the-updated-default-value-for-a-parameter
 summary: Changed the default value for a report parameter, but it's not actually updating
   in SSRS? That's by design. Let's find a way around it.

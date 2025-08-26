@@ -7,7 +7,7 @@ date: "2016-08-29T22:34:44Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1476900164809-ff19b8ae5968?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1476900164809-ff19b8ae5968.jpg
 slug: raspberry-pi-flickering-candle
 tags:
 - Raspberry PI

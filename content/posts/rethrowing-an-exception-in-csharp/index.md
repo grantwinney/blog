@@ -6,7 +6,7 @@ date: "2020-09-17T04:08:32Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1555861496-0666c8981751?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1555861496-0666c8981751.jpg
 slug: rethrowing-an-exception-in-csharp
 summary: All programming languages have gotchas to trip you up, and C# is no exception.
   Today, let's check out the subtle (but significant) difference between "throw" and

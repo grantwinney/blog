@@ -5,7 +5,7 @@ date: "2023-11-14T04:31:52Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1597425098166-90b88803284b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHN3aXJsfGVufDB8fHx8MTY5OTkyNzA4OHww&ixlib=rb-4.0.3&q=80&w=2000
+  image: photo-1597425098166-90b88803284b.jpg
 slug: swirly-mass-of-code
 tags:
 - Reflections

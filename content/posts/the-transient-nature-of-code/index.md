@@ -5,7 +5,7 @@ date: "2020-10-11T03:00:46Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1558932130-308a12148740?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1558932130-308a12148740.jpg
 slug: the-transient-nature-of-code
 summary: "I just deleted my coworkers code. \U0001F631 It was good code that wasn't
   needed anymore, and he understood why. The nature of coding is that it's a progression,

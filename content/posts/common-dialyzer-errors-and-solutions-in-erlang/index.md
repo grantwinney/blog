@@ -5,7 +5,7 @@ date: "2019-02-09T21:10:27Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1456406644174-8ddd4cd52a06.jpg
 slug: common-dialyzer-errors-and-solutions-in-erlang
 summary: When dealing with a dynamically typed language, any effort to tame the beast
   can pay off. For Erlang, that means Dialyzer specs. The more specs added, the more

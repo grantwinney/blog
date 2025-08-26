@@ -6,7 +6,7 @@ date: "2020-02-13T23:50:42Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1517433456452-f9633a875f6f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1517433456452-f9633a875f6f.jpg
 slug: how-to-make-a-dark-mode-with-css
 summary: Every time I learn some new piece of CSS I'm amazed at how flexible and powerful
   it is. Like how easy it is to tailor your site for your visitor's "dark mode" preference!

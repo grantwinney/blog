@@ -7,7 +7,7 @@ date: "2018-06-19T13:45:34Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1586864387634-2f33030dab41?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1586864387634-2f33030dab41.jpg
 slug: a-look-at-the-many-ways-apis-can-authorize-access
 summary: After writing about so many APIs and having to figure out the auth process
   for each, I wanted to compare and contrast how some of these services approach authentication

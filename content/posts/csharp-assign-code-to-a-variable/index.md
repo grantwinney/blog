@@ -6,7 +6,7 @@ date: "2019-11-13T17:45:00Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1515879218367-8466d910aaa4.jpg
 slug: csharp-assign-code-to-a-variable
 summary: Did you know most languages have a way to pass around code to other functions,
   so you can call (invoke) it in other parts of your application? In C#, it's called

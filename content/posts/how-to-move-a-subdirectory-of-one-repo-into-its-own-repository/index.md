@@ -6,7 +6,7 @@ date: "2021-07-30T03:38:23Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1508937199041-881f5b63be74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDMxfHxzcGxpdHxlbnwwfHx8fDE2Mjc2MDkzNjA&ixlib=rb-1.2.1&q=80&w=2000
+  image: photo-1508937199041-881f5b63be74.jpg
 slug: how-to-move-a-subdirectory-of-one-repo-into-its-own-repository
 summary: Need to pull a subdirectory out of repo A and create a new repo B out with
   it? Including full history and branches? Okay, here's how.

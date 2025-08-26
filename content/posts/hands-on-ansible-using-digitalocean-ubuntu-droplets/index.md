@@ -7,7 +7,7 @@ date: "2019-12-18T22:21:00Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1429497419816-9ca5cfb4571a.jpg
 slug: hands-on-ansible-using-digitalocean-ubuntu-droplets
 summary: Today I'm wrapping my head around a build tool called Ansible, used for deploying
   machines in a scriptable, repeatable manner. Follow along as I step through an excellent

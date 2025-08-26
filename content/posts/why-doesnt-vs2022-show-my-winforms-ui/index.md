@@ -8,7 +8,7 @@ date: "2023-01-14T20:36:55Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1441804238730-210ce1c2cc00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDV8fGJyb2tlbiUyMHdpbmRvd3xlbnwwfHx8fDE2NzM2NDExOTY&ixlib=rb-4.0.3&q=80&w=2000
+  image: photo-1441804238730-210ce1c2cc00.jpg
 slug: why-doesnt-vs2022-show-my-winforms-ui
 summary: Someone at work asked about whether we'd be able to use VS 2022 to work on
   our main WinForms app. It works just fine in VS 2019, so it should work in VS 2022,

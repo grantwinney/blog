@@ -8,7 +8,7 @@ date: "2021-12-30T01:53:29Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1514940269061-a79f23a95316?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDEzfHxzdHJpbmd8ZW58MHx8fHwxNjQwODI5ODQ3&ixlib=rb-1.2.1&q=80&w=2000
+  image: photo-1514940269061-a79f23a95316.jpg
 slug: using-nameof-to-avoid-magic-strings
 summary: There's a lot of ways to make our code work for us. Let's check out using
   the nameof operator to avoid magic strings.

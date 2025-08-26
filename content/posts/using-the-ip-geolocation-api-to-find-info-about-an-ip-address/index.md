@@ -6,7 +6,7 @@ date: "2019-02-12T11:47:00Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1476973422084-e0fa66ff9456?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1476973422084-e0fa66ff9456.jpg
 slug: using-the-ip-geolocation-api-to-find-info-about-an-ip-address
 summary: Last year I caught an article about a simple, free service called ipify that
   returns your IP address. It became so popular the author soon found himself dealing

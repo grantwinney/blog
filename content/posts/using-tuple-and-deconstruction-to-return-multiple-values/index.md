@@ -8,7 +8,7 @@ date: "2023-01-05T00:38:03Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1436731837106-3b37ef132fc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDg1fHxuZXN0fGVufDB8fHx8MTY3Mjg3ODg3MA&ixlib=rb-4.0.3&q=80&w=2000
+  image: photo-1436731837106-3b37ef132fc2.jpg
 slug: using-tuple-and-deconstruction-to-return-multiple-values
 summary: A big challenge with any language is trying to group and organize things
   sensibly, and returning multiple values is no exception. Let's check out Tuples

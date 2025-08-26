@@ -9,7 +9,7 @@ date: "2023-08-23T15:52:21Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1571907483091-fbe746bee132?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHRhZ3N8ZW58MHx8fHwxNjkyODIwODE5fDA&ixlib=rb-4.0.3&q=80&w=2000
+  image: photo-1571907483091-fbe746bee132.jpg
 slug: what-are-generic-attributes
 summary: Generic attributes increase the flexibility of a very early .NET feature.
   Let's try using them and see how it keeps our code DRY.

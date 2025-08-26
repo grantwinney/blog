@@ -7,7 +7,7 @@ date: "2021-12-07T15:37:03Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1493953522814-88c4f52f6509?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDU1fHxpZGVhfGVufDB8fHx8MTYzODg4NTk0NA&ixlib=rb-1.2.1&q=80&w=2000
+  image: photo-1493953522814-88c4f52f6509.jpg
 slug: the-helpful-exception-box
 summary: "If you're in a legacy codebase with a centralized \"message box\" form,
   why not add some features that make it work for you? \U0001F60F"

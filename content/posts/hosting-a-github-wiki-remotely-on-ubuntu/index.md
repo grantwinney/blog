@@ -6,7 +6,7 @@ date: "2018-10-29T12:19:38Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1498707406720-1094aef934da?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1498707406720-1094aef934da.jpg
 slug: hosting-a-github-wiki-remotely-on-ubuntu
 summary: I've always been a fan of wikis, but GitHub's is so poorly designed it doesn't
   get much love. I once wrote about cloning a wiki locally and editing it using Gollum,

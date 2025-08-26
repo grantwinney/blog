@@ -7,7 +7,7 @@ date: "2023-06-15T22:12:31Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1598919377287-9439531017b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRlbW9saXNofGVufDB8fHx8MTY4Njg2Mzg5MHww&ixlib=rb-4.0.3&q=80&w=2000
+  image: photo-1598919377287-9439531017b8.jpg
 slug: csharp-deconstructors
 summary: We can deconstruct tuples in C#, but does it work with other types? And assuming
   it does (spoiler - it does), is it worth bothering with?

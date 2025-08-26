@@ -6,7 +6,7 @@ date: "2019-12-09T23:44:00Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1596526131083-e8c633c948d2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1596526131083-e8c633c948d2.jpg
 slug: replacing-gmail-with-mailbox-org
 summary: Google provides some amazing tools, but at what cost to privacy? One of the
   biggest blockers in eliminating them has been finding a reliable and affordable

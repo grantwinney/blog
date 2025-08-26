@@ -5,7 +5,7 @@ date: "2018-06-24T20:02:24Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1550745165-9bc0b252726f.jpg
 slug: access-yesterdays-internet-with-the-wayback-machine-apis
 summary: The Wayback Machine, a product of the Internet Archive, is an ambitious tool
   that's been documenting websites for many years. It's useful when a page you need

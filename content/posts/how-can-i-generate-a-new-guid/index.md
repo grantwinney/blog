@@ -5,7 +5,7 @@ date: "2023-07-27T22:12:21Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1605142859862-978be7eba909?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDMwfHxyYW5kb218ZW58MHx8fHwxNjkwMzk4ODI0fDA&ixlib=rb-4.0.3&q=80&w=2000
+  image: photo-1605142859862-978be7eba909.jpg
 slug: how-can-i-generate-a-new-guid
 summary: GUIDs are heavily used in the world of development, so let's look at a few
   quick and easy ways to generate them whenever we need them.

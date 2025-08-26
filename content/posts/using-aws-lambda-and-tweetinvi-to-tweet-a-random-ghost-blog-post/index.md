@@ -7,7 +7,7 @@ date: "2018-06-01T17:28:01Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1502116789488-8f0c6d794de6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1502116789488-8f0c6d794de6.jpg
 slug: using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post
 summary: If you've got a Twitter account, and a blog with a lot of content, sharing
   your posts can be a nice way to help someone out, and drive a little extra traffic

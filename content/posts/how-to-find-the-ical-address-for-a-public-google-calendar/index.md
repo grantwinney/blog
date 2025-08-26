@@ -5,7 +5,7 @@ date: "2020-02-28T03:42:32Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1506784365847-bbad939e9335?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1506784365847-bbad939e9335.jpg
 slug: how-to-find-the-ical-address-for-a-public-google-calendar
 summary: Every Google calendar URL has an iCal file you can use... here's how to find
   it.

@@ -5,7 +5,7 @@ date: "2023-12-04T22:22:49Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1585838904386-1c86ceea945e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDM4fHxsYXp5fGVufDB8fHx8MTcwMTY0MjczMXww&ixlib=rb-4.0.3&q=80&w=2000
+  image: photo-1585838904386-1c86ceea945e.jpg
 slug: diligence-laziness-or-both
 summary: Funny how a little due diligence mixes so well with a healthy interest in
   avoiding unnecessary future work.

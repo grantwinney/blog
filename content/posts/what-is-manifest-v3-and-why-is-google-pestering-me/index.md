@@ -8,7 +8,7 @@ date: "2022-06-06T11:30:43Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1518648949339-298b03f37f3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDh8fHBlc3R8ZW58MHx8fHwxNjU0MzY0MDMx&ixlib=rb-1.2.1&q=80&w=2000
+  image: photo-1518648949339-298b03f37f3b.jpg
 slug: what-is-manifest-v3-and-why-is-google-pestering-me
 tags:
 - Browser Extension

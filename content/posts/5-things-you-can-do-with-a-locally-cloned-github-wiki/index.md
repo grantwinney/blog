@@ -7,7 +7,7 @@ date: "2017-01-16T07:52:51Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGdpdGh1YnxlbnwwfHx8fDE3MTg3NTk5MTN8MA&ixlib=rb-4.0.3&q=80&w=2000
+  image: photo-1618401471353-b98afee0b2eb.jpg
 slug: 5-things-you-can-do-with-a-locally-cloned-github-wiki
 summary: There’s a feature of every GitHub repo that in my experience doesn’t get
   a ton of love, and that's the wiki. In all fairness, I'm not sure how much love

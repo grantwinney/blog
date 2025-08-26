@@ -7,7 +7,7 @@ date: "2019-11-11T23:36:00Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1515879218367-8466d910aaa4.jpg
 slug: what-is-the-opposite-method-of-any-t-in-linq
 summary: One of the many nice functions in LINQ is a single word that iterates through
   a collection, returning true if at least one item in the collection matches the

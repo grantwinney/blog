@@ -8,7 +8,7 @@ date: "2019-04-04T15:57:19Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1571907483086-3c0ea40cc16d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHRhZ3xlbnwwfHx8fDE2OTI4MTgwOTR8MA&ixlib=rb-4.0.3&q=80&w=2000
+  image: photo-1571907483086-3c0ea40cc16d.jpg
 slug: csharp-attributes
 summary: Ever thought it'd be convenient to attach metadata to your code at design
   time, then read it at runtime? Attributes let you do just that - to methods, classes,

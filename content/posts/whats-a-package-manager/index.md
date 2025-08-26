@@ -6,7 +6,7 @@ date: "2019-10-03T17:09:27Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1511351817482-e0d6127f20bb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1511351817482-e0d6127f20bb.jpg
 slug: whats-a-package-manager
 summary: If you've heard the term package manager, especially with GitHub announcing
   their own, you might be wondering what exactly it is. Well, it's a way to find,

@@ -9,7 +9,7 @@ date: "2022-10-12T22:09:47Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDd8fHByb2dyYW1taW5nfGVufDB8fHx8MTY2NTYwNjA0OA&ixlib=rb-1.2.1&q=80&w=2000
+  image: photo-1571171637578-41bc2dd41cd2.jpg
 slug: csharp-named-arguments
 summary: Named arguments in C#.. they've been around a long time, but does anyone
   use them? Let's check out another feature that helps tame wild code.

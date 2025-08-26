@@ -7,7 +7,7 @@ date: "2022-11-19T22:09:03Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1534198601173-4de3342a0b62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fG1vbmFyY2glMjBidXR0ZXJmbHl8ZW58MHx8fHwxNjY4ODkyMzkz&ixlib=rb-4.0.3&q=80&w=2000
+  image: photo-1534198601173-4de3342a0b62.jpg
 slug: my-experience-migrating-to-mv3
 summary: I migrated my addons to MV3, and learned that version numbers increase, DRY
   is overrated, and 3 and 15 are probably important but I have no idea why. What I

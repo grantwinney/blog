@@ -7,7 +7,7 @@ date: "2018-06-02T12:32:54Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1517959184834-fed20bdba773?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1517959184834-fed20bdba773.jpg
 slug: using-aws-lambda-to-tweet-random-posts-from-an-rss-feed
 summary: If you've got a Twitter account, and a blog with a lot of content, sharing
   your posts can be a nice way to help someone out, and drive a little extra traffic

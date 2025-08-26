@@ -6,7 +6,7 @@ date: "2013-10-24T22:14:08Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1487180144351-b8472da7d491?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1487180144351-b8472da7d491.jpg
 slug: installing-windows-3-1-in-vmware-player
 summary: While looking for a copy of Windows 98 on MSDN to install some old software
   (compatibility mode under Windows 7 didn’t work), I came across Windows 3.11. Installing

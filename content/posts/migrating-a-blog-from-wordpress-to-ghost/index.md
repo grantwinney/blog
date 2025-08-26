@@ -5,7 +5,7 @@ date: "2017-03-26T02:43:14Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1476283721796-dd935b062838?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  image: photo-1476283721796-dd935b062838.jpg
 slug: migrating-a-blog-from-wordpress-to-ghost
 tags:
 - Ghost Blog
