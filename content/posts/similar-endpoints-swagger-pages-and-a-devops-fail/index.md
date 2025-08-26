@@ -6,7 +6,8 @@ categories:
 - Minimal API
 - Reflections
 date: "2023-12-12T22:48:16Z"
-description: ""
+description: After an unexpected debugging session, some thoughts on APIs, similar endpoints,
+  swagger, and an ugly DevOps fail.
 draft: false
 cover:
   image: https://images.unsplash.com/photo-1459231978203-b7d0c47a2cb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDExMnx8d2FuZGVyZXJ8ZW58MHx8fHwxNzAxODk1MTQ4fDA&ixlib=rb-4.0.3&q=80&w=2000
