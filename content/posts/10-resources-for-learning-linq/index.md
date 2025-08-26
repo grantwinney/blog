@@ -5,7 +5,7 @@ date: "2021-06-02T16:25:14Z"
 description: ""
 draft: false
 cover:
-  image: https://images.unsplash.com/photo-1501504905252-473c47e087f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDExfHxsZWFybmluZ3xlbnwwfHx8fDE2Nzk4Mzc4NTg&ixlib=rb-4.0.3&q=80&w=2000
+  image: photo-1501504905252-473c47e087f8.jpg
 slug: 10-resources-for-learning-linq
 summary: LINQ is a great addition to any C# dev's toolbelt. Used to query and manipulate
   data, similar to SQL, it leads to cleaner, more maintainable code.
