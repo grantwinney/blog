@@ -1,11 +1,10 @@
-+++
-date = 2018-02-03T22:23:02Z
-description = ""
-draft = false
-slug = "license"
-title = "License"
-
-+++
+---
+date: "2018-02-03T22:23:02Z"
+description: ""
+draft: false
+slug: license
+title: License
+---
 
 
 For those interested, and unless I note otherwise in individual posts, all of my code snippets are licensed with the [MIT License](https://opensource.org/licenses/MIT), posted below. Use them for whatever you'd like, but give credit where it's due.

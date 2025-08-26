@@ -1,11 +1,10 @@
-+++
-date = 2013-09-22T14:15:46Z
-description = ""
-draft = false
-slug = "about"
-title = "Hi! I'm Grant."
-
-+++
+---
+date: "2013-09-22T14:15:46Z"
+description: ""
+draft: false
+slug: about
+title: Hi! I'm Grant.
+---
 
 
 Is there anything more satisfying than trying to figure something out, finally getting it, and then sharing it with someone else who will appreciate it? Or taking some piece of knowledge, passing it on to someone, and getting to witness their "ah ha" moment?

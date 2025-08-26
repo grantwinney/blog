@@ -1,13 +1,13 @@
-+++
-date = 2019-07-08T20:14:34Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2023/03/kelly-sikkema-zwU2x2Yg-xY-unsplash-1.jpg"
-slug = "hide-comments-everywhere"
-summary = "Hides various commenting systems across the web, including (but not limited to) Disqus, YouTube, various news sites and forums, etc."
-title = "Hide Comments Everywhere"
-
-+++
+---
+date: "2019-07-08T20:14:34Z"
+description: ""
+draft: false
+image: kelly-sikkema-zwU2x2Yg-xY-unsplash-1.jpg
+slug: hide-comments-everywhere
+summary: Hides various commenting systems across the web, including (but not limited
+  to) Disqus, YouTube, various news sites and forums, etc.
+title: Hide Comments Everywhere
+---
 
 
 The comments sections on most major news outlets and social media sites are full of vitriol. I just wanted the content, so I wrote an extension that hides various commenting systems across the web, including (but not limited to) Disqus, YouTube, Instagram, replies on Reddit and Twitter, etc.
@@ -15,8 +15,6 @@ The comments sections on most major news outlets and social media sites are full
 _(Getting it work on Facebook was a pain, and required constant updates, so I don't really bother trying anymore... I recommend trying_ [_UnDistracted_](https://chrome.google.com/webstore/detail/undistracted-hide-faceboo/pjjgklgkfeoeiebjogplpnibpfnffkng)_.)_
 
 Available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/hide-comments-everywhere/) and [Chrome](https://chrome.google.com/webstore/detail/hide-comments-everywhere/bmhkdngdngchlneelllmdennfpmepbnc), and works on Brave _([natively](https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-))_ and Opera _(requires an [additional extension](https://addons.opera.com/en/extensions/details/install-chrome-extensions/)) too._
-
-
 
 ## How's it work?
 

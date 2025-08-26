@@ -1,12 +1,14 @@
-+++
-date = 2020-07-04T17:43:45Z
-description = ""
-draft = false
-slug = "dev101"
-summary = "Saying somone can't learn to tell a computer what to do and how to do it, or learn any other skill for that matter, is selling them (or yourself) short. It's about the right tools, a desire to learn, and setting aside the time to make it happen."
-title = "How do I learn to program?"
-
-+++
+---
+date: "2020-07-04T17:43:45Z"
+description: ""
+draft: false
+slug: dev101
+summary: Saying somone can't learn to tell a computer what to do and how to do it,
+  or learn any other skill for that matter, is selling them (or yourself) short. It's
+  about the right tools, a desire to learn, and setting aside the time to make it
+  happen.
+title: How do I learn to program?
+---
 
 
 A short question, with a long answer. A decade in, I'm still figuring out the answer.

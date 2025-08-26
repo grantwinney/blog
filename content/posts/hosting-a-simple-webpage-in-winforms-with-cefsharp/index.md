@@ -1,15 +1,26 @@
-+++
-categories = ["Surviving WinForms", "WinForms", "CEFSharp", "CEF", "Coding"]
-date = 2022-06-28T23:07:09Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1573867639040-6dd25fa5f597?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE1fHx3ZWJzaXRlfGVufDB8fHx8MTY1NjEyMjIyNQ&ixlib=rb-1.2.1&q=80&w=2000"
-slug = "hosting-a-simple-webpage-in-winforms-with-cefsharp"
-summary = "WinForms and the web. Like oil and water, they don't mix well. But with CEFSharp, they mix a LOT better. Let's check it out."
-tags = ["Surviving WinForms", "WinForms", "CEFSharp", "CEF", "Coding"]
-title = "Host a simple webpage in WinForms with CefSharp"
-
-+++
+---
+categories:
+- Surviving WinForms
+- WinForms
+- CEFSharp
+- CEF
+- Coding
+date: "2022-06-28T23:07:09Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1573867639040-6dd25fa5f597?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE1fHx3ZWJzaXRlfGVufDB8fHx8MTY1NjEyMjIyNQ&ixlib=rb-1.2.1&q=80&w=2000
+slug: hosting-a-simple-webpage-in-winforms-with-cefsharp
+summary: WinForms and the web. Like oil and water, they don't mix well. But with CEFSharp,
+  they mix a LOT better. Let's check it out.
+tags:
+- Surviving WinForms
+- WinForms
+- CEFSharp
+- CEF
+- Coding
+title: Host a simple webpage in WinForms with CefSharp
+---
 
 
 WinForms and the web. Like oil and water, they don't mix well. The web is the future, hands down. If I had an idea for an app that I wanted to share with the world, I'd make it a website, not a WinForms app. Who wants to worry about distribution and piracy and having to support nigh infinite number of slightly different machines it might run on? But WinForms isn't going away any time soon either.

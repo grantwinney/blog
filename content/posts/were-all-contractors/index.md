@@ -1,15 +1,18 @@
-+++
-categories = ["Reflections"]
-date = 2021-10-19T03:37:36Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1645651964715-d200ce0939cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDExfHxjb250cmFjdG9yfGVufDB8fHx8MTY3OTE1NDc2OQ&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "were-all-contractors"
-summary = "Seeing my full-time job as a long-term contract has helped me improve and contribute, without taking things personally or falling into complacency."
-tags = ["Reflections"]
-title = "Every software dev is a contractor"
-
-+++
+---
+categories:
+- Reflections
+date: "2021-10-19T03:37:36Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1645651964715-d200ce0939cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDExfHxjb250cmFjdG9yfGVufDB8fHx8MTY3OTE1NDc2OQ&ixlib=rb-4.0.3&q=80&w=2000
+slug: were-all-contractors
+summary: Seeing my full-time job as a long-term contract has helped me improve and
+  contribute, without taking things personally or falling into complacency.
+tags:
+- Reflections
+title: Every software dev is a contractor
+---
 
 
 The work we do for any company in any role, even as full-time employees, is

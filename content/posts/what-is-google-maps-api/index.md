@@ -1,15 +1,21 @@
-+++
-categories = ["API", "Google"]
-date = 2017-12-23T04:10:01Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1478860409698-8707f313ee8b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "what-is-google-maps-api"
-summary = "The Google Maps API is a series of APIs for multiple platforms, each focused on a small set of tasks. At first it all seems a bit overwhelming, but each of them is pretty easy to use. Let's check a few out!"
-tags = ["API", "Google"]
-title = "Finding Directions, Coordinates and More With the Google Maps API"
-
-+++
+---
+categories:
+- API
+- Google
+date: "2017-12-23T04:10:01Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1478860409698-8707f313ee8b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: what-is-google-maps-api
+summary: The Google Maps API is a series of APIs for multiple platforms, each focused
+  on a small set of tasks. At first it all seems a bit overwhelming, but each of them
+  is pretty easy to use. Let's check a few out!
+tags:
+- API
+- Google
+title: Finding Directions, Coordinates and More With the Google Maps API
+---
 
 
 Google is a service that... a provider who.... they run the Internet. They have this little mapping service too, so let's check out the Google Maps API.

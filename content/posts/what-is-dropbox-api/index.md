@@ -1,15 +1,18 @@
-+++
-categories = ["API"]
-date = 2017-12-20T04:59:25Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1573376671570-bc0e9aab13a1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "what-is-dropbox-api"
-summary = "Dropbox provides file storage that syncs between your devices, and their API gives you access to that. Let's check it out!"
-tags = ["API"]
-title = "Managing Files and Folders Using the Dropbox API"
-
-+++
+---
+categories:
+- API
+date: "2017-12-20T04:59:25Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1573376671570-bc0e9aab13a1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: what-is-dropbox-api
+summary: Dropbox provides file storage that syncs between your devices, and their
+  API gives you access to that. Let's check it out!
+tags:
+- API
+title: Managing Files and Folders Using the Dropbox API
+---
 
 
 Dropbox provides file storage that syncs between your devices, but also appears to provide for synchronized collaboration of individual files on teams. Neato. Let's check out the Dropbox API, or DBX as they apparently call it.

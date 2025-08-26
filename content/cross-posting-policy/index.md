@@ -1,11 +1,10 @@
-+++
-date = 2018-01-21T22:10:24Z
-description = ""
-draft = false
-slug = "cross-posting-policy"
-title = "Cross-Posting Policy"
-
-+++
+---
+date: "2018-01-21T22:10:24Z"
+description: ""
+draft: false
+slug: cross-posting-policy
+title: Cross-Posting Policy
+---
 
 
 I've been asked a couple of times for permission to cross-post my content in different languages. I'm happy that someone would find enough value in what I've written that they'd translate it and open it to a larger audience, but I'd ask a few things of you first.

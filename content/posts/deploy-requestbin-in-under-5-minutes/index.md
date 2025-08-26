@@ -1,15 +1,20 @@
-+++
-categories = ["Tools of the Trade"]
-date = 2020-01-05T12:39:14Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "deploy-requestbin-in-under-5-minutes"
-summary = "If you need to consume a webhook from another service, or verify the payload being sent from your own REST API endpoint, RequestBin can help. It intercepts and displays the contents of any call made to it. Here's how to deploy your own instance in just a few minutes."
-tags = ["Tools of the Trade"]
-title = "Deploy your own RequestBin in under 5 minutes"
-
-+++
+---
+categories:
+- Tools of the Trade
+date: "2020-01-05T12:39:14Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: deploy-requestbin-in-under-5-minutes
+summary: If you need to consume a webhook from another service, or verify the payload
+  being sent from your own REST API endpoint, RequestBin can help. It intercepts and
+  displays the contents of any call made to it. Here's how to deploy your own instance
+  in just a few minutes.
+tags:
+- Tools of the Trade
+title: Deploy your own RequestBin in under 5 minutes
+---
 
 
 If you've ever needed to consume a webhook from another service, say from Stripe or GitHub, but you weren't completely sure what the payload was going to look like (say, the docs are incomplete or missing), a tool like RequestBin can help. By setting it as the "target" for the webhook, it intercepts whatever happens to be thrown its way, and displays it.

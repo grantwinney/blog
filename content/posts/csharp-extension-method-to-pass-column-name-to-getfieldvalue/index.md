@@ -1,14 +1,18 @@
-+++
-categories = ["C#", "Coding"]
-date = 2015-01-15T00:45:22Z
-description = ""
-draft = false
-slug = "csharp-extension-method-to-pass-column-name-to-getfieldvalue"
-summary = "Let's combine the SqlDataReader's GetFieldValue and GetOrdinal methods into an extension method that lets us pass a column name and get back a specific type."
-tags = ["C#", "Coding"]
-title = "An Extension Method to Pass a Column Name to SqlDataReader.GetFieldValue"
-
-+++
+---
+categories:
+- C#
+- Coding
+date: "2015-01-15T00:45:22Z"
+description: ""
+draft: false
+slug: csharp-extension-method-to-pass-column-name-to-getfieldvalue
+summary: Let's combine the SqlDataReader's GetFieldValue and GetOrdinal methods into
+  an extension method that lets us pass a column name and get back a specific type.
+tags:
+- C#
+- Coding
+title: An Extension Method to Pass a Column Name to SqlDataReader.GetFieldValue
+---
 
 
 The SqlDataReader.GetFieldValue method uses generics to return the value of a column as the requested data type, which is nice, but it also requires us to know and pass the column index instead of just using its name, which is less nice.

@@ -1,15 +1,20 @@
-+++
-categories = ["API"]
-date = 2019-03-03T14:14:00Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "searching-historical-newspapers-with-the-chronicling-america-api"
-summary = "I've got a few old newspapers from the 1930s and 1940s, and find them fascinating. And so I was excited to stumble on the Library of Congress's Chronicling America API, which 'provides access to information about historic newspapers and select digitized newspaper pages'. Let's check it out."
-tags = ["API"]
-title = "Searching historical newspapers with the Chronicling America API"
-
-+++
+---
+categories:
+- API
+date: "2019-03-03T14:14:00Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: searching-historical-newspapers-with-the-chronicling-america-api
+summary: I've got a few old newspapers from the 1930s and 1940s, and find them fascinating.
+  And so I was excited to stumble on the Library of Congress's Chronicling America
+  API, which 'provides access to information about historic newspapers and select
+  digitized newspaper pages'. Let's check it out.
+tags:
+- API
+title: Searching historical newspapers with the Chronicling America API
+---
 
 
 One of the weirder experiences in writing software is that we can never hold

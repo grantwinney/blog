@@ -1,15 +1,21 @@
-+++
-categories = ["C#", "Coding"]
-date = 2019-11-13T17:45:00Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "csharp-assign-code-to-a-variable"
-summary = "Did you know most languages have a way to pass around code to other functions, so you can call (invoke) it in other parts of your application? In C#, it's called a delegate."
-tags = ["C#", "Coding"]
-title = "Assign C# code to a variable and then run it"
-
-+++
+---
+categories:
+- C#
+- Coding
+date: "2019-11-13T17:45:00Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: csharp-assign-code-to-a-variable
+summary: Did you know most languages have a way to pass around code to other functions,
+  so you can call (invoke) it in other parts of your application? In C#, it's called
+  a delegate.
+tags:
+- C#
+- Coding
+title: Assign C# code to a variable and then run it
+---
 
 
 It'd be ridiculous for a language to not have a way for you to reference a particular value, so you could pass it around in your application.

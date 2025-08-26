@@ -1,15 +1,24 @@
-+++
-categories = ["C# 11", "C#", "Coding", "Series Generic Math Intro"]
-date = 2023-03-31T03:59:47Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1552083974-186346191183?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE0fHxhYnN0cmFjdHxlbnwwfHx8fDE2ODAyMjAxODg&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "whats-a-static-abstract-interface-method-in-c"
-summary = "What are static abstract members (new in C# 11), what can we do with them, and how are they related to Generic Math? (part 1 of 3)"
-tags = ["C# 11", "C#", "Coding", "Series Generic Math Intro"]
-title = "What is a static abstract interface method in C#?"
-
-+++
+---
+categories:
+- C# 11
+- C#
+- Coding
+- Series Generic Math Intro
+date: "2023-03-31T03:59:47Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1552083974-186346191183?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE0fHxhYnN0cmFjdHxlbnwwfHx8fDE2ODAyMjAxODg&ixlib=rb-4.0.3&q=80&w=2000
+slug: whats-a-static-abstract-interface-method-in-c
+summary: What are static abstract members (new in C# 11), what can we do with them,
+  and how are they related to Generic Math? (part 1 of 3)
+tags:
+- C# 11
+- C#
+- Coding
+- Series Generic Math Intro
+title: What is a static abstract interface method in C#?
+---
 
 
 This is post 1 in a 3-part series building up to the new C# 11 feature called Generic Math. Before tackling that though, let's check out another new C# 11 feature - the static abstract interface method (aka static virtual members).

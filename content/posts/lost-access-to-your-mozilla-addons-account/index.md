@@ -1,15 +1,19 @@
-+++
-categories = ["Mozilla"]
-date = 2019-03-13T03:29:29Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1519973759984-cf5a6c557cd8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "lost-access-to-your-mozilla-addons-account"
-summary = "I recently realized that somehow, in the 6 months since I last logged into my Mozilla developer account, none of my short list of emails would let me back in. Here's how I regained access."
-tags = ["Mozilla"]
-title = "Regaining access to a Mozilla Addons account"
-
-+++
+---
+categories:
+- Mozilla
+date: "2019-03-13T03:29:29Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1519973759984-cf5a6c557cd8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: lost-access-to-your-mozilla-addons-account
+summary: I recently realized that somehow, in the 6 months since I last logged into
+  my Mozilla developer account, none of my short list of emails would let me back
+  in. Here's how I regained access.
+tags:
+- Mozilla
+title: Regaining access to a Mozilla Addons account
+---
 
 
 I recently realized that somehow, in the 6 months since I last logged into my Mozilla developer account, none of my short list of emails would let me back in.

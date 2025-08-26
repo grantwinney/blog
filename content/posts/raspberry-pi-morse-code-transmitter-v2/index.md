@@ -1,15 +1,22 @@
-+++
-categories = ["Raspberry PI", "Coding", "Python"]
-date = 2016-05-19T06:10:28Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2016/05/morse-code-button-click-1.jpg"
-slug = "raspberry-pi-morse-code-transmitter-v2"
-summary = "I created a morse code generator before based on entering a string at the console. Now I extended it to generate a message by clicking a button."
-tags = ["Raspberry PI", "Coding", "Python"]
-title = "Building a Morse Code Transmitter on a Raspberry Pi (version 2)"
-
-+++
+---
+categories:
+- Raspberry PI
+- Coding
+- Python
+date: "2016-05-19T06:10:28Z"
+description: ""
+draft: false
+cover:
+  image: morse-code-button-click-1.jpg
+slug: raspberry-pi-morse-code-transmitter-v2
+summary: I created a morse code generator before based on entering a string at the
+  console. Now I extended it to generate a message by clicking a button.
+tags:
+- Raspberry PI
+- Coding
+- Python
+title: Building a Morse Code Transmitter on a Raspberry Pi (version 2)
+---
 
 
 Last month, I created a morse code generator. It accepts user input from the console, translates it into morse code, and blinks an LED to “transmit” the message.

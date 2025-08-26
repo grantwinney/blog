@@ -1,14 +1,16 @@
-+++
-categories = ["AWS Lambda"]
-date = 2019-11-07T18:04:08Z
-description = ""
-draft = false
-slug = "where-are-my-logs-in-aws-lambda"
-summary = "In a new AWS Lambda function, logging is initially disabled. Lets see how to enable it, for those times where additional detail is needed."
-tags = ["AWS Lambda"]
-title = "Enable logging for an AWS Lambda job"
-
-+++
+---
+categories:
+- AWS Lambda
+date: "2019-11-07T18:04:08Z"
+description: ""
+draft: false
+slug: where-are-my-logs-in-aws-lambda
+summary: In a new AWS Lambda function, logging is initially disabled. Lets see how
+  to enable it, for those times where additional detail is needed.
+tags:
+- AWS Lambda
+title: Enable logging for an AWS Lambda job
+---
 
 
 I setup an AWS Lambda job recently, and then added a trigger to run it every morning. I checked it one morning and realized:

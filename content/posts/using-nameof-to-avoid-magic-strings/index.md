@@ -1,15 +1,24 @@
-+++
-categories = ["Surviving WinForms", "C# 6", "Coding", "C#"]
-date = 2021-12-30T01:53:29Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1514940269061-a79f23a95316?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDEzfHxzdHJpbmd8ZW58MHx8fHwxNjQwODI5ODQ3&ixlib=rb-1.2.1&q=80&w=2000"
-slug = "using-nameof-to-avoid-magic-strings"
-summary = "There's a lot of ways to make our code work for us. Let's check out using the nameof operator to avoid magic strings."
-tags = ["Surviving WinForms", "C# 6", "Coding", "C#"]
-title = "Using nameof to avoid magic strings in C#"
-
-+++
+---
+categories:
+- Surviving WinForms
+- C# 6
+- Coding
+- C#
+date: "2021-12-30T01:53:29Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1514940269061-a79f23a95316?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDEzfHxzdHJpbmd8ZW58MHx8fHwxNjQwODI5ODQ3&ixlib=rb-1.2.1&q=80&w=2000
+slug: using-nameof-to-avoid-magic-strings
+summary: There's a lot of ways to make our code work for us. Let's check out using
+  the nameof operator to avoid magic strings.
+tags:
+- Surviving WinForms
+- C# 6
+- Coding
+- C#
+title: Using nameof to avoid magic strings in C#
+---
 
 
 Having magic strings in your code is definitely something to watch out for. What's a magic string? It's any string containing a value that might change, like an application setting, a timeout value, a method or class name, etc.

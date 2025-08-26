@@ -1,15 +1,19 @@
-+++
-categories = ["Reflections"]
-date = 2021-12-20T12:00:00Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1512411538328-27d71d1921cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDc0fHxyb3BlfGVufDB8fHx8MTYzOTgzOTg1Ng&ixlib=rb-1.2.1&q=80&w=2000"
-slug = "sunk-costs-timeboxing-asking-for-help"
-summary = "One of the biggest struggles I have with programming is knowing when to ask for help. A little struggle is necessary for growth, but when am I just wasting time when I could be learning from others?"
-tags = ["Reflections"]
-title = "Sunk costs, timeboxing, and asking for help"
-
-+++
+---
+categories:
+- Reflections
+date: "2021-12-20T12:00:00Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1512411538328-27d71d1921cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDc0fHxyb3BlfGVufDB8fHx8MTYzOTgzOTg1Ng&ixlib=rb-1.2.1&q=80&w=2000
+slug: sunk-costs-timeboxing-asking-for-help
+summary: One of the biggest struggles I have with programming is knowing when to ask
+  for help. A little struggle is necessary for growth, but when am I just wasting
+  time when I could be learning from others?
+tags:
+- Reflections
+title: Sunk costs, timeboxing, and asking for help
+---
 
 
 One of the biggest struggles I have with programming (or anything I'm trying to

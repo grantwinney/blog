@@ -1,15 +1,22 @@
-+++
-categories = ["Wiki", "GitHub"]
-date = 2018-10-29T12:19:38Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1498707406720-1094aef934da?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "hosting-a-github-wiki-remotely-on-ubuntu"
-summary = "I've always been a fan of wikis, but GitHub's is so poorly designed it doesn't get much love. I once wrote about cloning a wiki locally and editing it using Gollum, but now I'm taking a look at hosting it externally on DigitalOcean, using Gollum and keeping it in sync with the repo hosted on GitHub."
-tags = ["Wiki", "GitHub"]
-title = "Hosting a GitHub wiki on Ubuntu (and keeping it in sync)"
-
-+++
+---
+categories:
+- Wiki
+- GitHub
+date: "2018-10-29T12:19:38Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1498707406720-1094aef934da?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: hosting-a-github-wiki-remotely-on-ubuntu
+summary: I've always been a fan of wikis, but GitHub's is so poorly designed it doesn't
+  get much love. I once wrote about cloning a wiki locally and editing it using Gollum,
+  but now I'm taking a look at hosting it externally on DigitalOcean, using Gollum
+  and keeping it in sync with the repo hosted on GitHub.
+tags:
+- Wiki
+- GitHub
+title: Hosting a GitHub wiki on Ubuntu (and keeping it in sync)
+---
 
 
 I've always been a fan of wikis for documentation and record-keeping. I even keep an instance of Dokuwiki running on DigitalOcean for personal notes, and before that I had Confluence running on a spare machine at home. GitHub uses wikis too, creating one for every project you spin up. Unfortunately it's so poorly designed that I don't think it gets much love. There's no built-in search, no file upload, no table of contents... it could be a whole lot more.

@@ -1,15 +1,26 @@
-+++
-categories = ["C# 12", "TimeProvider", "Date-Time Handling", "Coding", "FakeTimeProvider"]
-date = 2024-02-05T05:07:51Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1605143185597-9fe1a8065fbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fG9sZCUyMHdhdGNofGVufDB8fHx8MTcwNjc5MzkyM3ww&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "using-timeprovider-and-faketimeprovider-in-winforms"
-summary = "Testing .NET code involving time has always been a pain, but the TimeProvider class (backported to the .NET Framework) gives us awesome new tools."
-tags = ["C# 12", "TimeProvider", "Date-Time Handling", "Coding", "FakeTimeProvider"]
-title = "Using TimeProvider and FakeTimeProvider in WinForms"
-
-+++
+---
+categories:
+- C# 12
+- TimeProvider
+- Date-Time Handling
+- Coding
+- FakeTimeProvider
+date: "2024-02-05T05:07:51Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1605143185597-9fe1a8065fbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fG9sZCUyMHdhdGNofGVufDB8fHx8MTcwNjc5MzkyM3ww&ixlib=rb-4.0.3&q=80&w=2000
+slug: using-timeprovider-and-faketimeprovider-in-winforms
+summary: Testing .NET code involving time has always been a pain, but the TimeProvider
+  class (backported to the .NET Framework) gives us awesome new tools.
+tags:
+- C# 12
+- TimeProvider
+- Date-Time Handling
+- Coding
+- FakeTimeProvider
+title: Using TimeProvider and FakeTimeProvider in WinForms
+---
 
 
 Each new version of .NET brings great new tools. We got generics and LINQ in .NET 2 and 3, the async/await model in .NET 4.5, and string interpolation in .NET 4.6. Okay, that last one's not in the same league as the other ones, but I use string interpolation all the time.

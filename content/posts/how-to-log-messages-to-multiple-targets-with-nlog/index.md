@@ -1,15 +1,28 @@
-+++
-categories = ["Surviving WinForms", "Logging", "NLog", "WinForms", "Coding"]
-date = 2023-07-02T03:09:24Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/20/wood-snake.JPG?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHdpbmRpbmclMjBwYXRofGVufDB8fHx8MTY4ODA5MzQ5NHww&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "how-to-log-messages-to-multiple-targets-with-nlog"
-summary = "When it comes to finding a bug in an app, few things beat a good trail of logs. And for writing those logs, few tools beat NLog in simplicity or flexibility. I rarely appreciate just how flexible it is though, so it's worth spending a little time taking a closer look."
-tags = ["Surviving WinForms", "Logging", "NLog", "WinForms", "Coding"]
-title = "How to log messages to multiple targets with NLog"
-
-+++
+---
+categories:
+- Surviving WinForms
+- Logging
+- NLog
+- WinForms
+- Coding
+date: "2023-07-02T03:09:24Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/20/wood-snake.JPG?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHdpbmRpbmclMjBwYXRofGVufDB8fHx8MTY4ODA5MzQ5NHww&ixlib=rb-4.0.3&q=80&w=2000
+slug: how-to-log-messages-to-multiple-targets-with-nlog
+summary: When it comes to finding a bug in an app, few things beat a good trail of
+  logs. And for writing those logs, few tools beat NLog in simplicity or flexibility.
+  I rarely appreciate just how flexible it is though, so it's worth spending a little
+  time taking a closer look.
+tags:
+- Surviving WinForms
+- Logging
+- NLog
+- WinForms
+- Coding
+title: How to log messages to multiple targets with NLog
+---
 
 
 When it comes to finding a bug in an app, few things beat a good trail of logs. And for writing those logs, few tools beat NLog in simplicity or flexibility. I rarely appreciate just how flexible it is though, so it's worth spending a little time taking a closer look.

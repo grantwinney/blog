@@ -1,15 +1,22 @@
-+++
-categories = ["C#", "Coding", "Series Generic Math Intro"]
-date = 2023-04-01T03:54:20Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1581079289196-67865ea83118?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDd8fHN3YXRjaHxlbnwwfHx8fDE2ODAzMjA3NDk&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "csharp-overload-arithmetic-equality-comparison-operators"
-summary = "What's it mean to overload operators in C#? And what's that have to do with Generic Math in C# 11? Let's find out! (part 2 of 3)"
-tags = ["C#", "Coding", "Series Generic Math Intro"]
-title = "Overloading arithmetic, equality, and comparison operators in C#"
-
-+++
+---
+categories:
+- C#
+- Coding
+- Series Generic Math Intro
+date: "2023-04-01T03:54:20Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1581079289196-67865ea83118?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDd8fHN3YXRjaHxlbnwwfHx8fDE2ODAzMjA3NDk&ixlib=rb-4.0.3&q=80&w=2000
+slug: csharp-overload-arithmetic-equality-comparison-operators
+summary: What's it mean to overload operators in C#? And what's that have to do with
+  Generic Math in C# 11? Let's find out! (part 2 of 3)
+tags:
+- C#
+- Coding
+- Series Generic Math Intro
+title: Overloading arithmetic, equality, and comparison operators in C#
+---
 
 
 This is post 2 in a 3-part series building up to a new C# 11 feature called Generic Math. Before tackling that though, I covered static abstract members (also new to C# 11), and now I want to look at overload operators (not new, but worth knowing).

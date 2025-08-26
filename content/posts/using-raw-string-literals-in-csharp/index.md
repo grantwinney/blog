@@ -1,15 +1,24 @@
-+++
-categories = ["C# 11", ".NET 7", "C#", "Coding"]
-date = 2024-12-14T22:32:43Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2024/12/tara-evans-G-AQWUTgMZo-unsplash.jpg"
-slug = "using-raw-string-literals-in-csharp"
-summary = "C# 11 added raw string literals, not a life-altering new feature, but they could be useful in the right circumstances. Let's see how to use them."
-tags = ["C# 11", ".NET 7", "C#", "Coding"]
-title = "Using Raw String Literals in C# 11 / .NET 7"
-
-+++
+---
+categories:
+- C# 11
+- .NET 7
+- C#
+- Coding
+date: "2024-12-14T22:32:43Z"
+description: ""
+draft: false
+cover:
+  image: tara-evans-G-AQWUTgMZo-unsplash.jpg
+slug: using-raw-string-literals-in-csharp
+summary: C# 11 added raw string literals, not a life-altering new feature, but they
+  could be useful in the right circumstances. Let's see how to use them.
+tags:
+- C# 11
+- .NET 7
+- C#
+- Coding
+title: Using Raw String Literals in C# 11 / .NET 7
+---
 
 
 Some of the many additions to C# and the .NET Framework are huge (like LINQ or async), while others are much smaller. I'd definitely place raw string literals in the latter group, but then maybe I'm missing something. They're still worth a look though.

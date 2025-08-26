@@ -1,14 +1,18 @@
-+++
-categories = ["Erlang", "Coding"]
-date = 2018-05-22T16:55:18Z
-description = ""
-draft = false
-slug = "are-property-accessors-possible-in-erlang"
-summary = "I ran into a problem in Erlang yesterday that made me think: Is there anyway to implement a property accessor on a record?"
-tags = ["Erlang", "Coding"]
-title = "Are property accessors possible in Erlang records?"
-
-+++
+---
+categories:
+- Erlang
+- Coding
+date: "2018-05-22T16:55:18Z"
+description: ""
+draft: false
+slug: are-property-accessors-possible-in-erlang
+summary: 'I ran into a problem in Erlang yesterday that made me think: Is there anyway
+  to implement a property accessor on a record?'
+tags:
+- Erlang
+- Coding
+title: Are property accessors possible in Erlang records?
+---
 
 
 I was tackling a new requirement the other day, which needed a new record. One of the fields is a list of items, while another happens to represent a count of those items - not that the consumer of the record would necessarily be aware of that relationship.

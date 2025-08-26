@@ -1,15 +1,24 @@
-+++
-categories = ["Bots", "DDOS", "Security"]
-date = 2021-12-24T02:40:30Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2021/12/momentista-Cdr28uRzzFI-unsplash.jpg"
-slug = "why-am-i-getting-a-please-complete-the-security-check-error"
-summary = "I visited a page the other day and saw something odd.. a page that said it was checking my browser. It's unpolished and unfriendly, and my first instinct was to just close the tab and forget it. Then I dropped to the bottom of the page and noticed the link to Cloudflare. Interesting."
-tags = ["Bots", "DDOS", "Security"]
-title = "Why am I getting a \"Please complete the security check\" error?"
-
-+++
+---
+categories:
+- Bots
+- DDOS
+- Security
+date: "2021-12-24T02:40:30Z"
+description: ""
+draft: false
+cover:
+  image: momentista-Cdr28uRzzFI-unsplash.jpg
+slug: why-am-i-getting-a-please-complete-the-security-check-error
+summary: I visited a page the other day and saw something odd.. a page that said it
+  was checking my browser. It's unpolished and unfriendly, and my first instinct was
+  to just close the tab and forget it. Then I dropped to the bottom of the page and
+  noticed the link to Cloudflare. Interesting.
+tags:
+- Bots
+- DDOS
+- Security
+title: Why am I getting a "Please complete the security check" error?
+---
 
 
 I use Fathom Analytics to see where traffic's coming from. It's very privacy-friendly though - the only thing I can see is the top-level domains, not the exact page or visitors' IP addresses. Anyway, it's fun sometimes to visit the sites where people are coming from, and see what they're about, and it shows me which content is most relevant. Is it a Raspberry Pi site linking to one of my demos from a few years back? Is it another developer expanding on some sample code I posted, or some course at a university that linked to one of my introductory types of posts?

@@ -1,15 +1,20 @@
-+++
-categories = ["API"]
-date = 2018-06-24T20:02:24Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "access-yesterdays-internet-with-the-wayback-machine-apis"
-summary = "The Wayback Machine, a product of the Internet Archive, is an ambitious tool that's been documenting websites for many years. It's useful when a page you need is removed by the original author. Let's take a look at their API and how we might make use of it."
-tags = ["API"]
-title = "Access yesterday's Internet with the Wayback Machine API"
-
-+++
+---
+categories:
+- API
+date: "2018-06-24T20:02:24Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: access-yesterdays-internet-with-the-wayback-machine-apis
+summary: The Wayback Machine, a product of the Internet Archive, is an ambitious tool
+  that's been documenting websites for many years. It's useful when a page you need
+  is removed by the original author. Let's take a look at their API and how we might
+  make use of it.
+tags:
+- API
+title: Access yesterday's Internet with the Wayback Machine API
+---
 
 
 Today I'm checking out the Wayback Machine APIs from the Internet Archive. If you haven't heard of the IA before, it's a site that's aiming to... well.. archive everything. They're probably best known for helping people find archived versions of deleted pages, but they have a lot of old software and games, books, and much more. Unfortunately, they only have a demo version of F-19 stealth fighter, the first game I ever played... well, other than Oregon Trail. And Number Munchers!!

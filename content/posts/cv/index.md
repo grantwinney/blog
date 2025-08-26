@@ -1,11 +1,10 @@
-+++
-date = 2018-05-18T17:55:27Z
-description = ""
-draft = false
-slug = "cv"
-title = "Curriculum Vitae"
-
-+++
+---
+date: "2018-05-18T17:55:27Z"
+description: ""
+draft: false
+slug: cv
+title: Curriculum Vitae
+---
 
 
 I'm an experienced software developer with over 10 years in the computer software industry, and a self-starter and constant learner who always completes the task at hand. My focus has been on C# and the .NET Framework, with a passion for good documentation, continuous testing and builds, and the Agile process. I enjoy any good challenge as well as producing clear and maintainable code.

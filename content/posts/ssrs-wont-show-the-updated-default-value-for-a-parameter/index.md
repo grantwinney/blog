@@ -1,15 +1,18 @@
-+++
-categories = ["SSRS"]
-date = 2024-01-31T02:40:31Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDMzfHxyZXBvcnRpbmd8ZW58MHx8fHwxNzA2NTg5MTAyfDA&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "ssrs-wont-show-the-updated-default-value-for-a-parameter"
-summary = "Changed the default value for a report parameter, but it's not actually updating in SSRS? That's by design. Let's find a way around it."
-tags = ["SSRS"]
-title = "SSRS won't show the updated default value for a parameter"
-
-+++
+---
+categories:
+- SSRS
+date: "2024-01-31T02:40:31Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1591696205602-2f950c417cb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDMzfHxyZXBvcnRpbmd8ZW58MHx8fHwxNzA2NTg5MTAyfDA&ixlib=rb-4.0.3&q=80&w=2000
+slug: ssrs-wont-show-the-updated-default-value-for-a-parameter
+summary: Changed the default value for a report parameter, but it's not actually updating
+  in SSRS? That's by design. Let's find a way around it.
+tags:
+- SSRS
+title: SSRS won't show the updated default value for a parameter
+---
 
 
 I recently had to figure out why a minor change to an SSRS report wasn't deploying correctly. It was just a minor change to the default value of a parameter on one report, nothing special.

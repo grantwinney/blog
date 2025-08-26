@@ -1,15 +1,21 @@
-+++
-categories = ["Git", "Tools of the Trade"]
-date = 2017-01-28T13:07:51Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2020/11/pexels-brett-jordan-5444628.jpg"
-slug = "creating-a-git-alias"
-summary = "If you're unfamiliar with Git's \"alias\" feature, it provides a way to create shortcuts for other Git commands, which can save you a lot of time. They’re easy to setup and maintain too. Let's see how."
-tags = ["Git", "Tools of the Trade"]
-title = "How to Create a Git Alias"
-
-+++
+---
+categories:
+- Git
+- Tools of the Trade
+date: "2017-01-28T13:07:51Z"
+description: ""
+draft: false
+cover:
+  image: pexels-brett-jordan-5444628.jpg
+slug: creating-a-git-alias
+summary: If you're unfamiliar with Git's "alias" feature, it provides a way to create
+  shortcuts for other Git commands, which can save you a lot of time. They’re easy
+  to setup and maintain too. Let's see how.
+tags:
+- Git
+- Tools of the Trade
+title: How to Create a Git Alias
+---
 
 
 If you're unfamiliar with Git's "alias" feature, it provides a way to easily create shortcuts for other Git commands. It can save a lot of time over calling some lengthy command that's tough to remember.. or even shorter ones that are used frequently.

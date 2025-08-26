@@ -1,15 +1,23 @@
-+++
-categories = ["API", "Security", "Coding"]
-date = 2018-06-19T13:45:34Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1586864387634-2f33030dab41?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "a-look-at-the-many-ways-apis-can-authorize-access"
-summary = "After writing about so many APIs and having to figure out the auth process for each, I wanted to compare and contrast how some of these services approach authentication and authorization, and why they might've decided to do it the way they did."
-tags = ["API", "Security", "Coding"]
-title = "A look at the many ways APIs can authorize access"
-
-+++
+---
+categories:
+- API
+- Security
+- Coding
+date: "2018-06-19T13:45:34Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1586864387634-2f33030dab41?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: a-look-at-the-many-ways-apis-can-authorize-access
+summary: After writing about so many APIs and having to figure out the auth process
+  for each, I wanted to compare and contrast how some of these services approach authentication
+  and authorization, and why they might've decided to do it the way they did.
+tags:
+- API
+- Security
+- Coding
+title: A look at the many ways APIs can authorize access
+---
 
 
 When you encounter an API that gives you access to some data - maybe yours (tweets, photos), maybe someone else's (space photos, climate stats) - you'll usually encounter some form of required authentication/authorization before being allowed to access it. That's because the usual purpose of an API is to safely expose specific data for easy consumption by some other application that builds on top of it. Maybe it's an app that helps you schedule tweets like Buffer, or a browser extension that adds new functionality to your Trello boards like Plus for Trello. In the case of Ghost, the platform my blog runs on, the consumer is Ghost itself (although you could develop your own app on top of it too).

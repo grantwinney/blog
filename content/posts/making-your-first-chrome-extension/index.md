@@ -1,15 +1,21 @@
-+++
-categories = ["Browser Extension", "Coding"]
-date = 2017-08-16T10:27:33Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2017/08/chrome-old-car.jpg"
-slug = "making-your-first-chrome-extension"
-summary = "We all have our favorite web browser with our favorite extensions loaded, but have you ever considered writing your own? In the past few months I've created a couple extensions to suit my own needs. Here's what I've learned!"
-tags = ["Browser Extension", "Coding"]
-title = "Creating Your First Chrome Extension"
-
-+++
+---
+categories:
+- Browser Extension
+- Coding
+date: "2017-08-16T10:27:33Z"
+description: ""
+draft: false
+cover:
+  image: chrome-old-car.jpg
+slug: making-your-first-chrome-extension
+summary: We all have our favorite web browser with our favorite extensions loaded,
+  but have you ever considered writing your own? In the past few months I've created
+  a couple extensions to suit my own needs. Here's what I've learned!
+tags:
+- Browser Extension
+- Coding
+title: Creating Your First Chrome Extension
+---
 
 
 We all have our favorite web browser with our favorite extensions loaded, but have you ever considered writing your own? You've probably had at least one idea for something that it'd be nice to have, but there's nothing out there that quite does what you're looking for.

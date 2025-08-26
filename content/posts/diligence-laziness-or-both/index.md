@@ -1,15 +1,18 @@
-+++
-categories = ["Reflections"]
-date = 2023-12-04T22:22:49Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1585838904386-1c86ceea945e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDM4fHxsYXp5fGVufDB8fHx8MTcwMTY0MjczMXww&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "diligence-laziness-or-both"
-summary = "Funny how a little due diligence mixes so well with a healthy interest in avoiding unnecessary future work."
-tags = ["Reflections"]
-title = "Diligence, laziness.. or both?"
-
-+++
+---
+categories:
+- Reflections
+date: "2023-12-04T22:22:49Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1585838904386-1c86ceea945e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDM4fHxsYXp5fGVufDB8fHx8MTcwMTY0MjczMXww&ixlib=rb-4.0.3&q=80&w=2000
+slug: diligence-laziness-or-both
+summary: Funny how a little due diligence mixes so well with a healthy interest in
+  avoiding unnecessary future work.
+tags:
+- Reflections
+title: Diligence, laziness.. or both?
+---
 
 
 Over the last few years, I've noticed a change in how I approach my work as a developer. When the team gets together to review upcoming work, I'm more willing to ask questions when something doesn't sound right, instead of just convincing myself that everyone else "gets it". When someone opens a pull request, I spend more time reviewing the original requirements and looking at every change. When I learn something new about a project I'm involved with, like where the code will be deployed, or why certain requirements exist, I document it.

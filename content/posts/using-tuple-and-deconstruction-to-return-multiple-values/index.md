@@ -1,15 +1,25 @@
-+++
-categories = ["C# 7", "Surviving WinForms", "Coding", "C#"]
-date = 2023-01-05T00:38:03Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1436731837106-3b37ef132fc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDg1fHxuZXN0fGVufDB8fHx8MTY3Mjg3ODg3MA&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "using-tuple-and-deconstruction-to-return-multiple-values"
-summary = "A big challenge with any language is trying to group and organize things sensibly, and returning multiple values is no exception. Let's check out Tuples and deconstruction, and see how they can help us out."
-tags = ["C# 7", "Surviving WinForms", "Coding", "C#"]
-title = "Using Tuples and deconstruction to return multiple values in C#"
-
-+++
+---
+categories:
+- C# 7
+- Surviving WinForms
+- Coding
+- C#
+date: "2023-01-05T00:38:03Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1436731837106-3b37ef132fc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDg1fHxuZXN0fGVufDB8fHx8MTY3Mjg3ODg3MA&ixlib=rb-4.0.3&q=80&w=2000
+slug: using-tuple-and-deconstruction-to-return-multiple-values
+summary: A big challenge with any language is trying to group and organize things
+  sensibly, and returning multiple values is no exception. Let's check out Tuples
+  and deconstruction, and see how they can help us out.
+tags:
+- C# 7
+- Surviving WinForms
+- Coding
+- C#
+title: Using Tuples and deconstruction to return multiple values in C#
+---
 
 
 One of the biggie challenges when programming in any language is figuring how to group and organize things sensibly. Even a small project can get out of hand quickly, and once you've got a dozen devs working in something for years, all bets are off.

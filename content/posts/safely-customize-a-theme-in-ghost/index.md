@@ -1,14 +1,16 @@
-+++
-categories = ["Ghost Blog"]
-date = 2017-07-24T18:57:36Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2017/07/pile-of-rocks.jpg"
-slug = "safely-customize-a-theme-in-ghost"
-tags = ["Ghost Blog"]
-title = "Safely Build on a Ghost Theme"
-
-+++
+---
+categories:
+- Ghost Blog
+date: "2017-07-24T18:57:36Z"
+description: ""
+draft: false
+cover:
+  image: pile-of-rocks.jpg
+slug: safely-customize-a-theme-in-ghost
+tags:
+- Ghost Blog
+title: Safely Build on a Ghost Theme
+---
 
 
 This blog runs on the Ghost platform, and I was mildly surprised when I ran a ghost update the other day and suddenly my custom themes and scripts were just gone! Luckily I use DigitalOcean with backups enabled, and I had a backup from just a couple days before. I rolled back, verified my styles and customizations were present, then ran ghost update again. Wiped out.

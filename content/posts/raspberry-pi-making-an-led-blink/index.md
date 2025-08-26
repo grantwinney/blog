@@ -1,15 +1,22 @@
-+++
-categories = ["Raspberry PI", "Python", "Coding"]
-date = 2016-03-26T16:37:30Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2016/03/breadboard-single-led-circuit.jpg"
-slug = "raspberry-pi-making-an-led-blink"
-summary = "I unboxed my Raspberry Pi a few weeks ago and started learning Python. Let's code the \"Hello World\" of the Pi, and make an LED blink."
-tags = ["Raspberry PI", "Python", "Coding"]
-title = "Hello World for the Raspberry Pi - Making an LED Blink"
-
-+++
+---
+categories:
+- Raspberry PI
+- Python
+- Coding
+date: "2016-03-26T16:37:30Z"
+description: ""
+draft: false
+cover:
+  image: breadboard-single-led-circuit.jpg
+slug: raspberry-pi-making-an-led-blink
+summary: I unboxed my Raspberry Pi a few weeks ago and started learning Python. Let's
+  code the "Hello World" of the Pi, and make an LED blink.
+tags:
+- Raspberry PI
+- Python
+- Coding
+title: Hello World for the Raspberry Pi - Making an LED Blink
+---
 
 
 I finally unboxed my Pi a few weeks ago, and since then I’ve been learning some Python - the primary language of the Pi.

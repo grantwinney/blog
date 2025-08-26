@@ -1,15 +1,20 @@
-+++
-categories = ["C#", "Coding"]
-date = 2015-02-11T19:42:36Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGN1cnJlbmNpZXN8ZW58MHx8fHwxNzE3MTA2MjM4fDA&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "csharp-implicit-vs-explicit-conversion"
-summary = "We use implicit and explicit conversion in C# all the time, without even realizing it. Let's learn more about them and look at examples of each."
-tags = ["C#", "Coding"]
-title = "Implicit vs Explicit Conversion in C#"
-
-+++
+---
+categories:
+- C#
+- Coding
+date: "2015-02-11T19:42:36Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1580519542036-c47de6196ba5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGN1cnJlbmNpZXN8ZW58MHx8fHwxNzE3MTA2MjM4fDA&ixlib=rb-4.0.3&q=80&w=2000
+slug: csharp-implicit-vs-explicit-conversion
+summary: We use implicit and explicit conversion in C# all the time, without even
+  realizing it. Let's learn more about them and look at examples of each.
+tags:
+- C#
+- Coding
+title: Implicit vs Explicit Conversion in C#
+---
 
 
 If you’ve programmed in C# for awhile, you’ve likely used both implicit and explicit conversion without even realizing it. Let's take a look at examples of each.

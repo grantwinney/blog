@@ -1,14 +1,18 @@
-+++
-categories = ["Erlang", "Coding"]
-date = 2019-05-16T11:22:49Z
-description = ""
-draft = false
-slug = "how-to-modify-a-config-file-in-erlang"
-summary = "Modifying an Erlang config file at runtime wasn't as easy (or obvious) as I'd thought it'd be. So I wrote a script to hopefully make it easier."
-tags = ["Erlang", "Coding"]
-title = "Modify a config file in Erlang"
-
-+++
+---
+categories:
+- Erlang
+- Coding
+date: "2019-05-16T11:22:49Z"
+description: ""
+draft: false
+slug: how-to-modify-a-config-file-in-erlang
+summary: Modifying an Erlang config file at runtime wasn't as easy (or obvious) as
+  I'd thought it'd be. So I wrote a script to hopefully make it easier.
+tags:
+- Erlang
+- Coding
+title: Modify a config file in Erlang
+---
 
 
 I found myself recently needing to write an escript to modify a config file. All I needed was to read it in, make a couple updates, and write it back out. Should be easy, right? Please make it easy Erlang. No? Okay... 😢

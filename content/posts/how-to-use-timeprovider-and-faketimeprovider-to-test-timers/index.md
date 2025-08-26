@@ -1,15 +1,24 @@
-+++
-categories = ["C# 12", "Testing", "Coding", "TimeProvider"]
-date = 2024-01-11T04:34:20Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1575197478864-c83e1d2a4443?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDI4fHx0aW1lfGVufDB8fHx8MTcwNDYwMTAxNnww&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "how-to-use-timeprovider-and-faketimeprovider-to-test-timers"
-summary = "Testing timers in C# is difficult, but .NET 8 (C# 12) adds an abstract TimeProvider class that makes it easier. Let's take a closer look."
-tags = ["C# 12", "Testing", "Coding", "TimeProvider"]
-title = "How to use (and test) TimeProvider timers in .NET"
-
-+++
+---
+categories:
+- C# 12
+- Testing
+- Coding
+- TimeProvider
+date: "2024-01-11T04:34:20Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1575197478864-c83e1d2a4443?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDI4fHx0aW1lfGVufDB8fHx8MTcwNDYwMTAxNnww&ixlib=rb-4.0.3&q=80&w=2000
+slug: how-to-use-timeprovider-and-faketimeprovider-to-test-timers
+summary: Testing timers in C# is difficult, but .NET 8 (C# 12) adds an abstract TimeProvider
+  class that makes it easier. Let's take a closer look.
+tags:
+- C# 12
+- Testing
+- Coding
+- TimeProvider
+title: How to use (and test) TimeProvider timers in .NET
+---
 
 
 The .NET 8 (C# 12) release included new constructs for abstracting time and timers, two things that have traditionally been a pain when it comes to testing. A few days ago, I took a first look at time abstraction using the new TimeProvider abstract class, and then wrote some tests using the new FakeTimeProvider class provided by the Microsoft.Extensions.TimeProvider.Testing NuGet package.

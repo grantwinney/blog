@@ -1,15 +1,22 @@
-+++
-categories = ["Erlang", "Testing", "Coding"]
-date = 2019-03-14T11:03:00Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "keep-your-eunit-teardown-logic-as-simple"
-summary = "Ever had an EUnit test fixture fail with meck reporting it was \"already_started\"? Well I did, and here's why..."
-tags = ["Erlang", "Testing", "Coding"]
-title = "Keep your EUnit teardown logic as simple as possible!"
-
-+++
+---
+categories:
+- Erlang
+- Testing
+- Coding
+date: "2019-03-14T11:03:00Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: keep-your-eunit-teardown-logic-as-simple
+summary: Ever had an EUnit test fixture fail with meck reporting it was "already_started"?
+  Well I did, and here's why...
+tags:
+- Erlang
+- Testing
+- Coding
+title: Keep your EUnit teardown logic as simple as possible!
+---
 
 
 When you use test fixtures in EUnit, you'll likely define a setup and a teardown function, for doing initialization and cleanup work before and after each test. If you're familiar with try/catch/finally blocks in other languages, the teardown function is similar to a finally block; that is, it should always run even when a test throws an exception. But like a finally block, you want to be careful about what you're doing in your cleanup.

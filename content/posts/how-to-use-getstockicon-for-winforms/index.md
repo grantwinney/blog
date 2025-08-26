@@ -1,15 +1,25 @@
-+++
-categories = [".NET 8", "WinForms", "C# 12", "Coding"]
-date = 2024-12-18T15:50:31Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2024/12/harpal-singh-_zKxPsGOGKg-unsplash.jpg"
-slug = "how-to-use-getstockicon-for-winforms"
-summary = "Buried deep in the list of .NET 8 improvements for WinForms is the GetStockIcon method. It gives us a way to access stock Windows icons at runtime for the OS the app is running on. Let's check it out."
-tags = [".NET 8", "WinForms", "C# 12", "Coding"]
-title = "How to Use GetStockIcon for WinForms in .NET 8"
-
-+++
+---
+categories:
+- .NET 8
+- WinForms
+- C# 12
+- Coding
+date: "2024-12-18T15:50:31Z"
+description: ""
+draft: false
+cover:
+  image: harpal-singh-_zKxPsGOGKg-unsplash.jpg
+slug: how-to-use-getstockicon-for-winforms
+summary: Buried deep in the list of .NET 8 improvements for WinForms is the GetStockIcon
+  method. It gives us a way to access stock Windows icons at runtime for the OS the
+  app is running on. Let's check it out.
+tags:
+- .NET 8
+- WinForms
+- C# 12
+- Coding
+title: How to Use GetStockIcon for WinForms in .NET 8
+---
 
 
 Scouring the features that WinForms got in .NET 8, I found one slipped in near the very bottom of the list under "miscellaneous improvements" called GetStockIcon. It's a new method for grabbing Windows stock icons (i.e. save, folder, etc) at runtime, to use in the UI.

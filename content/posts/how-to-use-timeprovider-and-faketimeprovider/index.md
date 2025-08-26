@@ -1,15 +1,28 @@
-+++
-categories = ["C# 12", "Date-Time Handling", "Testing", "Coding", "TimeProvider", "FakeTimeProvider"]
-date = 2024-01-07T04:14:00Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1495364141860-b0d03eccd065?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fHRpbWV8ZW58MHx8fHwxNzA0MTQyNzYwfDA&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "how-to-use-timeprovider-and-faketimeprovider"
-summary = "Testing time in C# is difficult, but .NET 8 (C# 12) adds an abstract TimeProvider class that makes it easier. Let's take a closer look."
-tags = ["C# 12", "Date-Time Handling", "Testing", "Coding", "TimeProvider", "FakeTimeProvider"]
-title = "How to use TimeProvider and FakeTimeProvider (time abstraction in .NET)"
-
-+++
+---
+categories:
+- C# 12
+- Date-Time Handling
+- Testing
+- Coding
+- TimeProvider
+- FakeTimeProvider
+date: "2024-01-07T04:14:00Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1495364141860-b0d03eccd065?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fHRpbWV8ZW58MHx8fHwxNzA0MTQyNzYwfDA&ixlib=rb-4.0.3&q=80&w=2000
+slug: how-to-use-timeprovider-and-faketimeprovider
+summary: Testing time in C# is difficult, but .NET 8 (C# 12) adds an abstract TimeProvider
+  class that makes it easier. Let's take a closer look.
+tags:
+- C# 12
+- Date-Time Handling
+- Testing
+- Coding
+- TimeProvider
+- FakeTimeProvider
+title: How to use TimeProvider and FakeTimeProvider (time abstraction in .NET)
+---
 
 
 Since it's the Christmas season, and .NET 8 (C# 12) was recently released, it seems like a good time to unwrap some of the goodies we got. A couple of the most intriguing ones, IMO, are new constructs for abstracting time and timers, two things that have traditionally been a pain when it comes to testing.

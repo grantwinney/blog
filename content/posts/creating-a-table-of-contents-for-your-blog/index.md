@@ -1,14 +1,18 @@
-+++
-categories = ["Ghost Blog", "Coding"]
-date = 2018-02-03T14:08:21Z
-description = ""
-draft = false
-slug = "creating-a-table-of-contents-for-your-blog"
-summary = "A table of contents is convenient for visitors, so I wrote a script to generate one for any blog automatically!"
-tags = ["Ghost Blog", "Coding"]
-title = "Creating a table of contents for your blog"
-
-+++
+---
+categories:
+- Ghost Blog
+- Coding
+date: "2018-02-03T14:08:21Z"
+description: ""
+draft: false
+slug: creating-a-table-of-contents-for-your-blog
+summary: A table of contents is convenient for visitors, so I wrote a script to generate
+  one for any blog automatically!
+tags:
+- Ghost Blog
+- Coding
+title: Creating a table of contents for your blog
+---
 
 
 I wrote about 5 quick hacks for your Ghost theme last year, after switching to Ghost as a blogging platform. The last hack I mentioned was generating a "table of contents" using a handlebars script I'd found. Ghost was still considered beta at the time, and when 1.0 was released, the script stopped working correctly. I never bothered going back to figure out why.

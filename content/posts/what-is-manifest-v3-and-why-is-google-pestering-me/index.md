@@ -1,14 +1,22 @@
-+++
-categories = ["Browser Extension", "Google", "MV3", "Code Review"]
-date = 2022-06-06T11:30:43Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1518648949339-298b03f37f3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDh8fHBlc3R8ZW58MHx8fHwxNjU0MzY0MDMx&ixlib=rb-1.2.1&q=80&w=2000"
-slug = "what-is-manifest-v3-and-why-is-google-pestering-me"
-tags = ["Browser Extension", "Google", "MV3", "Code Review"]
-title = "What is Manifest V3 and why is Google pestering me about it?"
-
-+++
+---
+categories:
+- Browser Extension
+- Google
+- MV3
+- Code Review
+date: "2022-06-06T11:30:43Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1518648949339-298b03f37f3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDh8fHBlc3R8ZW58MHx8fHwxNjU0MzY0MDMx&ixlib=rb-1.2.1&q=80&w=2000
+slug: what-is-manifest-v3-and-why-is-google-pestering-me
+tags:
+- Browser Extension
+- Google
+- MV3
+- Code Review
+title: What is Manifest V3 and why is Google pestering me about it?
+---
 
 
 If you've ever dug into the underpinnings of a browser extension, or maybe even created one yourself, you've seen the manifest.json file that acts as a sort of usage guide for an extension. Not the kind of usage guide most people would want to read, but it's vital for browsers.

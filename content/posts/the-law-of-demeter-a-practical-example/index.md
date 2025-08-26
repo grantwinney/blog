@@ -1,14 +1,18 @@
-+++
-categories = ["Software Design", "Questions"]
-date = 2020-05-02T03:59:22Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2020/05/private-20115_1920.jpg"
-slug = "the-law-of-demeter-a-practical-example"
-tags = ["Software Design", "Questions"]
-title = "What is the Law of Demeter?"
-
-+++
+---
+categories:
+- Software Design
+- Questions
+date: "2020-05-02T03:59:22Z"
+description: ""
+draft: false
+cover:
+  image: private-20115_1920.jpg
+slug: the-law-of-demeter-a-practical-example
+tags:
+- Software Design
+- Questions
+title: What is the Law of Demeter?
+---
 
 
 At work, we're running through The Pragmatic Programmer - the original, not the 2nd edition published last year. If anyone is reading that, I'd love to know if it really updates things for modern programming and whether it seems necessary. The original seems pretty timeless.

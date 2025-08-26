@@ -1,15 +1,22 @@
-+++
-categories = ["C# 9", "C#", "Coding"]
-date = 2024-12-10T12:35:55Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2024/12/maksym-kaharlytskyi-Q9y3LRuuxmg-unsplash.jpg"
-slug = "records-classes-and-equality-in-csharp"
-summary = "The record modifier can define properties and equality in our classes for us, saving time and keeping our code cleaner. Let's see how it works!"
-tags = ["C# 9", "C#", "Coding"]
-title = "Records, Classes and Equality in C# 9 / .NET 5"
-
-+++
+---
+categories:
+- C# 9
+- C#
+- Coding
+date: "2024-12-10T12:35:55Z"
+description: ""
+draft: false
+cover:
+  image: maksym-kaharlytskyi-Q9y3LRuuxmg-unsplash.jpg
+slug: records-classes-and-equality-in-csharp
+summary: The record modifier can define properties and equality in our classes for
+  us, saving time and keeping our code cleaner. Let's see how it works!
+tags:
+- C# 9
+- C#
+- Coding
+title: Records, Classes and Equality in C# 9 / .NET 5
+---
 
 
 When C# 9 was released in 2020, one of the main focuses was on "removing ceremony", as they put it. I'm sure that's a regular focus with each release, but this time they called it out specifically. As a result, some of the tedious, boilerplate types of syntax we find ourselves writing were removed.

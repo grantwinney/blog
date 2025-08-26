@@ -1,14 +1,18 @@
-+++
-categories = ["Erlang", "Coding"]
-date = 2017-03-05T18:56:30Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1560523371-b28d9e070c21?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "how-to-evaluate-a-string-of-code-in-erlang-at-runtime"
-tags = ["Erlang", "Coding"]
-title = "Evaluating a string of code in Erlang at runtime"
-
-+++
+---
+categories:
+- Erlang
+- Coding
+date: "2017-03-05T18:56:30Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1560523371-b28d9e070c21?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: how-to-evaluate-a-string-of-code-in-erlang-at-runtime
+tags:
+- Erlang
+- Coding
+title: Evaluating a string of code in Erlang at runtime
+---
 
 
 Did you know that Erlang has the ability to read in a string representing a line of code to execute at runtime? It can parse it out, evaluate it and return the value.

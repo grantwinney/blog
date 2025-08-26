@@ -1,15 +1,26 @@
-+++
-categories = ["C# 13", ".NET 9", "C#", "Coding", "LINQ"]
-date = 2024-12-03T19:23:03Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2024/12/steve-johnson-WVUrbhWtRNM-unsplash.jpg"
-slug = "using-linq-countby-and-aggregateby-in-csharp"
-summary = "It's great to see Microsoft still giving us new things in LINQ. With C# 13 / .NET 9, we get CountBy and AggregateBy, so let's see how to use them."
-tags = ["C# 13", ".NET 9", "C#", "Coding", "LINQ"]
-title = "Using CountBy and AggregateBy in C# 13 / .NET 9"
-
-+++
+---
+categories:
+- C# 13
+- .NET 9
+- C#
+- Coding
+- LINQ
+date: "2024-12-03T19:23:03Z"
+description: ""
+draft: false
+cover:
+  image: steve-johnson-WVUrbhWtRNM-unsplash.jpg
+slug: using-linq-countby-and-aggregateby-in-csharp
+summary: It's great to see Microsoft still giving us new things in LINQ. With C# 13
+  / .NET 9, we get CountBy and AggregateBy, so let's see how to use them.
+tags:
+- C# 13
+- .NET 9
+- C#
+- Coding
+- LINQ
+title: Using CountBy and AggregateBy in C# 13 / .NET 9
+---
 
 
 Personally, I've been a big fan of LINQ ever since it was added in C# 3 over 15 years ago. I prefer the sleek SQL-like syntax to verbose, nested foreach blocks. It's nice to see that Microsoft still values it enough to keep adding new things.

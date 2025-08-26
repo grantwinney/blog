@@ -1,15 +1,22 @@
-+++
-categories = ["API", "Google"]
-date = 2018-01-31T00:07:00Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1517770413964-df8ca61194a6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "what-is-the-google-books-api"
-summary = "The Google Books API provides access to Google Books, which lets you search for any book and, at a bare minimium, see meta data about it. Depending on copyright status, you might also be able to see sample pages or read the entire book. You can also buy books."
-tags = ["API", "Google"]
-title = "Manage your books with the Google Books API"
-
-+++
+---
+categories:
+- API
+- Google
+date: "2018-01-31T00:07:00Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1517770413964-df8ca61194a6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: what-is-the-google-books-api
+summary: The Google Books API provides access to Google Books, which lets you search
+  for any book and, at a bare minimium, see meta data about it. Depending on copyright
+  status, you might also be able to see sample pages or read the entire book. You
+  can also buy books.
+tags:
+- API
+- Google
+title: Manage your books with the Google Books API
+---
 
 
 There's a staggering amount of data out there - and a lot of it free - but accessing it isn't always easy. A good API hides the complexities of accessing that data, and can save you a ton of development time too. After writing about 15 APIs in 15 days over the holidays, I've decided to find a different API to write about every Monday (okay, so I'm a day late this week...).

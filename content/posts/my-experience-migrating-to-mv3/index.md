@@ -1,15 +1,23 @@
-+++
-categories = ["Browser Extension", "Google", "MV3"]
-date = 2022-11-19T22:09:03Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1534198601173-4de3342a0b62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fG1vbmFyY2glMjBidXR0ZXJmbHl8ZW58MHx8fHwxNjY4ODkyMzkz&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "my-experience-migrating-to-mv3"
-summary = "I migrated my addons to MV3, and learned that version numbers increase, DRY is overrated, and 3 and 15 are probably important but I have no idea why. What I didn't learn is how MV3 made my addon better."
-tags = ["Browser Extension", "Google", "MV3"]
-title = "My experience migrating to MV3"
-
-+++
+---
+categories:
+- Browser Extension
+- Google
+- MV3
+date: "2022-11-19T22:09:03Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1534198601173-4de3342a0b62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fG1vbmFyY2glMjBidXR0ZXJmbHl8ZW58MHx8fHwxNjY4ODkyMzkz&ixlib=rb-4.0.3&q=80&w=2000
+slug: my-experience-migrating-to-mv3
+summary: I migrated my addons to MV3, and learned that version numbers increase, DRY
+  is overrated, and 3 and 15 are probably important but I have no idea why. What I
+  didn't learn is how MV3 made my addon better.
+tags:
+- Browser Extension
+- Google
+- MV3
+title: My experience migrating to MV3
+---
 
 
 Over the summer I wrote about Google's forced manifest v3 update, and was up in the air about whether to bother figuring it out. Well, with only about 6 weeks left (actually, things got pushed out even more since the original article), I decided to give it another go, mostly because a good number of people have found Hide Comments Everywhere to be helpful.

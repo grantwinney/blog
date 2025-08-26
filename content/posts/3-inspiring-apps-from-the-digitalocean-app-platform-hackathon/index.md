@@ -1,15 +1,18 @@
-+++
-categories = ["DigitalOcean"]
-date = 2021-01-12T16:42:00Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDQxfHxwcm9ncmFtbWluZ3xlbnwwfHx8fDE2MzMxODcwOTg&ixlib=rb-1.2.1&q=80&w=2000"
-slug = "3-inspiring-apps-from-the-digitalocean-app-platform-hackathon"
-summary = "A few of my favorite submissions from DigitalOcean's App Platform hackathon, that hold real promise for bringing people together!"
-tags = ["DigitalOcean"]
-title = "3 inspiring apps from the DigitalOcean App Platform Hackathon"
-
-+++
+---
+categories:
+- DigitalOcean
+date: "2021-01-12T16:42:00Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDQxfHxwcm9ncmFtbWluZ3xlbnwwfHx8fDE2MzMxODcwOTg&ixlib=rb-1.2.1&q=80&w=2000
+slug: 3-inspiring-apps-from-the-digitalocean-app-platform-hackathon
+summary: A few of my favorite submissions from DigitalOcean's App Platform hackathon,
+  that hold real promise for bringing people together!
+tags:
+- DigitalOcean
+title: 3 inspiring apps from the DigitalOcean App Platform Hackathon
+---
 
 
 DigitalOcean ran a month-long hackathon to drum up excitement for their new App Platform PaaS. I haven't tried it yet, but I'd like to (and probably should have since they were offering $50 credits). Most devs just want to bang out code, not worry about provisioning hardware and infrastructure, and it sounds like that's where App Platform comes in.

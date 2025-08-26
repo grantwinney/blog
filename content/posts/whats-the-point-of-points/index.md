@@ -1,15 +1,22 @@
-+++
-categories = ["Agile", "Scrum", "Questions"]
-date = 2023-03-22T10:32:44Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1506621791785-381723a87549?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDExMnx8bnVtYmVyc3xlbnwwfHx8fDE2Nzg5MzQwMjY&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "whats-the-point-of-points"
-summary = "Points aren't hours, but they sorta represent hours. Or do they? 🤔 If you're as perplexed as I used to be, here's a few thoughts about points."
-tags = ["Agile", "Scrum", "Questions"]
-title = "What is the point of points?"
-
-+++
+---
+categories:
+- Agile
+- Scrum
+- Questions
+date: "2023-03-22T10:32:44Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1506621791785-381723a87549?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDExMnx8bnVtYmVyc3xlbnwwfHx8fDE2Nzg5MzQwMjY&ixlib=rb-4.0.3&q=80&w=2000
+slug: whats-the-point-of-points
+summary: "Points aren't hours, but they sorta represent hours. Or do they? \U0001F914
+  If you're as perplexed as I used to be, here's a few thoughts about points."
+tags:
+- Agile
+- Scrum
+- Questions
+title: What is the point of points?
+---
 
 
 A quick disclaimer - everything that follows is just one developer's experience (guess whose lol), having been in agile/scrum environments of varying degrees for the past decade. I say varying degrees because everyone seems to do it slightly differently, which is good actually. One size seldom fits all.

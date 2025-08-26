@@ -1,15 +1,18 @@
-+++
-categories = ["Reflections"]
-date = 2023-08-24T21:30:16Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1582455462467-b2bf6e3e211f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRpZ3xlbnwwfHx8fDE2OTI4OTk0MTd8MA&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "even-in-failure-success"
-summary = "When what we're trying to accomplish fails, the extra knowledge and clarity we get just by making the attempt is a win all by itself."
-tags = ["Reflections"]
-title = "Even in failure, an increase in understanding is a win"
-
-+++
+---
+categories:
+- Reflections
+date: "2023-08-24T21:30:16Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1582455462467-b2bf6e3e211f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRpZ3xlbnwwfHx8fDE2OTI4OTk0MTd8MA&ixlib=rb-4.0.3&q=80&w=2000
+slug: even-in-failure-success
+summary: When what we're trying to accomplish fails, the extra knowledge and clarity
+  we get just by making the attempt is a win all by itself.
+tags:
+- Reflections
+title: Even in failure, an increase in understanding is a win
+---
 
 
 Adding something new to an application is kind of exciting, especially when it's an obvious change, and even moreso when it's something the users actually want. Then there's the behind-the-scenes kinda changes, where you solve some problem in the system, and even though (best case scenario) no one will know you were there, there's still a sense of accomplishment. And of course there's everything related to development too - implementing and figuring out issues with DevOps and git and installers and whatever programming tools you might want to use, etc.

@@ -1,15 +1,21 @@
-+++
-categories = ["Erlang", "Coding"]
-date = 2017-11-01T16:50:27Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2017/11/tiger-2864785_1920.jpg"
-slug = "taming-the-erlang-beast"
-summary = "Becoming an Erlang developer has not always been easy, but over the last couple of years I've learned a few ways to tame the beast. It doesn't need to become any other language, but there's definitely room for improving the developer experience!"
-tags = ["Erlang", "Coding"]
-title = "Taming the Erlang Beast"
-
-+++
+---
+categories:
+- Erlang
+- Coding
+date: "2017-11-01T16:50:27Z"
+description: ""
+draft: false
+cover:
+  image: tiger-2864785_1920.jpg
+slug: taming-the-erlang-beast
+summary: Becoming an Erlang developer has not always been easy, but over the last
+  couple of years I've learned a few ways to tame the beast. It doesn't need to become
+  any other language, but there's definitely room for improving the developer experience!
+tags:
+- Erlang
+- Coding
+title: Taming the Erlang Beast
+---
 
 
 When I switched from C# to Erlang, it was a steeper climb than I had anticipated. There's a lot that's different - static vs dynamic types, object-oriented vs functional, the immutability of variables and heavy emphasis on pattern-matching and recursion. It's a very different way of thinking. And unfortunately for me, there's no Visual Studio for Erlang to hold your hand.

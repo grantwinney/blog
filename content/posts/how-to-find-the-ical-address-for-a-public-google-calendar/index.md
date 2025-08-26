@@ -1,15 +1,18 @@
-+++
-categories = ["Google"]
-date = 2020-02-28T03:42:32Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1506784365847-bbad939e9335?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "how-to-find-the-ical-address-for-a-public-google-calendar"
-summary = "Every Google calendar URL has an iCal file you can use... here's how to find it."
-tags = ["Google"]
-title = "How to find the iCal address for a public Google calendar"
-
-+++
+---
+categories:
+- Google
+date: "2020-02-28T03:42:32Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1506784365847-bbad939e9335?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: how-to-find-the-ical-address-for-a-public-google-calendar
+summary: Every Google calendar URL has an iCal file you can use... here's how to find
+  it.
+tags:
+- Google
+title: How to find the iCal address for a public Google calendar
+---
 
 
 If you already know why you're here, then just plug the public URL (or the calendar ID) from the calendar settings page, and click the appropriate button to get the iCal link. For everyone else, scroll past the text boxes for a brief explanation...

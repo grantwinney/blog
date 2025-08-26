@@ -1,15 +1,26 @@
-+++
-categories = ["Multithreading", "Surviving WinForms", "C# 5", "C#", "Async"]
-date = 2021-06-07T12:56:43Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1572033201021-28947382ff95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDR8fGp1Z2dsaW5nfGVufDB8fHx8MTYzMzcwNDQ5Mg&ixlib=rb-1.2.1&q=80&w=2000"
-slug = "using-async-await-and-task-to-keep-the-winforms-ui-more-responsive"
-summary = "Using the async/await pattern in WinForms is an easy win, helping prevent one of the most annoying user experiences - a frozen UI."
-tags = ["Multithreading", "Surviving WinForms", "C# 5", "C#", "Async"]
-title = "Using Async, Await, and Task to keep the WinForms UI responsive"
-
-+++
+---
+categories:
+- Multithreading
+- Surviving WinForms
+- C# 5
+- C#
+- Async
+date: "2021-06-07T12:56:43Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1572033201021-28947382ff95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDR8fGp1Z2dsaW5nfGVufDB8fHx8MTYzMzcwNDQ5Mg&ixlib=rb-1.2.1&q=80&w=2000
+slug: using-async-await-and-task-to-keep-the-winforms-ui-more-responsive
+summary: Using the async/await pattern in WinForms is an easy win, helping prevent
+  one of the most annoying user experiences - a frozen UI.
+tags:
+- Multithreading
+- Surviving WinForms
+- C# 5
+- C#
+- Async
+title: Using Async, Await, and Task to keep the WinForms UI responsive
+---
 
 
 For most of my dev career, I've been in C# shops. That doesn't mean every project required C# exclusively, but most of them did. I've also used React, Ruby, C++, Erlang.. whatever's called for. But large company or small, if you're a C# dev, sooner or later you'll likely find yourself supporting a WinForms app. And crystal reports, but we shan't speak of that here. 😑

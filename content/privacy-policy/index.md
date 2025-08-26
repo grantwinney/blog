@@ -1,13 +1,14 @@
-+++
-categories = ["Privacy"]
-date = 2020-02-12T18:10:41Z
-description = ""
-draft = false
-slug = "privacy-policy"
-tags = ["Privacy"]
-title = "Privacy Policy"
-
-+++
+---
+categories:
+- Privacy
+date: "2020-02-12T18:10:41Z"
+description: ""
+draft: false
+slug: privacy-policy
+tags:
+- Privacy
+title: Privacy Policy
+---
 
 
 My policy on privacy? It's good! So in the interest of full disclosure...

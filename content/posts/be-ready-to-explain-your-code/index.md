@@ -1,15 +1,19 @@
-+++
-categories = ["Reflections"]
-date = 2021-02-03T13:28:48Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2021/02/pexels-christina-morillo-1181376.jpg"
-slug = "be-ready-to-explain-your-code"
-summary = "Does the mere thought of explaining your code cause anxiety? Be confident! We should all understand what we're writing and why. It's an opportunity (for everyone) to learn!"
-tags = ["Reflections"]
-title = "Be ready to explain your code"
-
-+++
+---
+categories:
+- Reflections
+date: "2021-02-03T13:28:48Z"
+description: ""
+draft: false
+cover:
+  image: pexels-christina-morillo-1181376.jpg
+slug: be-ready-to-explain-your-code
+summary: Does the mere thought of explaining your code cause anxiety? Be confident!
+  We should all understand what we're writing and why. It's an opportunity (for everyone)
+  to learn!
+tags:
+- Reflections
+title: Be ready to explain your code
+---
 
 
 When we're programming, there's all kinds of ways to code defensively. We surround blocks of code with "try / catch" structures that prevent our apps from crashing. We log errors, to help track down problems later on. We include tests to help make sure next week's changes don't break last weeks' code. We document our work so that other devs, business, end-users etc will find it when they (or you and me in 6 months!) need to figure out why something works the way it does.

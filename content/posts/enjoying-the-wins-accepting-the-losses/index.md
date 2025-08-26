@@ -1,15 +1,18 @@
-+++
-categories = ["Reflections"]
-date = 2022-08-09T13:07:49Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1506324587841-69c8c9aaa05c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fGNsaW1ifGVufDB8fHx8MTY2MDAxNzM3MQ&ixlib=rb-1.2.1&q=80&w=2000"
-slug = "enjoying-the-wins-accepting-the-losses"
-summary = "When our code isn't clicking, negativity can quickly overshadow all the positive. That's when we need to remember our victories!"
-tags = ["Reflections"]
-title = "Enjoying the wins, accepting the losses"
-
-+++
+---
+categories:
+- Reflections
+date: "2022-08-09T13:07:49Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1506324587841-69c8c9aaa05c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fGNsaW1ifGVufDB8fHx8MTY2MDAxNzM3MQ&ixlib=rb-1.2.1&q=80&w=2000
+slug: enjoying-the-wins-accepting-the-losses
+summary: When our code isn't clicking, negativity can quickly overshadow all the positive.
+  That's when we need to remember our victories!
+tags:
+- Reflections
+title: Enjoying the wins, accepting the losses
+---
 
 
 Sometimes, when I try to code something, pouring extra hours of effort into it, I can just feel how close all the pieces are to falling into place. Then I realize I'm going in circles, spending more time than I meant to, and a solution, whatever it might be, has escaped me at the moment. Git checkout, try again later.

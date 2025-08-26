@@ -1,15 +1,22 @@
-+++
-categories = ["Raspberry PI", "Sonic Pi", "Coding"]
-date = 2016-06-21T13:02:00Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1500702790369-fe461685b3c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEwfHxtaXhlcnxlbnwwfHx8fDE3MjU5ODMzODh8MA&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "creating-music-with-sonic-pi-on-raspberry-pi"
-summary = "After watching Scott Fradkin live-code Sonic Pi for an hour at a conference, it inspired me to make a little music of my own."
-tags = ["Raspberry PI", "Sonic Pi", "Coding"]
-title = "Creating Music with Sonic Pi on a Raspberry Pi"
-
-+++
+---
+categories:
+- Raspberry PI
+- Sonic Pi
+- Coding
+date: "2016-06-21T13:02:00Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1500702790369-fe461685b3c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEwfHxtaXhlcnxlbnwwfHx8fDE3MjU5ODMzODh8MA&ixlib=rb-4.0.3&q=80&w=2000
+slug: creating-music-with-sonic-pi-on-raspberry-pi
+summary: After watching Scott Fradkin live-code Sonic Pi for an hour at a conference,
+  it inspired me to make a little music of my own.
+tags:
+- Raspberry PI
+- Sonic Pi
+- Coding
+title: Creating Music with Sonic Pi on a Raspberry Pi
+---
 
 
 Back in May, at the Stir Trek conference in Columbus OH, I got to watch Scott Fradkin live-code using Sonic Pi for nearly an hour, not only explaining what it was capable of, but showing it too.

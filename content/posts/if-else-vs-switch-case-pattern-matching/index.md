@@ -1,15 +1,20 @@
-+++
-categories = ["C#", "Coding"]
-date = 2023-11-03T16:35:50Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1429743305873-d4065c15f93e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEzfHxwYXRofGVufDB8fHx8MTY5ODM3Nzc2N3ww&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "if-else-vs-switch-case-pattern-matching"
-summary = "A look at if/else, switch/case, pattern matching, other options ... and which is best. (spoiler: none ;) )"
-tags = ["C#", "Coding"]
-title = "If/else vs switch/case pattern matching"
-
-+++
+---
+categories:
+- C#
+- Coding
+date: "2023-11-03T16:35:50Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1429743305873-d4065c15f93e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEzfHxwYXRofGVufDB8fHx8MTY5ODM3Nzc2N3ww&ixlib=rb-4.0.3&q=80&w=2000
+slug: if-else-vs-switch-case-pattern-matching
+summary: 'A look at if/else, switch/case, pattern matching, other options ... and
+  which is best. (spoiler: none ;) )'
+tags:
+- C#
+- Coding
+title: If/else vs switch/case pattern matching
+---
 
 
 I stumbled on a pull request recently, in which the suggestion was made to replace an if/else block with a switch/case. The reviewer seemed to feel it was "better". In reality, these are just two approaches to organizing conditional logic, and using one or the other mostly comes down to a matter of taste.. especially with changes to C# in the last few years, but more on that below.

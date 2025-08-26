@@ -1,15 +1,22 @@
-+++
-categories = ["Azure DevOps", "ESI", "DevOps"]
-date = 2022-07-30T11:00:15Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1545987796-200677ee1011?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fG5ldHdvcmt8ZW58MHx8fHwxNzI1MzIzNzkwfDA&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "esi-building-apps-with-azure-devops-manage-dependencies"
-summary = "Continuing with Microsoft's ESI lessons, I learned about Azure Artifacts and the benefits of package managers. They're good. Use them. ;)"
-tags = ["Azure DevOps", "ESI", "DevOps"]
-title = "ESI: Building Apps with Azure DevOps - Manage Dependencies"
-
-+++
+---
+categories:
+- Azure DevOps
+- ESI
+- DevOps
+date: "2022-07-30T11:00:15Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1545987796-200677ee1011?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fG5ldHdvcmt8ZW58MHx8fHwxNzI1MzIzNzkwfDA&ixlib=rb-4.0.3&q=80&w=2000
+slug: esi-building-apps-with-azure-devops-manage-dependencies
+summary: Continuing with Microsoft's ESI lessons, I learned about Azure Artifacts
+  and the benefits of package managers. They're good. Use them. ;)
+tags:
+- Azure DevOps
+- ESI
+- DevOps
+title: 'ESI: Building Apps with Azure DevOps - Manage Dependencies'
+---
 
 
 I've been making my way through the Enterprise Skills Initiative, a program from Microsoft that has a lot of training material for Azure DevOps. This week was about creating and distributing packages of code using Azure Artifacts.

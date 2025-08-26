@@ -1,15 +1,18 @@
-+++
-categories = ["GraphQL"]
-date = 2019-09-21T02:48:40Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2019/09/graphql_banner.jpg"
-slug = "what-is-graphql-and-how-does-it-differ-from-rest"
-summary = "GraphQL is an alternative for REST, not a replacement. Let's take a brief look at how they differ."
-tags = ["GraphQL"]
-title = "What is GraphQL and how does it differ from REST?"
-
-+++
+---
+categories:
+- GraphQL
+date: "2019-09-21T02:48:40Z"
+description: ""
+draft: false
+cover:
+  image: graphql_banner.jpg
+slug: what-is-graphql-and-how-does-it-differ-from-rest
+summary: GraphQL is an alternative for REST, not a replacement. Let's take a brief
+  look at how they differ.
+tags:
+- GraphQL
+title: What is GraphQL and how does it differ from REST?
+---
 
 
 Finding a new API can be like discovering a gateway to a vast amount of data that might be otherwise inaccessible. A couple of my favorites have led to photos from the Mars Rover and 300 year old newspapers. These APIs are often implemented using REST, the standard for making web resources accessible for over a decade, but there's a different way to access resources called GraphQL.

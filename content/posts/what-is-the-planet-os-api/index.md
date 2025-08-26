@@ -1,15 +1,22 @@
-+++
-categories = ["API", "Climate"]
-date = 2018-01-23T04:58:58Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "what-is-the-planet-os-api"
-summary = "Planet OS seems to have found a great number of services that provide scientific/weather/earth related data, regularly download a small sample set from each, and provide a way to access the data through their own API. Let's see what they've got and what we can do with it!"
-tags = ["API", "Climate"]
-title = "Access weather and climate data with the Planet OS API"
-
-+++
+---
+categories:
+- API
+- Climate
+date: "2018-01-23T04:58:58Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: what-is-the-planet-os-api
+summary: Planet OS seems to have found a great number of services that provide scientific/weather/earth
+  related data, regularly download a small sample set from each, and provide a way
+  to access the data through their own API. Let's see what they've got and what we
+  can do with it!
+tags:
+- API
+- Climate
+title: Access weather and climate data with the Planet OS API
+---
 
 
 Someone once hit me up on Twitter to tell me about their API called Planet OS - or more accurately, an API for accessing other APIs.

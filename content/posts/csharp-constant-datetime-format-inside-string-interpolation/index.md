@@ -1,15 +1,25 @@
-+++
-categories = ["C#", "Coding", "C# 6", "Date-Time Handling"]
-date = 2019-04-04T20:06:50Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "csharp-constant-datetime-format-inside-string-interpolation"
-summary = "I was upgrading some code to use string interpolation, a feature introduced in C# 6, when I ran into a small snag with DateTimes and a format string stored as a constant."
-tags = ["C#", "Coding", "C# 6", "Date-Time Handling"]
-title = "Using a constant as a DateTime format inside string interpolation"
-
-+++
+---
+categories:
+- C#
+- Coding
+- C# 6
+- Date-Time Handling
+date: "2019-04-04T20:06:50Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: csharp-constant-datetime-format-inside-string-interpolation
+summary: I was upgrading some code to use string interpolation, a feature introduced
+  in C# 6, when I ran into a small snag with DateTimes and a format string stored
+  as a constant.
+tags:
+- C#
+- Coding
+- C# 6
+- Date-Time Handling
+title: Using a constant as a DateTime format inside string interpolation
+---
 
 
 

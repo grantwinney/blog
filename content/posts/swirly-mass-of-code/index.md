@@ -1,14 +1,16 @@
-+++
-categories = ["Reflections"]
-date = 2023-11-14T04:31:52Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1597425098166-90b88803284b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHN3aXJsfGVufDB8fHx8MTY5OTkyNzA4OHww&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "swirly-mass-of-code"
-tags = ["Reflections"]
-title = "A swirly mass of shared code"
-
-+++
+---
+categories:
+- Reflections
+date: "2023-11-14T04:31:52Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1597425098166-90b88803284b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHN3aXJsfGVufDB8fHx8MTY5OTkyNzA4OHww&ixlib=rb-4.0.3&q=80&w=2000
+slug: swirly-mass-of-code
+tags:
+- Reflections
+title: A swirly mass of shared code
+---
 
 
 I heard a story recently, where a team was asked, after spending months adding a set of features to a codebase, to remove a specific feature from very early on in the project, right before the release date. Other features had been built around it and on top of it. Without necessarily even intending too, the devs that came after that code was written would've had to understand it in order to add to it. I don't know what the outcome was, but that's not an easy ask.

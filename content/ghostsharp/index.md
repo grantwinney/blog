@@ -1,11 +1,10 @@
-+++
-date = 2019-07-08T21:19:14Z
-description = ""
-draft = false
-slug = "ghostsharp"
-title = "GhostSharp"
-
-+++
+---
+date: "2019-07-08T21:19:14Z"
+description: ""
+draft: false
+slug: ghostsharp
+title: GhostSharp
+---
 
 
 <style type="text/css">

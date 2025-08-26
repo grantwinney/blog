@@ -1,15 +1,22 @@
-+++
-categories = ["Async", "Surviving WinForms", "Coding"]
-date = 2024-10-07T02:43:55Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2024/10/multitasking-7303815_1920-1.jpg"
-slug = "async-in-5-short-examples"
-summary = "Async code isn't always intuitive, but practicing helps. Let's take a look at Async, CancellationToken, and IProgress, in a few short examples."
-tags = ["Async", "Surviving WinForms", "Coding"]
-title = "Async, CancellationToken, and IProgress in 5 Short Examples"
-
-+++
+---
+categories:
+- Async
+- Surviving WinForms
+- Coding
+date: "2024-10-07T02:43:55Z"
+description: ""
+draft: false
+cover:
+  image: multitasking-7303815_1920-1.jpg
+slug: async-in-5-short-examples
+summary: Async code isn't always intuitive, but practicing helps. Let's take a look
+  at Async, CancellationToken, and IProgress, in a few short examples.
+tags:
+- Async
+- Surviving WinForms
+- Coding
+title: Async, CancellationToken, and IProgress in 5 Short Examples
+---
 
 
 Learning to write code asynchronously does not come naturally, at least not for this dev. We're wired to give the majority of our attention to one thing at a time, so it can be difficult to write code that takes advantage of the fact that a computer can multitask very well.

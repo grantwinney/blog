@@ -1,15 +1,20 @@
-+++
-categories = ["OSS", "Reflections"]
-date = 2015-11-12T07:27:00Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2015/11/hacktoberfest-sticker.png"
-slug = "hacktoberfest-and-making-my-first-oss-contributions"
-summary = "I made my first OSS contributions during HacktoberFest, gaining experience (and swag!) with the help of DigitalOcean and GitHub. :)"
-tags = ["OSS", "Reflections"]
-title = "HacktoberFest and My First OSS Contributions"
-
-+++
+---
+categories:
+- OSS
+- Reflections
+date: "2015-11-12T07:27:00Z"
+description: ""
+draft: false
+cover:
+  image: hacktoberfest-sticker.png
+slug: hacktoberfest-and-making-my-first-oss-contributions
+summary: I made my first OSS contributions during HacktoberFest, gaining experience
+  (and swag!) with the help of DigitalOcean and GitHub. :)
+tags:
+- OSS
+- Reflections
+title: HacktoberFest and My First OSS Contributions
+---
 
 
 All last month, DigitalOcean carried out an event called HacktoberFest. In their own words…

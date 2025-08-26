@@ -1,15 +1,23 @@
-+++
-categories = ["AWS Lambda", "AWS", "Ghost Blog"]
-date = 2018-06-01T17:28:01Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1502116789488-8f0c6d794de6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post"
-summary = "If you've got a Twitter account, and a blog with a lot of content, sharing your posts can be a nice way to help someone out, and drive a little extra traffic to your site. Here's how you can automate the process on your Ghost blog - for free!"
-tags = ["AWS Lambda", "AWS", "Ghost Blog"]
-title = "Tweet random posts from a Ghost blog using AWS Lambda"
-
-+++
+---
+categories:
+- AWS Lambda
+- AWS
+- Ghost Blog
+date: "2018-06-01T17:28:01Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1502116789488-8f0c6d794de6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post
+summary: If you've got a Twitter account, and a blog with a lot of content, sharing
+  your posts can be a nice way to help someone out, and drive a little extra traffic
+  to your site. Here's how you can automate the process on your Ghost blog - for free!
+tags:
+- AWS Lambda
+- AWS
+- Ghost Blog
+title: Tweet random posts from a Ghost blog using AWS Lambda
+---
 
 
 If you've got a Twitter (now X) account, and a blog with a lot of content, sharing your posts from time to time can be a nice way to drive a little extra traffic to your site. Plus, sharing your experience and knowledge could very well help someone out who would not have found your post otherwise.

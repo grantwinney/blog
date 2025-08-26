@@ -1,15 +1,22 @@
-+++
-categories = ["C# 7", "Coding", "C#"]
-date = 2022-10-08T18:40:48Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1598811629267-faffa0027fe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fHJ1c3NpYW4lMjBkb2xsfGVufDB8fHx8MTY2NTIwOTc3Mg&ixlib=rb-1.2.1&q=80&w=2000"
-slug = "local-functions-in-csharp-aka-nested-methods"
-summary = "C# 7 introduced a new tool for the belt - local functions. Let's take a look at what they are, how to use them, and why we might not want to."
-tags = ["C# 7", "Coding", "C#"]
-title = "Local functions in C# (aka nested methods)"
-
-+++
+---
+categories:
+- C# 7
+- Coding
+- C#
+date: "2022-10-08T18:40:48Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1598811629267-faffa0027fe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fHJ1c3NpYW4lMjBkb2xsfGVufDB8fHx8MTY2NTIwOTc3Mg&ixlib=rb-1.2.1&q=80&w=2000
+slug: local-functions-in-csharp-aka-nested-methods
+summary: C# 7 introduced a new tool for the belt - local functions. Let's take a look
+  at what they are, how to use them, and why we might not want to.
+tags:
+- C# 7
+- Coding
+- C#
+title: Local functions in C# (aka nested methods)
+---
 
 
 I've recently been refreshing myself on some of the goodies we got with C# 6, like null safety operators and string interpolation. I find a use for them from time to time, but I'd bet there's a lot of people besides me who could use a refresher too... if they've heard of them at all.

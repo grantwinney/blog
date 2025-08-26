@@ -1,15 +1,19 @@
-+++
-categories = ["API"]
-date = 2017-12-24T03:44:02Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1457327289196-f38b88d97147?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "what-is-noaa-api"
-summary = "The NOAA API lets us query weather and climate data from NOAA, an agency that studies and charts conditions in the oceans and atmosphere. Let's check it out!"
-tags = ["API"]
-title = "Access Climate Data With the NOAA API"
-
-+++
+---
+categories:
+- API
+date: "2017-12-24T03:44:02Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1457327289196-f38b88d97147?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: what-is-noaa-api
+summary: The NOAA API lets us query weather and climate data from NOAA, an agency
+  that studies and charts conditions in the oceans and atmosphere. Let's check it
+  out!
+tags:
+- API
+title: Access Climate Data With the NOAA API
+---
 
 
 NOAA is an American agency that studies and charts various conditions in the oceans and atmosphere, and today we're going to check out the NOAA API.

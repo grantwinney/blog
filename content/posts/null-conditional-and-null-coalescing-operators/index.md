@@ -1,15 +1,22 @@
-+++
-categories = ["C# 6", "Coding", "C#"]
-date = 2022-09-27T01:13:39Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1587920149371-ac728dd20da4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fHBlZWt8ZW58MHx8fHwxNjYzODE1Mzk4&ixlib=rb-1.2.1&q=80&w=2000"
-slug = "null-conditional-and-null-coalescing-operators"
-summary = "Checking for nulls in C# is tedious, but C# 6 gave us the null-conditional and null-coalescing operators. Let's see how they've improved things."
-tags = ["C# 6", "Coding", "C#"]
-title = "Checking for null in C#, using the null-conditional and null-coalescing operators"
-
-+++
+---
+categories:
+- C# 6
+- Coding
+- C#
+date: "2022-09-27T01:13:39Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1587920149371-ac728dd20da4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fHBlZWt8ZW58MHx8fHwxNjYzODE1Mzk4&ixlib=rb-1.2.1&q=80&w=2000
+slug: null-conditional-and-null-coalescing-operators
+summary: Checking for nulls in C# is tedious, but C# 6 gave us the null-conditional
+  and null-coalescing operators. Let's see how they've improved things.
+tags:
+- C# 6
+- Coding
+- C#
+title: Checking for null in C#, using the null-conditional and null-coalescing operators
+---
 
 
 Boy, that's a catchy title. Sometimes they just roll off the tongue, ya know? 🙄

@@ -1,15 +1,26 @@
-+++
-categories = ["WinForms", "VS2022", "Tools of the Trade", "Visual Studio"]
-date = 2023-01-14T20:36:55Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1441804238730-210ce1c2cc00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDV8fGJyb2tlbiUyMHdpbmRvd3xlbnwwfHx8fDE2NzM2NDExOTY&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "why-doesnt-vs2022-show-my-winforms-ui"
-summary = "Someone at work asked about whether we'd be able to use VS 2022 to work on our main WinForms app. It works just fine in VS 2019, so it should work in VS 2022, right? Except it doesn't. What we get is white screens of brokenness whenever we try to open a Form in the designer. But why?"
-tags = ["WinForms", "VS2022", "Tools of the Trade", "Visual Studio"]
-title = "Why doesn't VS 2022 show my WinForms UI at design time?"
-
-+++
+---
+categories:
+- WinForms
+- VS2022
+- Tools of the Trade
+- Visual Studio
+date: "2023-01-14T20:36:55Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1441804238730-210ce1c2cc00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDV8fGJyb2tlbiUyMHdpbmRvd3xlbnwwfHx8fDE2NzM2NDExOTY&ixlib=rb-4.0.3&q=80&w=2000
+slug: why-doesnt-vs2022-show-my-winforms-ui
+summary: Someone at work asked about whether we'd be able to use VS 2022 to work on
+  our main WinForms app. It works just fine in VS 2019, so it should work in VS 2022,
+  right? Except it doesn't. What we get is white screens of brokenness whenever we
+  try to open a Form in the designer. But why?
+tags:
+- WinForms
+- VS2022
+- Tools of the Trade
+- Visual Studio
+title: Why doesn't VS 2022 show my WinForms UI at design time?
+---
 
 
 After migrating some newer projects at work from .NET Core 3.1 (which reached end of support a month ago) to .NET 6, I sent a quick message to my teammates about installing VS 2022, which is required to work on .NET 6 apps. That naturally brought up the question about whether we'd be able to use VS 2022 to work on the WinForms app that is our main bread and butter. It works just fine in VS 2019, so it should work in VS 2022, right? Except it doesn't.

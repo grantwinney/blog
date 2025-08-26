@@ -1,15 +1,21 @@
-+++
-categories = ["C#", "Coding"]
-date = 2020-09-17T04:08:32Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1555861496-0666c8981751?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "rethrowing-an-exception-in-csharp"
-summary = "All programming languages have gotchas to trip you up, and C# is no exception. Today, let's check out the subtle (but significant) difference between \"throw\" and \"throw ex\"."
-tags = ["C#", "Coding"]
-title = "The right way to rethrow an exception in C#"
-
-+++
+---
+categories:
+- C#
+- Coding
+date: "2020-09-17T04:08:32Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1555861496-0666c8981751?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: rethrowing-an-exception-in-csharp
+summary: All programming languages have gotchas to trip you up, and C# is no exception.
+  Today, let's check out the subtle (but significant) difference between "throw" and
+  "throw ex".
+tags:
+- C#
+- Coding
+title: The right way to rethrow an exception in C#
+---
 
 
 All languages have gotchas, and C# is no different. A subtle one is the difference between catch (Exception) throw; and catch (Exception ex) throw ex;. On the surface, it seems like they'll do the same thing; in reality, the difference is really important if you care to know why your app is really crashing.

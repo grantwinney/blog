@@ -1,15 +1,19 @@
-+++
-categories = ["Tools of the Trade"]
-date = 2019-03-26T14:47:54Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1516828956617-80b9eec69bbb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "how-do-i-view-the-dev-console-in-my-browser"
-summary = "Most people will never even know their browser hides a great set of tools, mostly used by web developers, but which can be useful for anyone trying to figure out why their browser is misbehaving."
-tags = ["Tools of the Trade"]
-title = "Opening the developer console in every major browser"
-
-+++
+---
+categories:
+- Tools of the Trade
+date: "2019-03-26T14:47:54Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1516828956617-80b9eec69bbb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: how-do-i-view-the-dev-console-in-my-browser
+summary: Most people will never even know their browser hides a great set of tools,
+  mostly used by web developers, but which can be useful for anyone trying to figure
+  out why their browser is misbehaving.
+tags:
+- Tools of the Trade
+title: Opening the developer console in every major browser
+---
 
 
 Most people will never know their browser hides a great set of tools, mostly used by web developers, but which can be useful for anyone trying to figure out why their browser seems to be acting up.

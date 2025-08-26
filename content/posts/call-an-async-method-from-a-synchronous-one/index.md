@@ -1,15 +1,24 @@
-+++
-categories = ["Surviving WinForms", "Async", "Multithreading", "Coding"]
-date = 2023-08-11T03:59:55Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1541397436527-c5d6df584ce1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEzfHx3YWl0aW5nJTIwaW4lMjBsaW5lfGVufDB8fHx8MTY5MTUzMjM0N3ww&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "call-an-async-method-from-a-synchronous-one"
-summary = "Writing async code whenever possible is great, but how do we do it when we're stuck with legacy (and very synchronous) code?"
-tags = ["Surviving WinForms", "Async", "Multithreading", "Coding"]
-title = "How to call an async method from a synchronous one, without deadlocking"
-
-+++
+---
+categories:
+- Surviving WinForms
+- Async
+- Multithreading
+- Coding
+date: "2023-08-11T03:59:55Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1541397436527-c5d6df584ce1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEzfHx3YWl0aW5nJTIwaW4lMjBsaW5lfGVufDB8fHx8MTY5MTUzMjM0N3ww&ixlib=rb-4.0.3&q=80&w=2000
+slug: call-an-async-method-from-a-synchronous-one
+summary: Writing async code whenever possible is great, but how do we do it when we're
+  stuck with legacy (and very synchronous) code?
+tags:
+- Surviving WinForms
+- Async
+- Multithreading
+- Coding
+title: How to call an async method from a synchronous one, without deadlocking
+---
 
 
 The async/await model introduced with C# 5.0 (over a decade ago) is probably one of the best things added to the language, right up there with LINQ (introduced a few years earlier in C# 3.0). In the last few years, as I've read up more on async/await and understand it better, I try to implement it where I reasonably can. In fresh code, like a new API or a side project, that's relatively easy. Not so much in older code.

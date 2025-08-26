@@ -1,15 +1,20 @@
-+++
-categories = ["API", "Climate"]
-date = 2017-12-29T15:33:04Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1537210249814-b9a10a161ae4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "what-is-openweathermap-api"
-summary = "OpenWeatherMap provides free access to extensive weather data - current conditions, 5-day forecast, uv index, weather alerts, etc. Let's check out their API!"
-tags = ["API", "Climate"]
-title = "Access Current and Historical Weather Data with the OpenWeatherMap API"
-
-+++
+---
+categories:
+- API
+- Climate
+date: "2017-12-29T15:33:04Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1537210249814-b9a10a161ae4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: what-is-openweathermap-api
+summary: OpenWeatherMap provides free access to extensive weather data - current conditions,
+  5-day forecast, uv index, weather alerts, etc. Let's check out their API!
+tags:
+- API
+- Climate
+title: Access Current and Historical Weather Data with the OpenWeatherMap API
+---
 
 
 OpenWeatherMap provides free access to current weather conditions, 5-day forecast, uv index, alerts, etc. Let's check out the OpenWeatherMap API.

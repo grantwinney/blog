@@ -1,20 +1,21 @@
-+++
-date = 2019-07-08T19:16:16Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1619468129361-605ebea04b44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDMzfHxwaW5zfGVufDB8fHx8MTYzNDA0NjgyOQ&ixlib=rb-1.2.1&q=80&w=2000"
-slug = "generate-links-for-headers"
-summary = "Ever wanted to share a link, not just to a webpage, but to a particular section of a webpage? This extension automatically generates links for all headers on the page, to make it easier to share links that jump to a specific section."
-title = "Generate Links for Headers"
-
-+++
+---
+date: "2019-07-08T19:16:16Z"
+description: ""
+draft: false
+image: https://images.unsplash.com/photo-1619468129361-605ebea04b44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDMzfHxwaW5zfGVufDB8fHx8MTYzNDA0NjgyOQ&ixlib=rb-1.2.1&q=80&w=2000
+slug: generate-links-for-headers
+summary: Ever wanted to share a link, not just to a webpage, but to a particular section
+  of a webpage? This extension automatically generates links for all headers on the
+  page, to make it easier to share links that jump to a specific section.
+title: Generate Links for Headers
+---
 
 
 Ever wanted to share a link, not just to a webpage, but to a particular _section_ of a webpage? GLfH automatically generates links for all headers on the page, to make it easier to share links that jump to a specific section.
 
 It's available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/generate-links-for-headers/) and [Chrome](https://chrome.google.com/webstore/detail/generate-links-for-header/dckfkngmahjdokkkmconmfjdmicjcmgf) (so [Brave](https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-), [Opera](https://addons.opera.com/en/extensions/details/install-chrome-extensions/), and Edge too).
 
-{{< figure src="__GHOST_URL__/content/images/2022/03/image.png" >}}
+{{< figure src="image.png" >}}
 
 ## How's it work?
 

@@ -1,15 +1,20 @@
-+++
-categories = ["Erlang"]
-date = 2019-02-09T21:10:27Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "common-dialyzer-errors-and-solutions-in-erlang"
-summary = "When dealing with a dynamically typed language, any effort to tame the beast can pay off. For Erlang, that means Dialyzer specs. The more specs added, the more helpful the tool becomes - but getting to that point can be painful. Here are some warnings I've seen, what they mean and how I solved them."
-tags = ["Erlang"]
-title = "Common dialyzer errors and solutions in Erlang"
-
-+++
+---
+categories:
+- Erlang
+date: "2019-02-09T21:10:27Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: common-dialyzer-errors-and-solutions-in-erlang
+summary: When dealing with a dynamically typed language, any effort to tame the beast
+  can pay off. For Erlang, that means Dialyzer specs. The more specs added, the more
+  helpful the tool becomes - but getting to that point can be painful. Here are some
+  warnings I've seen, what they mean and how I solved them.
+tags:
+- Erlang
+title: Common dialyzer errors and solutions in Erlang
+---
 
 
 When you're dealing with a dynamically typed language like Erlang, any effort to tame the beast can pay off in spades. I'm currently focused on an Erlang app that has zero Dialyzer specs in it, so adding them is the hill I'm currently dying on. If you're new to it, check out Learn You Some Erlang.

@@ -1,15 +1,20 @@
-+++
-categories = ["STEM"]
-date = 2016-02-06T11:55:48Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2016/02/Smithsonian-Motor-Works-00007.jpg"
-slug = "building-a-4-stroke-internal-combustion-engine-with-the-smithsonian-motor-works-model"
-summary = "Last summer, I found this “Smithsonian Motor-Works” set at a garage sale. Once built, it models a 4-stroke internal combustion engine. I’d shelved it for a rainy day and rediscovered it last weekend while cleaning the basement. The girls were out - time for a little father/son bonding!"
-tags = ["STEM"]
-title = "Building the model 4-stroke combustion engine from Smithsonian"
-
-+++
+---
+categories:
+- STEM
+date: "2016-02-06T11:55:48Z"
+description: ""
+draft: false
+cover:
+  image: Smithsonian-Motor-Works-00007.jpg
+slug: building-a-4-stroke-internal-combustion-engine-with-the-smithsonian-motor-works-model
+summary: Last summer, I found this “Smithsonian Motor-Works” set at a garage sale.
+  Once built, it models a 4-stroke internal combustion engine. I’d shelved it for
+  a rainy day and rediscovered it last weekend while cleaning the basement. The girls
+  were out - time for a little father/son bonding!
+tags:
+- STEM
+title: Building the model 4-stroke combustion engine from Smithsonian
+---
 
 
 Garage sales are great for finding random, interesting things to do with the kids, usually for dirt cheap. Last summer, I found this “Smithsonian Motor-Works” set for $5, which I figured was a steal. Once built, it’s supposed to model a 4-stroke internal combustion engine.

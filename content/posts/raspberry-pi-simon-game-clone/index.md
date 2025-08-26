@@ -1,15 +1,26 @@
-+++
-categories = ["Raspberry PI", "Sonic Pi", "Retro", "Coding", "Python"]
-date = 2016-07-28T08:09:41Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2020/03/simon-clone-1.png"
-slug = "raspberry-pi-simon-game-clone"
-summary = "Let's recreate the Simon game of the 1980s using a Raspberry Pi and Sonic Pi!"
-tags = ["Raspberry PI", "Sonic Pi", "Retro", "Coding", "Python"]
-title = "A Simon Game Clone for the Raspberry Pi"
-
-+++
+---
+categories:
+- Raspberry PI
+- Sonic Pi
+- Retro
+- Coding
+- Python
+date: "2016-07-28T08:09:41Z"
+description: ""
+draft: false
+cover:
+  image: simon-clone-1.png
+slug: raspberry-pi-simon-game-clone
+summary: Let's recreate the Simon game of the 1980s using a Raspberry Pi and Sonic
+  Pi!
+tags:
+- Raspberry PI
+- Sonic Pi
+- Retro
+- Coding
+- Python
+title: A Simon Game Clone for the Raspberry Pi
+---
 
 
 Have you been around long enough to remember the popular Simon game from the 70s and 80s? There’ve been plenty of remakes over the years, but I had one of the originals when I was younger.

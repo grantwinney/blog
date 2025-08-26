@@ -1,15 +1,22 @@
-+++
-categories = ["Azure DevOps", "ESI", "DevOps"]
-date = 2022-07-16T18:48:55Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1601388152430-4ad0f14c0788?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fGZsb3d8ZW58MHx8fHwxNjU3OTk2OTk3&ixlib=rb-1.2.1&q=80&w=2000"
-slug = "esi-build-applications-implement-a-workflow"
-summary = "Continuing with Microsoft's ESI, I spent some time this week learning about workflows, reusable elements, and protecting and monitoring the code."
-tags = ["Azure DevOps", "ESI", "DevOps"]
-title = "ESI: Building Apps with Azure DevOps - Implement a Workflow"
-
-+++
+---
+categories:
+- Azure DevOps
+- ESI
+- DevOps
+date: "2022-07-16T18:48:55Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1601388152430-4ad0f14c0788?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fGZsb3d8ZW58MHx8fHwxNjU3OTk2OTk3&ixlib=rb-1.2.1&q=80&w=2000
+slug: esi-build-applications-implement-a-workflow
+summary: Continuing with Microsoft's ESI, I spent some time this week learning about
+  workflows, reusable elements, and protecting and monitoring the code.
+tags:
+- Azure DevOps
+- ESI
+- DevOps
+title: 'ESI: Building Apps with Azure DevOps - Implement a Workflow'
+---
 
 
 A few weeks ago, I wrote about the Enterprise Skills Initiative, a program from Microsoft that my current employer has access to, so.. yay, free learning material.

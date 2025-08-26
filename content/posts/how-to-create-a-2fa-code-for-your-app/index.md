@@ -1,15 +1,22 @@
-+++
-categories = ["2FA", "Coding", "Security"]
-date = 2019-08-13T03:54:37Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2019/07/finger-2081169_1280.jpg"
-slug = "how-to-create-a-2fa-code-for-your-app"
-summary = "I use 2FA on every site that supports it, but I'd never given much thought to how a 2FA code is generated. Let's learn how!"
-tags = ["2FA", "Coding", "Security"]
-title = "Create a TOTP 2FA code for your app"
-
-+++
+---
+categories:
+- 2FA
+- Coding
+- Security
+date: "2019-08-13T03:54:37Z"
+description: ""
+draft: false
+cover:
+  image: finger-2081169_1280.jpg
+slug: how-to-create-a-2fa-code-for-your-app
+summary: I use 2FA on every site that supports it, but I'd never given much thought
+  to how a 2FA code is generated. Let's learn how!
+tags:
+- 2FA
+- Coding
+- Security
+title: Create a TOTP 2FA code for your app
+---
 
 
 I've been using 2FA on every site that supports it for quite some time, but I've never given much thought to how a 2FA code is created. I enable it, scan the QR code, and print the backup codes. The rest is magic. 🧙‍♂️

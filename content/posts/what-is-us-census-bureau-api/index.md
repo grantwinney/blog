@@ -1,15 +1,18 @@
-+++
-categories = ["API"]
-date = 2017-12-30T23:01:30Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2020/03/census-at-bethlehem-4382307_1920.jpg"
-slug = "what-is-us-census-bureau-api"
-summary = "The US Census Bureau APIs provide free access to geolocation data, as well as American census data, demographics, housing stats, etc. Let's check them out!"
-tags = ["API"]
-title = "Accessing Census, Demographic, and Housing Data with the US Census Bureau API"
-
-+++
+---
+categories:
+- API
+date: "2017-12-30T23:01:30Z"
+description: ""
+draft: false
+cover:
+  image: census-at-bethlehem-4382307_1920.jpg
+slug: what-is-us-census-bureau-api
+summary: The US Census Bureau APIs provide free access to geolocation data, as well
+  as American census data, demographics, housing stats, etc. Let's check them out!
+tags:
+- API
+title: Accessing Census, Demographic, and Housing Data with the US Census Bureau API
+---
 
 
 The US Census Bureau APIs

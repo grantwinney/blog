@@ -1,15 +1,18 @@
-+++
-categories = ["Ghost Blog"]
-date = 2017-04-01T18:47:23Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1476283721796-dd935b062838?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "5-quick-hacks-for-your-ghost-theme"
-summary = "These \"hacks\" for Ghost add some cool features to any blog, and should be usable with any theme."
-tags = ["Ghost Blog"]
-title = "5 Quick Hacks for Your Ghost Theme"
-
-+++
+---
+categories:
+- Ghost Blog
+date: "2017-04-01T18:47:23Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1476283721796-dd935b062838?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: 5-quick-hacks-for-your-ghost-theme
+summary: These "hacks" for Ghost add some cool features to any blog, and should be
+  usable with any theme.
+tags:
+- Ghost Blog
+title: 5 Quick Hacks for Your Ghost Theme
+---
 
 
 I'm using the default "Casper" theme that installs with Ghost (read more about my migration from WordPress to Ghost), but these hacks should be usable in any theme (with adjustments) as needed. Using these requires that you're able to SSH into your Ghost installation, or otherwise have access to upload and modify files.

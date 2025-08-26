@@ -1,15 +1,22 @@
-+++
-categories = ["API", "Geolocation"]
-date = 2019-02-12T11:47:00Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1476973422084-e0fa66ff9456?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "using-the-ip-geolocation-api-to-find-info-about-an-ip-address"
-summary = "Last year I caught an article about a simple, free service called ipify that returns your IP address. It became so popular the author soon found himself dealing with billions of requests per month! Here's a look at that API and the IP Geolocation API that it spawned."
-tags = ["API", "Geolocation"]
-title = "Find info about an IP address with the IP Geolocation API"
-
-+++
+---
+categories:
+- API
+- Geolocation
+date: "2019-02-12T11:47:00Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1476973422084-e0fa66ff9456?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: using-the-ip-geolocation-api-to-find-info-about-an-ip-address
+summary: Last year I caught an article about a simple, free service called ipify that
+  returns your IP address. It became so popular the author soon found himself dealing
+  with billions of requests per month! Here's a look at that API and the IP Geolocation
+  API that it spawned.
+tags:
+- API
+- Geolocation
+title: Find info about an IP address with the IP Geolocation API
+---
 
 
 I read an article awhile back, called To 30 Billion and Beyond, about a simple to use and completely free service called ipify (source code), which returns your current IP address in a few different formats. Randall Degges wrote it because he needed it personally, but it became so popular he soon found himself having to deal with tens of billions of requests per month!

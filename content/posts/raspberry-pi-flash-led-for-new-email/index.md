@@ -1,15 +1,22 @@
-+++
-categories = ["Raspberry PI", "Coding", "Python"]
-date = 2016-05-28T21:19:25Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1581869399661-d6b14e4f6121?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "raspberry-pi-flash-led-for-new-email"
-summary = "Let's learn how to flash an LED on the Raspberry Pi when someone sends us a new email."
-tags = ["Raspberry PI", "Coding", "Python"]
-title = "Flash an LED on Your Raspberry Pi When You Get New Email"
-
-+++
+---
+categories:
+- Raspberry PI
+- Coding
+- Python
+date: "2016-05-28T21:19:25Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1581869399661-d6b14e4f6121?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: raspberry-pi-flash-led-for-new-email
+summary: Let's learn how to flash an LED on the Raspberry Pi when someone sends us
+  a new email.
+tags:
+- Raspberry PI
+- Coding
+- Python
+title: Flash an LED on Your Raspberry Pi When You Get New Email
+---
 
 
 Let's create an email notification system using the Raspberry Pi. It'll check for new email, and flash an LED when we get one.

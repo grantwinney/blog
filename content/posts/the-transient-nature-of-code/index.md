@@ -1,15 +1,20 @@
-+++
-categories = ["Reflections"]
-date = 2020-10-11T03:00:46Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1558932130-308a12148740?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "the-transient-nature-of-code"
-summary = "I just deleted my coworkers code. 😱 It was good code that wasn't needed anymore, and he understood why. The nature of coding is that it's a progression, and any individual code is transient by nature. Today's code is subject to tomorrow's refactoring."
-tags = ["Reflections"]
-title = "The transient nature of code"
-
-+++
+---
+categories:
+- Reflections
+date: "2020-10-11T03:00:46Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1558932130-308a12148740?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: the-transient-nature-of-code
+summary: "I just deleted my coworkers code. \U0001F631 It was good code that wasn't
+  needed anymore, and he understood why. The nature of coding is that it's a progression,
+  and any individual code is transient by nature. Today's code is subject to tomorrow's
+  refactoring."
+tags:
+- Reflections
+title: The transient nature of code
+---
 
 
 I just did one of the most painful things a dev can do to another dev. I deleted his code! I mean, it wasn't out of spite or anything, lol. It was good, solid code, covered by dozens of tests, which made it that much harder to pull the trigger. But it wasn't needed anymore.

@@ -1,14 +1,20 @@
-+++
-categories = ["Raspberry PI", "Coding", "Python"]
-date = 2016-08-22T07:28:52Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1543005183-b66272de41f3?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "raspberry-pi-pulse-width-modulation"
-tags = ["Raspberry PI", "Coding", "Python"]
-title = "How to Use Pulse Width Modulation (PWM) on an RGB LED and the Raspberry Pi"
-
-+++
+---
+categories:
+- Raspberry PI
+- Coding
+- Python
+date: "2016-08-22T07:28:52Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1543005183-b66272de41f3?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: raspberry-pi-pulse-width-modulation
+tags:
+- Raspberry PI
+- Coding
+- Python
+title: How to Use Pulse Width Modulation (PWM) on an RGB LED and the Raspberry Pi
+---
 
 
 If you buy a kit with random LEDs, wires, switches, etc, you’re likely to end up with one or two of those funky little LEDs that appears to be white, and has 4 wires instead of 2. I had set mine aside and made a mental note to figure it out later – well, that time has come!

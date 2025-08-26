@@ -1,15 +1,26 @@
-+++
-categories = ["Surviving WinForms", "C# 4", "C# 7.2", "Coding", "C#"]
-date = 2022-10-12T22:09:47Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDd8fHByb2dyYW1taW5nfGVufDB8fHx8MTY2NTYwNjA0OA&ixlib=rb-1.2.1&q=80&w=2000"
-slug = "csharp-named-arguments"
-summary = "Named arguments in C#.. they've been around a long time, but does anyone use them? Let's check out another feature that helps tame wild code."
-tags = ["Surviving WinForms", "C# 4", "C# 7.2", "Coding", "C#"]
-title = "Named arguments in C#"
-
-+++
+---
+categories:
+- Surviving WinForms
+- C# 4
+- C# 7.2
+- Coding
+- C#
+date: "2022-10-12T22:09:47Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDd8fHByb2dyYW1taW5nfGVufDB8fHx8MTY2NTYwNjA0OA&ixlib=rb-1.2.1&q=80&w=2000
+slug: csharp-named-arguments
+summary: Named arguments in C#.. they've been around a long time, but does anyone
+  use them? Let's check out another feature that helps tame wild code.
+tags:
+- Surviving WinForms
+- C# 4
+- C# 7.2
+- Coding
+- C#
+title: Named arguments in C#
+---
 
 
 I've recently been spending time (for my benefit and hopefully yours too!) reviewing some of the goodies C# has given us over the years. They mostly help make our code clearer and more concise, like local functions and string interpolation, safe null handling and the nameof operator. Others have been complete game changers, like LINQ and async/await. If you find yourself supporting a legacy app, as many of us do, I've been writing a lot about surviving WinForms in general. 😉

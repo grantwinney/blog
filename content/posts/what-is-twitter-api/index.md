@@ -1,15 +1,18 @@
-+++
-categories = ["API"]
-date = 2017-12-16T04:58:47Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1517959184834-fed20bdba773?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "what-is-twitter-api"
-summary = "The Twitter API lets you access tweets, users who tweet, metadata, manipulate lists, and more. Let's check it out!"
-tags = ["API"]
-title = "Accessing Tweets and More With the Twitter API"
-
-+++
+---
+categories:
+- API
+date: "2017-12-16T04:58:47Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1517959184834-fed20bdba773?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: what-is-twitter-api
+summary: The Twitter API lets you access tweets, users who tweet, metadata, manipulate
+  lists, and more. Let's check it out!
+tags:
+- API
+title: Accessing Tweets and More With the Twitter API
+---
 
 
 Let's check out the Twitter API, how to use it and what it has to offer. You can start with their getting started guide if you like, but basically Twitter offers API calls that return various JSON payloads, or what they call tweet data dictionaries.

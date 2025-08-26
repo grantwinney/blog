@@ -1,15 +1,22 @@
-+++
-categories = [".NET 5", "WinForms", "Surviving WinForms"]
-date = 2024-12-31T23:41:30Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2025/01/kelly-sikkema-mC0KIWO0yYA-unsplash.jpg"
-slug = "using-taskdialog-in-winforms"
-summary = "In .NET 5, WinForms got a major upgrade to the MessageBox called TaskDialog. It's way more flexible and powerful - let's check it out!"
-tags = [".NET 5", "WinForms", "Surviving WinForms"]
-title = "TaskDialog, a new message box for WinForms in .NET 5"
-
-+++
+---
+categories:
+- .NET 5
+- WinForms
+- Surviving WinForms
+date: "2024-12-31T23:41:30Z"
+description: ""
+draft: false
+cover:
+  image: kelly-sikkema-mC0KIWO0yYA-unsplash.jpg
+slug: using-taskdialog-in-winforms
+summary: In .NET 5, WinForms got a major upgrade to the MessageBox called TaskDialog.
+  It's way more flexible and powerful - let's check it out!
+tags:
+- .NET 5
+- WinForms
+- Surviving WinForms
+title: TaskDialog, a new message box for WinForms in .NET 5
+---
 
 
 Since the earliest versions of .NET, the MessageBox class has given WinForms developers a way to send notifications (usually alerts and warnings) to users. It's always been a very limited control though. Besides the message itself, we can change the icon and choose from a few different button combinations, but that's about it.

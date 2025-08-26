@@ -1,15 +1,26 @@
-+++
-categories = ["C# 11", "C#", "Attributes", "Metadata", "Coding"]
-date = 2023-08-23T15:52:21Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1571907483091-fbe746bee132?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHRhZ3N8ZW58MHx8fHwxNjkyODIwODE5fDA&ixlib=rb-4.0.3&q=80&w=2000"
-slug = "what-are-generic-attributes"
-summary = "Generic attributes increase the flexibility of a very early .NET feature. Let's try using them and see how it keeps our code DRY."
-tags = ["C# 11", "C#", "Attributes", "Metadata", "Coding"]
-title = "What are generic attributes in C# 11?"
-
-+++
+---
+categories:
+- C# 11
+- C#
+- Attributes
+- Metadata
+- Coding
+date: "2023-08-23T15:52:21Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1571907483091-fbe746bee132?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHRhZ3N8ZW58MHx8fHwxNjkyODIwODE5fDA&ixlib=rb-4.0.3&q=80&w=2000
+slug: what-are-generic-attributes
+summary: Generic attributes increase the flexibility of a very early .NET feature.
+  Let's try using them and see how it keeps our code DRY.
+tags:
+- C# 11
+- C#
+- Attributes
+- Metadata
+- Coding
+title: What are generic attributes in C# 11?
+---
 
 
 For the uninitiated, attributes provide a way to attach extra metadata to a variety of C# elements. They're built into the .NET Framework (like Description), third-party libraries (like NUnit's TestFixture), and you can even define your own. While they don't directly affect your code, per se, they generally affect your application in some way, like how it compiles or what the user sees at runtime.

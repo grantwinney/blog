@@ -1,14 +1,20 @@
-+++
-categories = ["Raspberry PI", "Coding", "Python"]
-date = 2016-09-24T13:30:49Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2016/09/joystick-color-wheel-setup-3.jpg"
-slug = "raspberry-pi-analog-joystick"
-tags = ["Raspberry PI", "Coding", "Python"]
-title = "Connecting an Analog Joystick to the Raspberry Pi"
-
-+++
+---
+categories:
+- Raspberry PI
+- Coding
+- Python
+date: "2016-09-24T13:30:49Z"
+description: ""
+draft: false
+cover:
+  image: joystick-color-wheel-setup-3.jpg
+slug: raspberry-pi-analog-joystick
+tags:
+- Raspberry PI
+- Coding
+- Python
+title: Connecting an Analog Joystick to the Raspberry Pi
+---
 
 
 One of the best things about the Raspberry Pi is its GPIO pins. They’re just sitting there, waiting to be connected to all kinds of interesting peripherals so your Pi can interact with the world around it. We can send alerts, attach sensors, and even plug cards like the Sense HAT over top of the pins to do even more.

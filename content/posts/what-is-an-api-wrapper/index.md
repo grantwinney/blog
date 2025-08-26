@@ -1,15 +1,20 @@
-+++
-categories = ["Questions"]
-date = 2018-01-25T04:59:32Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/31/RpgvvtYAQeqAIs1knERU_vegetables.jpg?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "what-is-an-api-wrapper"
-summary = "When you find an API to use in your app, you'll need to access it in a specific language - not always an easy or straightforward task. As long as you're doing all that work, why keep it to yourself? Let's look at creating an API wrapper that you can share with others!"
-tags = ["Questions"]
-title = "What is an API wrapper?"
-
-+++
+---
+categories:
+- Questions
+date: "2018-01-25T04:59:32Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/31/RpgvvtYAQeqAIs1knERU_vegetables.jpg?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: what-is-an-api-wrapper
+summary: When you find an API to use in your app, you'll need to access it in a specific
+  language - not always an easy or straightforward task. As long as you're doing all
+  that work, why keep it to yourself? Let's look at creating an API wrapper that you
+  can share with others!
+tags:
+- Questions
+title: What is an API wrapper?
+---
 
 
 Forget about peeling back the layers - today we're gonna talk about adding layers.

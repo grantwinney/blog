@@ -1,15 +1,26 @@
-+++
-categories = ["LINQ", "C#", "C# 10", ".NET 6", "Coding"]
-date = 2024-12-05T22:24:55Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2024/12/sophie-elvis-BiZ-_6kNjbI-unsplash.jpg"
-slug = "using-minby-and-maxby-in-csharp"
-summary = "The .NET team has made some helpful additions to LINQ over the last few years. Today let's check out MinBy and MaxBy from C# 10 / .NET 6."
-tags = ["LINQ", "C#", "C# 10", ".NET 6", "Coding"]
-title = "Using MinBy and MaxBy in C# 10 / .NET 6"
-
-+++
+---
+categories:
+- LINQ
+- C#
+- C# 10
+- .NET 6
+- Coding
+date: "2024-12-05T22:24:55Z"
+description: ""
+draft: false
+cover:
+  image: sophie-elvis-BiZ-_6kNjbI-unsplash.jpg
+slug: using-minby-and-maxby-in-csharp
+summary: The .NET team has made some helpful additions to LINQ over the last few years.
+  Today let's check out MinBy and MaxBy from C# 10 / .NET 6.
+tags:
+- LINQ
+- C#
+- C# 10
+- .NET 6
+- Coding
+title: Using MinBy and MaxBy in C# 10 / .NET 6
+---
 
 
 Microsoft made a couple new additions to LINQ as part of the C# 13 / .NET 9 release a few weeks ago, and, since I happen to really like LINQ, I wrote about how to use them. That got me thinking about other recent additions I might've missed in the last few releases, so I started looking back. And whatdya know, we got a slew of updates to LINQ in C# 10 / .NET 6 a few years ago.

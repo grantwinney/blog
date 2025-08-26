@@ -1,15 +1,26 @@
-+++
-categories = ["Surviving WinForms", "Logging", "WinForms", "Coding", "NLog"]
-date = 2021-10-09T15:53:15Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDQwfHxwYXBlcnxlbnwwfHx8fDE2MzM3NTI2MTA&ixlib=rb-1.2.1&q=80&w=2000"
-slug = "log-errors-in-winforms-with-nlog"
-summary = "Logs are a great tool for squashing bugs and tracing errors. Let's see how to add NLog to our project."
-tags = ["Surviving WinForms", "Logging", "WinForms", "Coding", "NLog"]
-title = "How to log errors in WinForms using NLog"
-
-+++
+---
+categories:
+- Surviving WinForms
+- Logging
+- WinForms
+- Coding
+- NLog
+date: "2021-10-09T15:53:15Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDQwfHxwYXBlcnxlbnwwfHx8fDE2MzM3NTI2MTA&ixlib=rb-1.2.1&q=80&w=2000
+slug: log-errors-in-winforms-with-nlog
+summary: Logs are a great tool for squashing bugs and tracing errors. Let's see how
+  to add NLog to our project.
+tags:
+- Surviving WinForms
+- Logging
+- WinForms
+- Coding
+- NLog
+title: How to log errors in WinForms using NLog
+---
 
 
 What's more annoying than a bug in your code? Not knowing why there's a bug in your code! I've worked in code bases before that have little to no logging, and it's awful. When an exception is thrown, .NET tells us what and where, including the long chain of method calls (stack trace) all the way back to the origin. To not make a note of that somewhere is a shame.. and a waste of everyone's time! Some people love debugging. I'm not one of them.

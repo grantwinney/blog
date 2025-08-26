@@ -1,15 +1,22 @@
-+++
-categories = ["Google", "Privacy"]
-date = 2019-12-09T23:44:00Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "replacing-gmail-with-mailbox-org"
-summary = "Google provides some amazing tools, but at what cost to privacy? One of the biggest blockers in eliminating them has been finding a reliable and affordable replacement for email (and ideally, calendar, documents, tasks, etc too). Well I may have finally found it, in Mailbox.org."
-tags = ["Google", "Privacy"]
-title = "Replacing Gmail (and its office suite) with Mailbox.org"
-
-+++
+---
+categories:
+- Google
+- Privacy
+date: "2019-12-09T23:44:00Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1596526131083-e8c633c948d2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: replacing-gmail-with-mailbox-org
+summary: Google provides some amazing tools, but at what cost to privacy? One of the
+  biggest blockers in eliminating them has been finding a reliable and affordable
+  replacement for email (and ideally, calendar, documents, tasks, etc too). Well I
+  may have finally found it, in Mailbox.org.
+tags:
+- Google
+- Privacy
+title: Replacing Gmail (and its office suite) with Mailbox.org
+---
 
 
 I had a gmail account for 10 years, and was perfectly happy but for the nagging issue of privacy and gobbling up our data. Finding a reliable and affordable replacement with a full suite of office tools wasn't easy though.

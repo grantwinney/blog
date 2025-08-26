@@ -1,15 +1,22 @@
-+++
-categories = ["Surviving WinForms", "Debugging", "Coding"]
-date = 2021-12-07T15:37:03Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1493953522814-88c4f52f6509?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDU1fHxpZGVhfGVufDB8fHx8MTYzODg4NTk0NA&ixlib=rb-1.2.1&q=80&w=2000"
-slug = "the-helpful-exception-box"
-summary = "If you're in a legacy codebase with a centralized \"message box\" form, why not add some features that make it work for you? 😏"
-tags = ["Surviving WinForms", "Debugging", "Coding"]
-title = "A more helpful exception box for WinForms apps"
-
-+++
+---
+categories:
+- Surviving WinForms
+- Debugging
+- Coding
+date: "2021-12-07T15:37:03Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1493953522814-88c4f52f6509?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDU1fHxpZGVhfGVufDB8fHx8MTYzODg4NTk0NA&ixlib=rb-1.2.1&q=80&w=2000
+slug: the-helpful-exception-box
+summary: "If you're in a legacy codebase with a centralized \"message box\" form,
+  why not add some features that make it work for you? \U0001F60F"
+tags:
+- Surviving WinForms
+- Debugging
+- Coding
+title: A more helpful exception box for WinForms apps
+---
 
 
 I saw a suggestion like a week or two ago that had me cracking up, and I can't for the life of me remember where I saw it. Maybe LinkedIn, maybe Twitter.. I didn't mark it, so it's buried deep in my timeline never to be seen again. But the gist of it was someone asking whether just slapping a button on an error prompt that led straight to stack overflow was a legit way to help the end user.

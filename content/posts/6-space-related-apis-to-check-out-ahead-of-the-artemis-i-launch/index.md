@@ -1,15 +1,20 @@
-+++
-categories = ["API", "Space"]
-date = 2022-08-28T18:23:48Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1499578124509-1611b77778c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDEzfHxtb29ufGVufDB8fHx8MTY2MTUxNjM3OQ&ixlib=rb-1.2.1&q=80&w=2000"
-slug = "6-space-related-apis-to-check-out-ahead-of-the-artemis-i-launch"
-summary = "The week of NASA launching Artemis I is a good time to check a few of the many APIs that make tons of raw space data accessible for anyone to use."
-tags = ["API", "Space"]
-title = "6 space-related APIs to check out ahead of the Artemis I launch"
-
-+++
+---
+categories:
+- API
+- Space
+date: "2022-08-28T18:23:48Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1499578124509-1611b77778c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDEzfHxtb29ufGVufDB8fHx8MTY2MTUxNjM3OQ&ixlib=rb-1.2.1&q=80&w=2000
+slug: 6-space-related-apis-to-check-out-ahead-of-the-artemis-i-launch
+summary: The week of NASA launching Artemis I is a good time to check a few of the
+  many APIs that make tons of raw space data accessible for anyone to use.
+tags:
+- API
+- Space
+title: 6 space-related APIs to check out ahead of the Artemis I launch
+---
 
 
 NASA is set to launch the first of a series of Orion rockets that will eventually take us back to the moon for the first time in 50 years. You can read a lot more in the links below, but it seems the goal this time around is much more than visiting the moon. I won't say "just" visiting the moon because, c'mon, visiting the moon is still mind-blowing!

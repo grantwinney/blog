@@ -1,14 +1,20 @@
-+++
-categories = ["Raspberry PI", "Coding", "Python"]
-date = 2016-08-29T22:34:44Z
-description = ""
-draft = false
-image = "https://images.unsplash.com/photo-1476900164809-ff19b8ae5968?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "raspberry-pi-flickering-candle"
-tags = ["Raspberry PI", "Coding", "Python"]
-title = "Creating a Flickering Candle Using an RGB LED on the Raspberry Pi"
-
-+++
+---
+categories:
+- Raspberry PI
+- Coding
+- Python
+date: "2016-08-29T22:34:44Z"
+description: ""
+draft: false
+cover:
+  image: https://images.unsplash.com/photo-1476900164809-ff19b8ae5968?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+slug: raspberry-pi-flickering-candle
+tags:
+- Raspberry PI
+- Coding
+- Python
+title: Creating a Flickering Candle Using an RGB LED on the Raspberry Pi
+---
 
 
 After getting PWM (pulse-width modulation) to work with an RGB LED last week, I was trying to think of what else I could do with an LED that demonstrated changes in color as well as intensity.
