@@ -19,15 +19,13 @@ tags:
 - C#
 title: Mocking MessageBox (or any static class) in WinForms
 ---
-
-
 Trying to integrate testing into a WinForms app can be an uphill battle, especially if it's a legacy app with most of the logic tightly coupled to the UI in the code-behind files of hundreds of forms. It doesn't help when you toss in portions of the .NET Framework that were designed in very test-unfriendly ways.
 
-
-The problem
+## The problem
 
 Take the MessageBox class for instance. This is normally what you see, peppered throughout WinForms apps everywhere.
 
+```c#
 public partial class Form1 : Form
 {
     public Form1()
@@ -40,29 +38,31 @@ public partial class Form1 : Form
         MessageBox.Show("This is just a test of the emergency broadcast system.", "Fancy App");
     }
 }
+```
 
 It's not testable, at least not with unit tests. The moment you call a method that uses it (I made the button click event public), your test will actually popup a MessageBox. Probably not what you wanted.
 
+![](https://grantwinney.com/content/images/2022/01/image-3.png)
 
-So it's gonna be like that huh...
+## So it's gonna be like that huh...
 
 Unfortunately, the MessageBox class doesn't make it easy for us. Every method is static, so it implements no interface, and you can't mock it. There's no way to extend it with your own class and create an interface for it either. They shut the door on that by giving the class a private constructor.
 
+![](https://grantwinney.com/content/images/2022/01/image-1.png)
+
 You can try it anyway to see what I mean.
 
+![](https://grantwinney.com/content/images/2022/01/image.png)
 
-Wrapping the MessageBox class to mock it
+## Wrapping the MessageBox class to mock it
 
 The only reasonable option left is to create our own message box class, wrap each of the static methods in normal instance methods, and create an interface from that. So let's take a look at how we might do that.
 
-
-
-The code in this article is available on GitHub, if you'd like to follow along or use it in your own projects.
-
-
+> The code in this article is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Testing/MockingMessageBox?ref=grantwinney.com), if you'd like to follow along or use it in your own projects.
 
 The first thing to do is just create your own message box class and name it something similar, like MessagePrompt or just Message. I won't paste the whole class but here's a portion of what it might look like.
 
+```c#
 public class MessagePrompt : IMessagePrompt
 {
     public DialogResult Show(string text, string caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options, bool displayHelpButton)
@@ -76,9 +76,11 @@ public class MessagePrompt : IMessagePrompt
 
     ...
     ...
+```
 
-Then you'll extract an interface from that. In Visual Studio, that's as simple as ctrl + . and choose "extract interface" from the dropdown.
+Then you'll extract an interface from that. In Visual Studio, that's as simple as `ctrl + .` and choose "extract interface" from the dropdown.
 
+```c#
 public interface IMessagePrompt
 {
     DialogResult Show(IWin32Window owner, string text);
@@ -87,15 +89,15 @@ public interface IMessagePrompt
 
     ...
     ...
+```
 
 The rest of how you use it is up to you, but I put together a quick little sample out on GitHub if you want to check it out. It uses Unity for dependency injection (to connect the interface to the concrete class at runtime), and NUnit and Moq to do some light testing.
 
-I kept the implementation as simple as possible too; the kind of thing you might want to do if you're adding the first unit test to a big old WinForms app. I'd much rather rework things to use an MVP type of format though, but that's not always possible right away. If you want to read a little more about MVP, check this out.
-
-Using MVP to test a WinForms appIf you find yourself supporting a WinForms application with few to no tests, there’s hope... in the MVP architectural pattern.G.Winney 🖱Grant Winney
+I kept the implementation as simple as possible too; the kind of thing you might want to do if you're adding the first unit test to a big old WinForms app. I'd much rather rework things to use an MVP type of format though, but that's not always possible right away. If you want to read a little more about MVP, [check this out](https://grantwinney.com/its-possible-to-test-a-winforms-app-using-mvp).
 
 As for this project, I just added a second constructor that accepted the interface...
 
+```c#
 public partial class Form1 : Form
 {
     private readonly IMessagePrompt messagePrompt;
@@ -124,9 +126,11 @@ public partial class Form1 : Form
         messagePrompt.Show("This is just a test of the emergency broadcast system.", "Fancy App");
     }
 }
+```
 
 ... and then mocked one up and injected it from the test suite. Although I suppose "suite" is a loose term for a single test. :)
 
+```c#
 public class Tests
 {
     Form1 form;
@@ -147,3 +151,4 @@ public class Tests
         messagePrompt.Verify(x => x.Show(It.IsAny<string>(), "Fancy App"));
     }
 }
+```

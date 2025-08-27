@@ -19,25 +19,23 @@ tags:
 - Series Generic Math Intro
 title: What is a static abstract interface method in C#?
 ---
+This is post 1 in a 3-part series building up to the new C# 11 feature called [Generic Math](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#generic-math-support). Before tackling that though, let's check out another new C# 11 feature - the [static abstract interface method](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/static-virtual-interface-members) (aka static virtual members).
 
-
-This is post 1 in a 3-part series building up to the new C# 11 feature called Generic Math. Before tackling that though, let's check out another new C# 11 feature - the static abstract interface method (aka static virtual members).
+1. What is a static abstract interface method in C#? *(this post)*
+2. [Overloading arithmetic, equality, and comparison operators in C#](https://grantwinney.com/csharp-overload-arithmetic-equality-comparison-operators/)
+3. [Generic Math Support in C# 11](https://grantwinney.com/csharp-generic-math-support/)
 
 We'll look at how we use interfaces today, versus how we can use them with the new hotness in C# 11.
 
+> The code in this article is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericMathSupport/GenericMathSupport?ref=grantwinney.com), if you'd like to use it in your own projects or just follow along while you read.
 
+## The interfaces we know and love
 
-The code in this article is available on GitHub, if you'd like to use it in your own projects or just follow along while you read.
+We use interfaces a lot in C#. They're essentially contracts, so if a class implements a particular interface, then you can be confident that the class includes all the properties and methods defined in that interface. In the following example, `EmployeeReport` implements everything in `IEmployeeReport`, and `VendorReport` implements everything in `IVendorReport`.
 
+Interfaces can extend one another too, like the two interfaces below are doing with `IBaseReport`. The classes need to implement everything in that base interface too, like the ones below are doing by defining `ReportName` and `IsSensitive`.
 
-
-
-The interfaces we know and love
-
-We use interfaces a lot in C#. They're essentially contracts, so if a class implements a particular interface, then you can be confident that the class includes all the properties and methods defined in that interface. In the following example, EmployeeReport implements everything in IEmployeeReport, and VendorReport implements everything in IVendorReport.
-
-Interfaces can extend one another too, like the two interfaces below are doing with IBaseReport. The classes need to implement everything in that base interface too, like the ones below are doing by defining ReportName and IsSensitive.
-
+```csharp
 /***********************************
  * BASE REPORT INTERFACE
  * *********************************/
@@ -89,9 +87,11 @@ public class VendorReport : IVendorReport
     public string VendorContactName { get; set; }
     public string VendorContactPhone { get; set; }
 }
+```
 
-Any method that might do something with one of these reports, can operate on the interface instead. The GetReportInfo method below is assured that anything implementing IBaseReport has 2 properties on it. And bonus - we don't need to define a method for each type of report, just one which can handle any report.
+Any method that might do something with one of these reports, can operate on the interface instead. The `GetReportInfo` method below is assured that anything implementing `IBaseReport` has 2 properties on it. And bonus - we don't need to define a method for each type of report, just one which can handle any report.
 
+```csharp
 /***********************************
  * A CLASS THAT PROCESSES REPORTS
  * *********************************/
@@ -110,11 +110,13 @@ public class ISwearImAnInterestingClass
         return $"{rpt.ReportName} {(rpt.IsSensitive ? "is" : "is not")} a sensitive report.";
     }
 }
+```
 
-Aside from acting as a contract and helping us write DRY code, interfaces are useful for unit testing too. If you want to learn more about that, I've written before about how interfaces help with mocking dependencies when unit testing.
+Aside from acting as a contract and helping us write [DRY code](https://deviq.com/principles/dont-repeat-yourself), interfaces are useful for unit testing too. If you want to learn more about that, I've written before about how [interfaces help with mocking dependencies](https://grantwinney.com/what-is-mocking-a-dependency/) when unit testing.
 
-However, something we can't do with interfaces is define a static member and have classes implement those. For instance, if you knew you wanted every kind of report to have a ReportName, but you didn't want to have to instantiate a report just to get to a name that never changes, you couldn't do something like this...
+However, something we __can't__ do with interfaces is define a static member and have classes implement those. For instance, if you knew you wanted every kind of report to have a `ReportName`, but you didn't want to have to instantiate a report just to get to a name that never changes, you couldn't do something like this...
 
+```csharp
 /***********************************
  * BASE REPORT INTERFACE
  * *********************************/
@@ -124,11 +126,15 @@ public interface IBaseReport
     static string ReportName { get; }
     bool IsSensitive { get; }
 }
+```
 
-The other method, the one that references the interface to get the ReportName, will suggest you use an actual instance to get to the static member. Ok sure... except this is an interface so you can't just instantiate it. Maybe you could add some code in the GetReportInfo method below, to check for every possible report type that implements IBaseReport but then that'd make for some repetitive, hard-to-maintain code.
+The other method, the one that references the interface to get the `ReportName`, will suggest you use an actual instance to get to the static member. Ok sure... except this is an interface so you __can't__ just instantiate it. Maybe you could add some code in the `GetReportInfo` method below, to check for every possible report type that implements `IBaseReport` but then that'd make for some repetitive, hard-to-maintain code.
 
-On top of that, the classes that implement the IBaseReport interface don't have to include that static member to satisfy the contract with the interface anymore. This (which doesn't define ReportName) won't throw a compilation error:
+![](https://grantwinney.com/content/images/2023/03/image-38.png)
 
+On top of that, the classes that implement the `IBaseReport` interface don't have to include that static member to satisfy the contract with the interface anymore. This __(which doesn't define ReportName)__ won't throw a compilation error:
+
+```csharp
 public class EmployeeReport : IEmployeeReport
 {
     public bool IsSensitive => true;
@@ -137,24 +143,25 @@ public class EmployeeReport : IEmployeeReport
     public DateTime HireDate { get; set; }
     public DateTime? TermDate { get; set; }
 }
+```
 
 Okay, enough about interfaces...
 
+## The new and improved interfaces
 
-The new and improved interfaces
+Just kidding! __More interfaces!__
 
-Just kidding! More interfaces!
+The [static abstract](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/static-virtual-interface-members) concept seems to have been mostly added to support [overloaded operators](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/operator-overloading) and the other new concept of [generic math](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#generic-math-support), but let's take a look at what else we can do with it, without muddying the waters too much.
 
-The static abstract concept seems to have been mostly added to support overloaded operators and the other new concept of generic math, but let's take a look at what else we can do with it, without muddying the waters too much.
-
-I've changed the IBaseReport interface (below) to use the new static abstract modifiers. For good measure, I've added in a static abstract method to show that those can be static too, and a normal property that's not static to demonstrate that we can have a mix.
+I've changed the `IBaseReport` interface (below) to use the new [static abstract](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/static-virtual-interface-members) modifiers. For good measure, I've added in a `static abstract` method to show that those can be static too, and a normal property that's not static to demonstrate that we can have a mix.
 
 Here's a few things to look for and keep in mind as you check out the similar, but not-quite-the-same block of code, below:
 
- * The classes are required to implement the static abstract members.
- * The classes are required to implement the GenerateUniqueId method too, but how they choose to implement that can differ wildly per class.
- * The GetReportInfo method in that last class, and the GetNewReportId method I threw in too, are implemented differently than before. They're capable of accessing the normal members of an instance, as well as the static members of the class too.
+- The classes are __required__ to implement the static abstract members.
+- The classes are required to implement the `GenerateUniqueId` method too, but __how__ they choose to implement that can differ wildly per class.
+- The `GetReportInfo` method in that last class, and the `GetNewReportId` method I threw in too, are implemented differently than before. They're capable of accessing the normal members of an instance, as well as the static members of the class too.
 
+```csharp
 /***********************************
  * BASE REPORT INTERFACE WITH
  * STATIC ABSTRACT MEMBERS
@@ -236,12 +243,13 @@ public class ISwearImAnInterestingClass
     public string GetNewReportId<T>() where T : IBaseReport
         => T.GenerateUniqueId();
 }
+```
 
+## What about unit tests?
 
-What about unit tests?
+Of course, it's always a good idea to create some tests __(and if you're using WinForms, you might want to brush up on__ [__using MVP to help with testing__](https://grantwinney.com/its-possible-to-test-a-winforms-app-using-mvp/)__)__ to make sure everything looks good, and to prove that the static abstract interface members, as weird as they might look, __do__ actually work.
 
-Of course, it's always a good idea to create some tests (and if you're using WinForms, you might want to brush up on using MVP to help with testing) to make sure everything looks good, and to prove that the static abstract interface members, as weird as they might look, do actually work.
-
+```csharp
 ISwearImAnInterestingClass ic;
 
 [SetUp]
@@ -274,11 +282,12 @@ public void ISwearImAnInterestingClass_ReturnsExpectedValues_ForVendorReport()
         Assert.That(Guid.TryParse(ic.GetNewReportId<VendorReport>(), out var _), Is.True);
     });
 }
+```
 
-Unfortunately, this new construct doesn't seem to play nicely yet with the popular Moq framework that helps you mock out interface calls during testing. I'm most familiar with Moq, but maybe JustMock or TypeMock supports it?
+Unfortunately, this new construct doesn't seem to play nicely yet with the popular [Moq](https://github.com/Moq/moq4?ref=grant-winney) framework that helps you mock out interface calls during testing. I'm most familiar with Moq, but maybe [JustMock](https://www.telerik.com/products/mocking.aspx?ref=grant-winney) or [TypeMock](http://www.typemock.com/?ref=grant-winney) supports it?
 
-Next up, we'll check out another C# feature we've had for a long time - operator overloading. After that, we'll take a closer look at what this Generic Math thing is all about.
+![](https://grantwinney.com/content/images/2023/03/image-39.png)
 
-If you found this content useful, and want to learn more about a variety of C# features, check out this GitHub repo, where you'll find links to plenty more blog posts and practical examples!
+Next up, we'll check out another C# feature we've had for a long time - [operator overloading](https://grantwinney.com/how-do-i-overload-operators-in-csharp/). After that, we'll take a closer look at what this [Generic Math](https://grantwinney.com/whats-generic-math-support-in-csharp/) thing is all about.
 
-GitHub - grantwinney/CSharpDotNetExamples: Discovering and learning about the various features of the C# programming language and .NET Framework.Discovering and learning about the various features of the C# programming language and .NET Framework. - GitHub - grantwinney/CSharpDotNetExamples: Discovering and learning about the various featur…GitHubgrantwinney
+If you found this content useful, and want to learn more about a variety of [C#](https://grantwinney.com/tag/csharp/) features, check out [this GitHub repo](https://github.com/grantwinney/CSharpDotNetExamples), where you'll find links to plenty more blog posts and practical examples!

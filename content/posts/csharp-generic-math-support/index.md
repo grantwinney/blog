@@ -329,9 +329,7 @@ A few tests, to show what's happening
 
 And that's it! That's the new Generic Math feature in C# 11. As I mentioned earlier, [all the examples here are available on GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericMathSupport/GenericMathSupport), if you want to mess with it more.
 
-I found a great video on YouTube demonstrating some of these same concepts, so if that's more your style, go watch Jasper Kent's tutorial too. Sometimes, seeing something presented in multiple ways drives it home that much more.. at least it does for me.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Sclx7F8hFso?si=kKZhbeLzuG2lX_S8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+I found a great video on YouTube demonstrating some of these same concepts, so if that's more your style, [go watch Jasper Kent's tutorial too](https://www.youtube.com/watch?v=Sclx7F8hFso). Sometimes, seeing something presented in multiple ways drives it home that much more.. at least it does for me.
 
 One thing I didn't show is that you can reference the [`INumber<T>`](https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Numerics/INumber.cs,0f558758e750a740) interface, which references most (all?) of the other new interfaces. You'll have to implement dozens and dozens of methods, but then your new class can basically be treated like any other number type in C#. You can read more about that, and Generic Math in general, in the [Microsoft docs](https://learn.microsoft.com/en-us/dotnet/standard/generics/math).
 

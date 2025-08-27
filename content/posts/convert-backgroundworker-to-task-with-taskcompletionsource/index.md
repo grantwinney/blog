@@ -18,35 +18,27 @@ tags:
 - Coding
 title: Converting a BackgroundWorker to a Task with TaskCompletionSource
 ---
-
-
 The reality about working with an application that's years - maybe even decades - old is that we don't have the time or resources to rewrite everything to be modern, nor would that be wise. Every legacy app, and the different areas within it, represents ideas and business functions that a company has paid dozens or hundreds of employees millions of dollars for, over the course of many years.
 
 It's a good feeling getting to overhaul something when the opportunity arises, but "modern" is a moving target and certain areas of the code will chug along for years, happily unaware it lives in the dark ages.
 
-Even when we can't change code, though, it's always possible to hide it without having to replace the old code right away.. or at all, if it's in some codebase you don't have access to. Take the BackgroundWorker for example, which has been around since 2005 (.NET 2.0). It has methods for safely sending progress updates to the UI, cancelling it before completion, and setting the result when it finally does complete. 10 years ago, it was a great way to toss some piece of work to a separate thread.
+Even when we can't change code, though, it's always possible to hide it without having to replace the old code right away.. or at all, if it's in some codebase you don't have access to. Take the [BackgroundWorker](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.backgroundworker?view=netframework-2.0) for example, which has been around since 2005 (.NET 2.0). It has methods for safely sending progress updates to the UI, cancelling it before completion, and setting the result when it finally __does__ complete. 10 years ago, it was a great way to toss some piece of work to a separate thread.
 
-Now, of course, there's async/await and Tasks.
+Now, of course, there's [async/await and Tasks](https://grantwinney.com/using-async-await-and-task-to-keep-the-winforms-ui-more-responsive).
 
-Using Async, Await, and Task to keep the WinForms UI responsiveUsing the async/await pattern in WinForms is an easy win, helping prevent one of the most annoying user experiences - a frozen UI.G.Winney 🖱Grant Winney
+When I wrote about Tasks before, I considered how you might turn a bunch of synchronous code into async code, but what if the code is __already__ asynchronous? What if you just want to modernize it, like effectively turning a BackgroundWorker into a Task? [TaskCompletionSource](https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.taskcompletionsource-1) to the rescue!
 
-When I wrote about Tasks before, I considered how you might turn a bunch of synchronous code into async code, but what if the code is already asynchronous? What if you just want to modernize it, like effectively turning a BackgroundWorker into a Task? TaskCompletionSource to the rescue!
+> The code in this article is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Threading/TaskCompletion?ref=grantwinney.com), if you'd like to use it in your own projects or just follow along while you read.
 
+__Assuming you can, I'd suggest cloning the repo and opening it in VS 2022 or later to follow along. To test both examples I describe below, open the Program.cs file and comment one "Application.Run" line out or the other.__
 
+## Sample legacy class with BackgroundWorker
 
-The code in this article is available on GitHub, if you'd like to use it in your own projects or just follow along while you read.
+Let's start with a class that lives in some legacy library, the source code of which we'll pretend we don't have access to..... even though it's right in the repo. It uses a BackgroundWorker to call out to [a space API](https://grantwinney.com/what-is-iss-notify-api) and return some data about the ISS. I picked this particular API because it's dead simple to use and requires no authentication.
 
+Before you get too excited about the code below, I targeted this "legacy" library for .NET 2.0 (when the BackgroundWorker was introduced), so everything else had to work within those constraints too. That meant relying on [WebRequest](https://learn.microsoft.com/en-us/dotnet/api/system.net.webrequest?view=netframework-2.0) instead of [RestSharp](https://restsharp.dev/), and [covariance](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/) in the form of `List<object>` instead of a [Tuple](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-tuples). Fortunately, [Json.NET](https://www.newtonsoft.com/json) supports .NET 2.0, so at least deserialization of the response was easy.
 
-
-Assuming you can, I'd suggest cloning the repo and opening it in VS 2022 or later to follow along. To test both examples I describe below, open the Program.cs file and comment one "Application.Run" line out or the other.
-
-
-Sample legacy class with BackgroundWorker
-
-Let's start with a class that lives in some legacy library, the source code of which we'll pretend we don't have access to..... even though it's right in the repo. It uses a BackgroundWorker to call out to a space API and return some data about the ISS. I picked this particular API because it's dead simple to use and requires no authentication.
-
-Before you get too excited about the code below, I targeted this "legacy" library for .NET 2.0 (when the BackgroundWorker was introduced), so everything else had to work within those constraints too. That meant relying on WebRequest instead of RestSharp, and covariance in the form of List<object> instead of a Tuple. Fortunately, Json.NET supports .NET 2.0, so at least deserialization of the response was easy.
-
+```csharp
 public class OldSpaceLibrary
 {
     public readonly BackgroundWorker Worker = new BackgroundWorker { WorkerReportsProgress = true, WorkerSupportsCancellation = true };
@@ -130,18 +122,19 @@ public class OldSpaceLibrary
         }
     }
 }
+```
 
-I think, if you're familiar with BackgroundWorker, most of the above should be pretty straight-forward. The GetData method is the entry point for whatever's calling this class. It starts the BackgroundWorker, where the main work happens in the DoWork method on a different thread, periodically sending updates to the UI with ReportProgress and eventually returning a result, which is picked up by the RunWorkerCompleted method. There's code to check the CancellationPending flag occasionally too, to see if the worker thread should be terminated early.
+I think, if you're familiar with BackgroundWorker, most of the above should be pretty straight-forward. The `GetData` method is the entry point for whatever's calling this class. It starts the BackgroundWorker, where the main work happens in the `DoWork` method on a different thread, periodically sending updates to the UI with `ReportProgress` and eventually returning a result, which is picked up by the `RunWorkerCompleted` method. There's code to check the `CancellationPending` flag occasionally too, to see if the worker thread should be terminated early.
 
 There's some things that are goofy in this "legacy" class that hopefully wouldn't happen in real life, but I'm just trying to make a point here, not a masterpiece of engineering, lol.
 
+## Approach #1: Using the BackgroundWorker as-is
 
-Approach #1: Using the BackgroundWorker as-is
+One approach to using the above is to just call it as-is, subscribing to the `ProgressChanged` and `RunWorkerCompleted` events. I'm using the `GetData` button below for two things - to start the worker, and to cancel it if they click the button a second time (by calling `CancelAsync` ).
 
-One approach to using the above is to just call it as-is, subscribing to the ProgressChanged and RunWorkerCompleted events. I'm using the GetData button below for two things - to start the worker, and to cancel it if they click the button a second time (by calling CancelAsync ).
+Note: Even if the worker is cancelled or throws an exception, you'll always end up in the `RunWorkerCompleted` event back on the main thread, so that's where I'm checking all the different conditions.
 
-Note: Even if the worker is cancelled or throws an exception, you'll always end up in the RunWorkerCompleted event back on the main thread, so that's where I'm checking all the different conditions.
-
+```csharp
 /// <summary>
 /// Using the BackgroundWorker as provided in the "legacy space library" class.
 /// </summary>
@@ -198,18 +191,23 @@ public partial class frmCallBackgroundWorker : Form
         prgStatus.Hide();
     }
 }
+```
 
 If things run successfully, the user gets a nice message using the data returned from the two API calls.
 
+![](https://grantwinney.com/content/images/2022/12/image.png)
 
-Approach #2: Wrapping the BackgroundWorker in a Task
+![](https://grantwinney.com/content/images/2022/12/image-1.png)
 
-As I said earlier, there's a class called TaskCompletionSource that allows us to take something that's already async and make it appear to the outside world as if it were a Task all along, hiding the details.
+## Approach #2: Wrapping the BackgroundWorker in a Task
 
-First, let's create a class (called SpaceTask) that turns the BackgroundWorker into a Task. It subscribes to the RunWorkerCompleted method and handles the same conditions as before (error, cancelled, success) but now it calls specific methods on the TaskCompletionSource instead of just updating the UI directly. If an exception is thrown, it sets an exception on the task. If the worker is cancelled, it marks the task as cancelled too.
+As I said earlier, there's a class called [TaskCompletionSource](https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.taskcompletionsource-1) that allows us to take something that's already async and make it appear to the outside world as if it were a Task all along, hiding the details.
 
-The caller still just calls GetData, but instead of having to subscribe to other events to get the final result, they get a Task instead (the last line below). I added a couple properties to help the caller determine if the Task is still running and get updates on the progress of the task (using the aptly named Progress class).
+First, let's create a class (called SpaceTask) that turns the BackgroundWorker into a Task. It subscribes to the `RunWorkerCompleted` method and handles the same conditions as before (error, cancelled, success) but now it calls specific methods on the TaskCompletionSource instead of just updating the UI directly. If an exception is thrown, it sets an exception on the task. If the worker is cancelled, it marks the task as cancelled too.
 
+The caller still just calls `GetData`, but instead of having to subscribe to other events to get the final result, they get a Task instead (the last line below). I added a couple properties to help the caller determine if the Task is still running and get updates on the progress of the task (using the aptly named [Progress](https://learn.microsoft.com/en-us/dotnet/api/system.progress-1) class).
+
+```csharp
 /// <summary>
 /// Wrapping the BackgroundWorker in a Task, to hide the implementation details of the BGW
 /// </summary>
@@ -254,11 +252,13 @@ public class SpaceTask
         return tcs.Task;
     }
 }
+```
 
-And here's how we might call the new SpaceTask class from anywhere in the application that's interested in ISS data. There's nothing in the code below that suggests we're still dealing with a BackgroundWorker. For all intents and purposes, it's just a Task. The underlying details are hidden by the SpaceTask class, nothing to see here, thankyouverymuch.
+And here's how we might call the new SpaceTask class from anywhere in the application that's interested in ISS data. There's nothing in the code below that suggests we're still dealing with a BackgroundWorker. For all intents and purposes, it's just a Task. The underlying details are hidden by the `SpaceTask` class, nothing to see here, __thankyouverymuch__.
 
-If someone's interested in updates, they can create a new Progress<T> handler (like I'm doing below) and pass that to the other class. One of the interesting differences with Tasks is that cancellations and exceptions are handled more inline.. they don't require subscribing to additional events like the BackgroundWorker. If the Task is cancelled it throws a TaskCanceledException, if there's an error it throws that instead, and both can be caught and handled like I'm doing below.
+If someone's interested in updates, they can create a new `Progress<T>` handler (like I'm doing below) and pass that to the other class. One of the interesting differences with Tasks is that cancellations and exceptions are handled more inline.. they don't require subscribing to additional events like the BackgroundWorker. If the Task is cancelled it throws a TaskCanceledException, if there's an error it throws that instead, and both can be caught and handled like I'm doing below.
 
+```csharp
 SpaceTask task;
 
 private async void btnGetData_Click(object sender, EventArgs e)
@@ -303,13 +303,19 @@ private async void btnGetData_Click(object sender, EventArgs e)
     btnGetData.Enabled = true;
     prgStatus.Hide();
 }
+```
 
-Grab the example from GitHub and try it out yourself. Good luck!
+![](https://grantwinney.com/content/images/2022/12/image-4.png)
 
-If you just can't get enough of backgroundworkers and tasks, and comparisons between them, this series of posts by Stephen Cleary may be old but they're still valid. (You'll see his name all over the place on stackoverflow, answering everyone's questions about threading in C#.)
+![](https://grantwinney.com/content/images/2022/12/image-2.png)
 
-Task.Run vs BackgroundWorker: IntroThis is an introductory post for a new series that I’ll be doing comparing BackgroundWorker to Task.Run (in an async style). I always recommend Task.Run, and I have already written a long post describing why, but I still see some developers resisting the New Way of Doing Things (TM). So this will be…Stephen Cleary
+![](https://grantwinney.com/content/images/2022/12/image-3.png)
+
+[Grab the example from GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Threading/TaskCompletion) and try it out yourself. Good luck!
+
+If you just can't get enough of backgroundworkers and tasks, and comparisons between them, this series of posts by Stephen Cleary are still valid (even if they're a little dated). __(You'll see his name all over the place on stackoverflow, answering everyone's questions about threading in C#.)__
+
+[Task.Run vs BackgroundWorker: Intro](https://blog.stephencleary.com/2013/05/taskrun-vs-backgroundworker-intro.html?ref=grantwinney.com)
 
 And here's a post from MS on their recommended async design pattern:
-
-Task-based Asynchronous Pattern (TAP): Introduction and overviewLearn about the Task-based Asynchronous Pattern (TAP), and compare it to the legacy patterns: Asynchronous Programming Model (APM) and Event-based Asynchronous Pattern (EAP).Microsoft LearnBillWagner
+[Task-based Async Pattern (TAP): Introduction and overview | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap?ref=grantwinney.com)
