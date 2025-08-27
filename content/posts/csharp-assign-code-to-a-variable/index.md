@@ -14,41 +14,41 @@ tags:
   - coding
 title: Assign C# code to a variable and then run it
 ---
-
-
 It'd be ridiculous for a language to not have a way for you to reference a particular value, so you could pass it around in your application.
 
+```csharp
 string name = "Grant";
 int height = 71;
 bool isMale = true;
 Employee e = new Employee(name, height, isMale);
+```
 
-But did you know most languages have a way to pass around references to code too, so you can pass the code around and call (invoke) it in other parts of your application?
+But did you know most languages have a way to pass around references to __code__ too, so you can pass the code around and call (invoke) it in other parts of your application?
 
-In C#, the type that lets you reference a method is called a delegate, and there are several different constructs that allow you to define a delegate... depending on what exactly you'd like to do.
+In C#, the type that lets you reference a method is called a [delegate](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/), and there are several different constructs that allow you to define a delegate... depending on what exactly you'd like to do.
 
+## Action
 
-Action
+The [Action delegate](https://docs.microsoft.com/en-us/dotnet/api/system.action) lets you reference a method that does _****not****_ return a value.
 
-The Action delegate lets you reference a method that does not return a value.
-
-
-Single Line
+### Single Line
 
 For example, you might define a single-line method that displays a message (with or without parameters).
 
+```csharp
 var genericHi = new Action(() => Console.WriteLine("Hello World!"));
 genericHi();  // Hello World!
 
 var personalizedHi =
     new Action<string, string>((firstName, lastName) => Console.WriteLine($"Hello, {firstName} {lastName}!"));		
 personalizedHi("Katie", "Smith");  // Hello, Katie Smith!
+```
 
-
-Multiple Lines
+### Multiple Lines
 
 Or you could define a method that has several lines:
 
+```csharp
 var sayHiToEveryone =
     new Action<string, string, string>((name1, name2, name3) =>
                                        {
@@ -57,29 +57,30 @@ var sayHiToEveryone =
                                            Console.WriteLine($"Hi {name3}!");
                                        });
 sayHiToEveryone("Larry", "Curly", "Moe");
+```
 
+### Note
 
-Note
+You can also eliminate the `new Action` part, but then you can't use `var`, so not sure this is really any better. To each their own...
 
-You can also eliminate the new Action part, but then you can't use var, so not sure this is really any better. To each their own...
-
+```csharp
 Action genericHi = () => Console.WriteLine("Hello World!");
 genericHi();  // Hello World!
 
 Action<string, string> personalizedHi =
     (firstName, lastName) => Console.WriteLine($"Hello, {firstName} {lastName}!");
 personalizedHi("Katie", "Smith");  // Hello, Katie Smith!
+```
 
+## Func
 
-Func
+The [Func delegate](https://docs.microsoft.com/en-us/dotnet/api/system.func-1) is very similar to Action, except that it lets you reference a method that _****does****_ return a value.
 
-The Func delegate is very similar to Action, except that it lets you reference a method that does return a value.
-
-
-Single Line
+### Single Line
 
 Again, you can define a single-line method with or without parameters.
 
+```csharp
 var getNowMessage =
     new Func<string>(() => $"The time is now: {DateTime.Now.ToString("h:mm tt")}");
 Console.WriteLine(getNowMessage());               // The time is now: 8:24 PM
@@ -87,12 +88,13 @@ Console.WriteLine(getNowMessage());               // The time is now: 8:24 PM
 var getTimeMessage =
     new Func<DateTime, string>((date) => $"The time is now: {date.ToString("h:mm tt")}");
 Console.WriteLine(getTimeMessage(DateTime.Now));  // The time is now: 8:24 PM
+```
 
-
-Multiple Lines
+### Multiple Lines
 
 And you can define methods with several lines:
 
+```csharp
 var getDrink =
     new Func<DateTime, string>((date) =>
                                {
@@ -102,12 +104,13 @@ var getDrink =
                                        return "☕";
                                });
 Console.WriteLine($"Time for a {getDrink(DateTime.Now)}.");  // Time for a ☕.
+```
 
+### Note
 
-Note
+And finally, you can eliminate the `new Func` part, but once again that prevents you from using `var`, so it's not any shorter.
 
-And finally, you can eliminate the new Func part, but once again that prevents you from using var, so it's not any shorter.
-
+```csharp
 Func<string> getNowMessage2 =
     () => $"The time is now: {DateTime.Now.ToString("h:mm tt")}";
 Console.WriteLine(getNowMessage2());               // The time is now: 8:24 PM
@@ -115,27 +118,13 @@ Console.WriteLine(getNowMessage2());               // The time is now: 8:24 PM
 Func<DateTime, string> getTimeMessage2 =
     (date) => $"The time is now: {date.ToString("h:mm tt")}";
 Console.WriteLine(getTimeMessage2(DateTime.Now));  // The time is now: 8:24 PM
+```
 
-
-Try it yourself
+## Try it yourself
 
 You can play with these yourself on .NET Fiddle:
 
+- [Action delegate demo | .NET Fiddle](https://dotnetfiddle.net/Widget/3kpajq)
+- [Func delegate demo | .NET Fiddle](https://dotnetfiddle.net/Widget/VbkB8z)
 
-Action delegate demo (.NET Fiddle)
-
-
-
-
-
-
-Func delegate demo (.NET Fiddle)
-
-
-
-
-
-If you found this content useful, and would like to learn more about a variety of C# features, check out my CSharpDotNetFeatures repo, where you'll find links to plenty more blog posts and practical examples!
-
-GitHub - grantwinney/CSharpDotNetExamples: Discovering and learning about the various features of the C# programming language and .NET Framework.Discovering and learning about the various features of the C# programming language and .NET Framework. - GitHub - grantwinney/CSharpDotNetExamples: Discovering and learning about the various featur…GitHubgrantwinney
-bgrantwinney
+If you found this content useful, and would like to learn more about a variety of [C#](https://grantwinney.com/tag/csharp/) features, check out my [CSharpDotNetFeatures repo](https://github.com/grantwinney/CSharpDotNetFeatures), where you'll find links to plenty more blog posts and practical examples!

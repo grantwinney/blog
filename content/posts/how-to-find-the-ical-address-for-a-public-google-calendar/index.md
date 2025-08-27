@@ -13,45 +13,35 @@ tags:
 - Google
 title: How to find the iCal address for a public Google calendar
 ---
+If you already know why you're here, then visit the CodePen link below, plug-in the public URL (or the calendar ID) from the calendar settings page, and click the appropriate button to get the iCal link.
 
+[Find the iCal address for a public Google calendar](https://codepen.io/astrangegame/pen/azvazpJ)
 
-If you already know why you're here, then just plug the public URL (or the calendar ID) from the calendar settings page, and click the appropriate button to get the iCal link. For everyone else, scroll past the text boxes for a brief explanation...
+For everyone else, scroll past the text boxes for a brief explanation...
 
-
-
-
-
-Public URL:
-
-Convert from Public URL
-
-
-Calendar ID:
-
-Use the Calendar ID
-
-
-Converted:
-
-Copy ICS Link Copied!
-
-
-
-
-
-
-How's that work?
+## How's that work?
 
 Impressive, you didn't just run off. This won't take too long, I promise.
 
 When someone creates a public Google calendar for the whole world to use, you'll see a little "+ Google Calendar" button in the lower-right corner. Click on that, and you can import the calendar into your own Google account.
 
+![](https://grantwinney.com/content/images/2020/02/google-calendar-html.png)
+
+![](https://grantwinney.com/content/images/2020/02/google-calendar-add-prompt.png)
+
+![](https://grantwinney.com/content/images/2020/02/google-calendar-calendar-added.png)
+
 Unless you've replaced it with another service, like I did. 😐
 
-If you don't want to import a Google calendar into a Google account, you might see the "Public URL" and try to import that into another client. That's reasonable, but it won't work.
+If you don't __want__ to import a Google calendar into a Google account, you might see the "Public URL" and try to import that into another client. That's reasonable, but it won't work.
+
+![](https://grantwinney.com/content/images/2020/02/google-calendar-settings.png)
+
+![](https://grantwinney.com/content/images/2020/02/import-calendar-error.png)
 
 The reason it can't be imported is that the Public URL from Google is really just a link to an HTML page, and other clients don't know what to do with it. You need something that's standardized, that all clients can easily consume and do something with, and that's an iCalendar file, which (if you open it up in a text editor) looks something like this:
 
+```none
 BEGIN:VCALENDAR
 PRODID:-//Google Inc//Google Calendar 70.9054//EN
 VERSION:2.0
@@ -127,9 +117,12 @@ TRANSP:TRANSPARENT
 END:VEVENT
 
 END:VCALENDAR
+```
 
-As luck would have it, you can easily extract the Calendar ID from any Google calendar URL (or just use the calendar ID directly if you know it), and replace {CALENDAR_ID} in the following URL. Or use the script I wrote at the top of this post.
+As luck would have it, you can easily extract the Calendar ID from any Google calendar URL (or just use the calendar ID directly if you know it), and replace `{CALENDAR_ID}` in the following URL. Or use the script I wrote at the top of this post.
 
+```none
 https://calendar.google.com/calendar/ical/{CALENDAR_ID}/public/basic.ics
+```
 
 That's it!

@@ -14,29 +14,31 @@ tags:
 - Reflections
 title: How will I know when I'm a programmer?
 ---
-
-
 In the early 2000s, I worked for a small business where part of my job involved writing some software our clients used for uploading data to us. Still in college, I bought the academic version of .NET 2003 to get familiar with programming at home. I remember the excitement I felt opening that large honking package, with a thick book and 6 CDs, when it finally arrived in the mail. I was on my way to becoming a programmer!
 
-A few years later, on a help desk at a much larger company, I'd occasionally wander into other areas of the campus, as we called it, to check out where the developers worked. There were whiteboards all over, with drawings and flowcharts. I didn't know what Agile and kanban were at the time, but I figured if I could decipher what it all meant, well... then I'd be able to become a programmer.
+![](https://grantwinney.com/content/images/2020/09/image-4.png)
+
+A few years later, on a help desk at a much larger company, I'd occasionally wander into other areas of the campus, as we called it, to check out where the developers worked. There were whiteboards all over, with drawings and flowcharts. I didn't know what Agile and kanban were at the time, but I figured if I could decipher what it all meant, well... __then__ I'd be able to become a programmer.
 
 I spent a year applying internally to beginner level programming positions, but it wasn't panning out. The lack of progress was disheartening and I began looking elsewhere. It felt as if "programming" were an X on a map that I couldn't find.
 
-Eventually I found a position to break into the field, and after 6 months it hit me - I'd arrived! It said "developer" on my nameplate, and I was writing code and compiling things. I was finally a programmer.
+Eventually I found a position to break into the field, and after 6 months it hit me - I'd arrived! It said "developer" on my nameplate, and I was writing code and compiling things. I was __finally__ a programmer.
 
 In reality, I was on a team of 3 devs, maintaining a legacy app, with little direction and little clue how to do my job well. The team grew, I met people who knew far more than I did, and suddenly I didn't feel so impressive. Several years went by, and I found myself wondering if I were really a decent programmer at all. Notice a pattern?
 
 I've gone back and forth over the years, following the fine tradition of alternating between self-doubt and self-congratulation, every few days sometimes. If you're in the same boat, asking yourself how you know when you're a programmer, then read on. This is as much for me as you, lol.
 
+## You'll improve
 
-You'll improve
-
-You'll learn new things, you'll learn from your mistakes, you'll learn from others. You'll get better, and a year from now you'll be a better programmer than you were a year ago. Maybe you'll get lucky and save the day! Maybe you'll get a PR in right before the weekend that gets approved with no corrections, and it'll feel good.
+You'll learn new things, you'll learn from your mistakes, you'll learn from others. You'll get better, and a year from now you'll be a better programmer than you were a year ago. Maybe you'll get lucky and save the day! Maybe you'll get a PR in right before the weekend that gets approved with no corrections, and it'll feel __good.__
 
 To be a programmer is to improve, better today than you were yesterday.
 
+![](https://grantwinney.com/content/images/2020/09/image-5.png)
 
-You'll grow
+https://xkcd.com/208
+
+## You'll grow
 
 In reality, telling a computer what to do (aka programming) is too general to perfect in a lifetime. Technologies evolve, techniques evolve, and the codebase you're working in evolves (moreso on a large team).
 
@@ -44,8 +46,11 @@ Devs will come and go, each with their own best practices and favorite tools, mo
 
 To be a programmer is to continually grow, better tomorrow than you are today.
 
+![](https://grantwinney.com/content/images/2020/09/image-6.png)
 
-You're more
+https://xkcd.com/378/
+
+## You're more
 
 Whether you're banging out open source tools for free, or you find a company willing to pay you for what you know, you're a programmer. If you stick with it, you've already arrived... and yet, you'll never arrive at any final destination. It's a marathon, not a sprint. And it's a marathon without any definitive finish line until you decide to draw one by retiring or switching career paths. 😀
 

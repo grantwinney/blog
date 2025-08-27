@@ -15,12 +15,11 @@ tags:
 - Python
 title: Creating a basic Word Cloud in Python
 ---
+You've most likely seen word clouds before, like in the sidebars of blogs. It's a fun, easy way to visualize which words in a group are more significant in some way. While you can [create your own](https://worditout.com/) online, there's no reason you can't write your own in the language of your choice too.
 
+Here's a quick example I threw together using Python and the built-in [Tkinter module](https://likegeeks.com/python-gui-examples-tkinter-tutorial/) for drawing to the screen. In a very rough way, the smaller the percentage gets, the more faded I make the color, and the farther I move it from the center.
 
-You've most likely seen word clouds before, like in the sidebars of blogs. It's a fun, easy way to visualize which words in a group are more significant in some way. While you can create your own online, there's no reason you can't write your own in the language of your choice too.
-
-Here's a quick example I threw together using Python and the built-in Tkinter module for drawing to the screen. In a very rough way, the smaller the percentage gets, the more faded I make the color, and the farther I move it from the center.
-
+```python
 import random
 from tkinter import *     # use Tkinter for Python2
 window = Tk()
@@ -63,6 +62,14 @@ for dev_type, percentage in results.items():
     lbl.place(x=mid_h-(start_pos*rnd_pos()), y=mid_v-(start_pos*rnd_pos()))
 
 window.mainloop()
+```
 
 It ain't the prettiest, but I think it's passable for a non-pythonista in under an hour. In the right setting, it's a good way to steer someone's focus on whatever's most important first... however you happen to define that!
 
+![](https://grantwinney.com/content/images/2020/06/2020-06-04-13_20_37-Welcome-to-LikeGeeks-app.png)
+
+![](https://grantwinney.com/content/images/2020/06/2020-06-04-13_54_50-Welcome-to-LikeGeeks-app.png)
+
+![](https://grantwinney.com/content/images/2020/06/2020-06-04-13_29_16-Welcome-to-LikeGeeks-app.png)
+
+![](https://grantwinney.com/content/images/2020/06/2020-06-04-13_56_51-Welcome-to-LikeGeeks-app.png)
