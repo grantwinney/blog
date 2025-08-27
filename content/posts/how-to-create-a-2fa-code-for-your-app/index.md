@@ -131,15 +131,15 @@ If you'd like to see an implementation written in C#, [check this out](https://g
 
 ---
 
-## A practical example in C\#
+## A practical example in C#
 
 I create an example app in C#. The label, issuer and secret will be prepopulated at startup, but feel free to change them. As you do, the QR code is regenerated.
 
 When you're ready, scan it with your phone to add it like any other 2FA code.
 
-![](https://grantwinney.com/content/images/2019/08/phonescanqrcode.jpg)
+![500](https://grantwinney.com/content/images/2019/08/phonescanqrcode.jpg)
 
-![](https://grantwinney.com/content/images/2019/08/phoneqrcodeadded.jpg)
+![500](https://grantwinney.com/content/images/2019/08/phoneqrcodeadded.jpg)
 
 ![](https://grantwinney.com/content/images/2019/08/codevalid.png)
 
