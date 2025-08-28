@@ -27,7 +27,7 @@ WinForms is 20 years old, but doesn't show signs of disappearing anytime soon. I
 
 In light of all that, and because the flagship app where I'm currently employed is written in WinForms, I'm going to start a series of posts that explore how we can make it, well... suck less. The .NET Framework was very, _very_ different 20 years ago, but old paradigms continue on. No one wants to change the original code, and it's easier to introduce new code using the same old design patterns.
 
-> The code in this article is available on [GitHub](https://github.com/grantwinney/SurvivingWinForms/tree/master/Threading/AsyncAwait?ref=grantwinney.com), for you to use or just follow along with.
+> The code in this article is available on [GitHub](https://github.com/grantwinney/SurvivingWinForms/tree/master/Threading/AsyncAwait), for you to use or just follow along with.
 
 But even if we don't want to overhaul a huge app, can't we leave the place cleaner than we found it? So let's check out something that can improve nearly any area of code, if used carefully - threading using the async/await pattern.
 

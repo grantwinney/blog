@@ -23,7 +23,7 @@ Scouring the features that WinForms got in .NET 8, I found one slipped in near t
 
 When I've wanted to add system icons to buttons, toolbars, etc in the past, it usually meant extracting them from shell32.dll, imageres.dll.mun, the [Visual Studio Image Library](https://www.microsoft.com/en-us/download/details.aspx?id=35825), etc, and then copying them into the project. Then I'd add them to an `ImageList` and hook that up to various UI elements. So I'm wondering.. does this new method give us an easier way to use system icons?
 
-> The code in this post is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/.NET%2008/GetStockIcon?ref=grantwinney.com), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/.NET%2008/GetStockIcon), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
 
 ## Usage
 

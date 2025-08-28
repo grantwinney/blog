@@ -181,5 +181,5 @@ If you need to read other [mime types](https://developer.mozilla.org/en-US/docs/
 
 If you want to learn more, here's a couple other interesting articles too:
 
-- [Why can't I copy and paste in Google Docs? | Zapier](https://zapier.com/blog/why-cant-you-copy-and-paste-in-google-docs/?ref=grantwinney.com)
-- [Why your browser doesn't like copy and paste](https://www.usatoday.com/story/tech/columnist/2014/04/13/copy-and-paste-in-google-docs/7568661/?ref=grantwinney.com)
+- [Why can't I copy and paste in Google Docs? | Zapier](https://zapier.com/blog/why-cant-you-copy-and-paste-in-google-docs/)
+- [Why your browser doesn't like copy and paste](https://www.usatoday.com/story/tech/columnist/2014/04/13/copy-and-paste-in-google-docs/7568661/)

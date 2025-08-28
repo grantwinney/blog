@@ -105,7 +105,7 @@ They state plainly that this is _not_ an official SpaceX API, but it does make a
 
 Click on the following link, then the "docs" folder, and scroll to the bottom of the page for a brief description of each available endpoint. Click on any of those endpoints to drill down into the details. There's examples of how to use each one.
 
-[r-spacex/SpaceX-API](https://github.com/r-spacex/SpaceX-API?ref=grantwinney.com)
+[r-spacex/SpaceX-API](https://github.com/r-spacex/SpaceX-API)
 
 You can get data about the Starlink satellites, which currently returns 160,000 lines of JSON, implying there are _thousands_ of Starlink satellites. I figured there were like maybe a couple dozen currently, but nope. [Thousands](https://history-computer.com/how-many-satellites-does-musks-starlink-have-in-orbit/). And apparently a whole lot more planned. 😲
 
@@ -178,7 +178,7 @@ https://api.spacexdata.com/v4/roadster
 
 The Solar System OpenData API provides access to information about all kinds of celestial bodies - where they're at, their physical characteristics, etc. It doesn't seem to require an API key either, and I don't see anything about rate limiting.
 
-[Solar system OpenData](https://api.le-systeme-solaire.net/en/?ref=grantwinney.com)
+[Solar system OpenData](https://api.le-systeme-solaire.net/en/)
 
 There's a very helpful description at the bottom of the page, with all the parameters you can send in and all the data you can expect to get back. They've got a Swagger page setup [here](https://api.le-systeme-solaire.net/swagger/) too, which is convenient for taking things for a spin. (If you're not familiar with it, you can [read more about Swagger here](https://swagger.io/docs/specification/2-0/what-is-swagger/), but it's basically a way to automate clean documentation for your API that also lets people try out the endpoints.)
 

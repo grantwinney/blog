@@ -23,7 +23,7 @@ Earlier this year, I wrote about being able to [deconstruct tuples in C#](https:
 
 I got to thinking recently though - besides Tuples, is there anywhere else we can use this concept? The answer's yes, we _can_ [define our own deconstruction logic](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types) in the classes we create, but now the question is... is it worth it?
 
-> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2007/DeconstructingUserDefinedTypes?ref=grantwinney.com), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2007/DeconstructingUserDefinedTypes), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
 ## Can we deconstruct our own types?
 

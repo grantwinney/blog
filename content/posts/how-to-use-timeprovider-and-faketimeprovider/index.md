@@ -27,7 +27,7 @@ Since it's the Christmas season, and .NET 8 (C# 12) was [recently released](http
 
 Let's take a closer look at abstracting time first, and save timers for [another post](https://grantwinney.com/how-to-use-timeprovider-and-faketimeprovider-to-test-timers/).
 
-> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2012/TimeAbstraction?ref=grantwinney.com), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2012/TimeAbstraction), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
 If you don't have .NET 8 yet, [download the SDK](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks) as well.
 

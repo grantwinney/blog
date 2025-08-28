@@ -35,7 +35,7 @@ Normally I'd leave _"SSH keys"_ selected for authentication, but for now you can
 
 ## Install Ansible on one of them
 
-After you've logged into both machines, [follow along with this tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-ubuntu-18-04?ref=grantwinney.com). Pick one machine to be the "controller node", where you'll install Ansible. The other machine will be the "host" that the controller node will eventually send commands to. Everything is in the tutorial.
+After you've logged into both machines, [follow along with this tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-ubuntu-18-04). Pick one machine to be the "controller node", where you'll install Ansible. The other machine will be the "host" that the controller node will eventually send commands to. Everything is in the tutorial.
 
 ### Setup the inventory (hosts file)
 
@@ -89,9 +89,9 @@ Okay, that wasn't nearly as bad as I thought it'd be! If you were doing this in 
 
 Now that I've got the servers setup and communicating, I plan on going through the rest of [Erika's guides](https://www.digitalocean.com/community/users/erikaheidi). I'll save these for another day though.
 
-- [How to Use Ansible to Automate Initial Server Setup on Ubuntu 18.04 | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-ansible-to-automate-initial-server-setup-on-ubuntu-18-04?ref=grantwinney.com)
-- [Configuration Management 101: Writing Ansible Playbooks | DigitalOcean](https://www.digitalocean.com/community/tutorials/configuration-management-101-writing-ansible-playbooks?ref=grantwinney.com)
-- [How to Use Ansible: A Reference Guide | DigitalOcean](https://www.digitalocean.com/community/cheatsheets/how-to-use-ansible-cheat-sheet-guide?ref=grantwinney.com)
+- [How to Use Ansible to Automate Initial Server Setup on Ubuntu 18.04 | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-ansible-to-automate-initial-server-setup-on-ubuntu-18-04)
+- [Configuration Management 101: Writing Ansible Playbooks | DigitalOcean](https://www.digitalocean.com/community/tutorials/configuration-management-101-writing-ansible-playbooks)
+- [How to Use Ansible: A Reference Guide | DigitalOcean](https://www.digitalocean.com/community/cheatsheets/how-to-use-ansible-cheat-sheet-guide)
 
 ### Other Resources
 

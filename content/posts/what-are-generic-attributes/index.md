@@ -58,7 +58,7 @@ The new [generic attribute](https://learn.microsoft.com/en-us/dotnet/csharp/what
 
 Well, other times we opt in for using generics, like [`List<T>`](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1) or with [Generic Math](https://grantwinney.com/whats-generic-math-support-in-csharp/), it's because we have a series of methods and whatever else that can be reused, and only the type of object being acted upon changes. So what's a case where we can use attributes in the same way? Validation comes to mind as one possibility...
 
-> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericAttributes?ref=grantwinney.com), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericAttributes), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
 ## A traditional attribute with room to improve
 

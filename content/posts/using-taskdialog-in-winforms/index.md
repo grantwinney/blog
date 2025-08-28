@@ -21,7 +21,7 @@ Since the earliest versions of .NET, the [MessageBox](https://learn.microsoft.co
 
 In [.NET 5](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/whats-new/net50?view=netdesktop-9.0#new-controls), we got a new control called [TaskDialog](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.taskdialog) that allows for much more customization. Instead of one main text area, the UI supports a more complex interface for displaying larger messages. Instead of a few preset button combos, we can create our own.. and even define new buttons.
 
-> The code in this post is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/.NET%2005/TaskDialogSample?ref=grantwinney.com), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/.NET%2005/TaskDialogSample), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
 
 It's great that the team behind WinForms has the bandwidth to add new features, not just bandaid old bugs. Let's compare the two controls and take a look at what we can do with `TaskDialog`.
 

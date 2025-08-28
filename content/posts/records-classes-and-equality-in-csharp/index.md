@@ -21,7 +21,7 @@ When C# 9 was released in 2020, one of the main focuses was on "removing ceremon
 
 Among other useful things (like top-level statements and init setters), they added the `record` modifier for classes. In the release a year after, they made it possible to mark structs as a `record` too. Adding the new modifier does a couple cool things for us that have me looking for opportunities to use them, so let's take a closer look.
 
-> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2009/RecordModifier?ref=grantwinney.com), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2009/RecordModifier), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
 
 ## Classes
 

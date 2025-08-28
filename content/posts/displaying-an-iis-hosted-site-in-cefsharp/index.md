@@ -27,7 +27,7 @@ A few weeks ago I shared how you can use [CEFSharp](http://cefsharp.github.io/) 
 
 This time we'll host the same page in IIS and see how CEFSharp can still interact with it. I won't give a whole overview of IIS, but if you want to try it yourself, here's a few steps.
 
-> The code in this article is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Web/CEFSharp/BasicCefSharpIIS?ref=grantwinney.com), if you'd like to use it in your own projects or just follow along while you read.
+> The code in this article is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Web/CEFSharp/BasicCefSharpIIS), if you'd like to use it in your own projects or just follow along while you read.
 
 Enable IIS in Windows Features, if it's not already.
 

@@ -27,7 +27,7 @@ That being said, what I'm going to show you is an anti-pattern of sorts, and it 
 
 _You should avoid this if you can. But what if you can't?_
 
-> The code in this post is available on [GitHub](https://github.com/grantwinney/SurvivingWinForms/tree/master/Threading/CallingAsyncMethodFromSynchronousCode?ref=grantwinney.com), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/SurvivingWinForms/tree/master/Threading/CallingAsyncMethodFromSynchronousCode), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
 Let's look at a few ways to do what we (sometimes) gotta do, starting with what we should _never_ do, and finishing up with what we really ought to do.
 

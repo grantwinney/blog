@@ -22,7 +22,7 @@ The C# and .NET teams are always adding interesting, useful features, more frequ
 
 One of the features we got as part of C# 12 is called primary constructors, which gives us a different way to define classes and structs. Let's take a closer look at what we can do with them and how they differ from traditional constructors.
 
-> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2012/PrimaryConstructors?ref=grantwinney.com), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2012/PrimaryConstructors), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
 
 ## Using Primary Constructors in Classes
 

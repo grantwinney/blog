@@ -19,7 +19,7 @@ title: A more helpful exception box for WinForms apps
 ---
 I saw a suggestion like a week or two ago that had me cracking up, and I can't for the life of me remember _where_ I saw it. Maybe LinkedIn, maybe Twitter.. I didn't mark it, so it's buried deep in my timeline never to be seen again. But the gist of it was someone asking whether just slapping a button on an error prompt that led straight to stack overflow was a legit way to help the end user.
 
-> If you'd like to follow along with the code in this post, it's available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Debugging/Misc/MessageBoxForDevs?ref=grantwinney.com).
+> If you'd like to follow along with the code in this post, it's available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Debugging/Misc/MessageBoxForDevs).
 
 After I laughed about it for a few seconds, I stopped to think... is it really that crazy? Maybe. It's not something I'd ever want to present to the _user,_ but what about just showing it to the developers or QA? Wouldn't it be convenient, when an error pops up, to just have a link that takes you right to the place you were probably (admit it) about to search anyway?
 

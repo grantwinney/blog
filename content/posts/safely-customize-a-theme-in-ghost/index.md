@@ -35,7 +35,7 @@ Compress the local directory so you end up with a `Casper-YOUR-USERNAME.zip` fil
 
 ![](https://grantwinney.com/content/images/2017/07/ghost-upload-theme-1.png)
 
-It's worth noting that [there's instructions for automating this process](https://github.com/marketplace/actions/deploy-ghost-theme?ref=grantwinney.com) too, where pushing changes to a custom theme in GitHub will cause it to be automatically deployed to a working Ghost blog. Very convenient!
+It's worth noting that [there's instructions for automating this process](https://github.com/marketplace/actions/deploy-ghost-theme) too, where pushing changes to a custom theme in GitHub will cause it to be automatically deployed to a working Ghost blog. Very convenient!
 
 ## Fetch latest official changes, periodically
 

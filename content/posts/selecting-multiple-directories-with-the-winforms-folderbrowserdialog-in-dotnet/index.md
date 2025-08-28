@@ -18,7 +18,7 @@ title: Selecting multiple directories with the FolderBrowserDialog in .NET 9
 ---
 It's great that, even after so many years, the teams at Microsoft continue to add updates to their oldest technologies with every .NET release. WinForms recently got a particularly small one, in .NET 9, that allows the FolderBrowserDialog to select multiple directories instead of one, so let's check it out (it won't take long, lol).
 
-> The code in this post is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/.NET%2009/FolderBrowserDialogMultiSelect?ref=grantwinney.com), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/.NET%2009/FolderBrowserDialogMultiSelect), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
 
 ## The old FolderBrowserDialog (one at a time, please)
 

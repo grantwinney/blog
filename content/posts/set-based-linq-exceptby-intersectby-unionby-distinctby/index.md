@@ -23,7 +23,7 @@ title: Set-based LINQ - ExceptBy, IntersectBy, UnionBy, DistinctBy
 ---
 Microsoft recently released C# 13 with a couple new additions to LINQ, which [I wrote about last week](https://grantwinney.com/using-linq-countby-and-aggregateby-in-csharp/). That got me thinking about other recent additions to LINQ, like [MaxBy and MinBy](https://grantwinney.com/using-minby-and-maxby-in-csharp/). Continuing down the list, let's check out some set-based methods, including ExceptBy, IntersectBy, UnionBy, and DistinctBy.
 
-> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2010/SetBasedLinqMethods?ref=grantwinney.com), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2010/SetBasedLinqMethods), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
 
 ## But first...
 

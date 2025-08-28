@@ -27,7 +27,7 @@ This is post 1 in a 3-part series building up to the new C# 11 feature called [G
 
 We'll look at how we use interfaces today, versus how we can use them with the new hotness in C# 11.
 
-> The code in this article is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericMathSupport/GenericMathSupport?ref=grantwinney.com), if you'd like to use it in your own projects or just follow along while you read.
+> The code in this article is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericMathSupport/GenericMathSupport), if you'd like to use it in your own projects or just follow along while you read.
 
 ## The interfaces we know and love
 

@@ -173,4 +173,4 @@ While you're at it, you could create a `<div id="toc"></div` element or similar,
 
 ## Other Implementations
 
-I'm happy with my solution, but it requires modifying your theme files directly, which isn't the most user-friendly thing. If you'd like to see this solution re-implemented so you can paste it into the blog footer with Ghost's _"code injection"_ section, check out László's blog post, [A jQuery Table of Contents for your Ghost Blog Entries](https://kb.zensoft.hu/toc-for-your-blog/?ref=grantwinney.com).
+I'm happy with my solution, but it requires modifying your theme files directly, which isn't the most user-friendly thing. If you'd like to see this solution re-implemented so you can paste it into the blog footer with Ghost's _"code injection"_ section, check out László's blog post, [A jQuery Table of Contents for your Ghost Blog Entries](https://kb.zensoft.hu/toc-for-your-blog/).

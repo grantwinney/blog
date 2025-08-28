@@ -23,11 +23,11 @@ I'm on the lookout for opportunities to use it, like the job I recently setup at
 
 This week I moved on to the next learning path, building apps with Azure DevOps.
 
-[Build applications with Azure DevOps learning path - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/build-applications-with-azure-devops/?ref=grantwinney.com)  
+[Build applications with Azure DevOps learning path - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/build-applications-with-azure-devops/)  
 
 Each of the learning paths have hours of material to go through, so I just focused on the one for creating pipelines and workflows.
 
-[Implement a code workflow in your build pipeline by using Git and GitHub - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/implement-code-workflow/?ref=grantwinney.com)
+[Implement a code workflow in your build pipeline by using Git and GitHub - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/implement-code-workflow/)
 
 Microsoft has things setup so that, once you create your free account, a single button click generates the entire environment you need for the current lesson. At the end, one more click deletes everything. Poof. You miss some of the finer details in setting things up, but then, should you really need to craft your own measuring cups and harvest grain in order to learn how to bake a cake? You can always delve deeper later when there's a reason too.
 

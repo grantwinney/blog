@@ -22,7 +22,7 @@ Some little green-clad forest dude gets a message in a dream, wakes up to find h
 
 ![](https://grantwinney.com/content/images/2020/09/Dream.jpg)
 
-Before Link to the Past though, there was the original Legend of Zelda for the NES. I never got into that one quite as much, but I definitely played it through a few times. I haven't played either of them in a long time though, which is why I geeked out on a project I stumbled onto the other day - [an opensource 3D version of the original Legend of Zelda](https://github.com/scottlininger/zelda30tribute?ref=grantwinney.com) that runs right in your browser!
+Before Link to the Past though, there was the original Legend of Zelda for the NES. I never got into that one quite as much, but I definitely played it through a few times. I haven't played either of them in a long time though, which is why I geeked out on a project I stumbled onto the other day - [an opensource 3D version of the original Legend of Zelda](https://github.com/scottlininger/zelda30tribute) that runs right in your browser!
 
 A few years ago, on the 30th anniversary of the LoZ, Scott Lininger and Mike Magee released it on a website that, well.. got [smacked down by Nintendo](https://www.facebook.com/zelda30tribute/posts/485743838275370) pretty quickly. The author said he had no hard feelings - clearly he expected it, since Nintendo is known for [aggressively protecting its IP](https://www.polygon.com/2016/9/2/12770344/nintendo-slaps-metroid-2-remake-and-500-plus-fangames-with-takedown-orders).
 

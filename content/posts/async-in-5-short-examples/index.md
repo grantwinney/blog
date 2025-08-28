@@ -23,7 +23,7 @@ A few years ago, I wrote [an async article](https://grantwinney.com/using-async-
 
 I don't feel completely comfortable with `async` yet, but learning to use and get comfortable with it really intrigues me, in the same way that [LINQ](https://grantwinney.com/10-resources-for-learning-linq) did years ago. Here's a few examples I put together to show off a little `async` code as well as cancellation tokens and how to report progress. I'm not running a lot of parallel code here, but I _am_ running things in a way that the task can be canceled and the UI won't be locked up.
 
-> The code in this post is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Threading/SimpleAsyncExamples?ref=grantwinney.com), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Threading/SimpleAsyncExamples), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
 
 ## A 5-second Task that just completes
 

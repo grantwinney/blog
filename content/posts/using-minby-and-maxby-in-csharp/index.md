@@ -25,7 +25,7 @@ Microsoft made a couple new additions to LINQ as part of the C# 13 / .NET 9 rele
 
 Let's take a look at two of them - MaxBy and MinBy - right after a brief overview of what we had before. Makes it a little easier to appreciate the new stuff!
 
-> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2010/MaxByMinBy?ref=grantwinney.com), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2010/MaxByMinBy), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
 
 ## Finding a Simple 'Max'
 

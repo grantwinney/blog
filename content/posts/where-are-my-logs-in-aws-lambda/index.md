@@ -65,4 +65,4 @@ My issue ended up being two separate problems:
 
 If that didn't do it for you, or you already had a comparable permission selected, here's some more helpful suggestions in this post by Dora Hodanic:
 
-[Amazon Connect and Lambda logs: Error loading Log Streams / Blogs / Perficient](https://blogs.perficient.com/2018/02/12/error-loading-log-streams/?ref=grantwinney.com)
+[Amazon Connect and Lambda logs: Error loading Log Streams / Blogs / Perficient](https://blogs.perficient.com/2018/02/12/error-loading-log-streams/)

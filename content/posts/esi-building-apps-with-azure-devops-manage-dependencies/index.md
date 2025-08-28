@@ -21,7 +21,7 @@ I've been making my way through the Enterprise Skills Initiative, a program from
 
 If you've used the .NET Framework or referenced a DLL, you've used packages. And if you've grabbed anything off of [NuGet](https://docs.microsoft.com/en-us/nuget/what-is-nuget), [npm](https://careerfoundry.com/en/blog/web-development/what-is-npm/), [pip](https://realpython.com/what-is-pip/), or the like, then you've used a [package manager](https://grantwinney.com/whats-a-package-manager/) like Artifacts.
 
-[Manage build dependencies with Azure Artifacts - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/manage-build-dependencies/?ref=grantwinney.com)
+[Manage build dependencies with Azure Artifacts - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/manage-build-dependencies/)
 
 There's several good reasons for learning how to package code, but the most obvious and popular is reusability. If you've got something you want to share with the world, you package it up, slap a license on it, and upload it to a public package manager so everyone can access your awesomeness.
 

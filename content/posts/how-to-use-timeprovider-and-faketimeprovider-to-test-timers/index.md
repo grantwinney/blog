@@ -23,7 +23,7 @@ The .NET 8 (C# 12) [release](https://devblogs.microsoft.com/dotnet/announcing-do
 
 If you're brand new to `TimeProvider`, it might be worth checking out my other post first. In this one though, I'd like to check out a different aspect of `TimeProvider`, involving timers.
 
-> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2012/TimeAbstraction_Timers?ref=grantwinney.com), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2012/TimeAbstraction_Timers), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
 If you don't have .NET 8 yet, [download the SDK](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks).
 

@@ -25,7 +25,7 @@ Unfortunately, this really is the way for most WinForms apps I've seen. Whatever
 
 A `MessageBox` isn't the only way to notify a user that something has happened or needs attention though, so let's take a look at a few alternatives!
 
-> The code in this post is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Presentation/Native/AlternativesToMessageBox?ref=grantwinney.com), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Presentation/Native/AlternativesToMessageBox), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
 Before continuing, keep in mind that everything below should be taken with a grain of salt. I'm not selling anything here as the best idea for an app (ymmv and all that), but since most of the projects I've ever worked on included requirements for new messages to popup in front of the user, I thought it'd be fun to look at what _else_ we could do.
 

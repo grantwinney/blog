@@ -27,7 +27,7 @@ _... sorry._
 
 Last week, I was pulled into assisting with an issue where a new API endpoint appeared to be returning a 500 error. First, we checked the logs. If you have them, that's a great place to start. If you don't have them, then.. not so much. Logging is a good thing to learn more about though _(see? there's no end...),_ and in the world of C# that usually means learning NLog, which [I've written](https://grantwinney.com/log-errors-in-winforms-with-nlog/) about [before](https://grantwinney.com/how-to-log-messages-to-multiple-targets-with-nlog/). But I digress...
 
-> The code in this post is available on [GitHub](https://github.com/grantwinney/BlogCodeSamples/tree/master/Frameworks/AspNetCore/MinimalAPIWithSimilarEndpoints?ref=grantwinney.com), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/BlogCodeSamples/tree/master/Frameworks/AspNetCore/MinimalAPIWithSimilarEndpoints), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
 The logs indicated that an older (but similar) API endpoint seemed to be intercepting the call, and throwing a 500 error because it couldn't handle the payload. That's interesting, because it _is_ possible to get yourself a bit turned around when you've got several similar routes, especially when one of them matches on a pattern. Take this small [Minimal API](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/overview) for example:
 

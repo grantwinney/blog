@@ -58,7 +58,7 @@ You can try it anyway to see what I mean.
 
 The only reasonable option left is to create our own message box class, wrap each of the static methods in normal instance methods, and create an interface from that. So let's take a look at how we might do that.
 
-> The code in this article is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Testing/MockingMessageBox?ref=grantwinney.com), if you'd like to follow along or use it in your own projects.
+> The code in this article is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Testing/MockingMessageBox), if you'd like to follow along or use it in your own projects.
 
 The first thing to do is just create your own message box class and name it something similar, like MessagePrompt or just Message. I won't paste the whole class but here's a portion of what it might look like.
 

@@ -22,7 +22,7 @@ One of the great things about living in a community is the opportunity for shari
 
 [Jiayi](https://dev.to/chewypao) created an app that lets you set your name and location, then make a request - for anything. People who are geographically close to you see your request, and can start a conversation. If they're willing to share, you mark the item as borrowed. It stays in your dashboard until you return the item and delete your original post. 👍
 
-[Goodeed - DO Hackathon Submission - DEV Community](https://dev.to/chewypao/do-hackathon-submission-goodeed-app-53c7?ref=grantwinney.com)
+[Goodeed - DO Hackathon Submission - DEV Community](https://dev.to/chewypao/do-hackathon-submission-goodeed-app-53c7)
 
 [try it out](https://goodeed-app-ugrpa.ondigitalocean.app/) | [deploy it](https://cloud.digitalocean.com/apps/new?repo=https://github.com/annacjy/goodeed-app/tree/main) | [source code](https://github.com/annacjy/goodeed-app)
 
@@ -32,7 +32,7 @@ Years ago, I went through a phase where I tried learning ASL. I memorized the al
 
 [Syauqy](https://twitter.com/syauqy) used [TensorFlow](https://www.tensorflow.org/) (machine learning) and some hand gesture models to create an app that translates the position of your fingers into valid sign language. It doesn't work for every letter (like J or Z that require movement), but it does a pretty good job. Taken to the extreme, I imagine something like this could help people learn ASL, or even serve as an ASL-to-text translation service.
 
-[HandSign - Learn a Sign Language with Your Camera - DEV Community](https://dev.to/syauqy/handsign-learn-a-sign-language-with-your-camera-2n5?ref=grantwinney.com)
+[HandSign - Learn a Sign Language with Your Camera - DEV Community](https://dev.to/syauqy/handsign-learn-a-sign-language-with-your-camera-2n5)
 
 [try it out](https://handsign-m4qq6.ondigitalocean.app/) | [deploy it](https://cloud.digitalocean.com/apps/new?repo=https://github.com/syauqy/handsign-tensorflow-gatsby/tree/master) | [source code](https://github.com/syauqy/handsign-tensorflow-gatsby)
 
@@ -44,7 +44,7 @@ User [chrs strm](https://dev.to/chrsstrm) wrote an app that integrates with [Twi
 
 It's basic, but in a bad enough situation, it might be all that's needed. Better than sending smoke signals or carrier pigeons anyway. 😂
 
-[Rally Call - An Emergency Comm Hub App in Just 14 Days - DEV Community](https://dev.to/chrsstrm/rally-call-an-emergency-comm-hub-app-in-just-14-days-4kli?ref=grantwinney.com)
+[Rally Call - An Emergency Comm Hub App in Just 14 Days - DEV Community](https://dev.to/chrsstrm/rally-call-an-emergency-comm-hub-app-in-just-14-days-4kli)
 
 [try it out](https://rallycall-lf9t4.ondigitalocean.app/) | [deploy it](https://cloud.digitalocean.com/apps/new?repo=https://github.com/chrsstrm/rallycall/tree/main) | [source code](https://github.com/chrsstrm/rallycall)
 

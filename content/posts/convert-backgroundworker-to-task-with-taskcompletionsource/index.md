@@ -28,7 +28,7 @@ Now, of course, there's [async/await and Tasks](https://grantwinney.com/using-as
 
 When I wrote about Tasks before, I considered how you might turn a bunch of synchronous code into async code, but what if the code is _already_ asynchronous? What if you just want to modernize it, like effectively turning a BackgroundWorker into a Task? [TaskCompletionSource](https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.taskcompletionsource-1) to the rescue!
 
-> The code in this article is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Threading/TaskCompletion?ref=grantwinney.com), if you'd like to use it in your own projects or just follow along while you read.
+> The code in this article is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Threading/TaskCompletion), if you'd like to use it in your own projects or just follow along while you read.
 
 _Assuming you can, I'd suggest cloning the repo and opening it in VS 2022 or later to follow along. To test both examples I describe below, open the Program.cs file and comment one "Application.Run" line out or the other._
 
@@ -315,7 +315,7 @@ private async void btnGetData_Click(object sender, EventArgs e)
 
 If you just can't get enough of backgroundworkers and tasks, and comparisons between them, this series of posts by Stephen Cleary are still valid (even if they're a little dated). _(You'll see his name all over the place on stackoverflow, answering everyone's questions about threading in C#.)_
 
-[Task.Run vs BackgroundWorker: Intro](https://blog.stephencleary.com/2013/05/taskrun-vs-backgroundworker-intro.html?ref=grantwinney.com)
+[Task.Run vs BackgroundWorker: Intro](https://blog.stephencleary.com/2013/05/taskrun-vs-backgroundworker-intro.html)
 
 And here's a post from MS on their recommended async design pattern:
-[Task-based Async Pattern (TAP): Introduction and overview | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap?ref=grantwinney.com)
+[Task-based Async Pattern (TAP): Introduction and overview | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap)

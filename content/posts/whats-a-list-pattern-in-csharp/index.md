@@ -52,7 +52,7 @@ Almost every time I've had a collection of _anything,_ it's coming from a db and
 
 So I'm left wondering, what _are_ some realistic usages for this new feature? What can we use it for, and how can it make our lives as programmers a little easier? Let's look at a few use cases.
 
-> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/ListPatternMatching?ref=grantwinney.com), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/ListPatternMatching), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
 ## Matching on CSV files with inconsistent formats
 

@@ -37,7 +37,7 @@ It's available for use in earlier .NET versions, including .NET Framework 4.62 a
 
 I'll try to keep this fairly simple, but we should setup a few things first before we get to the good stuff.
 
-> The code in this post is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Time/TimeAbstraction?ref=grantwinney.com), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Time/TimeAbstraction), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
 ### Reference the TimeProvider Package
 
