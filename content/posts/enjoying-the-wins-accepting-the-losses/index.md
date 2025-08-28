@@ -6,6 +6,7 @@ description: ""
 draft: false
 cover:
   image: photo-1506324587841-69c8c9aaa05c.jpg
+  relative: true
 slug: enjoying-the-wins-accepting-the-losses
 summary: When our code isn't clicking, negativity can quickly overshadow all the positive.
   That's when we need to remember our victories!

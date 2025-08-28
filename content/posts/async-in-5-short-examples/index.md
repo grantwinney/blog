@@ -8,6 +8,7 @@ description: ""
 draft: false
 cover:
   image: multitasking-7303815_1920-1.jpg
+  relative: true
 slug: async-in-5-short-examples
 summary: Async code isn't always intuitive, but practicing helps. Let's take a look
   at Async, CancellationToken, and IProgress, in a few short examples.

@@ -6,6 +6,7 @@ description: ""
 draft: false
 cover:
   image: pexels-mateusz-dach-409479.jpg
+  relative: true
 slug: how-do-i-convert-my-code-from-c-to-vb-net-or-vice-versa
 summary: If you work with the .NET Framework long enough, you may eventually find
   yourself tasked with converting one language to another, either by request or necessity.

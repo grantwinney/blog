@@ -10,6 +10,7 @@ description: ""
 draft: false
 cover:
   image: simon-clone-1.png
+  relative: true
 slug: raspberry-pi-simon-game-clone
 summary: Let's recreate the Simon game of the 1980s using a Raspberry Pi and Sonic
   Pi!

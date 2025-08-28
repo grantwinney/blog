@@ -7,6 +7,7 @@ description: ""
 draft: false
 cover:
   image: hacktoberfest-sticker.png
+  relative: true
 slug: hacktoberfest-and-making-my-first-oss-contributions
 summary: I made my first OSS contributions during HacktoberFest, gaining experience
   (and swag!) with the help of DigitalOcean and GitHub. :)

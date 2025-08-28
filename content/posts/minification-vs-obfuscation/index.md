@@ -7,6 +7,7 @@ description: ""
 draft: false
 cover:
   image: photo-1519791746699-ffdaa2d9ec36.jpg
+  relative: true
 slug: minification-vs-obfuscation
 summary: Mozilla announced they'll no longer accept extensions with obfuscated code.
   It's good news for users, maybe not so much for developers. Obfuscated code is (intentionally)

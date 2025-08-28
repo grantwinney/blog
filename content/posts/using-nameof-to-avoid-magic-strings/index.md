@@ -9,6 +9,7 @@ description: ""
 draft: false
 cover:
   image: photo-1514940269061-a79f23a95316.jpg
+  relative: true
 slug: using-nameof-to-avoid-magic-strings
 summary: There's a lot of ways to make our code work for us. Let's check out using
   the nameof operator to avoid magic strings.

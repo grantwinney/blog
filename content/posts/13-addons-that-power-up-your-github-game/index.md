@@ -7,6 +7,7 @@ description: ""
 draft: false
 cover:
   image: photo-1527896573815-b7dd74893deb.jpg
+  relative: true
 slug: 13-addons-that-power-up-your-github-game
 summary: GitHub is an amazing set of tools around Git, but it's lacking in certain
   areas. Where it fails to impress, browser addons often pick up the slack. Here's

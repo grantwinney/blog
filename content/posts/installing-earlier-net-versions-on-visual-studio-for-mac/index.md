@@ -8,6 +8,7 @@ description: ""
 draft: false
 cover:
   image: photo-1498050108023-c5249f4df085.jpg
+  relative: true
 slug: installing-earlier-net-versions-on-visual-studio-for-mac
 summary: Despite its marketing, Visual Studio for Mac is not the Visual Studio that
   millions love, ported to the Mac. Something that's absolutely trivial in standard

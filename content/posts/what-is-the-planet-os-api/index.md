@@ -7,6 +7,7 @@ description: ""
 draft: false
 cover:
   image: photo-1446776811953-b23d57bd21aa.jpg
+  relative: true
 slug: what-is-the-planet-os-api
 summary: Planet OS seems to have found a great number of services that provide scientific/weather/earth
   related data, regularly download a small sample set from each, and provide a way

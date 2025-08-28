@@ -6,6 +6,7 @@ description: ""
 draft: false
 cover:
   image: photo-1577563908411-5077b6dc7624.jpg
+  relative: true
 slug: what-is-slack-api
 summary: Slack is a popular communication and collaboration tool, and their API gives
   us access to channels, messages, and more. Let's check it out!

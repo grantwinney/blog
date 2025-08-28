@@ -7,6 +7,7 @@ description: ""
 draft: false
 cover:
   image: photo-1585831004044-c7531f026a9f.jpg
+  relative: true
 slug: csharp-compare-two-objects-for-equality
 summary: It's common to compare two objects in C# for equality, such as for a save
   operation. Let's take a closer look at how we define what equal means.

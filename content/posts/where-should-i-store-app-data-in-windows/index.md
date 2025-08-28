@@ -7,6 +7,7 @@ description: ""
 draft: false
 cover:
   image: photo-1569235186275-626cb53b83ce.jpg
+  relative: true
 slug: where-should-i-store-app-data-in-windows
 summary: Windows sets certain locations aside for apps, and makes them easily discoverable
   for devs to use. Let's see how.

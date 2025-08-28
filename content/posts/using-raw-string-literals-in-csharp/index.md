@@ -9,6 +9,7 @@ description: ""
 draft: false
 cover:
   image: tara-evans-G-AQWUTgMZo-unsplash.jpg
+  relative: true
 slug: using-raw-string-literals-in-csharp
 summary: C# 11 added raw string literals, not a life-altering new feature, but they could be useful in the right circumstances. Let's see how to use them.
 tags:

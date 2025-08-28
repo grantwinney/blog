@@ -8,6 +8,7 @@ description: ""
 draft: false
 cover:
   image: finger-2081169_1280.jpg
+  relative: true
 slug: how-to-create-a-2fa-code-for-your-app
 summary: I use 2FA on every site that supports it, but I'd never given much thought
   to how a 2FA code is generated. Let's learn how!

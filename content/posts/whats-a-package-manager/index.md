@@ -7,6 +7,7 @@ description: ""
 draft: false
 cover:
   image: photo-1511351817482-e0d6127f20bb.jpg
+  relative: true
 slug: whats-a-package-manager
 summary: If you've heard the term package manager, especially with GitHub announcing
   their own, you might be wondering what exactly it is. Well, it's a way to find,

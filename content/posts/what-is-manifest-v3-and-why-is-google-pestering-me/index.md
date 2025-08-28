@@ -9,6 +9,7 @@ description: ""
 draft: false
 cover:
   image: photo-1518648949339-298b03f37f3b.jpg
+  relative: true
 slug: what-is-manifest-v3-and-why-is-google-pestering-me
 tags:
 - Browser Extension

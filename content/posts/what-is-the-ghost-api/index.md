@@ -7,6 +7,7 @@ description: ""
 draft: false
 cover:
   image: photo-1476283721796-dd935b062838.jpg
+  relative: true
 slug: what-is-the-ghost-api
 summary: The Ghost API provides access to your blog's posts, tags, and users. You
   can get items, as well as create them. Before accessing anything though, you'll

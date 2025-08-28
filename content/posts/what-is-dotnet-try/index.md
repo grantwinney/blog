@@ -8,6 +8,7 @@ description: ""
 draft: false
 cover:
   image: photo-1498050108023-c5249f4df085.jpg
+  relative: true
 slug: what-is-dotnet-try
 summary: Do you prefer reading or doing? How about both? DotNet Try pulls in C# code
   from your project and turns your docs into an interactive experience.

@@ -7,6 +7,7 @@ description: ""
 draft: false
 cover:
   image: make-all-images-in-ghost-auto-post-blog-post-v2-1.jpg
+  relative: true
 slug: ghost-blog-autolink-images-to-full-resolution
 tags:
 - Ghost Blog

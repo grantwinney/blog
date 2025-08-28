@@ -6,6 +6,7 @@ description: ""
 draft: false
 cover:
   image: scratch.jpg
+  relative: true
 slug: scratch-that-itch-for-coding
 summary: Learning a little about programming could benefit anyone. If you want a fun
   intro to coding and logical thinking, check out Scratch!

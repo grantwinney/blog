@@ -8,6 +8,7 @@ description: ""
 draft: false
 cover:
   image: photo-1476900164809-ff19b8ae5968.jpg
+  relative: true
 slug: raspberry-pi-flickering-candle
 tags:
 - Raspberry PI

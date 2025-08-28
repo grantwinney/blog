@@ -10,6 +10,7 @@ description: ""
 draft: false
 cover:
   image: photo-1523726491678-bf852e717f6a.jpg
+  relative: true
 slug: displaying-an-iis-hosted-site-in-cefsharp
 summary: Thanks to CEFSharp, we can finally bring WinForms to the web! That didn't
   sound right. Okay, let's just look at hosting a site in IIS and showing it.

@@ -7,6 +7,7 @@ description: ""
 draft: false
 cover:
   image: private-20115_1920.jpg
+  relative: true
 slug: the-law-of-demeter-a-practical-example
 tags:
 - Software Design

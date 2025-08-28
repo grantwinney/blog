@@ -6,6 +6,7 @@ description: ""
 draft: false
 cover:
   image: photo-1532996122724-e3c354a0b15b.jpg
+  relative: true
 slug: deploy-requestbin-in-under-5-minutes
 summary: If you need to consume a webhook from another service, or verify the payload
   being sent from your own REST API endpoint, RequestBin can help. It intercepts and

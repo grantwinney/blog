@@ -6,6 +6,7 @@ description: ""
 draft: false
 cover:
   image: RpgvvtYAQeqAIs1knERU_vegetables.jpg.jpg
+  relative: true
 slug: what-is-an-api-wrapper
 summary: When you find an API to use in your app, you'll need to access it in a specific
   language - not always an easy or straightforward task. As long as you're doing all

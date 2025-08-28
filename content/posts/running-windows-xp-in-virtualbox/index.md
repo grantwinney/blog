@@ -7,6 +7,7 @@ description: ""
 draft: false
 cover:
   image: franck-v-516609-unsplash.jpg
+  relative: true
 slug: running-windows-xp-in-virtualbox
 summary: Just got an MSDN account, which always comes with some old treasures (hey,
   beauty's in the eye of the beholder). Take a trip back with me, to the days of Windows

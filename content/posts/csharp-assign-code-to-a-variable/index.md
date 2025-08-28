@@ -7,6 +7,7 @@ description: ""
 draft: false
 cover:
   image: photo-1515879218367-8466d910aaa4.jpg
+  relative: true
 slug: csharp-assign-code-to-a-variable
 summary: Did you know most languages have a way to pass around code to other functions, so you can call (invoke) it in other parts of your application? In C#, it's called a delegate.
 tags:

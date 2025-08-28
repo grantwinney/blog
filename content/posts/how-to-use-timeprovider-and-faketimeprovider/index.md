@@ -11,6 +11,7 @@ description: ""
 draft: false
 cover:
   image: photo-1495364141860-b0d03eccd065.jpg
+  relative: true
 slug: how-to-use-timeprovider-and-faketimeprovider
 summary: Testing time in C# is difficult, but .NET 8 (C# 12) adds an abstract TimeProvider
   class that makes it easier. Let's take a closer look.

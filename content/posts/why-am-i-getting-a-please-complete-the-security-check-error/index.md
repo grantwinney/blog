@@ -8,6 +8,7 @@ description: ""
 draft: false
 cover:
   image: momentista-Cdr28uRzzFI-unsplash.jpg
+  relative: true
 slug: why-am-i-getting-a-please-complete-the-security-check-error
 summary: I visited a page the other day and saw something odd.. a page that said it
   was checking my browser. It's unpolished and unfriendly, and my first instinct was

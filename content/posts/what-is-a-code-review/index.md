@@ -6,6 +6,7 @@ description: ""
 draft: false
 cover:
   image: photo-1531498860502-7c67cf02f657.jpg
+  relative: true
 slug: what-is-a-code-review
 summary: Does the idea of submitting to a code review make you sweat bullets? Or do
   you brush it off as a necessary evil? It should be a (hopefully positive) conversation,
