@@ -49,7 +49,7 @@ The shortcuts seem to be the same as Chrome, at least by default.
 
 You can also change the shortcuts if you'd like:
 
-![](https://grantwinney.com/content/images/2019/03/opera.PNG)
+![](opera.PNG)
 
 ## Brave
 
@@ -92,4 +92,4 @@ That link is a pretty basic (nearly useless) overview - there's more detail in t
 - If you're using the last available Windows version from 2012: `Edit > Preferences > Advanced > Show Develop menu in menu bar`
 - After showing the new menu, you can view page elements with `Control+Alt+I` or the console with `Control+Alt+C`. Beware, it's a pretty busted experience. 🙄
 
-![](https://grantwinney.com/content/images/2019/03/safari.png)
+![](safari.png)

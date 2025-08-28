@@ -32,7 +32,7 @@ In their own words, GPR _"allows you to host your packages and code in one place
 - Is it meant as a backup to the many package registries already available?
 - Or do they hope it'll become "the one registry to rule them all"?
 
-![](https://grantwinney.com/content/images/2019/10/frodo.jpg)
+![](frodo.jpg)
 
 ---
 
@@ -50,7 +50,7 @@ Instead, create a token that grants _exactly_ what the third party says it needs
 
 So, [create a new token](https://github.com/settings/tokens/new) and select the `read:packages` and `write:packages` scopes. **Leave the** *`*repo*`* **scope selected!** Technically, if you're repo is public you shouldn't need it... but if you're going to try using the package in VS you'll need it. I'll elaborate later. Oh, and **copy the token it generates** after you hit "Generate Token" or you'll be doing it over again in the next step. 😅
 
-![](https://grantwinney.com/content/images/2019/10/new-token.png)
+![](new-token.png)
 
 ---
 
@@ -60,7 +60,7 @@ In order to do this yourself, you'll need something to publish. If you don't hav
 
 Checkout the "packages" tab for your repo on GitHub. When there aren't any yet, you'll get a reminder of the commands to run for pushing your first package.
 
-![](https://grantwinney.com/content/images/2019/10/empty-packages-screen.png)
+![](empty-packages-screen.png)
 
 First, tell NuGet it can use GPR as a source, and give it the credentials to use:
 
@@ -110,11 +110,11 @@ Response status code does not indicate success: 409 (Conflict).
 
 That's it! Here's [what it looks like on GitHub](https://github.com/grantwinney/GhostSharp/packages) after pushing packages for my GhostSharp project. I uploaded two versions of GhostSharp - [1.0.2](https://github.com/grantwinney/GhostSharp/packages/30438?version=1.0.2) and [1.0.4](https://github.com/grantwinney/GhostSharp/packages/30438?version=1.0.4) - and you can see them listed in the lower-right corner.
 
-![](https://grantwinney.com/content/images/2019/10/first-package-upload.png)
+![](first-package-upload.png)
 
-![](https://grantwinney.com/content/images/2019/10/package-previous-version.png)
+![](package-previous-version.png)
 
-![](https://grantwinney.com/content/images/2019/10/package-details.png)
+![](package-details.png)
 
 ---
 
@@ -126,7 +126,7 @@ Create a new project, which you'll use to consume the package you just pushed to
 
 Right-click your project's dependencies and choose _"Manage NuGet Packages...",_ then switch the "Package source" to GPR. You should see anything you've uploaded for any of your personal projects. I ran into problems with this at first, but I'll explain all that later.
 
-![](https://grantwinney.com/content/images/2019/10/gpr-nuget-source-package-repo.png)
+![](gpr-nuget-source-package-repo.png)
 
 I can view the 2 packages I uploaded to the GPR
 
@@ -136,9 +136,9 @@ This is _all_ I've ever had to do when referencing a NuGet.org package, includin
 
 Unfortunately, referencing my "test" .NET Standard package from the GPR didn't work. I tried it with a .NET Core app and a .NET Framework app, but nada. It's a .NET Standard app, so it should work in both of these. 😕
 
-![](https://grantwinney.com/content/images/2019/10/netcore-install-error.png)
+![](netcore-install-error.png)
 
-![](https://grantwinney.com/content/images/2019/10/netframework-install-error.png)
+![](netframework-install-error.png)
 
 Referencing the package from .NET Core (left) and .NET Framework (right) apps 😔
 
@@ -169,15 +169,15 @@ What ended up fixing it, although I'm still not sure why it's needed, was to [in
 
 The result? Everything. Works. WTF.
 
-![](https://grantwinney.com/content/images/2019/10/everything-works-wtf.png)
+![](everything-works-wtf.png)
 
-![](https://grantwinney.com/content/images/2019/10/expected-output.png)
+![](expected-output.png)
 
 References work? ✅ Expected output? ✅
 
 Oooookay. My GhostSharp package on NuGet.org does not have that `files` node. And when I download my "test" package and compare them, before and after adding the `files` node, there's no change at all to the package other than the .nuspec file itself. It didn't actually _include_ anything else in the package. Yet everything works. Welcome to modern development folks.
 
-![](https://grantwinney.com/content/images/2019/10/code_meme.jpg)
+![](code_meme.jpg)
 
 ### Include repo scope on your token - even for public repos
 
@@ -185,13 +185,13 @@ This was the other issue I ran into, although if you left `repo` scope selected 
 
 When I initially tried to list packages from the GPR in Visual Studio, it prompted me for a password. I tried my GitHub password, then the token string - nothing. The error message in the console was... less than helpful.
 
-![](https://grantwinney.com/content/images/2019/10/manage-nuget-packages.png)
+![](manage-nuget-packages.png)
 
-![](https://grantwinney.com/content/images/2019/10/select-package-source.png)
+![](select-package-source.png)
 
-![](https://grantwinney.com/content/images/2019/10/2019-10-04-23_16_45-HelloWorld---Microsoft-Visual-Studio.png)
+![](2019-10-04-23_16_45-HelloWorld---Microsoft-Visual-Studio.png)
 
-![](https://grantwinney.com/content/images/2019/10/2019-10-04-23_17_22-HelloWorld---Microsoft-Visual-Studio.png)
+![](2019-10-04-23_17_22-HelloWorld---Microsoft-Visual-Studio.png)
 
 It did at least show me the URI it was trying to access, and when I entered that directly into a browser window I get the same authentication prompt. I entered my GitHub token string again, and got a much better response:
 
@@ -316,6 +316,6 @@ This seems reasonable, and in line with other package management sites like [NuG
 
 GitHub allows you to [delete a repository](https://help.github.com/en/articles/deleting-a-repository), and repositories contain your packages. So what happens then? I tried deleting (but didn't) the repository I was using to test this, and it sure seems like it would. Do the packages float around detached? 😕
 
-![](https://grantwinney.com/content/images/2019/10/delete-test-repo.png)
+![](delete-test-repo.png)
 
 Anyway, if you get beta access or they go live with everything, I'd love to hear about your experiences too. Good luck, and have fun!

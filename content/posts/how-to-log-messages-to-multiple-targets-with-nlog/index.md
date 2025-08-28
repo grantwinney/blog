@@ -35,7 +35,7 @@ I've written about [using NLog for logging in WinForms](https://grantwinney.com/
 
 If you've got everything configured but nothing's happening, double-check that the NLog.config file is set to copy to the output directory. If it's not in the bin folder when the app runs, nothing'll happen. Otherwise, [follow their troubleshooting doc](https://github.com/NLog/NLog/wiki/Logging-troubleshooting).
 
-![](https://grantwinney.com/content/images/2023/07/copy-the-nlog-file-to-output.png)
+![](copy-the-nlog-file-to-output.png)
 
 ## Configuring Multiple Targets
 

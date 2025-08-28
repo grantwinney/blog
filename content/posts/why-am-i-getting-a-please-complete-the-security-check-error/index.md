@@ -23,7 +23,7 @@ I use [Fathom Analytics](https://usefathom.com/) to see where traffic's coming f
 
 I went to visit one the other day though, and saw something I hadn't seen before.. a weird page that said it was checking my browser. This is such a bizarre, unfriendly looking landing page, that my first instinct was to just close the tab and forget it. Then I dropped to the bottom of the page and noticed the link to Cloudflare. Interesting...
 
-![](https://grantwinney.com/content/images/2021/12/image-7.png)
+![](image-7.png)
 
 ## Is it legit or some kind of scam?
 
@@ -37,11 +37,11 @@ It's legit too though, and Cloudflare even posted an entire article last year ab
 
 I signed up for Cloudflare just so I could check out their settings, and got a link in an email that I had to click on to verify who I was. It opened a page on cloudflare.com and.. gee, that looks familiar.
 
-![](https://grantwinney.com/content/images/2021/12/image-10.png)
+![](image-10.png)
 
 While I was in there, I checked some of the different settings a webmaster can configure, and there's a lot. In a firewall section, the "security level" is set to medium by default. I didn't enable the service for my site to confirm, but my guess is if someone wanted to crank things up to 11 across the board (set the level to High or even I'm Under Attack), Cloudflare would probably show that page to _every_ visitor, which may be what's happening to me.
 
-![](https://grantwinney.com/content/images/2021/12/image-11.png)
+![](image-11.png)
 
 ## How can I fix it?
 

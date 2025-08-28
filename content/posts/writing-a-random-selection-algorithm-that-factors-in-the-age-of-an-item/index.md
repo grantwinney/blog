@@ -76,7 +76,7 @@ public class Post
 
 ### Attempt 1: Raffle Ticket System
 
-![raffle-ticket-system](https://grantwinney.com/content/images/2018/06/raffle-ticket-system.jpg)
+![raffle-ticket-system](raffle-ticket-system.jpg)
 
 My first attempt was to use my oldest post as "ground 0" and give all posts after it a "weight" that was calculated using the number of days that had passed since that original post. So the oldest published post would have a "weight" of 1, but a post written a week later would have a "weight" of 8, and one a year later a weight of 366. It's almost like a raffle drawing where one person got 1 ticket to try and win, but someone else got hundreds. The person with hundreds is more likely to win, but not guaranteed.
 
@@ -120,7 +120,7 @@ The problem with that approach was the potential to gobble up a ton of memory wi
 
 ### Attempt 2: Overflow System
 
-![buckets](https://grantwinney.com/content/images/2018/06/buckets.jpg)
+![buckets](buckets.jpg)
 
 I came across a Stack Overflow post on [weighted choice](https://stackoverflow.com/q/56692/301857), which led to this bit of code. It's still calculating a weight dependent on the earliest post's publish date compared with each subsequent's post publish date. _(Again, posts are organized with most recent on the top.)_
 

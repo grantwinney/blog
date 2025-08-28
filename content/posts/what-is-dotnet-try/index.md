@@ -27,9 +27,9 @@ Before we delve into it, you'll have to install it. The details are [here](https
 
 Download the SDKs like they suggest. .NET Core 3.0 is outdated now, but you can find the latest versions [here](https://dotnet.microsoft.com/download/dotnet). Before you bother downloading anything though, double-check your apps... you may already have what you need.
 
-![](https://grantwinney.com/content/images/2021/05/image-12.png)
+![](image-12.png)
 
-![500](https://grantwinney.com/content/images/2021/05/image-11.png)
+![500](image-11.png)
 
 When that's done, you can use the `dotnet` command line tool to [install other tools](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet#global-tool-path-and-local-tools-commands), like DotNet Try. Open the command line of your choice and run this command:
 
@@ -41,7 +41,7 @@ dotnet tool update -g Microsoft.dotnet-try
 
 Now go back to their [help doc](https://github.com/dotnet/try/blob/main/DotNetTryLocal.md#getting-started) and check out the whole "Getting Started" section if you want to get more familiar with it. I got a _"your connection is not private message",_ but clicking "proceed to localhost" got me to something much more interesting.
 
-![](https://grantwinney.com/content/images/2021/05/image-7.png)
+![](image-7.png)
 
 Play around with it a bit, change the code, progress through their examples, try different things out.. maybe break it. lol️
 
@@ -51,11 +51,11 @@ To understand what's going on, find the directory where you ran the `dotnet try 
 
 _(If you're not familiar with markdown, find a_ [_good tutorial_](https://www.howtogeek.com/448323/what-is-markdown-and-how-do-you-use-it/) _and get familiar with it. It's used on GitHub as well as a lot of forums, commenting systems, blogs, etc. But I digress...)_
 
-![](https://grantwinney.com/content/images/2021/05/image-9.png)
+![](image-9.png)
 
 Open the QuickStart.md file in VSCode or some other editor, change the markdown a bit, and refresh the page in your browser. You should see the changes. So they're parsing the markdown into HTML... neat but not earth shattering.
 
-![](https://grantwinney.com/content/images/2021/05/image-10.png)
+![](image-10.png)
 
 The cool bit is what they call a "code fence". You specify a source file to read from, and give it the name of region in the file, and it parses whatever's inside the region, displays it on the page, and makes it executable.
 
@@ -70,11 +70,11 @@ When you refresh the page, it reads the source file, extracts whatever region yo
 
 When you _run_ the sample code, it compiles the project and actually runs it - hence the need for the switch statement in the Main method. If it fails to compile, you get syntax errors in the browser.
 
-![](https://grantwinney.com/content/images/2021/05/image-17.png)
+![](image-17.png)
 
 Fix the code (in my case, an invalid method name and missing `using` directive), and press Run again. Good to go! Oddly, I realized you can't just insert `using` directives directly into the web page. I mean, sure that'd be invalid in your c# app so it makes sense, but I guess that makes the point that showing just one part of your code like this does make it confusing as to what you can and cannot do in the browser.
 
-![](https://grantwinney.com/content/images/2021/05/image-18.png)
+![](image-18.png)
 
 ## Other Samples
 
@@ -82,9 +82,9 @@ They've got [some other samples](https://github.com/dotnet/try-samples) availabl
 
 Clone the above repo somewhere on disk, change to the directory with 101 LINQ samples, and run the `dotnet try` command. That should open the samples, easy peasy.
 
-![](https://grantwinney.com/content/images/2021/05/image-19.png)
+![](image-19.png)
 
-![](https://grantwinney.com/content/images/2021/05/image-20.png)
+![](image-20.png)
 
 There's not a ton in there, but there are some samples of new additions to the C# 7 and 8 specs, so might check those out later...
 

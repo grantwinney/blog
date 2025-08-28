@@ -48,9 +48,9 @@ class BarberShopCustomer
 }
 ```
 
-![](https://grantwinney.com/content/images/2023/08/image-13.png)
+![](image-13.png)
 
-![](https://grantwinney.com/content/images/2023/08/image-14.png)
+![](image-14.png)
 
 If you want to see other examples of attribute usage, here's an article I wrote a few years ago, but today I want to look at a new feature we got in C# 11 called generic attributes.
 
@@ -135,7 +135,7 @@ foreach (var vr in validationResults)
 
 The output correctly reports that DiscoveryYear and OrbitEccentricity are invalid, because the former is past the current year (2023), and the latter is a negative value.
 
-![](https://grantwinney.com/content/images/2023/08/image-15.png)
+![](image-15.png)
 
 ## A generic attribute that keeps things DRYer
 
@@ -181,6 +181,6 @@ class NumberValidation<T> : ValidationAttribute where T : INumber<T>
 
 The output is the same as before, detecting that 2 of the 3 properties have values that are outside the acceptable range.
 
-![](https://grantwinney.com/content/images/2023/08/image-16.png)
+![](image-16.png)
 
 If you find your own interesting use for generic attributes, feel free to share them in the comments below! And if you found this content useful, and want to learn more about a variety of [C#](https://grantwinney.com/tag/csharp/) features, check out my [CSharpDotNetExamples repo](https://github.com/grantwinney/CSharpDotNetExamples), where you'll find links to plenty more blog posts and practical examples.

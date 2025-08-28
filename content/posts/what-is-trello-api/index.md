@@ -31,7 +31,7 @@ First though, two things to consider:
 
 The process for trying things out is nice and easy. Go to the [Developer API Keys](https://trello.com/app-key) screen and copy the "Key" at the top of the page. Then click where it says "generate a Token" (it requests access to everything so you can try everything) and copy the token it generates too.
 
-![](https://grantwinney.com/content/images/2017/12/trello-api---create-token.png)
+![](trello-api---create-token.png)
 
 ## Trying It Out
 
@@ -168,7 +168,7 @@ Here's part of the result from my sample board. I've actually got 5 cards, but I
 
 In Trello, boards have lists, lists have cards, and cards have ... stuff. Like [checklists](https://developers.trello.com/v1.0/reference#checklistsid), [attachments](https://developers.trello.com/v1.0/reference#cardsidattachments), etc. Here's what the card I referenced above, with the checklists and whatnot, looks like:
 
-![](https://grantwinney.com/content/images/2017/12/trello-api---card-1.png)
+![](trello-api---card-1.png)
 
   
 
@@ -228,7 +228,7 @@ PUT https://api.trello.com/1/cards/5a43c80fa2cc50186c1f8df9?name=second%20list,%
 
 The response returns the entire updated record, which is pretty typical for a REST endpoint (but not required... in fact, the suggestions and recommendations for REST APIs are endless, but there are very few hard and fast rules). Here's what the card looks like after the update:
 
-![](https://grantwinney.com/content/images/2017/12/trello-api---card-2.png)
+![](trello-api---card-2.png)
 
 ## Thoughts
 

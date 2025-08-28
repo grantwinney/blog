@@ -19,7 +19,7 @@ title: Only assignment, call, increment, decrement, await, and new object expres
 ---
 This error might look a little cryptic at first, but what it's basically telling you is that what you typed isn't a valid C# statement. It probably looks really close though, because usually you just have a small typo.
 
-![](https://grantwinney.com/content/images/2019/11/valid-statements-error.png)
+![](valid-statements-error.png)
 
 First though, what's a [statement](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/statements)? Well, it's every valid line (or in some cases, block) of code that makes up your program, for example:
 

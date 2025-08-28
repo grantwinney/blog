@@ -67,17 +67,17 @@ Here's the [list_folder](https://dropbox.github.io/dropbox-api-v2-explorer/#file
 
 You can [create a new folder](https://dropbox.github.io/dropbox-api-v2-explorer/#files_create_folder):
 
-![dropbox-api---create-folder](https://grantwinney.com/content/images/2017/12/dropbox-api---create-folder.png)
+![dropbox-api---create-folder](dropbox-api---create-folder.png)
 
-![dropbox-api---folder-created](https://grantwinney.com/content/images/2017/12/dropbox-api---folder-created.png)
+![dropbox-api---folder-created](dropbox-api---folder-created.png)
 
 ### Move a File
 
 Now [move a file](https://dropbox.github.io/dropbox-api-v2-explorer/#files_move) into the folder you just created:
 
-![dropbox-api---move-file](https://grantwinney.com/content/images/2017/12/dropbox-api---move-file.png)
+![dropbox-api---move-file](dropbox-api---move-file.png)
 
-![dropbox-api---file-moved](https://grantwinney.com/content/images/2017/12/dropbox-api---file-moved.png)
+![dropbox-api---file-moved](dropbox-api---file-moved.png)
 
 ## Authenticating
 
@@ -87,7 +87,7 @@ If you decide to create a new app, [go here](https://www.dropbox.com/developers/
 
 Press "Create app" and on the next page you'll find a section that lets you generate an access token.
 
-![dropbox-api---create-app](https://grantwinney.com/content/images/2017/12/dropbox-api---create-app.png)
+![dropbox-api---create-app](dropbox-api---create-app.png)
 
 ## Trying it out
 
@@ -95,7 +95,7 @@ The API Explorer also includes the actual code you can use to make the call on y
 
 _You'll need these headers specified for the following examples:_
 
-![dropbox-api---headers](https://grantwinney.com/content/images/2017/12/dropbox-api---headers.png)
+![dropbox-api---headers](dropbox-api---headers.png)
 
 ### List Contents of a Folder
 
@@ -112,13 +112,13 @@ You can use that to construct a call in Postman. You can also get the same info 
 
 I decided to list all folders recursively from the very top.
 
-![dropbox-api---postman-list-folder](https://grantwinney.com/content/images/2017/12/dropbox-api---postman-list-folder.png)
+![dropbox-api---postman-list-folder](dropbox-api---postman-list-folder.png)
 
 ### Move a File
 
 Let's try moving a file again. I grabbed this code from the [API Explorer](https://dropbox.github.io/dropbox-api-v2-explorer/#files_move) too.
 
-![dropbox-api---move-file-postman-2](https://grantwinney.com/content/images/2017/12/dropbox-api---move-file-postman-2.png)
+![dropbox-api---move-file-postman-2](dropbox-api---move-file-postman-2.png)
 
 ## Thoughts
 

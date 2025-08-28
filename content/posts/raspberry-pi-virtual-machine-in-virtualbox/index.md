@@ -25,7 +25,7 @@ It got me thinking though. I’ve been playing around a lot on the Pi itself, bu
 
 **Limitations:** The RPi.GPIO library expects the GPIO pins to be available. If you’re not on the Pi, you can’t execute code that directly accesses them. It’ll complain loudly that you can only run your code on an actual Pi.
 
-![debian - gpio exception msg](https://grantwinney.com/content/images/2016/05/debian-gpio-exception-msg.png)
+![debian - gpio exception msg](debian-gpio-exception-msg.png)
 
 We’ll contemplate work-arounds later. Just wanted to state this upfront though – this solution is not a complete virtual Pi.
 
@@ -55,13 +55,13 @@ Create a new VirtualBox instance. Type the name “Debian” and it should auto-
 
 Set the settings according to the minimum requirements, which should pretty closely mirror the Pi. [The current release is jessie](https://www.debian.org/releases/jessie/amd64/ch03s04.html.en). Using the graphical desktop, the recommended RAM is 1GB and hard drive space is 10GB.
 
-![debian - virtualbox config 1](https://grantwinney.com/content/images/2016/05/debian-virtualbox-config-1.png)
+![debian - virtualbox config 1](debian-virtualbox-config-1.png)
 
-![debian - virtualbox config 2](https://grantwinney.com/content/images/2016/05/debian-virtualbox-config-2.png)
+![debian - virtualbox config 2](debian-virtualbox-config-2.png)
 
 Choose the ISO file you downloaded earlier and install in VirtualBox, keeping all the defaults.
 
-![debian - select image](https://grantwinney.com/content/images/2016/05/debian-select-image.png)
+![debian - select image](debian-select-image.png)
 
 Leave the network stuff the same, keeping the default hostname as-is and the domain name empty. Create passwords when prompted, and choose ‘yes’ when it asks you “write the changes to disks?”. Go get a cup of coffee. And a sandwich. It’s going to unpackage and install a lot of files, which can take 10-15 minutes.
 
@@ -69,13 +69,13 @@ When you finally get to the “device for boot loader installation” prompt, se
 
 When you finally get into Debian, click “Activities” in the upper-left and type in “term” to find the Terminal application.
 
-![debian - find terminal](https://grantwinney.com/content/images/2016/05/debian-find-terminal.png)
+![debian - find terminal](debian-find-terminal.png)
 
 ### Verify Python is Installed
 
 You can verify that python2 and python3 are already installed by starting each shell.
 
-![debian - python 2 and 3 installed](https://grantwinney.com/content/images/2016/05/debian-python-2-and-3-installed.png)
+![debian - python 2 and 3 installed](debian-python-2-and-3-installed.png)
 
 ### Upgrading Packages
 
@@ -103,7 +103,7 @@ Let’s clone a project from GitHub and try out a script. There’s a repo on Gi
 
 Create a new directory and clone “[https://github.com/leachim6/hello-world.git”](https://github.com/leachim6/hello-world.git%E2%80%9D). Run the “p/python.py” file.
 
-![debian - hello world test](https://grantwinney.com/content/images/2016/05/debian-hello-world-test.png)
+![debian - hello world test](debian-hello-world-test.png)
 
 ### Installing Other Dependencies
 
@@ -121,11 +121,11 @@ You can install the RPi.GPIO library using `pip install RPi.GPIO.`
 
 If you get the following error message, it can’t find some file. Run `apt-get install python-dev` to make it happy.
 
-![debian - install pibrella failed](https://grantwinney.com/content/images/2016/05/debian-install-pibrella-failed.png)
+![debian - install pibrella failed](debian-install-pibrella-failed.png)
 
 It should install okay, but if you try to run a script that takes advantage of it, you’ll get the loud error message I posted up at the top of this post. It wants the GPIO pins to be present.
 
-![debian - install pibrella](https://grantwinney.com/content/images/2016/05/debian-install-pibrella.png)
+![debian - install pibrella](debian-install-pibrella.png)
 
 I can think of an easy fix and a hard fix.
 

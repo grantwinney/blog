@@ -29,9 +29,9 @@ I only started learning about it recently, and today I'm wrapping my head around
 
 Normally I'd leave _"SSH keys"_ selected for authentication, but for now you can just select _"one-time password"_. You'll get an email for each machine with a temp password, and then you can just open a terminal, type in `ssh root@111.111.111.111` using whatever IP address you're assigned, and change the password.
 
-![](https://grantwinney.com/content/images/2019/12/ubuntu-vm-at-do-1.png)
+![](ubuntu-vm-at-do-1.png)
 
-![](https://grantwinney.com/content/images/2019/12/ansible-sandbox.png)
+![](ansible-sandbox.png)
 
 ## Install Ansible on one of them
 
@@ -39,11 +39,11 @@ After you've logged into both machines, [follow along with this tutorial](https:
 
 ### Setup the inventory (hosts file)
 
-![](https://grantwinney.com/content/images/2019/12/1-ansible-hosts-setup-1.png)
+![](1-ansible-hosts-setup-1.png)
 
 After installing Ansible, I setup the /etc/ansible/hosts file...
 
-![](https://grantwinney.com/content/images/2019/12/2-ansible-inventory.png)
+![](2-ansible-inventory.png)
 
 ... and then verified it with the ansible-inventory command
 
@@ -61,7 +61,7 @@ Here's some output from my node controller, as I was running commands. I color-c
 - I copied the public key from the node controller to the host. _(orange)_
 - I ran the first command again, to ping the host. Success! _(blue)_
 
-![](https://grantwinney.com/content/images/2019/12/ansible-node-controller-setup.png)
+![](ansible-node-controller-setup.png)
 
 ### Verify that you can run Ansible commands
 
@@ -71,15 +71,15 @@ The authors of the tutorial suggest running the following command from the contr
 ansible all -a "df -h" -u root
 ```
 
-![](https://grantwinney.com/content/images/2019/12/ansible-df-h.png)
+![](ansible-df-h.png)
 
 Checking host disk usage locally, and remotely from the controller
 
-![](https://grantwinney.com/content/images/2019/12/change-time.png)
+![](change-time.png)
 
 Checking the host date from the controller, before and after changing the host timezone
 
-![](https://grantwinney.com/content/images/2019/12/host-uptime.png)
+![](host-uptime.png)
 
 Checking the uptime on a host machine
 

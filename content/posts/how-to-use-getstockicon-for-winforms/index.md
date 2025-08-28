@@ -44,7 +44,7 @@ button1.ImageKey = "Conn";
 pictureBox1.Image = SystemIcons.GetStockIcon(StockIconId.DriveNet, 128).ToBitmap();
 ```
 
-![](https://grantwinney.com/content/images/2024/12/WcaF5EAVqE.gif)
+![](WcaF5EAVqE.gif)
 
 Or we could loop through _all_ of them, adding each to an `ImageList`, and then use that to create the world's busiest toolbar: 😏
 
@@ -56,7 +56,7 @@ toolStrip1.Items.AddRange(imageList2.Images.Keys.Cast<string>().Select(x =>
     new ToolStripButton(imageList2.Images[x]) { ToolTipText = x }).ToArray());
 ```
 
-![](https://grantwinney.com/content/images/2024/12/image-6.png)
+![](image-6.png)
 
 ## Pros and Cons
 

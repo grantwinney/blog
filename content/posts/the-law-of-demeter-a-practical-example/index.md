@@ -21,7 +21,7 @@ Yesterday was my turn to present, listing out highlights from chapter 5, sharing
 
 I like this name a lot more. I've no idea who Demeter was, or why he was making laws. And while there seems to be a set of rules to follow, I think the spirit of the thing leaves it open to interpretation based on individual circumstances.
 
-![](https://grantwinney.com/content/images/2020/05/pirates.jpg)
+![](pirates.jpg)
 
 Basically, it's about classes (modules, libraries, whatever) not exposing more about themselves than needed for other classes to use them. The term the authors use is writing "shy" code, in that a piece of code shouldn't interact more than it has to, and shouldn't let other bits of code see more than they have to.
 

@@ -30,6 +30,6 @@ There you have it. If you lose access, try emailing the amo-admins list. Or if y
 
 I'm glad I didn't dead-end in a public forum where some other user had the same problem 10 years ago and no one ever answered. 😅
 
-![](https://grantwinney.com/content/images/2023/03/image-36.png)
+![](image-36.png)
 
 [xkcd: Wisdom of the Ancients](https://xkcd.com/979/)

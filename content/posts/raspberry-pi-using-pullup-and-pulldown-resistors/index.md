@@ -37,7 +37,7 @@ If you need the Raspberry Pi unit itself, the Pi is more expensive than it used 
 
 Imagine you're creating a circuit using a breadboard. Something very simple – a button, some wire and a power source (like the 3.3v pin on the Pi). You just want to be able to click a button to complete the circuit. Maybe it looks something like this.
 
-![Simple Button Circuit](https://grantwinney.com/content/images/2016/04/Simple-Button-Circuit.png)
+![Simple Button Circuit](Simple-Button-Circuit.png)
 
 The above circuit connects 3.3v through a switch and ~~220Ω resistor~~, to pin #6.
 
@@ -86,7 +86,7 @@ Running the above script, I'd expect to see a pattern of output like this, showi
 
 Instead_,_ I see this, with 10 more screens just like it, in about 5 seconds:
 
-![no bouncetime, no pulldown](https://grantwinney.com/content/images/2016/04/no-bouncetime-no-pulldown.png)
+![no bouncetime, no pulldown](no-bouncetime-no-pulldown.png)
 
 The circuit keeps bouncing up and down, all over the place, only stopping when I press the button and close the circuit. That behavior has a name – floating.
 
@@ -104,7 +104,7 @@ It can be closed (like when you press a button, and a signal is able to traverse
 
 An open circuit is like a long train of dominos, where you've removed 4 or 5 from the middle. You can try sending a signal from one end, but it's never going to bridge the gap.
 
-![domino-665547_1280](https://grantwinney.com/content/images/2016/04/domino-665547_1280.jpg)
+![domino-665547_1280](domino-665547_1280.jpg)
 
 **High / Low**
 
@@ -166,7 +166,7 @@ Let's check out our simple circuit again, and think about how to fix the floatin
 
 Here's the circuit again. I shifted everything to the right a little bit, to make room for two things – a 10kΩ resistor and a wire, which effectively short-circuits pin #6 to ground. This forces (pulls down) the circuit into an "off" or 0 state when the button isn't being pushed, preventing the ups and downs we saw earlier.
 
-![Simple Button Circuit with pulldown res](https://grantwinney.com/content/images/2016/05/Simple-Button-Circuit-with-pulldown-res.png)
+![Simple Button Circuit with pulldown res](Simple-Button-Circuit-with-pulldown-res.png)
 
 All of the examples I've seen elsewhere use 10kΩ, and according to at least [one authoritative source](http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/raspberry-pi/gpio-pin-electrical-specifications#rpi-gpio-input-voltage-and-output-current-limitations) you should stick with that (per my comment in the "A Simple Circuit" section above). A higher value resistor allows less current to flow through.
 

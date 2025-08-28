@@ -31,9 +31,9 @@ You can use their service for free, for up to 500 requests a day and 5GB of data
 
 First, [sign up for free](http://data.planetos.com/account/signup/?plan=free&next=), then [check here for your auth key](http://docs.planetos.com/?shell#authentication). If it worked, then you should see the second image instead of the first.
 
-![](https://grantwinney.com/content/images/2018/01/no-auth-token.jpg)
+![](no-auth-token.jpg)
 
-![](https://grantwinney.com/content/images/2018/01/new-auth-token.jpg)
+![](new-auth-token.jpg)
 
 ## Trying it out
 
@@ -52,13 +52,13 @@ To make sure it works, either call the following from a command line or just pas
 
 Or (my preference) use Postman: _(because I like to save my queries)_
 
-![test-the-api-key](https://grantwinney.com/content/images/2018/01/test-the-api-key.png)
+![test-the-api-key](test-the-api-key.png)
 
 ## What else is there?
 
 Although you can explore their datasets with other API calls, it looks far easier to use the GUI they've created named [Datahub](http://data.planetos.com/datasets). You can specify exactly what kind of API you'd like to find. A fairly open-ended search for non-commercial data turned up a long list of interesting results.
 
-![selected-set](https://grantwinney.com/content/images/2018/01/selected-set.png)
+![selected-set](selected-set.png)
 
 Clicking "Open Data" for any of the above results brings up a more detailed page about the particular data set, including links to the organization, and filters for finding other interesting data. At this point though, I'm at a bit of a loss, and I've spent more time than I intended poking around trying to make heads or tails of the data.
 

@@ -66,11 +66,11 @@ Now you need to create a new Lambda function. Here's a brief [intro to setting u
 3. Upload the zip file you previously created.
 4. Set the handler as `TweetRandomFeedItem::TweetRandomFeedItem.Program::Main`
 
-![function-code](https://grantwinney.com/content/images/2018/06/function-code.png)
+![function-code](function-code.png)
 
 1. Under "Basic settings", decrease the memory to 128MB and increase the timeout to a minute. For me, it generally takes about 15-20 seconds to run, and uses 50MB or less of memory.
 
-![basic-settings](https://grantwinney.com/content/images/2018/06/basic-settings.png)
+![basic-settings](basic-settings.png)
 
 ### Create the environment variables
 
@@ -85,17 +85,17 @@ I use quite a few [environment variables](https://docs.aws.amazon.com/lambda/lat
 
 When you're done, it should look something like this:
 
-![env-vars-aws-lambda](https://grantwinney.com/content/images/2018/06/env-vars-aws-lambda.jpg)
+![env-vars-aws-lambda](env-vars-aws-lambda.jpg)
 
 ### Take it out for a spin!
 
 That _should_ be everything you need to run the job. To try it out, hit the "**Test**" button at the top of the screen. It might have you configure a new "test event". Just do it, name it whatever, and change the code to an empty set of curly braces like `{}`. Hopefully everything goes smoothly and you get a screen like this one.
 
-![successful-lambda-run](https://grantwinney.com/content/images/2018/06/successful-lambda-run.jpg)
+![successful-lambda-run](successful-lambda-run.jpg)
 
 Check your Twitter feed - did it post something from your RSS feed? My feed only returns the most recent 15 posts, but the app did pick one at random, and tweeted it:
 
-![](https://grantwinney.com/content/images/2018/06/successful-tweet.png)
+![](successful-tweet.png)
 
 ### Schedule it
 

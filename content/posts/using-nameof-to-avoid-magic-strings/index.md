@@ -95,7 +95,7 @@ private void btnSave_Click(object sender, EventArgs e)
 
 Then not only will you get a compiler error that _forces_ you to update those messages if the method name changes, but doing a "rename" through Visual Studio will highlight all those instances in the log messages and rename them at the same time.
 
-![](https://grantwinney.com/content/images/2021/12/image-12.png)
+![](image-12.png)
 
 Try out the code yourself and check out the logs.
 
@@ -132,7 +132,7 @@ public class DatabaseLayer
 
 By using `nameof`, renaming the other method will cause a compilation error and force you to go changing the name everywhere.
 
-![](https://grantwinney.com/content/images/2021/12/image-14.png)
+![](image-14.png)
 
 With C# 10, you're supposed to be able to use string interpolation in the Obsolete attribute itself, like this. But I tried it, and when I add the `$` to the string, it still marks the method as deprecated, but it ignores the message and the "error" flag when it's set to true. Hopefully they get that fixed.
 
@@ -158,7 +158,7 @@ public string UserId
 
 You could turn around and display that message to the user, or maybe just log it and display something a little more friendly.
 
-![](https://grantwinney.com/content/images/2021/12/image-15.png)
+![](image-15.png)
 
 I'm sure there's a lot more places you could use this too. If you come up with any good ones (or any bad ones, lol) let me know in a comment below!
 

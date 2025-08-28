@@ -210,7 +210,7 @@ Once you've added comments, you can easily generate an HTML document from the er
 edoc:files(["person.erl"]).
 ```
 
-![](https://grantwinney.com/content/images/2017/11/edoc.png "EDoc")
+![](edoc.png)
 
 I really like the "Learn You Some Erlang" site, but unfortunately there's nothing on there about EDoc! Lots of info in the official docs though.
 

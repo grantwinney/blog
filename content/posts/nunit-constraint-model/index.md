@@ -19,13 +19,13 @@ title: What is the NUnit constraint model?
 ---
 When I wrote about the new [Generic Math support in C# 11](https://grantwinney.com/whats-generic-math-support-in-csharp), along with some related topics like [static abstract interface methods](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c/) and [overloading operators](https://grantwinney.com/how-do-i-overload-operators-in-csharp/), I created a few examples, as I usually do. I added some unit tests using NUnit ([one of my go-to tools](https://grantwinney.com/8-tools-every-developer-should-know-and-use)), and noticed warnings in Visual Studio that I hadn't seen before.
 
-![](https://grantwinney.com/content/images/2023/06/image-8.png)
+![](image-8.png)
 
-![](https://grantwinney.com/content/images/2023/05/image-2.png)
+![](image-2.png)
 
 Those helpful little squiggly prompts only show up when you reference the [analyzers for NUnit](https://github.com/nunit/nunit.analyzers), a [separate NuGet package](https://www.nuget.org/packages/NUnit.Analyzers/) from the test library and not one I ever recall adding.
 
-![](https://grantwinney.com/content/images/2023/06/image-7.png)
+![](image-7.png)
 
 Actually, I don't remember adding it _this_ time either, and it isn't part of the NUnit project template in VS, so I'm not sure how it got added... but I'm glad it did. Today we get to learn something new!
 
@@ -35,7 +35,7 @@ The classic model, as its name would suggest, is the original syntax for writing
 
 Over time I learned [all the different methods on the Assert class](https://docs.nunit.org/articles/nunit/writing-tests/assertions/assertion-models/classic.html) that I might have to call (Less, GreaterOrEqual, IsTrue, etc). For many of them, it's super easy (and common) to mix up the parameters, even after years of use. Without checking for yourself (no cheating!), can you remember whether the _actual_ or _expected_ result is supposed to be passed in first or second in the following example?
 
-![](https://grantwinney.com/content/images/2023/06/image-5.png)
+![](image-5.png)
 
 For this reason and more (some of which we'll look at below), the authors of NUnit have been [nudging devs](https://github.com/nunit/nunit.analyzers/blob/master/documentation/NUnit2005.md) towards a different model for years.
 

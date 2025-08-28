@@ -38,7 +38,7 @@ Despite that, the design and implementation in Scratch teaches some concepts mos
 
 You can create your own "blocks" that accept parameters and contain other blocks, just like methods and parameters. You can run multiple blocks concurrently, so it introduces users to threading. And like [Sonic Pi](https://thehopeful.dev/sonic-pi/), it supports "live coding". Users can modify their code on the fly, without needing to wait for compilation.
 
-![](https://grantwinney.com/content/images/2021/10/gUQ1e1R4TS.gif)
+![](gUQ1e1R4TS.gif)
 
 As for the tech stack, it was originally written in Squeak (yeah, never heard of it either), probably due to it's cross-platform portability, then ported to Flash and AIR ([dead](https://www.adobe.com/products/flashplayer/end-of-life.html) and [dying](https://blog.adobe.com/en/2019/05/30/the-future-of-adobe-air.html#gs.qyix8o)), and finally to [HTML 5 and JavaScript](https://bocoup.com/blog/porting-scratch-from-flash-to-javascript-performance-interoperability-and-extensions)... which means a much greater compatibility with various systems. If you want to check out the code, [it's available on GitHub](https://github.com/LLK).
 

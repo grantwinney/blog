@@ -23,7 +23,7 @@ Enjoy! _(I know I will...)_
 
 [CommitStrip](https://www.commitstrip.com/) is a fun comic about life as a developer, especially web development. The stories are the shared results of a group of devs from Europe and Asia, and if you've been a dev for any amount of time they'll hit close to home. 😃
 
-![](https://grantwinney.com/content/images/2018/10/Strip-VIM-appla-650-finalenglish2-1.jpg)
+![](Strip-VIM-appla-650-finalenglish2-1.jpg)
 
 [Trapped - CommitStrip](http://www.commitstrip.com/en/2017/05/29/trapped/)
 
@@ -39,7 +39,7 @@ Enjoy! _(I know I will...)_
 
 ![](https://imgs.xkcd.com/comics/compiling.png)
 
-![](https://grantwinney.com/content/images/2023/03/image-32.png)
+![](image-32.png)
 
 [Estimation](https://xkcd.com/612/) / [Compiling](https://xkcd.com/303/) / [Nerd Sniping](https://xkcd.com/356/) (XKCD)
 
@@ -51,11 +51,11 @@ Once in awhile an O RLY? _(parody of O'Reilly)_ book cover pops up somewhere onl
 
 Here's [a collection of book covers](https://boyter.org/2016/04/collection-orly-book-covers/), and you can even [generate your own](https://dev.to/rly).
 
-![](https://grantwinney.com/content/images/2023/03/image-33.png)
+![](image-33.png)
 
-![](https://grantwinney.com/content/images/2023/03/image-34.png)
+![](image-34.png)
 
-![](https://grantwinney.com/content/images/2023/03/image-35.png)
+![](image-35.png)
 
   
 
@@ -101,7 +101,7 @@ Here's [a collection of book covers](https://boyter.org/2016/04/collection-orly-
 
 [Julia Evans' zines](https://jvns.ca/zines/) are a really cool idea. What better way to learn about an array of topics than in graphic form? Go check them out and learn something new!
 
-![](https://grantwinney.com/content/images/2020/05/cover_hua1af9e015eb4e2e9607c1b0edc7f43b3_63451_800x0_resize_q75_box.jpg)
+![](cover_hua1af9e015eb4e2e9607c1b0edc7f43b3_63451_800x0_resize_q75_box.jpg)
 
 [Linux Debugging Tools You'll Love - Julia Evans](https://jvns.ca/debugging-zine.pdf)
 

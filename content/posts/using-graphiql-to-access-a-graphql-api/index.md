@@ -36,15 +36,15 @@ Here's a few queries I tried running...
 
 First, the "Hello World!" of GraphQL queries:
 
-![](https://grantwinney.com/content/images/2019/09/default-query.png)
+![](default-query.png)
 
 A query for my own repos' URLs, and the homepages of repos I've forked:
 
-![](https://grantwinney.com/content/images/2019/09/repos.png)
+![](repos.png)
 
 My bio, my followers, my _followers'_ followers bios... why? Because I can. 😑
 
-![](https://grantwinney.com/content/images/2019/09/followers-all-the-way-down.png)
+![](followers-all-the-way-down.png)
 
 ## Mutations
 
@@ -53,12 +53,12 @@ Once you've run a few queries, try out mutations. You've already granted access 
 1. A query to get the ID associated with an open issue in one of my repos
 2. A mutation to add a few reactions to the issue
 
-![](https://grantwinney.com/content/images/2019/09/first_mutation.gif)
+![](first_mutation.gif)
 
 As with running the queries, having the documentation on the right side is great. I was able to drill down and see that `addReaction` requires an `AddReactionInput` type, which consists of three things - and only two are required (notice the `!` ).
 
-![](https://grantwinney.com/content/images/2019/09/mutation-docs.png)
+![](mutation-docs.png)
 
 The only thing that seemed unintuitive was the requirement to have a body in the mutation, as if it's required to return _something_ even though if we were doing a REST `POST` we wouldn't care about anything except a return code of `200 OK`.
 
-![](https://grantwinney.com/content/images/2019/09/mutation_nobody.png)
+![](mutation_nobody.png)

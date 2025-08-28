@@ -142,7 +142,7 @@ DateTime birthdate = (DateTime)birthday;
 
 If they don't cast it, the compiler throws an error:
 
-![](https://grantwinney.com/content/images/2024/05/image-8.png)
+![](image-8.png)
 
 ## Final Thoughts
 

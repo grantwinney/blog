@@ -27,7 +27,7 @@ If you find yourself in a position where you're supporting a WinForms applicatio
 
 Let's say you had a simple Form, like this one. It has 3 fields to enter numbers and an `ADD` button to, you know, _add_ them in the bottom field. The "Running Total" field never resets, but just keeps adding each total as long as the app is running.
 
-![](https://grantwinney.com/content/images/2020/03/image-1.png)
+![](image-1.png)
 
 Assume the above is implemented like this.. a relatively short bit of code. _None_ of these methods can take advantage of automated testing. You'd need an instance of the Form itself, and every method is accessing or otherwise updating UI components.
 
@@ -359,4 +359,4 @@ public class CalcModelTests
 
 The end result? The beginnings of an automated test suite! You can plug this into TeamCity, Jenkins, or another CI tool and begin to get automated test runs. Yes, this is a lot more difficult in a large app that's been around for years, but with effort it's absolutely doable, one step at a time.
 
-![](https://grantwinney.com/content/images/2020/03/mvp-test-run-success.png)
+![](mvp-test-run-success.png)

@@ -52,27 +52,27 @@ Also, for changing colors on an RGB LED, it may help to read about [pulse-width 
 
 Here are some pictures and a diagram of my setup, although the author of the linked articles provides a good set of pics too. There’s some additional stuff in my circuit that’s not in his, namely the RGB LED and resistors/wires to make it work. I used a 100Ω resistor for red and 220Ω for green and blue, [same as here](https://grantwinney.com/how-to-use-an-rgb-multicolor-led-with-pulse-width-modulation-pwm-on-the-raspberry-pi/).
 
-![](https://grantwinney.com/content/images/2019/07/joystick-color-wheel-setup-1.jpg)
+![](joystick-color-wheel-setup-1.jpg)
 
-![](https://grantwinney.com/content/images/2019/07/joystick-color-wheel-setup-2.jpg)
+![](joystick-color-wheel-setup-2.jpg)
 
-![](https://grantwinney.com/content/images/2019/07/joystick-color-wheel-setup-3.jpg)
+![](joystick-color-wheel-setup-3.jpg)
 
-![](https://grantwinney.com/content/images/2019/07/joystick-color-wheel-setup-4.jpg)
+![](joystick-color-wheel-setup-4.jpg)
 
-![](https://grantwinney.com/content/images/2019/07/joystick-color-wheel-setup-5.jpg)
+![](joystick-color-wheel-setup-5.jpg)
 
-![](https://grantwinney.com/content/images/2019/07/joystick-color-wheel-setup-6.jpg)
+![](joystick-color-wheel-setup-6.jpg)
 
-![](https://grantwinney.com/content/images/2019/07/mcp3008-in-package.jpg)
+![](mcp3008-in-package.jpg)
 
-![](https://grantwinney.com/content/images/2019/07/mcp3008.jpg)
+![](mcp3008.jpg)
 
 ### Fritzing Diagram
 
-![joystick-color-wheel](https://grantwinney.com/content/images/2016/09/Joystick-Color-Wheel.png)
+![joystick-color-wheel](Joystick-Color-Wheel.png)
 
-If you’d like, you can [download the original Fritzing file](https://grantwinney.com/content/images/2016/09/Joystick-Color-Wheel.fzz) and play around with it.
+If you’d like, you can [download the original Fritzing file](Joystick-Color-Wheel.fzz) and play around with it.
 
 ## Reading Input
 
@@ -80,7 +80,7 @@ You should’ve already verified that Python Spidev ([pi-spydev](https://github.
 
 Since I’ve been [messing with an RGB LED](https://grantwinney.com/how-to-use-an-rgb-multicolor-led-with-pulse-width-modulation-pwm-on-the-raspberry-pi/) lately, I thought it’d be interesting to map the position of the joystick to the RGB color wheel and then light up the LED appropriately. Imagine the X-axis running horizontal above Blue and Green, and the Y-axis running vertical through Red and Cyan.
 
-![rgb_color_wheel_400px](https://grantwinney.com/content/images/2016/08/rgb_color_wheel_400px.jpg)
+![rgb_color_wheel_400px](rgb_color_wheel_400px.jpg)
 
 Here’s the code in its entirety:
 

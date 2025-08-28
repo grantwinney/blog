@@ -29,15 +29,15 @@ The easiest method is to just create a new "NUnit Library Project". The VS4Mac t
 
 Go to: `File / New Solution / Other / .NET / NUnit Library Project`
 
-![](https://grantwinney.com/content/images/2017/07/vs4mac-test-setup01-1.png)
+![](vs4mac-test-setup01-1.png)
 
-![](https://grantwinney.com/content/images/2017/07/vs4mac-test-setup02-1.png)
+![](vs4mac-test-setup02-1.png)
 
 ### Create a class and some tests
 
 There's already a "Test.cs" file ready to go, with the proper NUnit attributes and everything. Let's create a regular class and add a couple tests against it.
 
-![](https://grantwinney.com/content/images/2017/07/vs4mac-test-setup03.png)
+![](vs4mac-test-setup03.png)
 
 ### Run the tests
 
@@ -47,7 +47,7 @@ Click the build button (black triangle in upper-left) to see the new tests, if n
 
 Let's change the logic so the tests fail (if they didn't already) and check out the failure results in the "Test Results" pad at the bottom. If that pad isn't visible, open it now: `View / Pads / Test Results`
 
-![](https://grantwinney.com/content/images/2017/07/vs4mac-test-setup04.png)
+![](vs4mac-test-setup04.png)
 
 That's it! Using VS4Mac for TDD during a code kata doesn't get much easier than that. :)
 
@@ -58,9 +58,9 @@ But what if we already have a project and just want to add tests to it?
 Start by creating a Library project to act as the "existing project":  
 `File / New Solution / Other / .NET / Library`
 
-![](https://grantwinney.com/content/images/2017/07/vs4mac-test-setup01.png)
+![](vs4mac-test-setup01.png)
 
-![](https://grantwinney.com/content/images/2017/07/vs4mac-test-setup02.png)
+![](vs4mac-test-setup02.png)
 
 If the "Solution" pad isn't visible on the side: go to: `View / Pads / Solution`
 
@@ -68,15 +68,15 @@ If the "Solution" pad isn't visible on the side: go to: `View / Pads / Solution`
 
 Right-click the project and choose `Add / New File.` Select `General / Empty Class` and name it "MagicSquareTests.cs". Alternatively, do what I did and just rename the default "MyClass.cs" as my MagicSquare class, which should look something like this:
 
-![](https://grantwinney.com/content/images/2017/07/vs4mac-test-setup05.png)
+![](vs4mac-test-setup05.png)
 
 ### Add the NUnit Package via NuGet
 
 Right-click on Packages in the Solution pad and choose "Add Packages". All we need is NUnit, not the NUnit Console Runner.
 
-![](https://grantwinney.com/content/images/2017/07/vs4mac-test-setup06.png)
+![](vs4mac-test-setup06.png)
 
-![](https://grantwinney.com/content/images/2017/07/vs4mac-test-setup07.png)
+![](vs4mac-test-setup07.png)
 
 The NUnit folder should be visible under the Packages folder.
 
@@ -84,7 +84,7 @@ The NUnit folder should be visible under the Packages folder.
 
 Let's add some new tests to run against whatever logic the old project has. In my case, I added a single function for the magic square kata, and wrote a couple tests against it that were sure to fail:
 
-![](https://grantwinney.com/content/images/2017/07/vs4mac-test-setup08-1.png)
+![](vs4mac-test-setup08-1.png)
 
 The test runner tells us what failed and where.
 
@@ -92,4 +92,4 @@ The test runner tells us what failed and where.
 
 Try adding enough code to get the tests to pass, and run again. Green = good!
 
-![](https://grantwinney.com/content/images/2017/07/vs4mac-test-setup09-1.png)
+![](vs4mac-test-setup09-1.png)

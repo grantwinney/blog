@@ -76,7 +76,7 @@ Grab some cookies and milk and join me on the floor for a lesson on the [color w
 
 To create the yellow/orange of a candle, we’ll start with lots of red. Then we’ll add enough green to pull the balance towards orange or yellow. We don’t need any blue at all. As the candle “burns down”, we can remove some of the red (to make it look dimmer) and a lot more of the green (to change it from yellow to orange and finally red).
 
-![rgb_color_wheel_400px](https://grantwinney.com/content/images/2016/08/rgb_color_wheel_400px.jpg)
+![rgb_color_wheel_400px](rgb_color_wheel_400px.jpg)
 
 ### Algorithms
 
@@ -108,7 +108,7 @@ In the following graph (from the Desmos site), the x-axis represents how long th
 
 While red is always significantly higher than green (when the LEDs first turn on and are at a burn intensity of 1, green is between 33-44 duty cycle and red is between 75-100), as the candle burns down and burn intensity decreases to 0, red maintains a strong presence while green is fazed out more quickly. That should result in a strong reddish color as it burns down.
 
-![flickering candle algorithm](https://grantwinney.com/content/images/2016/08/flickering-candle-algorithm.png)
+![flickering candle algorithm](flickering-candle-algorithm.png)
 
 But what happens when the candle burns down completely? We’ll add a way to “fan the flame” and make it get brighter again, by adding a button. More on that below…
 
@@ -118,7 +118,7 @@ Using an LED with multiple colors is a little more complicated than a single-col
 
 The RGB LED in the diagram below is oriented with the flat side on the left. If you take a close look at your own LED, there should be a flat side too. The pins, from left to right, are **red**, ground, **green**, **blue**.
 
-![Flickering Candle with RGB LED and PWM_bb](https://grantwinney.com/content/images/2016/08/Flickering-Candle-with-RGB-LED-and-PWM_bb.png)
+![Flickering Candle with RGB LED and PWM_bb](Flickering-Candle-with-RGB-LED-and-PWM_bb.png)
 
 The red LED is connected through a 100Ω resistor to pin 37. The green LED is connected through a 470Ω resistor to pin 33. Both pins are set to output, in order to light the LED. Since we don’t need the blue LED, there’s nothing connected to it.
 
@@ -218,6 +218,6 @@ What do you think? Did you come up with a better solution? Maybe resistors that 
 
 Maybe you could use a 10mm LED instead of a 5mm, and see if the larger bulb changes the effect. Or place the LED inside a plastic cube so that the whole thing looks like it’s glowing and flickering…
 
-![blue led cube](https://grantwinney.com/content/images/2016/08/blue-led-cube.jpg)
+![blue led cube](blue-led-cube.jpg)
 
 If this inspires you on some project you’re working on, or you find a way to do something better with it, or I left out some detail and you have questions, let me know in the comments below. Good luck!

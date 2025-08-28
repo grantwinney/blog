@@ -25,11 +25,11 @@ Let's look at some of the different tools at our disposal.
 
 There's a tiny utility for generating GUIDs that gets installed with every version of Visual Studio, going back to at least VS 2005 (the earliest I have installed). It's accessible in the VS menu but it's also a stand-alone exe, so you can just pin it or create a shortcut to it, and then assign a shortcut key to it if that's what you want.
 
-![](https://grantwinney.com/content/images/2023/07/2023-07-26-15_11_00-Microsoft-Visual-Studio.png)
+![](2023-07-26-15_11_00-Microsoft-Visual-Studio.png)
 
-![](https://grantwinney.com/content/images/2023/07/2023-07-26-15_12_31-Create-GUID.png)
+![](2023-07-26-15_12_31-Create-GUID.png)
 
-![](https://grantwinney.com/content/images/2023/07/2023-07-26-15_49_49-Microsoft---GUIDGEN-Application-Properties.png)
+![](2023-07-26-15_49_49-Microsoft---GUIDGEN-Application-Properties.png)
 
 ## VS Code
 
@@ -37,7 +37,7 @@ VS Code has been my favorite editor for the last few years, and definitely one o
 
 Here's an example, that definitely only took 30 seconds to create and that I certainly didn't have to re-record 5 times because I kept pressing the wrong keys. Notice how the "manager_id" gets the same value as the manager's "id", but then the two employees get different values for their IDs, depending on which command is selected. Convenience!
 
-![](https://grantwinney.com/content/images/2023/07/vscode_insertguid.gif)
+![](vscode_insertguid.gif)
 
 ## PowerShell
 
@@ -45,7 +45,7 @@ Somewhere on my long list of things to get more familiar with is [PowerShell](ht
 
 Running the command by itself presents a column header, which seems a little weird to me .. it's not like I'm going to think that value is something _else._ Using the value in a string (whether it's saved in a variable first or just called inline), it outputs only the GUID, as I'd expect it to.
 
-![](https://grantwinney.com/content/images/2023/07/image-18.png)
+![](image-18.png)
 
 ## APIs
 
@@ -69,6 +69,6 @@ The privacy-friendly search engine is well known (among those of us who use it) 
 
 Just do a search for "guid" and above the search results you get a new one. It's a little more convenient if you have DDG setup as your default search engine, and then you can just type "guid" in the address bar.
 
-![](https://grantwinney.com/content/images/2023/07/image-10.png)
+![](image-10.png)
 
 If you have a better way to generate GUIDs on-the-fly, for your app, personal use, or whatever else, feel free to share below. I'd love to add a few more tools to my toolbox!

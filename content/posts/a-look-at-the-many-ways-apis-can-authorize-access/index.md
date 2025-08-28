@@ -104,7 +104,7 @@ The [Trello API](https://grantwinney.com/day-10-trello-api/) supports two method
 
 Here's an app trying to authorize with Trello:
 
-![](https://grantwinney.com/content/images/2018/06/trello-authorize-hubstaff.png)
+![](trello-authorize-hubstaff.png)
 
 The upsides include users of a service not having to hand any personally identifiable information to third-party applications, and access can (or should be able to) be revoked at any time from the API provider's side.
 

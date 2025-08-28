@@ -132,7 +132,7 @@ public record Automobile(string Make, string Model, int Year)
 
 And if we try to overload the equality operators, we can't. It warns us that they're already defined.
 
-![](https://grantwinney.com/content/images/2024/12/image-1.png)
+![](image-1.png)
 
 So now this works with just the original one-liner defining the record:
 

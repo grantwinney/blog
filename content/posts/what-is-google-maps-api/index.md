@@ -35,11 +35,11 @@ The first one I thought looked interesting was the [Geocoding API](https://devel
 
 Oddly enough, you don't _need_ an API key to experiment with these calls - they worked fine for me without it. I'm not sure how they rate limit requests then, but you'd still need one for a real product, so if you're up for it then [request an API key](https://developers.google.com/maps/documentation/geocoding/get-api-key) before doing anything else. Google's docs are pretty straightforward so there's not much else to say, except that you can just select "Create a new project".
 
-![google-maps-geocoding-api---create-project-for-api-key](https://grantwinney.com/content/images/2017/12/google-maps-geocoding-api---create-project-for-api-key.png)
+![google-maps-geocoding-api---create-project-for-api-key](google-maps-geocoding-api---create-project-for-api-key.png)
 
 Be sure to copy the key it produces, because I can't find where to view it after the modal dialog closes, other than clicking "Get a key" again. If you figure it out, I'd like to know! As they state, this automatically activates the Google Maps Geocoding API, and generates an unrestricted key.
 
-![google-api---get-api-key](https://grantwinney.com/content/images/2017/12/google-api---get-api-key.png)
+![google-api---get-api-key](google-api---get-api-key.png)
 
 ### Trying it out
 

@@ -24,9 +24,9 @@ There's a standard set of HTML tags, css elements, and JavaScript code that you 
 
 This leads to a nice, predictable experience, unlike ye olden days when [IE](https://docstore.mik.ua/orelly/web2/wdesign/appd_01.htm) and [Netscape](https://docstore.mik.ua/orelly/web2/wdesign/appd_02.htm) used to create their own proprietary tags that only worked in their own browsers. If you've been around long enough, you'll remember seeing these littered throughout the net, usually when a site only worked well in a single browser.
 
-![](https://grantwinney.com/content/images/2021/07/bvw-ie-4x-1.gif)
+![](bvw-ie-4x-1.gif)
 
-![](https://grantwinney.com/content/images/2021/07/image.png)
+![](image.png)
 
 But now, standards and standards-compliance is the name of the game, and the differences between the major browsers are in the features they provide (sync'ing bookmarks, ad blocking, etc), not in how they display web pages. It's a win-win for everyone.
 
@@ -79,7 +79,7 @@ The limitation here is that you can't extend existing elements, or just invent n
 
 But css can do a _lot._ You can have div's that behave much like tables, then create an errortable, errorrow, etc. I'm not saying that's a great idea. In fact, it doesn't offer much of anything over just assigning a class to the table, especially if you're not writing the site by hand using HTML. It's just an interesting oddity.
 
-![](https://grantwinney.com/content/images/2021/07/image-1.png)
+![](image-1.png)
 
 Because? Why not? Actually, the idea for writing about this came from [Leon Arnott's neocities site](https://leonarnott.neocities.org/), which I stumbled on at random while hopping around the geocities replacement the other day. The sites on there are _seriously_ bad.. in a wow-websites-were-ugly-so-why-do-i-still-feel-nostalgic sorta way.
 
@@ -91,4 +91,4 @@ Still here? Something else random to reward you with then...
 
 When I was looking for those browser button images at the top of this post, I stumbled across something from 20 years ago that's somehow still up. I love finding this stuff. [What is the Internet](https://www.thirteen.org/edonline/primer/)? How do you [get the most out of your browser](https://www.thirteen.org/edonline/primer/b_how.html)? All your questions will be answered. You're welcome!
 
-![](https://grantwinney.com/content/images/2021/07/b-ns.gif)
+![](b-ns.gif)

@@ -26,7 +26,7 @@ First though, two things to consider:
 
 [Sign up](http://openweathermap.org/appid) to request an API key. You should end up in a user settings area where you can select the "API keys" tab. It showed a message about taking 10 minutes to generate keys but then it already had a key immediately generated and ready to go, so... I don't know.
 
-![openweathermap-api---api-key](https://grantwinney.com/content/images/2017/12/openweathermap-api---api-key.png)
+![openweathermap-api---api-key](openweathermap-api---api-key.png)
 
 ## Get Current Weather
 

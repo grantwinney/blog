@@ -27,6 +27,6 @@ On the flip side, we should all fight the urge to delete code for the sake of "d
 
 You, me, that next dev - we're all the little guy in the blue hat... _and_ we wrote the code he's whining about! It's missing a final pane where he realizes the project, mystifying as it seemed at first, actually has a goal - catch a mouse - and there's no need to rewrite or delete it.
 
-![](https://grantwinney.com/content/images/2020/10/image.png)
+![](image.png)
 
 [Abstruse Goose](https://abstrusegoose.com/432)

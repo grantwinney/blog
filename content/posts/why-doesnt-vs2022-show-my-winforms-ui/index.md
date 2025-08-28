@@ -87,17 +87,17 @@ And in case someone out there is like, oh boo-hoo just retarget for Any CPU and 
 
 Enough of that. You can [read the thread](https://developercommunity.visualstudio.com/t/Winforms-net-framework-projects-cant-d/1601210) for lots more, but it's time for that example! I wanted to [recreate it](https://github.com/grantwinney/BlogCodeSamples/tree/master/DevTools/WinFormsDesignerInVS2022), which was dead simple. Just create a solution with two .NET Framework projects - a WinForms project and a Class Library - and set the target to x64 on the library. It doesn't seem to matter if you leave the main WinForms app as x86 _(why is that?)._
 
-![](https://grantwinney.com/content/images/2023/01/image-23.png)
+![](image-23.png)
 
-![](https://grantwinney.com/content/images/2023/01/image-24.png)
+![](image-24.png)
 
 Then you can set it up any number of ways to see the problem, although here's a couple easy ones.
 
-![](https://grantwinney.com/content/images/2023/01/image-36.png)
+![](image-36.png)
 
 Add a Form to the WinForms project, which inherits from a BaseForm defined in the Class library...
 
-![](https://grantwinney.com/content/images/2023/01/image-37.png)
+![](image-37.png)
 
 ... or add a Form that contains a User Control defined in the Class Library.
 
@@ -108,27 +108,27 @@ To see the issue:
 3. Rebuild the solution.
 4. Open the Forms again. They're broken in the designer when targeting x86 (but the app runs), they show in the designer for x64 (but it won't run), and everything is just peachy when targeting Any CPU.
 
-![](https://grantwinney.com/content/images/2023/01/image-28.png)
+![](image-28.png)
 
-![](https://grantwinney.com/content/images/2023/01/image-27.png)
+![](image-27.png)
 
-![](https://grantwinney.com/content/images/2023/01/image-29.png)
+![](image-29.png)
 
 Targeting x86 for class library (designer broken; project runs)
 
-![](https://grantwinney.com/content/images/2023/01/image-30.png)
+![](image-30.png)
 
-![](https://grantwinney.com/content/images/2023/01/image-31.png)
+![](image-31.png)
 
-![](https://grantwinney.com/content/images/2023/01/image-32.png)
+![](image-32.png)
 
 Targeting x64 for class library (designer works; project doesn't run)
 
-![](https://grantwinney.com/content/images/2023/01/image-33.png)
+![](image-33.png)
 
-![](https://grantwinney.com/content/images/2023/01/image-34.png)
+![](image-34.png)
 
-![](https://grantwinney.com/content/images/2023/01/image-35.png)
+![](image-35.png)
 
 Targeting Any CPU for class library (designer works _and_ project runs)
 

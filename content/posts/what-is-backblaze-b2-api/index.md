@@ -30,7 +30,7 @@ As usual, you'll need to prove who you are before you can go making requests.
 
 While logged in to the Backblaze site, click on the "My Account" link in the upper-right, then the "Show Account ID and Application Key" link. A dialog captioned "Account ID & Application Key" appears. Press the "Create Application Key" button and you'll have the two vital pieces of data you need for authenticating with Backblaze.
 
-![instagram-api---account-id-application-key](https://grantwinney.com/content/images/2017/12/instagram-api---account-id-application-key.png)
+![instagram-api---account-id-application-key](instagram-api---account-id-application-key.png)
 
 ### Get an Authorization Token
 
@@ -60,7 +60,7 @@ curl https://api.backblazeb2.com/b2api/v1/b2_authorize_account -u "ACCOUNT_ID:AP
 
 You can also do it from within Postman, by doing a `GET` on [https://api.backblazeb2.com/b2api/v1/b2_authorize_account](https://api.backblazeb2.com/b2api/v1/b2_authorize_account), and setting up authorization like in the following screenshot. Just add the `ACCOUNT_ID` and `APPLICATION_KEY` in the username and password fields, and click the "Preview Request" button. That adds a new "Authorization" field under the "Headers" tab, which is the base-64 encoded version of your account id and application key.
 
-![backblaze-api---requesting-auth-token](https://grantwinney.com/content/images/2017/12/backblaze-api---requesting-auth-token.png)
+![backblaze-api---requesting-auth-token](backblaze-api---requesting-auth-token.png)
 
 ### A Quick Note on apiUrl
 
@@ -94,15 +94,15 @@ There's a lot you can do - [check out the docs](https://www.backblaze.com/b2/doc
 
 Let's try [creating a bucket](https://www.backblaze.com/b2/docs/b2_create_bucket.html). Use the `apiUrl` and `authorizationToken` values you got in the previous call. Notice that we're using the `GET` action here.
 
-![backblaze-b2-api---create-bucket](https://grantwinney.com/content/images/2017/12/backblaze-b2-api---create-bucket.png)
+![backblaze-b2-api---create-bucket](backblaze-b2-api---create-bucket.png)
 
 Flip over to the website if you want, and make sure it was created.
 
-![backblaze-b2-api---bucket-created](https://grantwinney.com/content/images/2017/12/backblaze-b2-api---bucket-created.png)
+![backblaze-b2-api---bucket-created](backblaze-b2-api---bucket-created.png)
 
 It's odd that they allow use of the `GET`, but it's documented. Usually you `GET` some piece of data, whereas creating something would generally be a `POST`. You can do it that way too. _(It's not shown here, but the Authorization token is still in the headers section.)_
 
-![backblaze-b2-api---create-another-bucket](https://grantwinney.com/content/images/2017/12/backblaze-b2-api---create-another-bucket.png)
+![backblaze-b2-api---create-another-bucket](backblaze-b2-api---create-another-bucket.png)
 
 I implemented it in C#, so you can try it out from an actual language and not just Postman. Either copy from here _(fill in your details)_ or [try it on DotNetFiddle](https://dotnetfiddle.net/tFcFdj).
 
@@ -137,7 +137,7 @@ public class Program
 
 Might as well clean up after ourselves. Now that you've created a bucket, how about [deleting the bucket](https://www.backblaze.com/b2/docs/b2_delete_bucket.html)? That's as easy as posting to the right endpoint and providing the id of the bucket (returned in the creation above).
 
-![backblaze-b2-api---delete-bucket](https://grantwinney.com/content/images/2017/12/backblaze-b2-api---delete-bucket.png)
+![backblaze-b2-api---delete-bucket](backblaze-b2-api---delete-bucket.png)
 
 This highlights another odd decision though. REST provides a `DELETE` action that would've been more intuitive, so that a call like this could've worked (if they had designed it that way).
 

@@ -40,7 +40,7 @@ When I started a new job last year, going through the same thing again, I took t
 
 I'm documenting pretty much everything I learn about our codebase and infrastructure, and as I learn more, I build the documentation out. It's not like you need some elaborate system either, although [I do happen to like wiki's](https://grantwinney.com/creating-your-own-secure-wiki-using-dokuwiki/). We have a sharepoint site that's basically a glorified google docs, but it's organized, searchable, and accessible to everyone on the team.
 
-![](https://grantwinney.com/content/images/2021/07/questions-2245264_1280.jpg)
+![](questions-2245264_1280.jpg)
 
 Image by [Gerd Altmann](https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2245264) from [Pixabay](https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2245264)
 

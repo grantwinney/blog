@@ -32,9 +32,9 @@ The private one, called the [Admin API](https://ghost.org/docs/admin-api/), prov
 
 Generating keys to use either of them is in site settings, under Advanced / Integrations, by choosing to add a custom integration. Even though we're only trying things out in Postman, it's the same process you'd have others go through for an integration of your own.
 
-![](https://grantwinney.com/content/images/2024/09/image-23.png)
+![](image-23.png)
 
-![](https://grantwinney.com/content/images/2024/09/image-21.png)
+![](image-21.png)
 
 ## Try the Content API
 

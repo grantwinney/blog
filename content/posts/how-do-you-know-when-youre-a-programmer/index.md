@@ -16,7 +16,7 @@ title: How will I know when I'm a programmer?
 ---
 In the early 2000s, I worked for a small business where part of my job involved writing some software our clients used for uploading data to us. Still in college, I bought the academic version of .NET 2003 to get familiar with programming at home. I remember the excitement I felt opening that large honking package, with a thick book and 6 CDs, when it finally arrived in the mail. I was on my way to becoming a programmer!
 
-![](https://grantwinney.com/content/images/2020/09/image-4.png)
+![](image-4.png)
 
 A few years later, on a help desk at a much larger company, I'd occasionally wander into other areas of the campus, as we called it, to check out where the developers worked. There were whiteboards all over, with drawings and flowcharts. I didn't know what Agile and kanban were at the time, but I figured if I could decipher what it all meant, well... _then_ I'd be able to become a programmer.
 
@@ -34,7 +34,7 @@ You'll learn new things, you'll learn from your mistakes, you'll learn from othe
 
 To be a programmer is to improve, better today than you were yesterday.
 
-![](https://grantwinney.com/content/images/2020/09/image-5.png)
+![](image-5.png)
 
 https://xkcd.com/208
 
@@ -46,7 +46,7 @@ Devs will come and go, each with their own best practices and favorite tools, mo
 
 To be a programmer is to continually grow, better tomorrow than you are today.
 
-![](https://grantwinney.com/content/images/2020/09/image-6.png)
+![](image-6.png)
 
 https://xkcd.com/378/
 

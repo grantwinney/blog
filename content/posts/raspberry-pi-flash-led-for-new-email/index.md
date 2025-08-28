@@ -47,7 +47,7 @@ This process involves entering a few details on their side, and then they assign
 
 Follow their [Python Quickstart](https://developers.google.com/gmail/api/quickstart/python). Note the other languages on the left too, if you’d rather try one of those. After you authenticate, their sample script prints a list of your email tags:
 
-![gmail api setup 4](https://grantwinney.com/content/images/2016/05/gmail-api-setup-4.png)
+![gmail api setup 4](gmail-api-setup-4.png)
 
 ### Getting the Unread Mail Count
 
@@ -189,13 +189,13 @@ Once we’ve got a script that’ll connect to an email account, retrieve the da
 
 It’s a fairly simple one, limited to just an LED and a resistor, connecting board pin 35 to ground. I’ve also added a button (and second resistor) to the circuit, connected to board pin 12, that allows us to immediately check for new email without waiting for the interval. That way, we can change `CHECK_INTERVAL` to some less-frequent number like 60 (a minute), but then press the button if we don’t feel like waiting. That’s what the `add_event_detect` line is for in the above code.
 
-![New Mail Indicator](https://grantwinney.com/content/images/2016/05/New-Mail-Indicator.png)
+![New Mail Indicator](New-Mail-Indicator.png)
 
 Here are some photos of the actual circuit.
 
-![IMG_2022](https://grantwinney.com/content/images/2016/05/IMG_2022.jpg)
+![IMG_2022](IMG_2022.jpg)
 
-![IMG_2023](https://grantwinney.com/content/images/2016/05/IMG_2023.jpg)
+![IMG_2023](IMG_2023.jpg)
 
 Questions? Comments? Hit me up in the comments section below.
 

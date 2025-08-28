@@ -23,7 +23,7 @@ I was checking the status of a FedEx order in Brave, when I noticed a notificati
 
 I'm struggling to understand why a website would need access to a motion sensor on a _mobile_ device, let alone the fact I was using a _desktop_. Do I get a different experience if I knock my PC off the desk? Tip my monitor on its side? Grab the mouse cord and spin it around my head really fast?
 
-![](https://grantwinney.com/content/images/2019/12/2019-12-27-23_12_42-FedEx-_-Tracking--Shipping--and-Locations---Brave.png)
+![](2019-12-27-23_12_42-FedEx-_-Tracking--Shipping--and-Locations---Brave.png)
 
 After a few cursory online searches, I'm coming up with little other than a few threads on [Reddit](https://www.reddit.com/r/brave_browser/comments/e9jclw/recently_seeing_a_sensors_blocked_notification_in/) and [Brave](https://community.brave.com/t/motion-sensors/98594) that indicate people are also seeing this on [Kayo Sports](http://kayosports.com.au) and [Twitch](https://www.twitch.tv/directory), as well as Experian and Tutanota.
 
@@ -45,15 +45,15 @@ Here's some _(lightly modified)_ from MDN's [Geolocation API](https://developer.
 
 Your browser prompts you to allow access, which you can deny. Yay privacy.
 
-![](https://grantwinney.com/content/images/2019/12/location-prompt.png)
+![](location-prompt.png)
 
-![](https://grantwinney.com/content/images/2019/12/location-notification.png)
+![](location-notification.png)
 
 If you don't see the prompt but you think you've allowed it, there are two different settings that control access - a global page with a list of "blocked" and "allowed" sites, and a per-site page where you can adjust all permissions for a single site. In Chrome, just replace `brave://` with `chrome://` in the address bar.
 
-![](https://grantwinney.com/content/images/2019/12/general-location-settings.png)
+![](general-location-settings.png)
 
-![](https://grantwinney.com/content/images/2019/12/site-details-settings.png)
+![](site-details-settings.png)
 
 ### Notifications API
 
@@ -73,9 +73,9 @@ The following examples execute some JavaScript code to try starting up various s
 
 As with the geolocation and notification APIs, you can grant or deny access at the global or per-site level. What's kind of annoying is that all of the above sensors fall under a single "motion sensors" umbrella, so you can't easily tell _which_ of those sensors a particular site is trying to access.
 
-![](https://grantwinney.com/content/images/2019/12/global-sensors-access-list.png)
+![](global-sensors-access-list.png)
 
-![](https://grantwinney.com/content/images/2019/12/site-details-settings.png)
+![](site-details-settings.png)
 
 ## Why are sites requesting the Sensors API?
 
@@ -282,7 +282,7 @@ I spent a little time digging around the Akamai site, and while most of their do
 
 It includes this graphic, which just seems to reinforce the above description, that their bot detection service(s) uses sensor data like accelerometer capabilities to determine whether a requestor is a bot or not.
 
-![](https://grantwinney.com/content/images/2020/07/infographic_overview_human-request_redo.png)
+![](infographic_overview_human-request_redo.png)
 
 source: [Bot Manager Premier SDK](https://developer.akamai.com/tools/sdk/bot-manager)
 

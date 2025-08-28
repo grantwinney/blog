@@ -33,17 +33,17 @@ There's a library called [CEF](https://bitbucket.org/chromiumembedded/cef/src/ma
 
 Fire up a new WinForms app, then search for CefSharp in the NuGet gallery and add the one for WinForms.
 
-![](https://grantwinney.com/content/images/2022/06/image-27.png)
+![](image-27.png)
 
 After a few moments and some output in the bottom pane, you'll see a few references on the right and a couple new design components in the toolbox on the left. If you're one of those people who customizes everything, then check for output on the top, references on the left, and the components on your other monitor.
 
-![](https://grantwinney.com/content/images/2022/06/image-29.png)
+![](image-29.png)
 
-![](https://grantwinney.com/content/images/2022/06/image-28.png)
+![](image-28.png)
 
 Add a new file to your project, choose "text file", and name it "sample.html". Throw some html in there, and maybe some JavaScript. Anything will do. There are few absolute rules in web development, and having 20 ways to do any one thing is something I _love_ as a developer. It's just.. it's great. 😢
 
-![](https://grantwinney.com/content/images/2022/06/image-30.png)
+![](image-30.png)
 
 Here's what mine looks like:
 
@@ -118,7 +118,7 @@ public Form1()
 
 What do you see when you fire it up? Does it load the page after a few moments? My sample's a little elaborate, with a few fields on the Form, and a few matching fields in the website too, and here's what it looks like. Because next... we're gonna take a peek at those handlers.
 
-![](https://grantwinney.com/content/images/2022/06/image-31.png)
+![](image-31.png)
 
 ## What are CefSharp handlers?
 
@@ -307,7 +307,7 @@ public class FancyKeyboardHandler : IKeyboardHandler
 
 It's pretty neat I think. Update the fields in the WinForms UI or in the website, and the data is sync'd up between the two. The CefSharp repo has [more examples](https://github.com/cefsharp/CefSharp.MinimalExample/tree/master/CefSharp.MinimalExample.WinForms), if you want to check out what else is possible. They have a lot in their wiki too.
 
-![](https://grantwinney.com/content/images/2022/06/simplecef.gif)
+![](simplecef.gif)
 
 This was a really brief (admittedly contrived!) example of what CefSharp can do, but hopefully it gets you started. I'm thinking of checking out a couple other, more real-world, scenarios in future posts. It'd be interesting to show a webpage that wasn't just included in the project itself (maybe from this blog?) and interact with it. Or maybe hosting a website in IIS and showing CefSharp interacting with that too? The sky's the limit.
 

@@ -25,7 +25,7 @@ When C# 6.0 was released around 2015, it introduced a new feature called string 
 
 It always helps to look at some examples, so here's a little WinForms app that collects a few pieces of info about a user and displays a short message.
 
-![](https://grantwinney.com/content/images/2022/09/image-6.png)
+![](image-6.png)
 
 Lets take a quick look at what came before, so we can appreciate what we've got now!
 

@@ -59,21 +59,21 @@ Chrome makes it easy to test your extensions locally.
 
 Open the "extensions" pane where you'd normally look for new extensions, and then select the "Developer Mode" checkbox in the corner. New options appear, allowing you to load your extension and run it.
 
-![](https://grantwinney.com/content/images/2017/08/chrome-dev-1.png)
+![](chrome-dev-1.png)
 
 Press the "Load unpacked extension..." button and navigate to the folder where you stored the two files you just created. Select the folder and press "Select".
 
-![](https://grantwinney.com/content/images/2017/08/chrome-dev-2.png)
+![](chrome-dev-2.png)
 
 Look for the new generic icon (since we didn't specify an icon for it to use) in the upper-right corner, and press it. This fires our `browserAction.onClicked` event and executes our code - in this case a simple alert box.
 
-![](https://grantwinney.com/content/images/2017/08/chrome-dev-3.png)
+![](chrome-dev-3.png)
 
-![](https://grantwinney.com/content/images/2017/08/chrome-dev-4.png)
+![](chrome-dev-4.png)
 
 If there’s anything wrong with your manifest.json file, or you’ve pointed to a resource that’s missing or inaccessible, you'll see an error section like this:
 
-![chrome-dev-mode-warnings](https://grantwinney.com/content/images/2016/11/chrome-dev-mode-warnings.png)
+![chrome-dev-mode-warnings](chrome-dev-mode-warnings.png)
 
 Fix your mistakes and click the “Reload” link to try again.
 
@@ -103,11 +103,11 @@ Create an html page named "popup.html" with some _really_ advanced markup:
 
 On the extensions page, find your extension (it should be at the top of the list) and look for the "Reload" link. Click that, then click on the extension icon again.
 
-![chrome-dev-5](https://grantwinney.com/content/images/2017/08/chrome-dev-5.png)
+![chrome-dev-5](chrome-dev-5.png)
 
 You should see the HTML page you just created. It's a thing of beauty, right? ;)
 
-![](https://grantwinney.com/content/images/2017/08/chrome-dev-6.png)
+![](chrome-dev-6.png)
 
 ### Generate an email
 
@@ -144,9 +144,9 @@ window.addEventListener('load', function load(event) {
 
 Click the icon again to bring up your new form, then fill in the fields and hit enter. Assuming you have a default mail client that handles "mailto" links (like gmail), it should open a new email for you.
 
-![](https://grantwinney.com/content/images/2017/08/chrome-dev-5-1.png)
+![](chrome-dev-5-1.png)
 
-![](https://grantwinney.com/content/images/2017/08/chrome-dev-6-1.png)
+![](chrome-dev-6-1.png)
 
 ### Change the color of the current page
 
@@ -246,9 +246,9 @@ window.addEventListener('load', function load(event) {
 });
 ```
 
-![](https://grantwinney.com/content/images/2017/08/chrome-dev-7.png)
+![](chrome-dev-7.png)
 
-![](https://grantwinney.com/content/images/2017/08/chrome-dev-8.png)
+![](chrome-dev-8.png)
 
 ## Publishing an extension
 

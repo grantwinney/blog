@@ -23,7 +23,7 @@ More significantly, t-shirts were involved. And stickers.
 
 Developers love them some swag. And we’re pretty much suckers for any kind of prize if it means proudly lording it over our fellow developers for a little while. In hopes of inspiring each other, of course.
 
-![hacktoberfest-tshirt](https://grantwinney.com/content/images/2015/11/hacktoberfest-tshirt.png)
+![hacktoberfest-tshirt](hacktoberfest-tshirt.png)
 
 DigitalOcean didn’t leave people to flounder about looking for projects either. They worked with project owners to compile [The List](https://hacktoberfest.digitalocean.com#projects), filterable by language, and then those owners could tag issues as “up for grabs” or “jump in”. It made it easier to find things to work on.
 

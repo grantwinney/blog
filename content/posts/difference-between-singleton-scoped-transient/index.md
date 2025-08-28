@@ -78,7 +78,7 @@ The way I'm requesting two each of the `IIDScoped` and `IIDTransient` dependenci
 
 Here it is in action. When I press "refresh" to make a new request to the `/now` endpoint, keep an eye on three things - the singleton instance _never_ changes, the scoped instance doesn't change until a new request is made (aka, I hit refresh), and the transient instance _always_ changes.
 
-![](https://grantwinney.com/content/images/2023/07/ditest.gif)
+![](ditest.gif)
 
 Oh, and I didn't want to delve any deeper into DI and IOC in this post, but if you're interested in learning more, here's a few good resources:
 

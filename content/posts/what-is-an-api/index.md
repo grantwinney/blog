@@ -81,7 +81,7 @@ If we're visit a page where we're updating our profile information, the browser 
 
 If you want to see something kind of neat, download [Postman](https://www.getpostman.com/) and try performing a "GET" on some websites. You'll see the markup your browser gets when it requests a site, and you can even use this tool to send "POST" and "DELETE" requests to sites too, if you know of a URL that expects them.
 
-![](https://grantwinney.com/content/images/2024/08/image.png)
+![](image.png)
 
 Performing a GET with Postman
 

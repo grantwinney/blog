@@ -24,7 +24,7 @@ To briefly recap, [Google is spearheading a change](https://developer.chrome.com
 
 What it means is that every developer who writes an addon now needs to spend time figuring out how MV3 works, what changes are required, and make those changes [before June 2023](https://developer.chrome.com/docs/extensions/mv3/mv2-sunset/) when Google unlists MV2 addons from their store. Don't be shocked if some of your favorite browser addons simply vanish next summer.
 
-![](https://grantwinney.com/content/images/2022/11/image.png)
+![](image.png)
 
 Google keeps extending the deadline
 
@@ -32,7 +32,7 @@ Firefox, which isn't built on Chromium, is attempting to [support both](https://
 
 The first thing I tried was just bumping up the version number. Maybe I'd get lucky? Nope. I was greeted by a looong line of errors.
 
-![](https://grantwinney.com/content/images/2022/11/image-1.png)
+![](image-1.png)
 
 Yep, looks pretty good.
 
@@ -76,7 +76,7 @@ if (header) {
 
 The reason for my concern is that one of the [differences between background pages and service workers](https://developer.chrome.com/docs/extensions/mv3/mv3-migration/#background-service-workers) is that the latter doesn't have access to the DOM. I interpreted that as not having access to the DOM at all, but it seems I was mistaken. I hope.
 
-![](https://grantwinney.com/content/images/2022/11/image-6.png)
+![](image-6.png)
 
 In MV2, anyone could get out there and write an addon, and I feel like the complexities here might stymie a lot of people with neat ideas. Time will tell.
 

@@ -174,7 +174,7 @@ public partial class MainWindow
 
 In the `OnLoaded` event, we've attached a delegate to the [Filter](http://msdn.microsoft.com/en-us/library/system.windows.data.collectionview.filter\(v=vs.110\).aspx) property, which runs the `UserFilter` method against each item in the collection to determine if it should be displayed in the `ListView`. That's it!
 
-![arrmatey](https://grantwinney.com/content/images/2014/12/arrmatey1.gif)
+![arrmatey](arrmatey1.gif)
 
 ### Manually Refreshing the View
 

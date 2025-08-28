@@ -54,21 +54,21 @@ Other stuff to think about:
 
 [Register a new app with Twitter](https://developer.twitter.com/en/apps)... yeah, it'll be an app with one user. You'll get a prompt to "please apply for a Twitter developer account", so pick "something else" as the reason, share how you'll use it, deselect everything but _"Will your app use Tweet ... functionality?",_ and paste something similar in again for that field.
 
-![](https://grantwinney.com/content/images/2020/11/2020-11-18-21_03_20-Apply---Twitter-Developers---Brave.png)
+![](2020-11-18-21_03_20-Apply---Twitter-Developers---Brave.png)
 
 When you get the email for your new developer account (mine was nearly immediate), click the link and give your app a unique name. I just used [a random GUID](https://www.passwordrandom.com/query?command=guid) - the name doesn't really matter. I think it creates the app outside of a project. If it does, delete it, create a project, and then create the app inside that. Note the API key and secret for your app - you'll need those in a bit.
 
 Under "App permissions", change the default "read" permissions to "read and write", since the app needs to be able to send tweets and not just read them. Then click back into your new app and press "Generate" under the "Access token & secret" section, and note the additional access token and secret that are generated - you'll need those in a bit too! _(Make sure it says "created with read and write permissions" underneath it.)_
 
-![](https://grantwinney.com/content/images/2020/11/image-4.png)
+![](image-4.png)
 
-![](https://grantwinney.com/content/images/2020/11/image-10.png)
+![](image-10.png)
 
 ### Setup AWS Lambda
 
 Open the [AWS Free Tier](https://aws.amazon.com/free) page and create an account if you don't already have one. Then open the Products dropdown and look for AWS Lambda, or [just go here](https://aws.amazon.com/lambda). Click the button in middle of the page, leave "root" selected, and enter your credentials. You should end up at [console.aws.amazon.com/lambda](https://console.aws.amazon.com/lambda), on a screen like this:
 
-![](https://grantwinney.com/content/images/2020/11/image-2.png)
+![](image-2.png)
 
 Now you need to create a new Lambda function.
 
@@ -77,13 +77,13 @@ Now you need to create a new Lambda function.
 3. Under "Function code", upload the zip file you previously created.
 4. Under "Runtime settings", change the handler to: `TweetRandomFeedItem::TweetRandomFeedItem.Program::Main`
 
-![](https://grantwinney.com/content/images/2020/11/image-5.png)
+![](image-5.png)
 
-![](https://grantwinney.com/content/images/2020/11/image-6.png)
+![](image-6.png)
 
 Under "Basic settings", decrease the memory to 128MB and increase the timeout to a minute. For me, it generally takes about 15-20 seconds to run, and uses 50MB or less of memory.
 
-![](https://grantwinney.com/content/images/2020/11/image-7.png)
+![](image-7.png)
 
 ### Create the environment variables
 
@@ -111,7 +111,7 @@ These values all come from your Twitter account, from the app you created before
 
 When you're done, it should look something like this:
 
-![](https://grantwinney.com/content/images/2020/11/image-8.png)
+![](image-8.png)
 
 ### Take it out for a spin!
 
@@ -119,9 +119,9 @@ That _should_ be everything you need to run the job. To try it out, hit the "**T
 
 If it seems to have done nothing, press "Test" again. Hopefully everything goes smoothly and you get a screen like this one. Check your Twitter feed - did it post one of your posts from your Ghost blog?
 
-![successful-lambda-run](https://grantwinney.com/content/images/2018/06/successful-lambda-run.jpg)
+![successful-lambda-run](successful-lambda-run.jpg)
 
-![](https://grantwinney.com/content/images/2020/11/image-11.png)
+![](image-11.png)
 
 ### Schedule it
 
@@ -131,7 +131,7 @@ If you're ready to let it do your work for you, schedule it to run via cron.
 - Select "Create a new rule" from the drop-down and give the new rule some random name.
 - Enter a cron command in the "Schedule expression" box, such as `cron(0 12 * * ? *)` to run your job at 12 UTC every day. You can find more help in their developer guide: [Schedule expressions using rate or cron](https://docs.aws.amazon.com/lambda/latest/dg/services-cloudwatchevents-expressions.html)
 
-![](https://grantwinney.com/content/images/2020/11/image-12.png)
+![](image-12.png)
 
 ---
 

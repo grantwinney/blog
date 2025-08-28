@@ -25,11 +25,11 @@ After I laughed about it for a few seconds, I stopped to think... is it really t
 
 And so I present.. an exceptional exception box.
 
-![](https://grantwinney.com/content/images/2021/12/image-1.png)
+![](image-1.png)
 
-![](https://grantwinney.com/content/images/2021/12/image-4.png)
+![](image-4.png)
 
-![](https://grantwinney.com/content/images/2021/12/image-3.png)
+![](image-3.png)
 
 Most of the codebases I've worked in are old. I'd wager most of the codebases out there _anywhere_ are old. Most companies that've been around a couple decades have a homegrown project or two, with lots of layers, written by lots of devs. And at some point someone always adds their own message box class that encapsulates the C# [MessageBox](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.messagebox?view=windowsdesktop-6.0), with helpful methods like ShowInfo and ShowError that standardize which buttons and icons are shown for each type of prompt, and in what order, etc.
 

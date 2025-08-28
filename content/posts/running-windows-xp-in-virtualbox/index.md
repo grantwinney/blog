@@ -26,25 +26,25 @@ With that in mind, let's check out the best of Windows yesteryear. But first...
 
 [You can't install service packs on 64-bit systems](http://web.archive.org/web/20080430165302/http://www.microsoft.com/windowsxp/sp2/sysreqs.mspx), so you may want to choose the 32-bit option. If you're doing this from MSDN, select the _"with Service Pack 3"_ option to make life easier.
 
-![](https://grantwinney.com/content/images/2019/05/winxp86.png)
+![](winxp86.png)
 
 Give it plenty of hard disk space if you plan on installing other apps. It's a pita to [resize the partition](https://thegenomefactory.blogspot.com/2013/06/extending-windows-xp-partition-in.html) afterwards, so give it 30 or 40 GB at least. XP had really minimal requirements, so a couple gigs of memory should be more than enough.
 
-![](https://grantwinney.com/content/images/2019/05/vmsetup1.png)
+![](vmsetup1.png)
 
-![](https://grantwinney.com/content/images/2019/05/vmsetup2.png)
+![](vmsetup2.png)
 
-![](https://grantwinney.com/content/images/2019/05/vmsetup3.png)
+![](vmsetup3.png)
 
-![](https://grantwinney.com/content/images/2019/05/vmsetup4.png)
+![](vmsetup4.png)
 
-![](https://grantwinney.com/content/images/2019/05/vmsetup5.png)
+![](vmsetup5.png)
 
-![](https://grantwinney.com/content/images/2019/05/vmsetup6.png)
+![](vmsetup6.png)
 
-![](https://grantwinney.com/content/images/2019/05/vmsetup7.png)
+![](vmsetup7.png)
 
-![](https://grantwinney.com/content/images/2019/05/vmsetup8.png)
+![](vmsetup8.png)
 
 ## Map a Host Machine Folder
 
@@ -52,13 +52,13 @@ After installing XP, the first thing you'll notice is that Internet Explorer is 
 
 Follow the suggestions in [this thread](https://askubuntu.com/q/52773/927673) to share a folder with your host machine, or run _"Devices / Insert Guest Additions CD image..."_ in VirtualBox _(_[_read more here_](https://www.virtualbox.org/manual/ch04.html)_)_ and then go to _"Devices / Shared Folders / Shared Folders Settings"_ and map a folder on your host machine. You might have to select _"Devices / Optical Drives / Remove disk"_ first, but maybe not. I mapped the "Downloads" folder, so it'll show up as a drive in the VM under _My Computer_.
 
-![](https://grantwinney.com/content/images/2019/05/sharedfolders.png)
+![](sharedfolders.png)
 
-![](https://grantwinney.com/content/images/2019/05/winexplorer.png)
+![](winexplorer.png)
 
 Now you can download [Chrome](https://www.google.com/chrome/) (it'll install v49, the last supported version for XP), [Firefox 52.9.0esr](https://ftp.mozilla.org/pub/firefox/releases/52.9.0esr/win32/en-US/) (Mozilla's [last supported version](https://support.mozilla.org/en-US/kb/end-support-windows-xp-and-vista), but you'll likely have to install SP2 first), or [Opera 36](https://ftp.opera.com/pub/opera-winxpvista/36.0.2130.80/win/) (you get the picture) on the host machine, drop them in the shared folder, and install them from the VM.
 
-![](https://grantwinney.com/content/images/2019/05/xpbrowsers.png)
+![](xpbrowsers.png)
 
 ---
 
@@ -68,13 +68,13 @@ XP is ancient but we might as well update it where we can. If you selected the _
 
 Otherwise, there's a couple places you can get the SPs from (at least). The easiest is from your MSDN account. Save "Service Pack 1a", "Service Pack 2 (English)" and "Service Pack 3 (x86)" to the shared folder on your host machine.
 
-![](https://grantwinney.com/content/images/2019/05/msdn-xp-sps.png)
+![](msdn-xp-sps.png)
 
 The files are ISOs, so download [Virtual CloneDrive](https://www.elby.ch/en/products/vcd.html) in the VM _(you might have to right-click the exe, open properties, and press "unblock")_ and mount each file to install it. All you have to do is choose Settings and create a half-dozen virtual drives, then mount each one to an ISO on the host machine.
 
-![](https://grantwinney.com/content/images/2019/05/clonedrive1.png)
+![](clonedrive1.png)
 
-![](https://grantwinney.com/content/images/2019/05/clonedrive2.png)
+![](clonedrive2.png)
 
 Alternatively, you can grab them from the [Microsoft Update Catalog](http://www.catalog.update.microsoft.com):
 
@@ -87,17 +87,17 @@ Alternatively, you can grab them from the [Microsoft Update Catalog](http://www.
 
 Although [support for XP ended 5 years ago](https://www.microsoft.com/en-us/windowsforbusiness/end-of-xp-support), you can still grab the updates that were available. Click on _Start / All Programs / Windows Update_ and select all the updates. Install, reboot, select more updates, rinse, repeat. Good ol' XP.
 
-![](https://grantwinney.com/content/images/2019/05/winupdate1.png)
+![](winupdate1.png)
 
-![](https://grantwinney.com/content/images/2019/05/winupdate2.png)
+![](winupdate2.png)
 
-![](https://grantwinney.com/content/images/2019/05/winupdate3.png)
+![](winupdate3.png)
 
-![](https://grantwinney.com/content/images/2019/05/winupdate4.png)
+![](winupdate4.png)
 
-![](https://grantwinney.com/content/images/2019/05/winupdate5.png)
+![](winupdate5.png)
 
-![](https://grantwinney.com/content/images/2019/05/winupdate6.png)
+![](winupdate6.png)
 
 ## Setup a Development Environment
 
@@ -107,37 +107,37 @@ Now that XP has the latest updates and security patches of yesteryear, we can se
 
 Thought this would be a good one to start with. I was wrong. [VS2012 no likey XP](https://www.techulator.com/resources/7422-Visual-Studio-2012-System-requirements-hardware-requirements.aspx).
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-02-16_42_24-InstallVS2012-1.png)
+![](2019-05-02-16_42_24-InstallVS2012-1.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-02-16_42_24-InstallVS2012-2.png)
+![](2019-05-02-16_42_24-InstallVS2012-2.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-02-16_42_24-InstallVS2012-3.png)
+![](2019-05-02-16_42_24-InstallVS2012-3.png)
 
 ### Visual Studio 2010
 
 You can [download the free Visual Studio 2010 Express](https://visualstudio.microsoft.com/vs/older-downloads/), or the pro version from MSDN. Surprisingly, the look and feel were pretty similar to what we've got a decade later. The team hadn't yet decided to [CAPITALIZE ALL THE MENUS](https://stackoverflow.com/q/10859173/301857). NuGet integration wasn't built-in, but I'm sure a quick search would turn up someone figuring out how to do it.
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-02-16_52_16-Microsoft-Visual-Studio-2010-Setup-1.png)
+![](2019-05-02-16_52_16-Microsoft-Visual-Studio-2010-Setup-1.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-02-16_52_16-Microsoft-Visual-Studio-2010-Setup-2.png)
+![](2019-05-02-16_52_16-Microsoft-Visual-Studio-2010-Setup-2.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-02-16_52_16-Microsoft-Visual-Studio-2010-Setup-3.png)
+![](2019-05-02-16_52_16-Microsoft-Visual-Studio-2010-Setup-3.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-02-16_52_16-Microsoft-Visual-Studio-2010-Setup-4.png)
+![](2019-05-02-16_52_16-Microsoft-Visual-Studio-2010-Setup-4.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-02-16_52_16-Microsoft-Visual-Studio-2010-Setup-5.png)
+![](2019-05-02-16_52_16-Microsoft-Visual-Studio-2010-Setup-5.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-02-16_52_16-Microsoft-Visual-Studio-2010-Setup-6.png)
+![](2019-05-02-16_52_16-Microsoft-Visual-Studio-2010-Setup-6.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-02-16_52_16-Microsoft-Visual-Studio-2010-Setup-7.png)
+![](2019-05-02-16_52_16-Microsoft-Visual-Studio-2010-Setup-7.png)
 
 ### Visual Studio .NET 2003
 
 Not retro enough for you? Let's go back another few years and try out [VS .NET 2003](https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#.NET_2003). It introduced .NET 1.1, so sadly no generics and _definitely_ no LINQ yet. Boooo. If it complains about prereq's but you don't have a prereq CD, try installing the Windows Components it's complaining about.
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-03-09_50_37-Visual-Basic-.NET-Setup-1.png)
+![](2019-05-03-09_50_37-Visual-Basic-.NET-Setup-1.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-03-09_50_37-Visual-Basic-.NET-Setup-2.png)
+![](2019-05-03-09_50_37-Visual-Basic-.NET-Setup-2.png)
 
 After that, I ran Windows Update (yet again), tried to install [.NET 1.1. SP1](https://www.microsoft.com/en-us/download/details.aspx?id=33) (although it said it was already installed), rebooted, and finally ran the `setup.exe` file with a special flag that you can see in the command window.
 
@@ -147,71 +147,71 @@ F:\>./setup/setup.exe /NO_BSLN_CHECK
 
 Not sure which part of all that fixed it _(or was it a combination of everything?)_ but I got to a normal installation screen eventually. And here's the best WinForms had to offer:
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-03-09_50_37-Visual-Basic-.NET-Setup-4.png)
+![](2019-05-03-09_50_37-Visual-Basic-.NET-Setup-4.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-03-09_50_37-Visual-Basic-.NET-Setup-5.png)
+![](2019-05-03-09_50_37-Visual-Basic-.NET-Setup-5.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-03-09_50_37-Visual-Basic-.NET-Setup-6.png)
+![](2019-05-03-09_50_37-Visual-Basic-.NET-Setup-6.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-03-09_50_37-Visual-Basic-.NET-Setup-8.png)
+![](2019-05-03-09_50_37-Visual-Basic-.NET-Setup-8.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-03-09_50_37-Visual-Basic-.NET-Setup-9.png)
+![](2019-05-03-09_50_37-Visual-Basic-.NET-Setup-9.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-03-09_50_37-Visual-Basic-.NET-Setup-10.png)
+![](2019-05-03-09_50_37-Visual-Basic-.NET-Setup-10.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-03-09_50_37-Visual-Basic-.NET-Setup-11.png)
+![](2019-05-03-09_50_37-Visual-Basic-.NET-Setup-11.png)
 
 ### Visual Basic 6.0
 
 _Still_ not retro enough?? Let's go back a couple decades to [VB 6.0](https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#6.0_.281998.29). Forget everything you thought you knew... this is before the .NET Framework altogether.
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-01-09_15_54-Visual-Basic-6.0-Enterprise-Setup.png)
+![](2019-05-01-09_15_54-Visual-Basic-6.0-Enterprise-Setup.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-01-09_17_12-Visual-Basic-6.0-Enterprise-Setup.png)
+![](2019-05-01-09_17_12-Visual-Basic-6.0-Enterprise-Setup.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-02-15_20_21-Installation-Wizard-for-Visual-Basic-6.0-Enterprise-Edition.png)
+![](2019-05-02-15_20_21-Installation-Wizard-for-Visual-Basic-6.0-Enterprise-Edition.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-02-15_22_21-Installation-Wizard-for-Visual-Basic-6.0-Enterprise-Edition.png)
+![](2019-05-02-15_22_21-Installation-Wizard-for-Visual-Basic-6.0-Enterprise-Edition.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-02-15_44_13-Microsoft-Visual-Basic.png)
+![](2019-05-02-15_44_13-Microsoft-Visual-Basic.png)
 
 Wow, when did we lose this?! There was a wizard to create an ultra modern app, complete with splash screens, toolbars, "about" screens..... _built-in interweb browsers!!_ I'm not sure why we ever progressed beyond this.
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-04-08_20_01-Microsoft-Visual-Basic--design-.png)
+![](2019-05-04-08_20_01-Microsoft-Visual-Basic--design-.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-04-08_20_33-Application-Wizard---Menus.png)
+![](2019-05-04-08_20_33-Application-Wizard---Menus.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-04-08_22_03-Microsoft-Visual-Basic--design-.png)
+![](2019-05-04-08_22_03-Microsoft-Visual-Basic--design-.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-04-08_22_34-Application-Wizard---Standard-Forms.png)
+![](2019-05-04-08_22_34-Application-Wizard---Standard-Forms.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-04-08_29_45-Project1---Microsoft-Visual-Basic--design-.png)
+![](2019-05-04-08_29_45-Project1---Microsoft-Visual-Basic--design-.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-04-08_33_24-Project1---Microsoft-Visual-Basic--design-.png)
+![](2019-05-04-08_33_24-Project1---Microsoft-Visual-Basic--design-.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-04-08_38_03-Project1.png)
+![](2019-05-04-08_38_03-Project1.png)
 
 ### Visual Basic 4.0
 
 Older! More olderer!! Okay, here's VB 4.0 from 25 years ago. Look at that GUI.. every component is a separate floating toolbar.. thing. And the humble beginning of _(gag)_ Crystal Reports. 🤢 🤮
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-04-20_35_07-Visual-Basic-4.0-Master-Setup-01.png)
+![](2019-05-04-20_35_07-Visual-Basic-4.0-Master-Setup-01.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-04-20_35_07-Visual-Basic-4.0-Master-Setup-02.png)
+![](2019-05-04-20_35_07-Visual-Basic-4.0-Master-Setup-02.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-04-20_35_07-Visual-Basic-4.0-Master-Setup-03.png)
+![](2019-05-04-20_35_07-Visual-Basic-4.0-Master-Setup-03.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-04-20_35_07-Visual-Basic-4.0-Master-Setup-04.png)
+![](2019-05-04-20_35_07-Visual-Basic-4.0-Master-Setup-04.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-04-20_35_07-Visual-Basic-4.0-Master-Setup-05.png)
+![](2019-05-04-20_35_07-Visual-Basic-4.0-Master-Setup-05.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-04-20_35_07-Visual-Basic-4.0-Master-Setup-06.png)
+![](2019-05-04-20_35_07-Visual-Basic-4.0-Master-Setup-06.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-05-00_24_48-.png)
+![](2019-05-05-00_24_48-.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-05-00_26_22-Crystal-Reports-for-Visual-Basic.png)
+![](2019-05-05-00_26_22-Crystal-Reports-for-Visual-Basic.png)
 
-![](https://grantwinney.com/content/images/2019/05/2019-05-05-00_27_46-Crystal-Reports-for-Visual-Basic----Untitled-Report--1-.png)
+![](2019-05-05-00_27_46-Crystal-Reports-for-Visual-Basic----Untitled-Report--1-.png)
 
 ### Must. Go. OLDER!!
 

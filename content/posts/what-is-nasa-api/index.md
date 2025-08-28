@@ -29,7 +29,7 @@ First though, two things to consider:
 
 You aren't required to get an API key _(you can just use the string "DEMO_KEY" instead of an actual key),_ but you might as well. Without one, the limit is 50 requests per day - with one, it's (usually) 1000 requests per hour. [Fill out the form](https://api.nasa.gov/#signUp), and it immediately displays an API key on the same page.
 
-![nasa-api---get-api-key](https://grantwinney.com/content/images/2017/12/nasa-api---get-api-key.png)
+![nasa-api---get-api-key](nasa-api---get-api-key.png)
 
 Interestingly, they also refer to this as your api.data.gov API key ... not sure where else this key is supposed to work, or whether they just have plans for the future. But at the very least, it seems to work across the various APIs published by NASA.
 

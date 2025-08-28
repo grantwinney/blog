@@ -31,7 +31,7 @@ _You should avoid this if you can. But what if you can't?_
 
 Let's look at a few ways to do what we (sometimes) gotta do, starting with what we should _never_ do, and finishing up with what we really ought to do.
 
-![](https://grantwinney.com/content/images/2023/12/image-11.png)
+![](image-11.png)
 
 We'll also assume there's an async method doing some really important stuff.
 

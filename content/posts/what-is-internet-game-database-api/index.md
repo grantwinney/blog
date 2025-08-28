@@ -33,15 +33,15 @@ There's a "[Getting Started](https://api-docs.igdb.com/#getting-started)" guide 
 
 Create an "application":
 
-![](https://grantwinney.com/content/images/2024/09/image-8.png)
+![](image-8.png)
 
 Click "Manage":
 
-![](https://grantwinney.com/content/images/2024/09/image-9.png)
+![](image-9.png)
 
 Get a Client ID and Client Secret so you can use the API:
 
-![](https://grantwinney.com/content/images/2024/09/image-10.png)
+![](image-10.png)
 
 ## Authorization
 

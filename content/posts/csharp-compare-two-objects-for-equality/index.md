@@ -52,7 +52,7 @@ That's unnecessary though, since it implicitly derives from `Object` anyway. It'
 
 We can even delve into the [source code](https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Object.cs,517682d5f6f4f8b4,references) and see exactly how equality is defined in the `Object` class:
 
-![Default equality comparison implementation in the Object class](https://grantwinney.com/content/images/2024/06/image.png)
+![Default equality comparison implementation in the Object class](image.png)
 
 Note that it's marked `virtual`, allowing us to override it – that'll be important in a moment. Also note that hovering over the `==` shows us a popup that there's another operation being implemented too. We can't see it in the source code, but we'll talk more about that in a minute as well.
 
@@ -190,7 +190,7 @@ Console.WriteLine(camry == bugatti);         // false, custom equality logic
 
 Once we override the `Equals()` method, the compiler wants us to override the `GetHashCode()` method as well. Here's the tooltip that pops up over the `Vehicle` class:
 
-![Compiler warning to override Object.GetHashCode](https://grantwinney.com/content/images/2024/06/image-2.png)
+![Compiler warning to override Object.GetHashCode](image-2.png)
 
 Microsoft has a lot more to say about it in the [Object.GetHashCode](https://learn.microsoft.com/en-us/dotnet/api/system.object.gethashcode?view=net-8.0) docs, and I suggest checking that out, but here's a few highlights _(emphasis mine):_
 
@@ -203,7 +203,7 @@ Microsoft has a lot more to say about it in the [Object.GetHashCode](https://lea
 
 Implementing the hash code isn't difficult, really. We just need to decide which fields make a `Vehicle` unique, which is likely to be the same fields used in the `Equal()` method. If we start typing out some code to compute the hash code, VS 2022 even helpfully offers an autocompletion:
 
-![VS2022 autocompletion suggestion for GetHashCode](https://grantwinney.com/content/images/2024/06/image-3.png)
+![VS2022 autocompletion suggestion for GetHashCode](image-3.png)
 
 If it's possible that some fields could be `null`, given the last point about how `GetHashCode()` should never throw an exception, we might want to be a bit more robust:
 

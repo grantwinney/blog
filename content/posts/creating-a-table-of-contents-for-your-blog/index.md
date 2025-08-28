@@ -169,7 +169,7 @@ Here's how it looks when rendered, showing a single level of headers, two levels
 
 While you're at it, you could create a `<div id="toc"></div` element or similar, and generate your TOC inside of that. Then use CSS styling to your heart's content. Here's what it looks like without numbers, and indenting on linewrap. If you're using Ghost, you could even put the CSS in the "code injection" section of the admin panel.
 
-![](https://grantwinney.com/content/images/2024/09/image-5.png)
+![](image-5.png)
 
 ## Other Implementations
 

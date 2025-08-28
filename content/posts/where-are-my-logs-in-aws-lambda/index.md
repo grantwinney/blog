@@ -30,38 +30,38 @@ So, if you've just setup a job and you're running into this same problem, check 
 
 Look for this panel halfway down the screen for your function. Click the "View role" link:
 
-![](https://grantwinney.com/content/images/2019/11/enable_logging1.png)
+![](enable_logging1.png)
 
 You want to add a new policy, so click the big button that says "Attach policies".:
 
-![](https://grantwinney.com/content/images/2019/11/enable_logging2.png)
+![](enable_logging2.png)
 
 Type "cloudwatchlogs" into the filter, select "CloudWatchLogsFullAccess", and attach it:
 
-![](https://grantwinney.com/content/images/2019/11/enable_logging3.png)
+![](enable_logging3.png)
 
 Verify the new policy shows up on the previous screen.:
 
-![](https://grantwinney.com/content/images/2019/11/enable_logging4.png)
+![](enable_logging4.png)
 
 *Run your job again*, then click "View logs in CloudWatch".
 
-![](https://grantwinney.com/content/images/2020/11/enable_logging5.png)
+![](enable_logging5.png)
 
 You should see an entry, assuming your job wrote anything out.
 
-![](https://grantwinney.com/content/images/2019/11/enable_logging6.png)
+![](enable_logging6.png)
 
 Yay, logs. 🎉
 
-![](https://grantwinney.com/content/images/2020/11/enable_logging7.png)
+![](enable_logging7.png)
 
 My issue ended up being two separate problems:
 
 - I targeted .NET Core 2.1 when I created the Lambda function (because that's the only one available), but my C# project targeted .NET Core 3.0. Oops.
 - I also forgot to add a reference to `Amazon.Lambda.Core`, which is really easy to do since it's not used in the project nor required by any part of the project, but its absence will cause the job to fail when it runs on AWS. 🤦‍♂️
 
-![](https://grantwinney.com/content/images/2019/11/aws-lambda-core.png)
+![](aws-lambda-core.png)
 
 If that didn't do it for you, or you already had a comparable permission selected, here's some more helpful suggestions in this post by Dora Hodanic:
 

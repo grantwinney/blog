@@ -93,7 +93,7 @@ The risk is that you end up passing "null" to a string, like the "message" param
 
 And so the message, which was part of a prompt to the user, looks like this:
 
-![](https://grantwinney.com/content/images/2022/10/image-3.png)
+![](image-3.png)
 
 As of C# 4.0 (ye not so but still fairly olden days), we can call out parameters we're interested in, and omit the optional parameters that we aren't. So you can pass in values for the mandatory ones first (which was required), then just set three to 5. Naturally.
 

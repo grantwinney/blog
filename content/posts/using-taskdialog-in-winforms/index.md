@@ -29,7 +29,7 @@ It's great that the team behind WinForms has the bandwidth to add new features, 
 
 Without considering anything fancier, it's super easy to replace a standard `MessageBox`. Here's a simple message to warn the user when they're about to delete some files:
 
-![](https://grantwinney.com/content/images/2024/12/image-12.png)
+![](image-12.png)
 
 The code for the above is pretty succinct. We want Yes/No buttons with No as the default:
 
@@ -49,7 +49,7 @@ if (result == DialogResult.Yes)
 
 And here's the a prompt with the same behavior, recreated using `TaskDialog`:
 
-![](https://grantwinney.com/content/images/2024/12/image-11.png)
+![](image-11.png)
 
 The code is _very_ similar. We set the properties on a `TaskDialogPage` object and pass that to the `TaskDialog.ShowDialog` method:
 
@@ -94,7 +94,7 @@ private static void Application_ThreadException(
 
 Here's what we get. Ouch.
 
-![](https://grantwinney.com/content/images/2024/12/image-13.png)
+![](image-13.png)
 
 With the new `TaskDialog`, we can do so much more:
 
@@ -123,7 +123,7 @@ TaskDialog.ShowDialog(new TaskDialogPage
 
 We can hide the details in a collapsed section, so they're out of the way initially. We can add our own buttons for additional actions, like submitting the error. The `AllowCancel` flag allows them to hit `Esc` to dismiss the message, and `SizeToContent` widens the box to support the contents better, so the stack trace text isn't more awkwardly wrapped than necessary.
 
-![](https://grantwinney.com/content/images/2024/12/m5Y8utQh4u.gif)
+![](m5Y8utQh4u.gif)
 
 ## Accept Our EULA
 
@@ -164,7 +164,7 @@ if (TaskDialog.ShowDialog(this, tdp) == TaskDialogButton.OK)
 
 The `Verification` property lets us add a custom `TaskDialogVerificationCheckBox`, and by subscribing to its `CheckedChanged` event, we can force users to select it before hitting `OK`. There's an icon option that adds a yellow bar to really grab attention when needed, and a flag that lets us include hyperlinks in the text.
 
-![](https://grantwinney.com/content/images/2024/12/ffTco6IDxq.gif)
+![](ffTco6IDxq.gif)
 
 ## Self destruct in...
 
@@ -204,6 +204,6 @@ if (tdResult == TaskDialogButton.OK && pb.Value == 0)
 
 The `ProgressBar` property lets us add a custom `TaskDialogProgressBar` to show progress. Here, we've set it to 5 initially, and then we use a standard WinForms `Timer` to count down for 5 seconds. I love that we can add a `ProgressBar`, although a good use-case is escaping me at the moment. Maybe you have one you'd like to share?
 
-![](https://grantwinney.com/content/images/2024/12/eUKr4NsTRr.gif)
+![](eUKr4NsTRr.gif)
 
 If you found this content useful and would like to learn more, check out my [Surviving WinForms](https://github.com/grantwinney/surviving-winforms) repo, where you'll find links to plenty more blog posts and practical examples!

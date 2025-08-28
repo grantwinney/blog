@@ -37,7 +37,7 @@ First, you'll need to be signed in. [Create an account](https://slack.com/create
 
 Then, you'll need to [create an app](https://api.slack.com/apps/new). Give it whatever name you like, and choose the name of your group/workspace from the dropdown. Click "Create App". If all goes well, you should end up on a dashboard like this one:
 
-![slack-api---app-dashboard](https://grantwinney.com/content/images/2017/12/slack-api---app-dashboard.png)
+![slack-api---app-dashboard](slack-api---app-dashboard.png)
 
 ### Choose some permissions
 
@@ -45,31 +45,31 @@ Now that you've got an app, you need to decide what you want it to do. I'm glad 
 
 Click the "OAuth & Permissions" link on the left, and then scroll down to "Scopes". Choose a few permissions that sound interesting and then "Save Changes". I chose to access channel information and alter pinned messages. _(The incoming-webhook one got added, and can't be removed - guess it's required by the other two?)_
 
-![slack-api---request-permissions](https://grantwinney.com/content/images/2017/12/slack-api---request-permissions.png)
+![slack-api---request-permissions](slack-api---request-permissions.png)
 
 ### Install your new app in your workspace
 
 On the same page, scroll back to the top and press the "Install App to Workspace" button. You'll be notified about what permissions the app needs - just click "Authorize". I also created a new channel named "testing", so that I could select it here, but you can just select a built-in channel from the dropdown if you'd like.
 
-![slack-api---authorize-app](https://grantwinney.com/content/images/2017/12/slack-api---authorize-app.png)
+![slack-api---authorize-app](slack-api---authorize-app.png)
 
 ### Auth Token (finally!)
 
 It should've redirected back to the "OAuth & Permissions" section. This is the auth token you'll need when you make requests to the Slack API.
 
-![slack-api---auth-token](https://grantwinney.com/content/images/2017/12/slack-api---auth-token.png)
+![slack-api---auth-token](slack-api---auth-token.png)
 
 ## Try it out
 
 Now you can actually try some [API methods](https://api.slack.com/methods). For most of these, I think you need at least the `Authorization` and `Content-Type` headers - although the latter isn't _always_ required, it won't hurt to include it.
 
-![slack-api---post-headers](https://grantwinney.com/content/images/2017/12/slack-api---post-headers.png)
+![slack-api---post-headers](slack-api---post-headers.png)
 
 ### List Channels
 
 The first thing we'll try is [listing channels](https://api.slack.com/methods/channels.list). In Postman, do a `POST` and include the headers above. The JSON body only needs to have your auth token.
 
-![slack-api---list-channels-request](https://grantwinney.com/content/images/2017/12/slack-api---list-channels-request.png)
+![slack-api---list-channels-request](slack-api---list-channels-request.png)
 
 You should get a result similar to this. My results include three channels - the default "general" and "random" ones, and also my "testing" one. Note how each channel has an "id" too. It appears that many (most? all?) of the requests that operate on channels require an id, _not a name._
 
@@ -260,7 +260,7 @@ The result doesn't tell us much, other than it hopefully succeeded.
 
 Checking the channel though, you should be able to confirm the message is pinned on the right side. Success!
 
-![slack-api---pinned-message-1](https://grantwinney.com/content/images/2017/12/slack-api---pinned-message.png)
+![slack-api---pinned-message-1](slack-api---pinned-message.png)
 
 ## Thoughts
 
@@ -268,4 +268,4 @@ Similar to the [Dropbox API](https://grantwinney.com/what-is-dropbox-api/) and i
 
 Then check out the [pins.add](https://api.slack.com/methods/pins.add/test) method again. Here's what I got when I entered the same values that I put in Postman. (It's whining because the message is already pinned, but it works.)
 
-![slack-api---online-api-tester](https://grantwinney.com/content/images/2017/12/slack-api---online-api-tester.png)
+![slack-api---online-api-tester](slack-api---online-api-tester.png)

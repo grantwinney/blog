@@ -65,9 +65,9 @@ At this point, it sure seemed like the new code _didn't_ get deployed. Except ac
 
 A nice feature of APIs written in ASP.NET Core using Visual Studio is that you get a [Swagger UI](https://swagger.io/tools/swagger-ui/) page out of the box, if you choose. You can configure it later if you want, too. Here's the one it generated for my previous examples. It lists all the available endpoints, and even lets you plug in values and try them out.
 
-![](https://grantwinney.com/content/images/2023/12/image-7.png)
+![](image-7.png)
 
-![](https://grantwinney.com/content/images/2023/12/image-8.png)
+![](image-8.png)
 
 This can be _really_ helpful, and was for us, because I opened the one for our deployed environment and, hmmm.. the new endpoint wasn't even listed. We had the record of a deploy in DevOps, it had succeeded without errors, and yet clearly had failed to actually, well.. deploy.
 

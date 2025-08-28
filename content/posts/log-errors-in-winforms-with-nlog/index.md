@@ -37,9 +37,9 @@ Open your solution, go to "Manage NuGet Packages", and search for NLog. You shou
 
 What's the NLog.Extensions.Logging one that I glossed over? Something to do with new features in .NET Core and .NET Standard, and probably not something you're worried about in a WinForms app.
 
-![](https://grantwinney.com/content/images/2021/10/image-17.png)
+![](image-17.png)
 
-![](https://grantwinney.com/content/images/2021/10/image-19.png)
+![](image-19.png)
 
 ## Configure NLog
 
@@ -81,7 +81,7 @@ Those lines about archiving aren't strictly needed for this basic demo, but I th
 
 To use it, just create a new instance of the logger. Since we didn't give it a name in the config file, it doesn't matter what name you specify here - even an empty string works. Then write whatever you want, and check for the file in the "bin" folder where `${basedir}` points to.
 
-![](https://grantwinney.com/content/images/2021/10/image-20.png)
+![](image-20.png)
 
 That's it!
 
@@ -108,7 +108,7 @@ NLog can do a _lot_ more, way more than I could cover here. Before wrapping thin
 
 I wrote a little UI that logs a few different types of messages, and you can see the result here. If this is new to you, [get the code](https://github.com/grantwinney/SurvivingWinForms/tree/master/Debugging/Logging/NLogUtility), play around with it, change it, break it, revert the code.. lol.
 
-![](https://grantwinney.com/content/images/2021/10/HLTikX4GEv.gif)
+![](HLTikX4GEv.gif)
 
 The [NLog wiki on GitHub](https://github.com/NLog/NLog/wiki) is really comprehensive too - hundreds of pages on there covering everything imaginable. And if you're interested in logging to several targets at once, [check this out](https://grantwinney.com/how-to-log-messages-to-multiple-targets-with-nlog/).
 

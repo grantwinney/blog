@@ -64,7 +64,7 @@ You should still be in your library. If you already have books available in your
 
 In your library, look for the red "NEW SHELF" button on the left. Click that and create a new shelf. Name it whatever you want, then select it from the list to open it up. I chose to make it private, but whatever.
 
-![create new bookshelf](https://grantwinney.com/content/images/2018/01/create-new-bookshelf.png)
+![create new bookshelf](create-new-bookshelf.png)
 
   
 
@@ -84,7 +84,7 @@ Click the "OFF" button next to _"Authorize requests using OAuth 2.0"_ in the upp
 
 You should be back where you started on the APIs Explorer page, but now the gray "OFF" toggle button should be a blue "ON" button. If you wait too long, you'll need to go through this process again. The "authorization" you grant only seems to last about a day, maybe less.
 
-![](https://grantwinney.com/content/images/2018/01/google---authorize-access-to-books.png)
+![](google---authorize-access-to-books.png)
 
 ### FINALLY! Let's ask for metadata about our new shelf
 
@@ -92,7 +92,7 @@ Go to [books.bookshelves.get](https://developers.google.com/apis-explorer/?hl=en
 
 Note that they provide you with the REST endpoint call, with your values in it. You could test things out in the APIs Explorer, then copy the call into your app. Convenient.
 
-![get-bookshelf-metadata](https://grantwinney.com/content/images/2018/01/get-bookshelf-metadata.png)
+![get-bookshelf-metadata](get-bookshelf-metadata.png)
 
 ### Now let's ask for metadata about ALL our shelves
 
@@ -108,7 +108,7 @@ Since it includes IDs for everything, you could display a list like this to a us
 
 Click on [books.bookshelves.volumes.list](https://developers.google.com/apis-explorer/?hl=en_US#p/books/v1/books.bookshelves.volumes.list), and fill in your `userId` and `shelf` IDs again. This endpoint lists detailed information about the volumes (books) in your shelf.
 
-![get-all-volumes-in-bookshelf](https://grantwinney.com/content/images/2018/01/get-all-volumes-in-bookshelf.png)
+![get-all-volumes-in-bookshelf](get-all-volumes-in-bookshelf.png)
 
 Note that the results include the ID for the book, like "Y7sOAAAAIAAJ" in the above results. You can use that ID with endpoints like [books.volumes.get](https://developers.google.com/apis-explorer/?hl=en_US#p/books/v1/books.volumes.get?volumeId=Y7sOAAAAIAAJ) that expect a `volumeId` value.
 

@@ -29,13 +29,13 @@ By flip-flopping which one is HIGH and which one is LOW, we can turn one LED on 
 
 Try it out by setting up your circuit like the diagram and images below. You’ll need a couple resistors – 220 ohm is okay, 470 ohm is probably better – and a couple LEDs. I used a wire because really you only need one resistor in the path (it doesn’t matter _where_ in the path it is – between the power source and LED, or between the LED and ground).
 
-![](https://grantwinney.com/content/images/2017/02/fritzing-charlieplexing-2-in-2.png)
+![](fritzing-charlieplexing-2-in-2.png)
 
-![](https://grantwinney.com/content/images/2017/02/charlieplexing-2-2-1.jpg)
+![](charlieplexing-2-2-1.jpg)
 
-![](https://grantwinney.com/content/images/2017/02/charlieplexing-2-2-2.jpg)
+![](charlieplexing-2-2-2.jpg)
 
-![](https://grantwinney.com/content/images/2017/02/charlieplexing-2-2-3.jpg)
+![](charlieplexing-2-2-3.jpg)
 
 Once the circuit is set up correctly, [run this script](https://github.com/grantwinney/52-Weeks-of-Pi/blob/master/09-Charlieplexing-LEDs/charlieplexing-2-on-2.py).
 
@@ -61,13 +61,13 @@ Instead, the third pin needs to be set in such a way that it’s effectively rem
 
 Check out the diagram below. Notice how, if pin 25 is HIGH, it affects two LEDs – the anode of both the pink and yellow LEDs are on pin 25. You can set pin 24 to LOW to light the yellow LED or set pin 23 to LOW to light the pink. But since we only want one at a time, either pin 23 or 24 has to be set to GPIO.IN so the LED connected to it won’t light up.
 
-![](https://grantwinney.com/content/images/2017/02/fritzing-charlieplexing-6-in-3.png)
+![](fritzing-charlieplexing-6-in-3.png)
 
-![](https://grantwinney.com/content/images/2017/02/charlieplexing-6-3-1.jpg)
+![](charlieplexing-6-3-1.jpg)
 
-![](https://grantwinney.com/content/images/2017/02/charlieplexing-6-3-2.jpg)
+![](charlieplexing-6-3-2.jpg)
 
-![](https://grantwinney.com/content/images/2017/02/charlieplexing-6-3-3.jpg)
+![](charlieplexing-6-3-3.jpg)
 
 Setup a circuit like the diagrams and images above, then [run this script](https://github.com/grantwinney/52-Weeks-of-Pi/blob/master/09-Charlieplexing-LEDs/charlieplexing-6-on-3.py).
 

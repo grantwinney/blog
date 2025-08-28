@@ -28,7 +28,7 @@ If only we had a way to package up our code. 😐
 
 Every app you use depends on other software, some of it bundled with the app itself, and some of it installed with your OS. For example, Notepad++ depends on [libcurl.dll](https://github.com/curl/curl) for transferring data during updates. The authors of Notepad++ didn't write libcurl, but it depends on it. If you rename it, then Notepad++ can't work, because it can't find that bundle of code.
 
-![](https://grantwinney.com/content/images/2019/10/missing-dll.png)
+![](missing-dll.png)
 
 Removing or renaming the code an app depends on has predictable results...
 
@@ -38,7 +38,7 @@ Take .NET for example. When you build a solution in Visual Studio, it compiles y
 
 Here's one of my projects, [GhostSharp](https://grantwinney.com/ghostsharp/). After building, I get "GhostSharp.dll" and "GhostSharp.Tests.dll" files _(for the code I wrote)_ and "[NUnit3.TestAdapter.dll](https://www.nuget.org/packages/NUnit3TestAdapter/)" _(because my test project depends on it)_.
 
-![](https://grantwinney.com/content/images/2019/10/bin-dir.png)
+![](bin-dir.png)
 
 All of these various DLL files _are_ packages - that is, they're just bundles of related code. And while I used .NET and libraries in my example, other languages have their own lingo - Ruby gems, Perl modules, Java JARs, etc.
 
@@ -77,13 +77,13 @@ When you reference a NuGet package from Visual Studio and then build, VS helpful
 
 If you try publishing your own NuGet package, you can expect to see something like this. The first two images are in Visual Studio, while the last two show the contents of the generated `nupkg` file, and the `nuspec` file it contains.
 
-![](https://grantwinney.com/content/images/2019/10/nuget-package-config-in-project-properties.png)
+![](nuget-package-config-in-project-properties.png)
 
-![](https://grantwinney.com/content/images/2019/10/nuget-config-edit-project.png)
+![](nuget-config-edit-project.png)
 
-![](https://grantwinney.com/content/images/2019/10/nuget-generated-package.png)
+![](nuget-generated-package.png)
 
-![](https://grantwinney.com/content/images/2019/10/nuget-nuspec-file.png)
+![](nuget-nuspec-file.png)
 
 Generating a NuGet package with Visual Studio
 

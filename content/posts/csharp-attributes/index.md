@@ -111,7 +111,7 @@ Console.WriteLine($"Severity Level: {settings.SeverityLevel}");
 Console.WriteLine($"Logging {(settings.LoggingEnabled ? @"is" : @"is not")} enabled.");
 ```
 
-![](https://grantwinney.com/content/images/2019/04/parsingdemo.PNG)
+![](parsingdemo.PNG)
 
 If you want to learn more:
 
@@ -177,7 +177,7 @@ namespace AttributesExamples
 }
 ```
 
-![](https://grantwinney.com/content/images/2019/04/unittest.PNG)
+![](unittest.PNG)
 
 ## Planned Code Obsolescence
 
@@ -228,9 +228,9 @@ namespace AttributesExamples
 
 When you mark something as obsolete, any attempts to use it are underlined in green as a warning. You might leave things like this for several releases, and when you're ready you set the error parameter to `true`, which tells the compiler to treat usage as an error instead of a warning.
 
-![](https://grantwinney.com/content/images/2019/04/obsolescence.png)
+![](obsolescence.png)
 
-![](https://grantwinney.com/content/images/2019/04/errorlist.PNG)
+![](errorlist.PNG)
 
 ## Bit Field Enums
 
@@ -298,7 +298,7 @@ namespace AttributesExamples
 }
 ```
 
-![](https://grantwinney.com/content/images/2019/04/bitflags.PNG)
+![](bitflags.PNG)
 
 ## Your Own Implementation
 

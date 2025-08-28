@@ -41,12 +41,12 @@ Sounds like the villain in a Batman movie…
 
 The cobbler is the black T-shaped device above, sitting on the red padding material. They can come in different shapes and sizes, like [this smaller one for the original Pi](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/the-gpio-connector). The images below, from the CanaKit product page, show it in more detail. It plugs into the breadboard, bridging all 40 pins from your Pi to the breadboard.
 
-![](https://grantwinney.com/content/images/2016/03/canakit-cable-1.png)
+![](canakit-cable-1.png)
 
   
 Cobbler and ribbon, connected to the Pi  
 
-![](https://grantwinney.com/content/images/2016/03/canakit-cable-2.jpg)
+![](canakit-cable-2.jpg)
 
 Without a cobbler, as with the EduKit set, you’ll have to connect individual wires from the GPIO pins on the Pi to your breadboard. That’s not difficult, and would allow for more flexibility depending on what you’re trying to do, but it could be tedious and an unnecessary step. The cobbler eliminates wires that might get tangled up, and the one I got is clearly labeled, so you can tell at a glance which GPIO pin is mapped where on the breadboard.
 
@@ -70,7 +70,7 @@ Also, if you’re wondering why to even bother with the resistor, I was too. Fro
 
 Ultimately, here’s how I laid it out. The resistor I used was only 220 Ω (the tutorial recommends 330 Ω), but it worked okay.
 
-![breadboard single led circuit](https://grantwinney.com/content/images/2016/03/breadboard-single-led-circuit.jpg)
+![breadboard single led circuit](breadboard-single-led-circuit.jpg)
 
 ### Python Script
 
@@ -107,7 +107,7 @@ for x in range(1, iterations+1):
 
 Here’s the output that prints to the console while the LED blinks. That last word, “scrot”, is the command for taking a full-screen capture with the Scrot app in Raspbian.
 
-![blinking led output](https://grantwinney.com/content/images/2016/03/blinking-led-output.png)
+![blinking led output](blinking-led-output.png)
 
 ### It’s Aliiiiive!
 

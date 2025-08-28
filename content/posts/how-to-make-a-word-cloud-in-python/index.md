@@ -66,10 +66,10 @@ window.mainloop()
 
 It ain't the prettiest, but I think it's passable for a non-pythonista in under an hour. In the right setting, it's a good way to steer someone's focus on whatever's most important first... however you happen to define that!
 
-![](https://grantwinney.com/content/images/2020/06/2020-06-04-13_20_37-Welcome-to-LikeGeeks-app.png)
+![](2020-06-04-13_20_37-Welcome-to-LikeGeeks-app.png)
 
-![](https://grantwinney.com/content/images/2020/06/2020-06-04-13_54_50-Welcome-to-LikeGeeks-app.png)
+![](2020-06-04-13_54_50-Welcome-to-LikeGeeks-app.png)
 
-![](https://grantwinney.com/content/images/2020/06/2020-06-04-13_29_16-Welcome-to-LikeGeeks-app.png)
+![](2020-06-04-13_29_16-Welcome-to-LikeGeeks-app.png)
 
-![](https://grantwinney.com/content/images/2020/06/2020-06-04-13_56_51-Welcome-to-LikeGeeks-app.png)
+![](2020-06-04-13_56_51-Welcome-to-LikeGeeks-app.png)

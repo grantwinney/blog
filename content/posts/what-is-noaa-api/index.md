@@ -27,13 +27,13 @@ First though, two things to consider:
 
 First things first... we need an access token. NOAA uses a slightly differently method than the other ones I've seen so far, but it's minor. You need to provide an email address and they'll email you a unique token. You can [request an API token](https://www.ncdc.noaa.gov/cdo-web/token) here. I got the email within seconds.
 
-![noaa-api---request-token-1](https://grantwinney.com/content/images/2017/12/noaa-api---request-token-1.png)
+![noaa-api---request-token-1](noaa-api---request-token-1.png)
 
 The limits are very generous if you're using it for a small project for yourself or a team - _"each token will be limited to five requests per second and 10,000 requests per day"_.
 
 For any request you make, include the access token as a header named "token".
 
-![noaa-api---token-header](https://grantwinney.com/content/images/2017/12/noaa-api---token-header.png)
+![noaa-api---token-header](noaa-api---token-header.png)
 
 ## Requesting Data
 

@@ -31,7 +31,7 @@ Each of the learning paths have hours of material to go through, so I just focus
 
 Microsoft has things setup so that, once you create your free account, a single button click generates the entire environment you need for the current lesson. At the end, one more click deletes everything. Poof. You miss some of the finer details in setting things up, but then, should you really need to craft your own measuring cups and harvest grain in order to learn how to bake a cake? You can always delve deeper later when there's a reason too.
 
-![](https://grantwinney.com/content/images/2022/07/image-1.png)
+![](image-1.png)
 
 This week's lesson included features for abstraction and reusability. If you want to run a job under several similar environments, you can inject variables that change values when the job runs. And then there's templates, which I haven't gotten to use before but can help [DRY up](https://blog.devgenius.io/a-better-definition-of-the-dry-programming-principle-13a3d0af4d40) jobs that are largely duplicates with a few minor differences between them.
 
@@ -39,17 +39,17 @@ This week's lesson included features for abstraction and reusability. If you wan
 
 There was also a bit about adding badges to your readme file, something that [I've used before](https://github.com/grantwinney/Surviving-WinForms) and find somewhat useful when I'm checking out other projects on GitHub. The lesson demo'd adding a badge to show whether the last build passed or not, but there's all kinds of other badges you can add too, some of which are more useful than others.
 
-![](https://grantwinney.com/content/images/2022/07/image-12.png)
+![](image-12.png)
 
 [Surviving WinForms](https://github.com/grantwinney/Surviving-WinForms)
 
-![](https://grantwinney.com/content/images/2022/07/image-13.png)
+![](image-13.png)
 
 [GhostSharp](https://github.com/grantwinney/GhostSharp)
 
 They also covered a bit on protecting the branch from people just pushing things in (very good idea) and a bit on setting up a dashboard for the project (this one-man jury's still out). We use a dashboard at work, and it's only marginally useful. I usually forget it's there. Some of the modules aren't customizable, and the one that shows a webpage inside an iframe just "refused to connect" on everything. I think the main benefit would be to have it displayed on a large monitor where the whole team could see the health of the project at a glance. Or maybe it's for the project manager working remotely. Meh.
 
-![](https://grantwinney.com/content/images/2022/07/image-14.png)
+![](image-14.png)
 
 So far I'm finding the material good, even though I know most of what I've seen so far, just from day-to-day use at work. The storyline aspect of the lessons are pretty thin and contrived. You're following a team who had a rough release, and definitely some areas they could improve in, and the newest developer they hired just happens to be familiar with devops'ing all the things, and she's begun to overhaul everything. Completely realistic. Every lesson sees her converting the team to GitHub, VS Code, Azure DevOps, and whatever else Microsoft owns. It's not really entertaining to me, but uh, I guess it's less dry than just presenting the material?
 

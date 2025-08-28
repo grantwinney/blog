@@ -54,11 +54,10 @@ If you need to do a little debugging on a repo, you have to clone it locally and
 
 [Sourcegraph](https://docs.sourcegraph.com/integration/browser_extension) is an IDE for the browser that works with multiple languages. Just hover over a keyword or identifier in your codebase, and the addon pops up a link that takes you to sourcegraph's site, which in turn provides syntax highlighting and click-through navigation for your application. I tried it with a C# application I wrote for a recent post on [MVP](https://grantwinney.com/its-possible-to-test-a-winforms-app-using-mvp/), and it had no problem navigating around.
 
-![](https://grantwinney.com/content/images/2020/03/sourcegraph-in-action-1.png)
+![](sourcegraph-in-action-1.png)
 
-![](https://grantwinney.com/content/images/2020/03/sourcegraph-in-action-2.png)
+![](sourcegraph-in-action-2.png)
 
-![](https://grantwinney.com/content/images/2020/03/sourceg
 ![](sourcegraph-in-action-3.png)
 
 ![](sourcegraph-in-action-4.png)
