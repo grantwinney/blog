@@ -23,7 +23,7 @@ Someone once hit me up on Twitter to tell me about their API called [Planet OS](
 >   
 > [We provide] consistent programmatic access to high-quality weather, climate and environmental datasets from the world’s leading providers, making it easy to build data-driven applications and analyses.
 
-They seem to have found a great number of services - such as NASA and NOAA - that provide scientific/weather/earth related data, regularly download a small sample set from each service, and provide a way to access that information through their own API. Neato. I think. There's a __lot__ of data there, I only barely scratched the surface, and I'm not a meteorologist so I didn't understand a lot of what I was looking at.
+They seem to have found a great number of services - such as NASA and NOAA - that provide scientific/weather/earth related data, regularly download a small sample set from each service, and provide a way to access that information through their own API. Neato. I think. There's a _lot_ of data there, I only barely scratched the surface, and I'm not a meteorologist so I didn't understand a lot of what I was looking at.
 
 ## Get an authentication key
 
@@ -44,13 +44,13 @@ First, two things to consider:
 
 As you browse the [Planet OS REST API](http://docs.planetos.com/?python#rest-api-v1), they provide examples in several languages, which is really nice. If you're just testing things out, you can copy the cURL examples onto the command line or into Postman to test them out.
 
-(****Note that in all of the examples I post in here, I'm using https instead of http - and it works just fine.**** They support using ssl, yet many of their examples use http. If you use http, your API key will be sent in plain text and can be viewed by anyone monitoring your network.)
+(**Note that in all of the examples I post in here, I'm using https instead of http - and it works just fine.** They support using ssl, yet many of their examples use http. If you use http, your API key will be sent in plain text and can be viewed by anyone monitoring your network.)
 
 To make sure it works, either call the following from a command line or just paste it in your browser's address bar:
 
 `curl https://api.planetos.com/v1/datasets?apikey=<your_api_key>`
 
-Or (my preference) use Postman: __(because I like to save my queries)__
+Or (my preference) use Postman: _(because I like to save my queries)_
 
 ![test-the-api-key](https://grantwinney.com/content/images/2018/01/test-the-api-key.png)
 

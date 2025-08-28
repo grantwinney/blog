@@ -20,11 +20,11 @@ I just got access to an MSDN account with keys for various versions of Windows a
 
 With that in mind, let's check out the best of Windows yesteryear. But first...
 
-****Note 1:**** If you just need to run something in XP with a minimum of fuss, check out the free [Windows XP Mode](https://www.microsoft.com/en-us/download/details.aspx?id=8002) app that runs XP inside of Windows 7. It doesn't work on Windows 10 easily, but [there's usually a workaround](https://www.download3k.com/articles/How-to-add-an-XP-Mode-Virtual-Machine-to-Windows-10-or-8-using-Hyper-V-00770).
+**Note 1:** If you just need to run something in XP with a minimum of fuss, check out the free [Windows XP Mode](https://www.microsoft.com/en-us/download/details.aspx?id=8002) app that runs XP inside of Windows 7. It doesn't work on Windows 10 easily, but [there's usually a workaround](https://www.download3k.com/articles/How-to-add-an-XP-Mode-Virtual-Machine-to-Windows-10-or-8-using-Hyper-V-00770).
 
-****Note 2:**** I won't share any keys or recommend where to find them, but you were allowed to use XP for 60 days without activating, so you could probably use any key you find and you'll be good for a couple months. Sure, that's annoying, but you're not seriously using this for anything serious are you?
+**Note 2:** I won't share any keys or recommend where to find them, but you were allowed to use XP for 60 days without activating, so you could probably use any key you find and you'll be good for a couple months. Sure, that's annoying, but you're not seriously using this for anything serious are you?
 
-[You can't install service packs on 64-bit systems](http://web.archive.org/web/20080430165302/http://www.microsoft.com/windowsxp/sp2/sysreqs.mspx), so you may want to choose the 32-bit option. If you're doing this from MSDN, select the __"with Service Pack 3"__ option to make life easier.
+[You can't install service packs on 64-bit systems](http://web.archive.org/web/20080430165302/http://www.microsoft.com/windowsxp/sp2/sysreqs.mspx), so you may want to choose the 32-bit option. If you're doing this from MSDN, select the _"with Service Pack 3"_ option to make life easier.
 
 ![](https://grantwinney.com/content/images/2019/05/winxp86.png)
 
@@ -50,7 +50,7 @@ Give it plenty of hard disk space if you plan on installing other apps. It's a p
 
 After installing XP, the first thing you'll notice is that Internet Explorer is awful and horrible and you probably can't even connect to the Internet (at least until you have the service packs installed). Let's do the very first thing anyone does when they install any version of Windows... install a real browser.
 
-Follow the suggestions in [this thread](https://askubuntu.com/q/52773/927673) to share a folder with your host machine, or run __"Devices / Insert Guest Additions CD image..."__ in VirtualBox __(__[__read more here__](https://www.virtualbox.org/manual/ch04.html)__)__ and then go to __"Devices / Shared Folders / Shared Folders Settings"__ and map a folder on your host machine. You might have to select __"Devices / Optical Drives / Remove disk"__ first, but maybe not. I mapped the "Downloads" folder, so it'll show up as a drive in the VM under __My Computer__.
+Follow the suggestions in [this thread](https://askubuntu.com/q/52773/927673) to share a folder with your host machine, or run _"Devices / Insert Guest Additions CD image..."_ in VirtualBox _(_[_read more here_](https://www.virtualbox.org/manual/ch04.html)_)_ and then go to _"Devices / Shared Folders / Shared Folders Settings"_ and map a folder on your host machine. You might have to select _"Devices / Optical Drives / Remove disk"_ first, but maybe not. I mapped the "Downloads" folder, so it'll show up as a drive in the VM under _My Computer_.
 
 ![](https://grantwinney.com/content/images/2019/05/sharedfolders.png)
 
@@ -64,13 +64,13 @@ Now you can download [Chrome](https://www.google.com/chrome/) (it'll install v49
 
 ## Installing Service Packs
 
-XP is ancient but we might as well update it where we can. If you selected the __"with Service Pack 3"__ option like I mentioned, then skip this section.
+XP is ancient but we might as well update it where we can. If you selected the _"with Service Pack 3"_ option like I mentioned, then skip this section.
 
 Otherwise, there's a couple places you can get the SPs from (at least). The easiest is from your MSDN account. Save "Service Pack 1a", "Service Pack 2 (English)" and "Service Pack 3 (x86)" to the shared folder on your host machine.
 
 ![](https://grantwinney.com/content/images/2019/05/msdn-xp-sps.png)
 
-The files are ISOs, so download [Virtual CloneDrive](https://www.elby.ch/en/products/vcd.html) in the VM __(you might have to right-click the exe, open properties, and press "unblock")__ and mount each file to install it. All you have to do is choose Settings and create a half-dozen virtual drives, then mount each one to an ISO on the host machine.
+The files are ISOs, so download [Virtual CloneDrive](https://www.elby.ch/en/products/vcd.html) in the VM _(you might have to right-click the exe, open properties, and press "unblock")_ and mount each file to install it. All you have to do is choose Settings and create a half-dozen virtual drives, then mount each one to an ISO on the host machine.
 
 ![](https://grantwinney.com/content/images/2019/05/clonedrive1.png)
 
@@ -85,7 +85,7 @@ Alternatively, you can grab them from the [Microsoft Update Catalog](http://www.
 
 ## Install Updates
 
-Although [support for XP ended 5 years ago](https://www.microsoft.com/en-us/windowsforbusiness/end-of-xp-support), you can still grab the updates that were available. Click on __Start / All Programs / Windows Update__ and select all the updates. Install, reboot, select more updates, rinse, repeat. Good ol' XP.
+Although [support for XP ended 5 years ago](https://www.microsoft.com/en-us/windowsforbusiness/end-of-xp-support), you can still grab the updates that were available. Click on _Start / All Programs / Windows Update_ and select all the updates. Install, reboot, select more updates, rinse, repeat. Good ol' XP.
 
 ![](https://grantwinney.com/content/images/2019/05/winupdate1.png)
 
@@ -133,7 +133,7 @@ You can [download the free Visual Studio 2010 Express](https://visualstudio.micr
 
 ### Visual Studio .NET 2003
 
-Not retro enough for you? Let's go back another few years and try out [VS .NET 2003](https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#.NET_2003). It introduced .NET 1.1, so sadly no generics and __definitely__ no LINQ yet. Boooo. If it complains about prereq's but you don't have a prereq CD, try installing the Windows Components it's complaining about.
+Not retro enough for you? Let's go back another few years and try out [VS .NET 2003](https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#.NET_2003). It introduced .NET 1.1, so sadly no generics and _definitely_ no LINQ yet. Boooo. If it complains about prereq's but you don't have a prereq CD, try installing the Windows Components it's complaining about.
 
 ![](https://grantwinney.com/content/images/2019/05/2019-05-03-09_50_37-Visual-Basic-.NET-Setup-1.png)
 
@@ -145,7 +145,7 @@ After that, I ran Windows Update (yet again), tried to install [.NET 1.1. SP1](h
 F:\>./setup/setup.exe /NO_BSLN_CHECK
 ```
 
-Not sure which part of all that fixed it __(or was it a combination of everything?)__ but I got to a normal installation screen eventually. And here's the best WinForms had to offer:
+Not sure which part of all that fixed it _(or was it a combination of everything?)_ but I got to a normal installation screen eventually. And here's the best WinForms had to offer:
 
 ![](https://grantwinney.com/content/images/2019/05/2019-05-03-09_50_37-Visual-Basic-.NET-Setup-4.png)
 
@@ -163,7 +163,7 @@ Not sure which part of all that fixed it __(or was it a combination of everythin
 
 ### Visual Basic 6.0
 
-__Still__ not retro enough?? Let's go back a couple decades to [VB 6.0](https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#6.0_.281998.29). Forget everything you thought you knew... this is before the .NET Framework altogether.
+_Still_ not retro enough?? Let's go back a couple decades to [VB 6.0](https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#6.0_.281998.29). Forget everything you thought you knew... this is before the .NET Framework altogether.
 
 ![](https://grantwinney.com/content/images/2019/05/2019-05-01-09_15_54-Visual-Basic-6.0-Enterprise-Setup.png)
 
@@ -175,7 +175,7 @@ __Still__ not retro enough?? Let's go back a couple decades to [VB 6.0](https://
 
 ![](https://grantwinney.com/content/images/2019/05/2019-05-02-15_44_13-Microsoft-Visual-Basic.png)
 
-Wow, when did we lose this?! There was a wizard to create an ultra modern app, complete with splash screens, toolbars, "about" screens..... __built-in interweb browsers!!__ I'm not sure why we ever progressed beyond this.
+Wow, when did we lose this?! There was a wizard to create an ultra modern app, complete with splash screens, toolbars, "about" screens..... _built-in interweb browsers!!_ I'm not sure why we ever progressed beyond this.
 
 ![](https://grantwinney.com/content/images/2019/05/2019-05-04-08_20_01-Microsoft-Visual-Basic--design-.png)
 
@@ -193,7 +193,7 @@ Wow, when did we lose this?! There was a wizard to create an ultra modern app, c
 
 ### Visual Basic 4.0
 
-Older! More olderer!! Okay, here's VB 4.0 from 25 years ago. Look at that GUI.. every component is a separate floating toolbar.. thing. And the humble beginning of __(gag)__ Crystal Reports. 🤢 🤮
+Older! More olderer!! Okay, here's VB 4.0 from 25 years ago. Look at that GUI.. every component is a separate floating toolbar.. thing. And the humble beginning of _(gag)_ Crystal Reports. 🤢 🤮
 
 ![](https://grantwinney.com/content/images/2019/05/2019-05-04-20_35_07-Visual-Basic-4.0-Master-Setup-01.png)
 

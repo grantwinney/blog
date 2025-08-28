@@ -29,7 +29,7 @@ First things first... we need an access token. NOAA uses a slightly differently 
 
 ![noaa-api---request-token-1](https://grantwinney.com/content/images/2017/12/noaa-api---request-token-1.png)
 
-The limits are very generous if you're using it for a small project for yourself or a team - __"each token will be limited to five requests per second and 10,000 requests per day"__.
+The limits are very generous if you're using it for a small project for yourself or a team - _"each token will be limited to five requests per second and 10,000 requests per day"_.
 
 For any request you make, include the access token as a header named "token".
 
@@ -298,7 +298,7 @@ At first glance, it appears I can choose from daily, monthly, and yearly summari
 
 ## Get Data for a Station
 
-You've got a station you're interested in, and the dataset for that station, so all that's left is querying for the actual data. Unfortunately, I have no clue what the returned data __means__.
+You've got a station you're interested in, and the dataset for that station, so all that's left is querying for the actual data. Unfortunately, I have no clue what the returned data _means_.
 
 Oh well, let's get the data first, then try figuring out what it means.
 
@@ -381,7 +381,7 @@ TMIN = Minimum temperature (tenths of degrees C)
 TOBS = Temperature at the time of observation (tenths of degrees C)
 ```
 
-I'm guessing that "value" is self-explanatory - like 279 for SNWD is 279mm or about 11" of snow; and 6 for TOBS means .6°C, or about 33°F. The "attributes" though - not sure what those mean. __(update: thanks to__ [__Tim Erickson__](https://disqus.com/by/disqus_oHegIKlHsZ/) __for finding a reference to__ [__NOAA NCDC dataset attributes__](https://cran.r-project.org/web/packages/rnoaa/vignettes/ncdc_attributes.html)__!)__
+I'm guessing that "value" is self-explanatory - like 279 for SNWD is 279mm or about 11" of snow; and 6 for TOBS means .6°C, or about 33°F. The "attributes" though - not sure what those mean. _(update: thanks to_ [_Tim Erickson_](https://disqus.com/by/disqus_oHegIKlHsZ/) _for finding a reference to_ [_NOAA NCDC dataset attributes_](https://cran.r-project.org/web/packages/rnoaa/vignettes/ncdc_attributes.html)_!)_
 
 ### Get Yearly Summary
 

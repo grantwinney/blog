@@ -29,9 +29,9 @@ Enough of that.. if you've got one and you're feeling intrepid, read on! Hopeful
 
 It wasn’t an overly difficult model, and we lucked out. Our set had all the right pieces in the right quantities, not something you should even have to worry about. :p
 
-It was mostly screwing everything together in the right order… lots and __lots and__ _****lots****_ of tiny screws. The cheap kind with the heads that strip while you’re screwing them in.
+It was mostly screwing everything together in the right order… lots and _lots and_ _**lots**_ of tiny screws. The cheap kind with the heads that strip while you’re screwing them in.
 
-My son would start the screws, then I’d finish them up. That worked out well, since it was tough to apply enough force to __not__ strip the head, while applying the minimal force necessary so the plastic didn’t crack (which almost happened a few times). There were about 60 screws in the set, and only 2 left over, so no room for error.
+My son would start the screws, then I’d finish them up. That worked out well, since it was tough to apply enough force to _not_ strip the head, while applying the minimal force necessary so the plastic didn’t crack (which almost happened a few times). There were about 60 screws in the set, and only 2 left over, so no room for error.
 
 ![Smithsonian-Motor-Works-00016](https://grantwinney.com/content/images/2016/02/Smithsonian-Motor-Works-00016.jpg)
 
@@ -65,7 +65,7 @@ For the most part though, it went well. My daughter jumped in when the girls got
 
 Here’s the motor, battery compartment and spark plug lights. I thought the headphone jacks were a nice touch, until we ran into another quality issue.
 
-The plastic shielding on one of the jacks literally fell apart in my hand. It just crumbled. The black part by my hand ended up splitting into several pieces too. I managed to glue it back together and then wrap it in electrical tape. The toy’s not __that__ old, and even if it were left somewhere really cold, __nothing else on the toy was remotely brittle__, not even the other jack. Sigh.
+The plastic shielding on one of the jacks literally fell apart in my hand. It just crumbled. The black part by my hand ended up splitting into several pieces too. I managed to glue it back together and then wrap it in electrical tape. The toy’s not _that_ old, and even if it were left somewhere really cold, _nothing else on the toy was remotely brittle_, not even the other jack. Sigh.
 
 ![](https://grantwinney.com/content/images/2016/02/Smithsonian-Motor-Works-00018.jpg)
 
@@ -81,7 +81,7 @@ I mounted the finished product – engine and battery compartment – to a spare
 
 When my parents came over the next day (I was at work), grandpa took the time to explain to the kids how it all worked, which was awesome. He’s been a car enthusiast for a long time, so I think he enjoyed seeing it and getting to teach his grandson about it too.
 
-There’s a half-dozen pages dedicated to how it all works in the manual, which goes great with the model. You absolutely cannot help reading it without thinking, how in the world did we ever get this to work?! Your car is literally __exploding__ gasoline (in very small amounts) 50x a second!
+There’s a half-dozen pages dedicated to how it all works in the manual, which goes great with the model. You absolutely cannot help reading it without thinking, how in the world did we ever get this to work?! Your car is literally _exploding_ gasoline (in very small amounts) 50x a second!
 
 ![Smithsonian-Motor-Works-00026](https://grantwinney.com/content/images/2016/02/Smithsonian-Motor-Works-00026.jpg)
 

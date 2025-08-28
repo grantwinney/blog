@@ -35,7 +35,7 @@ Before you do anything else, you might want to clean up tags/categories if they'
 
 - Remove any leading `#` from tags, since the app prepends a `#` to each tag.
 - If you have any characters in tags that won't translate well to Twitter hashtags, either remove them or add them to `var pattern = new Regex("[- ]");` in the code so they get removed before posting the tweet.
-- This is a good time to revisit __all__ your tags and just remove/rename ones that won't look good in Twitter.
+- This is a good time to revisit _all_ your tags and just remove/rename ones that won't look good in Twitter.
 - While you're at it, you might want to revisit your posts as well - anything you forgot about that you'd rather not post to Twitter?
 
 Other stuff to think about:
@@ -55,7 +55,7 @@ Other stuff to think about:
 
 You'll need to [register a new app with Twitter](https://apps.twitter.com/) (an app with one user - you!). The name of your app doesn't matter, but it does have to be unique system-wide (not just unique in your account).
 
-To get the values you need for the app to post to Twitter, generate an "access" token under the "Keys and Access Tokens" section, and note these four pieces of data: __Consumer Key, Consumer Secret, Access Token,__ and __Access Token Secret__
+To get the values you need for the app to post to Twitter, generate an "access" token under the "Keys and Access Tokens" section, and note these four pieces of data: _Consumer Key, Consumer Secret, Access Token,_ and _Access Token Secret_
 
 ### Setup AWS Lambda
 
@@ -89,7 +89,7 @@ When you're done, it should look something like this:
 
 ### Take it out for a spin!
 
-That __should__ be everything you need to run the job. To try it out, hit the "****Test****" button at the top of the screen. It might have you configure a new "test event". Just do it, name it whatever, and change the code to an empty set of curly braces like `{}`. Hopefully everything goes smoothly and you get a screen like this one.
+That _should_ be everything you need to run the job. To try it out, hit the "**Test**" button at the top of the screen. It might have you configure a new "test event". Just do it, name it whatever, and change the code to an empty set of curly braces like `{}`. Hopefully everything goes smoothly and you get a screen like this one.
 
 ![successful-lambda-run](https://grantwinney.com/content/images/2018/06/successful-lambda-run.jpg)
 
@@ -121,11 +121,11 @@ After spending 15 minutes checking the two out, I decided to just go with Tweeti
 
 ### SyndicationFeedReaderWriter
 
-I implemented a [SyndicationFeedReaderWriter](https://github.com/dotnet/SyndicationFeedReaderWriter) (available via [NuGet](https://www.nuget.org/packages/Microsoft.SyndicationFeed.ReaderWriter/)), which worked well. I did a little cleanup of the tags to remove illegal characters; nothing too crazy though. There's debate about [which characters](https://stackoverflow.com/q/36895543/301857) are [allowed in hashtags](https://stackoverflow.com/q/14823376/301857), so I decided to focus on __my__ tags. YMMV, and you may have to adjust the code accordingly.
+I implemented a [SyndicationFeedReaderWriter](https://github.com/dotnet/SyndicationFeedReaderWriter) (available via [NuGet](https://www.nuget.org/packages/Microsoft.SyndicationFeed.ReaderWriter/)), which worked well. I did a little cleanup of the tags to remove illegal characters; nothing too crazy though. There's debate about [which characters](https://stackoverflow.com/q/36895543/301857) are [allowed in hashtags](https://stackoverflow.com/q/14823376/301857), so I decided to focus on _my_ tags. YMMV, and you may have to adjust the code accordingly.
 
 ### AWS Lambda
 
-I'm only just starting out with AWS Lambda, so I'm not sure what all it's capable of yet. A few days ago [I created a function that keeps my personal Twitter timeline clean](https://grantwinney.com/my-first-experience-with-aws-lambda/). So far, it's awesome. Their [free tier plan](https://aws.amazon.com/lambda/pricing/#Lambda_pricing_details) is generous enough to let you try out __lots__ of different things before you need to pay a single penny.
+I'm only just starting out with AWS Lambda, so I'm not sure what all it's capable of yet. A few days ago [I created a function that keeps my personal Twitter timeline clean](https://grantwinney.com/my-first-experience-with-aws-lambda/). So far, it's awesome. Their [free tier plan](https://aws.amazon.com/lambda/pricing/#Lambda_pricing_details) is generous enough to let you try out _lots_ of different things before you need to pay a single penny.
 
 ---
 

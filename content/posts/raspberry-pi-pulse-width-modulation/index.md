@@ -35,15 +35,15 @@ So let’s take a few minutes to collect some information about the RGB LED, cal
 
 Placing a resistor in your circuit when you’re using an LED is always a good idea, but how do we know which one to use? Too much resistance, and the LED will appear very dim or won’t light at all. Too little resistance, and the LED burns out and possibly damages the GPIO pin (or worse).
 
-When you bought the LED, did it come with a data sheet? It’ll look something like the image below, which I pulled out of one of the [SparkFun data sheets for an RGB LED](https://www.sparkfun.com/datasheets/Components/YSL-R596CR3G4B5C-C10.pdf). If it didn’t come with one (mine didn't), the values below are pretty typical and safe to use, at least as a starting point __(more on that later)__.
+When you bought the LED, did it come with a data sheet? It’ll look something like the image below, which I pulled out of one of the [SparkFun data sheets for an RGB LED](https://www.sparkfun.com/datasheets/Components/YSL-R596CR3G4B5C-C10.pdf). If it didn’t come with one (mine didn't), the values below are pretty typical and safe to use, at least as a starting point _(more on that later)_.
 
 ![RGB Triple Color LED Specs](https://grantwinney.com/content/images/2016/08/RGB-Triple-Color-LED-Specs.png)
 
-There’s a lot of info there, but the values we’re interested in are __“forward current”__ and __“forward voltage”__. Oh, and you know the Raspberry Pi outputs 3.3v, right? That’s important too.
+There’s a lot of info there, but the values we’re interested in are _“forward current”_ and _“forward voltage”_. Oh, and you know the Raspberry Pi outputs 3.3v, right? That’s important too.
 
-There’s a handy little equation called Ohm’s law that’s going to help us out. You might want to read this [basic overview of voltage, current and resistance from SparkFun](https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law). (They forgot to mention subtracting the LED’s __forward voltage__ from the incoming voltage, which results in selecting a higher value resistor than necessary. That’s better than a __lower__ resistance than necessary, but still not optimal.)
+There’s a handy little equation called Ohm’s law that’s going to help us out. You might want to read this [basic overview of voltage, current and resistance from SparkFun](https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law). (They forgot to mention subtracting the LED’s _forward voltage_ from the incoming voltage, which results in selecting a higher value resistor than necessary. That’s better than a _lower_ resistance than necessary, but still not optimal.)
 
-****Resistance = Voltage / Amperage****
+**Resistance = Voltage / Amperage**
 
 - The total voltage is our incoming voltage minus typical forward voltage
 - The amperage is the forward current divided by 1000 (since the value in the chart is in mA, but we need amps)
@@ -116,13 +116,13 @@ def select_and_set_next_pin():
     GPIO.output(next_pin, not GPIO.input(next_pin))
  
  
-if __name__ == '__main__':
+if _name_ == '_main_':
     main()
 ```
 
 ### Script 2: Use PWM for Smooth Color Transition
 
-Once you have an LED wired up with a resistor, it’s either on or off – you can’t dim it or brighten it without changing the resistor. But you can make it __appear__ to be dimmer or brighter, by telling the Pi to quickly blink it on and off hundreds of times a second (frequency), and further by telling it how long to keep it on and off each time it blinks (duty cycle).
+Once you have an LED wired up with a resistor, it’s either on or off – you can’t dim it or brighten it without changing the resistor. But you can make it _appear_ to be dimmer or brighter, by telling the Pi to quickly blink it on and off hundreds of times a second (frequency), and further by telling it how long to keep it on and off each time it blinks (duty cycle).
 
 That’s called pulse-width modulation, or PWM. The [RPi.GPIO library](https://pypi.python.org/pypi/RPi.GPIO) can simulate PWM with any of the GPIO pins we’d normally use to power an LED. [Here’s a sample implementation from their documentation](https://sourceforge.net/p/raspberry-gpio-python/wiki/PWM/).
 
@@ -183,7 +183,7 @@ def main():
         GPIO.cleanup()
  
  
-if __name__ == '__main__':
+if _name_ == '_main_':
     main()
 ```
 
@@ -197,7 +197,7 @@ Although hardware PWM is not available yet, software PWM is available to use on 
 
 ## Fine-Tuning the Resistors
 
-I mentioned earlier that the values in the chart were good starting points. Unless you’ve got the correct data sheet __(and even if you do…)__ you might find the resistors need a bit of tweaking. I used Ohm’s Law to calculate the ideal resistors for my LED __(as close as I could),__ and they worked okay. I let the above script run for about a half-hour, and neither the LED nor the resistors started heating up.
+I mentioned earlier that the values in the chart were good starting points. Unless you’ve got the correct data sheet _(and even if you do…)_ you might find the resistors need a bit of tweaking. I used Ohm’s Law to calculate the ideal resistors for my LED _(as close as I could),_ and they worked okay. I let the above script run for about a half-hour, and neither the LED nor the resistors started heating up.
 
 But I noticed something. When all 3 colors were on, the “white” light that should have produced had a distinctly blue hue to it, like one color was slightly overpowering the others. I played around with a few different resistors, trying to increase the resistance slightly, and ended up putting a 220Ω resistor on blue and green, while leaving the 100Ω resistor on red. Now the color looks white.
 

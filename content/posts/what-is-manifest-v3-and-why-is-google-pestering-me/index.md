@@ -29,7 +29,7 @@ Apparently though that notice wasn't enough to make developers care, because the
 
 ![](https://grantwinney.com/content/images/2022/06/image-3.png)
 
-What they're badgering extension authors about though is __much__ more than just a change in format for a single file. Google is spearheading major changes to how extensions are written and interact with the browser, in the name of privacy and security, and those changes are coming soon. As of writing this post, no one can publish new extensions using version 2 (MV2) anymore. In 6 months, everyone has to update if they want to continue hosting their extension in the Chrome web store and having it work in Chromium-based browsers.
+What they're badgering extension authors about though is _much_ more than just a change in format for a single file. Google is spearheading major changes to how extensions are written and interact with the browser, in the name of privacy and security, and those changes are coming soon. As of writing this post, no one can publish new extensions using version 2 (MV2) anymore. In 6 months, everyone has to update if they want to continue hosting their extension in the Chrome web store and having it work in Chromium-based browsers.
 
 ![](https://grantwinney.com/content/images/2022/06/image-4.png)
 
@@ -37,7 +37,7 @@ Source: [Manifest V2 support timeline](https://developer.chrome.com/docs/extensi
 
 ## What does MV3 bring to the table?
 
-The very first thing [Google](https://blog.chromium.org/2020/12/manifest-v3-now-available-on-m88-beta.html) mentions is disallowing remotely hosted code. That's not a bad thing. In fact, it's incredibly and obviously good. Imagine the havoc I could wreak if I wrote an extension with one file in it that simply downloads and executes a dozen other files. The web store sees nothing suspicious, because there's barely anything __to__ see. Then you install my extension, and it's anyone's guess what all those external files are actually doing, and they could be changing daily and downloading and executing yet more files.
+The very first thing [Google](https://blog.chromium.org/2020/12/manifest-v3-now-available-on-m88-beta.html) mentions is disallowing remotely hosted code. That's not a bad thing. In fact, it's incredibly and obviously good. Imagine the havoc I could wreak if I wrote an extension with one file in it that simply downloads and executes a dozen other files. The web store sees nothing suspicious, because there's barely anything _to_ see. Then you install my extension, and it's anyone's guess what all those external files are actually doing, and they could be changing daily and downloading and executing yet more files.
 
 My gut instinct is that, like a politician trying to peddle a piece of legislation by touting the one good thing in it everyone can agree on, they're leading with this and then slipping in a handful of smaller and more contentious stuff. Let's check it out.
 
@@ -72,19 +72,19 @@ A new set of APIs that allow an extension to affect the page without being hande
 
 > The `declarativeNetRequest` API is an example of how Chrome is working to enable extensions, including ad blockers, to continue delivering their core functionality without requiring the extension to have access to potentially sensitive user data. This will allow many of the powerful extensions in our ecosystem to continue to provide a seamless user experience while still respecting user privacy.
 
-The above didn't mean much to me, other than making me smile (or is it a smirk?) at the idea that an ad company, whose [SEC filing](https://abc.xyz/investor/static/pdf/20210203_alphabet_10K.pdf?cache=b44182d) includes a section called "how we make money" that's __all__ about advertising, would claim to be working to enable ad blocker extensions. Maybe I'm just cynical, but that seems like a huge conflict of interest.
+The above didn't mean much to me, other than making me smile (or is it a smirk?) at the idea that an ad company, whose [SEC filing](https://abc.xyz/investor/static/pdf/20210203_alphabet_10K.pdf?cache=b44182d) includes a section called "how we make money" that's _all_ about advertising, would claim to be working to enable ad blocker extensions. Maybe I'm just cynical, but that seems like a huge conflict of interest.
 
 ![](https://grantwinney.com/content/images/2022/06/image-5.png)
 
-Their blog post titled [__Web Request and Declarative Net Request: Explaining the impact on Extensions in Manifest V3__](https://blog.chromium.org/2019/06/web-request-and-declarative-net-request.html) has a couple useful diagrams __(shown below)__ that make the changes clearer. In MV2, the browser hands over the whole page to an extension to modify as needed, but in V3 the browser will allow an extension to define what it wants to do under certain circumstances by setting up rules, and then apply those rules. No more handing over the whole page.
+Their blog post titled [_Web Request and Declarative Net Request: Explaining the impact on Extensions in Manifest V3_](https://blog.chromium.org/2019/06/web-request-and-declarative-net-request.html) has a couple useful diagrams _(shown below)_ that make the changes clearer. In MV2, the browser hands over the whole page to an extension to modify as needed, but in V3 the browser will allow an extension to define what it wants to do under certain circumstances by setting up rules, and then apply those rules. No more handing over the whole page.
 
 ![](https://grantwinney.com/content/images/2022/06/image-6.png)
 
 ![](https://grantwinney.com/content/images/2022/06/image-7.png)
 
-Source: [__Web Request and Declarative Net Request: Explaining the impact on Extensions in Manifest V3__](https://blog.chromium.org/2019/06/web-request-and-declarative-net-request.html)
+Source: [_Web Request and Declarative Net Request: Explaining the impact on Extensions in Manifest V3_](https://blog.chromium.org/2019/06/web-request-and-declarative-net-request.html)
 
-That seems pretty smart at first glance, like a decoupling of concerns, but it leaves me wondering just what kind of rules can I create? How flexible are they? Is it possible to block content (ads, trackers, etc) being loaded by known third party sites? Do they each have to be listed in a separate internal "rule", changes requiring new uploads to the store, as opposed to [external block lists](https://help.getadblock.com/support/solutions/articles/6000066909-introduction-to-filter-lists/) that can be modified frequently by anyone who wishes to contribute? Per some other [docs](https://developer.chrome.com/docs/extensions/reference/declarativeNetRequest/), it __seems__ like there'll be a way in the [updateDynamicRules](https://developer.chrome.com/docs/extensions/reference/declarativeNetRequest/#method-updateDynamicRules) method... maybe.
+That seems pretty smart at first glance, like a decoupling of concerns, but it leaves me wondering just what kind of rules can I create? How flexible are they? Is it possible to block content (ads, trackers, etc) being loaded by known third party sites? Do they each have to be listed in a separate internal "rule", changes requiring new uploads to the store, as opposed to [external block lists](https://help.getadblock.com/support/solutions/articles/6000066909-introduction-to-filter-lists/) that can be modified frequently by anyone who wishes to contribute? Per some other [docs](https://developer.chrome.com/docs/extensions/reference/declarativeNetRequest/), it _seems_ like there'll be a way in the [updateDynamicRules](https://developer.chrome.com/docs/extensions/reference/declarativeNetRequest/#method-updateDynamicRules) method... maybe.
 
 In the case of [Hide Comments Everywhere](https://chrome.google.com/webstore/detail/hide-comments-everywhere/bmhkdngdngchlneelllmdennfpmepbnc), I need to block any elements of a page that show comments. These might be hosted by a third party like Disqus, but more frequently they're just embedded in the page and selectable by using a [CSS selector](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors). Will that still work? Maybe, maybe not.
 
@@ -98,7 +98,7 @@ Ghostery is a popular ad and tracker blocker, and clearly going through hell wit
 
 > With enforcement of Manifest V3, Google dramatically limits capabilities of browser extensions. It removes access to powerful APIs that allowed us to provide innovation in privacy protection. Being subjected to those constraints, we have to re-invent the way our extensions operate. Intended or not, Manifest V3 takes choice away from users, exposing them to new threats. Manifest V3 is ultimately user hostile.
 
-That's the tl;dr version, but the rest of their post is a fascinating read and I'd suggest checking it out. The section __"no incremental updates"__ makes me think maybe my addon is screwed in its current state, although they mention dynamicRules as a possible workaround too (for their case though, it's far too limited).
+That's the tl;dr version, but the rest of their post is a fascinating read and I'd suggest checking it out. The section _"no incremental updates"_ makes me think maybe my addon is screwed in its current state, although they mention dynamicRules as a possible workaround too (for their case though, it's far too limited).
 
 > At Ghostery, we publish updates to our ad blocking list daily. Yet Manifest V3, which was designed to reduce extension review times, would force us to release a new extension version each time we update the block list. Some updates are allowed in a form of `dynamicRules`, but the number of entries is limited to 5,000 and it has to be shared with user controls, which makes it unusable.  
 >   
@@ -110,7 +110,7 @@ They close with:
 >   
 > Manifest V3 is a detrimental step back for internet privacy. Instead of reinventing the wheel, we would prefer to focus on finding new ways to prevent tracking. This is after all what browser extensions are and should be, a playing field for innovation and the express lane for browser enhancement.
 
-__Source:__ [__Manifest V3: The Ghostery perspective__](https://www.ghostery.com/blog/manifest-v3-the-ghostery-perspective)
+_Source:_ [_Manifest V3: The Ghostery perspective_](https://www.ghostery.com/blog/manifest-v3-the-ghostery-perspective)
 
 ### EFF: It's "outright harmful to privacy efforts"
 
@@ -118,7 +118,7 @@ The Electronic Frontier Foundation, author of privacy extensions like Privacy Ba
 
 > It will restrict the capabilities of web extensions—especially those that are designed to monitor, modify, and compute alongside the conversation your browser has with the websites you visit. Under the new specifications, extensions like these– like some privacy-protective tracker blockers– will have greatly reduced capabilities. Google’s efforts to limit that access is concerning, especially considering that [Google has trackers installed on 75% of the top one million websites](https://spreadprivacy.com/biggest-tracker-networks/).
 
-__Source:__ [__Chrome Users Beware: Manifest V3 is Deceitful and Threatening__](https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening)
+_Source:_ [_Chrome Users Beware: Manifest V3 is Deceitful and Threatening_](https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening)
 
 ### uBlock Origin: It's "no more than the implementation of one specific filtering engine, and a rather limited one"
 
@@ -136,11 +136,11 @@ So if you're looking for alternatives, what options are there?
 
 If you're looking to totally avoid MV3, then any [Chromium-based web browser](https://en.wikipedia.org/wiki/Chromium_\(web_browser\)#Active) is out. That includes Brave, [Edge](https://learn.microsoft.com/en-us/microsoft-edge/extensions-chromium/developer-guide/manifest-v3), Opera, and at least a couple dozen others. That's not realistic if your business model depends on it, but then at least you're getting paid to figure this stuff out for your customers. As for the rest of us, it's a pretty lousy situation.
 
-[Mozilla is supporting MV3 in Firefox](https://blog.mozilla.org/addons/2022/05/18/manifest-v3-in-firefox-recap-next-steps/), in acknowledgement that Chromium-based browsers are a huge share of the market and no developer wants to maintain two versions of their extension. They're not tossing out MV2, using a more reasonable approach than Google is capable of. __(Read more about their approach in their__ [__Manifest V3 migration guide__](https://extensionworkshop.com/documentation/develop/manifest-v3-migration-guide/)__.)__
+[Mozilla is supporting MV3 in Firefox](https://blog.mozilla.org/addons/2022/05/18/manifest-v3-in-firefox-recap-next-steps/), in acknowledgement that Chromium-based browsers are a huge share of the market and no developer wants to maintain two versions of their extension. They're not tossing out MV2, using a more reasonable approach than Google is capable of. _(Read more about their approach in their_ [_Manifest V3 migration guide_](https://extensionworkshop.com/documentation/develop/manifest-v3-migration-guide/)_.)_
 
 > Mozilla will maintain support for blocking WebRequest in MV3. To maximize compatibility with other browsers, we will also ship support for declarativeNetRequest. We will continue to work with content blockers and other key consumers of this API to identify current and future alternatives where appropriate. Content blocking is one of the most important use cases for extensions, and we are committed to ensuring that Firefox users have access to the best privacy tools available.
 
-It seems like that should pay off for them. Anyone willing to learn MV3 will be able to cross-upload to the Firefox store. Anyone unwilling can continue with MV2, still upload to the Firefox store, and encourage friends and family to use Firefox. I like that Mozilla admits what Google will not - that rewriting extensions is going to __suck__ and everyone knows it.
+It seems like that should pay off for them. Anyone willing to learn MV3 will be able to cross-upload to the Firefox store. Anyone unwilling can continue with MV2, still upload to the Firefox store, and encourage friends and family to use Firefox. I like that Mozilla admits what Google will not - that rewriting extensions is going to _suck_ and everyone knows it.
 
 > We’ve found Service Workers can’t fully support [various use cases](https://github.com/w3c/webextensions/issues/72) we consider important, especially around DOM-related features and APIs. Additionally, the worker environment is not as familiar to regular web developers, and our developer community has expressed that completely rewriting extensions can be tedious for thousands of independent developers of [existing extensions](https://addons.mozilla.org/en-US/firefox/extensions/).
 
@@ -162,6 +162,6 @@ If you do decide to go for it, here's some solid places to start:
 - [Chromium Extensions - Google Groups](https://groups.google.com/a/chromium.org/g/chromium-extensions?pli=1) (forums to share stories and tears)
 - [Thoughts on Manifest v3 | IT & Stuff](https://brawl.vivaldi.net/2021/12/15/thoughts-about-manifest-v3/) (someone who went through the conversion and made it work, but it sounds painful)
 
-As for me, I haven't decided what I'll do yet. I'll keep my humble little extensions on Firefox and see how things shake out. Most of us have a lot on our plates, jobs to perform and families to support. For me, getting familiar with a host of new concepts to appease Google isn't on my priority list __at all,__ and I'd wager a lot of smaller yet useful extensions will simply cease to work come 2023.
+As for me, I haven't decided what I'll do yet. I'll keep my humble little extensions on Firefox and see how things shake out. Most of us have a lot on our plates, jobs to perform and families to support. For me, getting familiar with a host of new concepts to appease Google isn't on my priority list _at all,_ and I'd wager a lot of smaller yet useful extensions will simply cease to work come 2023.
 
-****Edit (Nov 2022):**** [I decided to give it a go](https://grantwinney.com/my-experience-migrating-to-mv3/). It was truly life-changing.
+**Edit (Nov 2022):** [I decided to give it a go](https://grantwinney.com/my-experience-migrating-to-mv3/). It was truly life-changing.

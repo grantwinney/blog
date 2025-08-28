@@ -19,14 +19,14 @@ title: What's the GitHub Package Registry?
 ---
 A few prerequisites before we dig in...
 
-- If you're new to all this, check out __"__[__What's a package manager?__](https://grantwinney.com/whats-a-package-manager/)__"__
-- If you want to upload a package, install the [NuGet command line tools](https://www.nuget.org/downloads). __(nuget.exe isn't a setup file - just save it somewhere and__ [__add it to your path__](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/)__)__
-- If you want to reference your package, install [Visual Studio](https://visualstudio.microsoft.com/downloads/). __(it's free)__
+- If you're new to all this, check out _"_[_What's a package manager?_](https://grantwinney.com/whats-a-package-manager/)_"_
+- If you want to upload a package, install the [NuGet command line tools](https://www.nuget.org/downloads). _(nuget.exe isn't a setup file - just save it somewhere and_ [_add it to your path_](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/)_)_
+- If you want to reference your package, install [Visual Studio](https://visualstudio.microsoft.com/downloads/). _(it's free)_
 - When you're done here, consider [securing your GitHub account](https://grantwinney.com/keeping-your-github-code-secure/) too.
 
-Most of us host something __(and some of us everything)__ on GitHub, especially since they host private repos for free too now. I've been eager to try the [GitHub Package Registry](https://help.github.com/en/articles/about-github-package-registry) since they announced it last May - I just got access to the beta.
+Most of us host something _(and some of us everything)_ on GitHub, especially since they host private repos for free too now. I've been eager to try the [GitHub Package Registry](https://help.github.com/en/articles/about-github-package-registry) since they announced it last May - I just got access to the beta.
 
-In their own words, GPR __"allows you to host your packages and code in one place. You can host software packages privately or publicly and use them as dependencies in your projects."__ That doesn't really answer any of my questions though, such as:
+In their own words, GPR _"allows you to host your packages and code in one place. You can host software packages privately or publicly and use them as dependencies in your projects."_ That doesn't really answer any of my questions though, such as:
 
 - Will it streamline the current process of uploading packages to NuGet?
 - Is it meant as a backup to the many package registries already available?
@@ -44,11 +44,11 @@ Everything that follows pretty much came out of these docs, so I'd recommend che
 - [Configuring NuGet for use with GitHub Package Registry](https://help.github.com/en/articles/configuring-nuget-for-use-with-github-package-registry)
 - [GitHub Package Registry: Your packages, at home with their code](https://github.com/features/package-registry)
 
-The first step, no matter which language you're using to connect to the GPR, is to [create a personal access token](https://help.github.com/en/articles/configuring-nuget-for-use-with-github-package-registry#authenticating-to-github-package-registry). Think of it this way - you want a third party to be able to access your data on GitHub. You __could__ just give them your username and password and trust that they'll only access what they need. Don't do that. Ever! 🤬
+The first step, no matter which language you're using to connect to the GPR, is to [create a personal access token](https://help.github.com/en/articles/configuring-nuget-for-use-with-github-package-registry#authenticating-to-github-package-registry). Think of it this way - you want a third party to be able to access your data on GitHub. You _could_ just give them your username and password and trust that they'll only access what they need. Don't do that. Ever! 🤬
 
-Instead, create a token that grants __exactly__ what the third party says it needs access to, and nothing more. Then it's GitHub's job to make sure it actually happens. Even though the app were granting access to is __also__ a GitHub service, they want us to treat GPR just like anything else. It's not a bad idea actually.
+Instead, create a token that grants _exactly_ what the third party says it needs access to, and nothing more. Then it's GitHub's job to make sure it actually happens. Even though the app were granting access to is _also_ a GitHub service, they want us to treat GPR just like anything else. It's not a bad idea actually.
 
-So, [create a new token](https://github.com/settings/tokens/new) and select the `read:packages` and `write:packages` scopes. ****Leave the**** **`**repo**`** ****scope selected!**** Technically, if you're repo is public you shouldn't need it... but if you're going to try using the package in VS you'll need it. I'll elaborate later. Oh, and ****copy the token it generates**** after you hit "Generate Token" or you'll be doing it over again in the next step. 😅
+So, [create a new token](https://github.com/settings/tokens/new) and select the `read:packages` and `write:packages` scopes. **Leave the** *`*repo*`* **scope selected!** Technically, if you're repo is public you shouldn't need it... but if you're going to try using the package in VS you'll need it. I'll elaborate later. Oh, and **copy the token it generates** after you hit "Generate Token" or you'll be doing it over again in the next step. 😅
 
 ![](https://grantwinney.com/content/images/2019/10/new-token.png)
 
@@ -80,7 +80,7 @@ If all goes well, you'll get a confirmation message:
 
 > Package source with Name: GPR added successfully.
 
-Then push the package via the command line. At this point, you should open your project and run ****Build**** / ****Pack****, or open my project, open the project properties and in the "Package" tab change the package version to "1.0.1", and then build it.
+Then push the package via the command line. At this point, you should open your project and run **Build** / **Pack**, or open my project, open the project properties and in the "Package" tab change the package version to "1.0.1", and then build it.
 
 Change to the directory where the package was published, probably under `bin/debug`, or provide the full path.
 
@@ -120,11 +120,11 @@ That's it! Here's [what it looks like on GitHub](https://github.com/grantwinney/
 
 ## Reference your package in VS
 
-This, unfortunately, was a crappier experience than I'd hoped for. I'm not sure if it's a problem with the GitHub Package Registry or something else, but referencing the new package from GitHub didn't work right away. Let me back up a few steps - here's how things __should__ work.
+This, unfortunately, was a crappier experience than I'd hoped for. I'm not sure if it's a problem with the GitHub Package Registry or something else, but referencing the new package from GitHub didn't work right away. Let me back up a few steps - here's how things _should_ work.
 
 Create a new project, which you'll use to consume the package you just pushed to the GPR. Or if you're using the project I created, there's a couple in there already - one targets .NET Core 2.2 and the other targets .NET Framework 4.7.
 
-Right-click your project's dependencies and choose __"Manage NuGet Packages...",__ then switch the "Package source" to GPR. You should see anything you've uploaded for any of your personal projects. I ran into problems with this at first, but I'll explain all that later.
+Right-click your project's dependencies and choose _"Manage NuGet Packages...",_ then switch the "Package source" to GPR. You should see anything you've uploaded for any of your personal projects. I ran into problems with this at first, but I'll explain all that later.
 
 ![](https://grantwinney.com/content/images/2019/10/gpr-nuget-source-package-repo.png)
 
@@ -132,7 +132,7 @@ I can view the 2 packages I uploaded to the GPR
 
 ### Including assembly files (modifying the nuspec)
 
-This is __all__ I've ever had to do when referencing a NuGet.org package, including my own GhostSharp package. GhostSharp is a .NET Standard project, and selecting it on this screen just __works__.
+This is _all_ I've ever had to do when referencing a NuGet.org package, including my own GhostSharp package. GhostSharp is a .NET Standard project, and selecting it on this screen just _works_.
 
 Unfortunately, referencing my "test" .NET Standard package from the GPR didn't work. I tried it with a .NET Core app and a .NET Framework app, but nada. It's a .NET Standard app, so it should work in both of these. 😕
 
@@ -175,7 +175,7 @@ The result? Everything. Works. WTF.
 
 References work? ✅ Expected output? ✅
 
-Oooookay. My GhostSharp package on NuGet.org does not have that `files` node. And when I download my "test" package and compare them, before and after adding the `files` node, there's no change at all to the package other than the .nuspec file itself. It didn't actually __include__ anything else in the package. Yet everything works. Welcome to modern development folks.
+Oooookay. My GhostSharp package on NuGet.org does not have that `files` node. And when I download my "test" package and compare them, before and after adding the `files` node, there's no change at all to the package other than the .nuspec file itself. It didn't actually _include_ anything else in the package. Yet everything works. Welcome to modern development folks.
 
 ![](https://grantwinney.com/content/images/2019/10/code_meme.jpg)
 
@@ -211,7 +211,7 @@ Note the part about the additional scope. I initially thought that modifying the
 }
 ```
 
-The solution was to leave the `repo` scope selected in the first place, which is why I told you to do it earlier. The docs said somewhere that that scope is only needed for private repos, but __apparently__ not. I added the additional scope and entered my token as the password, and this was the response:
+The solution was to leave the `repo` scope selected in the first place, which is why I told you to do it earlier. The docs said somewhere that that scope is only needed for private repos, but _apparently_ not. I added the additional scope and entered my token as the password, and this was the response:
 
 ```json
 {

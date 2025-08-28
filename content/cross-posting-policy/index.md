@@ -13,7 +13,7 @@ If you'd like to translate and cross-post something you found valuable, either e
 
 ## Link back to the original post
 
-When there's duplicate content across the web, search engines have a difficult time telling which was the original, potentially something we can both get penalized for. To avoid problems, specify the [canonical url](https://www.reliablesoft.net/what-is-a-canonical-url/) __(aka, preferred source or original url)__ of the content by placing the following in the page header:
+When there's duplicate content across the web, search engines have a difficult time telling which was the original, potentially something we can both get penalized for. To avoid problems, specify the [canonical url](https://www.reliablesoft.net/what-is-a-canonical-url/) _(aka, preferred source or original url)_ of the content by placing the following in the page header:
 
 ```html
 <link rel="canonical" href="ORIGNAL-POST-URL">
@@ -25,6 +25,6 @@ Please place a block like the following somewhere too, either at the top or bott
 
 ## Don't hotlink images
 
-If the post has images in it - __especially__ if it has a lot of images - I'd ask that you don't just hotlink back to the images hosted on my site. Like everyone, my host has placed certain limits. Please host the images on your own server or with a third-party, and link to them there.
+If the post has images in it - _especially_ if it has a lot of images - I'd ask that you don't just hotlink back to the images hosted on my site. Like everyone, my host has placed certain limits. Please host the images on your own server or with a third-party, and link to them there.
 
 Thanks!

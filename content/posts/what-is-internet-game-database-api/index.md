@@ -47,7 +47,7 @@ Get a Client ID and Client Secret so you can use the API:
 
 The same doc I mentioned above tells you how to authenticate too.
 
-- Do a `POST` to the endpoint they provide: __(Postman makes this easy)__  
+- Do a `POST` to the endpoint they provide: _(Postman makes this easy)_  
     [`https://id.twitch.tv/oauth2/token?client_id={client_id}&client_secret={client_secret}&grant_type=client_credentials`](https://id.twitch.tv/oauth2/token?client_id=43w672tdd57vyfb9hzbin46akrsfjr&client_secret=44kjbao6xl57fd7lljyd04q8r2699u&grant_type=client_credentials)
 - Note the access token you get back in the little block of JSON
 
@@ -144,6 +144,6 @@ The old endpoints don't seem to be documented anymore though, unless I missed th
 
 ## Thoughts
 
-There's plenty of documentation on [the available endpoints](https://api-docs.igdb.com/#endpoints), and I have no doubt there's a __ton__ of data available here. It's just that, after spending an hour updating this post, I have the distinct feeling that the latest version of this API aren't necessarily an improvement over the original one.
+There's plenty of documentation on [the available endpoints](https://api-docs.igdb.com/#endpoints), and I have no doubt there's a _ton_ of data available here. It's just that, after spending an hour updating this post, I have the distinct feeling that the latest version of this API aren't necessarily an improvement over the original one.
 
 If you agree with me, or you think I'm clueless and need to give it another look, let me know below. The pseudo-query thing is kind of interesting in an academic way, but it seems like it'd be aggravating to have to figure out if I really needed to use this API on a daily basis.

@@ -39,7 +39,7 @@ dotnet tool update -g Microsoft.dotnet-try
 
 ## Kicking the Tires
 
-Now go back to their [help doc](https://github.com/dotnet/try/blob/main/DotNetTryLocal.md#getting-started) and check out the whole "Getting Started" section if you want to get more familiar with it. I got a __"your connection is not private message",__ but clicking "proceed to localhost" got me to something much more interesting.
+Now go back to their [help doc](https://github.com/dotnet/try/blob/main/DotNetTryLocal.md#getting-started) and check out the whole "Getting Started" section if you want to get more familiar with it. I got a _"your connection is not private message",_ but clicking "proceed to localhost" got me to something much more interesting.
 
 ![](https://grantwinney.com/content/images/2021/05/image-7.png)
 
@@ -49,7 +49,7 @@ Play around with it a bit, change the code, progress through their examples, try
 
 To understand what's going on, find the directory where you ran the `dotnet try demo` command and check out the markdown files. Let me just say that I really like they're using markdown, and not html or (gasp) some one-off syntax.
 
-__(If you're not familiar with markdown, find a__ [__good tutorial__](https://www.howtogeek.com/448323/what-is-markdown-and-how-do-you-use-it/) __and get familiar with it. It's used on GitHub as well as a lot of forums, commenting systems, blogs, etc. But I digress...)__
+_(If you're not familiar with markdown, find a_ [_good tutorial_](https://www.howtogeek.com/448323/what-is-markdown-and-how-do-you-use-it/) _and get familiar with it. It's used on GitHub as well as a lot of forums, commenting systems, blogs, etc. But I digress...)_
 
 ![](https://grantwinney.com/content/images/2021/05/image-9.png)
 
@@ -68,7 +68,7 @@ So how's that work? As far as I can tell, displaying and running your code snipp
 
 When you refresh the page, it reads the source file, extracts whatever region you specify, and tosses that on the page, even if it's invalid. You do get some red squigglies if something's wrong though.
 
-When you __run__ the sample code, it compiles the project and actually runs it - hence the need for the switch statement in the Main method. If it fails to compile, you get syntax errors in the browser.
+When you _run_ the sample code, it compiles the project and actually runs it - hence the need for the switch statement in the Main method. If it fails to compile, you get syntax errors in the browser.
 
 ![](https://grantwinney.com/content/images/2021/05/image-17.png)
 

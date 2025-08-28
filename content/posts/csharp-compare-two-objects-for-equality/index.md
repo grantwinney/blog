@@ -70,7 +70,7 @@ Console.WriteLine(person.Equals(newPerson));   // false, different instances
 Console.WriteLine(person == newPerson);        // false, different instances
 ```
 
-Here, `samePerson` references the same instance as `person`, so they're considered equal. However, `newPerson` is a new instance and thus __not__ equal, even though the values of its properties are all the same as `person`.
+Here, `samePerson` references the same instance as `person`, so they're considered equal. However, `newPerson` is a new instance and thus _not_ equal, even though the values of its properties are all the same as `person`.
 
 There are cases when we want this default behavior, but more often than not we want to define our own equality. After all, if all the properties of two separate `Person` instances are the same, then shouldn't that be the same person?
 
@@ -87,7 +87,7 @@ public class Vehicle
 }
 ```
 
-If we create two instances of the class and then try comparing them, we end up comparing the __references__ to those two instances, just like with the `Person` class before:
+If we create two instances of the class and then try comparing them, we end up comparing the _references_ to those two instances, just like with the `Person` class before:
 
 ```csharp
 var vehicle1 = new Vehicle { Make = "Toyota", Model = "Camry", Year = 2024 };
@@ -192,12 +192,12 @@ Once we override the `Equals()` method, the compiler wants us to override the `G
 
 ![Compiler warning to override Object.GetHashCode](https://grantwinney.com/content/images/2024/06/image-2.png)
 
-Microsoft has a lot more to say about it in the [Object.GetHashCode](https://learn.microsoft.com/en-us/dotnet/api/system.object.gethashcode?view=net-8.0) docs, and I suggest checking that out, but here's a few highlights __(emphasis mine):__
+Microsoft has a lot more to say about it in the [Object.GetHashCode](https://learn.microsoft.com/en-us/dotnet/api/system.object.gethashcode?view=net-8.0) docs, and I suggest checking that out, but here's a few highlights _(emphasis mine):_
 
-- A hash function is used to quickly generate a number (hash code) that ****corresponds to the value of an object****.
-- ****If two objects compare as equal****, the [GetHashCode()](https://learn.microsoft.com/en-us/dotnet/api/system.object.gethashcode?view=net-8.0#system-object-gethashcode) method for each object ****must return the same value****.
-- Hash functions ****should be inexpensive to compute****.
-- The [GetHashCode()](https://learn.microsoft.com/en-us/dotnet/api/system.object.gethashcode?view=net-8.0#system-object-gethashcode) method ****should not throw exceptions****.
+- A hash function is used to quickly generate a number (hash code) that **corresponds to the value of an object**.
+- **If two objects compare as equal**, the [GetHashCode()](https://learn.microsoft.com/en-us/dotnet/api/system.object.gethashcode?view=net-8.0#system-object-gethashcode) method for each object **must return the same value**.
+- Hash functions **should be inexpensive to compute**.
+- The [GetHashCode()](https://learn.microsoft.com/en-us/dotnet/api/system.object.gethashcode?view=net-8.0#system-object-gethashcode) method **should not throw exceptions**.
 
 [Eric Lippert wrote about it too](https://ericlippert.com/2011/02/28/guidelines-and-rules-for-gethashcode/). He worked on the C# language, compiler, tooling, and more at Microsoft, so he's quite an authoritative source. In a nutshell though, it's enough to know that once we override the other methods, we should override this one too.
 

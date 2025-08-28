@@ -91,7 +91,7 @@ The strength of the property accessor, in my mind, is that it abstracts away som
 
 Abstracting away details when possible, in any language, is usually a good thing.
 
-But in Erlang, everything is immutable. You can't change a field after it's been set - you can only return a whole new record. If someone didn't know that fact applied to records, I could understand why. Erlang happens to make it __appear__ that updating a field is possible.
+But in Erlang, everything is immutable. You can't change a field after it's been set - you can only return a whole new record. If someone didn't know that fact applied to records, I could understand why. Erlang happens to make it _appear_ that updating a field is possible.
 
 Let's say we have a function in an Erlang module that returns a `class` for us. We call the function to get a `class` record, "modify" a field (but not really), and lastly inspect the original reference again. I put modify in quotes because you're really just creating a new instance, and the original is still referenced by `ClassOne`.
 
@@ -119,11 +119,11 @@ ClassOne.
 %                    #person{name = "suzy", grade = "B"}]}
 ```
 
-The Erlang syntax makes it __look__ as if you can update a single field in an existing record - something that would work as expected in C#, Ruby, or other languages - but it's actually creating a new record.
+The Erlang syntax makes it _look_ as if you can update a single field in an existing record - something that would work as expected in C#, Ruby, or other languages - but it's actually creating a new record.
 
 The nice thing about property accessors in other languages is that they appear to update automatically, returning a new value as a result of other fields being modified. But since fields in an Erlang record don't get updated, maybe there isn't a point.
 
-Still... abstraction is a useful thing, so what __can__ we do?
+Still... abstraction is a useful thing, so what _can_ we do?
 
 ## Can we cobble something together?
 
@@ -157,7 +157,7 @@ ClassOne = sample:get_class().
 % returns 2
 ```
 
-## What's the __right__ thing to do?
+## What's the _right_ thing to do?
 
 The only reasonable thing you can really do is create some "helper" functions that accept the class you're interested in, and return the information you're looking for.
 
@@ -258,7 +258,7 @@ sample:create_classroom("science", "ms frizzle", [#person{name="dorothy",grade="
 
 ## What can we learn from this exercise?
 
-At the end of the day, property accessors are kind of pointless in Erlang because the fields they would provide access to cannot be modified __ever__. Not to mention, there's no concept of a "getter" without a "setter". In other words, someone could create a new instance of the record and overwrite the default value (the function) I assigned it in the record. Perhaps something would've been possible if records weren't a tacked-on afterthought and simply tuples in disguise. 🤔
+At the end of the day, property accessors are kind of pointless in Erlang because the fields they would provide access to cannot be modified _ever_. Not to mention, there's no concept of a "getter" without a "setter". In other words, someone could create a new instance of the record and overwrite the default value (the function) I assigned it in the record. Perhaps something would've been possible if records weren't a tacked-on afterthought and simply tuples in disguise. 🤔
 
 If what you really want is a way to populate a field during creation of a record, create a helper function like the last example in the previous section. Let the function manipulate the data and populate the fields with the values you'd like.
 

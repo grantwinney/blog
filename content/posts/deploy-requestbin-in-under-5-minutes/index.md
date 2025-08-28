@@ -15,11 +15,11 @@ tags:
 - Tools of the Trade
 title: Deploy your own RequestBin in under 5 minutes
 ---
-If you've ever needed to consume a webhook from another service, say from [Stripe](https://stripe.com/docs/webhooks) or [GitHub](https://developer.github.com/webhooks/), but you weren't completely sure what the payload was going to look like __(say, the docs are incomplete or missing),__ a tool like RequestBin can help. By setting it as the "target" for the webhook, it intercepts whatever happens to be thrown its way, and displays it.
+If you've ever needed to consume a webhook from another service, say from [Stripe](https://stripe.com/docs/webhooks) or [GitHub](https://developer.github.com/webhooks/), but you weren't completely sure what the payload was going to look like _(say, the docs are incomplete or missing),_ a tool like RequestBin can help. By setting it as the "target" for the webhook, it intercepts whatever happens to be thrown its way, and displays it.
 
-Same goes if you're developing a REST API and want to make sure that your `POST` and `PUT` actions are sending what you expect. You could develop a separate app that consumes your API the way your customers will and displays the results, but why bother with the overhead? __(At least, initially...)__
+Same goes if you're developing a REST API and want to make sure that your `POST` and `PUT` actions are sending what you expect. You could develop a separate app that consumes your API the way your customers will and displays the results, but why bother with the overhead? _(At least, initially...)_
 
-The same team that designed RequestBin __(which seems to be abandoned, but more on that below)__ used to host a public instance of it for anyone to use too, but [such services don't seem to last](https://grantwinney.com/services-to-help-you-determine-what-a-rest-endpoint-is-posting/), and [theirs didn't either](https://github.com/Runscope/requestbin/commit/8ca17a8ed7f603864329391f4be131c4b3355aaf#commitcomment-28200726) once the VC money dried up. It's __got__ to be expensive hosting something like that for thousands __(tens of thousands? hundreds?)__ of users for free. 💸
+The same team that designed RequestBin _(which seems to be abandoned, but more on that below)_ used to host a public instance of it for anyone to use too, but [such services don't seem to last](https://grantwinney.com/services-to-help-you-determine-what-a-rest-endpoint-is-posting/), and [theirs didn't either](https://github.com/Runscope/requestbin/commit/8ca17a8ed7f603864329391f4be131c4b3355aaf#commitcomment-28200726) once the VC money dried up. It's _got_ to be expensive hosting something like that for thousands _(tens of thousands? hundreds?)_ of users for free. 💸
 
 ## Deploy with DigitalOcean in <5 minutes
 
@@ -90,7 +90,7 @@ While you're at it, you could make it so you don't have to enter a port either, 
 
 ![](https://grantwinney.com/content/images/2020/01/2020-01-03-16_03_30-RequestBin---Collect--inspect-and-debug-HTTP-requests-and-webhooks---Brave.png)
 
-Some of the values are also hard-coded into the HTML page, so even after doing all the above, the __page__ will probably still tell you you're limited to 20 requests. It lies. If you run the `CURL` command 30 times now, you'll see 30 requests on the page.
+Some of the values are also hard-coded into the HTML page, so even after doing all the above, the _page_ will probably still tell you you're limited to 20 requests. It lies. If you run the `CURL` command 30 times now, you'll see 30 requests on the page.
 
 ## Other Considerations
 
@@ -98,7 +98,7 @@ So, hopefully you haven't been passing anything too sensitive to your RequestBin
 
 [I forked the original project](https://github.com/grantwinney/requestbin) which, as I mentioned, seems to be abandoned. They shutdown the public RequestBin site (understandably), but also haven't merged in PRs or addressed issues for nearly two years.
 
-__Small side note:__ If you go into "Insights", "Dependency Graph", and click "Enable", GitHub warns you of security vulnerabilities __(even on a fork)__... and then opens PRs on your behalf, which you can merge in or close at your discretion! 👍
+_Small side note:_ If you go into "Insights", "Dependency Graph", and click "Enable", GitHub warns you of security vulnerabilities _(even on a fork)_... and then opens PRs on your behalf, which you can merge in or close at your discretion! 👍
 
 ![](https://grantwinney.com/content/images/2020/01/2020-01-03-17_45_20-grantwinney_requestbin_-Inspect-HTTP-requests.-Debug-webhooks.-Originally-create.png)
 

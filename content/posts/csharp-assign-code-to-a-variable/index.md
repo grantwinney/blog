@@ -23,13 +23,13 @@ bool isMale = true;
 Employee e = new Employee(name, height, isMale);
 ```
 
-But did you know most languages have a way to pass around references to __code__ too, so you can pass the code around and call (invoke) it in other parts of your application?
+But did you know most languages have a way to pass around references to _code_ too, so you can pass the code around and call (invoke) it in other parts of your application?
 
 In C#, the type that lets you reference a method is called a [delegate](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/), and there are several different constructs that allow you to define a delegate... depending on what exactly you'd like to do.
 
 ## Action
 
-The [Action delegate](https://docs.microsoft.com/en-us/dotnet/api/system.action) lets you reference a method that does _****not****_ return a value.
+The [Action delegate](https://docs.microsoft.com/en-us/dotnet/api/system.action) lets you reference a method that does _**not**_ return a value.
 
 ### Single Line
 
@@ -74,7 +74,7 @@ personalizedHi("Katie", "Smith");  // Hello, Katie Smith!
 
 ## Func
 
-The [Func delegate](https://docs.microsoft.com/en-us/dotnet/api/system.func-1) is very similar to Action, except that it lets you reference a method that _****does****_ return a value.
+The [Func delegate](https://docs.microsoft.com/en-us/dotnet/api/system.func-1) is very similar to Action, except that it lets you reference a method that _**does**_ return a value.
 
 ### Single Line
 

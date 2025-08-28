@@ -122,7 +122,7 @@ If you want to learn more:
 
 Any testing framework you use - [NUnit](https://nunit.org/), [xUnit](https://github.com/xunit/xunit), [MSTest](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest) - will make use of attributes. (If you're not sure what unit testing is, [this might help](https://grantwinney.com/an-intro-to-code-katas-tdd-and-red-green-refactor/).)
 
-Here's a ridiculous `Employee` class, thoroughly vetted by some NUnit tests. You can decorate any method you want with `SetUp` and `TearDown` attributes, which act like a constructor and destructor run before and after __every__ test. Tests have a `Test` attribute, and you can even reuse the same test for multiple values with the `TestCase` attribute. NUnit makes use of all these attributes to know what, when, and how to run things.
+Here's a ridiculous `Employee` class, thoroughly vetted by some NUnit tests. You can decorate any method you want with `SetUp` and `TearDown` attributes, which act like a constructor and destructor run before and after _every_ test. Tests have a `Test` attribute, and you can even reuse the same test for multiple values with the `TestCase` attribute. NUnit makes use of all these attributes to know what, when, and how to run things.
 
 ```csharp
 using NUnit.Framework;
@@ -234,7 +234,7 @@ When you mark something as obsolete, any attempts to use it are underlined in gr
 
 ## Bit Field Enums
 
-If you've ever needed to store a bunch of related flags, you __could__ do something like this. It's tedious - and unnecessary.
+If you've ever needed to store a bunch of related flags, you _could_ do something like this. It's tedious - and unnecessary.
 
 ```csharp
 public class PreferredContactMethods
@@ -304,9 +304,9 @@ namespace AttributesExamples
 
 Okay, I tricked you. Number 5 is whatever you come up with!
 
-For me, in creating a library called [GhostSharp](https://github.com/grantwinney/GhostSharp) __(a C# wrapper around an API that connects to Ghost blogs),__ I had a single class representing an object that could be POSTed to an API endpoint. The problem was that a PUT (update) to the same endpoint could only be a subset of those fields... trying to pass the same object failed. I could've created two objects - one for POST and one for PUT - but I really wanted to use a single object. The solution?
+For me, in creating a library called [GhostSharp](https://github.com/grantwinney/GhostSharp) _(a C# wrapper around an API that connects to Ghost blogs),_ I had a single class representing an object that could be POSTed to an API endpoint. The problem was that a PUT (update) to the same endpoint could only be a subset of those fields... trying to pass the same object failed. I could've created two objects - one for POST and one for PUT - but I really wanted to use a single object. The solution?
 
-I created a simple attribute to dress up those fields that were acceptable for an update. I mean, __really__ simple. There's nothing else but a name, but that's all I needed.
+I created a simple attribute to dress up those fields that were acceptable for an update. I mean, _really_ simple. There's nothing else but a name, but that's all I needed.
 
 ```csharp
 /// <summary>

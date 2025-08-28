@@ -77,7 +77,7 @@ print "On %s at %s, the lat/long of the ISS was: %s %s" % (date, time, latitude,
 
 ## When is the ISS overhead?
 
-****This endpoint no longer exists, it seems.****
+**This endpoint no longer exists, it seems.**
 
 The other day, I used the [Google Maps API](https://grantwinney.com/day-6-google-maps-api/) to get the location of the Terminal Tower in Cleveland - the lat/long is 41.4984174, -81.6937287 respectively. We can use another endpoint to [calculate when the ISS will fly over](http://open-notify.org/Open-Notify-API/ISS-Pass-Times/) the Terminal Tower (or any other location of your choice).
 
@@ -146,7 +146,7 @@ print "The next ISS pass for %s %s is %s for %s seconds" % (latitude, longitude,
 
 ## Who's in Space?
 
-He also threw in an endpoint for getting the names of astronauts currently in space, but his docs say he has to manually update it, so it __may__ not always up-to-date... although [it currently is (expedition 54)](https://www.nasa.gov/mission_pages/station/expeditions/expedition54/index.html).
+He also threw in an endpoint for getting the names of astronauts currently in space, but his docs say he has to manually update it, so it _may_ not always up-to-date... although [it currently is (expedition 54)](https://www.nasa.gov/mission_pages/station/expeditions/expedition54/index.html).
 
 ```
 GET http://api.open-notify.org/astros.json

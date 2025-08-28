@@ -93,7 +93,7 @@ private void btnSave_Click(object sender, EventArgs e)
 }
 ```
 
-Then not only will you get a compiler error that __forces__ you to update those messages if the method name changes, but doing a "rename" through Visual Studio will highlight all those instances in the log messages and rename them at the same time.
+Then not only will you get a compiler error that _forces_ you to update those messages if the method name changes, but doing a "rename" through Visual Studio will highlight all those instances in the log messages and rename them at the same time.
 
 ![](https://grantwinney.com/content/images/2021/12/image-12.png)
 

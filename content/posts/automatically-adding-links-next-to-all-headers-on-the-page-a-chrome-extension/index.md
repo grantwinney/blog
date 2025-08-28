@@ -25,7 +25,7 @@ It doesn't have to be that hard.
 
 This weekend I wrote an extension for the Chrome browser to make this easier. When you open a webpage, it scans the DOM for headers, and generates a link for each header that has an ID. When you hover over the header, you can see the link and click on it to copy it to your clipboard.
 
-[****Get it from the Chrome webstore****](https://chrome.google.com/webstore/detail/generate-links-for-header/dckfkngmahjdokkkmconmfjdmicjcmgf)****.****
+[**Get it from the Chrome webstore**](https://chrome.google.com/webstore/detail/generate-links-for-header/dckfkngmahjdokkkmconmfjdmicjcmgf)**.**
 
 ### See it in action
 
@@ -57,7 +57,7 @@ I also made use of [css transitions](https://developer.mozilla.org/en-US/docs/We
 
 I had considered [building the link in javascript](https://stackoverflow.com/a/4772817/301857), which worked, but ultimately I didn't need that level of flexibility so I opted to just hardcode it instead.
 
-As for constructing the URL itself, I found the [location](http://www.javascriptkit.com/jsref/location.shtml) object to be immensely useful. I wasn't sure whether an anchor should come __before__ a querystring or after, so [this was useful](https://stackoverflow.com/a/34772568/301857) - fwiw, the querystring comes __before__ the anchor.
+As for constructing the URL itself, I found the [location](http://www.javascriptkit.com/jsref/location.shtml) object to be immensely useful. I wasn't sure whether an anchor should come _before_ a querystring or after, so [this was useful](https://stackoverflow.com/a/34772568/301857) - fwiw, the querystring comes _before_ the anchor.
 
 ### Copying the link to the clipboard
 

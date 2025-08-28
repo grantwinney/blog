@@ -21,7 +21,7 @@ tags:
 - NLog
 title: How to log errors in WinForms using NLog
 ---
-What's more annoying than a bug in your code? Not knowing __why__ there's a bug in your code! I've worked in code bases before that have little to no logging, and it's awful. When an exception is thrown, .NET tells us what and where, including the long chain of method calls (stack trace) all the way back to the origin. To not make a note of that somewhere is a shame.. and a waste of everyone's time! Some people love debugging. I'm not one of them.
+What's more annoying than a bug in your code? Not knowing _why_ there's a bug in your code! I've worked in code bases before that have little to no logging, and it's awful. When an exception is thrown, .NET tells us what and where, including the long chain of method calls (stack trace) all the way back to the origin. To not make a note of that somewhere is a shame.. and a waste of everyone's time! Some people love debugging. I'm not one of them.
 
 Even when your code is running perfectly, sometimes it's handy to be able to log informational messages, especially during testing. Or maybe there's no exception but something still seems "off". How convenient it is to write logs, and see what unexpected paths the system is going down!
 
@@ -33,7 +33,7 @@ Configure a tool like [NLog](https://nlog-project.org/), use it in whatever code
 
 There's different kinds of tools to do this, and you could even roll your own if you're a glutton for punishment, but [NLog](https://nlog-project.org/) is a tried and true library, so we'll just use that.
 
-Open your solution, go to "Manage NuGet Packages", and search for NLog. You should see a few items. You __could__ just install the first one, but I'd recommend the fourth instead (NLog.Config), which installs NLog, and a sample `NLog.config` file to start with, __and__ some helpful intellisense for the config file (that's the NLog.Schema one).
+Open your solution, go to "Manage NuGet Packages", and search for NLog. You should see a few items. You _could_ just install the first one, but I'd recommend the fourth instead (NLog.Config), which installs NLog, and a sample `NLog.config` file to start with, _and_ some helpful intellisense for the config file (that's the NLog.Schema one).
 
 What's the NLog.Extensions.Logging one that I glossed over? Something to do with new features in .NET Core and .NET Standard, and probably not something you're worried about in a WinForms app.
 
@@ -43,9 +43,9 @@ What's the NLog.Extensions.Logging one that I glossed over? Something to do with
 
 ## Configure NLog
 
-Everything's driven off the NLog.config file, so open that up and check it out. You should see some boilerplate stuff, a few links, and intellisense if you hover over the different elements. Pretty exciting. __(But then, I spent Friday evening writing this, so my judgement's probably off.)__
+Everything's driven off the NLog.config file, so open that up and check it out. You should see some boilerplate stuff, a few links, and intellisense if you hover over the different elements. Pretty exciting. _(But then, I spent Friday evening writing this, so my judgement's probably off.)_
 
-There are __so many__ configuration options you can choose from, and you can see them all by visiting those links! And get overwhelmed to your heart's content. For now though, let's just focus on writing to a file, which is [documented here](https://github.com/NLog/NLog/wiki/File-target).
+There are _so many_ configuration options you can choose from, and you can see them all by visiting those links! And get overwhelmed to your heart's content. For now though, let's just focus on writing to a file, which is [documented here](https://github.com/NLog/NLog/wiki/File-target).
 
 Skip down to the section on "[simple logging](https://github.com/NLog/NLog/wiki/File-target#simple-logging)" and replace everything in the NLog.config file with the contents of that section. That'll get you up and running quickly, and it'll write log files to wherever your app is running. Maybe not ideal in production, but you can adjust that later.
 
@@ -87,7 +87,7 @@ That's it!
 
 ## A more interesting example
 
-NLog can do a __lot__ more, way more than I could cover here. Before wrapping things up though, let's try a slightly more interesting example. It'll probably be easier if you just [grab the code](https://github.com/grantwinney/SurvivingWinForms/tree/master/Debugging/Logging/NLogUtility), but I made a couple changes in the config file - it logs everything (including trace messages), and the message will include the "level" (info, warning, etc).
+NLog can do a _lot_ more, way more than I could cover here. Before wrapping things up though, let's try a slightly more interesting example. It'll probably be easier if you just [grab the code](https://github.com/grantwinney/SurvivingWinForms/tree/master/Debugging/Logging/NLogUtility), but I made a couple changes in the config file - it logs everything (including trace messages), and the message will include the "level" (info, warning, etc).
 
 ```xml
 <targets>

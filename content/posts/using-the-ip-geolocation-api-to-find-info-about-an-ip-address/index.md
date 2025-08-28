@@ -17,7 +17,7 @@ tags:
 - Geolocation
 title: Find info about an IP address with the IP Geolocation API
 ---
-I read an article awhile back, called [To 30 Billion and Beyond](https://dev.to/rdegges/to-30-billion-and-beyond-3f94), about a simple to use and completely free service called [ipify](https://www.ipify.org/) __(__[__source code__](https://github.com/rdegges/ipify-api)__),__ which returns your current IP address in a few different formats. Randall Degges wrote it because he needed it personally, but it became so popular he soon found himself having to deal with __tens of billions__ of requests per month!
+I read an article awhile back, called [To 30 Billion and Beyond](https://dev.to/rdegges/to-30-billion-and-beyond-3f94), about a simple to use and completely free service called [ipify](https://www.ipify.org/) _(_[_source code_](https://github.com/rdegges/ipify-api)_),_ which returns your current IP address in a few different formats. Randall Degges wrote it because he needed it personally, but it became so popular he soon found himself having to deal with _tens of billions_ of requests per month!
 
 The spinoff from that was a separate [IP Geolocation API](https://geoipify.whoisxmlapi.com/) that can tell you all kinds of information about an IP address once you have it. That's what I want to look at today, although I'll show an example of ipify too.
 
@@ -63,7 +63,7 @@ I could see one obvious application, where you only have a dynamic IP at your ho
 
 ## Getting Started
 
-Whois API provides a free tier that provides 1000 requests per month __(to this particular API - they have__ [__other APIs__](https://user.whoisxmlapi.com/products) __with their own limits),__ so just [sign up](https://geoipify.whoisxmlapi.com/signup). Right away, they provide you with a sample query using Google's well-known name server and your personal API key. It's a great way to get started quickly.
+Whois API provides a free tier that provides 1000 requests per month _(to this particular API - they have_ [_other APIs_](https://user.whoisxmlapi.com/products) _with their own limits),_ so just [sign up](https://geoipify.whoisxmlapi.com/signup). Right away, they provide you with a sample query using Google's well-known name server and your personal API key. It's a great way to get started quickly.
 
 ### What's Google's geolocation?
 
@@ -94,7 +94,7 @@ Unless something's gone drastically wrong, running this in Postman should produc
 }
 ```
 
-### What's __your__ geolocation?
+### What's _your_ geolocation?
 
 Just leave the IP address off the request, and it uses yours! That could be useful, say if you want to run a server from your house that's available externally, but you have a
 

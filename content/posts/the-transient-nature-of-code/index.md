@@ -15,7 +15,7 @@ tags:
 - Reflections
 title: The transient nature of code
 ---
-I just did one of the most painful things a dev can do to another dev. I deleted his code! I mean, it wasn't out of spite or anything, lol. It was good, solid code, covered by dozens of tests, which made it __that__ much harder to pull the trigger. But it wasn't needed anymore.
+I just did one of the most painful things a dev can do to another dev. I deleted his code! I mean, it wasn't out of spite or anything, lol. It was good, solid code, covered by dozens of tests, which made it _that_ much harder to pull the trigger. But it wasn't needed anymore.
 
 Our team was sent new marching orders, and although at first I just commented it all out (in case our orders changed again), it was ultimately relegated to the annals of git log. And he totally got why and supported it.. even if he was relieved I was pulling the trigger instead of him. 😏
 
@@ -23,9 +23,9 @@ Programming is a funny thing - any individual piece of code is quite ephemeral. 
 
 The code you write today, like a brush stroke on a large canvas, changes the overall picture slightly (probably not as much as most of us would like to believe), but other brush strokes will eventually cover it up. The tough thing to come to terms with as part of a team, is that any individual contribution is only part of a larger goal. With a certain maturity comes a (somewhat painful) acceptance that nothing is safe from being moved around, not even the code you wrote last week.
 
-On the flip side, we should all fight the urge to delete code for the sake of "doing it better". Wiping out someone's code shouldn't be the first thing you do, even though we've all been there. It takes time to understand why someone did what they did, and the next dev is just as likely to look at __your__ rewrite and think the same exact thing.
+On the flip side, we should all fight the urge to delete code for the sake of "doing it better". Wiping out someone's code shouldn't be the first thing you do, even though we've all been there. It takes time to understand why someone did what they did, and the next dev is just as likely to look at _your_ rewrite and think the same exact thing.
 
-You, me, that next dev - we're all the little guy in the blue hat... __and__ we wrote the code he's whining about! It's missing a final pane where he realizes the project, mystifying as it seemed at first, actually has a goal - catch a mouse - and there's no need to rewrite or delete it.
+You, me, that next dev - we're all the little guy in the blue hat... _and_ we wrote the code he's whining about! It's missing a final pane where he realizes the project, mystifying as it seemed at first, actually has a goal - catch a mouse - and there's no need to rewrite or delete it.
 
 ![](https://grantwinney.com/content/images/2020/10/image.png)
 

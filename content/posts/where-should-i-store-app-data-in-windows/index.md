@@ -24,13 +24,13 @@ These special folders aren't necessarily a specific location. They vary by versi
 
 ## Why's it matter?
 
-Here's what my __My Documents__ currently looks like - loads of stuff I shouldn't be aware most of the time. Amazon is storing encrypted ebook files that are useless outside their app, ShareX is storing log files and plugins, Microsoft some default templates, and Zoom.. an empty directory.
+Here's what my _My Documents_ currently looks like - loads of stuff I shouldn't be aware most of the time. Amazon is storing encrypted ebook files that are useless outside their app, ShareX is storing log files and plugins, Microsoft some default templates, and Zoom.. an empty directory.
 
 ![](https://grantwinney.com/content/images/2020/05/image-27.png)
 
 ![](https://grantwinney.com/content/images/2020/05/image-28.png)
 
-I've got this nice little area that's supposed to be just mine, but everyone decided to run everything through it. If I want to sync __My Documents__ between several machines, I don't need ShareX's logs on both. I can install the Kindle app on multiple machines and it'll download books, so those encrypted files are unnecessary.
+I've got this nice little area that's supposed to be just mine, but everyone decided to run everything through it. If I want to sync _My Documents_ between several machines, I don't need ShareX's logs on both. I can install the Kindle app on multiple machines and it'll download books, so those encrypted files are unnecessary.
 
 ## What can we do?
 
@@ -109,7 +109,7 @@ Behind the scenes
 
 ### Example: Python
 
-In Python, you can [install pywin32](https://pypi.org/project/pywin32/227/) (a wrapper for the Win32 API calls) and specify a [constant special item ID list](https://docs.microsoft.com/en-us/windows/win32/shell/csidl) (CSIDL) value. __(I don't know Python that well, so this might only work for Python 2, and there might be newer constructs in Python 2 and 3.)__
+In Python, you can [install pywin32](https://pypi.org/project/pywin32/227/) (a wrapper for the Win32 API calls) and specify a [constant special item ID list](https://docs.microsoft.com/en-us/windows/win32/shell/csidl) (CSIDL) value. _(I don't know Python that well, so this might only work for Python 2, and there might be newer constructs in Python 2 and 3.)_
 
 ```python
 from win32com.shell import shell, shellcon
@@ -121,6 +121,6 @@ print shell.SHGetFolderPath(0, shellcon.CSIDL_PERSONAL, None, 0)
 # C:\Users\Grant\Documents
 ```
 
-The point is, when we're writing something for Windows that needs access to the file system, in __any__ language, it's highly likely there's a way to access the special system folders.
+The point is, when we're writing something for Windows that needs access to the file system, in _any_ language, it's highly likely there's a way to access the special system folders.
 
-We should strive to store anything our apps need in application data, or local data, or local application data, or really anything with "application" or "program" in the name. Because __My Documents__ is mine all mine. 🙂
+We should strive to store anything our apps need in application data, or local data, or local application data, or really anything with "application" or "program" in the name. Because _My Documents_ is mine all mine. 🙂

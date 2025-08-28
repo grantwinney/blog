@@ -17,7 +17,7 @@ tags:
 - Google
 title: Manage your books with the Google Books API
 ---
-There's a staggering amount of data out there - and a lot of it free - but accessing it isn't always easy. A good API hides the complexities of accessing that data, and can save you a ton of development time too. After writing about [15 APIs in 15 days](https://grantwinney.com/tag/15-apis-in-15-days/) over the holidays, I've decided to find a different [API](https://grantwinney.com/tag/api/) to write about every Monday __(okay, so I'm a day late this week...)__.
+There's a staggering amount of data out there - and a lot of it free - but accessing it isn't always easy. A good API hides the complexities of accessing that data, and can save you a ton of development time too. After writing about [15 APIs in 15 days](https://grantwinney.com/tag/15-apis-in-15-days/) over the holidays, I've decided to find a different [API](https://grantwinney.com/tag/api/) to write about every Monday _(okay, so I'm a day late this week...)_.
 
 Two things before you get started:
 
@@ -36,7 +36,7 @@ Google Books has been around for over 15 years. Although the progress has appare
 
 ## Taking it out for a spin
 
-The easiest way to try it out is to use the [APIs Explorer](https://developers.google.com/apis-explorer/?hl=en_US#p/books/v1/) tool they built on top of their own API. In order to access someone's private data, you'll need to have your app request access to their account. Similarly, __you're__ the user of the APIs Explorer, so it'll request access to your account.
+The easiest way to try it out is to use the [APIs Explorer](https://developers.google.com/apis-explorer/?hl=en_US#p/books/v1/) tool they built on top of their own API. In order to access someone's private data, you'll need to have your app request access to their account. Similarly, _you're_ the user of the APIs Explorer, so it'll request access to your account.
 
 But first, a few others things you'll need to do to get ready first.
 
@@ -58,7 +58,7 @@ https://books.google.com/books?uid=12341234123412341234
 
 ### Add a few books
 
-You should still be in your library. If you already have books available in your library, awesome. Otherwise, search for something free like [Alice in Wonderland](https://books.google.com/books?id=u5MNAAAAYAAJ&dq=alices%20adventures%20in%20wonderland&pg=PA11#v=onepage&q&f=false) or [Twenty Thousand Leagues Under the Sea](https://books.google.com/books?id=RqlEAAAAYAAJ&dq=Twenty%20Thousand%20Leagues%20Under%20the%20Sea&pg=PP1#v=onepage&q&f=false), and click the __"Add to my library"__ button at the top of the page.
+You should still be in your library. If you already have books available in your library, awesome. Otherwise, search for something free like [Alice in Wonderland](https://books.google.com/books?id=u5MNAAAAYAAJ&dq=alices%20adventures%20in%20wonderland&pg=PA11#v=onepage&q&f=false) or [Twenty Thousand Leagues Under the Sea](https://books.google.com/books?id=RqlEAAAAYAAJ&dq=Twenty%20Thousand%20Leagues%20Under%20the%20Sea&pg=PP1#v=onepage&q&f=false), and click the _"Add to my library"_ button at the top of the page.
 
 ### Create a bookshelf
 
@@ -80,7 +80,7 @@ Look for the "Search My Library" box on the left. Search for those titles you ad
 
 Like I said earlier, you need to grant the app authorization to access your data, just like you would anything else. Go back to the [API endpoints](https://developers.google.com/apis-explorer/?hl=en_US#p/books/v1/) page.
 
-Click the "OFF" button next to __"Authorize requests using OAuth 2.0"__ in the upper-right corner of the page. The APIs Explorer needs access to manage your books (obviously), so select the checkbox and press "Authorize". You should get a popup - select the Google account where you've got your books saved, and then click "Allow".
+Click the "OFF" button next to _"Authorize requests using OAuth 2.0"_ in the upper-right corner of the page. The APIs Explorer needs access to manage your books (obviously), so select the checkbox and press "Authorize". You should get a popup - select the Google account where you've got your books saved, and then click "Allow".
 
 You should be back where you started on the APIs Explorer page, but now the gray "OFF" toggle button should be a blue "ON" button. If you wait too long, you'll need to go through this process again. The "authorization" you grant only seems to last about a day, maybe less.
 
@@ -120,7 +120,7 @@ When you're ready to starting creating an app that uses the API, you'll need to 
 
 I don't intend to get into all the intricacies of that though - this took longer to setup and try out than I thought it would. Google has a decent [Getting Started](https://developers.google.com/books/docs/v1/getting_started) guide you should check out.
 
-I did play with the API key a bit __(I'll try OAuth 2.0 at some point).__ It requires you to:
+I did play with the API key a bit _(I'll try OAuth 2.0 at some point)._ It requires you to:
 
 1. Create a bookshelf like I explained above (and note the bookshelf id, aka "as_coll")
 2. Go to [https://books.google.com/books](https://books.google.com/books) if you're not there already, find the bookshelf, click the gear and "edit properties", then set the visibility to "public".
@@ -138,6 +138,6 @@ Not too much else to say, except one thing I noticed in the [terms of service](h
 
 > You may not charge users any fee for the use of your application, unless you have entered into a separate agreement with Google or obtained Google's written permission.
 
-This seems silly to me, as (1) it's not like Google's motives are altruistic anyway - they __sell__ books through the service, and (2) an app that uses their API ostensibly provides end-users with more features than just the API, and you should be free to charge for your time and service. Requiring you to publicize that you use the Google Books API would make more sense to me, as it's free advertising for them.
+This seems silly to me, as (1) it's not like Google's motives are altruistic anyway - they _sell_ books through the service, and (2) an app that uses their API ostensibly provides end-users with more features than just the API, and you should be free to charge for your time and service. Requiring you to publicize that you use the Google Books API would make more sense to me, as it's free advertising for them.
 
 Then again, Google can't even keep its own store free of junk apps that most likely violate their own TOS, so the odds of them randomly catching your application seems pretty slim...

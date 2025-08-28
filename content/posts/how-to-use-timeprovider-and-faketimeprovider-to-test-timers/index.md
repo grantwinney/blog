@@ -27,9 +27,9 @@ If you're brand new to `TimeProvider`, it might be worth checking out my other p
 
 If you don't have .NET 8 yet, [download the SDK](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks).
 
-A developer might use a timer for all kinds of things, like periodically reminding a user to take some action, checking a database table to see if there's any orders to process, or hitting an API endpoint to update some widget in the UI. One of the things a developer can't easily do with a timer, though, is __test__ it.
+A developer might use a timer for all kinds of things, like periodically reminding a user to take some action, checking a database table to see if there's any orders to process, or hitting an API endpoint to update some widget in the UI. One of the things a developer can't easily do with a timer, though, is _test_ it.
 
-You __could__ move whatever the timer's doing into another method and then test that method directly, but then you're rearranging your code to support testing. It's not the end of the world, but it's not ideal either... and in this case (thanks to .NET 8), it's not even necessary.
+You _could_ move whatever the timer's doing into another method and then test that method directly, but then you're rearranging your code to support testing. It's not the end of the world, but it's not ideal either... and in this case (thanks to .NET 8), it's not even necessary.
 
 ## A sample timer
 
@@ -134,7 +134,7 @@ Console.Clear();
 Console.ReadLine();
 ```
 
-That's all we need to run the app, which does just absolutely __amazing__ things all by itself. Really, what a work of beauty. A true labor of love. If you run it on a Friday evening, the message will be different, but it isn't Friday right now so we have to wait. Or do we..?
+That's all we need to run the app, which does just absolutely _amazing_ things all by itself. Really, what a work of beauty. A true labor of love. If you run it on a Friday evening, the message will be different, but it isn't Friday right now so we have to wait. Or do we..?
 
 ![](https://grantwinney.com/content/images/2024/01/currenttime.gif)
 
@@ -168,7 +168,7 @@ Now let's write some tests, and see what kind of things we can do!
 
 As I said, the app writes out a certain message most of the week, only switching it up on Friday evenings. We can set the current time to the day we want, start the timer, and then let the test just sit for awhile until the interval passes......... lol, no. One of the powerhouse capabilities of the `FakeTimeProvider` is that we can immediately `Advance` into the future.
 
-In this first test, let's set the day to Tuesday, start the timer, jump forward in time a few seconds, and make sure the message we expected was printed (and that the message we __don't__ expect __wasn't__ printed).
+In this first test, let's set the day to Tuesday, start the timer, jump forward in time a few seconds, and make sure the message we expected was printed (and that the message we _don't_ expect _wasn't_ printed).
 
 ```csharp
 [Test]
@@ -190,7 +190,7 @@ Set day to Tues, and make sure the first message prints
 
 You just couldn't do something like this before, at least that I know of, and I'm sure nowhere near this easily. It probably would've been easier to have a test suite that ran Friday evenings just to make sure the test was right rather than try to create your own version of what's happening here.
 
-In this second test, let's set the date to a Friday at 5pm, when the alternate message should show. Doing the same thing as before, we start the timers, time travel a few seconds, and verify the __other__ message printed (and the first one didn't).
+In this second test, let's set the date to a Friday at 5pm, when the alternate message should show. Doing the same thing as before, we start the timers, time travel a few seconds, and verify the _other_ message printed (and the first one didn't).
 
 ```csharp
 [Test]
@@ -210,7 +210,7 @@ public void PrintTimeTimer_TGIFMessage_WhenFridayEvening()
 
 Set day to Fri @ 5p, and make sure the second message prints
 
-Here's one more, that sets the time right before the transition occurs, jumps past the transition, and then double-checks that __both__ messages were printed at least once.
+Here's one more, that sets the time right before the transition occurs, jumps past the transition, and then double-checks that _both_ messages were printed at least once.
 
 ```csharp
 [Test]
@@ -230,13 +230,13 @@ public void PrintTimeTimer_MessageTransitionsCorrectly_WhenFridayAfternoonTurnsT
 
 Set day to Fri, right before 5p, and make sure both messages printed
 
-Everything works, and 4 tests that should've taken 20 seconds to run (in realtime) ran in __less than half a second.__
+Everything works, and 4 tests that should've taken 20 seconds to run (in realtime) ran in _less than half a second._
 
 ![](https://grantwinney.com/content/images/2024/01/image-13.png)
 
 ## Caveat?
 
-Here's an interesting point. It makes sense when you think about it, but with all the seemingly magic things happening here, it might be easy to neglect. Even though, by advancing the timer, we don't have to actually wait for the timer interval to pass, all the tick events __are__ firing, one after the other.
+Here's an interesting point. It makes sense when you think about it, but with all the seemingly magic things happening here, it might be easy to neglect. Even though, by advancing the timer, we don't have to actually wait for the timer interval to pass, all the tick events _are_ firing, one after the other.
 
 What I mean by that last part is, if we modified the `PrintTime` method, inserting one line of code that told it to sleep for 10 ms, all the tests will take just a hair longer to run.
 
@@ -276,7 +276,7 @@ Running the tests, with a 10 ms sleep in the PrintTime method
 
 Running the tests again, after increasing the sleep to 100 ms
 
-The takeaway here, I think, is that we need to be careful what we're testing, because we're not skipping over __everything__... just over the intervals we'd normally have to wait for between tick events. The sleep I put in there is silly, but if there's a time-consuming dependency, you might want to make adjustments for that.
+The takeaway here, I think, is that we need to be careful what we're testing, because we're not skipping over _everything_... just over the intervals we'd normally have to wait for between tick events. The sleep I put in there is silly, but if there's a time-consuming dependency, you might want to make adjustments for that.
 
 In a unit test, we typically remove as many things as possible that are outside of our control or not things we want to test (like writing to the console, or to disk). But what about some kind of integration test, where we want to test a larger part of the system, maybe even make sure a file actually gets written to? That could be a reasonable test.
 

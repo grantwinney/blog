@@ -34,7 +34,7 @@ Before you do anything else, you might want to revisit your existing tags (under
 
 - Remove any leading `#` from tags, since the app prepends a `#` to each tag.
 - If you have any characters in tags that won't translate well to Twitter hashtags, either remove them in Ghost, or add them to `var pattern = new Regex("[- ]");` in my project so they get removed before posting the tweet.
-- This is a good time to revisit __all__ your tags and just remove/rename ones that won't look good in Twitter.
+- This is a good time to revisit _all_ your tags and just remove/rename ones that won't look good in Twitter.
 - While you're at it, you might want to revisit your posts as well - anything you forgot about that you'd rather not post to Twitter?
 
 Other stuff to think about:
@@ -52,13 +52,13 @@ Other stuff to think about:
 
 ### Create a Twitter app
 
-[Register a new app with Twitter](https://developer.twitter.com/en/apps)... yeah, it'll be an app with one user. You'll get a prompt to "please apply for a Twitter developer account", so pick "something else" as the reason, share how you'll use it, deselect everything but __"Will your app use Tweet ... functionality?",__ and paste something similar in again for that field.
+[Register a new app with Twitter](https://developer.twitter.com/en/apps)... yeah, it'll be an app with one user. You'll get a prompt to "please apply for a Twitter developer account", so pick "something else" as the reason, share how you'll use it, deselect everything but _"Will your app use Tweet ... functionality?",_ and paste something similar in again for that field.
 
 ![](https://grantwinney.com/content/images/2020/11/2020-11-18-21_03_20-Apply---Twitter-Developers---Brave.png)
 
 When you get the email for your new developer account (mine was nearly immediate), click the link and give your app a unique name. I just used [a random GUID](https://www.passwordrandom.com/query?command=guid) - the name doesn't really matter. I think it creates the app outside of a project. If it does, delete it, create a project, and then create the app inside that. Note the API key and secret for your app - you'll need those in a bit.
 
-Under "App permissions", change the default "read" permissions to "read and write", since the app needs to be able to send tweets and not just read them. Then click back into your new app and press "Generate" under the "Access token & secret" section, and note the additional access token and secret that are generated - you'll need those in a bit too! __(Make sure it says "created with read and write permissions" underneath it.)__
+Under "App permissions", change the default "read" permissions to "read and write", since the app needs to be able to send tweets and not just read them. Then click back into your new app and press "Generate" under the "Access token & secret" section, and note the additional access token and secret that are generated - you'll need those in a bit too! _(Make sure it says "created with read and write permissions" underneath it.)_
 
 ![](https://grantwinney.com/content/images/2020/11/image-4.png)
 
@@ -89,7 +89,7 @@ Under "Basic settings", decrease the memory to 128MB and increase the timeout to
 
 I make heavy use of [environment variables](https://docs.aws.amazon.com/lambda/latest/dg/env_variables.html), so that credentials and other settings can easily be changed without having to recompile the code and upload it again. Here's a description of each field you can set.
 
-****Required****
+**Required**
 
 Go to the settings page for your blog, click Integrations, and then Add Custom Integration. Provide a name, and then note the values on the next page.
 
@@ -101,7 +101,7 @@ These values all come from your Twitter account, from the app you created before
 - `TWITTER_CONSUMER_KEY` / `TWITTER_CONSUMER_SECRET` - Set these to the values for API key & secret under the "Consumer Keys" header after you create an app.
 - `TWITTER_USER_ACCESS_TOKEN` / `TWITTER_USER_ACCESS_TOKEN_SECRET` - Set these to the Access token & secret you created separately under "Authentication Tokens".
 
-****Optional****
+**Optional**
 
 - `POST_RETRIEVAL_LIMIT` - The number of posts to retrieve, from which a random post will be selected. (defaults to 9999999, basically "all posts")
 - `TAGS_TO_TWEET` - A comma-delimited list of tags (no spaces after each comma) to consider when selecting a random post. (defaults to empty string, which means tags are ignored)
@@ -115,7 +115,7 @@ When you're done, it should look something like this:
 
 ### Take it out for a spin!
 
-That __should__ be everything you need to run the job. To try it out, hit the "****Test****" button in the top-right corner of the screen. It might have you configure a new "test event". Just do it, name it whatever, and change the code to an empty set of curly braces like `{}`.
+That _should_ be everything you need to run the job. To try it out, hit the "**Test**" button in the top-right corner of the screen. It might have you configure a new "test event". Just do it, name it whatever, and change the code to an empty set of curly braces like `{}`.
 
 If it seems to have done nothing, press "Test" again. Hopefully everything goes smoothly and you get a screen like this one. Check your Twitter feed - did it post one of your posts from your Ghost blog?
 
@@ -153,7 +153,7 @@ After spending 15 minutes checking the two out, I decided to just go with Tweeti
 
 ### AWS Lambda
 
-I'm only just starting out with AWS Lambda, so I'm not sure what all it's capable of yet. A few days ago [I created a function that keeps my personal Twitter timeline clean](https://grantwinney.com/my-first-experience-with-aws-lambda/). So far, it's awesome. Their [free tier plan](https://aws.amazon.com/lambda/pricing/#Lambda_pricing_details) is generous enough to let you try out __lots__ of different things before you need to pay a single penny.
+I'm only just starting out with AWS Lambda, so I'm not sure what all it's capable of yet. A few days ago [I created a function that keeps my personal Twitter timeline clean](https://grantwinney.com/my-first-experience-with-aws-lambda/). So far, it's awesome. Their [free tier plan](https://aws.amazon.com/lambda/pricing/#Lambda_pricing_details) is generous enough to let you try out _lots_ of different things before you need to pay a single penny.
 
 ---
 

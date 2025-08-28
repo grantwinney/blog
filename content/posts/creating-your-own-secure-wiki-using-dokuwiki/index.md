@@ -63,7 +63,7 @@ ssh root@111.111.111.111
 
 [Create a new user with sudo privileges](https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart), so you're not performing everything that follows as root. That's just good practice.
 
-[Enable the built-in firewall](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04#step-seven-%E2%80%94-set-up-a-basic-firewall) to restrict what your server allows connections to. This entire document is full of good advice on setting up your server - I suggest checking the rest of it out. I'm not covering it here, except to say you'll need to add two other rules: __(or you won't even be able to view your new wiki)__
+[Enable the built-in firewall](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04#step-seven-%E2%80%94-set-up-a-basic-firewall) to restrict what your server allows connections to. This entire document is full of good advice on setting up your server - I suggest checking the rest of it out. I'm not covering it here, except to say you'll need to add two other rules: _(or you won't even be able to view your new wiki)_
 
 ```sh
 sudo ufw allow http
@@ -72,7 +72,7 @@ sudo ufw allow https
 
 ## Install DokuWiki
 
-****Follow steps 2-9**** of [installing DokuWiki on Ubuntu](https://www.dokuwiki.org/install:ubuntu), paying attention to the following:
+**Follow steps 2-9** of [installing DokuWiki on Ubuntu](https://www.dokuwiki.org/install:ubuntu), paying attention to the following:
 
 Step 7:  
 Ignore a, b, and c, since you're not doing this for testing purposes.
@@ -89,13 +89,13 @@ Look for the last `Directory` block:
 ```
 
 Step 10:  
-****Don't actually do this step yet****, but visit the setup link. If everything is good so far, you should see a page like this one:
+**Don't actually do this step yet**, but visit the setup link. If everything is good so far, you should see a page like this one:
 
 ![dokuwiki-installer](https://grantwinney.com/content/images/2018/03/dokuwiki-installer.png)
 
 ## Secure Your Droplet
 
-__Note: If you're planning on assigning a domain name to your wiki, you might consider__ [__securing your site with a free certificate from Let's Encrypt__](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-16-04)__. If you're just using the droplet's IP address to access your wiki like I plan on doing, or you're already familiar with self-signed certificates, then continue...__
+_Note: If you're planning on assigning a domain name to your wiki, you might consider_ [_securing your site with a free certificate from Let's Encrypt_](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-16-04)_. If you're just using the droplet's IP address to access your wiki like I plan on doing, or you're already familiar with self-signed certificates, then continue..._
 
 Follow these DigitalOcean instructions:  
 [How To Create a Self-Signed SSL Certificate for Apache in Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-16-04)
@@ -103,10 +103,10 @@ Follow these DigitalOcean instructions:
 Step 1:  
 If you don't care about how long the SSL certificate lives, you could change the `-days` parameter to something longer like 36500 (a hundred years).
 
-You'll be prompted for some info. The "Common Name" is the IP address of your new droplet, and _****you need that****_. Everything else is optional and you can just click Enter through them.
+You'll be prompted for some info. The "Common Name" is the IP address of your new droplet, and _**you need that**_. Everything else is optional and you can just click Enter through them.
 
 Step 2:  
-Under __"Modify the Default Apache SSL Virtual Host File"__ you'll want to make one more modification to the `default-ssl.conf` file, changing `DocumentRoot /var/www/html` to `DocumentRoot /var/www/dokuwiki`
+Under _"Modify the Default Apache SSL Virtual Host File"_ you'll want to make one more modification to the `default-ssl.conf` file, changing `DocumentRoot /var/www/html` to `DocumentRoot /var/www/dokuwiki`
 
 Also, you can just ignore the suggested change to "BrowserMatch" unless you're planning on using IE 6 to access your wiki.
 
@@ -125,7 +125,7 @@ Just bypass it using whatever method your browser gives you. That's the downside
 
 Now that the line to the server is encrypted, let's continue setting up DokuWiki. We'll be setting up a password and other information, and I didn't want to send that in plaintext.
 
-****Follow steps 10-11**** of [installing DokuWiki on Ubuntu](https://www.dokuwiki.org/install:ubuntu), paying attention to the following:
+**Follow steps 10-11** of [installing DokuWiki on Ubuntu](https://www.dokuwiki.org/install:ubuntu), paying attention to the following:
 
 Step 10:  
 Here's how I recommend configuring your installation, but you may want something different. Click "Enable ACL" to setup the initial user, which you can then use to login and change other options. I also chose to disable sending anonymous usage data because I tend to be a tad paranoid about exactly what data is being sent, but ymmv.
@@ -141,7 +141,7 @@ There's [a lot more you can configure](https://www.dokuwiki.org/config) too. Her
 
 ### Further Secure Your Site
 
-If you truly want a private wiki that no one else can register an account for, or view details about, you'll want to set some other configuration settings. For example, even if you're not logged in you can view the sitemap for the wiki... that lets anyone view the __list__ of pages available (although not the actual content).
+If you truly want a private wiki that no one else can register an account for, or view details about, you'll want to set some other configuration settings. For example, even if you're not logged in you can view the sitemap for the wiki... that lets anyone view the _list_ of pages available (although not the actual content).
 
 Login, go to `Admin / Configuration Settings` and look for the following panel. I'd suggest disabling the following options, but you may want to experiment on your own and see how it affects the site when you're logged out.
 
@@ -153,7 +153,7 @@ If you try to upload a file to your new wiki, you'll see something like this. No
 
 ![upload-media-files](https://grantwinney.com/content/images/2018/03/upload-media-files.png)
 
-To fix this, let's make a couple changes to the `php.ini` file, which can be found here. __(This is one advantage of hosting our own server. You often cannot edit the php.ini file in a shared environment.)__
+To fix this, let's make a couple changes to the `php.ini` file, which can be found here. _(This is one advantage of hosting our own server. You often cannot edit the php.ini file in a shared environment.)_
 
 ```sh
 sudo nano /etc/php/7.2/apache2/php.ini

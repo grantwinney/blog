@@ -55,9 +55,9 @@ public bool IsOpenHours()
 }
 ```
 
-Get the current time __inside__ the method (untestable)
+Get the current time _inside_ the method (untestable)
 
-Any attempt to test the above code, whether it's a tiny unit test or some larger integration test that happens to hit this code along the way, is restricted by the fact that `DateTime.UtcNow` will return whatever the current time is when the test runs. If the test is running on a Wednesday, the "Sunday" condition won't be hit. If the test suite runs automatically at midnight every night, the method __always__ return "false". If we can't control the current time, we can't control what the method returns - it's untestable.
+Any attempt to test the above code, whether it's a tiny unit test or some larger integration test that happens to hit this code along the way, is restricted by the fact that `DateTime.UtcNow` will return whatever the current time is when the test runs. If the test is running on a Wednesday, the "Sunday" condition won't be hit. If the test suite runs automatically at midnight every night, the method _always_ return "false". If we can't control the current time, we can't control what the method returns - it's untestable.
 
 ### Pass a date/time value to the method
 
@@ -77,7 +77,7 @@ public bool IsOpenHours(DateTime now)
 
 Pass the time to the method
 
-But I'd argue that this seems wrong somehow, allowing callers to pass in a `DateTime` value that should only ever represent __now__, just to support testing. And since it only bumps the concern a level up, any integration tests that run against larger areas of the system will still run into the problem of not being able to change the date/time value that this method uses.
+But I'd argue that this seems wrong somehow, allowing callers to pass in a `DateTime` value that should only ever represent _now_, just to support testing. And since it only bumps the concern a level up, any integration tests that run against larger areas of the system will still run into the problem of not being able to change the date/time value that this method uses.
 
 ### Inject a dependency that provides the date/time
 
@@ -126,7 +126,7 @@ Defining DI dependencies in ASP.NET Core
 
 The downside of this is needing to define a class that redefines all the same properties we get in the .NET classes (the ones our app needs, anyway), and then creating an interface that defines the properties yet again. Its repetitive. Wouldn't it be nice if there was an official .NET way of doing this?
 
-__Drum roll please...__
+_Drum roll please..._
 
 ## Abstraction with TimeProvider
 
@@ -147,7 +147,7 @@ private sealed class SystemTimeProvider : TimeProvider
 }
 ```
 
-Accessing the new class is super easy too - just use the static accessor in the `TimeProvider` class that passes back a single instance of `SystemTimeProvider`. In fact, that's the only way to get a new instance, since it's marked `private` and actually lives __inside__ the abstract `TimeProvider` class. What that means is, anywhere you access that property from, you get the same (singleton) instance.
+Accessing the new class is super easy too - just use the static accessor in the `TimeProvider` class that passes back a single instance of `SystemTimeProvider`. In fact, that's the only way to get a new instance, since it's marked `private` and actually lives _inside_ the abstract `TimeProvider` class. What that means is, anywhere you access that property from, you get the same (singleton) instance.
 
 ```csharp
 /// <summary>Provides an abstraction for time.</summary>
@@ -344,7 +344,7 @@ public class BusinessOperationsTests
 
 Results in the Test Explorer pane
 
-__Unrelated note:__ The eagle-eyed reader might've noticed the above tests are grouped by category. You can set category names (aka "traits") on your xUnit tests, and then choose to "Group By" those traits in the test explorer pane. It's a nice way of organizing things a bit.
+_Unrelated note:_ The eagle-eyed reader might've noticed the above tests are grouped by category. You can set category names (aka "traits") on your xUnit tests, and then choose to "Group By" those traits in the test explorer pane. It's a nice way of organizing things a bit.
 
 ![](https://grantwinney.com/content/images/2024/01/image-5.png)
 

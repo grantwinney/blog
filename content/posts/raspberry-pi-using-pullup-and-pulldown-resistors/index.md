@@ -29,7 +29,7 @@ If you're on a tighter budget, you'll need at least:
 - Raspberry Pi with micro USB adapter (~$50-75 ideally, although prices have shot up on Amazon - more on that below)
 - A few resistors, wires and a button. A basic starter kit should have these, or get the [CamJam EduKit](https://thepihut.com/collections/raspberry-pi-store/products/camjam-edukit) - £5 (~$7)
 - A breadboard and either some wires to connect it to the Pi, or a T-Cobbler and ribbon (for a much easier and cleaner connection) - $5 - $15
-- __.... a decent kit is much less headache the first time around!__
+- _.... a decent kit is much less headache the first time around!_
 
 If you need the Raspberry Pi unit itself, the Pi is more expensive than it used to be on Amazon, apparently due to component shortages. It might be worth checking out [rpilocator](https://rpilocator.com/) for a better price with other resellers, although you may have to wait a little longer to get your Pi then.
 
@@ -41,7 +41,7 @@ Imagine you're creating a circuit using a breadboard. Something very simple – 
 
 The above circuit connects 3.3v through a switch and ~~220Ω resistor~~, to pin #6.
 
-_****NOTE: One reader left a comment about my use of a 220Ω resistor****___, with a link to an authoritative site that has an article on the__ [__electrical specifications__](http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/raspberry-pi/gpio-pin-electrical-specifications#rpi-gpio-input-voltage-and-output-current-limitations) __for the Pi's GPIO pins. In it, the author states that one should "never source or sink more than 0.5 mA into an input pin", although they don't explain why. According to an__ [__electrical calculator__](https://www.rapidtables.com/calc/electric/watt-volt-amp-calculator.html)__,__ _****you'd need at least a 7kΩ resistor to drop below the recommended 0.5 mA.****_ __A 10kΩ resistor should work fine too, which is what I've seen used in other examples. (Thanks Randall Stevens.)__
+_**NOTE: One reader left a comment about my use of a 220Ω resistor**__, with a link to an authoritative site that has an article on the_ [_electrical specifications_](http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/raspberry-pi/gpio-pin-electrical-specifications#rpi-gpio-input-voltage-and-output-current-limitations) _for the Pi's GPIO pins. In it, the author states that one should "never source or sink more than 0.5 mA into an input pin", although they don't explain why. According to an_ [_electrical calculator_](https://www.rapidtables.com/calc/electric/watt-volt-amp-calculator.html)_,_ _**you'd need at least a 7kΩ resistor to drop below the recommended 0.5 mA.**_ _A 10kΩ resistor should work fine too, which is what I've seen used in other examples. (Thanks Randall Stevens.)_
 
 That won't be very useful though, without a script to read the state of the circuit and take some action, even if it's just displaying a message. So here's a small Python script that does that for us. It detects when the circuit is opened or closed, and displays a message with a timestamp.
 
@@ -84,7 +84,7 @@ Running the above script, I'd expect to see a pattern of output like this, showi
 ▼  at 2016-04-30 12:26:46.015800
 ```
 
-Instead__,__ I see this, with 10 more screens just like it, in about 5 seconds:
+Instead_,_ I see this, with 10 more screens just like it, in about 5 seconds:
 
 ![no bouncetime, no pulldown](https://grantwinney.com/content/images/2016/04/no-bouncetime-no-pulldown.png)
 
@@ -96,7 +96,7 @@ When the circuit isn’t closed, it’s not simply "off". Instead, it’s said t
 
 Let's define a few other terms too.
 
-****Circuit****
+**Circuit**
 
 Your circuit is the collection of all the connections you’ve made, using wires, resistors, LEDs, buttons, GPIO and other pins, etc.
 
@@ -106,55 +106,55 @@ An open circuit is like a long train of dominos, where you've removed 4 or 5 fro
 
 ![domino-665547_1280](https://grantwinney.com/content/images/2016/04/domino-665547_1280.jpg)
 
-****High / Low****
+**High / Low**
 
 Each GPIO pin has two states. You can call them on or off, high or low, 1 or 0, etc. A pin is set "high" when it's outputting 3.3v or reading in 3.3v, and "low" when it's off. The GPIO library calls these two states `GPIO.HIGH` and `GPIO.LOW`, and the library also helps you determine which state a pin is in.
 
-****Rising Edge****
+**Rising Edge**
 
 The moment a GPIO pin changes to a HIGH state.
 
-****Falling Edge****
+**Falling Edge**
 
 The moment a GPIO pin changes to a LOW state.
 
-****Bouncetime****
+**Bouncetime**
 
 You can specify a time during which repeat events will be ignored. For example, you can specify a bouncetime of 500 ms. That means that if you press a button multiple times in under half a second (or maybe the button's a bit loose and registers a click multiple times), subsequent clicks after the first one will be ignored for a brief time.
 
-****Output****
+**Output**
 
 Pins can be set to read input or send output, but not both at once. If a pin is set to output, the Pi can either send out 3.3 volts (`HIGH`), or not (`LOW` or 0 volts).
 
-****Input****
+**Input**
 
 If a pin is set to input, then the circuit must be closed for it read that input. In my case, that means pressing the button down in order to read `HIGH` or `1` (since I'm connected to 3.3v... if my pin were connected to ground, it'd read `LOW` or `0` when closed).
 
 But what about when I'm not pressing the button in the above circuit? It should be `LOW` or `0`, right? That's where the problem lies. Since the circuit is open, the GPIO pin could be reading all kinds of things from the environment, and it's fairly sensitive. We need a way to force the pin to `LOW` (also known as "pull down") when the circuit is open (or to `HIGH` if the original circuit was connected to ground, also known as a "pull up").
 
-****Floating****
+**Floating**
 
 When you should be using a pull down or pull up resistor, but aren't, the status is said to be "floating". That is, the pin and any wires connected to it pick up on random radiation and electromagnetic signals from the environment. When the circuit is open, it's not HIGH or LOW, but somewhere in between.
 
-****Pull Down****
+**Pull Down**
 
-When you have a circuit that connects 3.3v to a GPIO pin, it'll read HIGH when the circuit is closed. When it's open, it could read anything. You need a "pull down" resistor connecting your circuit to ground, so that it reads LOW when the circuit is open. __(I'll show this in effect later.)__
+When you have a circuit that connects 3.3v to a GPIO pin, it'll read HIGH when the circuit is closed. When it's open, it could read anything. You need a "pull down" resistor connecting your circuit to ground, so that it reads LOW when the circuit is open. _(I'll show this in effect later.)_
 
-****Pull Up****
+**Pull Up**
 
 Similarly, if you have a circuit connecting your GPIO pin to ground when it's closed, it'll read `LOW`. You need a "pull up" resistor so that, when it's open, it defaults to the `HIGH` state.
 
 In both cases, the button has no resistance (or at least, less resistance), and so when the circuit is closed it short-circuits around the pull up or pull down resistor and reads the other value. Hopefully this will make more sense with a couple demonstrations.
 
-****Strong****
+**Strong**
 
 Strong resistors versus weak resistors only has meaning relative to one another. A lower value resistor is going to be stronger, in that it allows more current to flow through.
 
-****Weak****
+**Weak**
 
 The weaker resistor will be the higher value one, which allows less current to flow through it.
 
-****Internal Resistors****
+**Internal Resistors**
 
 In my circuit, I added a 10kΩ resistor to the breadboard, so I could see the circuit. The Pi has its own 1.8kΩ internal resistors that you can use, though, and I’ll show you how to use both.
 
@@ -217,7 +217,7 @@ print("Goodbye!")
 - [RPi.GPIO basics 6 – Using inputs and outputs together with RPi.GPIO – pull-ups and pull-downs](http://raspi.tv/2013/rpi-gpio-basics-6-using-inputs-and-outputs-together-with-rpi-gpio-pull-ups-and-pull-downs#pullup)
 - [Pull-up and Pull-down Resistor Usage on Input or Output MCU Pins](http://electronics.stackexchange.com/a/58545/109152)
 - [GPIO Electrical Specifications, Raspberry Pi Input and Output Pin Voltage and Current Capability](http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/raspberry-pi/gpio-pin-electrical-specifications#rpi-gpio-input-voltage-and-output-current-limitations)
-A three-parter by Alex at RasPi.TV, titled __"How to use interrupts with Python on the Raspberry Pi and RPi.GPIO".__
+A three-parter by Alex at RasPi.TV, titled _"How to use interrupts with Python on the Raspberry Pi and RPi.GPIO"._
 
 - [How to use interrupts… Part 1](http://raspi.tv/2013/how-to-use-interrupts-with-python-on-the-raspberry-pi-and-rpi-gpio)
 - [How to use interrupts… Part 2](http://raspi.tv/2013/how-to-use-interrupts-with-python-on-the-raspberry-pi-and-rpi-gpio-part-2)
@@ -227,6 +227,6 @@ If you're brand new to Python…
 
 - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
 
-And if you just can't get your fill of Pi__,__ check out my list of resources on GitHub:
+And if you just can't get your fill of Pi_,_ check out my list of resources on GitHub:
 
 - [314 (or so) Awesome Raspberry Pi Resources](https://github.com/grantwinney/314-or-so-awesome-raspberry-pi-resources)

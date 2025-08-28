@@ -25,11 +25,11 @@ As great as async is, it can be tricky in a legacy app where it's just not feasi
 
 That being said, what I'm going to show you is an anti-pattern of sorts, and it even has a catchy name - "sync over async" - which is explained (and discouraged) by the likes of Stephen Toub, David Fowler, and Stephen Cleary (all very reliable sources in the world of C#/.NET) . I'll link to their articles at the end.
 
-__You should avoid this if you can. But what if you can't?__
+_You should avoid this if you can. But what if you can't?_
 
 > The code in this post is available on [GitHub](https://github.com/grantwinney/SurvivingWinForms/tree/master/Threading/CallingAsyncMethodFromSynchronousCode?ref=grantwinney.com), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
-Let's look at a few ways to do what we (sometimes) gotta do, starting with what we should __never__ do, and finishing up with what we really ought to do.
+Let's look at a few ways to do what we (sometimes) gotta do, starting with what we should _never_ do, and finishing up with what we really ought to do.
 
 ![](https://grantwinney.com/content/images/2023/12/image-11.png)
 
@@ -53,7 +53,7 @@ public async Task<string> ImportantStuffAsync(IProgress<int> progress)
 
 ## How to deadlock an app (bad)
 
-The most obvious way to call async code from sync code is also the most obviously __wrong__ way. Seeing an async method and, knowing you want the result, one might be tempted to just call the method directly and then access `.Result`.
+The most obvious way to call async code from sync code is also the most obviously _wrong_ way. Seeing an async method and, knowing you want the result, one might be tempted to just call the method directly and then access `.Result`.
 
 ```csharp
 // Example 1 - Let's cause a deadlock
@@ -162,7 +162,7 @@ Here's a comprehensive post I found from Stephen Toub, who's worked at Microsoft
 - [Async/Await FAQ](https://devblogs.microsoft.com/pfxteam/asyncawait-faq)
 - [Await, and UI, and deadlocks! Oh my!](https://devblogs.microsoft.com/pfxteam/await-and-ui-and-deadlocks-oh-my)
 
-And from David Fowler, another longtime Microsoft employee who works on .NET and ASP.NET Core, a __looong__ list of do's and don'ts type of advice when it comes to async.
+And from David Fowler, another longtime Microsoft employee who works on .NET and ASP.NET Core, a _looong_ list of do's and don'ts type of advice when it comes to async.
 
 - [ASP.NET Core Diagnostic Scenarios - Asynchronous Programming](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md)
 

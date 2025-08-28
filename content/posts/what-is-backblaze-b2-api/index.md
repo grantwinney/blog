@@ -100,11 +100,11 @@ Flip over to the website if you want, and make sure it was created.
 
 ![backblaze-b2-api---bucket-created](https://grantwinney.com/content/images/2017/12/backblaze-b2-api---bucket-created.png)
 
-It's odd that they allow use of the `GET`, but it's documented. Usually you `GET` some piece of data, whereas creating something would generally be a `POST`. You can do it that way too. __(It's not shown here, but the Authorization token is still in the headers section.)__
+It's odd that they allow use of the `GET`, but it's documented. Usually you `GET` some piece of data, whereas creating something would generally be a `POST`. You can do it that way too. _(It's not shown here, but the Authorization token is still in the headers section.)_
 
 ![backblaze-b2-api---create-another-bucket](https://grantwinney.com/content/images/2017/12/backblaze-b2-api---create-another-bucket.png)
 
-I implemented it in C#, so you can try it out from an actual language and not just Postman. Either copy from here __(fill in your details)__ or [try it on DotNetFiddle](https://dotnetfiddle.net/tFcFdj).
+I implemented it in C#, so you can try it out from an actual language and not just Postman. Either copy from here _(fill in your details)_ or [try it on DotNetFiddle](https://dotnetfiddle.net/tFcFdj).
 
 ```csharp
 using System;

@@ -17,7 +17,7 @@ tags:
   - DotNet5
 title: TaskDialog, a new message box for WinForms in .NET 5
 ---
-Since the earliest versions of .NET, the [MessageBox](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.messagebox) class has given WinForms developers a way to send notifications __(usually alerts and warnings)__ to users. It's always been a very limited control though. Besides the message itself, we can change the icon and choose from a few different button combinations, but that's about it.
+Since the earliest versions of .NET, the [MessageBox](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.messagebox) class has given WinForms developers a way to send notifications _(usually alerts and warnings)_ to users. It's always been a very limited control though. Besides the message itself, we can change the icon and choose from a few different button combinations, but that's about it.
 
 In [.NET 5](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/whats-new/net50?view=netdesktop-9.0#new-controls), we got a new control called [TaskDialog](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.taskdialog) that allows for much more customization. Instead of one main text area, the UI supports a more complex interface for displaying larger messages. Instead of a few preset button combos, we can create our own.. and even define new buttons.
 
@@ -51,7 +51,7 @@ And here's the a prompt with the same behavior, recreated using `TaskDialog`:
 
 ![](https://grantwinney.com/content/images/2024/12/image-11.png)
 
-The code is __very__ similar. We set the properties on a `TaskDialogPage` object and pass that to the `TaskDialog.ShowDialog` method:
+The code is _very_ similar. We set the properties on a `TaskDialogPage` object and pass that to the `TaskDialog.ShowDialog` method:
 
 ```csharp
 var result = TaskDialog.ShowDialog(new TaskDialogPage
@@ -70,7 +70,7 @@ if (result == TaskDialogButton.Yes)
 }
 ```
 
-There's a couple interesting things to point out straightaway. Firstly, we've specified the buttons we wanted __separately__ – we're not constrained by specific combinations of buttons. Secondly, we specified the default button using the __name__ of the button, not the generic `Button1`, `Button2`, etc.
+There's a couple interesting things to point out straightaway. Firstly, we've specified the buttons we wanted _separately_ – we're not constrained by specific combinations of buttons. Secondly, we specified the default button using the _name_ of the button, not the generic `Button1`, `Button2`, etc.
 
 What else can we do?
 
@@ -168,7 +168,7 @@ The `Verification` property lets us add a custom `TaskDialogVerificationCheckBox
 
 ## Self destruct in...
 
-Or maybe we want to notify the user that _****they only have 5 seconds to take some action!!!****_ This doesn't work very well, since once a dialog is displayed, the user must take some action to make it go away. But I want to show off another feature of the `TaskDialog` control and I'm running low on ideas. 😏
+Or maybe we want to notify the user that _**they only have 5 seconds to take some action!!!**_ This doesn't work very well, since once a dialog is displayed, the user must take some action to make it go away. But I want to show off another feature of the `TaskDialog` control and I'm running low on ideas. 😏
 
 ```csharp
 var pb = new TaskDialogProgressBar { Value = 5, Minimum = 0, Maximum = 5 };

@@ -55,7 +55,7 @@ Internally, this runs pretty much the same code as the above method, except it d
 
 ## An Extension Method to Combine Both
 
-Let's combine both of these methods into a single extension method, so we can both specify the return data type __and__ reference the column name instead of the index:
+Let's combine both of these methods into a single extension method, so we can both specify the return data type _and_ reference the column name instead of the index:
 
 ```csharp
 public static class SqlReaderExtensions

@@ -19,7 +19,7 @@ I stumbled on a pull request recently, in which the suggestion was made to repla
 
 > The code in this post is available on <a href="https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2009/SwitchPatternMatchingVsIfElse">GitHub</a>, for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
-Thinking back to when __I've__ used one over the other, I'd say I reserve `switch/case` for sets with a distinct, finite number of values. Say you want to set a couple flags, based on the current set piece being manipulated in a game of chess. You might use code like this:
+Thinking back to when _I've_ used one over the other, I'd say I reserve `switch/case` for sets with a distinct, finite number of values. Say you want to set a couple flags, based on the current set piece being manipulated in a game of chess. You might use code like this:
 
 ```csharp
 enum ChessPiece { Rook, Knight, Bishop, King, Queen, Pawn }
@@ -80,7 +80,7 @@ var canMoveStraight = currentChessPiece == ChessPiece.Rook
 
 ## Traditional switch/case can't match if/else
 
-One of the drawbacks to `switch/case` has traditionally been that it could only test __distinct__ values - not a range of values like greater or less than. A particular "case" could test a single value, but it couldn't do anything too fancy.
+One of the drawbacks to `switch/case` has traditionally been that it could only test _distinct_ values - not a range of values like greater or less than. A particular "case" could test a single value, but it couldn't do anything too fancy.
 
 ```csharp
 switch (bankBalance)
@@ -129,7 +129,7 @@ A few years back, [I wrote about the Open Notify API](https://grantwinney.com/wh
  "iss_position": {"latitude": "-50.8709", "longitude": "-6.0132"}}
 ```
 
-First, we need a couple classes to hold the response. The "message" property contains the status of the API call, and the "iss_position" is, well.. I'll leave it to your imagination. __(A__ [__review of latitude and longitude__](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616)__, for those who want extra credit, lol.)__
+First, we need a couple classes to hold the response. The "message" property contains the status of the API call, and the "iss_position" is, well.. I'll leave it to your imagination. _(A_ [_review of latitude and longitude_](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616)_, for those who want extra credit, lol.)_
 
 ```csharp
 public class IssResponse
@@ -154,7 +154,7 @@ public class IssPosition
 }
 ```
 
-Then we'll hit the API endpoint using [RestSharp](https://restsharp.dev/) and parse out the response into a couple variables for latitude and longitude. __(Normally I'd test the bool value that__ _`_decimal.TryParse_`_ __returns, but I'm assuming, perhaps incorrectly, that if the API were going to return invalid long/lat values, then the "message" would not be "success".)__
+Then we'll hit the API endpoint using [RestSharp](https://restsharp.dev/) and parse out the response into a couple variables for latitude and longitude. _(Normally I'd test the bool value that_ _`_decimal.TryParse_`_ _returns, but I'm assuming, perhaps incorrectly, that if the API were going to return invalid long/lat values, then the "message" would not be "success".)_
 
 ```csharp
 var client = new RestClient();
@@ -167,7 +167,7 @@ decimal.TryParse(response?.Position.Longitude, out var longitude);
 
 ### If/else
 
-Alrighty then. If we wanted to print out a message to the user about the location of the ISS, we __could__ use a bunch of nested `if/else` statements like this:
+Alrighty then. If we wanted to print out a message to the user about the location of the ISS, we _could_ use a bunch of nested `if/else` statements like this:
 
 ```csharp
 switch (response?.Message)
@@ -236,9 +236,9 @@ switch (response?.Message)
 
 ### Switch case WITH pattern matching
 
-But with pattern matching (guard clauses / whatever), the above is possible to fully convert. We can check that when the message is "success" and lat/long are both greater than 0, we hit one case, but if the message is "success" and lat/long are both __less__ than 0, we hit another case... and on and on.
+But with pattern matching (guard clauses / whatever), the above is possible to fully convert. We can check that when the message is "success" and lat/long are both greater than 0, we hit one case, but if the message is "success" and lat/long are both _less_ than 0, we hit another case... and on and on.
 
-There are __tons__ of different patterns too, and even shorthand ways of writing it that save some keystrokes. If you're interested in more, go check out the [pattern matching enhancements](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-9#pattern-matching-enhancements) in C# 9 and the [switch expression](https://learn.microsoft.com/en-US/dotnet/csharp/language-reference/operators/switch-expression) docs, and then whatever those link to. Or just keep in mind that this is available as another tool, and the next time you're thinking about using a switch/case, give them the once over.
+There are _tons_ of different patterns too, and even shorthand ways of writing it that save some keystrokes. If you're interested in more, go check out the [pattern matching enhancements](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-9#pattern-matching-enhancements) in C# 9 and the [switch expression](https://learn.microsoft.com/en-US/dotnet/csharp/language-reference/operators/switch-expression) docs, and then whatever those link to. Or just keep in mind that this is available as another tool, and the next time you're thinking about using a switch/case, give them the once over.
 
 ```csharp
 switch (response?.Message)
@@ -305,9 +305,9 @@ void RunReport(string userAction, User user)
 
 ### There's always another way
 
-And of course, don't forget that there's always another way to do things, and sometimes neither a huge `if/else` __or__ `switch/case` block result in the shortest, concisest, [DRY](https://docs.getdbt.com/terms/dry)est code you could write.
+And of course, don't forget that there's always another way to do things, and sometimes neither a huge `if/else` _or_ `switch/case` block result in the shortest, concisest, [DRY](https://docs.getdbt.com/terms/dry)est code you could write.
 
-Back to the API example, here's a __much__ shorter way to do the same as all the above, using a few [ternary conditional operators](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/conditional-operator) and some [string interpolation](https://grantwinney.com/using-string-interpolation-to-craft-readable-strings/). Whether it's more readable is an exercise I'll leave to the reader. ;)
+Back to the API example, here's a _much_ shorter way to do the same as all the above, using a few [ternary conditional operators](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/conditional-operator) and some [string interpolation](https://grantwinney.com/using-string-interpolation-to-craft-readable-strings/). Whether it's more readable is an exercise I'll leave to the reader. ;)
 
 ```csharp
 var latMsg = latitude > 0 ? "northern hemisphere" : latitude == 0 ? "equator" : "southern hemisphere";

@@ -30,8 +30,8 @@ Last week, [I made the Raspberry Pi blink an LED a few times](https://grantwinne
 
 To do this, a few things are necessary:
 
-- Install Raspbian on the Pi __(comes with Python 3 preinstalled)__
-- Get a kit with a breadboard, LED and resistor __(cobbler is optional, but helpful)__
+- Install Raspbian on the Pi _(comes with Python 3 preinstalled)_
+- Get a kit with a breadboard, LED and resistor _(cobbler is optional, but helpful)_
 - [Setup a breadboard with an LED and resistor](https://grantwinney.com/hello-world-for-the-raspberry-pi-making-an-led-blink/)
 
 ## What is Morse Code?
@@ -64,7 +64,7 @@ Here are a few notable notes about the approach I took.
 
 ### The Circuit
 
-A closeup of the circuit I created. __Pin 21 » LED » resistor » ground__
+A closeup of the circuit I created. _Pin 21 » LED » resistor » ground_
 
 ![breadboard single led circuit](https://grantwinney.com/content/images/2016/03/breadboard-single-led-circuit.jpg)
 
@@ -130,7 +130,7 @@ Whether importing the real library or my mock, I made sure to give them an alias
 
 The user can input a full sentence, but that has to be broken down into smaller components for transmission.
 
-Python’s `split()` command breaks up the initial sentence into words nicely, and from there it’s loops all the way down. Do __something__ for each symbol, in each letter, in each word.
+Python’s `split()` command breaks up the initial sentence into words nicely, and from there it’s loops all the way down. Do _something_ for each symbol, in each letter, in each word.
 
 And since all intervals between the dots and dashes are simply a multiple of the base unit time, defined as the time for a single “dot”, I created a variable called `UNIT_TIME` that represents seconds. Everything else – dots, dashes, space between letters and words, is based off of that, per the rules above. We can change the value in `UNIT_TIME` to transmit messages more quickly or more slowly.
 
@@ -148,8 +148,8 @@ Other random things I learned…
 
 The circuit I created for this was as simple as it gets. But I’ve seen some that use most of the breadboard and have wires crossing everywhere, and in those cases a tool that helps map out the design of the circuit may be useful. I haven’t tried these yet, so I can’t say much else.
 
-- [Fritzing](http://fritzing.org/home/), __electronics made easy__
-- [123D Circuits](https://123d.circuits.io/), __electronics from beginner to pro__
+- [Fritzing](http://fritzing.org/home/), _electronics made easy_
+- [123D Circuits](https://123d.circuits.io/), _electronics from beginner to pro_
 - [EasyEDA](https://easyeda.com/),* circuit simulation, PCB design, electronic circuit design online*
 
 ### Tutorials

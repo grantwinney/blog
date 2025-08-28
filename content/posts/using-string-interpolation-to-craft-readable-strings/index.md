@@ -61,7 +61,7 @@ var message2 = string.Format(fmtStr, "Bob", DateTime.Now, 1, "loving", "coffee")
 var message3 = string.Format(fmtStr, "Marcus Antoninus", DateTime.Now.AddYears(-1900), 5, "unsure about", "wine");
 ```
 
-Still, the values are listed __after__ the string, so you have to scan back and forth to see what goes where. It's also really easy to rearrange the placeholders, or insert new ones, and end up replacing a placeholder with the wrong value when something gets out of order.
+Still, the values are listed _after_ the string, so you have to scan back and forth to see what goes where. It's also really easy to rearrange the placeholders, or insert new ones, and end up replacing a placeholder with the wrong value when something gets out of order.
 
 ## String Interpolation
 
@@ -82,7 +82,7 @@ var message = $@"Storing {txtName.Text}'s speeches in ""c:\users\{string.Join(""
 // Output: Storing Abraham Lincoln's speeches in "c:\users\abrahamlincoln"
 ```
 
-Of course, anything can be taken to an extreme and become unreadable again. If you add a bunch of nested ternary operators just to try and keep everything in one string, it'd be better to just define them __before__ the string.
+Of course, anything can be taken to an extreme and become unreadable again. If you add a bunch of nested ternary operators just to try and keep everything in one string, it'd be better to just define them _before_ the string.
 
 If you want to learn even more about strings, check out Microsoft's documentation on [using string interpolation](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/exploration/interpolated-strings-local) and [more ways to concatenate strings](https://learn.microsoft.com/en-us/dotnet/csharp/how-to/concatenate-multiple-strings).
 

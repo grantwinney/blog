@@ -65,7 +65,7 @@ lorem ipsum whatever lorem ipsum whatever lorem ipsum whatever
 
 ## Add Hidden Comments
 
-If you want to add a comment to your markdown file on GitHub - something to note but that shouldn't render when the page is viewed - here's a little hack that takes advantage of the same "[link](https://daringfireball.net/projects/markdown/syntax#link)" syntax used in the previous example. __(The double-slash is the link id, the hash is the URL, and the comment in parenthesis is the link title.)__
+If you want to add a comment to your markdown file on GitHub - something to note but that shouldn't render when the page is viewed - here's a little hack that takes advantage of the same "[link](https://daringfireball.net/projects/markdown/syntax#link)" syntax used in the previous example. _(The double-slash is the link id, the hash is the URL, and the comment in parenthesis is the link title.)_
 
 ```
 [//]: # (This comment won't be rendered to the visitor!)
@@ -91,7 +91,7 @@ The only caveat is that it's not under source control, but I can't really see th
 
 But what if you get your image inserted and it's obnoxiously huge? You can't resize an image using markdown.
 
-Well, GitHub doesn't support __all__ HTML tags - for example the `style` tag - but it __does__ support a subset. You can [check out their filter](https://github.com/jch/html-pipeline/blob/master/lib/html/pipeline/sanitization_filter.rb#L38-L107) for yourself, but here's the list of tags they support:
+Well, GitHub doesn't support _all_ HTML tags - for example the `style` tag - but it _does_ support a subset. You can [check out their filter](https://github.com/jch/html-pipeline/blob/master/lib/html/pipeline/sanitization_filter.rb#L38-L107) for yourself, but here's the list of tags they support:
 
 ```
 h1 h2 h3 h4 h5 h6 h7 h8 br b i strong em a pre code img tt div ins del
@@ -110,7 +110,7 @@ The `img` tag is in the list, so just switch to standard HTML to resize it. It e
 
 ## Add Some Color to Your Life
 
-You can't color your text using markdown, but you __can__ use an image placeholder service like [placeholder.com](https://placeholder.com/) to create some useful effects that make sections of your Readme file, etc stand out.
+You can't color your text using markdown, but you _can_ use an image placeholder service like [placeholder.com](https://placeholder.com/) to create some useful effects that make sections of your Readme file, etc stand out.
 
 ```markdown
 ## COLOR!
@@ -132,7 +132,7 @@ The above markdown is rendered like this:
 
 ---
 
-****What else?****
+**What else?**
 
 I was hoping to find some trick for generating a table of contents, but alas after [years of ongoing discussion](https://github.com/isaacs/github/issues/215)... nada. There are other solutions like [github-markdown-toc](https://github.com/ekalinin/github-markdown-toc) and the [Github Markdown Outline](https://chrome.google.com/webstore/detail/github-markdown-outline-e/gccinjjdbfdkkkebfbeipopijjfohfgj) chrome extension, but nothing native. Who knows though... maybe since [Microsoft bought GitHub](https://itsfoss.com/microsoft-github/) and is [actively adding features](https://dzone.com/articles/github-roadmap-better-for-everyone), we'll see more features built-in.
 

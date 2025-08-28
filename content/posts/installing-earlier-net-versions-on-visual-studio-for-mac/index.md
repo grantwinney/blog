@@ -20,7 +20,7 @@ tags:
 title: 'How to select an earlier .NET version on Visual Studio for Mac (tl;dr: you
   can''t)'
 ---
-I saw an implementation of some C# code this week that looked like it __should__ work, but wasn't producing the expected results for me using .NET 4.6. I thought I'd setup a local project in [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/) and then turn the clock back a bit to see if maybe how the code was implemented changed between .NET versions. That'd actually be pretty unusual, since .NET values backwards compatibility, but [it's not unheard of](https://blogs.msdn.microsoft.com/ericlippert/2009/11/16/closing-over-the-loop-variable-part-two/).
+I saw an implementation of some C# code this week that looked like it _should_ work, but wasn't producing the expected results for me using .NET 4.6. I thought I'd setup a local project in [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/) and then turn the clock back a bit to see if maybe how the code was implemented changed between .NET versions. That'd actually be pretty unusual, since .NET values backwards compatibility, but [it's not unheard of](https://blogs.msdn.microsoft.com/ericlippert/2009/11/16/closing-over-the-loop-variable-part-two/).
 
 So I spent a few evenings trying to target a C# project for an earlier version of .NET, which seemed as if it were going to be trivial. You can right-click a project and choose options to find a dropdown under the "Build" settings, which is very similar to Visual Studio on Windows.
 
@@ -43,7 +43,7 @@ When I checked the .NET Runtimes tab in preferences, all I had was Mono 5. Okay,
 
 ![mono-5-only](https://grantwinney.com/content/images/2018/08/mono-5-only.png)
 
-I [downloaded](https://download.mono-project.com/archive/) the last release for 2.x, 3.x, etc and installed them all. Afterwards, I tried different combinations of Mono release __(Project / Active Runtime)__ to .NET framework, but no luck there either. Same error.
+I [downloaded](https://download.mono-project.com/archive/) the last release for 2.x, 3.x, etc and installed them all. Afterwards, I tried different combinations of Mono release _(Project / Active Runtime)_ to .NET framework, but no luck there either. Same error.
 
 ![all-the-monos](https://grantwinney.com/content/images/2018/08/all-the-monos.png)
 
@@ -73,6 +73,6 @@ After doing some more research, I found [release notes for MonoDevelop 4.0.0](ht
 
 Use Visual Studio on Windows, I guess. Seriously. I found at least [one workaround](https://blog.rubenwardy.com/2016/07/20/rimworld-install-monodevelop-with-dot-net-3.5/) but it seems to be for MonoDevelop only, not Visual Studio. Realizing your only option is to compile from source code makes you take a long, hard look at how badly you need to test a piece of code. For me, not that badly. 😩
 
-I think the most frustrating thing is that this app, which is really a [rebranded Xamarin Studio](https://developer.xamarin.com/releases/studio/xamarin.studio_6.3/xamarin.studio_6.3/), is marketed like it's the full Visual Studio IDE ported from Windows to Mac. It is absolutely _****not****_. A better name would've helped avoid confusion __(__[__something that frustrated devs from the moment it launched__](https://news.ycombinator.com/item?id=14308754)__),__ but MS has had a rough history of finding good names for products.
+I think the most frustrating thing is that this app, which is really a [rebranded Xamarin Studio](https://developer.xamarin.com/releases/studio/xamarin.studio_6.3/xamarin.studio_6.3/), is marketed like it's the full Visual Studio IDE ported from Windows to Mac. It is absolutely _**not**_. A better name would've helped avoid confusion _(_[_something that frustrated devs from the moment it launched_](https://news.ycombinator.com/item?id=14308754)_),_ but MS has had a rough history of finding good names for products.
 
 ![](https://grantwinney.com/content/images/2018/08/vs4mac-installation.jpg)

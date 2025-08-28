@@ -45,7 +45,7 @@ Or if you have Dialyzer configured, you'll see a very similar error:
 test.erl:4: function print_age/1 is unused
 ```
 
-But, but... we know this function __will__ be used! How do we get rid of the error?
+But, but... we know this function _will_ be used! How do we get rid of the error?
 
 ## Solution #1 (meh - suppressing the warning)
 
@@ -101,6 +101,6 @@ You can read more about the [gen_server](http://erlang.org/doc/man/gen_server.ht
 - The rest of your codebase has to continue running, so it can't wait at the timer.
 - Your function call has to be stored somewhere until it's ready to execute (after the delay you specify).
 
-And where it's stored is in a separate process with its own modules and functions, out of the way of the current process that needs to keep running. But in order for the new process to access the original function you specified, that function __must__ be exported. One module can't access a function in another module unless it's exported.
+And where it's stored is in a separate process with its own modules and functions, out of the way of the current process that needs to keep running. But in order for the new process to access the original function you specified, that function _must_ be exported. One module can't access a function in another module unless it's exported.
 
 Unfortunately, that's a little messy since you may not want other modules to be able to call that function (which is possible once it's exported), but the only way I see around that is to [leave good documentation](http://erlang.org/doc/man/edoc.html) on your code.

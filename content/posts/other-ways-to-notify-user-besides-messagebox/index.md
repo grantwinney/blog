@@ -21,13 +21,13 @@ title: Simple ways to notify a user without a MessageBox in WinForms
 ---
 I think all of us would agree that when we're notified about something, it's best to have it jammed in front of our faces, interrupting whatever else we're doing until we deal with it. The latest issue, whatever it is, is the most pressing and should demand our immediate attention. This is the way. 😑
 
-Unfortunately, this really is the way for most WinForms apps I've seen. Whatever a user is doing at the moment, if they run into an issue, the defacto action is to just throw a MessageBox in front of them. Since most WinForms apps tend to be single-threaded, with only one thing being done at a time, most messages that pop up __are__ related to whatever the user is doing at the moment. Maybe that'll change if more devs adopt the [async/await pattern](https://grantwinney.com/using-async-await-and-task-to-keep-the-winforms-ui-more-responsive/), but that'll take a long time.
+Unfortunately, this really is the way for most WinForms apps I've seen. Whatever a user is doing at the moment, if they run into an issue, the defacto action is to just throw a MessageBox in front of them. Since most WinForms apps tend to be single-threaded, with only one thing being done at a time, most messages that pop up _are_ related to whatever the user is doing at the moment. Maybe that'll change if more devs adopt the [async/await pattern](https://grantwinney.com/using-async-await-and-task-to-keep-the-winforms-ui-more-responsive/), but that'll take a long time.
 
 A `MessageBox` isn't the only way to notify a user that something has happened or needs attention though, so let's take a look at a few alternatives!
 
 > The code in this post is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Presentation/Native/AlternativesToMessageBox?ref=grantwinney.com), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
-Before continuing, keep in mind that everything below should be taken with a grain of salt. I'm not selling anything here as the best idea for an app (ymmv and all that), but since most of the projects I've ever worked on included requirements for new messages to popup in front of the user, I thought it'd be fun to look at what __else__ we could do.
+Before continuing, keep in mind that everything below should be taken with a grain of salt. I'm not selling anything here as the best idea for an app (ymmv and all that), but since most of the projects I've ever worked on included requirements for new messages to popup in front of the user, I thought it'd be fun to look at what _else_ we could do.
 
 ## StatusStrip
 
@@ -161,4 +161,4 @@ And here's everything in one go.
 
 ![](https://grantwinney.com/content/images/2023/08/allthemessages.gif)
 
-Like I said earlier, these are just little examples to be taken with a grain of salt. The point is, a `MessageBox` is not the __only__ way to send notifications to users. Depending on your needs, maybe something here will work or at least get the creative juices flowing.. and I'm sure there are __plenty__ of more robust ways out there for the intrepid dev. Good luck!
+Like I said earlier, these are just little examples to be taken with a grain of salt. The point is, a `MessageBox` is not the _only_ way to send notifications to users. Depending on your needs, maybe something here will work or at least get the creative juices flowing.. and I'm sure there are _plenty_ of more robust ways out there for the intrepid dev. Good luck!

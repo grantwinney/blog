@@ -17,7 +17,7 @@ As of this writing, I'm using the default "Casper" theme that installs with Ghos
 
 ## Hack #1: Adding a "Subscribe to Tag" RSS feed button
 
-Ghost can generate RSS feeds for individual tags, but they're not all that discoverable. To help your visitors, ****add the last line**** in the following snippet to the `ghost/content/themes/casper/tag.hbs` file. It combines your blog url and the tag url to generate a custom RSS link your visitors can use.
+Ghost can generate RSS feeds for individual tags, but they're not all that discoverable. To help your visitors, **add the last line** in the following snippet to the `ghost/content/themes/casper/tag.hbs` file. It combines your blog url and the tag url to generate a custom RSS link your visitors can use.
 
 ```html
 <h1 class="page-title">{{name}}</h1>
@@ -31,7 +31,7 @@ Ghost can generate RSS feeds for individual tags, but they're not all that disco
 <a class="icon-feed rss-tag" href="{{@blog.url}}{{url}}rss/">Subscribe to this tag</a>
 ```
 
-This produces a new "subscribe" link under the tag description when viewing a particular tag. __(Here I've applied some color and shadow effects to the other elements too.)__
+This produces a new "subscribe" link under the tag description when viewing a particular tag. _(Here I've applied some color and shadow effects to the other elements too.)_
 
 ![](https://grantwinney.com/content/images/2017/03/ghost-subscribe-to-tag.png)
 
@@ -129,7 +129,7 @@ You can modify that to check for the presence of a `meta_title` and `meta_descri
     </section>
 ```
 
-And here's how it renders. The first post has a meta title __and__ meta description specified, but the second has neither.
+And here's how it renders. The first post has a meta title _and_ meta description specified, but the second has neither.
 
 ![](https://grantwinney.com/content/images/2024/09/image-4.png)
 
@@ -143,6 +143,6 @@ I originally found a nice script to generate a table of contents, then forked it
 
 ---
 
-****What do you think of these little hacks?****
+**What do you think of these little hacks?**
 
 Did you find them helpful? Did you improve on any of them, or come up with your own? Feel free to share your thoughts and comments below!

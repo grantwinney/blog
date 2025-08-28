@@ -25,7 +25,7 @@ Without further ado...
 Author: Google  
 Toolset: [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
 
-- To view elements of the page (DOM/CSS), either right-click and select "Inspect" ****or**** press `Command+Option+C` (Mac) or `Control+Shift+C` (Windows, Linux, Chrome OS).
+- To view elements of the page (DOM/CSS), either right-click and select "Inspect" **or** press `Command+Option+C` (Mac) or `Control+Shift+C` (Windows, Linux, Chrome OS).
 - To view the console (logged messages, run JavaScript), press `Command+Option+J` (Mac) or `Control+Shift+J` (Windows, Linux, Chrome OS).
 
 ## Firefox
@@ -44,7 +44,7 @@ Toolset: Developer Tools Console
 
 The shortcuts seem to be the same as Chrome, at least by default.
 
-- To view elements of the page (DOM/CSS), either right-click and select "Inspect" ****or**** press `Command+Option+C` (Mac) or `Control+Shift+C` (Windows, Linux, Chrome OS).
+- To view elements of the page (DOM/CSS), either right-click and select "Inspect" **or** press `Command+Option+C` (Mac) or `Control+Shift+C` (Windows, Linux, Chrome OS).
 - To view the console (logged messages, run JavaScript), press `Command+Option+J` (Mac) or `Control+Shift+J` (Windows, Linux, Chrome OS).
 
 You can also change the shortcuts if you'd like:
@@ -60,7 +60,7 @@ Toolset: Developer Tools
 
 The shortcuts seem to be the same as Chrome and Opera.
 
-- To view elements of the page (DOM/CSS), either right-click and select "Inspect" ****or**** press `Command+Option+C` (Mac) or `Control+Shift+C` (Windows, Linux, Chrome OS).
+- To view elements of the page (DOM/CSS), either right-click and select "Inspect" **or** press `Command+Option+C` (Mac) or `Control+Shift+C` (Windows, Linux, Chrome OS).
 - To view the console (logged messages, run JavaScript), press `Command+Option+J` (Mac) or `Control+Shift+J` (Windows, Linux, Chrome OS).
 
 ## Internet Explorer
@@ -77,7 +77,7 @@ Author: Microsoft
 Toolset: [Microsoft Edge DevTools](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide)
 
 - Press `F12` or `Control+Shift+J` or `Control+Shift+I`.
-- Or right-click and choose "View source" or "Inspect element" __(possibly only after opening the DevTools at least once)__.
+- Or right-click and choose "View source" or "Inspect element" _(possibly only after opening the DevTools at least once)_.
 
 ## Safari
 

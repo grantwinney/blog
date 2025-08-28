@@ -24,7 +24,7 @@ First though, two things to consider:
 
 ## API Explorer
 
-This is pretty cool, and something I didn't see with the other APIs I've looked at. Dropbox developed an [API Explorer](https://dropbox.github.io/dropbox-api-v2-explorer/) that lets you try various endpoints right through the website. Just choose an endpoint, click the "Get Token" button __(you need to have an account and be signed in),__ and then fill in whatever details are required for the endpoint you selected. It even links to the relevant documentation, and code you can use outside of the API Explorer... very handy.
+This is pretty cool, and something I didn't see with the other APIs I've looked at. Dropbox developed an [API Explorer](https://dropbox.github.io/dropbox-api-v2-explorer/) that lets you try various endpoints right through the website. Just choose an endpoint, click the "Get Token" button _(you need to have an account and be signed in),_ and then fill in whatever details are required for the endpoint you selected. It even links to the relevant documentation, and code you can use outside of the API Explorer... very handy.
 
 ### List Contents of a Folder
 
@@ -81,7 +81,7 @@ Now [move a file](https://dropbox.github.io/dropbox-api-v2-explorer/#files_move)
 
 ## Authenticating
 
-In order to play around __without__ using their API Explorer, you'll need an access token. You can either copy the one that the API Explorer generated for you, or you can create a new app.
+In order to play around _without_ using their API Explorer, you'll need an access token. You can either copy the one that the API Explorer generated for you, or you can create a new app.
 
 If you decide to create a new app, [go here](https://www.dropbox.com/developers/apps), press "Create app", choose "Dropbox API" and "Full Dropbox", then smash a bunch of keys for the name of your app - because apparently it has to be a unique name among every app anyone has ever made. 😕
 
@@ -93,7 +93,7 @@ Press "Create app" and on the next page you'll find a section that lets you gene
 
 The API Explorer also includes the actual code you can use to make the call on your own. Look for the "Show Code" button and click it.
 
-__You'll need these headers specified for the following examples:__
+_You'll need these headers specified for the following examples:_
 
 ![dropbox-api---headers](https://grantwinney.com/content/images/2017/12/dropbox-api---headers.png)
 

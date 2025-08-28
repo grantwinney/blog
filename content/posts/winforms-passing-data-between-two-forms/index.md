@@ -25,7 +25,7 @@ Let's take a closer look.
 
 When one Form displays another Form to collect user input, or to display a database record for editing, the changes a user makes need to make it back to the first Form or risk being lost.
 
-One way to pass the data is to push it back to the parent Form from the child Form. ****A**** **`**Form**`** ****is just another class, and in order to call methods or change properties of**** _****any****_ ****class, you need to have a reference to an instance of it.**** There's some caveats to doing it this way, which I'll point out in a minute.
+One way to pass the data is to push it back to the parent Form from the child Form. **A** *`*Form*`* **is just another class, and in order to call methods or change properties of** _**any**_ **class, you need to have a reference to an instance of it.** There's some caveats to doing it this way, which I'll point out in a minute.
 
 Let's assume we have a simple app with just two Forms - a parent and a child. Here's the code behind `ParentForm`:
 
@@ -78,7 +78,7 @@ So what's so bad about this code?
 
 I see two issues with this code, and the first is reusability. Imagine that next week, we want to use `ChildForm` from another, new Form. `ChildForm` will need to be reworked because it currently has a constructor that expects to be passed `ParentForm`. We'll have to add more code and more complexity to `ChildForm`, so it's not easily reusable.
 
-The second issue is that `ChildForm` has knowledge it doesn't need. There is no reason for `ChildForm` to know about other forms, user controls, class libraries, etc that could potentially use it. In general, a thing being __called__ should know very little (or nothing) about the thing calling it.
+The second issue is that `ChildForm` has knowledge it doesn't need. There is no reason for `ChildForm` to know about other forms, user controls, class libraries, etc that could potentially use it. In general, a thing being _called_ should know very little (or nothing) about the thing calling it.
 
 Imagine as our app grows, we have two Forms calling `ChildForm` to get a name and age. One calls a new instance of `ChildForm`, passing an instance of itself, and has a public `EmployeeName` property that `ChildForm` can call:
 
@@ -165,7 +165,7 @@ public partial class DetailForm : Form
 }
 ```
 
-The two fields on `ChildForm`, to collect a name and age, are both made accessible to other forms, classes, etc that might need them. It doesn't know for sure that a caller __will__ need them, or anything else about potential callers – and that's a good thing.
+The two fields on `ChildForm`, to collect a name and age, are both made accessible to other forms, classes, etc that might need them. It doesn't know for sure that a caller _will_ need them, or anything else about potential callers – and that's a good thing.
 
 Here's how one Form might call `ChildForm`, and it only cares about the name:
 
@@ -181,7 +181,7 @@ private void btnGetUserInput_Click(object sender, EventArgs e)
 }
 ```
 
-Then another Form calls `ChildForm`, this time keeping both name __and__ age:
+Then another Form calls `ChildForm`, this time keeping both name _and_ age:
 
 ```csharp
 private void btnGetUserInput_Click(object sender, EventArgs e)

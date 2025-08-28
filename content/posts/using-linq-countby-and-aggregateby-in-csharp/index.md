@@ -71,7 +71,7 @@ var empCountByDept = employees
     .Select(grp => new KeyValuePair<string, int>(grp.Key, grp.Count()));
 ```
 
-Using the new `CountBy` method, this becomes a __very__ short statement:
+Using the new `CountBy` method, this becomes a _very_ short statement:
 
 ```csharp
 var empCountByDept = employees.CountBy(e => e.Dept);
@@ -106,7 +106,7 @@ var mgrCount1 =
 var mgrCount2 = employees.Count(e => e.Title == "Manager");
 ```
 
-That's all I'll say about that. Just keep it in mind when you look at the examples below. If you start thinking, __"wait, couldn't you just use...?",__ you're probably right.
+That's all I'll say about that. Just keep it in mind when you look at the examples below. If you start thinking, _"wait, couldn't you just use...?",_ you're probably right.
 
 Here's how we might use `GroupBy` and `Aggregate` to create a list of departments and the total salaries for each of those departments. First, we group by department, then we return a list of `KeyValuePair` objects with the department name (stored in `deptGroup.Key`) and an aggregate value. For the aggregate, we start with 0 (the seed), and then add each employee's salary to the previous total, one by one.
 
@@ -132,7 +132,7 @@ Total salaries for IT: $360,000.00
 Total salaries for Sales: $431,000.00
 ```
 
-Let's look at one more example, querying all employees making over 100k, by job title. First, we group by titles, then aggregate an ongoing total again. Unlike the simple salary before, we now have a Tuple that stores a counter __and__ a total salary:
+Let's look at one more example, querying all employees making over 100k, by job title. First, we group by titles, then aggregate an ongoing total again. Unlike the simple salary before, we now have a Tuple that stores a counter _and_ a total salary:
 
 ```csharp
 var employeesOver100k = employees

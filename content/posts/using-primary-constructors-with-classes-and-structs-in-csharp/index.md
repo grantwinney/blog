@@ -26,7 +26,7 @@ One of the features we got as part of C# 12 is called primary constructors, whic
 
 ## Using Primary Constructors in Classes
 
-Here's a standard class, representing a satellite. There's a constructor that sets some properties, only one of which (`IsActive`) can be changed after instantiation: __(why? who knows, lol)__
+Here's a standard class, representing a satellite. There's a constructor that sets some properties, only one of which (`IsActive`) can be changed after instantiation: _(why? who knows, lol)_
 
 ```csharp
 internal class Satellite
@@ -129,9 +129,9 @@ internal record struct SatellitePosition(
     string Latitude, string Longitude, decimal Altitude, DateTimeOffset Time);
 ```
 
-It's worth mentioning there's some different behavior here though, than what we saw in the class. Whereas a `record class` generates readonly properties for us, a `record struct` generates properties that __can__ be changed.
+It's worth mentioning there's some different behavior here though, than what we saw in the class. Whereas a `record class` generates readonly properties for us, a `record struct` generates properties that _can_ be changed.
 
-If we want to prevent an individual property from being changed, we can define it ourselves like this (or add `readonly` to the signature to make __everything__ readonly):
+If we want to prevent an individual property from being changed, we can define it ourselves like this (or add `readonly` to the signature to make _everything_ readonly):
 
 ```csharp
 internal record struct SatellitePosition(string Latitude, string Longitude, decimal Altitude, DateTimeOffset Time)
@@ -150,7 +150,7 @@ satpos.Latitude = "44.3°S";
 
 ## Other Concerns
 
-If we need to do something else when a class or struct is instantiated, it __is__ possible to add a normal constructor in addition to the primary constructor, as long as the constructor calls the primary constructor and passes some default values:
+If we need to do something else when a class or struct is instantiated, it _is_ possible to add a normal constructor in addition to the primary constructor, as long as the constructor calls the primary constructor and passes some default values:
 
 ```csharp
 internal struct SatellitePosition(

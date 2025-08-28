@@ -138,7 +138,7 @@ This one's nice. Dialyzer can tell you pretty easily if a function is dead code.
 
 > Function function/2 will never be called
 
-Look for functions that are not exported or used anywhere in the module. You'll usually get a warning when compiling, even without Dialyzer. This might seem obvious, but if you're dealing with source files that are a couple thousand lines with a hundred functions calling one another, dead code can hide pretty well. And once you remove one dead function, it may turn out other code that __it__ was calling is dead too.
+Look for functions that are not exported or used anywhere in the module. You'll usually get a warning when compiling, even without Dialyzer. This might seem obvious, but if you're dealing with source files that are a couple thousand lines with a hundred functions calling one another, dead code can hide pretty well. And once you remove one dead function, it may turn out other code that _it_ was calling is dead too.
 
 ```erlang
 -module(test).
@@ -154,9 +154,9 @@ create_greeting(Name, Greeting) ->
 
 ## The Pattern Can Never Match
 
-As you add more Dialyzer specs, it's capable of analyzing your code to determine where certain clauses couldn't __possibly__ be hit. This is great for removing unused code, including unnecessary "catch-all" clauses.
+As you add more Dialyzer specs, it's capable of analyzing your code to determine where certain clauses couldn't _possibly_ be hit. This is great for removing unused code, including unnecessary "catch-all" clauses.
 
-> The pattern __some_pattern__ can never match since previous clauses completely covered the type __some_type__
+> The pattern _some_pattern_ can never match since previous clauses completely covered the type _some_type_
 
 > The variable some_variable can never match since previous clauses completely covered the type some_type
 
@@ -178,7 +178,7 @@ get_value({_, _}) ->  % The pattern {_, _} can never match since previous clause
     undefined.        %   completely covered the type 'undefined' | {'ok',_}
 ```
 
-In the above example, the "catch-all" __might__ be valid, except that all possible values for the type were covered in previous clauses. Remove one of those clauses though, and the "catch-all" could be valuable.
+In the above example, the "catch-all" _might_ be valid, except that all possible values for the type were covered in previous clauses. Remove one of those clauses though, and the "catch-all" could be valuable.
 
 Sometimes though, there's a clause that's just plain wrong. It attempts to handle a value that could never be passed to it.
 
@@ -227,7 +227,7 @@ get_age(#person{age = Age}) ->
 
 ## Function Has No Local Return
 
-This one can be tricky, and sometimes shows up as (or with) different errors __(such as the next one, record construction xyz violates the declared type of field)__.
+This one can be tricky, and sometimes shows up as (or with) different errors _(such as the next one, record construction xyz violates the declared type of field)_.
 
 > Function some_function/2 has no local return
 

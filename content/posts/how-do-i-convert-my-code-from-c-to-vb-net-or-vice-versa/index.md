@@ -21,15 +21,15 @@ If you work with the .NET Framework long enough, you may eventually find yoursel
 
 ## Does it really need to be converted?
 
-First, consider whether or not that other code really has to be translated, because you don't __need__ to!
+First, consider whether or not that other code really has to be translated, because you don't _need_ to!
 
 If it's a relatively small block of code, by all means just translate it and be done. A little upfront effort, and you'll have the undying gratitude of your team... or at least yourself when you need to revisit it six months later. But what if it's a third-party library from GitHub that's frequently updated, and you'd like to keep pulling in the latest changes? Every update shouldn't mean another several days of translation.
 
-Or what if it's a legacy app that your company invested 10 years in, complete with hundreds of tests proving it works __(or what if it has NO tests??__ 😱 __)__ There may be thousands of hours worth of slight tweaks and bug fixes that you'll never fully incorporate into a rewrite, no matter how diligent you are. There's a time to refactor, but [there's a time to leave things alone](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/).
+Or what if it's a legacy app that your company invested 10 years in, complete with hundreds of tests proving it works _(or what if it has NO tests??_ 😱 _)_ There may be thousands of hours worth of slight tweaks and bug fixes that you'll never fully incorporate into a rewrite, no matter how diligent you are. There's a time to refactor, but [there's a time to leave things alone](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/).
 
-****💡****_****You can have several .NET languages in one solution, as long as they're separated by project.****_
+**💡**_**You can have several .NET languages in one solution, as long as they're separated by project.**_
 
-That's right. It's been possible for a [long time](https://stackoverflow.com/questions/862723/use-vb-net-and-c-sharp-in-the-same-application), but I'd bet those fancy blue shoes that even some experienced devs don't know it - it's easy to live entirely within a single language. So move that legacy VB.NET or C# code into its own project and reference it from the project you're working in. I wrote a quickie example __(pictured at the top of this post -__ [__grab the source code__](https://github.com/grantwinney/BlogCodeSamples/tree/master/CSharpAndVbNetTogether)__)__ that has a C# project referencing F# and VB.NET projects.
+That's right. It's been possible for a [long time](https://stackoverflow.com/questions/862723/use-vb-net-and-c-sharp-in-the-same-application), but I'd bet those fancy blue shoes that even some experienced devs don't know it - it's easy to live entirely within a single language. So move that legacy VB.NET or C# code into its own project and reference it from the project you're working in. I wrote a quickie example _(pictured at the top of this post -_ [_grab the source code_](https://github.com/grantwinney/BlogCodeSamples/tree/master/CSharpAndVbNetTogether)_)_ that has a C# project referencing F# and VB.NET projects.
 
 All you need to do is open the project with the language you want to use, and add references to the projects that use the other .NET languages. Here's a C# project with references to F# and VB.NET projects:
 
@@ -55,13 +55,13 @@ People seem to have mixed experiences with the automatic translators, at least t
 
 If those don't work, here are some other tools. These ones need to be installed, and some of them cost money, but they'll almost certainly work more reliably. To use decompilers, you'll need to compile the source code you want to translate by pasteing it into Visual Studio, building it, and checking the `bin` folder for the DLL file. Then the tool can decompile it into the target language for you.
 
-- [Telerik JustDecompile](https://www.telerik.com/products/decompiler.aspx) decompiles to C# or VB.NET __(free)__
-- [ILSpy](https://github.com/icsharpcode/ILSpy/releases) can decompile assemblies to C#. __(free)__
-- [JetBrains dotPeek](http://www.jetbrains.com/decompiler/) decompiles to C# as well. __(free)__
-- [DevExtras .NET CodeReflect](http://www.devextras.com/decompiler/) decompiles to C# or VB.NET. __(free)__
-- [.NET Reflector](https://www.red-gate.com/products/dotnet-development/reflector/) can decompile assemblies into C# or VB.NET, so compile the source language and then decompile into the target language. __($95 - $195)__
-- Tangible Software Solutions has converters for [VB.NET to C#](https://www.tangiblesoftwaresolutions.com/product_details/vb-to-csharp-converter.html), [C# to VB.NET](https://www.tangiblesoftwaresolutions.com/product_details/csharp-to-vb-converter.html), and C++ and Java too. __($119 - $499)__
-- [VBConversions](http://www.vbconversions.com/) converts VB.Net to C# and if the testimonials they post are honest, then it's pretty impressive... 110,000 lines of code converted perfectly? __($50/month - $500)__
+- [Telerik JustDecompile](https://www.telerik.com/products/decompiler.aspx) decompiles to C# or VB.NET _(free)_
+- [ILSpy](https://github.com/icsharpcode/ILSpy/releases) can decompile assemblies to C#. _(free)_
+- [JetBrains dotPeek](http://www.jetbrains.com/decompiler/) decompiles to C# as well. _(free)_
+- [DevExtras .NET CodeReflect](http://www.devextras.com/decompiler/) decompiles to C# or VB.NET. _(free)_
+- [.NET Reflector](https://www.red-gate.com/products/dotnet-development/reflector/) can decompile assemblies into C# or VB.NET, so compile the source language and then decompile into the target language. _($95 - $195)_
+- Tangible Software Solutions has converters for [VB.NET to C#](https://www.tangiblesoftwaresolutions.com/product_details/vb-to-csharp-converter.html), [C# to VB.NET](https://www.tangiblesoftwaresolutions.com/product_details/csharp-to-vb-converter.html), and C++ and Java too. _($119 - $499)_
+- [VBConversions](http://www.vbconversions.com/) converts VB.Net to C# and if the testimonials they post are honest, then it's pretty impressive... 110,000 lines of code converted perfectly? _($50/month - $500)_
 
 ---
 

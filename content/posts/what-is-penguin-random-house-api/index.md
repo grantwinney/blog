@@ -30,7 +30,7 @@ Try looking up an author such as Isaac Asimov. You can specify a first and last 
 GET https://reststop.randomhouse.com/resources/authors?lastName=Asimov&firstName=Isaac
 ```
 
-Here's a very small sample of the returned payload. You get the name back as well as an `authorid` (we'll use that in a moment), a short bio, and a list of titles (Asimov wrote a __lot__ of books).
+Here's a very small sample of the returned payload. You get the name back as well as an `authorid` (we'll use that in a moment), a short bio, and a list of titles (Asimov wrote a _lot_ of books).
 
 ```json
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>

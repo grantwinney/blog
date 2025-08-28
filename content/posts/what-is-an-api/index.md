@@ -21,7 +21,7 @@ To define it, an API is an Application Programming Interface, but what's that re
 
 ## First, what's an interface?
 
-Before we talk about programming, let's consider what an interface is in the most general sense. We're __surrounded__ by interfaces and may not even realize it most of the time. In fact, the __better__ the interface, the less aware we are that it exists! Whenever something complex is abstracted away for us, hiding the complex details behind a little display screen or a simple button push, someone took the time to create an interface for us.
+Before we talk about programming, let's consider what an interface is in the most general sense. We're _surrounded_ by interfaces and may not even realize it most of the time. In fact, the _better_ the interface, the less aware we are that it exists! Whenever something complex is abstracted away for us, hiding the complex details behind a little display screen or a simple button push, someone took the time to create an interface for us.
 
 The dashboard in a car is one example. We don't have to count the number of times the crankshaft in the engine turns - just glance at the RPM gauge. We don't have to manually inspect the level of gas in the tank, or read the output of the low-fuel sensor - we get a nice readout on the dash and a dedicated indicator light. The dashboard is an interface, abstracting away the inner-workings of dozens of sensors and components all over the car.
 
@@ -31,7 +31,7 @@ A kitchen is another example. From toasters to microwaves to coffee machines, al
 
 Programming languages have their own interfaces that provide layers of abstraction too. Code is organized into classes and modules, and then select pieces of the code are marked as "public" or "exported" to let you know those are the ones that are safe to use.
 
-Imagine we have a simple `Person` class, and a `PersonReport` class that in effect answers questions about a collection of people, like __"who's an adult?"__ or __"who's a parent?"__.
+Imagine we have a simple `Person` class, and a `PersonReport` class that in effect answers questions about a collection of people, like _"who's an adult?"_ or _"who's a parent?"_.
 
 ```csharp
 public class Person
@@ -57,7 +57,7 @@ public class PersonReport
 
 Similar to the dashboard in our car, we don't have to worry about the details underneath. Their abstracted away behind a clean interface. In this case the "messy details" is a simple one-liner of LINQ, but it could be many lines calling other methods and other classes. The point is, we just ask for parents and get the results.
 
-## So.. what __is__ an API then?
+## So.. what _is_ an API then?
 
 Well, the above... and more. Let's consider some code written by someone else (maybe another team in our company, or even a different company) and provided to us as a framework or library. Nearly every language has an existing framework. These are the building-blocks of the language, as well as thousands or even millions of lines of code that prevent you and I from having to reinvent the same wheel over and over.
 
@@ -65,7 +65,7 @@ Well, the above... and more. Let's consider some code written by someone else (m
 - In Erlang, it's the [OTP](https://github.com/erlang/otp/tree/master/lib/stdlib/src) libraries from Ericsson
 - Java has its [base libraries](https://docs.oracle.com/javase/8/docs/technotes/guides/#base) and a bunch of other frameworks, and on and on...
 
-In the sample of code above, even the call to `persons.Where(x => x.Children.Count > 0).ToList();` involved an API call, in the sense that I don't have to know or care __how__ the LINQ library manages to filter my list of persons by a particular attribute. I just specify the condition on which to filter, and call the `Where()` function to do its magic.
+In the sample of code above, even the call to `persons.Where(x => x.Children.Count > 0).ToList();` involved an API call, in the sense that I don't have to know or care _how_ the LINQ library manages to filter my list of persons by a particular attribute. I just specify the condition on which to filter, and call the `Where()` function to do its magic.
 
 ## API calls in the cloud, and the REST interface
 
@@ -89,4 +89,4 @@ Just like the browser issues REST commands to get, update, and delete data from 
 
 So all that to say, if someone asks you what an API is...
 
-An API is some code running on someone else's machine __(where? how? who cares!),__ which they've made accessible to you. And the __way__ you typically access it is using REST, very similar to how your web browser does it.
+An API is some code running on someone else's machine _(where? how? who cares!),_ which they've made accessible to you. And the _way_ you typically access it is using REST, very similar to how your web browser does it.

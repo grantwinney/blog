@@ -29,7 +29,7 @@ By overloading the arithmetic operators, you get to decide what it means to add 
 
 Let's define a Box class instead. We can decide to say that, if two boxes are added together, you should get back a box that could fit both of them. It'll take the larger width and depth of the two boxes, and then combine their heights, so you can stack both smaller boxes inside the larger one. Notice how the overloaded operator is a static method that takes the two instance you want to compare (add, in this case).
 
-This is incredibly __not__ optimal, but judging by some of the packages I've gotten from Amazon with very small items inside, I might not be that far off from the industry standard. 😅
+This is incredibly _not_ optimal, but judging by some of the packages I've gotten from Amazon with very small items inside, I might not be that far off from the industry standard. 😅
 
 ```csharp
 public class Box
@@ -73,7 +73,7 @@ public void AddingTwoBoxes_ReturnsBoxToFitBoth()
 }
 ```
 
-How about another? A Folder class this time, that can hold a list of files.. If someone tries to add two Folders together, they get back a new Folder with __all__ the files in it, like this.
+How about another? A Folder class this time, that can hold a list of files.. If someone tries to add two Folders together, they get back a new Folder with _all_ the files in it, like this.
 
 ```csharp
 public class Folder
@@ -160,7 +160,7 @@ This one's a little tougher to imagine the result of, so I wrote a quick little 
 
 ## Comparison Operators
 
-There's comparison operators too, like greater than and less than. Using the Box class again, let's decide that a box is __less than__ another box if it's area is smaller; likewise, it's __greater than__ another box if it's area is larger.
+There's comparison operators too, like greater than and less than. Using the Box class again, let's decide that a box is _less than_ another box if it's area is smaller; likewise, it's _greater than_ another box if it's area is larger.
 
 This could be represented like this, where the operators are again static method that take two "box" objects to compare.
 

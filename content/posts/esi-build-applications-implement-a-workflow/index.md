@@ -55,9 +55,9 @@ So far I'm finding the material good, even though I know most of what I've seen 
 
 Oh, and one little comment about their use of "main" instead of "master" for the production branch. Without getting into the politics or ideology of anything, there's been a significant push by GitHub to rename "master" to "main". Fair enough. But they state in the lesson that:
 
-> In Git, the default branch, or __trunk__, is typically called `main`
+> In Git, the default branch, or _trunk_, is typically called `main`
 
-That's simply not true. On __GitHub,__ sure, they've reworked things so the master branch is named "main" by default unless you take specific steps to disable/revert it. There's nothing to force that in Git __(GitHub is merely one tool that adds features on top of Git),__ and in projects going back many, many years, the production branch is still named "master". That's just something to be aware of, if you're new to all this and wondering why reality doesn't match their claim.
+That's simply not true. On _GitHub,_ sure, they've reworked things so the master branch is named "main" by default unless you take specific steps to disable/revert it. There's nothing to force that in Git _(GitHub is merely one tool that adds features on top of Git),_ and in projects going back many, many years, the production branch is still named "master". That's just something to be aware of, if you're new to all this and wondering why reality doesn't match their claim.
 
 Looking forward to continuing with their lessons... After all, why take a chance on missing vital steps, when you can write a script and guarantee nothing's forgotten? Why do something manually if you can have it done for you? Why check on some change in state repeatedly, when you can have an environment like Azure DevOps watch it for you, do most of the work for you, and then notify you that there's some action that needs your attention?
 

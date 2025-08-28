@@ -21,7 +21,7 @@ When you use [test fixtures](https://learnyousomeerlang.com/eunit#fixtures) in E
 
 I ran into an issue recently where EUnit tests that were part of a [test fixture](https://learnyousomeerlang.com/eunit#test-generators) were failing with an error I hadn't seen before. The error seemed to be coming from the [meck](https://github.com/eproxus/meck) mocking suite itself, and was reporting that it was "already_started"... and the tests would fail to run.
 
-Here's a small program we can use to see the problem. All it does is accept a name, and print out a short greeting with the current time. __(The code below is trimmed down, but the__ [__full code is available on GitHub__](https://github.com/grantwinney/BlogCodeSamples/tree/master/Languages/Erlang/MeckTeardownTest) __if you'd like to run it. You'll want to have__ [__Rebar3__](https://www.rebar3.org/docs/getting-started) __installed, and it'd help to be familiar with__ [__Meck__](https://github.com/eproxus/meck)__.)__
+Here's a small program we can use to see the problem. All it does is accept a name, and print out a short greeting with the current time. _(The code below is trimmed down, but the_ [_full code is available on GitHub_](https://github.com/grantwinney/BlogCodeSamples/tree/master/Languages/Erlang/MeckTeardownTest) _if you'd like to run it. You'll want to have_ [_Rebar3_](https://www.rebar3.org/docs/getting-started) _installed, and it'd help to be familiar with_ [_Meck_](https://github.com/eproxus/meck)_.)_
 
 ```erlang
 -module(salutations_app).
@@ -169,7 +169,7 @@ sue_gets_expected_greeting() ->
 -endif.
 ```
 
-Nothing good, as it turns out! __This__ is why I was seeing the "already_started" error - a previous `meck:unload` fails to run and the next test causes `meck:new` to run again. This example is silly, but what if you had some tests creating a file (yeah, yeah, against unit test philosophy but whatever) and wanted to delete it each time? What if one of those deletes failed and threw an exception? Every test after it fails too. 😭
+Nothing good, as it turns out! _This_ is why I was seeing the "already_started" error - a previous `meck:unload` fails to run and the next test causes `meck:new` to run again. This example is silly, but what if you had some tests creating a file (yeah, yeah, against unit test philosophy but whatever) and wanted to delete it each time? What if one of those deletes failed and threw an exception? Every test after it fails too. 😭
 
 ```none
 > rebar3 eunit --module exceptions_in_teardown
@@ -234,7 +234,7 @@ Finished in 0.235 seconds
 
 ## Teardown succeeds, as long as it handles exceptions
 
-Oooookay, first let me say you should really refactor your `teardown` function to do as little as possible and make it simple. But if that's not possible, then at the very least surround anything that could potentially fail in a [try/catch/after block](https://learnyousomeerlang.com/errors-and-exceptions#dealing-with-exceptions). Here's one final example that catches exceptions and __guarantees__ that the `meck:unload` will run.
+Oooookay, first let me say you should really refactor your `teardown` function to do as little as possible and make it simple. But if that's not possible, then at the very least surround anything that could potentially fail in a [try/catch/after block](https://learnyousomeerlang.com/errors-and-exceptions#dealing-with-exceptions). Here's one final example that catches exceptions and _guarantees_ that the `meck:unload` will run.
 
 ```erlang
 -module(exceptions_in_teardown_handled).
@@ -284,7 +284,7 @@ sue_gets_expected_greeting() ->
 -endif.
 ```
 
-So now we have a `teardown` that should always run __and__ finish, thanks to an `after` block that runs `meck:unload` if all hell breaks loose. Granted, if it __did__ throw when it failed to delete a file, you might run into other issues... but one disaster at a time. 😎
+So now we have a `teardown` that should always run _and_ finish, thanks to an `after` block that runs `meck:unload` if all hell breaks loose. Granted, if it _did_ throw when it failed to delete a file, you might run into other issues... but one disaster at a time. 😎
 
 ```none
 > rebar3 eunit --module exceptions_in_teardown_handled

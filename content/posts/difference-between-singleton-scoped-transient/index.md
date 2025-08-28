@@ -17,7 +17,7 @@ tags:
 - Questions
 title: What's the difference between singleton, scoped, and transient?
 ---
-I saw an issue with a .NET 6 API recently, where dependency injection (DI) was in full use, but instead of getting a new instance of a dependency every time one was requested (as expected), the __same__ instance kept being returned.
+I saw an issue with a .NET 6 API recently, where dependency injection (DI) was in full use, but instead of getting a new instance of a dependency every time one was requested (as expected), the _same_ instance kept being returned.
 
 The problem didn't actually present itself that nicely (they never do), so it took quite awhile to track down. In the end though, it was obvious (as most solved problems are) that the dependency was registered incorrectly. The fix was a one-line change.
 
@@ -25,7 +25,7 @@ The problem didn't actually present itself that nicely (they never do), so it to
 
 When we create APIs in .NET, it's pretty easy to register a class with the DI service, as it's supported right out of the box. But there's different ways a service can be registered, so it's important to understand the differences between [AddSingleton](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.servicecollectionserviceextensions.addsingleton?view=dotnet-plat-ext-6.0), [AddScoped](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.servicecollectionserviceextensions.addscoped?view=dotnet-plat-ext-6.0), and [AddTransient](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.servicecollectionserviceextensions.addtransient?view=dotnet-plat-ext-6.0).
 
-To __(really briefly)__ summarize them:
+To _(really briefly)_ summarize them:
 
 - Singleton - One instance of a resource, reused anytime it's requested.
 - Scoped - One instance of a resource, but only for the current request. New request (i.e. hit an API endpoint again) = new instance
@@ -49,7 +49,7 @@ public class ID : IIDSingleton, IIDScoped, IIDTransient
 }
 ```
 
-And here's a minimal API with a single endpoint that defines some dependencies to inject and how those dependencies should be resolved. When someone requests an `IIDSingleton` for example, it should resolve to a single instance of the `ID` class... always just that single instance, no matter what. When someone requests an `IIDTransient` though, it should __always__ be a new instance.
+And here's a minimal API with a single endpoint that defines some dependencies to inject and how those dependencies should be resolved. When someone requests an `IIDSingleton` for example, it should resolve to a single instance of the `ID` class... always just that single instance, no matter what. When someone requests an `IIDTransient` though, it should _always_ be a new instance.
 
 ```csharp
 using SingletonVsTransientDI;
@@ -76,7 +76,7 @@ app.Run();
 
 The way I'm requesting two each of the `IIDScoped` and `IIDTransient` dependencies in the endpoint above is silly, but it's to keep the example simple. In reality, we'd usually make requests like these in completely different areas of the code, and whether or not all those independent requests provided us with the same instance of the dependency or a new one would depend on how things were originally registered.
 
-Here it is in action. When I press "refresh" to make a new request to the `/now` endpoint, keep an eye on three things - the singleton instance __never__ changes, the scoped instance doesn't change until a new request is made (aka, I hit refresh), and the transient instance __always__ changes.
+Here it is in action. When I press "refresh" to make a new request to the `/now` endpoint, keep an eye on three things - the singleton instance _never_ changes, the scoped instance doesn't change until a new request is made (aka, I hit refresh), and the transient instance _always_ changes.
 
 ![](https://grantwinney.com/content/images/2023/07/ditest.gif)
 

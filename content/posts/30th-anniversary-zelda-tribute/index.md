@@ -75,7 +75,7 @@ Once it's up and running, use your favorite terminal tool like [Git Bash](https:
 
 ![](https://grantwinney.com/content/images/2020/09/image-2.png)
 
-You can run the same file as for the local version, with two changes - opening the port in UFW and __not__ opening the site. And don't forget to `chmod +x your-file.sh` so you can execute the script.
+You can run the same file as for the local version, with two changes - opening the port in UFW and _not_ opening the site. And don't forget to `chmod +x your-file.sh` so you can execute the script.
 
 ```bash
 #/bin/bash
@@ -87,14 +87,14 @@ ufw allow 9378
 node nodeserver.js
 ```
 
-Go to http://161.35.118.133:9378/www/index.html (with __your__ IP address obviously) and try it out!
+Go to http://161.35.118.133:9378/www/index.html (with _your_ IP address obviously) and try it out!
 
 ## Ah, ah, ah, ah, stayin' alive
 
 For all the game's awesomitude (real word), it's got a few bugs and glitches. Hit boxes on enemies are a little off, and it seems to be far easier for them to hit you. I suggest going into `www/js/game.js` and making a little tweak around line 73 to increase your hit points to 5000. That's a few more hearts than you could find on the NES, but seems like a fair handicap.
 
 ```bash
-  /**
+  /*
    * The avatar.
    */
   this.avatar = new ace.Avatar(this);
@@ -175,6 +175,6 @@ Things fall apart a little in the second dungeon, with "flat" enemies painted on
 
 ![](https://grantwinney.com/content/images/2020/09/2020-09-06-02_33_15-Zelda-30-Year-Tribute.jpg)
 
-All in all, I __so__ wish this had been worked on and was more complete. The concept is one that any classic Legend of Zelda fan could appreciate, and they obviously put a ton of work into getting it as far as they did. I guess once Nintendo came knocking, most of the fun was gone, it's open sourced so maybe someone (you?) will pick it up and finish it!
+All in all, I _so_ wish this had been worked on and was more complete. The concept is one that any classic Legend of Zelda fan could appreciate, and they obviously put a ton of work into getting it as far as they did. I guess once Nintendo came knocking, most of the fun was gone, it's open sourced so maybe someone (you?) will pick it up and finish it!
 
 ![](https://grantwinney.com/content/images/2020/09/2020-09-09-09_02_34-.jpg)

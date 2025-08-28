@@ -52,7 +52,7 @@ If there's anything available, you'll get the latest snapshot:
 
 ### Getting an older version
 
-If you want an older version, you can pass in a timestamp. It'd be nice if all you had to do was subtract one second from the previous timestamp to get the next oldest one, but it seems to do a __"closest to the timestamp"__ match, so the timestamp you specify has to be __closer__ to the older version than the newer one. It's in `YYYYMMDDhhmmss` format, so here I'll subtract 1 month and try again:
+If you want an older version, you can pass in a timestamp. It'd be nice if all you had to do was subtract one second from the previous timestamp to get the next oldest one, but it seems to do a _"closest to the timestamp"_ match, so the timestamp you specify has to be _closer_ to the older version than the newer one. It's in `YYYYMMDDhhmmss` format, so here I'll subtract 1 month and try again:
 
 [https://archive.org/wayback/available?url=grantwinney.com/how-to-make-security-essentials-ignore-directories/&timestamp=20140708005654](https://archive.org/wayback/available?url=grantwinney.com/how-to-make-security-essentials-ignore-directories/&timestamp=20140708005654)
 
@@ -105,7 +105,7 @@ Httpreq.open("GET",`${apiUrl}?url=${reqUrl}`, false);
 Httpreq.send(null);
 ```
 
-__(or alternatively using jQuery)__
+_(or alternatively using jQuery)_
 
 ```javascript
 let apiUrl = 'https://archive.org/wayback/available';
@@ -123,7 +123,7 @@ This is new territory for me, but from what I understand it's a security measure
 
 While [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) appears to be the newer/better way to make cross-domain requests, there's also JSONP. In either case the server has to support it, and the Wayback Machine supports JSONP, so let's see what that request looks like.
 
-__Using an inline function:__
+_Using an inline function:_
 
 ```javascript
 let apiUrl = 'https://archive.org/wayback/available';
@@ -133,7 +133,7 @@ $.getJSON(`${apiUrl}?url=${reqUrl}&callback=?`, function(json){
 });  // inline function
 ```
 
-__Or a separate function, if that's more your style:__
+_Or a separate function, if that's more your style:_
 
 ```javascript
 function handleData(json) {
@@ -182,7 +182,7 @@ In fact, there's a Chrome extension called [Wayback Machine](https://chrome.goog
 
 If you're curious what it does, check it out using the awesome [Chrome extension source viewer](https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin) extension, or check out the main crux of it below.
 
-It adds a listener, so that if any page you visit returns a 404 or any one of a handful of other codes indicating "failure", and assuming you're not in "incognito" mode __(nice),__ it'll go out and check the Wayback Machine for the most recent copy available. If it finds one, it'll popup a banner like the one above, offering to load it. So if you see the banner, an archived copy definitely exists. Clicking the link in the banner loads the archived page.
+It adds a listener, so that if any page you visit returns a 404 or any one of a handful of other codes indicating "failure", and assuming you're not in "incognito" mode _(nice),_ it'll go out and check the Wayback Machine for the most recent copy available. If it finds one, it'll popup a banner like the one above, offering to load it. So if you see the banner, an archived copy definitely exists. Clicking the link in the banner loads the archived page.
 
 ```javascript
 /*
@@ -252,7 +252,7 @@ chrome.webRequest.onCompleted.addListener(function(details) {
     types: ["main_frame"]
 });
 
-/**
+/*
  * Checks Wayback Machine API for url snapshot
  */
 function wmAvailabilityCheck(url, onsuccess, onfail) {
@@ -279,7 +279,7 @@ function wmAvailabilityCheck(url, onsuccess, onfail) {
 
 ## A Final Note
 
-It's an ambitious project, but as a minimalist I just don't get the value of archiving __everything__. The Library of Congress has some [amazing collections](https://www.loc.gov/collections/) too, like notes from [Abraham Lincoln](https://www.loc.gov/collections/abraham-lincoln-papers/about-this-collection/) and [Alexander Hamilton](https://www.loc.gov/collections/alexander-hamilton-papers/about-this-collection/), but it's sensibly curated. LoC even had access to the Twitter floodgates but decided [most of it isn't worth collecting](https://blogs.loc.gov/loc/files/2017/12/2017dec_twitter_white-paper.pdf) - but I'd bet IA would love access to it all. In fact, I seem to remember a tweet from Brewster Kahle (IA founder) that appeared to call out Twitter for not opening their floodgates.
+It's an ambitious project, but as a minimalist I just don't get the value of archiving _everything_. The Library of Congress has some [amazing collections](https://www.loc.gov/collections/) too, like notes from [Abraham Lincoln](https://www.loc.gov/collections/abraham-lincoln-papers/about-this-collection/) and [Alexander Hamilton](https://www.loc.gov/collections/alexander-hamilton-papers/about-this-collection/), but it's sensibly curated. LoC even had access to the Twitter floodgates but decided [most of it isn't worth collecting](https://blogs.loc.gov/loc/files/2017/12/2017dec_twitter_white-paper.pdf) - but I'd bet IA would love access to it all. In fact, I seem to remember a tweet from Brewster Kahle (IA founder) that appeared to call out Twitter for not opening their floodgates.
 
 I also question the legality of what's been collected, which makes me hesitant to actually download software and books from their site. Is all that software really available to download, or is it basically piracy? What about the digitized books? What about [websites who didn't want to be archived](https://lauren.vortex.com/2017/04/23/more-regarding-a-terrible-decision-by-the-internet-archive)? In their drive to archive "all the things", I hope they're diligent about the rights and preferences of others. Maybe these issues are already addressed somewhere on their site - if you know where, please share links. Thanks!
 

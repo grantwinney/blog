@@ -23,11 +23,11 @@ For software developers, GitHub is a useful (possibly even indispensible) tool. 
 
 We can take notes in it and link pages together, but the GitHub wiki's lack of short-codes/widgets (i.e. adding a table of contents to the top of each page) and other basic features (like uploading images via the UI) makes it less useful than it could be.
 
-For nearly a year, I used it at work for internal team documentation, and its shortcomings were frustrating. Then I discovered something that seems to open the door to new possibilities. ****A GitHub wiki is just another repo, which means it can be cloned locally and manipulated with other tools.****
+For nearly a year, I used it at work for internal team documentation, and its shortcomings were frustrating. Then I discovered something that seems to open the door to new possibilities. **A GitHub wiki is just another repo, which means it can be cloned locally and manipulated with other tools.**
 
 ## Cloning a GitHub Wiki
 
-GitHub uses a wiki system called [Gollum](https://github.com/gollum/gollum), which is built on top of Git and stores its files in a Git repository. In other words, each repository's wiki is itself a __separate__ Git repository. We can clone a wiki, alter it, and commit our changes to it just like any other repo.
+GitHub uses a wiki system called [Gollum](https://github.com/gollum/gollum), which is built on top of Git and stores its files in a Git repository. In other words, each repository's wiki is itself a _separate_ Git repository. We can clone a wiki, alter it, and commit our changes to it just like any other repo.
 
 To clone a wiki, we can find the link conveniently shoved into the lower-right corner of the page, way near the bottom if there's already a lot of wiki pages in it.
 
@@ -46,7 +46,7 @@ Now that we can clone a wiki locally, let's see what we can do with it.
 
 As mentioned, GitHub uses Gollum to power its wiki. We can install Gollum locally to browse and edit a (cloned) wiki too, which means it's possible to edit pages without an Internet connection and push them back up later.
 
-Installing Gollum differs based on the environment it's going to run in, which is [detailed in the readme file](https://github.com/gollum/gollum?tab=readme-ov-file#installation). For us Windows users, it requires [JRuby](https://github.com/jruby/jruby/wiki/GettingStarted), which in turn requires Java. And although the JRuby site indicates that we just need to decide on __"32- or 64-bit, and whether to bundle the Java Virtual Machine",__ there's no option to bundle it and the installer complains if it's missing.
+Installing Gollum differs based on the environment it's going to run in, which is [detailed in the readme file](https://github.com/gollum/gollum?tab=readme-ov-file#installation). For us Windows users, it requires [JRuby](https://github.com/jruby/jruby/wiki/GettingStarted), which in turn requires Java. And although the JRuby site indicates that we just need to decide on _"32- or 64-bit, and whether to bundle the Java Virtual Machine",_ there's no option to bundle it and the installer complains if it's missing.
 
 First, head to the [Java download page](https://www.java.com/en/) and install the JRE, which includes the JVM that JRuby needs. Next, head to the [JRuby download page](https://www.jruby.org/download) and install the x64 Windows exe with Ruby 3.1.x support and accept the defaults. At this point, we can verify in PowerShell that they're both installed:
 
@@ -72,15 +72,15 @@ Open up the browser to [http://localhost:4567](http://localhost:4567) and check 
 
 ![](https://grantwinney.com/content/images/2024/06/image-17.png)
 
-The wiki files are just plain markdown files, so while we __could__ use any editor with these, it's nice to have access to something that looks similar to GitHub. There's some minor differences of course, but it's largely the same.
+The wiki files are just plain markdown files, so while we _could_ use any editor with these, it's nice to have access to something that looks similar to GitHub. There's some minor differences of course, but it's largely the same.
 
 Every modification (edits, deletes, renames, etc) is committed to the repo individually, and when you're finished making changes, a `git push` sends your changes back to GitHub.
 
-_****Note:****_ __Gollum will only show changes to your wiki pages that have been committed. If you change a page in a text editor, Gollum will not show the updated page until it has been committed to the repo (you don't have to push it up).__
+_**Note:**_ _Gollum will only show changes to your wiki pages that have been committed. If you change a page in a text editor, Gollum will not show the updated page until it has been committed to the repo (you don't have to push it up)._
 
 ### Generate HTML Docs
 
-Many of us have GitHub repos marked as private, with things we're developing that we don't want to share with the world. But if our project is hidden, so is our wiki. What if we've got some useful documentation that we __do__ want to share?
+Many of us have GitHub repos marked as private, with things we're developing that we don't want to share with the world. But if our project is hidden, so is our wiki. What if we've got some useful documentation that we _do_ want to share?
 
 Wiki pages can be run through tools that generate HTML pages, which can then be published online, eliminating the need to create documentation twice. One such tool is [Pandoc](http://pandoc.org/index.html), which can convert between many of the markup formats Gollum (and GitHub) supports.
 
@@ -106,7 +106,7 @@ We could further modify the output by adding a copyright notice, or generate a m
 
 ### Insert a Table of Contents
 
-Even though we could have huge wiki pages with dozens of headers, there is no consistent way to autogenerate a table of contents using the default "markdown" syntax. [Gollum supports TOCs](https://github.com/gollum/gollum/wiki#user-content-table-of-contents-toc-tag) with a simple `[[_TOC_]]` tag, but GitHub does not. If you've ever been annoyed by this, [you're not the only one](https://github.com/isaacs/github/issues/215) __(but the odds of it changing anytime soon are__ [__slim__](https://github.com/github/markup/issues/904)__).__
+Even though we could have huge wiki pages with dozens of headers, there is no consistent way to autogenerate a table of contents using the default "markdown" syntax. [Gollum supports TOCs](https://github.com/gollum/gollum/wiki#user-content-table-of-contents-toc-tag) with a simple `[[_TOC_]]` tag, but GitHub does not. If you've ever been annoyed by this, [you're not the only one](https://github.com/isaacs/github/issues/215) _(but the odds of it changing anytime soon are_ [_slim_](https://github.com/github/markup/issues/904)_)._
 
 One option is to write a short script in the language of your choice that parses the file and creates a TOC for you. Here's one I wrote in Perl that parses the file for headers, then inserts them into the top of the file and surrounds the TOC with the best [approximation of a comment for markdown](http://stackoverflow.com/a/20885980/301857) that I could find so that it can update the TOC later.
 
@@ -146,7 +146,7 @@ foreach my $file (<*.md>)
     open(my $out, '>', "$file.new") or die "Can't write $file.new: $!";
  
     print $out $tocBegin;
-    print $out "**TABLE OF CONTENTS**\n";
+    print $out "*TABLE OF CONTENTS*\n";
     foreach(@headers) {
         print $out $_;
     }
@@ -225,7 +225,7 @@ The end-result is similar in appearance to mine, even using comments (albeit reg
 ```
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+*Table of Contents*  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
  
 - [Important stuff](#important-stuff)
   - [Less Important but Relevant Stuff](#less-important-but-relevant-stuff)
@@ -274,7 +274,7 @@ The `show-all` flag complements this nicely too.
 gollum --allow-uploads dir --show-all
 ```
 
-With that option enabled, clicking the "All" or "Files" buttons in the wiki will show __everything,__ not just pages.
+With that option enabled, clicking the "All" or "Files" buttons in the wiki will show _everything,_ not just pages.
 
 ![](https://grantwinney.com/content/images/2017/01/gollum-wiki-view-all-files-option.png)
 
@@ -284,7 +284,7 @@ One more option for manipulating pages is the Ruby API called [Gollum-lib](https
 
 Gollum-lib is nice because it abstracts away some of the nitty-gritty details. For example, the Perl script I wrote earlier could be modified to print out the contents of the file it's iterating through. Or we could just write a few lines of Ruby using gollum-lib.
 
-Here's a short script that loads the local wiki __(use the relative path from your Ruby script)__, then loads a page from the wiki and calls the `raw_data` function to output the contents of the file. You can see the output in the terminal window in the bottom half of the screenshot.
+Here's a short script that loads the local wiki _(use the relative path from your Ruby script)_, then loads a page from the wiki and calls the `raw_data` function to output the contents of the file. You can see the output in the terminal window in the bottom half of the screenshot.
 
 ![](https://grantwinney.com/content/images/2017/01/query-data-about-gollum-wiki-page-using-gollum_lib.png)
 
@@ -370,7 +370,7 @@ end
 File.write('outline.html', html)
 ```
 
-That'll produce a small HTML page with a link to each wiki page and a table of contents if available. __(The missing header below was due to some wonky markdown in that file.)__
+That'll produce a small HTML page with a link to each wiki page and a table of contents if available. _(The missing header below was due to some wonky markdown in that file.)_
 
 ![](https://grantwinney.com/content/images/2017/01/master-contents-page-for-wiki-using-gollum_lib.png)
 

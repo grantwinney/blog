@@ -41,7 +41,7 @@ Couldn't you imagine having a large map of the Earth overlaid with a matrix of L
 
 ## NASA API
 
-Then there's the official NASA API, with all kinds of interesting endpoints. In the post I wrote a few years ago, I explored the photo of the day and viewing images from the various rovers we've sent to Mars. __(Incidentally,__ [__the Curiosity rover just hit 10 years__](https://www.nasa.gov/feature/curiosity-celebrates-10-years-on-mars) __and it's still kicking!)__
+Then there's the official NASA API, with all kinds of interesting endpoints. In the post I wrote a few years ago, I explored the photo of the day and viewing images from the various rovers we've sent to Mars. _(Incidentally,_ [_the Curiosity rover just hit 10 years_](https://www.nasa.gov/feature/curiosity-celebrates-10-years-on-mars) _and it's still kicking!)_
 
 [View the Mars Rover, Landsat Images, and More with the NASA API](https://grantwinney.com/what-is-nasa-api/)
 
@@ -101,13 +101,13 @@ GET https://api.maas2.apollorion.com
 
 ## SpaceX API (unofficial)
 
-They state plainly that this is __not__ an official SpaceX API, but it does make accessible a lot of SpaceX data. You don't need an API key, but they limit any single IP address to 50 requests per second - generous until a bunch of people behind one address all try hitting it at once, like maybe in a classroom setting at a school.
+They state plainly that this is _not_ an official SpaceX API, but it does make accessible a lot of SpaceX data. You don't need an API key, but they limit any single IP address to 50 requests per second - generous until a bunch of people behind one address all try hitting it at once, like maybe in a classroom setting at a school.
 
 Click on the following link, then the "docs" folder, and scroll to the bottom of the page for a brief description of each available endpoint. Click on any of those endpoints to drill down into the details. There's examples of how to use each one.
 
 [r-spacex/SpaceX-API](https://github.com/r-spacex/SpaceX-API?ref=grantwinney.com)
 
-You can get data about the Starlink satellites, which currently returns 160,000 lines of JSON, implying there are __thousands__ of Starlink satellites. I figured there were like maybe a couple dozen currently, but nope. [Thousands](https://history-computer.com/how-many-satellites-does-musks-starlink-have-in-orbit/). And apparently a whole lot more planned. 😲
+You can get data about the Starlink satellites, which currently returns 160,000 lines of JSON, implying there are _thousands_ of Starlink satellites. I figured there were like maybe a couple dozen currently, but nope. [Thousands](https://history-computer.com/how-many-satellites-does-musks-starlink-have-in-orbit/). And apparently a whole lot more planned. 😲
 
 If you already know the ID, you can grab the data for just that one. All kinds of interesting info in here, like when the satellite decays (which I assume is when it burns up in the atmosphere), where it is, how high it is and how fast it's going, etc.
 
@@ -168,7 +168,7 @@ GET https://api.spacexdata.com/v4/starlink/5eed7714096e590006985634
 }
 ```
 
-Other endpoints provide data about the rockets, their payloads and crews, and even the ships (i.e tugboats) that are involved in the process too... or you can just check out the current location of the car that Musk launched into space. __(sigh)__
+Other endpoints provide data about the rockets, their payloads and crews, and even the ships (i.e tugboats) that are involved in the process too... or you can just check out the current location of the car that Musk launched into space. _(sigh)_
 
 ```none
 https://api.spacexdata.com/v4/roadster

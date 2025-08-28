@@ -36,32 +36,32 @@ It's the same with the code we write.
 
 Take .NET for example. When you build a solution in Visual Studio, it compiles your code, zips it up into a series of DLL files (usually one per project), and dumps them into a "bin" directory (along with some other files, but let's ignore those).
 
-Here's one of my projects, [GhostSharp](https://grantwinney.com/ghostsharp/). After building, I get "GhostSharp.dll" and "GhostSharp.Tests.dll" files __(for the code I wrote)__ and "[NUnit3.TestAdapter.dll](https://www.nuget.org/packages/NUnit3TestAdapter/)" __(because my test project depends on it)__.
+Here's one of my projects, [GhostSharp](https://grantwinney.com/ghostsharp/). After building, I get "GhostSharp.dll" and "GhostSharp.Tests.dll" files _(for the code I wrote)_ and "[NUnit3.TestAdapter.dll](https://www.nuget.org/packages/NUnit3TestAdapter/)" _(because my test project depends on it)_.
 
 ![](https://grantwinney.com/content/images/2019/10/bin-dir.png)
 
-All of these various DLL files __are__ packages - that is, they're just bundles of related code. And while I used .NET and libraries in my example, other languages have their own lingo - Ruby gems, Perl modules, Java JARs, etc.
+All of these various DLL files _are_ packages - that is, they're just bundles of related code. And while I used .NET and libraries in my example, other languages have their own lingo - Ruby gems, Perl modules, Java JARs, etc.
 
 You can send these files to a friend, email them, upload them to Dropbox, or post them on your blog. You can upload the source code to GitHub, with instructions on how to manually compile them. But then how do people find them, report bugs, get notified of updates, target a specific version...?
 
-If only we had some way to __manage__ all these packages. 😏
+If only we had some way to _manage_ all these packages. 😏
 
 ---
 
 ## What's a package manager?
 
-Your (library, gem, module, JAR, whatever) can be shared with other projects, which reference them and call their publicly accessible functions __(kind of like an API),__ but you have to decide how to make that code available in the first place.
+Your (library, gem, module, JAR, whatever) can be shared with other projects, which reference them and call their publicly accessible functions _(kind of like an API),_ but you have to decide how to make that code available in the first place.
 
 - Provide the source code, so they can manually compile it.
 - Provide the compiled code, so they can just drop it in their project.
-- Provide a __link__ to the source code (GitHub). Some tools, like [rebar3](https://www.rebar3.org/docs/dependencies) for Erlang, can reference a GitHub link directly and include it in the build process, even targeting a specific branch or tag.
+- Provide a _link_ to the source code (GitHub). Some tools, like [rebar3](https://www.rebar3.org/docs/dependencies) for Erlang, can reference a GitHub link directly and include it in the build process, even targeting a specific branch or tag.
 - Host the compiled code in some central location, where others can discover it, reference it, be notified of updates, maybe even discuss it and get help.
 
 This is the problem a package manager solves, to one degree or another. It maintains each version of your code, along with metadata you provide about it, and makes it accessible to others. You could set one up on your machine, or on a corporate intranet, but there's a lot of good public ones out there, usually organized around the language you're working in.
 
 - For .NET, there's [NuGet packages](https://docs.microsoft.com/en-us/nuget/what-is-nuget) and [NuGet.org](https://www.nuget.org/).
 - For Ruby, there's [gems](https://guides.rubygems.org/what-is-a-gem/) and [RubyGems.org](https://rubygems.org).
-- Node.js has [npm](https://www.npmjs.com/), Python [PyPi](https://pypi.org/), Java [Maven](https://search.maven.org/), PHP [Composer](https://packagist.org/), Perl [CPAN](https://www.cpan.org/), __etc...__
+- Node.js has [npm](https://www.npmjs.com/), Python [PyPi](https://pypi.org/), Java [Maven](https://search.maven.org/), PHP [Composer](https://packagist.org/), Perl [CPAN](https://www.cpan.org/), _etc..._
 
 ---
 
@@ -73,7 +73,7 @@ NuGet is the defacto package manager for the .NET ecosystem, and the one I'm mos
 - NuGet.org is the site that hosts these packages.
 - It's also a Visual Studio extension that's used to reference those packages, installed in VS by default.
 
-When you reference a NuGet package from Visual Studio and then build, VS helpfully pulls down the projects you're depending on, as well as any projects that __those__ projects depend on, etc, etc.
+When you reference a NuGet package from Visual Studio and then build, VS helpfully pulls down the projects you're depending on, as well as any projects that _those_ projects depend on, etc, etc.
 
 If you try publishing your own NuGet package, you can expect to see something like this. The first two images are in Visual Studio, while the last two show the contents of the generated `nupkg` file, and the `nuspec` file it contains.
 

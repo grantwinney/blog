@@ -16,7 +16,7 @@ tags:
 - Coding
 title: Creating Your First Chrome Extension
 ---
-We all have our favorite web browser with our favorite extensions loaded, but have you ever considered writing your own? You've probably had at least one idea for __something__ that it'd be nice to have, but there's nothing out there that quite does what you're looking for.
+We all have our favorite web browser with our favorite extensions loaded, but have you ever considered writing your own? You've probably had at least one idea for _something_ that it'd be nice to have, but there's nothing out there that quite does what you're looking for.
 
 As technology becomes more and more a part of our everyday lives, it's useful to understand how to manipulate it to suit our individual needs. These days, knowing at least a little coding is like learning word processing or writing a basic html page was 15 years ago. It's becoming a basic computer skill.
 
@@ -95,7 +95,7 @@ Open the `manifest.json` file, then take out the background script and give it a
 }
 ```
 
-Create an html page named "popup.html" with some __really__ advanced markup:
+Create an html page named "popup.html" with some _really_ advanced markup:
 
 ```html
 <h1>HELLO WORLD!!</h1>
@@ -129,7 +129,7 @@ You can add any HTML you want in there. How about a box where someone can create
 </html>
 ```
 
-You can use Javascript to handle what happens when the submit button is pressed. Create the "script.js" file referenced above, and paste this code into it. __(I registered the button's__ _`_onclick_`_ __event inside the page's__ _`_load_`_ __event to make sure that the page is fully loaded before trying to access elements on the page.)__
+You can use Javascript to handle what happens when the submit button is pressed. Create the "script.js" file referenced above, and paste this code into it. _(I registered the button's_ _`_onclick_`_ _event inside the page's_ _`_load_`_ _event to make sure that the page is fully loaded before trying to access elements on the page.)_
 
 ```javascript
 window.addEventListener('load', function load(event) {
@@ -168,7 +168,7 @@ Alright, one more example. Say you'd like a series of buttons to do different th
 }
 ```
 
-Now we can make changes to the currently active tab, such as changing colors on it. The beauty of this particular permission is that it doesn't prompt the user for confirmation (unlike the "tabs" permission, which gives your extension the ability to affect __any__ open tab), although google will ask you to justify using that permission when you upload your extension to their store.
+Now we can make changes to the currently active tab, such as changing colors on it. The beauty of this particular permission is that it doesn't prompt the user for confirmation (unlike the "tabs" permission, which gives your extension the ability to affect _any_ open tab), although google will ask you to justify using that permission when you upload your extension to their store.
 
 Change the HTML file to throw a few buttons on the page:
 
@@ -231,7 +231,7 @@ Create a new file named "options.html", that allows for some user input.
 </div>
 ```
 
-Next, modify the "script.js" file to store and retrieve the settings - in this case, just a name. We're not doing much __with__ the name, but if you save and close the options page, then open it back up, the name is pulled out of storage.
+Next, modify the "script.js" file to store and retrieve the settings - in this case, just a name. We're not doing much _with_ the name, but if you save and close the options page, then open it back up, the name is pulled out of storage.
 
 ```javascript
 window.addEventListener('load', function load(event) {
@@ -266,6 +266,6 @@ Google has some good documentation:
 
 Learning from others is a good idea too. There are some truly amazing extensions, and by using an extension called [Chrome Extension Source Viewer](https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin), you can view the source code of any other extension in the store (including itself). It's helpful if you're trying to figure out how someone did something, or just to verify that an extension isn't doing something malicious.
 
-Pick a relatively straight-forward example like the [ShowPassword](https://chrome.google.com/webstore/detail/showpassword/bbiclfnbhommljbjcoelobnnnibemabl/support?hl=en-US) extension, or any other extension you’re currently using and really think is good__.__ Check out their manifest.json and various html files, js scripts and other resources like images. Install the extension and compare various actions in it with what you see in the files, so you can see how they affect the user experience.
+Pick a relatively straight-forward example like the [ShowPassword](https://chrome.google.com/webstore/detail/showpassword/bbiclfnbhommljbjcoelobnnnibemabl/support?hl=en-US) extension, or any other extension you’re currently using and really think is good_._ Check out their manifest.json and various html files, js scripts and other resources like images. Install the extension and compare various actions in it with what you see in the files, so you can see how they affect the user experience.
 
 Good luck!

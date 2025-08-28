@@ -37,7 +37,7 @@ int quantity = amount;  // compiler: "Cannot implicitly convert type 'decimal' t
 
 This is disallowed, because we run the risk of losing information about the `Decimal`, which can store a fraction as well as a much larger value than `Int32`. The compiler is saving us from ourselves, since we may not realize we’re potentially losing data.
 
-Even though we can’t implicitly convert a `Decimal` to an `Int32`, we can still __explicitly__ convert the values:
+Even though we can’t implicitly convert a `Decimal` to an `Int32`, we can still _explicitly_ convert the values:
 
 ```csharp
 decimal quantity = 5;
@@ -55,9 +55,9 @@ There's a variety of reasons you might need to do this, but the important thing 
 
 ## Implicit Conversion in Our Own Types
 
-The [implicit and explicit conversion operators](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/user-defined-conversion-operators?redirectedfrom=MSDN) allow us to implement conversiosn in our own types. Here's what Microsoft has to say on the `implicit` operator (emphasis mine) __(note: this verbiage seems to have been removed since the time this article was written, but it's still relevant and important):__
+The [implicit and explicit conversion operators](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/user-defined-conversion-operators?redirectedfrom=MSDN) allow us to implement conversiosn in our own types. Here's what Microsoft has to say on the `implicit` operator (emphasis mine) _(note: this verbiage seems to have been removed since the time this article was written, but it's still relevant and important):_
 
-> By eliminating unnecessary casts, implicit conversions can improve source code readability. However, because implicit conversions do not require programmers to explicitly cast from one type to the other, care must be taken to prevent unexpected results. ****In general, implicit conversion operators should never throw exceptions and never lose information**** so that they can be used safely without the programmer’s awareness. ****If a conversion operator cannot meet those criteria, it should be marked explicit.****
+> By eliminating unnecessary casts, implicit conversions can improve source code readability. However, because implicit conversions do not require programmers to explicitly cast from one type to the other, care must be taken to prevent unexpected results. **In general, implicit conversion operators should never throw exceptions and never lose information** so that they can be used safely without the programmer’s awareness. **If a conversion operator cannot meet those criteria, it should be marked explicit.**
 
 In other words, we can use the implicit keyword to hide the exact details of the conversion from others, but don't do something like allowing a decimal to be converted to an integer implicitly and then just silently dropping the fractional portion.
 
@@ -123,7 +123,7 @@ Similar to the `Person` class, we can just pass it a `DateTime` and get a new `B
 Birthday birthday = new DateTime(1970, 6, 2);
 ```
 
-What if we wanted to convert a `Birthday` back to a `DateTime` for some reason? We __could__ define another `implicit` operator, but doing that might go against the general guidance that implicit conversions shouldn't lose data.
+What if we wanted to convert a `Birthday` back to a `DateTime` for some reason? We _could_ define another `implicit` operator, but doing that might go against the general guidance that implicit conversions shouldn't lose data.
 
 Instead, we could create an `explicit` operator:
 

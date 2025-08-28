@@ -43,7 +43,7 @@ We can use the standard HTML elements, and apply the standard CSS styles to thos
 
 ![](notification1.png)
 
-__But...__ what if we don't want all our div boxes to have a yellow background? What if you want some of them to have a __blue__ background? Just assign a class named "blue" to the div, and layer on the css...
+_But..._ what if we don't want all our div boxes to have a yellow background? What if you want some of them to have a _blue_ background? Just assign a class named "blue" to the div, and layer on the css...
 
 ```html
 <style type="text/css">
@@ -58,7 +58,7 @@ __But...__ what if we don't want all our div boxes to have a yellow background? 
 
 ![](notification2.png)
 
-But __but...__ what if you didn't want to keep applying that class to divs that should be blue? What if you just wanted an "angrydiv" element that displays a bright red box?
+But _but..._ what if you didn't want to keep applying that class to divs that should be blue? What if you just wanted an "angrydiv" element that displays a bright red box?
 
 ```html
 <style type="text/css">
@@ -77,11 +77,11 @@ It's interesting that this works, but it's completely predicable and works in ev
 
 The limitation here is that you can't extend existing elements, or just invent new elements that do something outside of how css can change their appearance. Like, you can't just create an "errortable" element and use that with tr and td elements inside it, because the browser uses all of those in combination, and has no idea what to do with a td if it's not nested in a standard table. Most likely, it'll just display all your text on one line instead of in a tabular format.
 
-But css can do a __lot.__ You can have div's that behave much like tables, then create an errortable, errorrow, etc. I'm not saying that's a great idea. In fact, it doesn't offer much of anything over just assigning a class to the table, especially if you're not writing the site by hand using HTML. It's just an interesting oddity.
+But css can do a _lot._ You can have div's that behave much like tables, then create an errortable, errorrow, etc. I'm not saying that's a great idea. In fact, it doesn't offer much of anything over just assigning a class to the table, especially if you're not writing the site by hand using HTML. It's just an interesting oddity.
 
 ![](https://grantwinney.com/content/images/2021/07/image-1.png)
 
-Because? Why not? Actually, the idea for writing about this came from [Leon Arnott's neocities site](https://leonarnott.neocities.org/), which I stumbled on at random while hopping around the geocities replacement the other day. The sites on there are __seriously__ bad.. in a wow-websites-were-ugly-so-why-do-i-still-feel-nostalgic sorta way.
+Because? Why not? Actually, the idea for writing about this came from [Leon Arnott's neocities site](https://leonarnott.neocities.org/), which I stumbled on at random while hopping around the geocities replacement the other day. The sites on there are _seriously_ bad.. in a wow-websites-were-ugly-so-why-do-i-still-feel-nostalgic sorta way.
 
 Here's a few elements based on those CSS elements (I think I got these from [Brad Gessler](https://bradgessler.com/) originally, but I've lost the direct link):
 

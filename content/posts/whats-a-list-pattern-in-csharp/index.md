@@ -17,7 +17,7 @@ tags:
 - Coding
 title: What are list patterns in C#?
 ---
-[As I've mentioned before](https://grantwinney.com/adding-deconstructors-in-csharp-is-it-worth-it/), there's very little I miss from my days of Erlang programming. One of the things I do miss, though, is pattern matching. Erlang does a __lot__ with it, and it's interesting to see C# doing more with it in the last few major releases too.
+[As I've mentioned before](https://grantwinney.com/adding-deconstructors-in-csharp-is-it-worth-it/), there's very little I miss from my days of Erlang programming. One of the things I do miss, though, is pattern matching. Erlang does a _lot_ with it, and it's interesting to see C# doing more with it in the last few major releases too.
 
 Imagine, for a moment, if we could do some kind of pattern matching while [overloading methods](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/member-overloading). In the (completely invalid) code beow, the first method catches any call where the first parameter is "Anne", the second catches any call where the year is 1999, and the last one catches everything else. It's not a perfect analogy, but it's similar to what you can do in Erlang, without needing to have a bunch of `IF/ELSE` statements.
 
@@ -44,13 +44,13 @@ public void WishHappyBirthday(string name, DateOnly birthdate)
 }
 ```
 
-Obviously C# doesn't allow anything like that (yet anyway), but they __did__ introduce something called [list patterns](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns#list-patterns) in C# 11 that's worth checking out. Unfortunately, although Microsoft's docs have improved a lot over the years, the docs aren't selling this feature well.. at least not to me.
+Obviously C# doesn't allow anything like that (yet anyway), but they _did_ introduce something called [list patterns](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns#list-patterns) in C# 11 that's worth checking out. Unfortunately, although Microsoft's docs have improved a lot over the years, the docs aren't selling this feature well.. at least not to me.
 
-I looked up some other examples around the web too, but they're all similarly unrealistic, typically showing a list of numbers being passed around and acted on. What these numbers mean is anyone's guess__,__ and then the new list pattern feature is used to make sure they all fall within certain ranges and whatnot.
+I looked up some other examples around the web too, but they're all similarly unrealistic, typically showing a list of numbers being passed around and acted on. What these numbers mean is anyone's guess_,_ and then the new list pattern feature is used to make sure they all fall within certain ranges and whatnot.
 
-Almost every time I've had a collection of __anything,__ it's coming from a db and represents a list of employees, security settings, subscriptions... things that should have their own class. If I had a list of seemingly-random numbers like in the examples I saw, I'd find a better way to represent that data first, and then using list patterns probably wouldn't apply anyway.
+Almost every time I've had a collection of _anything,_ it's coming from a db and represents a list of employees, security settings, subscriptions... things that should have their own class. If I had a list of seemingly-random numbers like in the examples I saw, I'd find a better way to represent that data first, and then using list patterns probably wouldn't apply anyway.
 
-So I'm left wondering, what __are__ some realistic usages for this new feature? What can we use it for, and how can it make our lives as programmers a little easier? Let's look at a few use cases.
+So I'm left wondering, what _are_ some realistic usages for this new feature? What can we use it for, and how can it make our lives as programmers a little easier? Let's look at a few use cases.
 
 > The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/ListPatternMatching?ref=grantwinney.com), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
@@ -75,7 +75,7 @@ var inconsistentCSVFileRecords = new[]
 };
 ```
 
-After splitting each string, we can define a pattern that grabs the name and sales (first and last) values for further processing, while ignoring everything __(or nothing!)__ in between, with the `..` slice pattern.
+After splitting each string, we can define a pattern that grabs the name and sales (first and last) values for further processing, while ignoring everything _(or nothing!)_ in between, with the `..` slice pattern.
 
 ```csharp
 var stores = new List<string>();

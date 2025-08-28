@@ -19,16 +19,16 @@ title: Creating Music with Sonic Pi on a Raspberry Pi
 ---
 Back in May, at the [Stir Trek conference](http://stirtrek.com/) in Columbus OH, I got to watch Scott Fradkin live-code using Sonic Pi for nearly an hour, not only explaining what it was capable of, but showing it too.
 
-He kept building it up as the session went on, and everyone in the room had a chance to see __and__ hear what he was creating. By the end of the session, he had a good beat going! If you want to see the script he used, it's on [GitHub](https://github.com/sfradkin/presentations/tree/master/sonic-pi-programming-fun-profit).
+He kept building it up as the session went on, and everyone in the room had a chance to see _and_ hear what he was creating. By the end of the session, he had a good beat going! If you want to see the script he used, it's on [GitHub](https://github.com/sfradkin/presentations/tree/master/sonic-pi-programming-fun-profit).
 
-If you've never heard of it before though, you're probably wondering.. what __is__ Sonic Pi?
+If you've never heard of it before though, you're probably wondering.. what _is_ Sonic Pi?
 
 ## What is Sonic Pi?
 
 [Sonic Pi](http://sonic-pi.net/) is an environment for programming sounds, where one can learn about music and coding at the same time. [Sam Aaron](https://linktr.ee/samaaron) started on it to help students in the UK learn computer programming:
 
 > Sonic Pi encourages you to learn about both computing and music through play and experimentation. The most important thing is that you’re having fun, and before you know it you’ll have accidentally learned how to code, compose and perform.  
-> __–__ Sam Aaron__, “Welcome to Sonic Pi” tutorial__
+> _–_ Sam Aaron_, “Welcome to Sonic Pi” tutorial_
 
 It's written in a way that's very forgiving to newcomers, using a Ruby-like syntax that reads more like English and is more forgiving with formatting than other languages.
 
@@ -59,7 +59,7 @@ Sonic Pi can record the music we create and generate a wav file, which can then 
 
 Alternatively, we can take advantage of the OSC protocol:
 
-> OpenSound Control (OSC) is “a protocol for communication among computers, sound synthesizers, and other multimedia devices that is optimized for modern networking technology.” – [__OpenSound Control User Guide__](http://osw.sourceforge.net/html/osc.htm)
+> OpenSound Control (OSC) is “a protocol for communication among computers, sound synthesizers, and other multimedia devices that is optimized for modern networking technology.” – [_OpenSound Control User Guide_](http://osw.sourceforge.net/html/osc.htm)
 
 There’s a lot more on that page, but the important part is that it enables the Raspberry Pi to communicate with Sonic Pi, sending it the notes to play. It's more dynamic, allowing us to make changes without having to record a new wav file.
 
@@ -67,7 +67,7 @@ There’s a lot more on that page, but the important part is that it enables the
 
 Sonic Pi was designed with OSC in mind, and is configured to listen for OSC messages on localhost port 4557, so that’s where we send our messages. [Nick Johnstone](http://widdersh.in/controlling-sonic-pi-from-vim-or-anywhere-else/) created a ruby gem called [sonic-pi-cli](https://github.com/Widdershin/sonic-pi-cli), which allows us to send messages via the command line, so let's take advantage of that.
 
-After [installing Ruby](https://www.ruby-lang.org/en/documentation/installation/) __(not necessary on the Pi),__ install the gem:
+After [installing Ruby](https://www.ruby-lang.org/en/documentation/installation/) _(not necessary on the Pi),_ install the gem:
 
 `sudo gem install sonic-pi-cli`
 
@@ -211,7 +211,7 @@ def main():
         GPIO.cleanup()
  
  
-if __name__ == '__main__':
+if _name_ == '_main_':
     main()
 ```
 

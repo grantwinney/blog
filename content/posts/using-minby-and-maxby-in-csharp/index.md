@@ -81,7 +81,7 @@ Console.WriteLine($"{max!.Name} makes the most at {max.Salary:C}, " +
 
 ## Using MinBy and MaxBy
 
-****The new**** **`**MaxBy**`** ****and**** **`**MinBy**`** ****methods let us specify a property to sort by, which allows for more flexbility in simple cases.**** We can sort employees by hire date, for example, and then sort by their security level immediately after:
+**The new** *`*MaxBy*`* **and** *`*MinBy*`* **methods let us specify a property to sort by, which allows for more flexbility in simple cases.** We can sort employees by hire date, for example, and then sort by their security level immediately after:
 
 ```csharp
 var newestHire = employees.MaxBy(e => e.HireDate);
@@ -109,7 +109,7 @@ var maxBySalary = employees.OrderByDescending(e => e.Salary).First();
 var minBySalary = employees.OrderBy(e => e.Salary).First();
 ```
 
-That isn't much longer, but `MaxBy` and `MinBy` just __read__ better. ****The new methods make it easier to tell at a glance what the code is doing****, and that's not a trivial thing. We don't have to reason out what the `OrderBy` is doing, nor do we have to open the class and investigate the `CompareTo` method.
+That isn't much longer, but `MaxBy` and `MinBy` just _read_ better. **The new methods make it easier to tell at a glance what the code is doing**, and that's not a trivial thing. We don't have to reason out what the `OrderBy` is doing, nor do we have to open the class and investigate the `CompareTo` method.
 
 Like anything though, there's limitations. Since we can only specify one property, we still need something like this to consider multiple properties:
 

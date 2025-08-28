@@ -21,7 +21,7 @@ I've recently been refreshing myself on some of the goodies we got with [C# 6](h
 
 Everyone wants to learn, but there isn't always an opportunity for discovering the newest and hottest, especially in older apps. Sometimes we get so familiar with the old that it seems good enough, but little improvements help too, which is why I'm doing these posts on [surviving WinForms](https://grantwinney.com/tag/surviving-winforms/).
 
-Today I'm digging into something we got in C# 7 - [local functions](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/local-functions). These are functions that can be nested inside of __other__ functions. Actually, it's an odd name choice since, unlike some languages, C# typically calls them methods. So why aren't they called nested methods? One of life's great mysteries, I suppose.
+Today I'm digging into something we got in C# 7 - [local functions](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/local-functions). These are functions that can be nested inside of _other_ functions. Actually, it's an odd name choice since, unlike some languages, C# typically calls them methods. So why aren't they called nested methods? One of life's great mysteries, I suppose.
 
 As I said, local functions are methods that are nested inside of other methods. Why would you want to do that? One reason might be to [DRY](https://www.nickang.com/2017-12-11-what-is-dry-programming/) up code that's only needed by a single method. I've seen code like this quite a bit, where the same check is being performed on a bunch of separate UI elements. It's repetitive, but there isn't really an obvious way to make it shorter.
 
@@ -57,7 +57,7 @@ private void btnSave_Click(object sender, EventArgs e)
 }
 ```
 
-Local functions allow us to pull the similar code into a separate method that's __only__ accessible by the method it's in, and we can shorten the code a bit. I think it's still plenty readable. What do you think?
+Local functions allow us to pull the similar code into a separate method that's _only_ accessible by the method it's in, and we can shorten the code a bit. I think it's still plenty readable. What do you think?
 
 ```csharp
 private void btnSave_Click(object sender, EventArgs e)
@@ -101,7 +101,7 @@ private void btnSave_Click(object sender, EventArgs e)
 }
 ```
 
-Is that still readable? I'm not so sure. It takes more time to figure out what the method's accomplishing, and I prefer clarity to brevity. Just because we __can__ do something in fewer lines doesn't always mean we __should.__ Like anything, local functions can be taken too far. [Golden hammer](https://ceopedia.org/index.php/Golden_hammer#Golden_hammer_in_computer_programming) and all that.
+Is that still readable? I'm not so sure. It takes more time to figure out what the method's accomplishing, and I prefer clarity to brevity. Just because we _can_ do something in fewer lines doesn't always mean we _should._ Like anything, local functions can be taken too far. [Golden hammer](https://ceopedia.org/index.php/Golden_hammer#Golden_hammer_in_computer_programming) and all that.
 
 And keep in mind there's always plenty of ways to solve a problem. Local functions aren't the only way to shorten the original code above. You could use the `Controls` collection and LINQ, for instance, to set every TextBox on the screen. Still pretty readable, but maybe not as flexible.
 
@@ -157,13 +157,13 @@ private void btnCalcTotalRepaid(object sender, EventArgs e)
 }
 ```
 
-In both cases, nothing else needs to call GetFactorial or GetTotalRepaidAmount, so why not have them as close to the method that __does__ need each one? As the form grows and things get moved around and jumbled up by future devs, no one will have to hunt around for the methods - they're __right there__.
+In both cases, nothing else needs to call GetFactorial or GetTotalRepaidAmount, so why not have them as close to the method that _does_ need each one? As the form grows and things get moved around and jumbled up by future devs, no one will have to hunt around for the methods - they're _right there_.
 
 The caveat to this is that, since the method is accessible only within the method it's in, you can't test it. And the above two methods (GetFactorial and GetTotalRepaidAmont) would be great candidates for a [TestCase](https://docs.nunit.org/articles/nunit/writing-tests/attributes/testcase.html) in NUnit (or [InlineData](https://exceptionnotfound.net/using-xunit-theory-and-inlinedata-to-test-c-extension-methods/) in XUnit), where you could send maybe a half-dozen different values into the method and make sure you get the expected result. You could even move them into a controller and use [MVP](https://grantwinney.com/its-possible-to-test-a-winforms-app-using-mvp/).
 
 So as I said, not a magic hammer, just another tool.. ymmv and all that.
 
-One last thing, on the subject of taking things too far. Looking at these examples, did it occur to you that since the local function is a regular old method, you can do something else with it? Like, nest a local function __in__ the local function?
+One last thing, on the subject of taking things too far. Looking at these examples, did it occur to you that since the local function is a regular old method, you can do something else with it? Like, nest a local function _in_ the local function?
 
 ```csharp
 private void HowAreYouFeelingToday()
@@ -187,6 +187,6 @@ private void HowAreYouFeelingToday()
 }
 ```
 
-You're team is going to __love__ you. Functions alllll the way down... 🐢
+You're team is going to _love_ you. Functions alllll the way down... 🐢
 
 If you found this content useful, and want to learn more about a variety of C# features, check out [this GitHub repo](https://github.com/grantwinney/CSharpDotNetExamples), where you'll find links to plenty more blog posts and practical examples!

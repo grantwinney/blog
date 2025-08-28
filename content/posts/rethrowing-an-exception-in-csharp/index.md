@@ -16,7 +16,7 @@ tags:
 - Coding
 title: The right way to rethrow an exception in C#
 ---
-All languages have gotchas, and C# is no different. A subtle one is the difference between `catch (Exception) throw;` and `catch (Exception ex) throw ex;`. On the surface, it seems like they'll do the same thing; in reality, the difference is really important if you care to know why your app is __really__ crashing.
+All languages have gotchas, and C# is no different. A subtle one is the difference between `catch (Exception) throw;` and `catch (Exception ex) throw ex;`. On the surface, it seems like they'll do the same thing; in reality, the difference is really important if you care to know why your app is _really_ crashing.
 
 Check out the following code. Can you tell what the difference will be, if any, between the two `Console` statements?
 

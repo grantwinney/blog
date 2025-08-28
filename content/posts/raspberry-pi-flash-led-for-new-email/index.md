@@ -37,7 +37,7 @@ Most of the major email services provide an API, including [MS Office](https://l
 
 With Gmail, the API was my only option. Every time I tried a Python script I found, I’d get the following error:
 
-> __imaplib.error: [ALERT] Application-specific password required: https://support.google.com/accounts/answer/185833 (Failure)__
+> _imaplib.error: [ALERT] Application-specific password required: https://support.google.com/accounts/answer/185833 (Failure)_
 
 The problem is that [I have 2-Step Verification enabled](https://support.google.com/accounts/answer/185833), and the script can’t get past that. That’s okay… 2FA is a good thing, and we don’t want to disable that. There’s another, more secure and stable, way to access a Gmail account.
 
@@ -71,7 +71,7 @@ messages = service.users().messages().list(userId='me', q='is:inbox + is:unread'
 unread_count = messages['resultSizeEstimate']
 ```
 
-By using `is:inbox + ``is:unread` we can get emails with __both__ of those labels. The [json](http://developers.squarespace.com/what-is-json/) response we get back includes two keys – one is a list of messages, while the other is the number of messages. We can use the latter to get our message count.
+By using `is:inbox + ``is:unread` we can get emails with _both_ of those labels. The [json](http://developers.squarespace.com/what-is-json/) response we get back includes two keys – one is a list of messages, while the other is the number of messages. We can use the latter to get our message count.
 
 ```json
 {
@@ -179,7 +179,7 @@ def main():
         GPIO.cleanup()
  
  
-if __name__ == '__main__':
+if _name_ == '_main_':
     main()
 ```
 
@@ -199,11 +199,11 @@ Here are some photos of the actual circuit.
 
 Questions? Comments? Hit me up in the comments section below.
 
-## ****More Reading****
+## **More Reading**
 
 Some extra reading if you’re interested. Just some stuff I came across while doing research for this project:
 
-****Gmail****
+**Gmail**
 
 - [Python Quickstart](https://developers.google.com/gmail/api/quickstart/python)
 - [Gmail API Client Library for Python](https://developers.google.com/api-client-library/python/apis/gmail/v1)
@@ -214,12 +214,12 @@ Some extra reading if you’re interested. Just some stuff I came across while d
 - [Python library for accessing resources protected by OAuth 2.0](https://github.com/google/oauth2client)
 - [Python client library for Google’s discovery based APIs](https://github.com/google/google-api-python-client)
 
-****Raspberry Pi****
+**Raspberry Pi**
 
 - [What is a Breadboard and How to use it](http://www.tweaking4all.com/hardware/breadboard)
 - [RPi.GPIO update and detecting BOTH rising and falling edges](http://raspi.tv/2014/rpi-gpio-update-and-detecting-both-rising-and-falling-edges)
 
-****Python****
+**Python**
 
 - [Errors and Exceptions](https://docs.python.org/2/tutorial/errors.html)
 - [A Python module to control the GPIO on a Raspberry Pi](https://sourceforge.net/projects/raspberry-gpio-python/)

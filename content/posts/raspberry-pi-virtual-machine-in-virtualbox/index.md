@@ -21,9 +21,9 @@ I recently started flipping through [The MagPi back-issues](https://www.raspberr
 
 It got me thinking though. I’ve been playing around a lot on the Pi itself, but it’d be convenient to have an environment setup where I could experiment with code even when I don’t have access to the Pi.
 
-****Goal:**** Setup a virtual machine with [Debian](https://www.raspberrypi.org/downloads/raspbian/) (from which Raspbian is derived). Install Python and other libraries and installers, so I can code solutions that can be migrated to the Pi.
+**Goal:** Setup a virtual machine with [Debian](https://www.raspberrypi.org/downloads/raspbian/) (from which Raspbian is derived). Install Python and other libraries and installers, so I can code solutions that can be migrated to the Pi.
 
-****Limitations:**** The RPi.GPIO library expects the GPIO pins to be available. If you’re not on the Pi, you can’t execute code that directly accesses them. It’ll complain loudly that you can only run your code on an actual Pi.
+**Limitations:** The RPi.GPIO library expects the GPIO pins to be available. If you’re not on the Pi, you can’t execute code that directly accesses them. It’ll complain loudly that you can only run your code on an actual Pi.
 
 ![debian - gpio exception msg](https://grantwinney.com/content/images/2016/05/debian-gpio-exception-msg.png)
 
@@ -31,7 +31,7 @@ We’ll contemplate work-arounds later. Just wanted to state this upfront though
 
 Also, this is an attempt to closely emulate Raspbian, not the ARM processor found on the Pi. If you’re interested in trying to emulate the processor, check out [QEMU](http://wiki.qemu.org/Main_Page). It looked a little complicated to tackle, so I’m holding off for now, but I’d like to revisit it.
 
-__(Even better, reader__ [__kriss__](http://wetgenes.com/) __seems to have gotten QEMU to work, and left a helpful comment below.)__
+_(Even better, reader_ [_kriss_](http://wetgenes.com/) _seems to have gotten QEMU to work, and left a helpful comment below.)_
 
 ## Install VirtualBox
 
@@ -43,7 +43,7 @@ Unfortunately, although [Raspbian images](https://www.raspberrypi.org/downloads/
 
 Whatever the reason, all I could get was a black screen with the message:
 
-> __“FATAL: No bootable medium found! System halted.”__
+> _“FATAL: No bootable medium found! System halted.”_
 
 Raspbian is based off of Debian though, so let’s use Debian.
 

@@ -110,7 +110,7 @@ The fish swam.
 The dino, uh... remained still.
 ```
 
-After thinking about all this for a bit, what else __could__ it do? Given that a single interface can be implemented by any number of classes, what should happen when one class marks the code obsolete, but the others do not? Should __any__ call to `Move()` cause an error? Absolutely not... that would break the other classes that don't have the attribute. And so, ****any presence of the attribute on the classes themselves are ignored in favor of the interface****.
+After thinking about all this for a bit, what else _could_ it do? Given that a single interface can be implemented by any number of classes, what should happen when one class marks the code obsolete, but the others do not? Should _any_ call to `Move()` cause an error? Absolutely not... that would break the other classes that don't have the attribute. And so, **any presence of the attribute on the classes themselves are ignored in favor of the interface**.
 
 In other words, it’s not enough to mark the class itself. If we have interfaces that the class is implementing, its methods may need to be decorated with the attribute too:
 
@@ -122,7 +122,7 @@ public interface IAnimal
 }
 ```
 
-The caveat is that, ****if we add the**** **`**Obsolete**`** ****attribute to the interface, then every class implementing the interface will inherit the attribute too****, regardless of whether each of those classes actually has the attribute set on it.
+The caveat is that, **if we add the** *`*Obsolete*`* **attribute to the interface, then every class implementing the interface will inherit the attribute too**, regardless of whether each of those classes actually has the attribute set on it.
 
 ![](https://grantwinney.com/content/images/2024/05/image-7.png)
 

@@ -39,7 +39,7 @@ It's worth noting that [there's instructions for automating this process](https:
 
 ## Fetch latest official changes, periodically
 
-To avoid missing out on future updates to the default Casper theme, [keep your fork up to date](https://gist.github.com/CristinaSolana/1885435) __(don't forget to commit your changes first)__.
+To avoid missing out on future updates to the default Casper theme, [keep your fork up to date](https://gist.github.com/CristinaSolana/1885435) _(don't forget to commit your changes first)_.
 
 ```none
 cd into/cloned/fork-repo
@@ -55,6 +55,6 @@ If you're a fan of [git aliases](https://grantwinney.com/what-is-a-git-alias-and
 updatecasper = !cd your/casper/location && git fetch upstream && git pull upstream master && git push
 ```
 
-****NOTE:****
+**NOTE:**
 
 This method of updating my local fork worked perfectly fine for me, but you may also want to checkout the [official doc on Syncing a fork](https://help.github.com/articles/syncing-a-fork/) which suggests a `git merge` instead of a `git pull`. There's also a [comment](https://gist.github.com/CristinaSolana/1885435#gistcomment-2114661) under the gist I linked to above, that suggests a way to keep forks up-to-date all through GitHub.

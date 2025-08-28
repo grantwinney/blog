@@ -31,7 +31,7 @@ if (employee != null && employee.Name != null &&
 }
 ```
 
-That is just so long-winded and __boring.__ We shouldn't have to type all that repetitive code out, and we don't. C# 6 gave us a couple new tools - the null-conditional and null-coalescing operators.
+That is just so long-winded and _boring._ We shouldn't have to type all that repetitive code out, and we don't. C# 6 gave us a couple new tools - the null-conditional and null-coalescing operators.
 
 > The code in this article is available on <a href="https://github.com/grantwinney/Surviving-WinForms/tree/master/ClarityConciseness/NullHandlingOperators">GitHub</a>, if you'd like to use it in your own projects or just follow along while you read.
 
@@ -127,7 +127,7 @@ var validUrlHost = validCompany.URL.Host;     // www.spacex.com
 var invalidUrlHost = emptyCompany.URL?.Host;  // null
 ```
 
-You only have to use them where you're worried about nulls too. If you've defined your classes in such a way that __if__ there's a department, then it __will__ have a collection of employees (maybe an empty one), then you can just use the null conditional operator in the one place you're worried about.
+You only have to use them where you're worried about nulls too. If you've defined your classes in such a way that _if_ there's a department, then it _will_ have a collection of employees (maybe an empty one), then you can just use the null conditional operator in the one place you're worried about.
 
 ```csharp
 var engineers = validCompany.Departments[0].Employees.Count();      // 3
@@ -135,9 +135,9 @@ var engineers = validCompany.Departments[0].Employees.Count();      // 3
 var invalidCount = emptyCompany.Departments?[0].Employees.Count();  // null
 ```
 
-****Note #1:**** The operator always applies to the variable right __before__ it. So above, if Departments is null then you're safe. But if Departments is instantiated but empty, then trying to access the first element from the collection will still throw a different exception.
+**Note #1:** The operator always applies to the variable right _before_ it. So above, if Departments is null then you're safe. But if Departments is instantiated but empty, then trying to access the first element from the collection will still throw a different exception.
 
-****Note #2:**** Use these where it makes sense. I happen to think that, if there's no reasonable explanation for a certain variable to ever be null, then it's probably better to let it throw an exception so you can debug it, rather than aggressively preventing NullReferenceException everywhere and giving things default values where it doesn't make sense.
+**Note #2:** Use these where it makes sense. I happen to think that, if there's no reasonable explanation for a certain variable to ever be null, then it's probably better to let it throw an exception so you can debug it, rather than aggressively preventing NullReferenceException everywhere and giving things default values where it doesn't make sense.
 
 ## Null Coalescing operator
 
@@ -164,7 +164,7 @@ With this:
 var companyName = company.Name ?? "unknown";
 ```
 
-Revisiting the earlier examples, you can use both together to avoid an exception __and__ to decide what the value should be when it's null...
+Revisiting the earlier examples, you can use both together to avoid an exception _and_ to decide what the value should be when it's null...
 
 ```csharp
 Console.WriteLine($"{validCompany.Name}'s website is {validCompany.URL.Host}.");

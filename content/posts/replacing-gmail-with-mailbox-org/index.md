@@ -41,13 +41,13 @@ As you can see, I have a whopping $2 in my account, good for 2 months of basic u
 
 Setup is far easier if you just use the default mailbox.org domain, buuuut.. I love to complicate things. Seriously though, after changing gmail.com to protonmail.com and now to mailbox.org (and being realistic that I may want to change services again someday, and since I already have a domain for this blog), it just makes sense to make this the last email address change I'll ever have to make.
 
-Mailbox.org provides a detailed doc on [setting up e-mail addresses for your domain](https://kb.mailbox.org/display/BMBOKBEN/Using+e-mail+addresses+of+your+domain). You'll definitely have to be comfortable configuring your own domain setup, but it's not __that__ hard if you're willing to do some research. I can only share what I do personally.
+Mailbox.org provides a detailed doc on [setting up e-mail addresses for your domain](https://kb.mailbox.org/display/BMBOKBEN/Using+e-mail+addresses+of+your+domain). You'll definitely have to be comfortable configuring your own domain setup, but it's not _that_ hard if you're willing to do some research. I can only share what I do personally.
 
 My domain name is currently registered with Namecheap, which I configured to [forward all traffic to the DigitalOcean nameservers](https://www.digitalocean.com/community/tutorials/how-to-point-to-digitalocean-nameservers-from-common-domain-registrars), where I host this blog. Everything (web traffic, emails, etc) goes through Namecheap to DO, where the actual config is done.
 
 ![](https://grantwinney.com/content/images/2019/12/namecheap-forwarding-1.png)
 
-The first thing you'll see in Mailbox.org when you try to setup an alias to your own domain is a warning telling you to add a TXT record to your DNS settings. They have to do that to verify you have access to the domain, otherwise __anyone__ could claim __any__ domain for their own. [That would be Bad](https://www.youtube.com/watch?v=9wrEEd1ajz4&t=28).
+The first thing you'll see in Mailbox.org when you try to setup an alias to your own domain is a warning telling you to add a TXT record to your DNS settings. They have to do that to verify you have access to the domain, otherwise _anyone_ could claim _any_ domain for their own. [That would be Bad](https://www.youtube.com/watch?v=9wrEEd1ajz4&t=28).
 
 ![](https://grantwinney.com/content/images/2019/12/add-txt-record-warning.png)
 
@@ -57,7 +57,7 @@ After you've proven you're the owner, you see this instead. Now you can add some
 
 ![](https://grantwinney.com/content/images/2019/12/add-mx-records-2-1.png)
 
-__But wait, there's more!__ You may have proven who you are to Mailbox.org, but that's not enough for other providers like Gmail, who will mark your messages as possible spam and unceremoniously dump them in the recipient's spam folder. Fun.
+_But wait, there's more!_ You may have proven who you are to Mailbox.org, but that's not enough for other providers like Gmail, who will mark your messages as possible spam and unceremoniously dump them in the recipient's spam folder. Fun.
 
 ![](https://grantwinney.com/content/images/2019/12/spf-04.png)
 
@@ -88,7 +88,7 @@ To sync everything with Android, you'll need to take advantage of the CardDAV an
 3. Choose “Login with URL and user name”.  
     base url: [https://dav.mailbox.org](https://dav.mailbox.org/)  
     user name: your mailbox.org primary email  
-    password: your mailbox.org password __(not thrilled with having to supply my password instead of a per-app code where permissions can be restricted)__
+    password: your mailbox.org password _(not thrilled with having to supply my password instead of a per-app code where permissions can be restricted)_
 4. Give the name an account if it prompts you (I can't remember..).
 5. You should be prompted to allow certain permissions, like calendar, tasks and contacts. Might as well, otherwise it probably can't do what it needs to do.
 6. You should see CardDAV (for syncing contacts) and CalDAV (for syncing calendars and tasks).
@@ -154,7 +154,7 @@ Export your contacts in CSV format, and Mailbox.org can consume them pretty easi
 There's no getting around this one - you'll have to login to each billing provider and service and update your email. If you don't want to send out a blanket email to everyone in your address book, or if you're worried you might've missed a few services, here's 3 filters I setup that might help you too:
 
 - After deleting my calendar events, the system sends daily reminders that I have absolutely nothing planned. Don't need those..
-- Everything sent to me that __isn't__ flagged as spam is forwarded to my new email.
+- Everything sent to me that _isn't_ flagged as spam is forwarded to my new email.
 - Everything that's spam is deleted.
 
 ![](https://grantwinney.com/content/images/2020/02/gmail-forwardemails.jpg)
@@ -167,9 +167,9 @@ Be sure to [download your data first](https://takeout.google.com/?hl=en), at lea
 
 ## Other Features (disposable addresses, security, etc)
 
-They also provide a bunch of other awesome sauce right out of the box. I've pondered just [what the heck ultimately happens to our digital life](https://grantwinney.com/what-happens-to-our-online-presence-when-we-die/), and so have they apparently. I don't know how they __confirm__ my death, but presumably once they receive a request to release it, they can (at your instruction) grant it or delete it. Not sure how it'd hold up in court, but it's interesting.
+They also provide a bunch of other awesome sauce right out of the box. I've pondered just [what the heck ultimately happens to our digital life](https://grantwinney.com/what-happens-to-our-online-presence-when-we-die/), and so have they apparently. I don't know how they _confirm_ my death, but presumably once they receive a request to release it, they can (at your instruction) grant it or delete it. Not sure how it'd hold up in court, but it's interesting.
 
-The built-in disposable addresses are awesome as well. I spent a few hours porting my online accounts to my new email, and closed quite a few that I hadn't used in a long time. That is an __incredibly__ painful and frustrating experience, especially when there's no obvious way to even close the account. So, at the very least, I spun up a disposable address, changed it in those services and confirmed it, then deleted the address. At that point, they're effectively dead to me. 👍
+The built-in disposable addresses are awesome as well. I spent a few hours porting my online accounts to my new email, and closed quite a few that I hadn't used in a long time. That is an _incredibly_ painful and frustrating experience, especially when there's no obvious way to even close the account. So, at the very least, I spun up a disposable address, changed it in those services and confirmed it, then deleted the address. At that point, they're effectively dead to me. 👍
 
 ![](https://grantwinney.com/content/images/2019/12/aliases.png)
 

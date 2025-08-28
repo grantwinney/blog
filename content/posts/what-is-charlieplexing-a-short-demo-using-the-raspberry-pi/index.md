@@ -27,7 +27,7 @@ If we connect 2 LEDs to the same 2 GPIO pins, but with their anode and cathode r
 
 By flip-flopping which one is HIGH and which one is LOW, we can turn one LED on at a time, making them blink opposite each other. If we do this fast enough, the on/off switching is still taking place but so rapidly that they appear to be simultaneously “on” to the human eye.
 
-Try it out by setting up your circuit like the diagram and images below. You’ll need a couple resistors – 220 ohm is okay, 470 ohm is probably better – and a couple LEDs. I used a wire because really you only need one resistor in the path (it doesn’t matter __where__ in the path it is – between the power source and LED, or between the LED and ground).
+Try it out by setting up your circuit like the diagram and images below. You’ll need a couple resistors – 220 ohm is okay, 470 ohm is probably better – and a couple LEDs. I used a wire because really you only need one resistor in the path (it doesn’t matter _where_ in the path it is – between the power source and LED, or between the LED and ground).
 
 ![](https://grantwinney.com/content/images/2017/02/fritzing-charlieplexing-2-in-2.png)
 
@@ -55,7 +55,7 @@ while True:
 
 Connecting 2 LEDs to 2 pins doesn’t buy us anything, since we would’ve had to use 2 pins anyway.
 
-But what if we use 3 GPIO pins? Then we need to make a change – they can’t __all__ be set to GPIO.OUT. One pin is set to HIGH and one to LOW to turn a specific LED on. If the third pin is also set to HIGH or LOW, because of the way the LEDs are all interconnected (see the diagram below), it’s going to have a negative effect on our circuit.
+But what if we use 3 GPIO pins? Then we need to make a change – they can’t _all_ be set to GPIO.OUT. One pin is set to HIGH and one to LOW to turn a specific LED on. If the third pin is also set to HIGH or LOW, because of the way the LEDs are all interconnected (see the diagram below), it’s going to have a negative effect on our circuit.
 
 Instead, the third pin needs to be set in such a way that it’s effectively removed from the circuit, and we can do that by setting it to input (GPIO.IN).
 
@@ -87,4 +87,4 @@ while True:
 
 ## Seeing it in Action
 
-[Here’s a short video I took](https://res.cloudinary.com/dxm4riq52/video/upload/v1583296460/Raspberry%20Pi/What_is__charlieplexing___Let_s_find_out_using_the_Raspberry_Pi_eveb2a.mp4), showing both configurations in action... and if you find this useful, or have used charlieplexing in a project of your own, or just have something to share that I left out and others should know, please share your thoughts below!
+[Here’s a short video I took](https://res.cloudinary.com/dxm4riq52/video/upload/v1583296460/Raspberry%20Pi/What_is_charlieplexing__Let_s_find_out_using_the_Raspberry_Pi_eveb2a.mp4), showing both configurations in action... and if you find this useful, or have used charlieplexing in a project of your own, or just have something to share that I left out and others should know, please share your thoughts below!

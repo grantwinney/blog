@@ -13,9 +13,9 @@ tags:
 - Coding
 title: How can I generate a new GUID?
 ---
-GUIDs, or globally unique identifiers, are heavily used in the world of development. And while they certainly are unique (32 hex characters means all 8 billion people on Earth could generate a billion GUIDs every second, and there'd still be enough for 1.3 __trillion__ years), in reality no GUID __needs__ to be unique across the world - just your system.
+GUIDs, or globally unique identifiers, are heavily used in the world of development. And while they certainly are unique (32 hex characters means all 8 billion people on Earth could generate a billion GUIDs every second, and there'd still be enough for 1.3 _trillion_ years), in reality no GUID _needs_ to be unique across the world - just your system.
 
-For the uninitiated, GUIDs can be used as identifiers in a database (or across databases) to link records, or as identifiers in other systems (like Windows does in its registry), or as temporary file names, or anywhere else you need guaranteed uniqueness but not human readableness __(totally a real word)__.
+For the uninitiated, GUIDs can be used as identifiers in a database (or across databases) to link records, or as identifiers in other systems (like Windows does in its registry), or as temporary file names, or anywhere else you need guaranteed uniqueness but not human readableness _(totally a real word)_.
 
 If you're interested in reading more about what goes on under the covers to create them, [Raymond Chen's article](https://devblogs.microsoft.com/oldnewthing/20080627-00/?p=21823) should pique your interest.. or make your brain hurt. Personally, I'm not so interested in how they're calculated, but how I can easily generate one (or several) when I need it.
 
@@ -43,7 +43,7 @@ Here's an example, that definitely only took 30 seconds to create and that I cer
 
 Somewhere on my long list of things to get more familiar with is [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell). For anyone out there who uses it regularly (maybe even leaves it open all day), there's a [New-Guid](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/new-guid) command that, well, does what you'd think.
 
-Running the command by itself presents a column header, which seems a little weird to me .. it's not like I'm going to think that value is something __else.__ Using the value in a string (whether it's saved in a variable first or just called inline), it outputs only the GUID, as I'd expect it to.
+Running the command by itself presents a column header, which seems a little weird to me .. it's not like I'm going to think that value is something _else._ Using the value in a string (whether it's saved in a variable first or just called inline), it outputs only the GUID, as I'd expect it to.
 
 ![](https://grantwinney.com/content/images/2023/07/image-18.png)
 

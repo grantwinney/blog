@@ -17,7 +17,7 @@ In [my last post](https://grantwinney.com/what-is-graphql-and-how-does-it-differ
 
 Facebook spent years developing GraphQL and then open-sourced it. When GitHub began moving to a new version of their API several years ago, [they migrated from REST to GraphQL](https://github.blog/2016-09-14-the-github-graphql-api/). Their reasoning is very similar to what I've read elsewhere and experienced myself.
 
-> Our responses were bloated and filled with all sorts of `*_url` hints in the JSON responses to help people continue to navigate through the API to get what they needed. Despite all the information we provided, we heard from integrators that our REST API also wasn’t very flexible. It sometimes required two or three separate calls to assemble a complete view of a resource. It seemed like our responses simultaneously sent too much data __and__ didn’t include data that consumers needed.
+> Our responses were bloated and filled with all sorts of `*_url` hints in the JSON responses to help people continue to navigate through the API to get what they needed. Despite all the information we provided, we heard from integrators that our REST API also wasn’t very flexible. It sometimes required two or three separate calls to assemble a complete view of a resource. It seemed like our responses simultaneously sent too much data _and_ didn’t include data that consumers needed.
 
 ## Queries
 
@@ -27,7 +27,7 @@ With REST, I've always used [Postman](https://www.getpostman.com/) to manage my 
 
 GraphiQL is a ready-to-go "API Explorer". It integrates API docs right into the experience with "typeaheads" (similar to intellisense in Visual Studio), which helps us figure out what to query and then shows us the results. Let's try out [GitHub's API explorer](https://developer.github.com/v4/explorer/).
 
-- Allow it to access your GitHub account... even though it __is__ GitHub. 🤨
+- Allow it to access your GitHub account... even though it _is_ GitHub. 🤨
 - Click the "Execute Query" triangle in the upper-left to run the default query... info about you!
 - Click the "Docs" button on the right side to view the API documentation. Note the two root types - query and mutation. A query is similar to a REST `GET`, while mutation is similar to `POST` or `DELETE`. Stick with query for now.
 - As you drill down, you'll see objects to query, parameters to restrict your queries, and other child objects. It's like you're getting to browse their database!
@@ -42,7 +42,7 @@ A query for my own repos' URLs, and the homepages of repos I've forked:
 
 ![](https://grantwinney.com/content/images/2019/09/repos.png)
 
-My bio, my followers, my __followers'__ followers bios... why? Because I can. 😑
+My bio, my followers, my _followers'_ followers bios... why? Because I can. 😑
 
 ![](https://grantwinney.com/content/images/2019/09/followers-all-the-way-down.png)
 
@@ -59,6 +59,6 @@ As with running the queries, having the documentation on the right side is great
 
 ![](https://grantwinney.com/content/images/2019/09/mutation-docs.png)
 
-The only thing that seemed unintuitive was the requirement to have a body in the mutation, as if it's required to return __something__ even though if we were doing a REST `POST` we wouldn't care about anything except a return code of `200 OK`.
+The only thing that seemed unintuitive was the requirement to have a body in the mutation, as if it's required to return _something_ even though if we were doing a REST `POST` we wouldn't care about anything except a return code of `200 OK`.
 
 ![](https://grantwinney.com/content/images/2019/09/mutation_nobody.png)

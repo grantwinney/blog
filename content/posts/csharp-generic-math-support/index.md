@@ -128,9 +128,9 @@ public void GetDescriptionWorksForAllTypesOfContainers()
 
 One thing we haven't really been able to do before, though, is add "static" members to an interface. Actually, since C# 8 we've apparently been able to add static methods to interfaces as long as they declare a default body. I'm sure there's a good reason for it, but I haven't used it yet.
 
-Anyway, since [overloading an operator](https://grantwinney.com/how-do-i-overload-operators-in-csharp/) requires defining a static method on a class, and there's never been a way to specify a static __abstract__ member in an interface (aka one without a default body), it hasn't been possible to have an interface require that classes overload certain operators. Until now.
+Anyway, since [overloading an operator](https://grantwinney.com/how-do-i-overload-operators-in-csharp/) requires defining a static method on a class, and there's never been a way to specify a static _abstract_ member in an interface (aka one without a default body), it hasn't been possible to have an interface require that classes overload certain operators. Until now.
 
-As of C# 11, you can add [static abstract members](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c/) to interfaces, which means you __can__ require classes to have to implement one or more overloaded operators. Although you can certainly test this with your own interfaces __(__[__learn more here__](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c/)__),__ you can also make use of the new interfaces that C# 11 has given us. There's [IAdditionOperators](https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Numerics/IAdditionOperators.cs,67cc175feb3d46df) and [IComparisonOperators](https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Numerics/IComparisonOperators.cs,75f68921e83607a1), as well as [quite a few others](https://learn.microsoft.com/en-us/dotnet/standard/generics/math#operator-interfaces). Let's take a closer look...
+As of C# 11, you can add [static abstract members](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c/) to interfaces, which means you _can_ require classes to have to implement one or more overloaded operators. Although you can certainly test this with your own interfaces _(_[_learn more here_](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c/)_),_ you can also make use of the new interfaces that C# 11 has given us. There's [IAdditionOperators](https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Numerics/IAdditionOperators.cs,67cc175feb3d46df) and [IComparisonOperators](https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Numerics/IComparisonOperators.cs,75f68921e83607a1), as well as [quite a few others](https://learn.microsoft.com/en-us/dotnet/standard/generics/math#operator-interfaces). Let's take a closer look...
 
 ### Practical Examples
 
@@ -228,7 +228,7 @@ A "Folder" class, overloading the same operators
 
 Once we've got a couple classes that implement the new interfaces... what then? Well, we can write utilities against those interfaces, to perform mathematical operations on objects without needing to know what the exact type is ahead of time.
 
-At runtime, when the generic methods below are called, the code will grab the __actual__ implementation of whatever class is being passed to it and figure out what it means to "sum" up fractions, or find the "least" box in a collection of boxes - according to how __you__ defined it.
+At runtime, when the generic methods below are called, the code will grab the _actual_ implementation of whatever class is being passed to it and figure out what it means to "sum" up fractions, or find the "least" box in a collection of boxes - according to how _you_ defined it.
 
 ```csharp
 public static class Utilities

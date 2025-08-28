@@ -16,7 +16,7 @@ tags:
 - Coding
 title: Taming the Erlang Beast
 ---
-When I started programming in Erlang professionally, it was a steeper climb than I had anticipated. There's a __lot__ that's different from C# - static vs dynamic types, object-oriented vs functional, the immutability of variables and heavy emphasis on pattern-matching and recursion. It's a very different way of thinking. And unfortunately for me, there's no Visual Studio for Erlang to hold your hand.
+When I started programming in Erlang professionally, it was a steeper climb than I had anticipated. There's a _lot_ that's different from C# - static vs dynamic types, object-oriented vs functional, the immutability of variables and heavy emphasis on pattern-matching and recursion. It's a very different way of thinking. And unfortunately for me, there's no Visual Studio for Erlang to hold your hand.
 
 Over the last couple of years I've learned a few ways to tame the Erlang beast. It doesn't need to become C# or any other language, but there's definitely room for improving the developer experience.
 
@@ -46,7 +46,7 @@ unused_function() ->
     ok.
 ```
 
-Let's break the following output down a bit, in case it's the first time you've seen Dialyzer in action. It's warning us that since we're using the `++` operator, the first parameter to `add_lists_of_ages` __must__ be a list of something (anything). So it knows that passing `20` as the first parameter is going to fail. It's also warning us that `unused_function` will never be called, since it's not exported and nothing in the module calls it.
+Let's break the following output down a bit, in case it's the first time you've seen Dialyzer in action. It's warning us that since we're using the `++` operator, the first parameter to `add_lists_of_ages` _must_ be a list of something (anything). So it knows that passing `20` as the first parameter is going to fail. It's also warning us that `unused_function` will never be called, since it's not exported and nothing in the module calls it.
 
 ```none
 > dialyzer --src dialsample.erl
@@ -160,9 +160,9 @@ If you've been a programmer for longer than a few months you know we love to arg
 
 ![](https://imgs.xkcd.com/comics/third_way.png)
 
-[__https://xkcd.com/1285__](https://xkcd.com/1285)
+[_https://xkcd.com/1285_](https://xkcd.com/1285)
 
-The necessity of comments is another sticking point. Some love them, some think they're evil incarnate. Personally, I think comments are fine, but that the "why" of the code is more important than the "what". Not having any comments __anywhere__, no documentation or anything, is less than ideal. Write a large chunk of code, then check it in with a dozen other programmer's large chunks of code, then step away from the thing for a few months and try to remember what you did and why.
+The necessity of comments is another sticking point. Some love them, some think they're evil incarnate. Personally, I think comments are fine, but that the "why" of the code is more important than the "what". Not having any comments _anywhere_, no documentation or anything, is less than ideal. Write a large chunk of code, then check it in with a dozen other programmer's large chunks of code, then step away from the thing for a few months and try to remember what you did and why.
 
 Erlang has a documentation system called [EDoc](http://erlang.org/doc/apps/edoc/chapter.html), which allows you document your code and even generate HTML page from it. Here's the previous example again, this time with comments added.
 
@@ -219,7 +219,7 @@ I really like the "Learn You Some Erlang" site, but unfortunately there's nothin
 
 ## EUnit
 
-You should strive to write tests for all your code. Well, as much as it makes sense. And not because someone wrote about it in a book or sold you on it at a conference, but because it just makes good sense. Once you write some code, or refactor it, or change any code __around__ it, you should test everything to make sure it still works. Do you want to test it manually every time, or would you rather it happens automatically? Please tell me you said automatically.
+You should strive to write tests for all your code. Well, as much as it makes sense. And not because someone wrote about it in a book or sold you on it at a conference, but because it just makes good sense. Once you write some code, or refactor it, or change any code _around_ it, you should test everything to make sure it still works. Do you want to test it manually every time, or would you rather it happens automatically? Please tell me you said automatically.
 
 Erlang comes with a unit testing suite called EUnit, which you can use to test isolated blocks of your code. It's similar in vein to testing suites used by other languages, like NUnit, JUnit, xUnit (see a pattern yet?), etc.
 

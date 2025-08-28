@@ -17,7 +17,7 @@ tags:
 - Questions
 title: What is minification vs obfuscation?
 ---
-Mozilla recently announced that they'll [no longer accept extensions with obfuscated code](https://blog.mozilla.org/addons/2019/05/02/add-on-policy-and-process-updates/). This is good news for anyone who uses browser extensions in Firefox, since such code is __(intentionally)__ nearly impossible to understand, and could easily (but not necessarily, as I'll explain later) be malicious.
+Mozilla recently announced that they'll [no longer accept extensions with obfuscated code](https://blog.mozilla.org/addons/2019/05/02/add-on-policy-and-process-updates/). This is good news for anyone who uses browser extensions in Firefox, since such code is _(intentionally)_ nearly impossible to understand, and could easily (but not necessarily, as I'll explain later) be malicious.
 
 From their [source code submission](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/Source_Code_Submission#Use_of_obfuscated_code) guidelines:
 
@@ -57,7 +57,7 @@ While it doesn't matter so much for compiled languages like C#, it can make a la
 
 ## What's obfuscated code?
 
-Obfuscating your code means making it as __unreadable__ as possible, to thwart others from understanding it. Best case scenario, it might be to hide intellectual property. Worst case, it's to hide some malicious intent. Here's the same __"hello world"__ script, run through the [JavaScript Obfuscator Tool](https://obfuscator.io/):
+Obfuscating your code means making it as _unreadable_ as possible, to thwart others from understanding it. Best case scenario, it might be to hide intellectual property. Worst case, it's to hide some malicious intent. Here's the same _"hello world"_ script, run through the [JavaScript Obfuscator Tool](https://obfuscator.io/):
 
 ```javascript
 var _0x4c59=['Grant','Hello\x20World,\x20this\x20is\x20'];
@@ -104,7 +104,7 @@ It depends on what you might be trying to do with your browser extension. If you
 
 If you were planning on retiring on a fully client-side Firefox extension, and you protected your intellectual property with obfuscation, well.... you'll need to come up with another plan.
 
-One of the more interesting parts is where they state, "__regardless of whether they are hosted on addons.mozilla.org (AMO) or not".__ It sounds as if not only are they going to block extensions in the Addons store, but they're going to block obfuscated addons from other sources too - which suggests they're running some heuristics to determine whether loaded extensions have obfuscated code and they'll just disable them. I'm not sure what to make of that...
+One of the more interesting parts is where they state, "_regardless of whether they are hosted on addons.mozilla.org (AMO) or not"._ It sounds as if not only are they going to block extensions in the Addons store, but they're going to block obfuscated addons from other sources too - which suggests they're running some heuristics to determine whether loaded extensions have obfuscated code and they'll just disable them. I'm not sure what to make of that...
 
 ---
 
@@ -113,4 +113,4 @@ One of the more interesting parts is where they state, "__regardless of whether 
 If you want to learn more about different forms of obfuscation, check out:  
 [What is Obfuscation and how does it apply to Java, Android, .NET and iOS applications?](https://www.preemptive.com/obfuscation)
 
-And I highly, __highly__ recommend (seriously, can't recommend it enough) checking out the [Chrome Extension Source Viewer](https://github.com/Rob--W/crxviewer) (available for Firefox, Chrome and Opera, as well as any site that can load Chrome extensions like Brave). If you doubt an extension at all, you can easily check out its source code before adding it. I've used it quite a few times, and [discovered some very interesting and shady things](https://grantwinney.com/chrome-extensions-a-peek-under-the-hood/) in the process.
+And I highly, _highly_ recommend (seriously, can't recommend it enough) checking out the [Chrome Extension Source Viewer](https://github.com/Rob--W/crxviewer) (available for Firefox, Chrome and Opera, as well as any site that can load Chrome extensions like Brave). If you doubt an extension at all, you can easily check out its source code before adding it. I've used it quite a few times, and [discovered some very interesting and shady things](https://grantwinney.com/chrome-extensions-a-peek-under-the-hood/) in the process.

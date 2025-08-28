@@ -28,10 +28,10 @@ First though, two things to consider:
 
 First, you'll need to be signed in. [Create an account](https://slack.com/create) if you don't already have one. They'll ask for a few pieces of information. Well, we're just playing around so...
 
-- About your "team" - __select "other" and "1-10 people"__
-- The name of your group - __use "Sandbox" or whatever you'd like__
-- The workspace url - __unique among everyone, so use your full name or a random phrase__
-- Send invitations - __skip it__
+- About your "team" - _select "other" and "1-10 people"_
+- The name of your group - _use "Sandbox" or whatever you'd like_
+- The workspace url - _unique among everyone, so use your full name or a random phrase_
+- Send invitations - _skip it_
 
 ### Create an app
 
@@ -43,7 +43,7 @@ Then, you'll need to [create an app](https://api.slack.com/apps/new). Give it wh
 
 Now that you've got an app, you need to decide what you want it to do. I'm glad they have apps scoped like this - it's very similar to [creating browser extensions](https://grantwinney.com/making-your-first-chrome-extension/) and phone apps, where not everything has access to everything, and the user must explicitly "grant" permissions.
 
-Click the "OAuth & Permissions" link on the left, and then scroll down to "Scopes". Choose a few permissions that sound interesting and then "Save Changes". I chose to access channel information and alter pinned messages. __(The incoming-webhook one got added, and can't be removed - guess it's required by the other two?)__
+Click the "OAuth & Permissions" link on the left, and then scroll down to "Scopes". Choose a few permissions that sound interesting and then "Save Changes". I chose to access channel information and alter pinned messages. _(The incoming-webhook one got added, and can't be removed - guess it's required by the other two?)_
 
 ![slack-api---request-permissions](https://grantwinney.com/content/images/2017/12/slack-api---request-permissions.png)
 
@@ -61,7 +61,7 @@ It should've redirected back to the "OAuth & Permissions" section. This is the a
 
 ## Try it out
 
-Now you can actually try some [API methods](https://api.slack.com/methods). For most of these, I think you need at least the `Authorization` and `Content-Type` headers - although the latter isn't __always__ required, it won't hurt to include it.
+Now you can actually try some [API methods](https://api.slack.com/methods). For most of these, I think you need at least the `Authorization` and `Content-Type` headers - although the latter isn't _always_ required, it won't hurt to include it.
 
 ![slack-api---post-headers](https://grantwinney.com/content/images/2017/12/slack-api---post-headers.png)
 
@@ -71,7 +71,7 @@ The first thing we'll try is [listing channels](https://api.slack.com/methods/ch
 
 ![slack-api---list-channels-request](https://grantwinney.com/content/images/2017/12/slack-api---list-channels-request.png)
 
-You should get a result similar to this. My results include three channels - the default "general" and "random" ones, and also my "testing" one. Note how each channel has an "id" too. It appears that many (most? all?) of the requests that operate on channels require an id, __not a name.__
+You should get a result similar to this. My results include three channels - the default "general" and "random" ones, and also my "testing" one. Note how each channel has an "id" too. It appears that many (most? all?) of the requests that operate on channels require an id, _not a name._
 
 ```json
 {
@@ -176,9 +176,9 @@ You should get a result similar to this. My results include three channels - the
 
 ### List Messages
 
-Now that you've got your channels, switch over to Slack and type a message into the channel you're interested in. Anything is fine - I typed __"Just a test message!"__ into my "testing" channel.
+Now that you've got your channels, switch over to Slack and type a message into the channel you're interested in. Anything is fine - I typed _"Just a test message!"_ into my "testing" channel.
 
-Try retrieving the messages from your channel, including the message you just added. Most of the API calls can be made in two ways - either with a JSON body like I did above, or as query string parameters, which seems to be what we __have__ to use with this one, as the JSON body doesn't work. Oddly, either a `POST` or `GET` works... a `GET` seems more intuitive for requesting information, so that's what I used.
+Try retrieving the messages from your channel, including the message you just added. Most of the API calls can be made in two ways - either with a JSON body like I did above, or as query string parameters, which seems to be what we _have_ to use with this one, as the JSON body doesn't work. Oddly, either a `POST` or `GET` works... a `GET` seems more intuitive for requesting information, so that's what I used.
 
 ```
 GET https://slack.com/api/channels.history?token=<your-auth-token>&channel=C8HN58XQU

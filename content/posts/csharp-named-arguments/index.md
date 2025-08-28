@@ -21,7 +21,7 @@ tags:
 - C#
 title: Named arguments in C#
 ---
-I've recently been spending time __(for my benefit and hopefully yours too!)__ reviewing some of the goodies C# has given us [over the years](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history). They mostly help make our code clearer and more concise, like [local functions](https://grantwinney.com/local-functions-in-csharp-aka-nested-methods/) and [string interpolation](https://grantwinney.com/using-string-interpolation-to-craft-readable-strings/), [safe null handling](https://grantwinney.com/null-conditional-and-null-coalescing-operators/) and the [nameof](https://grantwinney.com/using-nameof-to-avoid-magic-strings/) operator. Others have been complete game changers, like [LINQ](https://grantwinney.com/10-resources-for-learning-linq/) and [async/await](https://grantwinney.com/using-async-await-and-task-to-keep-the-winforms-ui-more-responsive/). If you find yourself supporting a legacy app, as many of us do, I've been writing a lot about [surviving WinForms](https://grantwinney.com/tag/surviving-winforms/) in general. 😉
+I've recently been spending time _(for my benefit and hopefully yours too!)_ reviewing some of the goodies C# has given us [over the years](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history). They mostly help make our code clearer and more concise, like [local functions](https://grantwinney.com/local-functions-in-csharp-aka-nested-methods/) and [string interpolation](https://grantwinney.com/using-string-interpolation-to-craft-readable-strings/), [safe null handling](https://grantwinney.com/null-conditional-and-null-coalescing-operators/) and the [nameof](https://grantwinney.com/using-nameof-to-avoid-magic-strings/) operator. Others have been complete game changers, like [LINQ](https://grantwinney.com/10-resources-for-learning-linq/) and [async/await](https://grantwinney.com/using-async-await-and-task-to-keep-the-winforms-ui-more-responsive/). If you find yourself supporting a legacy app, as many of us do, I've been writing a lot about [surviving WinForms](https://grantwinney.com/tag/surviving-winforms/) in general. 😉
 
 Today though, I'm looking at a feature that's been around for quite awhile, and that's [named arguments](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments). Even though they were introduced in C# 4.0, I don't see them being used much - not in the several old codebases I've helped support, nor in online examples. I suppose in short examples online, and in newer code bases, you're not going to see methods with tons of optional arguments, but in legacy codebases.. wow. Developers over years and decades will add one more parameter.. then one more.. then two more, another one, etc., until some methods are being passed a dozen or more.
 
@@ -82,14 +82,14 @@ private void ConfirmSave(string userName, DateTime hireDate, DateTime? termDate 
 
 We've got some required values in there, some optional ones with default values, and some that just make no sense at all. Why does three default to 4? Don't know, that was before my time. 🤔
 
-In ye olden days, if you wanted to set three to 10 (oh gawd) then you'd have to pass __something__ to all the values before it too. Even though they're optional parameters, you couldn't just skip ahead to the the one optional parameter you were interested in.
+In ye olden days, if you wanted to set three to 10 (oh gawd) then you'd have to pass _something_ to all the values before it too. Even though they're optional parameters, you couldn't just skip ahead to the the one optional parameter you were interested in.
 
 ```csharp
 // < C# 4 - required to pass a value to all optional parameters leading up to the one you're interested in
 ConfirmSave(txtUsername.Text, dtpHireDate.Value, TerminationDate, null, false, false, 3.14m, 10);
 ```
 
-The risk is that you end up passing "null" to a string, like the "message" parameter above for instance, because hey you're not really interested in that one. Oh oops. In the method signature, it defined a default value for message if one was not provided. But you __did__ provide a message... null.
+The risk is that you end up passing "null" to a string, like the "message" parameter above for instance, because hey you're not really interested in that one. Oh oops. In the method signature, it defined a default value for message if one was not provided. But you _did_ provide a message... null.
 
 And so the message, which was part of a prompt to the user, looks like this:
 
@@ -138,6 +138,6 @@ AddMovie(
 );
 ```
 
-As usual, it's not a golden hammer and ymmv. It __is__ an interesting feature though, and probably one that gets under-utilized. If you find a use for it, especially if it solves some unique issue you or your team's having, I'd love to hear about it below!
+As usual, it's not a golden hammer and ymmv. It _is_ an interesting feature though, and probably one that gets under-utilized. If you find a use for it, especially if it solves some unique issue you or your team's having, I'd love to hear about it below!
 
 If you found this useful, and want to learn more about a variety of C# features, check out [my GitHub repo](https://github.com/grantwinney/CSharpDotNetExamples), where you'll find links to plenty more blog posts and practical examples.

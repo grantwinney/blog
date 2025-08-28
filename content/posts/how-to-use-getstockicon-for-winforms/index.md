@@ -46,7 +46,7 @@ pictureBox1.Image = SystemIcons.GetStockIcon(StockIconId.DriveNet, 128).ToBitmap
 
 ![](https://grantwinney.com/content/images/2024/12/WcaF5EAVqE.gif)
 
-Or we could loop through __all__ of them, adding each to an `ImageList`, and then use that to create the world's busiest toolbar: 😏
+Or we could loop through _all_ of them, adding each to an `ImageList`, and then use that to create the world's busiest toolbar: 😏
 
 ```csharp
 foreach (StockIconId icon in Enum.GetValues(typeof(StockIconId)))
@@ -62,13 +62,13 @@ toolStrip1.Items.AddRange(imageList2.Images.Keys.Cast<string>().Select(x =>
 
 The biggest limitation is only being able to call this at runtime. Of course, that's just the nature of this being a method call, but one of the best things about WinForms is its drag-and-drop designer and this definitely works against that. I'm not sure how much usage this will get if it means having a designer with blank toolbars, incomplete buttons, etc. Maybe I'm missing an obvious use case?
 
-A nice feature, though, is that this method __"returns icons that are themed for the running version of Windows".__ If we copy icons into the project, they are what they are, unchanged no matter what version of Windows someone happens to be running. But with this new call, when someone runs our app in a different version of Windows from the one we designed it in, they'll see the icons that are normal for their OS.
+A nice feature, though, is that this method _"returns icons that are themed for the running version of Windows"._ If we copy icons into the project, they are what they are, unchanged no matter what version of Windows someone happens to be running. But with this new call, when someone runs our app in a different version of Windows from the one we designed it in, they'll see the icons that are normal for their OS.
 
 ## Learning More
 
-If you want to learn more, check out the [GetStockIcon](https://learn.microsoft.com/en-us/dotnet/api/system.drawing.systemicons.getstockicon) docs, the [StockIconId](https://learn.microsoft.com/en-us/dotnet/api/system.drawing.stockiconid) enum that lists all the available images, and the [StockIconOptions](https://learn.microsoft.com/en-us/dotnet/api/system.drawing.stockiconoptions) enum that lets us set a few options like adding a link overlay to the image. Since a couple of the options involve resizing the icon, we're not allowed to specify a size __and__ options, but that also means it's not possible to request a larger image that has a link overlay.. seems like an odd choice.
+If you want to learn more, check out the [GetStockIcon](https://learn.microsoft.com/en-us/dotnet/api/system.drawing.systemicons.getstockicon) docs, the [StockIconId](https://learn.microsoft.com/en-us/dotnet/api/system.drawing.stockiconid) enum that lists all the available images, and the [StockIconOptions](https://learn.microsoft.com/en-us/dotnet/api/system.drawing.stockiconoptions) enum that lets us set a few options like adding a link overlay to the image. Since a couple of the options involve resizing the icon, we're not allowed to specify a size _and_ options, but that also means it's not possible to request a larger image that has a link overlay.. seems like an odd choice.
 
-Lastly, since the StockIconId page doesn't include the actual __images__ of the icons, here's a list so you can see what they look like, at least in Windows 11:
+Lastly, since the StockIconId page doesn't include the actual _images_ of the icons, here's a list so you can see what they look like, at least in Windows 11:
 
 |Name|Value|Description|Image|
 |---|---|---|---|

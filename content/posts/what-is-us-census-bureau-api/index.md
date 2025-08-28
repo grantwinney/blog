@@ -26,7 +26,7 @@ As usual, you need to [request a key](https://api.census.gov/data/key_signup.htm
 
 Your request for a new API key has been successfully submitted. Please check your email. In a few minutes you should receive a message with instructions on how to activate your new key.
 
-I got the email in about 30 seconds, clicked the link to validate the key, and was taken to a __success__ page.
+I got the email in about 30 seconds, clicked the link to validate the key, and was taken to a _success_ page.
 
 Congratulations! Your key has been activated. You may now use it to query the Data API. Happy querying!
 
@@ -126,7 +126,7 @@ OH,39,035,Cuyahoga County,H1
 OH,39,037,Darke County,H1
 ```
 
-__The numbers reported by the following calls seem exceptionally low. Ohio has 11.5 million people, but the results say only a quarter million speak Spanish - there's no way it's that few. I'm not sure if it means primary language, or only language, or something else. Additionally, it probably depends on whether residents were even asked, and whether or not they chose to tick the box indicating they spoke Spanish. In other words, I don't think I'd trust this data without knowing more about its limitations.__
+_The numbers reported by the following calls seem exceptionally low. Ohio has 11.5 million people, but the results say only a quarter million speak Spanish - there's no way it's that few. I'm not sure if it means primary language, or only language, or something else. Additionally, it probably depends on whether residents were even asked, and whether or not they chose to tick the box indicating they spoke Spanish. In other words, I don't think I'd trust this data without knowing more about its limitations._
 
 ### Alaska
 

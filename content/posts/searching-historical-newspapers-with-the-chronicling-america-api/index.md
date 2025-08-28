@@ -15,9 +15,9 @@ tags:
 - API
 title: Searching historical newspapers with the Chronicling America API
 ---
-Last summer I found an old newspaper at a garage sale, an edition of __The Johnstown Democrat__ from 1931. It was a lot of fun to show the kids, and to let them actually hold and touch a piece of history that's nearly 90 years old. I have a couple newspapers from the end of WWII as well... they're fascinating.
+Last summer I found an old newspaper at a garage sale, an edition of _The Johnstown Democrat_ from 1931. It was a lot of fun to show the kids, and to let them actually hold and touch a piece of history that's nearly 90 years old. I have a couple newspapers from the end of WWII as well... they're fascinating.
 
-I was excited to stumble on the Library of Congress's [Chronicling America API](https://chroniclingamerica.loc.gov/about/api), which __"provides access to information about historic newspapers and select digitized newspaper pages"__. The result of an effort called the [National Digital Newspaper Program](http://www.loc.gov/ndnp/), it's completely free and unrestricted. You don't even need to register for a key, which many APIs use to throttle usage. It's not the same as holding it in your hand, but it's still really darn fascinating.
+I was excited to stumble on the Library of Congress's [Chronicling America API](https://chroniclingamerica.loc.gov/about/api), which _"provides access to information about historic newspapers and select digitized newspaper pages"_. The result of an effort called the [National Digital Newspaper Program](http://www.loc.gov/ndnp/), it's completely free and unrestricted. You don't even need to register for a key, which many APIs use to throttle usage. It's not the same as holding it in your hand, but it's still really darn fascinating.
 
 Before we dig deeper though, two things to consider:
 
@@ -70,11 +70,11 @@ GET http://chroniclingamerica.loc.gov/suggest/titles/?q=bourbon+news
 ]
 ```
 
-One thing I noticed is that there's something funky about the search. Searching `bourbon+news+paris` returned no results, while searching `the+bourbon+news` still returned results without __"The"__ in them. Maybe articles are ignored and words in parenthesis aren't indexed? Not sure.
+One thing I noticed is that there's something funky about the search. Searching `bourbon+news+paris` returned no results, while searching `the+bourbon+news` still returned results without _"The"_ in them. Maybe articles are ignored and words in parenthesis aren't indexed? Not sure.
 
 ### Narrow results to a single publication
 
-Assuming we're interested in the Paris KY newspaper, we want the last one above __(btw,__ [__lccn__](https://www.loc.gov/marc/lccn.html) __stands for Library of Congress Control Number)__. We can easily parse the JSON and display the result, or even build a link out of it:
+Assuming we're interested in the Paris KY newspaper, we want the last one above _(btw,_ [_lccn_](https://www.loc.gov/marc/lccn.html) _stands for Library of Congress Control Number)_. We can easily parse the JSON and display the result, or even build a link out of it:
 
 https://jsfiddle.net/grantwinney/s1x082co/
 
@@ -216,8 +216,8 @@ fetch('https://chroniclingamerica.loc.gov/lccn/sn86069873/1897-01-08/ed-1/seq-1.
 
 If that wasn't enough, here's a few other random links for your leisure. :)
 
-- [Search Newspaper Images](https://chroniclingamerica.loc.gov/search/pages/results/) __(Library of Congress)__
-- [Virginia Gazette](http://research.history.org/DigitalLibrary/va-gazettes/VGAllIssues.cfm), the official newspaper of Virginia, printed in Williamsburg from 1736 until 1780 __(Colonial Williamsburg)__
-- [Batches of data](https://chroniclingamerica.loc.gov/batches/) and [raw OCR content](https://chroniclingamerica.loc.gov/ocr/) __(Library of Congress)__
-- [Other related APIs](https://labs.loc.gov/lc-for-robots) __(Library of Congress)__
-- [API for accessing historic programs of publicly funded radio and television](https://github.com/WGBH/AAPB2#api) __(American Archive of Public Broadcasting)__
+- [Search Newspaper Images](https://chroniclingamerica.loc.gov/search/pages/results/) _(Library of Congress)_
+- [Virginia Gazette](http://research.history.org/DigitalLibrary/va-gazettes/VGAllIssues.cfm), the official newspaper of Virginia, printed in Williamsburg from 1736 until 1780 _(Colonial Williamsburg)_
+- [Batches of data](https://chroniclingamerica.loc.gov/batches/) and [raw OCR content](https://chroniclingamerica.loc.gov/ocr/) _(Library of Congress)_
+- [Other related APIs](https://labs.loc.gov/lc-for-robots) _(Library of Congress)_
+- [API for accessing historic programs of publicly funded radio and television](https://github.com/WGBH/AAPB2#api) _(American Archive of Public Broadcasting)_

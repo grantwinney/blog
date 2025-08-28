@@ -14,7 +14,7 @@ title: Enable logging for an AWS Lambda job
 I setup an AWS Lambda job recently, and then added a trigger to run it every morning. I checked it one morning and realized:
 
 1. The job failed for some reason.
-2. I had no idea what that reason __was,__ because nothing was written to the logs.
+2. I had no idea what that reason _was,_ because nothing was written to the logs.
 
 According to the [docs](https://docs.aws.amazon.com/lambda/latest/dg/dotnet-logging.html), all `Console.WriteLine` statements are logged:
 
@@ -24,7 +24,7 @@ But all I got on the logs page was an error message... an awful, unhelpful messa
 
 > There was an error loading Log Streams. Please try again by refreshing this page.
 
-When creating a new Lambda job, logging is not configured by default. I'm sure there's reasons for it, but considering this is a service where jobs run headless, it seems pretty important to be able to jump in and quickly see __exactly__ why a job is failing. The metrics screens aren't enough.
+When creating a new Lambda job, logging is not configured by default. I'm sure there's reasons for it, but considering this is a service where jobs run headless, it seems pretty important to be able to jump in and quickly see _exactly_ why a job is failing. The metrics screens aren't enough.
 
 So, if you've just setup a job and you're running into this same problem, check the execution role for your job, which "defines the permissions of your function". These permissions include the ability to write out to the logs (or a "log group" as they call it).
 
@@ -44,7 +44,7 @@ Verify the new policy shows up on the previous screen.:
 
 ![](https://grantwinney.com/content/images/2019/11/enable_logging4.png)
 
-**Run your job again**, then click "View logs in CloudWatch".
+*Run your job again*, then click "View logs in CloudWatch".
 
 ![](https://grantwinney.com/content/images/2020/11/enable_logging5.png)
 

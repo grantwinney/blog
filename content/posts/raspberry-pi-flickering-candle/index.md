@@ -30,7 +30,7 @@ In order to test this out, you’ll need a few things.
 - A range of resistors
 - A few jumper wires (male-to-male if using a T-cobbler, otherwise male-to-female)
 
-If you don’t have the above, you can buy kits on Amazon. Personally, after I bought the Pi by itself, I purchased a kit by CanaKit on Amazon, and haven’t had any problems with it. I don't see much from CanaKit now, but there's others, or the [CamJam EduKit](https://thepihut.com/collections/raspberry-pi-store/products/camjam-edukit?ref=grant-winney) __(note that none of these comes with a Pi).__
+If you don’t have the above, you can buy kits on Amazon. Personally, after I bought the Pi by itself, I purchased a kit by CanaKit on Amazon, and haven’t had any problems with it. I don't see much from CanaKit now, but there's others, or the [CamJam EduKit](https://thepihut.com/collections/raspberry-pi-store/products/camjam-edukit?ref=grant-winney) _(note that none of these comes with a Pi)._
 
 If you need the Raspberry Pi unit itself, the Pi is more expensive than it used to be on Amazon, apparently due to component shortages. It might be worth checking out [rpilocator](https://rpilocator.com/?ref=grant-winney) for a better price with other resellers, although you may have to wait awhile to get your Pi then, as many of the resellers seem to be sold out.
 
@@ -40,7 +40,7 @@ There’s a few concepts to cover before getting to the circuit and Python code.
 
 ### Pulse-Width Modulation
 
-Once you have an LED wired up with a resistor, it’s either on at its current brightness, or it’s off. You can’t dim it or brighten it without changing the resistor. But you can make it __appear__ to be dimmer or brighter, by telling the Pi to quickly flash it on and off many times a second (frequency), along with telling it __how long__ to keep it on and off each time it flashes (duty cycle).
+Once you have an LED wired up with a resistor, it’s either on at its current brightness, or it’s off. You can’t dim it or brighten it without changing the resistor. But you can make it _appear_ to be dimmer or brighter, by telling the Pi to quickly flash it on and off many times a second (frequency), along with telling it _how long_ to keep it on and off each time it flashes (duty cycle).
 
 That’s called pulse-width modulation, or PWM. The [RPi.GPIO library](https://pypi.python.org/pypi/RPi.GPIO) can simulate PWM with any of the GPIO pins you’d normally use to power an LED. [Here’s a sample implementation from their documentation](https://sourceforge.net/p/raspberry-gpio-python/wiki/PWM/). And here’s a short snippet of my own:
 
@@ -100,7 +100,7 @@ def green_light():
         time.sleep(.05)
 ```
 
-My first actual attempt was something like that; then I just kept hacking away at it until I had something that sorta worked, but not well. As the LEDs got dimmer, there was too much green, making the flame look odd. I needed to see what the algorithm actually __looked__ like, and for that I turned to an [online graphing calculator](https://www.desmos.com/calculator) by [Desmos](https://twitter.com/Desmos).
+My first actual attempt was something like that; then I just kept hacking away at it until I had something that sorta worked, but not well. As the LEDs got dimmer, there was too much green, making the flame look odd. I needed to see what the algorithm actually _looked_ like, and for that I turned to an [online graphing calculator](https://www.desmos.com/calculator) by [Desmos](https://twitter.com/Desmos).
 
 I wanted an algorithm that would adjust the brightness (intensity) and color, in order to attain a flickering effect. What’s more, I wanted the candle to “burn down”, getting dimmer and more red as time goes on.
 
@@ -116,13 +116,13 @@ But what happens when the candle burns down completely? We’ll add a way to “
 
 Using an LED with multiple colors is a little more complicated than a single-color LED. You need to connect a separate GPIO pin to each color (and connect the common cathode to ground); then, by enabling or disabling each individual pin, you can create any color you need. What’s more, by using PWM to dim or brighten the LEDs, we’ll be able to create any shade we want on the color wheel. Since we won’t be using blue, we won’t even bother to connect a wire to the anode for the blue LED.
 
-The RGB LED in the diagram below is oriented with the flat side on the left. If you take a close look at your own LED, there should be a flat side too. The pins, from left to right, are ****red****, ground, ****green****, ****blue****.
+The RGB LED in the diagram below is oriented with the flat side on the left. If you take a close look at your own LED, there should be a flat side too. The pins, from left to right, are **red**, ground, **green**, **blue**.
 
 ![Flickering Candle with RGB LED and PWM_bb](https://grantwinney.com/content/images/2016/08/Flickering-Candle-with-RGB-LED-and-PWM_bb.png)
 
 The red LED is connected through a 100Ω resistor to pin 37. The green LED is connected through a 470Ω resistor to pin 33. Both pins are set to output, in order to light the LED. Since we don’t need the blue LED, there’s nothing connected to it.
 
-__I originally had a 220Ω resistor connected to the green LED, but at low intensities (when the duty cycle was low), green overpowered red and the candle took on a distinctly green hue. I switched to a larger resistor, which made green less intense, and allowed the “flame” to be more on the red end. Depending on your exact LED, you may have to play with resistors to get the right mix of colors as well.__
+_I originally had a 220Ω resistor connected to the green LED, but at low intensities (when the duty cycle was low), green overpowered red and the candle took on a distinctly green hue. I switched to a larger resistor, which made green less intense, and allowed the “flame” to be more on the red end. Depending on your exact LED, you may have to play with resistors to get the right mix of colors as well._
 
 The button is connected to 3.3v and pin 22, which is set to input. When the button is pressed, it’ll change a value that makes the flame brighter and more yellow again.
 
@@ -204,7 +204,7 @@ def main():
             p.stop()
         GPIO.cleanup()
  
-if __name__ == '__main__':
+if _name_ == '_main_':
     main()
 ```
 

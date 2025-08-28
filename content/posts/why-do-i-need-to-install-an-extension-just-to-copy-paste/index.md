@@ -20,7 +20,7 @@ title: Why do I need to install an extension just to copy/paste?
 ---
 I was creating a document in Office365 the other day - something I've done a hundred times - but when I tried to paste something into the document with their custom right-click menu (the keyword here is "custom", but more on that later), I was greeted with the following popup. Well, that's weird.
 
-Apparently, every time I've pasted into a document the past few years, I've just hit Ctrl+V without thinking about it? That seems unlikely, but it's even less likely that the online app was just upgraded and was using the native context menu before. Either way, I don't know why I decided to right-click this time, but since I did and got an oddball popup, it begs the question... __why__?
+Apparently, every time I've pasted into a document the past few years, I've just hit Ctrl+V without thinking about it? That seems unlikely, but it's even less likely that the online app was just upgraded and was using the native context menu before. Either way, I don't know why I decided to right-click this time, but since I did and got an oddball popup, it begs the question... _why_?
 
 ![](https://grantwinney.com/content/images/2022/11/image-21.png)
 
@@ -50,11 +50,11 @@ The [Google Docs Offline](https://chrome.google.com/webstore/detail/google-docs-
 
 Time for a short history lesson.
 
-Going way back, it used to be possible for __any__ website to [read from your clipboard](https://devblogs.microsoft.com/scripting/how-can-i-grab-a-url-from-the-clipboard-and-then-open-that-web-site-in-a-browser/) in IE, without you having to choose to "paste" it. That article was actually posted on Microsoft's dev blogs, of all places, and ScriptingGuy1 seemed to feel it was an undocumented __feature,__ and not a horrible glaring oversight. Other sites clearly recognized it for [the exploit that it was](https://www.arstdesign.com/articles/clipboardexploit.html). Imagine how many of us were screwed by this and never realized it.
+Going way back, it used to be possible for _any_ website to [read from your clipboard](https://devblogs.microsoft.com/scripting/how-can-i-grab-a-url-from-the-clipboard-and-then-open-that-web-site-in-a-browser/) in IE, without you having to choose to "paste" it. That article was actually posted on Microsoft's dev blogs, of all places, and ScriptingGuy1 seemed to feel it was an undocumented _feature,_ and not a horrible glaring oversight. Other sites clearly recognized it for [the exploit that it was](https://www.arstdesign.com/articles/clipboardexploit.html). Imagine how many of us were screwed by this and never realized it.
 
 You'd think if the site you were visiting was legit then you'd be fine, but check out that second article above. How much do you want to bet some very legit sites had commenting systems that would allow someone to post a bit of script, which would then get run every time someone visited the page and all the comments loaded? Imagine you were just on your banking website and had your password on the clipboard for some reason? Or maybe your checking account routing number? Or really, anything in the world that you happened to copy, and figured was safe.
 
-Just as nefarious sites, and legit sites with nefarious code, can no longer access your clipboard without your manual intervention, Office365 and Google Docs can't either. Copying something __to__ your clipboard isn't as big a deal, because at least that doesn't tell them anything, but they definitely shouldn't be able to read __from__ it (when you choose to do a "paste") without your consent.
+Just as nefarious sites, and legit sites with nefarious code, can no longer access your clipboard without your manual intervention, Office365 and Google Docs can't either. Copying something _to_ your clipboard isn't as big a deal, because at least that doesn't tell them anything, but they definitely shouldn't be able to read _from_ it (when you choose to do a "paste") without your consent.
 
 ## Microsoft's and Google's workaround - custom browser addons
 
@@ -93,7 +93,7 @@ When you install it, you get a straight-forward prompt to allow the permission.
 
 ### Google
 
-[Google's](https://chrome.google.com/webstore/detail/google-docs-offline/ghbmnnjooekpmoecnnnilnnbdlolhkhi) is bundled with a bunch of other functionality, as I mentioned earlier. They request the clipboardRead permission too, but in a funny way. First, they request access to unlimited storage, alarms, etc., for a series of sites. __(Unrelated but ironic, they're still targeting MV2 despite__ [__pushing for MV3__](https://grantwinney.com/what-is-manifest-v3-and-why-is-google-pestering-me/) __from everyone else for months. Good thing__ [__they keep delaying it__](https://grantwinney.com/twil-vol-2/#google-puts-the-brakes-on-mv3-again)__.)__
+[Google's](https://chrome.google.com/webstore/detail/google-docs-offline/ghbmnnjooekpmoecnnnilnnbdlolhkhi) is bundled with a bunch of other functionality, as I mentioned earlier. They request the clipboardRead permission too, but in a funny way. First, they request access to unlimited storage, alarms, etc., for a series of sites. _(Unrelated but ironic, they're still targeting MV2 despite_ [_pushing for MV3_](https://grantwinney.com/what-is-manifest-v3-and-why-is-google-pestering-me/) _from everyone else for months. Good thing_ [_they keep delaying it_](https://grantwinney.com/twil-vol-2/#google-puts-the-brakes-on-mv3-again)_.)_
 
 ```json
 "externally_connectable": {

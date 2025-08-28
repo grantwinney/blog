@@ -23,7 +23,7 @@ Two things before you get started:
 
 ## What does it provide?
 
-The [PasswordRandom API](http://www.passwordrandom.com/api) provides random values - and not __just__ passwords as the name would seem to suggest. It also generates GUIDs, random numbers, characters, etc. Better yet, it has parameters for the __number__ of results you get back (like 10 GUIDs at once), and other ways to configure or limit the numbers and passwords you get back too.
+The [PasswordRandom API](http://www.passwordrandom.com/api) provides random values - and not _just_ passwords as the name would seem to suggest. It also generates GUIDs, random numbers, characters, etc. Better yet, it has parameters for the _number_ of results you get back (like 10 GUIDs at once), and other ways to configure or limit the numbers and passwords you get back too.
 
 If you're developing an app that will, for whatever reason, generate a GUID or return such a value to the user, you have a choice. Some languages have built-in libraries that return a GUID for you. Others require downloading a third-party and taking on another dependency. If you didn't want that dependency for some reason, you could call this API instead. As for everything else it offers.. well, you may find a reason to use it, so let's check it out.
 
@@ -115,7 +115,7 @@ Strangely, getting random floats with a range only works if the range is integer
 
 ### Passwords
 
-A note about generating passwords using an API like this. I probably wouldn't recommend it for __passwords,__ but it could be useful for generating randomized strings. If you did use it for passwords, it's not like the site serving the API could know what account you'll use it for, but then it'd help if it were at least served over SSL so no one watching the network could sniff it...
+A note about generating passwords using an API like this. I probably wouldn't recommend it for _passwords,_ but it could be useful for generating randomized strings. If you did use it for passwords, it's not like the site serving the API could know what account you'll use it for, but then it'd help if it were at least served over SSL so no one watching the network could sniff it...
 
 Here's 8 random passwords:
 
@@ -136,7 +136,7 @@ Here's 8 random passwords:
 }
 ```
 
-If you click on the [scheme](http://www.passwordrandom.com/pronounceable-password-generator) link next to "password" field, you'll find a lot more options to generate the __exact__ string you need.
+If you click on the [scheme](http://www.passwordrandom.com/pronounceable-password-generator) link next to "password" field, you'll find a lot more options to generate the _exact_ string you need.
 
 For example, if I needed a password for a system that required a length of 8, and at least one upper, one number, and one special symbol, I could request:
 

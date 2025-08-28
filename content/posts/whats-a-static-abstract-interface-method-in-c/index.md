@@ -36,9 +36,9 @@ We use interfaces a lot in C#. They're essentially contracts, so if a class impl
 Interfaces can extend one another too, like the two interfaces below are doing with `IBaseReport`. The classes need to implement everything in that base interface too, like the ones below are doing by defining `ReportName` and `IsSensitive`.
 
 ```csharp
-/***********************************
+/******************
  * BASE REPORT INTERFACE
- * *********************************/
+ * *****************/
 
 public interface IBaseReport
 {
@@ -46,9 +46,9 @@ public interface IBaseReport
     bool IsSensitive { get; }
 }
 
-/***********************************
+/******************
  * EMPLOYEE REPORT w/ INTERFACE
- * *********************************/
+ * *****************/
 
 public interface IEmployeeReport : IBaseReport
 {
@@ -67,9 +67,9 @@ public class EmployeeReport : IEmployeeReport
     public DateTime? TermDate { get; set; }
 }
 
-/***********************************
+/******************
  * VENDOR REPORT CLASS w/ INTERFACE
- * *********************************/
+ * *****************/
 
 public interface IVendorReport : IBaseReport
 {
@@ -92,9 +92,9 @@ public class VendorReport : IVendorReport
 Any method that might do something with one of these reports, can operate on the interface instead. The `GetReportInfo` method below is assured that anything implementing `IBaseReport` has 2 properties on it. And bonus - we don't need to define a method for each type of report, just one which can handle any report.
 
 ```csharp
-/***********************************
+/******************
  * A CLASS THAT PROCESSES REPORTS
- * *********************************/
+ * *****************/
 
 public class ISwearImAnInterestingClass
 {
@@ -114,12 +114,12 @@ public class ISwearImAnInterestingClass
 
 Aside from acting as a contract and helping us write [DRY code](https://deviq.com/principles/dont-repeat-yourself), interfaces are useful for unit testing too. If you want to learn more about that, I've written before about how [interfaces help with mocking dependencies](https://grantwinney.com/what-is-mocking-a-dependency/) when unit testing.
 
-However, something we __can't__ do with interfaces is define a static member and have classes implement those. For instance, if you knew you wanted every kind of report to have a `ReportName`, but you didn't want to have to instantiate a report just to get to a name that never changes, you couldn't do something like this...
+However, something we _can't_ do with interfaces is define a static member and have classes implement those. For instance, if you knew you wanted every kind of report to have a `ReportName`, but you didn't want to have to instantiate a report just to get to a name that never changes, you couldn't do something like this...
 
 ```csharp
-/***********************************
+/******************
  * BASE REPORT INTERFACE
- * *********************************/
+ * *****************/
 
 public interface IBaseReport
 {
@@ -128,11 +128,11 @@ public interface IBaseReport
 }
 ```
 
-The other method, the one that references the interface to get the `ReportName`, will suggest you use an actual instance to get to the static member. Ok sure... except this is an interface so you __can't__ just instantiate it. Maybe you could add some code in the `GetReportInfo` method below, to check for every possible report type that implements `IBaseReport` but then that'd make for some repetitive, hard-to-maintain code.
+The other method, the one that references the interface to get the `ReportName`, will suggest you use an actual instance to get to the static member. Ok sure... except this is an interface so you _can't_ just instantiate it. Maybe you could add some code in the `GetReportInfo` method below, to check for every possible report type that implements `IBaseReport` but then that'd make for some repetitive, hard-to-maintain code.
 
 ![](https://grantwinney.com/content/images/2023/03/image-38.png)
 
-On top of that, the classes that implement the `IBaseReport` interface don't have to include that static member to satisfy the contract with the interface anymore. This __(which doesn't define ReportName)__ won't throw a compilation error:
+On top of that, the classes that implement the `IBaseReport` interface don't have to include that static member to satisfy the contract with the interface anymore. This _(which doesn't define ReportName)_ won't throw a compilation error:
 
 ```csharp
 public class EmployeeReport : IEmployeeReport
@@ -149,7 +149,7 @@ Okay, enough about interfaces...
 
 ## The new and improved interfaces
 
-Just kidding! __More interfaces!__
+Just kidding! _More interfaces!_
 
 The [static abstract](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/static-virtual-interface-members) concept seems to have been mostly added to support [overloaded operators](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/operator-overloading) and the other new concept of [generic math](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#generic-math-support), but let's take a look at what else we can do with it, without muddying the waters too much.
 
@@ -157,15 +157,15 @@ I've changed the `IBaseReport` interface (below) to use the new [static abstract
 
 Here's a few things to look for and keep in mind as you check out the similar, but not-quite-the-same block of code, below:
 
-- The classes are __required__ to implement the static abstract members.
-- The classes are required to implement the `GenerateUniqueId` method too, but __how__ they choose to implement that can differ wildly per class.
+- The classes are _required_ to implement the static abstract members.
+- The classes are required to implement the `GenerateUniqueId` method too, but _how_ they choose to implement that can differ wildly per class.
 - The `GetReportInfo` method in that last class, and the `GetNewReportId` method I threw in too, are implemented differently than before. They're capable of accessing the normal members of an instance, as well as the static members of the class too.
 
 ```csharp
-/***********************************
+/******************
  * BASE REPORT INTERFACE WITH
  * STATIC ABSTRACT MEMBERS
- * *********************************/
+ * *****************/
 
 public interface IBaseReport
 {
@@ -175,10 +175,10 @@ public interface IBaseReport
     DateTime RequestedTime { get; set; }
 }
 
-/***********************************
+/******************
  * EMPLOYEE REPORT w/ INTERFACE
  * AND IMPLEMENTING STATIC MEMBERS
- * *********************************/
+ * *****************/
 
 public interface IEmployeeReport : IBaseReport
 {
@@ -200,10 +200,10 @@ public class EmployeeReport : IEmployeeReport
     public DateTime? TermDate { get; set; }
 }
 
-/***********************************
+/******************
  * VENDOR REPORT CLASS w/ INTERFACE
  * AND IMPLEMENTING STATIC MEMBERS
- * *********************************/
+ * *****************/
 
 public interface IVendorReport : IBaseReport
 {
@@ -224,9 +224,9 @@ public class VendorReport : IVendorReport
     public string VendorContactPhone { get; set; }
 }
 
-/***********************************
+/******************
  * A CLASS THAT PROCESSES REPORTS
- * *********************************/
+ * *****************/
 
 public class ISwearImAnInterestingClass
 {
@@ -247,7 +247,7 @@ public class ISwearImAnInterestingClass
 
 ## What about unit tests?
 
-Of course, it's always a good idea to create some tests __(and if you're using WinForms, you might want to brush up on__ [__using MVP to help with testing__](https://grantwinney.com/its-possible-to-test-a-winforms-app-using-mvp/)__)__ to make sure everything looks good, and to prove that the static abstract interface members, as weird as they might look, __do__ actually work.
+Of course, it's always a good idea to create some tests _(and if you're using WinForms, you might want to brush up on_ [_using MVP to help with testing_](https://grantwinney.com/its-possible-to-test-a-winforms-app-using-mvp/)_)_ to make sure everything looks good, and to prove that the static abstract interface members, as weird as they might look, _do_ actually work.
 
 ```csharp
 ISwearImAnInterestingClass ic;

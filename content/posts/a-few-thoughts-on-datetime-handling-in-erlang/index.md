@@ -16,14 +16,14 @@ tags:
 - Date-Time Handling
 title: A few thoughts on date/time handling in Erlang
 ---
-Ask any programmer who's been at it awhile what their biggest aggravations are, and I'd bet handling dates and times is nearly always in the top 5. I'm just getting off of a week or so of standardizing some date/time handling across an Erlang application, so here's a few thoughts while it's still fresh in my mind __(and then I don't want to think about time ever again)__.
+Ask any programmer who's been at it awhile what their biggest aggravations are, and I'd bet handling dates and times is nearly always in the top 5. I'm just getting off of a week or so of standardizing some date/time handling across an Erlang application, so here's a few thoughts while it's still fresh in my mind _(and then I don't want to think about time ever again)_.
 
 ## Decide how to represent time internally
 
-Decide on what's best for your app and __stick to it__. Erlang has several ways to represent time, each with varying levels of precision. You can [read more here](https://learnyousomeerlang.com/time), but they include:
+Decide on what's best for your app and _stick to it_. Erlang has several ways to represent time, each with varying levels of precision. You can [read more here](https://learnyousomeerlang.com/time), but they include:
 
 - [calendar:universal_time](http://erlang.org/doc/man/calendar.html#universal_time-0) - returns a tuple, max resolution of seconds
-- [erlang:timestamp](https://erldocs.com/18.0/erts/erlang.html#timestamp/0) - returns a __different__ tuple, max resolution of microseconds since [epoch](https://stackoverflow.com/a/1090945/301857)
+- [erlang:timestamp](https://erldocs.com/18.0/erts/erlang.html#timestamp/0) - returns a _different_ tuple, max resolution of microseconds since [epoch](https://stackoverflow.com/a/1090945/301857)
 - [erlang:system_time](https://erldocs.com/18.0/erts/erlang.html#system_time/0) - returns an integer, max res of nanoseconds since the [epoch](https://stackoverflow.com/a/1090945/301857)
 - [erlang:monotonic_time](https://erldocs.com/18.0/erts/erlang.html#monotonic_time/0) returns an ever-increasing integer, but not a "time" in the usual sense
 
@@ -41,7 +41,7 @@ One of the most consistent ways to deal with dates and times is the [ISO8601](ht
 
 ![](https://imgs.xkcd.com/comics/standards.png)
 
-[__xkcd__](https://xkcd.com/927)
+[_xkcd_](https://xkcd.com/927)
 
 The [iso8601 library](https://github.com/erlsci/iso8601) works nicely, but only formats times that are tuples, so even though ISO8601 technically supports nanoseconds this particular library does not. It can also parse ISO8601 values back to something Erlang can natively work with.
 
@@ -49,7 +49,7 @@ I'd also suggest converting back and forth as soon as it makes sense in your app
 
 ## Store everything in GMT (UTC +0)
 
-Another great source of hard-to-trace bugs (if that's your thing) is storing dates and times in a local timezone. Store everything in GMT __(__[__not the same as UTC__](https://www.timeanddate.com/time/gmt-utc-time.html)__!)__ so you know exactly where your starting point is, and then convert values to a local timezone at the moment you need them - for a calculation, display purposes, or something else. While a datetime is stored and passed around your system, you really __really__ want high confidence what format it's in so you're not making "best guesses" later on. And if a time is converted to a particular timezone and then stored as an integer, it'll be impossible to figure out what the original timezone was.
+Another great source of hard-to-trace bugs (if that's your thing) is storing dates and times in a local timezone. Store everything in GMT _(_[_not the same as UTC_](https://www.timeanddate.com/time/gmt-utc-time.html)_!)_ so you know exactly where your starting point is, and then convert values to a local timezone at the moment you need them - for a calculation, display purposes, or something else. While a datetime is stored and passed around your system, you really _really_ want high confidence what format it's in so you're not making "best guesses" later on. And if a time is converted to a particular timezone and then stored as an integer, it'll be impossible to figure out what the original timezone was.
 
 Like so many other things in Erlang, there's little to no native support for timezones - one of the many things I miss about the .NET ecosystem. There are several Erlang libraries out there to help working with timezones, but most of them appear abandoned. The best right now seems to be the [qdate](https://github.com/choptastic/qdate) library, which in turn was (I think) based off the [Erlang Localtime](https://github.com/dmitryme/erlang_localtime) library.
 

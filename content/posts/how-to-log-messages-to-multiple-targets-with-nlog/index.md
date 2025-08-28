@@ -23,9 +23,9 @@ tags:
 - Coding
 title: How to log messages to multiple targets with NLog
 ---
-When it comes to finding a bug in an app, few things beat a good trail of logs. And for writing those logs, few tools beat NLog in simplicity or flexibility. I rarely appreciate just __how__ flexible it is though, so it's worth spending a little time taking a closer look.
+When it comes to finding a bug in an app, few things beat a good trail of logs. And for writing those logs, few tools beat NLog in simplicity or flexibility. I rarely appreciate just _how_ flexible it is though, so it's worth spending a little time taking a closer look.
 
-Generally when I've used NLog, I configure it the same ol' way.. writing logs to a file. To use NLog's vernacular, I __target__ a file.. but there are a lot of other possible targets too. In fact there's [nearly a hundred](https://nlog-project.org/config/?tab=targets) as I write this.
+Generally when I've used NLog, I configure it the same ol' way.. writing logs to a file. To use NLog's vernacular, I _target_ a file.. but there are a lot of other possible targets too. In fact there's [nearly a hundred](https://nlog-project.org/config/?tab=targets) as I write this.
 
 In this post I'll use three of them in a WinForms app, to target a file, an API, and a MessageBox. Yep, you can actually display certain logs to a user, if you had a reason for wanting to do it.
 
@@ -96,7 +96,7 @@ There's a few interesting things to note in the above config:
 - The name and type are on every target, but other attributes vary.
 - The third-party target, for posting to an endpoint, requires an entry in a separate "extensions" node. I assume it's because NLog knows to check for its own extensions, but needs a hint that other ones are being used.
 - Note the URL for the HTTP target. That's a [minimal API](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/overview?view=aspnetcore-7.0) I wrote for demo purposes, which you can find in the [code](https://github.com/grantwinney/Surviving-WinForms/tree/master/Debugging/Logging/MultipleNLogTargets) if you clone it... it's also using NLog to write to its own file.
-- The "rules" section at the bottom says to log __everything__ to a local file, show anything informational or above to the user (they don't need to see debug or trace messages), and post any exception/critical messages to an external API (no need to send everything across the wire).
+- The "rules" section at the bottom says to log _everything_ to a local file, show anything informational or above to the user (they don't need to see debug or trace messages), and post any exception/critical messages to an external API (no need to send everything across the wire).
 
 ## Using Multiple Targets
 

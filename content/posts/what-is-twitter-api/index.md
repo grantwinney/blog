@@ -32,11 +32,11 @@ Go ahead and try it yourself. We'll fix it up pretty soon, so it'll actually wor
 
 ### Create an Application
 
-Normally, if you're accessing an API it's because you're trying to create your own application to do something with the results of those API calls. The first step in "authorizing" yourself is to [tell Twitter a little about the application you'd like to make](https://apps.twitter.com/)... of course, you don't have an __actual__ app to make yet, so just fill in whatever bogus info you'd like!
+Normally, if you're accessing an API it's because you're trying to create your own application to do something with the results of those API calls. The first step in "authorizing" yourself is to [tell Twitter a little about the application you'd like to make](https://apps.twitter.com/)... of course, you don't have an _actual_ app to make yet, so just fill in whatever bogus info you'd like!
 
 ![twitter_create_application-1](https://grantwinney.com/content/images/2017/12/twitter_create_application-1.png)
 
-After filling in the first three fields __(in a real-world app, you'd need to specify a redirect URL too),__ and selecting that all-important developer agreement box, it should create your application and show a message at the top. Step one complete.
+After filling in the first three fields _(in a real-world app, you'd need to specify a redirect URL too),_ and selecting that all-important developer agreement box, it should create your application and show a message at the top. Step one complete.
 
 ![twitter_application_created](https://grantwinney.com/content/images/2017/12/twitter_application_created.png)
 
@@ -46,7 +46,7 @@ You still need an access token, but if you flip to the "Keys and Access Tokens" 
 
 ![twitter_application_no_token](https://grantwinney.com/content/images/2017/12/twitter_application_no_token.png)
 
-Time to fix that. Click on __"Create my access token"__ to generate a random token and token secret, similar to below. You'll need those values marked by red arrows in the next step.
+Time to fix that. Click on _"Create my access token"_ to generate a random token and token secret, similar to below. You'll need those values marked by red arrows in the next step.
 
 ![twitter_application_new_token](https://grantwinney.com/content/images/2017/12/twitter_application_new_token.png)
 
@@ -70,7 +70,7 @@ You could [get the terms of service](https://developer.twitter.com/en/docs/devel
 
 ![twitter_api_get_tos](https://grantwinney.com/content/images/2017/12/twitter_api_get_tos.png)
 
-You could [use your coordinates to get a WOEID](https://developer.twitter.com/en/docs/trends/locations-with-trending-topics/api-reference/get-trends-closest) __(__[__find your lat/long here__](https://www.latlong.net/)__)__, and then [use the WOEID to find trends for that location](https://developer.twitter.com/en/docs/trends/trends-for-location/api-reference/get-trends-place). I tried it out for Cleveland. __(Oddly, nothing in the list of results, which is clearly for Cleveland, matches the "Cleveland trends" I see when I actually visit twitter.com. I dunno...)__
+You could [use your coordinates to get a WOEID](https://developer.twitter.com/en/docs/trends/locations-with-trending-topics/api-reference/get-trends-closest) _(_[_find your lat/long here_](https://www.latlong.net/)_)_, and then [use the WOEID to find trends for that location](https://developer.twitter.com/en/docs/trends/trends-for-location/api-reference/get-trends-place). I tried it out for Cleveland. _(Oddly, nothing in the list of results, which is clearly for Cleveland, matches the "Cleveland trends" I see when I actually visit twitter.com. I dunno...)_
 
 ```json
 GET https://api.twitter.com/1.1/trends/closest.json?lat=41.499320&long=-81.694361
@@ -146,7 +146,7 @@ GET https://api.twitter.com/1.1/trends/place.json?id=2381475
 ]
 ```
 
-You're not limited to just requesting data either. There are plenty of API endpoints that allow you to __create__ something too. For example, you could [create a new list](https://developer.twitter.com/en/docs/accounts-and-users/create-manage-lists/api-reference/post-lists-create).
+You're not limited to just requesting data either. There are plenty of API endpoints that allow you to _create_ something too. For example, you could [create a new list](https://developer.twitter.com/en/docs/accounts-and-users/create-manage-lists/api-reference/post-lists-create).
 
 ```json
 POST https://api.twitter.com/1.1/lists/create.json?name=Public Figures&description=Politics, celebrities, whatever...

@@ -17,11 +17,11 @@ tags:
 - Coding
 title: Async, CancellationToken, and IProgress in 5 Short Examples
 ---
-Learning to write code asynchronously does __not__ come naturally, at least not for this dev. We're wired to give the majority of our attention to [one thing at a time](https://www.psychologytoday.com/us/blog/creativity-without-borders/201405/the-myth-of-multitasking), so it can be difficult to write code that takes advantage of the fact that a computer can multitask __very__ well.
+Learning to write code asynchronously does _not_ come naturally, at least not for this dev. We're wired to give the majority of our attention to [one thing at a time](https://www.psychologytoday.com/us/blog/creativity-without-borders/201405/the-myth-of-multitasking), so it can be difficult to write code that takes advantage of the fact that a computer can multitask _very_ well.
 
 A few years ago, I wrote [an async article](https://grantwinney.com/using-async-await-and-task-to-keep-the-winforms-ui-more-responsive/) that shows (in a small way) how much faster it can be when we tell the computer to do many things at once. The trick is that we have to tell it which things can be done in parallel, and safely bring everything back together at the end.
 
-I don't feel completely comfortable with `async` yet, but learning to use and get comfortable with it really intrigues me, in the same way that [LINQ](https://grantwinney.com/10-resources-for-learning-linq) did years ago. Here's a few examples I put together to show off a little `async` code as well as cancellation tokens and how to report progress. I'm not running a lot of parallel code here, but I __am__ running things in a way that the task can be canceled and the UI won't be locked up.
+I don't feel completely comfortable with `async` yet, but learning to use and get comfortable with it really intrigues me, in the same way that [LINQ](https://grantwinney.com/10-resources-for-learning-linq) did years ago. Here's a few examples I put together to show off a little `async` code as well as cancellation tokens and how to report progress. I'm not running a lot of parallel code here, but I _am_ running things in a way that the task can be canceled and the UI won't be locked up.
 
 > The code in this post is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Threading/SimpleAsyncExamples?ref=grantwinney.com), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
 
@@ -33,7 +33,7 @@ Here's a really simple example that just waits 5 seconds and then completes.
 - Task.Delay effectively pauses for x seconds, in a way that won't block the UI
 
 ```cs
-// ** AsyncUI form **
+// * AsyncUI form *
 // Ex 1: Runs 5-second task and then completes
 
 private async void btnRunTask1_Click(object sender, EventArgs e)
@@ -54,7 +54,7 @@ private async void btnRunTask1_Click(object sender, EventArgs e)
     lblStatusAsync1.Text = "Completed!";
 }
 
-// ** SimpleAsyncMethods class **
+// * SimpleAsyncMethods class *
 // Ex 1: Task.Delay is an easy way to simulate a long-running job
 
 public static async Task Example1Async()
@@ -76,7 +76,7 @@ Here's another simple example. It also waits 5 seconds, although it checks for a
 - The caller is catching the `OperationCanceledException` to update the user
 
 ```cs
-// ** AsyncUI form **
+// * AsyncUI form *
 // Ex 2: Runs 5-second task for 3 seconds and then cancels it
 //  A CancellationTokenSource can be automatically canceled after a set delay
 
@@ -97,7 +97,7 @@ private async void btnRunTask2_Click(object sender, EventArgs e)
     }
 }
 
-// ** SimpleAsyncMethods class **
+// * SimpleAsyncMethods class *
 // Ex 2: By periodically calling ThrowIfCancellationRequested, we effectively check for a
 //  pending cancellation and throw an OperationCanceledException with a single line of code
 
@@ -121,7 +121,7 @@ This example adds something new – a button the user can press to cancel the `T
 - The code will likely still throw an `OperationCanceledException`, and here we'll just ignore it
 
 ```cs
-// ** AsyncUI form **
+// * AsyncUI form *
 // Ex 3: Runs 10-second task, during which it can be canceled
 
 CancellationTokenSource _cancelTokenSource3;
@@ -156,7 +156,7 @@ private void btnCancelTask3_Click(object sender, EventArgs e)
     _cancelTokenSource3.Cancel();
 }
 
-// ** SimpleAsyncMethods class **
+// * SimpleAsyncMethods class *
 // Ex 3: CancellationToken can be passed to, and handled by, other .NET classes that accept it 
 
 public static async Task Example3Async(CancellationToken cToken)
@@ -176,7 +176,7 @@ This one's just a slight variation of the last one, representing some `Task` tha
 - It checks every tenth of a second for a cancellation request
 
 ```cs
-// ** AsyncUI form **
+// * AsyncUI form *
 // Ex 4: Runs task indefinitely, during which it can be manually canceled
 
 CancellationTokenSource _cancelTokenSource4;
@@ -207,7 +207,7 @@ private void btnCancelTask4_Click(object sender, EventArgs e)
     _cancelTokenSource4.Cancel();
 }
 
-// ** SimpleAsyncMethods class **
+// * SimpleAsyncMethods class *
 // Ex 4: A task can run indefinitely until its canceled
 
 public static async Task Example4Async(CancellationToken cToken)
@@ -230,7 +230,7 @@ This last example introduces one more concept – the `IProgress<T>` construct, 
 - Since we're using a status message to update the user, we just eat the exception
 
 ```cs
-// ** AsyncUI form **
+// * AsyncUI form *
 // Ex 5: Runs 10-second task that's cancellable AND reports progress as it runs
 
 CancellationTokenSource _cancelTokenSource5;
@@ -265,7 +265,7 @@ private void btnCancelTask5_Click(object sender, EventArgs e)
     _cancelTokenSource5.Cancel();
 }
 
-// ** SimpleAsyncMethods class **
+// * SimpleAsyncMethods class *
 
 // Ex 5: By checking IsCancellationRequested, we can cancel a long-running task
 //  Also, the IProgress<T> construct lets us pass progress updates to the caller
@@ -297,4 +297,4 @@ public static async Task Example5Async(CancellationToken cToken, IProgress<(int,
 
 If you'd like to read more, I've written a few other articles on [async](https://grantwinney.com/tag/async/) that may or may not be helpful.
 
-One of the best sources I've found for all things async is Stephen Cleary's blog. After reading through his 5-part __(as of the time of this writing)__ series on [Cancellation](https://blog.stephencleary.com/2022/02/cancellation-1-overview.html) recently, I decided to play around a bit and share what I learned – hence the article you just read. 😄
+One of the best sources I've found for all things async is Stephen Cleary's blog. After reading through his 5-part _(as of the time of this writing)_ series on [Cancellation](https://blog.stephencleary.com/2022/02/cancellation-1-overview.html) recently, I decided to play around a bit and share what I learned – hence the article you just read. 😄

@@ -84,7 +84,7 @@ Console.WriteLine($"Newer books: {string.Join(", ", newerBooks.Select(b => b.Nam
 // Newer books: How to Stop Time, Catcher in the Rye, The Princess Bride
 ```
 
-We can compare two __different__ class types too, i.e. asking for all the books __except__ those whose name occurs in the movies list:
+We can compare two _different_ class types too, i.e. asking for all the books _except_ those whose name occurs in the movies list:
 
 ```csharp
 var booksOnly = books.ExceptBy(movies.Select(m => m.Name), b => b.Name);
@@ -94,7 +94,7 @@ Console.WriteLine("Books that aren't movies: " +
 // Books that aren't movies: How to Stop Time, Catcher in the Rye
 ```
 
-Or we can go the other way, and get all movies that are __not__ also books:
+Or we can go the other way, and get all movies that are _not_ also books:
 
 ```csharp
 var moviesOnly = movies.ExceptBy(books.Select(b => b.Name), m => m.Name);
@@ -106,7 +106,7 @@ Console.WriteLine("Movies that aren't books: " +
 
 ## IntersectBy
 
-Whereas `Except` and `ExceptBy` remove everything from one list that __is__ in a second list, the `Intersect` and [`IntersectBy`](https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.intersectby) methods removes everything from the first that __isn't__ in the second. It finds the intersection of two collections, or items that are in both.
+Whereas `Except` and `ExceptBy` remove everything from one list that _is_ in a second list, the `Intersect` and [`IntersectBy`](https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.intersectby) methods removes everything from the first that _isn't_ in the second. It finds the intersection of two collections, or items that are in both.
 
 Just like with `ExceptBy`, we can specify a property (like the name) that makes them equal:
 
@@ -120,7 +120,7 @@ Console.WriteLine("Books that are also movies: " +
 
 ## UnionBy
 
-Instead of considering what __is__ in the second collection like `ExceptBy`, or what __isn't__ in it like `IntersectBy`, the [`UnionBy`](https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.unionby) method just grabs a unique list of everything in both. If the collections contain the same class type, we just specify the parameter name it should use for the comparison:
+Instead of considering what _is_ in the second collection like `ExceptBy`, or what _isn't_ in it like `IntersectBy`, the [`UnionBy`](https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.unionby) method just grabs a unique list of everything in both. If the collections contain the same class type, we just specify the parameter name it should use for the comparison:
 
 ```csharp
 var allBooks = books.UnionBy(oldBooks, b => b.Name);
@@ -160,7 +160,7 @@ Console.WriteLine("Unique list of movies: " +
 
 All the examples above compared a single property to define equality, but in large collections that might not be enough. When it isn't, we can specify more than one property by just creating a tuple on-the-fly.
 
-Here's another `ExceptBy` example, but it compares the name __and__ the publish year:
+Here's another `ExceptBy` example, but it compares the name _and_ the publish year:
 
 ```csharp
 var newerBooks_multiple = books.ExceptBy(

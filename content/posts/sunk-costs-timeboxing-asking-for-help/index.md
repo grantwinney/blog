@@ -22,7 +22,7 @@ After several hours and no answers, I reached out to someone else on the team. S
 
 No. No it was not. 😐
 
-The code I tried redeploying several times would've fixed the original issue, but unfortunately it was being deployed to the __old__ environment. It had taken me longer to explain what I'd tried than it did for my coworker to find the thing I'd missed!
+The code I tried redeploying several times would've fixed the original issue, but unfortunately it was being deployed to the _old_ environment. It had taken me longer to explain what I'd tried than it did for my coworker to find the thing I'd missed!
 
 And that's the struggle. How do you know when to reach out? It's so easy to feel like you've already invested time in finding a solution [so you can't stop now](https://thedecisionlab.com/biases/the-sunk-cost-fallacy/). Just one more thing on google to try, just one more hour (then one more, and one more) and you'll have a solution. Almost there...
 

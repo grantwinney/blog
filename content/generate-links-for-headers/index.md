@@ -9,7 +9,7 @@ summary: Ever wanted to share a link, not just to a webpage, but to a particular
   page, to make it easier to share links that jump to a specific section.
 title: Generate Links for Headers
 ---
-Ever wanted to share a link, not just to a webpage, but to a particular __section__ of a webpage? GLfH automatically generates links for all headers on the page, to make it easier to share links that jump to a specific section.
+Ever wanted to share a link, not just to a webpage, but to a particular _section_ of a webpage? GLfH automatically generates links for all headers on the page, to make it easier to share links that jump to a specific section.
 
 It's available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/generate-links-for-headers/) and [Chrome](https://chrome.google.com/webstore/detail/generate-links-for-header/dckfkngmahjdokkkmconmfjdmicjcmgf) (so [Brave](https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-), [Opera](https://addons.opera.com/en/extensions/details/install-chrome-extensions/), and Edge too).
 

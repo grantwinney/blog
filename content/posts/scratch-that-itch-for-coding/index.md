@@ -17,11 +17,11 @@ In the early 90's, when I first got the coding itch, there weren't many options 
 
 In fact, coding sat on the backburner until about 5 years later, when I put together a Legend of Zelda fan site on geocities. As it turns out, having a reason to learn and something you feel worth sharing are huge motivators! I learned enough about HTML and JavaScript to get my ideas out there. Years later, as an all growned-up professional programmer who's done his fair share of a-little-bit-of-everything, I've come to realize a few things:
 
-- __Knowing how to program is awesome.__ 
+- _Knowing how to program is awesome._ 
   The computer is a tool, but it's also a medium for bringing ideas to life. If they're someone else's ideas, or your ideas for solving other people's problem, you can even get paid for it. Like a kid in a candy shop.
-- __Learning how to program, even a little, is an advantage.__
+- _Learning how to program, even a little, is an advantage._
   Not everyone's an author, statistician, or bus driver... but writing, basic math, and driving are essentials. There's no need for everyone to program professionally either, but knowing a little makes things easier.
-- __Solving for a specific problem is the best way to stay motivated.__  
+- _Solving for a specific problem is the best way to stay motivated._  
   The times in life when we learn the most is when we have a clear goal, or idea, or problem that's personally relevant - and let nothing stand in our way of achieving, sharing, or solving it.
 
 ## An Idea

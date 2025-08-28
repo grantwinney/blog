@@ -17,7 +17,7 @@ tags:
 - GitHub
 title: Hosting a GitHub wiki on Ubuntu (and keeping it in sync)
 ---
-I've always been a fan of wikis for documentation and record-keeping. I even keep an instance of [Dokuwiki running on DigitalOcean](https://grantwinney.com/creating-your-own-secure-wiki-using-dokuwiki/) for personal notes, and before that I had Confluence running on a spare machine at home. GitHub uses wikis too, creating one for every project you spin up. Unfortunately it's so poorly designed that I don't think it gets much love. There's no built-in search, no file upload, no table of contents... it __could__ be a whole lot more.
+I've always been a fan of wikis for documentation and record-keeping. I even keep an instance of [Dokuwiki running on DigitalOcean](https://grantwinney.com/creating-your-own-secure-wiki-using-dokuwiki/) for personal notes, and before that I had Confluence running on a spare machine at home. GitHub uses wikis too, creating one for every project you spin up. Unfortunately it's so poorly designed that I don't think it gets much love. There's no built-in search, no file upload, no table of contents... it _could_ be a whole lot more.
 
 Awhile back, I wrote about how [GitHub wikis are separate repos](https://grantwinney.com/5-things-you-can-do-with-a-locally-cloned-github-wiki/) you can clone and edit using [Gollum](https://github.com/gollum/gollum), which gives you a much richer interface, but that was about running locally and assumed no one else would be editing the wiki online. What if we could host a clone of the wiki externally - like on a DigitalOcean vm - using the full capabilities of Gollum to edit it, and keep it in sync with the repo hosted on GitHub? We can.. but first...
 
@@ -35,7 +35,7 @@ Now let's see what we can do!
 
 ![](https://grantwinney.com/content/images/2020/11/image.png)
 
-It takes a minute or two to create it, and then you'll get an email telling you how to login as root. The first thing I'd suggest doing after you login and change your root password is to [create a new user with sudo access](https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart), and then do everything as __that__ user instead.
+It takes a minute or two to create it, and then you'll get an email telling you how to login as root. The first thing I'd suggest doing after you login and change your root password is to [create a new user with sudo access](https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart), and then do everything as _that_ user instead.
 
 Note that there's also an option part way down the page to "[Add your SSH keys](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/)", which is worth checking out, but which I'm not going to cover here. Once it's setup on your machine, you don't have to remember your password anymore.
 
@@ -43,7 +43,7 @@ Note that there's also an option part way down the page to "[Add your SSH keys](
 
 ## Install Gollum (and everything else)
 
-The first thing we'll do is [install Gollum](https://github.com/gollum/gollum/wiki/Installation), as well as ruby, git, and a few other tools. The __"Installing ri documentation for ..."__ lines might seem to get stuck, but just wait 5 or 10 minutes and they should complete.
+The first thing we'll do is [install Gollum](https://github.com/gollum/gollum/wiki/Installation), as well as ruby, git, and a few other tools. The _"Installing ri documentation for ..."_ lines might seem to get stuck, but just wait 5 or 10 minutes and they should complete.
 
 ```sh
 sudo apt-get update
@@ -72,8 +72,8 @@ After you've [confirmed that the key works](https://help.github.com/articles/tes
 
 You'll want to change the link to an SSH format, which they provide for you on a repo but (unhelpfully) not on a wiki repo. That's okay, just manually change it.
 
-- from ****https****: `https://github.com/your-account/your-project.wiki.git`
-- to ****ssh****: `git clone git@github.com:your-account/your-project.wiki.git`
+- from **https**: `https://github.com/your-account/your-project.wiki.git`
+- to **ssh**: `git clone git@github.com:your-account/your-project.wiki.git`
 
 While you're here, provide an email and name for `git` to associate with commits:
 
@@ -95,7 +95,7 @@ Open your browser to `http://your-ip-address:4567` (replacing the IP address wit
 
 ![](https://grantwinney.com/content/images/2018/10/gollum-showing-wiki.png)
 
-Edit a page in Gollum, and it'll automatically commit your changes. Unfortunately, it doesn't __push__ your changes automatically, so that they're reflected on GitHub right away, but we'll fix that soon. Hit ctrl-c to exit Gollum for now.
+Edit a page in Gollum, and it'll automatically commit your changes. Unfortunately, it doesn't _push_ your changes automatically, so that they're reflected on GitHub right away, but we'll fix that soon. Hit ctrl-c to exit Gollum for now.
 
 ---
 
@@ -127,17 +127,17 @@ Now make a change in your wiki and save it. It'll pause for a moment as it runs 
 
 ## Get wiki edits from GitHub
 
-We can make changes to the wiki in the vm and they get pushed to GitHub, but what happens when someone makes a change on GitHub? How do we et those updates? GitHub can notify you when nearly anything happens concerning your repo, by letting you specify a URL it should send notifications to (a webhook). One of these events is called the [GollumEvent](https://developer.github.com/v3/activity/events/types/#gollumevent), which is __"triggered when a Wiki page is created or updated"__ and that's the one we need.
+We can make changes to the wiki in the vm and they get pushed to GitHub, but what happens when someone makes a change on GitHub? How do we et those updates? GitHub can notify you when nearly anything happens concerning your repo, by letting you specify a URL it should send notifications to (a webhook). One of these events is called the [GollumEvent](https://developer.github.com/v3/activity/events/types/#gollumevent), which is _"triggered when a Wiki page is created or updated"_ and that's the one we need.
 
 ### Configure a webhook to send notifications
 
-On GitHub, find the Settings tab for your repository, and configure it to send out notifications when your wiki is updated. __(I removed some available events from the screenshot below for readability - you'll see many more.)__ The `/wiki_update` endpoint is what we'll create next, using Sinatra.
+On GitHub, find the Settings tab for your repository, and configure it to send out notifications when your wiki is updated. _(I removed some available events from the screenshot below for readability - you'll see many more.)_ The `/wiki_update` endpoint is what we'll create next, using Sinatra.
 
 ![](https://grantwinney.com/content/images/2018/10/github-webhook-setup.png)
 
 ### Receive notifications with Sinatra
 
-We'll use the Sinatra web server __(check out the__ [__Getting Started__](http://sinatrarb.com/intro.html) __guide)__ to receive notifications and take some action. Create a file in your home directory named "receive_updates.rb" and add the following code. Whenever a `POST` is made to the `/wiki_update` endpoint, it'll pull down the latest changes for your wiki's repo.
+We'll use the Sinatra web server _(check out the_ [_Getting Started_](http://sinatrarb.com/intro.html) _guide)_ to receive notifications and take some action. Create a file in your home directory named "receive_updates.rb" and add the following code. Whenever a `POST` is made to the `/wiki_update` endpoint, it'll pull down the latest changes for your wiki's repo.
 
 ```ruby
 require 'sinatra'
@@ -174,7 +174,7 @@ You should see something like this, if all goes well:
 
 ### Create a page and see the notifications
 
-If you open two terminal windows, and start Gollum in one and your "receive_updates" app in the other, you should be able to make updates on the GitHub side and see them in your vm, and vice-versa. [Click here to see a short demo of what it should look like](https://grantwinney.com/content/images/2018/10/remote_wiki_test1.gif). __(caution, the file is about 4mb)__
+If you open two terminal windows, and start Gollum in one and your "receive_updates" app in the other, you should be able to make updates on the GitHub side and see them in your vm, and vice-versa. [Click here to see a short demo of what it should look like](https://grantwinney.com/content/images/2018/10/remote_wiki_test1.gif). _(caution, the file is about 4mb)_
 
 ---
 
@@ -205,10 +205,10 @@ Now do a `sudo reboot now` and let the machine come back up. Do both services st
 
 I've mentioned it a couple times, but I'll say it again. This setup as I've laid it out would be very insecure. Here's a few things you'd want to think about:
 
-- ****Enable a firewall**** - Lock down open ports to only those needed (in this demo, it'd be 4567, 5678 and 22 for ssh), either by [configuring ufw](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-16-04) or DigitalOcean's [cloud firewall](https://www.digitalocean.com/docs/networking/firewalls/).
-- ****Secure webhooks**** - It wouldn't hurt to [secure your webhooks](https://developer.github.com/webhooks/securing/) using GitHub's "secret token" feature.
-- ****Add SSL**** - Encrypt the connection with SSL, since by default everything is transmitted in plain text and is susceptible to [mitm attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
-- ****Authentication / password protection**** - Check out [this old issue in the Gollum repo](https://github.com/gollum/gollum/issues/107) for more info and some helpful suggestions. There's even a comment (albeit years old now) from someone who seems to work at GitHub and was involved in their efforts to prevent unauthorized access to a repo's wiki.
+- **Enable a firewall** - Lock down open ports to only those needed (in this demo, it'd be 4567, 5678 and 22 for ssh), either by [configuring ufw](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-16-04) or DigitalOcean's [cloud firewall](https://www.digitalocean.com/docs/networking/firewalls/).
+- **Secure webhooks** - It wouldn't hurt to [secure your webhooks](https://developer.github.com/webhooks/securing/) using GitHub's "secret token" feature.
+- **Add SSL** - Encrypt the connection with SSL, since by default everything is transmitted in plain text and is susceptible to [mitm attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
+- **Authentication / password protection** - Check out [this old issue in the Gollum repo](https://github.com/gollum/gollum/issues/107) for more info and some helpful suggestions. There's even a comment (albeit years old now) from someone who seems to work at GitHub and was involved in their efforts to prevent unauthorized access to a repo's wiki.
 
 ---
 
@@ -216,7 +216,7 @@ I've mentioned it a couple times, but I'll say it again. This setup as I've laid
 
 These are just the downsides / limitations that I noticed... I'm sure there's more.
 
-- A delete on the GitHub side doesn't transmit a notification, so it's not reflected in the vm until you make an edit elsewhere that triggers a `git pull`. But a delete in the vm __is__ reflected on GitHub immediately, because it's pushing the change to the repo.
+- A delete on the GitHub side doesn't transmit a notification, so it's not reflected in the vm until you make an edit elsewhere that triggers a `git pull`. But a delete in the vm _is_ reflected on GitHub immediately, because it's pushing the change to the repo.
 - If someone clones the repo to their machine, then edits a file manually and pushes the change, GitHub kicks off a notification for that file and the vm pulls in the change. However, if someone just uploads an image or other file, without editing a page, no notification is sent.
 - If two people are editing a wiki page in GitHub, when one saves the other gets a warning that the page has been updated. This doesn't occur in Gollum, so it's possible to save your changes and blow away someone else's edit.
 

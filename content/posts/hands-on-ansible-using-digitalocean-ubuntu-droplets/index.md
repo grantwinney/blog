@@ -27,7 +27,7 @@ I only started learning about it recently, and today I'm wrapping my head around
 
 [Create a DigitalOcean account](https://m.do.co/c/448f25462030) and spin up two Ubuntu droplets (the green "create" button in the upper-right). A bottom-tier machine runs $5/mo, so even if you play with these for the rest of the day it'll only run ya 33¢. 🤑
 
-Normally I'd leave __"SSH keys"__ selected for authentication, but for now you can just select __"one-time password"__. You'll get an email for each machine with a temp password, and then you can just open a terminal, type in `ssh root@111.111.111.111` using whatever IP address you're assigned, and change the password.
+Normally I'd leave _"SSH keys"_ selected for authentication, but for now you can just select _"one-time password"_. You'll get an email for each machine with a temp password, and then you can just open a terminal, type in `ssh root@111.111.111.111` using whatever IP address you're assigned, and change the password.
 
 ![](https://grantwinney.com/content/images/2019/12/ubuntu-vm-at-do-1.png)
 
@@ -55,11 +55,11 @@ Follow [step 1](https://www.digitalocean.com/community/tutorials/how-to-set-up-s
 
 Here's some output from my node controller, as I was running commands. I color-coded it to make it easier to understand, but basically...
 
-- I tried pinging the host, which failed because SSH wasn't setup yet. __(red)__
-- I created an SSH keypair on the controller node. __(green)__
-- I verified that the keypair was created, and `id_rsa.pub` was present. __(purple)__
-- I copied the public key from the node controller to the host. __(orange)__
-- I ran the first command again, to ping the host. Success! __(blue)__
+- I tried pinging the host, which failed because SSH wasn't setup yet. _(red)_
+- I created an SSH keypair on the controller node. _(green)_
+- I verified that the keypair was created, and `id_rsa.pub` was present. _(purple)_
+- I copied the public key from the node controller to the host. _(orange)_
+- I ran the first command again, to ping the host. Success! _(blue)_
 
 ![](https://grantwinney.com/content/images/2019/12/ansible-node-controller-setup.png)
 
@@ -85,7 +85,7 @@ Checking the uptime on a host machine
 
 ## What's next?
 
-Okay, that wasn't nearly as bad as I thought it'd be! If you were doing this in a production environment, you'd want to do __way__ more - creating a non-root sudo user and configuring UFW to allow only the ports you need (like 22) come to mind.
+Okay, that wasn't nearly as bad as I thought it'd be! If you were doing this in a production environment, you'd want to do _way_ more - creating a non-root sudo user and configuring UFW to allow only the ports you need (like 22) come to mind.
 
 Now that I've got the servers setup and communicating, I plan on going through the rest of [Erika's guides](https://www.digitalocean.com/community/users/erikaheidi). I'll save these for another day though.
 

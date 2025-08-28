@@ -18,7 +18,7 @@ title: Installing DOS 6.22 in VMware Player
 ---
 I started off looking at my MSDN account for a copy of Windows 98 to install some old software (compatibility mode under Windows 7 didn’t work), and noticed the only versions of Windows available are 7, 8 and….. 3.11. Ooo, I already have Windows 8 running in a virtual machine. Why not fire up Win 3.11?
 
-This was back in the days when Windows ran on top of DOS though, so I needed to install DOS 6.22 first. Should be easy. Oh, but MSDN and TechNet only provide floppy disk images (IMG files) for the __upgrade__ versions of DOS 6.22. They provide other copies of DOS 6.0 and 6.22, but those seem to be the contents of a CD or a file from a hard drive. Not exactly useful, and if you try to mount the floppy disks, you’ll get an error and the setup stops.
+This was back in the days when Windows ran on top of DOS though, so I needed to install DOS 6.22 first. Should be easy. Oh, but MSDN and TechNet only provide floppy disk images (IMG files) for the _upgrade_ versions of DOS 6.22. They provide other copies of DOS 6.0 and 6.22, but those seem to be the contents of a CD or a file from a hard drive. Not exactly useful, and if you try to mount the floppy disks, you’ll get an error and the setup stops.
 
 First, you’ll need:
 
@@ -36,7 +36,7 @@ Here’s how I setup the virtual machine to prepare for DOS. First, create a new
 
 ![](https://grantwinney.com/content/images/2019/05/Image-003.png)
 
-I lowered the disk size from the default 8 GB. I mean, really, __1__ GB was a dream back then.
+I lowered the disk size from the default 8 GB. I mean, really, _1_ GB was a dream back then.
 
 ![](https://grantwinney.com/content/images/2019/05/Image-004.png)
 
@@ -58,7 +58,7 @@ No floppy drive by default. We’ll need one of those to install our flashy new 
 
 ![](https://grantwinney.com/content/images/2019/05/Image-011.png)
 
-Fire up the virtual machine and it’ll load the floppy disk you mounted and start the DOS setup process. ****DON’T PRESS ENTER**** after the first screen below!
+Fire up the virtual machine and it’ll load the floppy disk you mounted and start the DOS setup process. **DON’T PRESS ENTER** after the first screen below!
 
 ![](https://grantwinney.com/content/images/2019/05/Image-012.png)
 

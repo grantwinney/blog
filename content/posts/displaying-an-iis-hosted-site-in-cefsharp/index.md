@@ -47,6 +47,6 @@ Open the new website in your browser and you should see the sample page in all i
 
 Fire up the WinForms project, and give it a go. You'll need to change line 27 if you picked a different port. Otherwise, it behaves like it did [last time](https://grantwinney.com/hosting-a-simple-webpage-in-winforms-with-cefsharp/), except now you're interacting with an actual website running locally, and not just a one-off html page.
 
-I couldn't help monkeying with it a little bit though, adding an address bar that subscribes to the CEFSharp control's `AddressChanged` event handler to display the current URL. Oh, and it now has __twice__ as many hypertextual markedup pages!
+I couldn't help monkeying with it a little bit though, adding an address bar that subscribes to the CEFSharp control's `AddressChanged` event handler to display the current URL. Oh, and it now has _twice_ as many hypertextual markedup pages!
 
 ![](https://grantwinney.com/content/images/2022/08/cefsharpiis-1.gif)

@@ -184,7 +184,7 @@ Here's a small portion of the results - there's a `dt_txt` field that clearly sh
 
 ## Historical Data
 
-__Update:__ Someone asked me about historical data, so I figured I'd post what I found here. If you'd like to [get historical data](https://openweathermap.org/history), such as the weather in a certain location for all of 2017, the endpoint changes from `api` to `history`:
+_Update:_ Someone asked me about historical data, so I figured I'd post what I found here. If you'd like to [get historical data](https://openweathermap.org/history), such as the weather in a certain location for all of 2017, the endpoint changes from `api` to `history`:
 
 ```
 GET history.openweathermap.org/data/2.5/find?q=Cleveland&type=accurate&units=metric&mode=xml&start=1483228800&end=1485820800&APPID=<your-app-key>

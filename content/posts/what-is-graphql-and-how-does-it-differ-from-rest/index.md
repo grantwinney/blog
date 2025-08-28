@@ -27,24 +27,24 @@ An API that implements the REST interface allows us to (for example) very easily
 
 Take the [Ghost API](https://ghost.org/docs/api/v2/content) as an example, which is built into the blog engine I use for this site. You can request data on individual posts, authors, etc, which is all standard fare. On top of that though, the devs provided a few query parameters to affect the returned data:
 
-- [include](https://ghost.org/docs/api/v2/content/#include) returns __more__ data, like full author details for a post
-- [fields](https://ghost.org/docs/api/v2/content/#fields) returns __less__ data, by specifying which fields should be returned
-- [formats](https://ghost.org/docs/api/v2/content/#formats) returns __more__ data, by returning data in multiple formats
-- [filter](https://ghost.org/docs/api/v2/content/#filter) returns __less__ data, by filtering by certain attributes
-- `limit` and `page` return __less__ data by implementing paging
+- [include](https://ghost.org/docs/api/v2/content/#include) returns _more_ data, like full author details for a post
+- [fields](https://ghost.org/docs/api/v2/content/#fields) returns _less_ data, by specifying which fields should be returned
+- [formats](https://ghost.org/docs/api/v2/content/#formats) returns _more_ data, by returning data in multiple formats
+- [filter](https://ghost.org/docs/api/v2/content/#filter) returns _less_ data, by filtering by certain attributes
+- `limit` and `page` return _less_ data by implementing paging
 - `order` doesn't even filter data, but it affects paging results so it's tacked on
 
 Each of those items had to be explicitly coded, and while the Ghost API offers more customization than a lot of other APIs I've seen, they can only offer so much. If I want to "filter" by an attribute they don't support, I have to request more data than I need and filter it out locally. If I want to "include" some other entity they didn't plan for, I have to make multiple requests and stitch things together client side.
 
-The flexibility in GraphQL is that it allows (forces, really) a client to create their own query to get __just__ the data they want, in __just__ the way they want it. And it also provides certain tools to enable the server to provide that data and only that data. In other words, GraphQL out-of-the-box returns the smallest amount of data needed, whereas REST returns the largest.
+The flexibility in GraphQL is that it allows (forces, really) a client to create their own query to get _just_ the data they want, in _just_ the way they want it. And it also provides certain tools to enable the server to provide that data and only that data. In other words, GraphQL out-of-the-box returns the smallest amount of data needed, whereas REST returns the largest.
 
 There seems to be a pretty rich toolset for GraphQL, including:
 
 - Some sort of [IDE](https://github.com/graphql/graphiql) in the browser to play around with GraphQL
-- Server libraries in [C#](https://graphql.org/code/#c-net), [Python](https://graphql.org/code/#python), and more __(what's a server library?)__
-- GraphQL clients for [C#](https://graphql.org/code/#c-net-1) and [Python](https://graphql.org/code/#python-1) __(what do they mean by client??)__
-- Various other [tools](https://graphql.org/code/#tools) __(what do these do?!?)__
+- Server libraries in [C#](https://graphql.org/code/#c-net), [Python](https://graphql.org/code/#python), and more _(what's a server library?)_
+- GraphQL clients for [C#](https://graphql.org/code/#c-net-1) and [Python](https://graphql.org/code/#python-1) _(what do they mean by client??)_
+- Various other [tools](https://graphql.org/code/#tools) _(what do these do?!?)_
 
-Not to mention there's an entire [GraphQL spec](https://github.com/graphql/graphql-spec) to check out and, uh, [__this__](https://github.com/chentsulin/awesome-graphql). 😵
+Not to mention there's an entire [GraphQL spec](https://github.com/graphql/graphql-spec) to check out and, uh, [_this_](https://github.com/chentsulin/awesome-graphql). 😵
 
 Lastly, there's a [quick overview of GraphQL in 15 minutes](https://www.youtube.com/watch?v=VjXb3PRL9WI) on YouTube, and here's a piece I wrote about [accessing the GraphQL API](https://grantwinney.com/using-graphiql-to-access-a-graphql-api/).

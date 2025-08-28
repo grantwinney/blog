@@ -21,11 +21,11 @@ tags:
 - Async
 title: Using Async, Await, and Task to keep the WinForms UI responsive
 ---
-For most of my dev career, I've been in C# shops. That doesn't mean __every__ project required C# exclusively, but most of them did. I've also used React, Ruby, C++, Erlang.. whatever's called for. But large company or small, if you're a C# dev, sooner or later you'll likely find yourself supporting a WinForms app. And crystal reports, but we shan't speak of that here. 😑
+For most of my dev career, I've been in C# shops. That doesn't mean _every_ project required C# exclusively, but most of them did. I've also used React, Ruby, C++, Erlang.. whatever's called for. But large company or small, if you're a C# dev, sooner or later you'll likely find yourself supporting a WinForms app. And crystal reports, but we shan't speak of that here. 😑
 
 WinForms is 20 years old, but doesn't show signs of disappearing anytime soon. It still exists in [.NET 5.0](https://docs.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-5.0) (the successor to .NET Core 3.1), and will exist in [.NET 6.0](https://dotnet.microsoft.com/download/dotnet/6.0) later this year. Web design, SAAS, and the cloud are all the rage, but not everyone is looking to upgrade or trusts their data to someone else's server. For a lot of people in rural or developing areas, the Internet is spotty at best, so the move to all web-based apps may not be an option!
 
-In light of all that, and because the flagship app where I'm currently employed is written in WinForms, I'm going to start a series of posts that explore how we can make it, well... suck less. The .NET Framework was very, __very__ different 20 years ago, but old paradigms continue on. No one wants to change the original code, and it's easier to introduce new code using the same old design patterns.
+In light of all that, and because the flagship app where I'm currently employed is written in WinForms, I'm going to start a series of posts that explore how we can make it, well... suck less. The .NET Framework was very, _very_ different 20 years ago, but old paradigms continue on. No one wants to change the original code, and it's easier to introduce new code using the same old design patterns.
 
 > The code in this article is available on [GitHub](https://github.com/grantwinney/SurvivingWinForms/tree/master/Threading/AsyncAwait?ref=grantwinney.com), for you to use or just follow along with.
 
@@ -33,11 +33,11 @@ But even if we don't want to overhaul a huge app, can't we leave the place clean
 
 ## What is Async / Await?
 
-We don't do single-threaded in real life. Imagine just standing there while the washer finishes cleaning your clothes, or the coffee machine brews your favorite java. Worse yet, you __can't__ move until the clothes are clean. Everything around you just freezes in place. It's ridiculous.
+We don't do single-threaded in real life. Imagine just standing there while the washer finishes cleaning your clothes, or the coffee machine brews your favorite java. Worse yet, you _can't_ move until the clothes are clean. Everything around you just freezes in place. It's ridiculous.
 
-But it's a __lot__ easier to think that way, isn't it? Things are so much more predictable when you know one thing will happen at a time, that task A will end before task B begins. But just like in real life everyone would be __seriously__ annoyed with you, in app dev life the user is annoyed. It's easy, but not right.
+But it's a _lot_ easier to think that way, isn't it? Things are so much more predictable when you know one thing will happen at a time, that task A will end before task B begins. But just like in real life everyone would be _seriously_ annoyed with you, in app dev life the user is annoyed. It's easy, but not right.
 
-A much better user experience is to run tasks separately from the UI thread, and even better is to run __multiple__ things separately and safely. To let a job run in the background while the user moves on to something else... or at least sees progress instead of a frozen UI.
+A much better user experience is to run tasks separately from the UI thread, and even better is to run _multiple_ things separately and safely. To let a job run in the background while the user moves on to something else... or at least sees progress instead of a frozen UI.
 
 The .NET Framework has had different ways of doing this for a long time, but the async/await pattern in .NET 4.5 is easier than ever before. We can group chunks of code together, run them separately from one another and the main UI thread, and we can tell the app when it should wait for certain threads to complete before going any further. Let's take a look at an example.
 
@@ -45,7 +45,7 @@ The .NET Framework has had different ways of doing this for a long time, but the
 
 The most common thing to do in a WinForms app (in my experience) is to just keep adding more and more code, without thinking about where it's running... which usually means the UI thread by default. The problem is that a long-running job running on the UI thread freezes the app. Even short job will lock the UI for a half-second here, a full second there, even if we've gotten used to it.
 
-In the [BreakfastSingleThread class](https://github.com/grantwinney/SurvivingWinForms/blob/master/Threading/AsyncAwait/AsyncAwait/BreakfastSingleThread.cs), I've written a couple dozen methods for making a full breakfast. They're not doing any real work.. just sleeping for a fraction of a second or so, then continuing. When you click the "Run on Main Thread" button, it kicks off the process with this: __(ignore the inline method passed to the ctor - I'm passing messages to the TextBox control, but that's not important right now)__
+In the [BreakfastSingleThread class](https://github.com/grantwinney/SurvivingWinForms/blob/master/Threading/AsyncAwait/AsyncAwait/BreakfastSingleThread.cs), I've written a couple dozen methods for making a full breakfast. They're not doing any real work.. just sleeping for a fraction of a second or so, then continuing. When you click the "Run on Main Thread" button, it kicks off the process with this: _(ignore the inline method passed to the ctor - I'm passing messages to the TextBox control, but that's not important right now)_
 
 ```csharp
 var bmt = new BreakfastSingleThread((text) => txtMainThread.AppendText(text + Environment.NewLine));
@@ -65,7 +65,7 @@ So how easy is it to take advantage of async/await, in order to not block the UI
 await Task.Run(() => bmt.MakeBreakfast());
 ```
 
-Now the UI thread is left available to process other events, so the progress bar animates, buttons are responsive, and the window can be resized and moved. You can disable anything you don't want the user to do (like I did with the button), but the UI itself doesn't lock up. __With one line of code!__
+Now the UI thread is left available to process other events, so the progress bar animates, buttons are responsive, and the window can be resized and moved. You can disable anything you don't want the user to do (like I did with the button), but the UI itself doesn't lock up. _With one line of code!_
 
 ![](https://grantwinney.com/content/images/2021/06/2separatethreadani.gif)
 
@@ -73,7 +73,7 @@ Now the UI thread is left available to process other events, so the progress bar
 
 That previous example was a quick win. The UI was responsive again, but it's still running everything concurrently, so it takes the same amount of time by the end.
 
-Running things in __separate__ threads would be a much larger win, but there's more changes to make in the code, and we have to be more careful about what we're calling, and when we have to wait (await) for certain parts to finish before moving on with others.
+Running things in _separate_ threads would be a much larger win, but there's more changes to make in the code, and we have to be more careful about what we're calling, and when we have to wait (await) for certain parts to finish before moving on with others.
 
 To support multiple threads, I rewrote the previous class and named it [BreakfastMultipleThreads.cs](https://github.com/grantwinney/SurvivingWinForms/blob/master/Threading/AsyncAwait/AsyncAwait/BreakfastMultipleThreads.cs). The changes are pretty significant. Many of the methods have been changed to support async operations.
 
@@ -107,7 +107,7 @@ Before
 
 After
 
-- Methods that can be executed at the same time, like cooking bacon and eggs, or pouring the orange juice while the coffee brews, are run in separate tasks at the same time. _****(big win!)****_
+- Methods that can be executed at the same time, like cooking bacon and eggs, or pouring the orange juice while the coffee brews, are run in separate tasks at the same time. _**(big win!)**_
 - Obviously certain things just can't be. You can't make the sandwich until everything's cooked. You can't pour the coffee while it's still brewing.
 
 ![](https://grantwinney.com/content/images/2021/06/2021-06-06-22_06_03-SurvivingWinForms---Microsoft-Visual-Studio.png)
@@ -161,7 +161,7 @@ private void SendMessage(string text)
 I don't know the ins and outs of how this differs yet, but the effects are pretty noticeable when you run all three examples at once. Check out how the three examples behave. When the one that blocks the UI thread runs, it does what it always does - freezes the whole UI. But when it completes, two things happen:
 
 1. The example using `Progress<T>` immediately prints out all the rest of its messages as if no time has elapsed, and completes. It's clear that it continued running and completed, but its updates for the UI were stored.
-2. The example __not__ using it was frozen in place, waiting on the main UI thread. When it continues, the stopwatch reports that 16.4 seconds has elapsed - the time it took the first example to complete.
+2. The example _not_ using it was frozen in place, waiting on the main UI thread. When it continues, the stopwatch reports that 16.4 seconds has elapsed - the time it took the first example to complete.
 
 ![](https://grantwinney.com/content/images/2021/06/4allatonce.gif)
 

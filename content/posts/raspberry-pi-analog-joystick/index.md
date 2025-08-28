@@ -23,15 +23,15 @@ A few months ago, I bought a set of 37 sensor modules. I knew they wouldn’t di
 
 There are a few things we need first:
 
-- ****Raspberry Pi Starter Kit****  
+- **Raspberry Pi Starter Kit**  
     A decent starter kit includes the Pi, adapter, memory card, case, breadboard and cobbler, wires and LEDs, etc.
-- ****Long Breadboard****  
+- **Long Breadboard**  
     Some of the kits come with a shorter breadboard, but a longer board gives us more space to work, allowing for more wires, LEDs, switches, etc.
-- ****Kuman 37 Sensor Module Kit for Arduino****  
+- **Kuman 37 Sensor Module Kit for Arduino**  
     That's the one I got, but I'm sure there's plenty of similar ones. Mine came with a joystick control (which I used for this post), and a load of other sensors and input devices. There was no documentation, but I found a [link to (somewhat sparse) instructions for each module](https://mega.nz/#F!LElQwT6R!Tj6SclwUfajz1ZihF_s2Mw) on Amazon.
-- ****Male to female jumper wires****  
+- **Male to female jumper wires**  
     We need wires to connect the joystick to the breadboard.
-- ****Adafruit MCP3008 – 8-Channel 10-Bit ADC With SPI Interface [ADA856]****  
+- **Adafruit MCP3008 – 8-Channel 10-Bit ADC With SPI Interface [ADA856]**  
     A tiny chip that bridges the gap between an analog control and the Pi. It’s cheaper directly from [Adafruit](https://www.adafruit.com/products/856), but watch out for shipping. If you’re buying several instead of just one like me, consider Adafruit’s site. [Here's the datasheet](http://www.microchip.com/wwwproducts/en/en010530).
 
 ## Interfacing with Analog Controls
@@ -237,7 +237,7 @@ def main():
         GPIO.cleanup()
  
  
-if __name__ == '__main__':
+if _name_ == '_main_':
     main()
 ```
 

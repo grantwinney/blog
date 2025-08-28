@@ -54,7 +54,7 @@ Anyway, I got my kit quickly (thank you Amazon Prime!) and pulled it out this we
 
 ## Blinking an LED (Hello World)
 
-Making an LED blink is simple once you know how, and it’s about the smallest project you can complete that makes your Pi __do__ something in the outside world.
+Making an LED blink is simple once you know how, and it’s about the smallest project you can complete that makes your Pi _do_ something in the outside world.
 
 If you don’t have one of those cobbler boards, then you can just follow along with the The PiHut tutorial titled “[Turning on an LED with your Raspberry Pi’s GPIO Pins](https://thepihut.com/blogs/raspberry-pi-tutorials/27968772-turning-on-an-led-with-your-raspberry-pis-gpio-pins)“. It’s short, has good images demonstrating where everything goes, and even includes a nice explanation of what each line of the short Python program is doing at the end. Read through it once or twice and go for it!
 
@@ -62,7 +62,7 @@ In my case, there was no need to make the connections from the Pi to the breadbo
 
 ### Breadboard Setup
 
-Unlike the tutorial, I used pin 21 for the longer (anode) side of the LED __(again,__ [__read the tutorial first__](https://thepihut.com/blogs/raspberry-pi-tutorials/27968772-turning-on-an-led-with-your-raspberry-pis-gpio-pins)__),__ then connected the shorter (cathode) side to an empty row. This allowed me to add a resistor to the same row as the cathode side, and then complete the circuit by connecting to one of the “ground” terminals. Hopefully that makes more sense once you take a look at the image below, showing my setup.
+Unlike the tutorial, I used pin 21 for the longer (anode) side of the LED _(again,_ [_read the tutorial first_](https://thepihut.com/blogs/raspberry-pi-tutorials/27968772-turning-on-an-led-with-your-raspberry-pis-gpio-pins)_),_ then connected the shorter (cathode) side to an empty row. This allowed me to add a resistor to the same row as the cathode side, and then complete the circuit by connecting to one of the “ground” terminals. Hopefully that makes more sense once you take a look at the image below, showing my setup.
 
 Also, if you’re wondering why to even bother with the resistor, I was too. From what little I understand, once the LED lights up it offers no resistance at all, so you’ve basically got a short-circuit. Things may work for awhile, but you could drastically shorten the lives of both the LED and the Pi. From the aforementioned tutorial:
 
@@ -111,7 +111,7 @@ Here’s the output that prints to the console while the LED blinks. That last w
 
 ### It’s Aliiiiive!
 
-Feeling invulnerable, I got crazy and tried __two__ LEDs. Slow down, right? 😏
+Feeling invulnerable, I got crazy and tried _two_ LEDs. Slow down, right? 😏
 
 I just wanted to see it operate both ([and you can too](https://res.cloudinary.com/dxm4riq52/video/upload/q_auto/v1583296287/Raspberry%20Pi/Blinking_LED_via_the_Raspberry_Pi_2_eyvjjs.mp4)), and it did, albeit the green LED seemed a bit dimmer. When I tried to use blue with red or green, the blue didn’t light up. I assume that’s because it uses more power than the resistor was allowing through.
 
@@ -119,7 +119,7 @@ If I’m wrong about that assumption, I’d be interested in hearing the real re
 
 ## Where can I purchase the hardware?
 
-If you want any of the accessory hardware you saw here, including the T-shaped cobbler and cable __(it’s very handy to not have to wire up all the individual GPIO pins!),__ you can pick up a kit on Amazon - I've found Canakit and Vilros to be good brands, but I'm sure there's others too.
+If you want any of the accessory hardware you saw here, including the T-shaped cobbler and cable _(it’s very handy to not have to wire up all the individual GPIO pins!),_ you can pick up a kit on Amazon - I've found Canakit and Vilros to be good brands, but I'm sure there's others too.
 
 ## Where can I go from here?
 
@@ -162,7 +162,7 @@ GPIO.output(13, True)     # Turn the pin "on". Could use: True/False, 1/0, GPIO.
 - [Demo of an LED blinking](https://www.coursera.org/learn/raspberry-pi-platform/lecture/vJ5Az/lecture-2-3-demo-of-a-blink), as seen in [The Raspberry Pi Platform and Python Programming for the Raspberry Pi](https://www.coursera.org/learn/raspberry-pi-platform) course on Coursera.
 - [Interfacing with the Raspberry Pi](https://www.coursera.org/learn/raspberry-pi-interface), another course on Coursera. Now that I’ve got the breadboard, I’ll be trying this out.
 - I’m also taking [Programming for Everybody (Getting Started with Python)](https://www.coursera.org/learn/python/) on Coursera.
-- [Tkinter Library](https://www.coursera.org/learn/raspberry-pi-platform/lecture/xyVag/lecture-3-2-tkinter-library), a Python library for GUI development __(no clue about this yet, just noting it)__
+- [Tkinter Library](https://www.coursera.org/learn/raspberry-pi-platform/lecture/xyVag/lecture-3-2-tkinter-library), a Python library for GUI development _(no clue about this yet, just noting it)_
 
 When programming in Python, there are [online Python editors](http://stackoverflow.com/q/4616159/301857). Personally, I just installed the free [PyCharm IDE](https://www.jetbrains.com/pycharm/) from JetBrains.
 

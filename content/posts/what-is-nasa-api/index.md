@@ -27,7 +27,7 @@ First though, two things to consider:
 
 ## Authorization
 
-You aren't required to get an API key __(you can just use the string "DEMO_KEY" instead of an actual key),__ but you might as well. Without one, the limit is 50 requests per day - with one, it's (usually) 1000 requests per hour. [Fill out the form](https://api.nasa.gov/#signUp), and it immediately displays an API key on the same page.
+You aren't required to get an API key _(you can just use the string "DEMO_KEY" instead of an actual key),_ but you might as well. Without one, the limit is 50 requests per day - with one, it's (usually) 1000 requests per hour. [Fill out the form](https://api.nasa.gov/#signUp), and it immediately displays an API key on the same page.
 
 ![nasa-api---get-api-key](https://grantwinney.com/content/images/2017/12/nasa-api---get-api-key.png)
 
@@ -35,7 +35,7 @@ Interestingly, they also refer to this as your api.data.gov API key ... not sure
 
 ## Requesting Data
 
-Just append your API key as a parameter to any of the [available API requests](https://api.nasa.gov/#browseAPI) __(scroll down towards the bottom of the page if the link doesn't take you there)__. Try a simple one first, to make sure your API key works.
+Just append your API key as a parameter to any of the [available API requests](https://api.nasa.gov/#browseAPI) _(scroll down towards the bottom of the page if the link doesn't take you there)_. Try a simple one first, to make sure your API key works.
 
 ### Photo of the Day
 
@@ -263,4 +263,4 @@ The returned dataset includes over 13000 lines of JSON, so's here's a couple pho
 
 There are lots of other APIs to experiment with too, but it's Christmas Eve and I can't sit around playing forever. ;) This was a nice set of APIs to discover though, and I'm excited to discover more about them in the future.
 
-It's great that NASA has made such an effort to publicize the data it's amassed over the years. Even more amazing is that this data - which could've been kept on a server somewhere inaccessible - is available to anyone in the __world__ who requests it!
+It's great that NASA has made such an effort to publicize the data it's amassed over the years. Even more amazing is that this data - which could've been kept on a server somewhere inaccessible - is available to anyone in the _world_ who requests it!

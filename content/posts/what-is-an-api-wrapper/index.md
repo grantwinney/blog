@@ -15,11 +15,11 @@ tags:
 - Questions
 title: What is an API wrapper?
 ---
-Forget about peeling back the layers - today we're gonna talk about __adding__ layers.
+Forget about peeling back the layers - today we're gonna talk about _adding_ layers.
 
 When you find an API that looks interesting, you'll naturally want to try it out. I've [tested and written quite a bit about APIs](https://grantwinney.com/tag/api/), and most of the time I start off with a tool like [Postman](https://www.getpostman.com/). That's fine for playing around, but eventually you'll want to use it in your app.
 
-APIs come in all shapes and sizes. Some are dead simple; others are amazingly complex - even overly complicated at times. It takes time to implement it in a language - to figure out the right way to access __any__ REST endpoint, then to figure out the right way to access a __specific__ endpoint and get the data you're interested in. As long as you're doing all that work, why keep it to yourself?
+APIs come in all shapes and sizes. Some are dead simple; others are amazingly complex - even overly complicated at times. It takes time to implement it in a language - to figure out the right way to access _any_ REST endpoint, then to figure out the right way to access a _specific_ endpoint and get the data you're interested in. As long as you're doing all that work, why keep it to yourself?
 
 You can share the work you've done - maybe elaborating to cover all of an API's endpoints, or maybe letting others make pull requests to fill in the gaps. Hopefully the language you're using has some concept of a library, package, or some other way to bundle code up for easy sharing, but that's not necessarily necessary.
 
@@ -38,19 +38,19 @@ import urllib2
 import json
 import datetime
 
-def __call_api(endpoint):
+def _call_api(endpoint):
     request = urllib2.Request('http://api.open-notify.org%s' %(endpoint))
     response = urllib2.urlopen(request)
     return json.loads(response.read())
 
 def show_roster():
-    result = __call_api('/astros.json')
+    result = _call_api('/astros.json')
     print "There are %d people in space:" % (result['number']),
     for i in range(result['number']):
         print result['people'][i]['name'] + ",",
 
 def show_next_pass(latitude, longitude):
-    result = __call_api('/iss-pass.json?lat=%s&lon=%s' %(latitude, longitude))
+    result = _call_api('/iss-pass.json?lat=%s&lon=%s' %(latitude, longitude))
     print('The next ISS pass for %s %s is %s for %s seconds'
           %(result['request']['latitude'],
             result['request']['longitude'],
@@ -59,7 +59,7 @@ def show_next_pass(latitude, longitude):
 
 ```
 
-Place the file in a directory called `iss` along with an empty file named `__init__.py`. Create another file __outside__ the directory called `use_iss.py` (or whatever you want) and call the functions in your new module: __(or just__ [__download the scripts from GitHub__](https://github.com/grantwinney/BlogCodeSamples/tree/master/APIs/IssNotifyApiWrapper/Python)__)__
+Place the file in a directory called `iss` along with an empty file named `_init_.py`. Create another file _outside_ the directory called `use_iss.py` (or whatever you want) and call the functions in your new module: _(or just_ [_download the scripts from GitHub_](https://github.com/grantwinney/BlogCodeSamples/tree/master/APIs/IssNotifyApiWrapper/Python)_)_
 
 ```python
 import iss.iss_api_wrapper as iss
@@ -83,7 +83,7 @@ Now you can share your nice module / API wrapper with the world. If the API endp
 
 Let's try the same thing one more time, in C# this time.
 
-I wrapped all three examples from the [ISS Notify API](https://grantwinney.com/day-11-iss-notify-api/) post. This code depends on the [RestSharp NuGet package](https://www.nuget.org/packages/RestSharp/) __(just discovered it; made accessing the endpoint simple)__ and some classes I had to defined but didn't want to paste below - you can [find everything on GitHub](https://github.com/grantwinney/BlogCodeSamples/tree/master/APIs/IssNotifyApiWrapper/CSharp). You can [see the original JSON output from the API](https://grantwinney.com/day-11-iss-notify-api/) here.
+I wrapped all three examples from the [ISS Notify API](https://grantwinney.com/day-11-iss-notify-api/) post. This code depends on the [RestSharp NuGet package](https://www.nuget.org/packages/RestSharp/) _(just discovered it; made accessing the endpoint simple)_ and some classes I had to defined but didn't want to paste below - you can [find everything on GitHub](https://github.com/grantwinney/BlogCodeSamples/tree/master/APIs/IssNotifyApiWrapper/CSharp). You can [see the original JSON output from the API](https://grantwinney.com/day-11-iss-notify-api/) here.
 
 ```csharp
 using System;

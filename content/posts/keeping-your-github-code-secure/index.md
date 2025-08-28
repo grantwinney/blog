@@ -20,14 +20,14 @@ title: Protect your GitHub account to keep your code secure
 ---
 A few days ago, [GitHub](https://github.blog/2019-05-14-git-ransom-campaign-incident-report/) (along with [Bitbucket](https://bitbucket.org/blog/git-ransom-campaign-incident-report-atlassian-bitbucket-github-gitlab) and [GitLab](https://about.gitlab.com/2019/05/14/git-ransom-campaign-incident-report-atlassian-bitbucket-github-gitlab/)) reported that numerous users across their platforms had repos hacked, their code forcibly overwritten and held for ransom. You can read the whole thing in any of their blog posts (they're all the same), but here's a few takeaways:
 
-****No one hacked GitHub et al directly.****  
-__"All account compromises were the result of credential leakage by users or other third-parties ... using legitimate credentials including passwords, app passwords, API keys, and personal access tokens."__
+**No one hacked GitHub et al directly.**  
+_"All account compromises were the result of credential leakage by users or other third-parties ... using legitimate credentials including passwords, app passwords, API keys, and personal access tokens."_
 
-****One or more sites with access to repos either leaked data or were hacked.****  
-__"[W]e identified a third-party credential dump ... where the account compromise activity had originated. That credential dump comprised roughly one third of the accounts affected by the ransom campaign."__
+**One or more sites with access to repos either leaked data or were hacked.**  
+_"[W]e identified a third-party credential dump ... where the account compromise activity had originated. That credential dump comprised roughly one third of the accounts affected by the ransom campaign."_
 
-****There are more ways than a large-scale hack to become a victim too.****  
-__"[C]ontinuous scanning for publicly exposed__ _`_.git/config_`_ __and other environment files has been and continues to be conducted by the same IP address that conducted the account compromises. These files can contain sensitive credentials and personal access tokens..."__
+**There are more ways than a large-scale hack to become a victim too.**  
+_"[C]ontinuous scanning for publicly exposed_ _`_.git/config_`_ _and other environment files has been and continues to be conducted by the same IP address that conducted the account compromises. These files can contain sensitive credentials and personal access tokens..."_
 
 As a developer, there are few accounts I'd hate to lose access to more than my GitHub account. Writing code is such an intangible thing - [it can be tough enough to show results](https://grantwinney.com/showing-results-is-hard/) without having it deleted from under you ([sometimes necessary](https://help.github.com/en/articles/removing-sensitive-data-from-a-repository) but in this case completely malicious). And for a technology company, it could be a death knell - their bread and butter suddenly gone from their control, their intellectual property exposed to the world.
 
@@ -35,7 +35,7 @@ As a developer, there are few accounts I'd hate to lose access to more than my G
 
 # Securing Your Code
 
-So on that cheery note, what can we do to avoid this? Well, as it turns out, __a lot.__
+So on that cheery note, what can we do to avoid this? Well, as it turns out, _a lot._
 
 ## Choose a good password
 
@@ -43,7 +43,7 @@ The first and easiest thing we can do is to choose a good password. Ironically, 
 
 ![](https://imgs.xkcd.com/comics/password_strength.png)
 
-__source:__ [__xkcd.com__](https://xkcd.com/936) __(__[__good explanation__](https://security.stackexchange.com/questions/6095/xkcd-936-short-complex-password-or-long-dictionary-passphrase)__)__
+_source:_ [_xkcd.com_](https://xkcd.com/936) _(_[_good explanation_](https://security.stackexchange.com/questions/6095/xkcd-936-short-complex-password-or-long-dictionary-passphrase)_)_
 
 For the curious, try out a tool like Tyler Akins's [password strength tester](http://rumkin.com/tools/password/passchk.php) to see how length can increase security even without adding special characters. For instance, an apparently random one presents 18.5 billion billion trillion possibilities, but a random string of words presents for more (7 trillion trillion trillion trillion).
 
@@ -51,7 +51,7 @@ For the curious, try out a tool like Tyler Akins's [password strength tester](ht
 
 ![](https://grantwinney.com/content/images/2019/05/pass2-1.png)
 
-If you save your passwords in a password manager like [1Password](https://1password.com/) __(my personal favorite),__ [Lastpass](https://lastpass.com/), [Keeper](https://keepersecurity.com/), [Clipperz](https://clipperz.is/), or another one you trust, then you can __really__ go completely random. 1Password has a built-in random password generator. The default settings produce a password with 1200 trillion trillion trillion possibilities, but you can dial it to 64 and produce something with __118 quadrillion quadrillion quadrillion quadrillion quadrillion quadrillion quadrillion quintillion possibilities!__
+If you save your passwords in a password manager like [1Password](https://1password.com/) _(my personal favorite),_ [Lastpass](https://lastpass.com/), [Keeper](https://keepersecurity.com/), [Clipperz](https://clipperz.is/), or another one you trust, then you can _really_ go completely random. 1Password has a built-in random password generator. The default settings produce a password with 1200 trillion trillion trillion possibilities, but you can dial it to 64 and produce something with _118 quadrillion quadrillion quadrillion quadrillion quadrillion quadrillion quadrillion quintillion possibilities!_
 
 At that level, it's highly unlikely anyone that someone will manage to crack your password (before the heat death of the universe anyway).
 
@@ -75,11 +75,11 @@ The only reasonable way to have a hundred different complex passwords is to use 
 
 ## Setup 2FA for your account
 
-Imagine you have a safety box, and in order to gain access you have to whisper a secret phrase to the teller. Now imagine he verifies your phrase but leaves his computer unlocked, and everyone who walks by for the rest of the day can see it. The teller also has a horrible memory __(did I forget to mention that?)__ and a hundred different people repeat your secret phrase, and he just shows everyone the contents of your box. 😒
+Imagine you have a safety box, and in order to gain access you have to whisper a secret phrase to the teller. Now imagine he verifies your phrase but leaves his computer unlocked, and everyone who walks by for the rest of the day can see it. The teller also has a horrible memory _(did I forget to mention that?)_ and a hundred different people repeat your secret phrase, and he just shows everyone the contents of your box. 😒
 
-But what if you needed to insert a physical key into the box too? Anyone with the secret phrase would still be locked out, unable to see the contents. That's two-factor authentication (aka authorization, verification, etc). In addition to something you _****know****_ (your password), you also need something you _****own****_ (your phone, to generate a secret code) or that you _****are****_ (your fingerprint). The more factors (multi-factor auth) that you can add to an account, the less likely anyone has everything they need to access it.
+But what if you needed to insert a physical key into the box too? Anyone with the secret phrase would still be locked out, unable to see the contents. That's two-factor authentication (aka authorization, verification, etc). In addition to something you _**know**_ (your password), you also need something you _**own**_ (your phone, to generate a secret code) or that you _**are**_ (your fingerprint). The more factors (multi-factor auth) that you can add to an account, the less likely anyone has everything they need to access it.
 
-Setup 2FA for [GitHub](https://github.com/settings/security) __(__[__help__](https://help.github.com/en/articles/about-two-factor-authentication)__),__ and then set it up everywhere else that offers it too - [Amazon](https://www.amazon.com/a/settings/approval), [Google](https://myaccount.google.com/signinoptions/two-step-verification)__,__ [LinkedIn](https://www.linkedin.com/psettings/two-step-verification), etc. Here's a great site that documents how (or if) you can enable 2FA for various sites: [twofactorauth.org](https://twofactorauth.org/)
+Setup 2FA for [GitHub](https://github.com/settings/security) _(_[_help_](https://help.github.com/en/articles/about-two-factor-authentication)_),_ and then set it up everywhere else that offers it too - [Amazon](https://www.amazon.com/a/settings/approval), [Google](https://myaccount.google.com/signinoptions/two-step-verification)_,_ [LinkedIn](https://www.linkedin.com/psettings/two-step-verification), etc. Here's a great site that documents how (or if) you can enable 2FA for various sites: [twofactorauth.org](https://twofactorauth.org/)
 
 Briefly, how it works is a site generates a unique QR code, which you'll scan with an app like [andOTP](https://github.com/andOTP/andOTP) (which can do encrypted backups). If you scan the code with multiple devices, they'll generate the same (one-time use) code every 30 seconds or so, which is a great way to avoid disaster if one device fails. Print and store any recovery codes they give you too.
 
@@ -95,7 +95,7 @@ Using an [online decoder](https://zxing.org/w/decode.jspx) on the above QR code,
 
 ## Require 2FA for the whole organization
 
-Even if you enable 2FA on your device, what if you're part of a GitHub organization and dozens of other developers __don't__ have 2FA enabled?
+Even if you enable 2FA on your device, what if you're part of a GitHub organization and dozens of other developers _don't_ have 2FA enabled?
 
 If they have access to push changes to the organization's repos, any one of them could fall prey to the issue GitHub just notified everyone about, and their account could be used to wipe the organization's code. Granted, they probably have a local copy, and all the other members have cloned copies too, and GitHub (I would hope) has backups, but the other threats include releasing code to the public that was meant to remain private, or slipping malicious commits in and having them go unnoticed.
 
@@ -103,7 +103,7 @@ GitHub allows [organization owners to force members to enable 2FA](https://help.
 
 ![](https://grantwinney.com/content/images/2019/05/github-require-2fa-org.png)
 
-If you didn't want to enforce 2FA on everyone__,__ I can think of another way that __might__ prevent a problem like this as long as the admins have 2FA enabled - [branch restrictions](https://help.github.com/en/articles/enabling-branch-restrictions). Setup a branch protection rule for the pattern "master". That alone disables force-pushes, which is what the hacker used to ransom these accounts. You can also make it so PRs can't be merged without other eyes on the changes, and require signed commits (more on that next).
+If you didn't want to enforce 2FA on everyone_,_ I can think of another way that _might_ prevent a problem like this as long as the admins have 2FA enabled - [branch restrictions](https://help.github.com/en/articles/enabling-branch-restrictions). Setup a branch protection rule for the pattern "master". That alone disables force-pushes, which is what the hacker used to ransom these accounts. You can also make it so PRs can't be merged without other eyes on the changes, and require signed commits (more on that next).
 
 ![](https://grantwinney.com/content/images/2019/05/master-branch-protected.png)
 
@@ -117,7 +117,7 @@ You can digitally "sign" your commits so everyone knows they came from you, and 
 
 ### Create a signing key
 
-If you've never setup a key before (I hadn't before writing this), start by [generating a new GPG key](https://help.github.com/en/articles/generating-a-new-gpg-key). Fill in your name and email, etc. If you want, go into [email settings](https://github.com/settings/emails) and select the __"Keep my email address private"__ checkbox first, and use whatever GitHub assigns to you.
+If you've never setup a key before (I hadn't before writing this), start by [generating a new GPG key](https://help.github.com/en/articles/generating-a-new-gpg-key). Fill in your name and email, etc. If you want, go into [email settings](https://github.com/settings/emails) and select the _"Keep my email address private"_ checkbox first, and use whatever GitHub assigns to you.
 
 ```sh
 gpg --full-generate-key
@@ -125,7 +125,7 @@ gpg --full-generate-key
 
 ![](https://grantwinney.com/content/images/2019/05/gpg-setup-1.png)
 
-In a minute, you'll need the key id listed next to __"gpg: key"__. If you clear the screen or whatever, you can display it again with this; it's on the first line next to __"rsa4096".__
+In a minute, you'll need the key id listed next to _"gpg: key"_. If you clear the screen or whatever, you can display it again with this; it's on the first line next to _"rsa4096"._
 
 ```sh
 gpg --list-secret-keys --keyid-format LONG
@@ -191,8 +191,8 @@ This whole thing happened, according to GitHub, because some unnamed third party
 
 Click on an application to see what it has access to.
 
-- If the only permission is __"Access user email addresses (read-only)",__ then most likely it's being used as a login to a site.
-- But if the permissions include __"Full control of private repositories",__ you'll want to think hard about how much you trust that service - they have access to everything!
+- If the only permission is _"Access user email addresses (read-only)",_ then most likely it's being used as a login to a site.
+- But if the permissions include _"Full control of private repositories",_ you'll want to think hard about how much you trust that service - they have access to everything!
 
 If you're an admin of an organization, consider [restricting app access](https://help.github.com/en/articles/about-oauth-app-access-restrictions) to the org. And while you're there, [revoke any login sessions](https://github.com/settings/security) you don't recognize too (scroll to the bottom of the page).
 

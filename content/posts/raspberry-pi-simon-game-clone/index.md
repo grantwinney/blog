@@ -21,7 +21,7 @@ tags:
 - Python
 title: A Simon Game Clone for the Raspberry Pi
 ---
-Have you been around long enough to remember the popular __Simon__ game from the 70s and 80s? There’ve been plenty of remakes over the years, but I had one of the originals when I was younger.
+Have you been around long enough to remember the popular _Simon_ game from the 70s and 80s? There’ve been plenty of remakes over the years, but I had one of the originals when I was younger.
 
 It’s a game of patterns that tests your memory. It flashes a color and sounds a corresponding tone, which you repeat. Then it repeats the same color/tone and adds a new one. The pattern keeps getting longer and longer. Technically, it could go on forever, but I think you “won” after 20 or 30 colors… not that I ever got close!
 
@@ -42,9 +42,9 @@ def initialize_gpio():
         GPIO.add_event_detect(BUTTONS[i], GPIO.FALLING, verify_player_selection, 400 if use_sounds else 250)
 ```
 
-We’re giving the buttons a pull-down resistor to make sure we get a clear “False / 0” reading while the button __isn’t__ pressed, and the circuit is open. [Read more about the importance of pull-down (and pull-up) resistors](https://grantwinney.com/raspberry-pi-using-pullup-and-pulldown-resistors/).
+We’re giving the buttons a pull-down resistor to make sure we get a clear “False / 0” reading while the button _isn’t_ pressed, and the circuit is open. [Read more about the importance of pull-down (and pull-up) resistors](https://grantwinney.com/raspberry-pi-using-pullup-and-pulldown-resistors/).
 
-The loop just attaches each button click to a function. We can get away with using the same function because it passes in the channel that triggered it. Actually, we’re only concerned with the button release (`GPIO.FALLING`) – I didn’t want it firing every time a button was pressed __and__ released.
+The loop just attaches each button click to a function. We can get away with using the same function because it passes in the channel that triggered it. Actually, we’re only concerned with the button release (`GPIO.FALLING`) – I didn’t want it firing every time a button was pressed _and_ released.
 
 That last number is just a “bouncetime” in milliseconds, which ignores multiple clicks in under whatever time we specify. Ideally it wouldn’t be necessary, but buttons (esp the cheap buttons I have) can register several clicks when you only click them once, due to parts wiggling around and a flaky connection inside the button.
 
@@ -81,7 +81,7 @@ def start_game_monitor():
     t.join()
 ```
 
-And here’s what the other thread is doing. Until the player loses and decides __not__ to play again, it’ll add colors to the pattern, show them to the player, and then wait for the player to repeat the pattern. If the player loses and decides to play again, the variables are reset and the loop continu
+And here’s what the other thread is doing. Until the player loses and decides _not_ to play again, it’ll add colors to the pattern, show them to the player, and then wait for the player to repeat the pattern. If the player loses and decides to play again, the variables are reset and the loop continu
 
 ```python
 while True:
@@ -127,9 +127,9 @@ def add_new_color_to_pattern():
 
 ## Musical notes, Sonic Pi and the sonic-pi-cli Gem
 
-If you haven’t heard of it before, [Sonic Pi](http://sonic-pi.net) is a synthesizer that lets you program music. It was written by [Sam Aaron](https://twitter.com/samaaron), with the Pi in mind (it’s in its name after all), but you can run it on Windows or OS X too. It’s capable of amazing stuff, and I’ve only very, __very__ lightly scratched the surface. I used it previously with the Pi to create a [grandfather clock that played the westminster chimes](https://grantwinney.com/creating-music-with-sonic-pi-on-the-raspberry-pi/).
+If you haven’t heard of it before, [Sonic Pi](http://sonic-pi.net) is a synthesizer that lets you program music. It was written by [Sam Aaron](https://twitter.com/samaaron), with the Pi in mind (it’s in its name after all), but you can run it on Windows or OS X too. It’s capable of amazing stuff, and I’ve only very, _very_ lightly scratched the surface. I used it previously with the Pi to create a [grandfather clock that played the westminster chimes](https://grantwinney.com/creating-music-with-sonic-pi-on-the-raspberry-pi/).
 
-At the very least, read the section entitled __What is OSC?,__ install the ruby gem and try playing some notes __(make sure Sonic Pi is open).__
+At the very least, read the section entitled _What is OSC?,_ install the ruby gem and try playing some notes _(make sure Sonic Pi is open)._
 
 ### Recreating Simon’s notes
 
@@ -185,7 +185,7 @@ def main():
 
 Finally, you may have noticed a commented-out import statement.
 
-I created a GPIOmock.py script that contains all the same calls as RPi.GPIO, but instead of doing anything with the GPIO pins it just prints a line of text describing what the call __would__ do. That way, I can develop on a machine that’s not the Pi, and doesn’t have the RPi.GPIO package installed. I created it by referencing the comments available in the `source/py_gpio.c` file in the [RPi.GPIO module](https://pypi.python.org/pypi/RPi.GPIO) available on [GitHub](https://github.com/Tieske/rpi-gpio/blob/master/source/py_gpio.c).
+I created a GPIOmock.py script that contains all the same calls as RPi.GPIO, but instead of doing anything with the GPIO pins it just prints a line of text describing what the call _would_ do. That way, I can develop on a machine that’s not the Pi, and doesn’t have the RPi.GPIO package installed. I created it by referencing the comments available in the `source/py_gpio.c` file in the [RPi.GPIO module](https://pypi.python.org/pypi/RPi.GPIO) available on [GitHub](https://github.com/Tieske/rpi-gpio/blob/master/source/py_gpio.c).
 
 Copy the file into the same directory as this script, then comment out the `import RPi.GPIO` line and uncomment this one:
 
@@ -227,7 +227,7 @@ Here's the [fritzing](http://fritzing.org/) diagram for the circuit:
 
 ## Materials
 
-_****You’ll need 4 buttons.****_ That doesn’t seem like much, but many of these kits only come with two. I’m not sure why they don’t throw more in. Unless you’ve got extras laying around, you’ll need to find some - I grabbed a 50 pk off eBay for about $4.
+_**You’ll need 4 buttons.**_ That doesn’t seem like much, but many of these kits only come with two. I’m not sure why they don’t throw more in. Unless you’ve got extras laying around, you’ll need to find some - I grabbed a 50 pk off eBay for about $4.
 
 I usually use the T-Cobbler that comes with the CanaKit sets, which makes it much easier to connect specific GPIO pins where they need to go. If you’re interested, check out their [Pi 2 Ultimate Starter Kit](https://www.amazon.com/gp/product/B00G1PNG54/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00G1PNG54&linkCode=as2&tag=gwin04-20&linkId=d3b9704a7ee049261493e9113d01675c) or [Pi 3 Ultimate Starter Kit](https://www.amazon.com/gp/product/B01C6Q4GLE/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01C6Q4GLE&linkCode=as2&tag=gwin04-20&linkId=5e06cbdecd6e1411799d573a3306ab01), and look for the black T shaped board in the images. Those kits include the Pi, an adapter and case, and other items you’ll need like LEDs, wires and resistors.
 

@@ -15,7 +15,7 @@ title: Fun web comics for developers
 ---
 Who couldn't use a little light-heartedness in their day? Or dry humor if that's what you're looking for? Or something educational in an easy to digest format?
 
-Enjoy! __(I know I will...)__
+Enjoy! _(I know I will...)_
 
 ---
 
@@ -47,7 +47,7 @@ Enjoy! __(I know I will...)__
 
 ## O RLY? Book Covers
 
-Once in awhile an O RLY? __(parody of O'Reilly)__ book cover pops up somewhere online. Who writes them? Where are they posted? I have no clue. They hit close to home too, but usually in a __"too true.. too damn true"__ kinda way. 😏
+Once in awhile an O RLY? _(parody of O'Reilly)_ book cover pops up somewhere online. Who writes them? Where are they posted? I have no clue. They hit close to home too, but usually in a _"too true.. too damn true"_ kinda way. 😏
 
 Here's [a collection of book covers](https://boyter.org/2016/04/collection-orly-book-covers/), and you can even [generate your own](https://dev.to/rly).
 
@@ -63,7 +63,7 @@ Here's [a collection of book covers](https://boyter.org/2016/04/collection-orly-
 
 ## PHD Comics
 
-[PHD Comics](http://phdcomics.com/comics/most_popular.php) by [Jorge Cham](http://jorgecham.com/) has been around a __long__ time, for Interweb standards anyway. It's a collection of hundreds (thousands?) of comics about university life... and probably a fair amount of other stuff too. Oh, and [he has a book](https://www.amazon.com/gp/product/0735211515) I'm thinking about getting.
+[PHD Comics](http://phdcomics.com/comics/most_popular.php) by [Jorge Cham](http://jorgecham.com/) has been around a _long_ time, for Interweb standards anyway. It's a collection of hundreds (thousands?) of comics about university life... and probably a fair amount of other stuff too. Oh, and [he has a book](https://www.amazon.com/gp/product/0735211515) I'm thinking about getting.
 
 ![](http://phdcomics.com/comics/archive/phd031714s.gif)
 

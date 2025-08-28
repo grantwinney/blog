@@ -23,13 +23,13 @@ title: Host a simple webpage in WinForms with CefSharp
 ---
 WinForms and the web. Like oil and water, they don't mix well. The web is the future, hands down. If I had an idea for an app that I wanted to share with the world, I'd make it a website, not a WinForms app. Who wants to worry about distribution and piracy and having to support nigh infinite number of slightly different machines it might run on? But WinForms isn't going away any time soon either.
 
-Most companies with legacy WinForms apps, representing hundreds of IT personnel who spent decades (__hundreds of thousands__ of hours of business decisions and codified logic, testing and support, documentation and a proven track record), are not going to cut over to a website overnight. Not when those apps continue to perform and bring in a profit.
+Most companies with legacy WinForms apps, representing hundreds of IT personnel who spent decades (_hundreds of thousands_ of hours of business decisions and codified logic, testing and support, documentation and a proven track record), are not going to cut over to a website overnight. Not when those apps continue to perform and bring in a profit.
 
-What if you wanted to start slowly introducing some webby stuff over time though? You could build new features as a website and host that __inside__ the app, slowly replacing more and more of the old UI with the new. Like a wasp laying an egg in a tarantula, the website slowly devours the WinForms code around it. ... Feel free to use that in your argument when it comes time to justify things later.
+What if you wanted to start slowly introducing some webby stuff over time though? You could build new features as a website and host that _inside_ the app, slowly replacing more and more of the old UI with the new. Like a wasp laying an egg in a tarantula, the website slowly devours the WinForms code around it. ... Feel free to use that in your argument when it comes time to justify things later.
 
 ## Adding CefSharp to a project
 
-There's a library called [CEF](https://bitbucket.org/chromiumembedded/cef/src/master/) that makes it possible to embed a Chromium browser in an application, and __another__ library called [CefSharp](http://cefsharp.github.io/) that wraps the first one to use with the .NET Framework. With that combo, we can host HTML content inside WinForms. I've used CefSharp before, and it's really powerful once you get the hang of it. Like everything in life, there's a learning curve. Time to dig in.
+There's a library called [CEF](https://bitbucket.org/chromiumembedded/cef/src/master/) that makes it possible to embed a Chromium browser in an application, and _another_ library called [CefSharp](http://cefsharp.github.io/) that wraps the first one to use with the .NET Framework. With that combo, we can host HTML content inside WinForms. I've used CefSharp before, and it's really powerful once you get the hang of it. Like everything in life, there's a learning curve. Time to dig in.
 
 Fire up a new WinForms app, then search for CefSharp in the NuGet gallery and add the one for WinForms.
 
@@ -41,7 +41,7 @@ After a few moments and some output in the bottom pane, you'll see a few referen
 
 ![](https://grantwinney.com/content/images/2022/06/image-28.png)
 
-Add a new file to your project, choose "text file", and name it "sample.html". Throw some html in there, and maybe some JavaScript. Anything will do. There are few absolute rules in web development, and having 20 ways to do any one thing is something I __love__ as a developer. It's just.. it's great. 😢
+Add a new file to your project, choose "text file", and name it "sample.html". Throw some html in there, and maybe some JavaScript. Anything will do. There are few absolute rules in web development, and having 20 ways to do any one thing is something I _love_ as a developer. It's just.. it's great. 😢
 
 ![](https://grantwinney.com/content/images/2022/06/image-30.png)
 
@@ -128,7 +128,7 @@ You can see the [full list here](https://github.com/cefsharp/CefSharp/wiki/Gener
 
 ## Using handlers to pass data back and forth
 
-Hosting a webpage inside a WinForms is just.. it's.. a little underwhelming tbh. I mean, why not just open it in a web browser unless there's a __reason__ for it living in the WinForms app? And there's only a reason if the two can actually interact somehow. Let's look at a couple ways to do that - the first is handlers.
+Hosting a webpage inside a WinForms is just.. it's.. a little underwhelming tbh. I mean, why not just open it in a web browser unless there's a _reason_ for it living in the WinForms app? And there's only a reason if the two can actually interact somehow. Let's look at a couple ways to do that - the first is handlers.
 
 You have to create a class that implements one of their handler interfaces and its required methods, and then defines what the methods should do. For example, you could create your own keyboard handler class that implements [IKeyboardHandler](https://cefsharp.github.io/api/102.0.x/html/T_CefSharp_IKeyboardHandler.htm), which (shocker) lets you intercept keyboard events.
 
@@ -186,7 +186,7 @@ Although I think handlers are really handy (ugh), sometimes they aren't quite en
 
 There's a few other features in CefSharp that let us dial things up to 11.
 
-- The `ExecuteScriptAsync` function lets you define a bit of JavaScript to execute against the webpage, performing some action like setting a value. You could even __get__ a value, and send it back to your WinForms app.
+- The `ExecuteScriptAsync` function lets you define a bit of JavaScript to execute against the webpage, performing some action like setting a value. You could even _get_ a value, and send it back to your WinForms app.
 - The `CefSharp.PostMessage` function is what lets you send data back. You call it from within your JavaScript, as if it were any other valid JS command. But.. then you need to intercept that somehow.
 - And that's where the `JavascriptMessageReceived` event handler comes in, watching for those posted messages so you can unwrap them.
 

@@ -31,27 +31,27 @@ if (!RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
     // do something as long as we're not running in OSX
 ```
 
-In a framework meant to target multiple platforms, it seems like a call not supported on __all__ platforms shouldn't be present at all. But I digress...
+In a framework meant to target multiple platforms, it seems like a call not supported on _all_ platforms shouldn't be present at all. But I digress...
 
 ---
 
 ## Trying to load a config file from NUnit
 
-One of the .NET Standard libraries I created assumes the app using it will provide an application configuration file, and so I pulled in [System.Configuration.ConfigurationManager](https://www.nuget.org/packages/System.Configuration.ConfigurationManager) from NuGet __(Microsoft's been splitting functionality out of the gargantuan .NET Framework into smaller components too)__ to read the config file. I had no problem testing the library out by creating a .NET Core app that consumed it and provided a file called `app.config`. I had a problem when I tried to test the library with [NUnit](https://nunit.org/) though. I wanted my test suite to provide a config file too, but for the life of me couldn't figure out what to name it or how to load it.
+One of the .NET Standard libraries I created assumes the app using it will provide an application configuration file, and so I pulled in [System.Configuration.ConfigurationManager](https://www.nuget.org/packages/System.Configuration.ConfigurationManager) from NuGet _(Microsoft's been splitting functionality out of the gargantuan .NET Framework into smaller components too)_ to read the config file. I had no problem testing the library out by creating a .NET Core app that consumed it and provided a file called `app.config`. I had a problem when I tried to test the library with [NUnit](https://nunit.org/) though. I wanted my test suite to provide a config file too, but for the life of me couldn't figure out what to name it or how to load it.
 
-It __seems__ like [NUnit supports config files](https://github.com/nunit/docs/wiki/Configuration-Files), but I'm not sure if the docs are referring to some special NUnit config file, something with a specific name, or if the docs are just outdated. What exactly did I try?
+It _seems_ like [NUnit supports config files](https://github.com/nunit/docs/wiki/Configuration-Files), but I'm not sure if the docs are referring to some special NUnit config file, something with a specific name, or if the docs are just outdated. What exactly did I try?
 
 - Dropping in an app.config file
 - Renaming the app.config file to my_test_project_name.dll.config
 - Setting the file's "Copy to output directory" setting to "Copy always"
-- Creating copies with every name I could think of, hoping __one__ would load... app.config, App.config, my_test_project_name.config, my_test_project_name.dll.config, etc, etc..
+- Creating copies with every name I could think of, hoping _one_ would load... app.config, App.config, my_test_project_name.config, my_test_project_name.dll.config, etc, etc..
 - Loading the config file using `AppDomain.CurrentDomain.SetData()` (didn't work, possibly because NUnit3 doesn't support AppDomain)
 
 ```
 AppDomain.CurrentDomain.SetData("APP_CONFIG_FILE", @"C:\Path\To\My\Tests\my_test_project_name.dll.config");
 ```
 
-There are tests in the NUnit repo that suggest [using a configuration file in NUnit3 is possible](https://github.com/nunit/nunit3-vs-adapter-demo/blob/master/src/csharp/ConfigFileTests.cs), but that particular test file is only referenced in the [.NET 4.5 demo project](https://github.com/nunit/nunit3-vs-adapter-demo/blob/master/solutions/vs2017/CSharpTestDemo/CSharpTestDemo.csproj#L49), not the [.NET Core demo project](https://github.com/nunit/nunit3-vs-adapter-demo/blob/master/solutions/vs2017/NUnit3CoreTestDemo/NUnit3CoreTestDemo.csproj#L10). __Sigh...__
+There are tests in the NUnit repo that suggest [using a configuration file in NUnit3 is possible](https://github.com/nunit/nunit3-vs-adapter-demo/blob/master/src/csharp/ConfigFileTests.cs), but that particular test file is only referenced in the [.NET 4.5 demo project](https://github.com/nunit/nunit3-vs-adapter-demo/blob/master/solutions/vs2017/CSharpTestDemo/CSharpTestDemo.csproj#L49), not the [.NET Core demo project](https://github.com/nunit/nunit3-vs-adapter-demo/blob/master/solutions/vs2017/NUnit3CoreTestDemo/NUnit3CoreTestDemo.csproj#L10). _Sigh..._
 
 ---
 
@@ -63,7 +63,7 @@ After doing research and messing with it for most of a day, I threw in the towel
 >   
 > `ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None).FilePath;`  
 >   
-> Also, make sure that the __Copy to Output Directory__ setting for the configuration file is set to `Copy always`.
+> Also, make sure that the _Copy to Output Directory_ setting for the configuration file is set to `Copy always`.
 
 That name was the secret sauce! It seems that NUnit looks for that specific file, and sure enough after I renamed the config file, it loaded just fine.
 

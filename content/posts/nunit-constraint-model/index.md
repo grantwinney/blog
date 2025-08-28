@@ -27,13 +27,13 @@ Those helpful little squiggly prompts only show up when you reference the [analy
 
 ![](https://grantwinney.com/content/images/2023/06/image-7.png)
 
-Actually, I don't remember adding it __this__ time either, and it isn't part of the NUnit project template in VS, so I'm not sure how it got added... but I'm glad it did. Today we get to learn something new!
+Actually, I don't remember adding it _this_ time either, and it isn't part of the NUnit project template in VS, so I'm not sure how it got added... but I'm glad it did. Today we get to learn something new!
 
 ## What is the classic model?
 
 The classic model, as its name would suggest, is the original syntax for writing tests in NUnit, [starting in the early 2000s](https://web.archive.org/web/20070214135309/sourceforge.net/project/showfiles.php?group_id=10749&release_id=101664). For the exceptionally curious, you can still check out their [early source code on SourceForge](https://sourceforge.net/projects/nunit/files/). I've always written my NUnit tests using the above "classic" syntax (didn't know it had a name), probably because I read a tutorial back when I started programming 15 years ago and never looked back.
 
-Over time I learned [all the different methods on the Assert class](https://docs.nunit.org/articles/nunit/writing-tests/assertions/assertion-models/classic.html) that I might have to call (Less, GreaterOrEqual, IsTrue, etc). For many of them, it's super easy (and common) to mix up the parameters, even after years of use. Without checking for yourself (no cheating!), can you remember whether the __actual__ or __expected__ result is supposed to be passed in first or second in the following example?
+Over time I learned [all the different methods on the Assert class](https://docs.nunit.org/articles/nunit/writing-tests/assertions/assertion-models/classic.html) that I might have to call (Less, GreaterOrEqual, IsTrue, etc). For many of them, it's super easy (and common) to mix up the parameters, even after years of use. Without checking for yourself (no cheating!), can you remember whether the _actual_ or _expected_ result is supposed to be passed in first or second in the following example?
 
 ![](https://grantwinney.com/content/images/2023/06/image-5.png)
 
@@ -43,13 +43,13 @@ For this reason and more (some of which we'll look at below), the authors of NUn
 
 The "constraint" model is newer in the sense that NUnit was created over 20 years ago, but it's not really all that new. It's been around at least since [v3.0](https://github.com/nunit/nunit/releases/tag/3.0.0) was released in 2015, and no doubt in discussion and development before that.
 
-I couldn't find a good definition of what "constraint" means in this context (if you do, please let me know below), but the authors have really taken things in a different direction. Whereas the classic model has [many differently named methods](https://docs.nunit.org/articles/nunit/writing-tests/assertions/assertion-models/classic.html) in a single __"Assert"__ class, the constraint model uses a single __"That"__ method with a syntax that makes it easier to understand at a glance what's being tested and how.
+I couldn't find a good definition of what "constraint" means in this context (if you do, please let me know below), but the authors have really taken things in a different direction. Whereas the classic model has [many differently named methods](https://docs.nunit.org/articles/nunit/writing-tests/assertions/assertion-models/classic.html) in a single _"Assert"_ class, the constraint model uses a single _"That"_ method with a syntax that makes it easier to understand at a glance what's being tested and how.
 
 So if you're considering using it, or just recently found about it like I did and want to know more, read on. If you're wondering if (and how much) it's worth bothering about, let's check it out together!
 
 ### It reads more like natural language
 
-The constraint model seems to flow better. When reading the examples below aloud, it sounds to me more like natural language. Of course, whether or not you think that sounds like a __good__ idea is subjective (what isn't, lol).
+The constraint model seems to flow better. When reading the examples below aloud, it sounds to me more like natural language. Of course, whether or not you think that sounds like a _good_ idea is subjective (what isn't, lol).
 
 ```csharp
 [Test]
@@ -74,8 +74,8 @@ I think I could hand off the titles of these tests to someone with little develo
 
 True, the classic model isn't difficult to understand, per se, but it doesn't exactly roll off the tongue either. Given a choice between...
 
-- __"assert are equal 'calculation failed' and actual message",__ or
-- __"assert that the message is not equal to 'calculation failed"__
+- _"assert are equal 'calculation failed' and actual message",_ or
+- _"assert that the message is not equal to 'calculation failed"_
 
 ... personally I'd choose the latter.
 
@@ -165,7 +165,7 @@ Assert.Multiple(() =>
 });
 
 
-/********
+/****
 Message: 
   Multiple failures or warnings in test:
     1)   Expected: True
@@ -176,7 +176,7 @@ Message: 
 
     3)   Expected: 5000
     But was:  3
-********/
+****/
 ```
 
 Classic Model
@@ -193,7 +193,7 @@ Assert.Multiple(() =>
     Assert.That(array, Has.Length.EqualTo(5000));
 });
 
-/********
+/****
 //  Message: 
 //    Multiple failures or warnings in test:
 //      1)   Expected: exactly 50 items equal to 1
@@ -204,7 +204,7 @@ Assert.Multiple(() =>
 //
 //      3)   Expected: property Length equal to 5000
 //      But was:  3
-********/
+****/
 ```
 
 Here's another example, where I created an `Employee` class, populated a collection of employees, and then wrote a few tests to validate the results.
@@ -225,7 +225,7 @@ Assert.Multiple(() =>
 });
 
 
-/********
+/****
 Message: 
   Multiple failures or warnings in test:
     1)   Expected: 3
@@ -236,7 +236,7 @@ Message: 
 
     3)   Expected: True
     But was:  False
-********/
+****/
 ```
 
 Again, the constraint model provides us with more specific, more readable explanations when tests fail.
@@ -257,7 +257,7 @@ Assert.Multiple(() =>
 });
 
 
-/********
+/****
 Message: 
   Multiple failures or warnings in test:
     1)   Expected: property Count equal to 3
@@ -274,7 +274,7 @@ Message: 
 
 Both models can live happily side-by-side. In fact, under the covers [the classic model just calls the constraint model](https://docs.nunit.org/articles/nunit/writing-tests/assertions/assertions.html).
 
-There's an [ongoing discussion](https://github.com/nunit/nunit/issues/3688) about whether the classic model should officially be marked legacy or obsolete, but as I poked around it became evident that the authors have intentionally tried to __not__ break codebases that use the classic syntax. It's not being actively developed, but I doubt it's going anywhere anytime soon.
+There's an [ongoing discussion](https://github.com/nunit/nunit/issues/3688) about whether the classic model should officially be marked legacy or obsolete, but as I poked around it became evident that the authors have intentionally tried to _not_ break codebases that use the classic syntax. It's not being actively developed, but I doubt it's going anywhere anytime soon.
 
 So if you, like me, decide to give it a try the next time you're writing some tests, you can do it without feeling like you need to rewrite any old tests. And if after awhile you decide the constraint model isn't doing it for you and you switch back, you don't need to rewrite any of those constraint tests either.
 

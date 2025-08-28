@@ -24,9 +24,9 @@ I decided this week to install Windows 3.1 on a virtual machine. First, [you’l
 
 - [VMware Player](http://www.vmware.com/products/player/)
 - [An instance of DOS 6.22 running in a virtual machine](https://grantwinney.com/installing-dos-6-22-in-vmware-player/)
-- Software capable of packaging files into a floppy disk image (may end in FLV, IMA, etc), such as [WinImage](http://www.winimage.com/download.htm)__(30 day free trial)__
-- Software capable of packaging files into an cd (ISO) image, such as [Folder2Iso](http://www.trustfm.net/divx/SoftwareFolder2Iso.php)__(freeware)__
-- A driver to enable CD-ROM capabilities, such as [oakcdrom.sys](http://www.computerhope.com/download/hardware.htm). __(a generic CD-ROM driver that will work with the majority of all IDE CD-ROM drives)__
+- Software capable of packaging files into a floppy disk image (may end in FLV, IMA, etc), such as [WinImage](http://www.winimage.com/download.htm)_(30 day free trial)_
+- Software capable of packaging files into an cd (ISO) image, such as [Folder2Iso](http://www.trustfm.net/divx/SoftwareFolder2Iso.php)_(freeware)_
+- A driver to enable CD-ROM capabilities, such as [oakcdrom.sys](http://www.computerhope.com/download/hardware.htm). _(a generic CD-ROM driver that will work with the majority of all IDE CD-ROM drives)_
 - A Windows 3.1 image. If you have an MSDN account, you can download a zip file with the installation files inside it, package them into an ISO image using [Folder2Iso](http://www.trustfm.net/software/utilities/Folder2Iso.php) and mount the image.
 
 ## Installing Windows
@@ -67,7 +67,7 @@ And then add to the end of `C:\AUTOEXEC.BAT`:
 LH MSCDEx /D:CD1
 ```
 
-These drivers extend BIOS and DOS, respectively, to support the CD-ROM drive, and Windows 3.1 inherits that when it runs. __(credit:__ [__tomshardware.com__](http://www.tomshardware.com/forum/173467-48-error-windows-install#8953171)__)__
+These drivers extend BIOS and DOS, respectively, to support the CD-ROM drive, and Windows 3.1 inherits that when it runs. _(credit:_ [_tomshardware.com_](http://www.tomshardware.com/forum/173467-48-error-windows-install#8953171)_)_
 
 ![](https://grantwinney.com/content/images/2019/05/Win-311-Image-011.png)
 
@@ -100,7 +100,7 @@ With the CD-ROM now recognized and the Windows 3.1 disk mounted, you can boot up
 
 ![](https://grantwinney.com/content/images/2019/05/Win-311-Image-021.png)
 
-I opted for all the features, but at what cost? __Over__ _****2 MB****_ __of hard drive space!__ 😱
+I opted for all the features, but at what cost? _Over_ _**2 MB**_ _of hard drive space!_ 😱
 
 ![](https://grantwinney.com/content/images/2019/05/Win-311-Image-022.png)
 
@@ -122,7 +122,7 @@ Wasn’t sure what to do with this. Considered skipping it, but ended up selecti
 
 ![](https://grantwinney.com/content/images/2019/05/Win-311-Image-031.png)
 
-I __had__ to go through the tutorial. Never too late to learn to use a mouse.
+I _had_ to go through the tutorial. Never too late to learn to use a mouse.
 
 ![](https://grantwinney.com/content/images/2019/05/Win-311-Image-032.png)
 
@@ -156,7 +156,7 @@ Hmm.. what else can I install on here?
 
 ### Visual Basic 2.0
 
-Here’s Visual Basic 2.0. Woah. Okay, that one’s improved in 20 years. Notice that a complete installation will require 18 MB! __(gasp)__
+Here’s Visual Basic 2.0. Woah. Okay, that one’s improved in 20 years. Notice that a complete installation will require 18 MB! _(gasp)_
 
 ![](https://grantwinney.com/content/images/2019/05/Win-311-Image-044.png)
 
@@ -176,7 +176,7 @@ Here’s Visual Basic 2.0. Woah. Okay, that one’s improved in 20 years. Notice
 
 ![](https://grantwinney.com/content/images/2019/05/Win-311-Image-051.png)
 
-I suppose other than finding other apps to install, I’ll try to find a graphics driver, sound driver, etc. Or I’ll get bored after using it for 10 minutes because, come on, the real fun is in getting it to work. Who the heck wants to __use__ it for anything??
+I suppose other than finding other apps to install, I’ll try to find a graphics driver, sound driver, etc. Or I’ll get bored after using it for 10 minutes because, come on, the real fun is in getting it to work. Who the heck wants to _use_ it for anything??
 
 You can download this [graphics driver](https://sites.google.com/site/chitchatvmback/misc) and follow the instructions in the zip file; it gets you 256 colors and 1024×768 res in a VMWARE environment. You may also need [these drivers](http://www.sierrahelp.com/Patches-Updates/Patches-Updates-Misc/Win31SVGAUpdate.html).. not sure.
 

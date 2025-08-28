@@ -87,7 +87,7 @@ Console.WriteLine(""""Today's date is: \t """{DateTime.Now}""" """");
 // Today's date is: """{DateTime.Now}"""
 ```
 
-By adding the `$` string interpolation character, we can insert variables inline again. The main difference is that adding a literal curly brace to the string now requires increasing the number of `$` at the start of the string. Any number of them __less__ than that in the string is assumed to be a literal brace. I can't figure out why that behavior changed, but I assume they had a reason. 🤷‍♂️
+By adding the `$` string interpolation character, we can insert variables inline again. The main difference is that adding a literal curly brace to the string now requires increasing the number of `$` at the start of the string. Any number of them _less_ than that in the string is assumed to be a literal brace. I can't figure out why that behavior changed, but I assume they had a reason. 🤷‍♂️
 
 ```csharp
 Console.WriteLine($"""Today's date is: \t "{DateTime.Now}" """);

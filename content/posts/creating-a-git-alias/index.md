@@ -16,7 +16,7 @@ tags:
 - Tools of the Trade
 title: How to Create a Git Alias
 ---
-If you're unfamiliar with Git's "alias" feature, it provides a way to easily create shortcuts for other Git commands. It can save a __lot__ of time over calling some lengthy command that's tough to remember.. or even shorter ones that are used frequently.
+If you're unfamiliar with Git's "alias" feature, it provides a way to easily create shortcuts for other Git commands. It can save a _lot_ of time over calling some lengthy command that's tough to remember.. or even shorter ones that are used frequently.
 
 ## Using Aliases for Shortcuts
 
@@ -40,7 +40,7 @@ git config alias.shove '!git add . && git commit --allow-empty-message -m "" && 
 
 I’d recommend using that last one only on repos you maintain by yourself, since you’ll want to be more careful on team projects. That’s why I omitted `--global`.
 
-Alternatively, we could add a `$1` place-holder to force a commit message. __(The final colon is a bit of a hack, but__ [__there’s a reason for it__](http://stackoverflow.com/a/25915221/301857)__.)__
+Alternatively, we could add a `$1` place-holder to force a commit message. _(The final colon is a bit of a hack, but_ [_there’s a reason for it_](http://stackoverflow.com/a/25915221/301857)_.)_
 
 ```bash
 git config --global alias.cshove '!git add . && git commit -m "$1" && git push && :'
@@ -49,7 +49,7 @@ git config --global alias.cshove '!git add . && git commit -m "$1" && git push &
 Any aliases we configure are added into:
 
 - the global `.gitconfig` file if we use `--global`, or
-- a single repository’s `.git/config` file if we use `--local` or just omit the modifier __(__[__learn more here__](http://stackoverflow.com/a/2115116/301857)__)__
+- a single repository’s `.git/config` file if we use `--local` or just omit the modifier _(_[_learn more here_](http://stackoverflow.com/a/2115116/301857)_)_
 
 Here’s what it looks like in the config file itself. The `git config alias` line above is just for convenience, but we can edit the file manually too.
 
@@ -95,7 +95,7 @@ Here we've told Git to run `git pull` when we type `git pul` by accident, and th
 
 ## What’s Next?
 
-I’ve added a few aliases __I__ find useful to my [BlogCodeSamples repo](https://github.com/grantwinney/BlogCodeSamples/tree/master/DevTools/GitAliasTemplate), so I don’t lose them. Maybe you’ll find them useful too...
+I’ve added a few aliases _I_ find useful to my [BlogCodeSamples repo](https://github.com/grantwinney/BlogCodeSamples/tree/master/DevTools/GitAliasTemplate), so I don’t lose them. Maybe you’ll find them useful too...
 
 To use them, clone the above repo or just copy the two `.gitconfig` files somewhere locally. You can reference external files from within your own `.gitconfig` file, which leaves your existing aliases and other settings untouched. Add the following section to your `.gitconfig` file, where `/your/path` is wherever you copied the files to.
 

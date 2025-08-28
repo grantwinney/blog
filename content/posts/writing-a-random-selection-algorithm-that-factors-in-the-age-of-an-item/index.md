@@ -80,7 +80,7 @@ public class Post
 
 My first attempt was to use my oldest post as "ground 0" and give all posts after it a "weight" that was calculated using the number of days that had passed since that original post. So the oldest published post would have a "weight" of 1, but a post written a week later would have a "weight" of 8, and one a year later a weight of 366. It's almost like a raffle drawing where one person got 1 ticket to try and win, but someone else got hundreds. The person with hundreds is more likely to win, but not guaranteed.
 
-Using that weight, I created a second collection, which included a post's ID a number of times equal to its "weight". So the ID of that week-old post would occur 8 times in the list, but the oldest post would only occur once. __(The__ _`_posts_`_ __variable is ordered so that the latest (newest) post is first.)__
+Using that weight, I created a second collection, which included a post's ID a number of times equal to its "weight". So the ID of that week-old post would occur 8 times in the list, but the oldest post would only occur once. _(The_ _`_posts_`_ _variable is ordered so that the latest (newest) post is first.)_
 
 ```csharp
 static string GetRandomPostId(List<Post> posts)
@@ -122,7 +122,7 @@ The problem with that approach was the potential to gobble up a ton of memory wi
 
 ![buckets](https://grantwinney.com/content/images/2018/06/buckets.jpg)
 
-I came across a Stack Overflow post on [weighted choice](https://stackoverflow.com/q/56692/301857), which led to this bit of code. It's still calculating a weight dependent on the earliest post's publish date compared with each subsequent's post publish date. __(Again, posts are organized with most recent on the top.)__
+I came across a Stack Overflow post on [weighted choice](https://stackoverflow.com/q/56692/301857), which led to this bit of code. It's still calculating a weight dependent on the earliest post's publish date compared with each subsequent's post publish date. _(Again, posts are organized with most recent on the top.)_
 
 ```csharp
 static string GetRandomPostIdWeightedOnAge(List<Post> posts)
@@ -155,7 +155,7 @@ I end up with a list of tuples like this, with the post ID and its "weight" (age
 { 1234-abcd-9, 1 }
 ```
 
-I added even more weight, thus skewing the random selection even __more__ in favor of newer posts, by replacing the second line above with this:
+I added even more weight, thus skewing the random selection even _more_ in favor of newer posts, by replacing the second line above with this:
 
 ```csharp
 var postsCount = posts.Count;

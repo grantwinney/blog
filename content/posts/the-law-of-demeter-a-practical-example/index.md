@@ -41,7 +41,7 @@ Imagine you're at a company, working on an application that all the employees us
 
 A new request comes in - employees feel underappreciated, so management wants a report of anniversaries for the upcoming week, and new features that let them order a cake. And send an email. Maybe at the same time. Hey, they care but they've got other stuff to do too.
 
-The first thing you do is dig up the `Employee` class, because it's got to exist __somewhere__ in the codebase... ah, there it is, with the usual fields attributed to an employee...
+The first thing you do is dig up the `Employee` class, because it's got to exist _somewhere_ in the codebase... ah, there it is, with the usual fields attributed to an employee...
 
 ```csharp
 public class Employee
@@ -103,7 +103,7 @@ if (celebrate.Employee.IsActive
 }
 ```
 
-But wait a sec. Why does whatever piece of code that's checking for celebrations need to have access to the `Employee` class? Say this weren't code, and a manager needed to check an employee's record manually to view their hire date. Say someday all this gets offloaded to someone __other__ than a manager, like the newly-formed party-planning committee. Is it reasonable that, just to send you a card and order your cake, a person would need access to your entire employee record including salary and social security number? Noooo. No it is not.
+But wait a sec. Why does whatever piece of code that's checking for celebrations need to have access to the `Employee` class? Say this weren't code, and a manager needed to check an employee's record manually to view their hire date. Say someday all this gets offloaded to someone _other_ than a manager, like the newly-formed party-planning committee. Is it reasonable that, just to send you a card and order your cake, a person would need access to your entire employee record including salary and social security number? Noooo. No it is not.
 
 The Principle of Least Knowledge challenges us to rethink how much access Class A has, through Class B, to Classes C, D, and E. In other words, we should hide any details about the `Employee` class that don't need to be exposed - even hide the fact that there's an instance of `Employee` in there at all.
 
@@ -144,7 +144,7 @@ This has loads of positive effects on the codebase, including:
 
 - Simplifying the logic in the caller, which no longer has to figure out how to decide if it's the employee's anniversary, just call methods and let another class do the work.
 - If the same code as below is called anywhere else, then the above changes [DRY](https://dzone.com/articles/is-your-code-dry-or-wet) up the code base too, keeping the logic in one place.
-- And if the logic inside the `Celebration` code changes - maybe some other criteria goes into determining an anniversary, or being at the company __20__ years gets you a Cheesecake Factory cake - then anything else in the codebase that happens to run code like the code below won't need to be touched. Nice!
+- And if the logic inside the `Celebration` code changes - maybe some other criteria goes into determining an anniversary, or being at the company _20_ years gets you a Cheesecake Factory cake - then anything else in the codebase that happens to run code like the code below won't need to be touched. Nice!
 
 ```csharp
 var celebrate = new Celebration(1234);

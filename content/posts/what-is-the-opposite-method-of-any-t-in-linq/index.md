@@ -18,7 +18,7 @@ tags:
 - Coding
 title: What is the opposite of Any in LINQ?
 ---
-If you are (or hope to be) a .NET developer, knowing [LINQ](https://linqsamples.com/) is a __huge__ time-saver. It's a syntax that allows you to manipulate data in a fashion that'll be familiar to anyone who's worked in a database.
+If you are (or hope to be) a .NET developer, knowing [LINQ](https://linqsamples.com/) is a _huge_ time-saver. It's a syntax that allows you to manipulate data in a fashion that'll be familiar to anyone who's worked in a database.
 
 ## Any
 
@@ -30,9 +30,9 @@ var currencies = new[] { "USD", "EUR", "JPY" };
 Console.WriteLine(currencies.Any(x => x == "MXN"));  // False
 ```
 
-But what's the __opposite__ of `Any<T>()`?
+But what's the _opposite_ of `Any<T>()`?
 
-What if, instead of finding out whether the list of currencies includes "peso", you wanted to make sure the list of currencies did __not__ include "peso"? You could negate the above, but you might think that reads a bit funny... and I'd agree.
+What if, instead of finding out whether the list of currencies includes "peso", you wanted to make sure the list of currencies did _not_ include "peso"? You could negate the above, but you might think that reads a bit funny... and I'd agree.
 
 ```csharp
 var currencies = new[] { "USD", "EUR", "JPY" };
@@ -42,7 +42,7 @@ Console.WriteLine(!currencies.Any(x => x == "MXN"));  // True
 
 ## All
 
-The only way to make sure that a list __doesn't__ include a particular value, or that __no__ item in the collection matches a particular condition, is to check every single item in the collection... and that's what `All<T>()` is for.
+The only way to make sure that a list _doesn't_ include a particular value, or that _no_ item in the collection matches a particular condition, is to check every single item in the collection... and that's what `All<T>()` is for.
 
 ```csharp
 var currencies = new[] { "USD", "EUR", "JPY" };

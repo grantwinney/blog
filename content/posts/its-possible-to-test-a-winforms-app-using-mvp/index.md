@@ -25,11 +25,11 @@ title: Using MVP to test a WinForms app
 ---
 If you find yourself in a position where you're supporting a WinForms application, you're likely to notice the tests... or lack thereof. Just because we may not have been so focused on automated tests and continuous integration when WinForms was younger, that doesn't mean we can't introduce them now. Better late than never!
 
-Let's say you had a simple Form, like this one. It has 3 fields to enter numbers and an `ADD` button to, you know, __add__ them in the bottom field. The "Running Total" field never resets, but just keeps adding each total as long as the app is running.
+Let's say you had a simple Form, like this one. It has 3 fields to enter numbers and an `ADD` button to, you know, _add_ them in the bottom field. The "Running Total" field never resets, but just keeps adding each total as long as the app is running.
 
 ![](https://grantwinney.com/content/images/2020/03/image-1.png)
 
-Assume the above is implemented like this.. a relatively short bit of code. __None__ of these methods can take advantage of automated testing. You'd need an instance of the Form itself, and every method is accessing or otherwise updating UI components.
+Assume the above is implemented like this.. a relatively short bit of code. _None_ of these methods can take advantage of automated testing. You'd need an instance of the Form itself, and every method is accessing or otherwise updating UI components.
 
 ```csharp
 public partial class CalcForm : Form
@@ -176,7 +176,7 @@ So far, we've got a View that displays nothing, and a Model that stores numbers 
 
 The Presenter doesn't have an interface, at least not the way I designed it. But it does accept the interfaces that the View and Model implement, and it operates on those. It orchestrates everything, subscribing to events in the View, getting data from the View, passing that data to the Model, and moving things back and forth as needed.
 
-Note that it doesn't actually __touch__ the UI though. It just calls methods on and passes data back to the View, which in turn updates the UI. That's important for testing, because if our presenter touches the UI then we're right back where we started.
+Note that it doesn't actually _touch_ the UI though. It just calls methods on and passes data back to the View, which in turn updates the UI. That's important for testing, because if our presenter touches the UI then we're right back where we started.
 
 ```csharp
 public class CalcPresenter
@@ -244,7 +244,7 @@ And some SO advice on using a standard Microsoft package:
 
 ## Now how does all this help with testing?
 
-"Ugh, this is __soo__ much longer than before", you might be thinking. Okay, it is.... but it's also more intentional, and concerns are more separated. It allows us to mock the interfaces and __thoroughly__ test the logic in the Presenter and Model, like this.
+"Ugh, this is _soo_ much longer than before", you might be thinking. Okay, it is.... but it's also more intentional, and concerns are more separated. It allows us to mock the interfaces and _thoroughly_ test the logic in the Presenter and Model, like this.
 
 ```csharp
 [TestFixture]

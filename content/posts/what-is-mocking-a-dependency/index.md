@@ -20,14 +20,14 @@ title: What is mocking a dependency?
 ---
 Ever taken your car for an e-check and had it placed on those rollers for testing? It's part of a gadget called a dynamometer, and it's used to test your car at high speeds without having to move it an inch.
 
-Imagine.. you have a car with a problem. It makes a horrible noise and shakes when you hit 60 mph. Being an intrepid individual, you decide to diagnose it yourself. Being a __smart__ individual, you decide not to do it while careening down the highway. You need a way to make the car seem to be going really fast without it actually moving. Hm, those rollers might help!
+Imagine.. you have a car with a problem. It makes a horrible noise and shakes when you hit 60 mph. Being an intrepid individual, you decide to diagnose it yourself. Being a _smart_ individual, you decide not to do it while careening down the highway. You need a way to make the car seem to be going really fast without it actually moving. Hm, those rollers might help!
 
 ![](https://grantwinney.com/content/images/2020/12/image.png)
 
 That's not a perfect analogy, but in essence that's mocking a dependency.
 
-1. You identify a part of the system to test - something you __can__ control.
-2. You identify other parts of the system that it touches that you __can't__ control.
+1. You identify a part of the system to test - something you _can_ control.
+2. You identify other parts of the system that it touches that you _can't_ control.
 3. You replace those parts, in such a way that the system you're testing never knows.
 
 You don't want your car moving while you diagnose it. And you don't want your app writing records to a database, kicking up prompts for input, or connecting to third-party APIs, while you're testing it. You don’t want your test failing because a network drive is unavailable, a location on disk can’t be written to, or an SMTP server is down.
@@ -86,7 +86,7 @@ public void Test1(string username)
 }
 ```
 
-__Test the method with a couple different inputs...__
+_Test the method with a couple different inputs..._
 
 ```none
 2020-12-09 12:31:27.2294|DEBUG|MockingDependencies.MockLogger.UsernameValidation|IsUsernameAlphaOnly: Testing whether Bob is valid.
@@ -95,11 +95,11 @@ __Test the method with a couple different inputs...__
 2020-12-09 12:31:27.2767|DEBUG|MockingDependencies.MockLogger.UsernameValidation|IsUsernameAlphaOnly: JDoe1 is an invalid username.
 ```
 
-__A log file is written to disk - probably not what we want!__
+_A log file is written to disk - probably not what we want!_
 
-****Mock out the dependency****
+**Mock out the dependency**
 
-Different languages and frameworks have different ways of mocking out dependencies. In .NET, it usually means mocking out an interface. That's a whole separate topic, but the short version is that an interface is a contract, and you can change the terms of that contract depending on who's running the code, like your user in production or your test framework. The way your test __changes__ those terms is via a mocking framework like [moq](https://github.com/Moq/moq4), [JustMock](https://www.telerik.com/products/mocking.aspx), [TypeMock](http://www.typemock.com/), [RhinoMocks](https://hibernatingrhinos.com/oss/rhino-mocks), etc... lots of options.
+Different languages and frameworks have different ways of mocking out dependencies. In .NET, it usually means mocking out an interface. That's a whole separate topic, but the short version is that an interface is a contract, and you can change the terms of that contract depending on who's running the code, like your user in production or your test framework. The way your test _changes_ those terms is via a mocking framework like [moq](https://github.com/Moq/moq4), [JustMock](https://www.telerik.com/products/mocking.aspx), [TypeMock](http://www.typemock.com/), [RhinoMocks](https://hibernatingrhinos.com/oss/rhino-mocks), etc... lots of options.
 
 The NLog library happens to implement an interface called `ILogger`, and by adding a new constructor and changing a couple lines, we can pass that around our little method instead of the concrete Logger class.
 
@@ -156,7 +156,7 @@ public void Test1(string username)
 
 ### Don't read from disk
 
-Something else that's pretty common in programming is reading from a file - maybe a configuration file or an ini (initialization) file. So here's another example, that reads an XML file from disk to find the price of a book __(__[__thanks Microsoft__](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ms762271\(v=vs.85\))__).__
+Something else that's pretty common in programming is reading from a file - maybe a configuration file or an ini (initialization) file. So here's another example, that reads an XML file from disk to find the price of a book _(_[_thanks Microsoft_](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ms762271\(v=vs.85\))_)._
 
 ```csharp
 public class Books
@@ -202,7 +202,7 @@ public class Books_Tests
 }
 ```
 
-****Mock out the dependency****
+**Mock out the dependency**
 
 This time, the `XDocument` doesn't implement an interface that we can easily take advantage of, so we'll have to do something else instead. One option would be to wrap the class we want to mock in a new class, and create the interface for our new class to implement, like this:
 
@@ -297,5 +297,5 @@ I could come up with more examples - there's lots out there to consider - but ho
 
 - Don't rely on hardware, like physical drives, emails servers, etc.
 - Don't rely on software outside your control, like third-party APIs.
-- Tests should be repeatable, reliable, __and completely in your control__. When they fail, you should know exactly why, and it should happen consistently.
+- Tests should be repeatable, reliable, _and completely in your control_. When they fail, you should know exactly why, and it should happen consistently.
 - When you're dependant on something that's outside your control, look for a way to mock it out. You may have to get creative, but it'll almost certainly make your tests more reliable, which is a huge peace of mind!

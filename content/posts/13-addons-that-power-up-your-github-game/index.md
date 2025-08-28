@@ -19,7 +19,7 @@ title: 13 addons to power up your GitHub game
 ---
 Git is the defacto vcs for most developers today. It happens to lend itself well to all kinds of not-strictly-code-related things too, like [collaborative list making](https://grantwinney.com/github-a-tool-for-collaborative-list-making/) and [other surprising purposes](https://reclaimthenet.org/china-github-coronavirus-censorship/).
 
-GitHub, in turn, is the defacto Git __platform,__ tacking on a bunch of fancy tooling around Git. So your issues and PR's are right there, you get a wiki for documentation, a "project" board, a UI that lets people manage their repos without resorting to the command line, etc, etc.
+GitHub, in turn, is the defacto Git _platform,_ tacking on a bunch of fancy tooling around Git. So your issues and PR's are right there, you get a wiki for documentation, a "project" board, a UI that lets people manage their repos without resorting to the command line, etc, etc.
 
 The experience isn't always the best it could be, though. The UI tends to make poor use of available screen real estate, the [wiki experience is subpar](https://grantwinney.com/5-things-you-can-do-with-a-locally-cloned-github-wiki/), and the project area is (afaik) tied to a single repo which is pretty unrealistic in an enterprise setting.
 
@@ -35,9 +35,9 @@ One more thing.. shockingly, after installing all of these addons to test them o
 
 ## What is an Access Token? (READ FIRST)
 
-Most of these addons use the [GitHub API](https://developer.github.com/v3), so what you experience when using them (and what you read in their docs) starts to look pretty similar. GitHub allows you to use their API without telling them who you are, but [at a __severely__ limited rate](https://developer.github.com/v3/#rate-limiting) and only for public resources. Like, on the order of 60 requests/hour vs __5000 requests/hour__ for authenticated requests!
+Most of these addons use the [GitHub API](https://developer.github.com/v3), so what you experience when using them (and what you read in their docs) starts to look pretty similar. GitHub allows you to use their API without telling them who you are, but [at a _severely_ limited rate](https://developer.github.com/v3/#rate-limiting) and only for public resources. Like, on the order of 60 requests/hour vs _5000 requests/hour_ for authenticated requests!
 
-Needless to say, unauthenticated requests can run out pretty quickly if you're using GitHub a lot, and most of us are, so you want to create access tokens when possible. You could create a __single__ access token with every permission possible, and plug it into each of the following addons when they ask for it, but then you may as well just give each of the addons your username and password. 🙄
+Needless to say, unauthenticated requests can run out pretty quickly if you're using GitHub a lot, and most of us are, so you want to create access tokens when possible. You could create a _single_ access token with every permission possible, and plug it into each of the following addons when they ask for it, but then you may as well just give each of the addons your username and password. 🙄
 
 What I'd highly suggest is to [create a new, separate token](https://github.com/settings/tokens/new) for each addon, with a note that indicates which addon it's for, and give it only the permissions the addon needs. Most of the addons include a link in their respective Options pages that includes just the permissions it needs. If you decide to remove an addon, [delete the access token](https://github.com/settings/tokens) associated with it too!
 
@@ -50,7 +50,7 @@ Alright, enough of that! On to the main attraction...
 [About](https://about.sourcegraph.com/) | [Docs](https://docs.sourcegraph.com/integration/browser_extension) | [Source Code](https://github.com/sourcegraph/sourcegraph) | [Privacy](https://docs.sourcegraph.com/integration/browser_extension#privacy)  
 [Chrome](https://chrome.google.com/webstore/detail/sourcegraph/dgjhfomjieaadpoljlnidmbgkdffpack)
 
-If you need to do a little debugging on a repo, you have to clone it locally and open it in your favorite IDE or code editor, something that can be expensive (time-wise) if you just need to take a quick peek. Well you __had__ to clone it, anyway.
+If you need to do a little debugging on a repo, you have to clone it locally and open it in your favorite IDE or code editor, something that can be expensive (time-wise) if you just need to take a quick peek. Well you _had_ to clone it, anyway.
 
 [Sourcegraph](https://docs.sourcegraph.com/integration/browser_extension) is an IDE for the browser that works with multiple languages. Just hover over a keyword or identifier in your codebase, and the addon pops up a link that takes you to sourcegraph's site, which in turn provides syntax highlighting and click-through navigation for your application. I tried it with a C# application I wrote for a recent post on [MVP](https://grantwinney.com/its-possible-to-test-a-winforms-app-using-mvp/), and it had no problem navigating around.
 
@@ -66,9 +66,9 @@ If you need to do a little debugging on a repo, you have to clone it locally and
 
 Sourcegraph brings the IDE experience to your browser
 
-It's [free to use](https://about.sourcegraph.com/pricing/) for small teams, and you can [install it on premise](https://docs.sourcegraph.com/#quickstart-guide) for free too. Their [future goals](https://about.sourcegraph.com/plan) are lofty, to say the least. It seems they'd like to replace the need for separate, local IDEs using a protocol called [LSP](https://microsoft.github.io/language-server-protocol/), and to eventually have a global graph of __all__ OSS to make it easier to find and share code. 🤯
+It's [free to use](https://about.sourcegraph.com/pricing/) for small teams, and you can [install it on premise](https://docs.sourcegraph.com/#quickstart-guide) for free too. Their [future goals](https://about.sourcegraph.com/plan) are lofty, to say the least. It seems they'd like to replace the need for separate, local IDEs using a protocol called [LSP](https://microsoft.github.io/language-server-protocol/), and to eventually have a global graph of _all_ OSS to make it easier to find and share code. 🤯
 
-****Alternative:**** [Octohint](https://chrome.google.com/webstore/detail/octohint/hbkpjkfdheainjkkebeoofkpgddnnbpk) __(__[__source code__](https://github.com/pd4d10/octohint)__)__ appears to do something similar, although I didn't try it out and I have no idea how it's implemented.
+**Alternative:** [Octohint](https://chrome.google.com/webstore/detail/octohint/hbkpjkfdheainjkkebeoofkpgddnnbpk) _(_[_source code_](https://github.com/pd4d10/octohint)_)_ appears to do something similar, although I didn't try it out and I have no idea how it's implemented.
 
 ---
 
@@ -91,7 +91,7 @@ Octotree produces a file explorer style "directory structure" view of your entir
 
 Octotree gives you a file explorer style view of your repo
 
-****Bonus:**** The pro version of Octotree includes a host of extra features, but if the only one you're interested in is a dark mode, the [GitHub Dark Theme](https://poychang.github.io/github-dark-theme/) addon does a nice job. Hmm, I think the darker styles make file icons and other highlighting colors really pop out... what do you think?
+**Bonus:** The pro version of Octotree includes a host of extra features, but if the only one you're interested in is a dark mode, the [GitHub Dark Theme](https://poychang.github.io/github-dark-theme/) addon does a nice job. Hmm, I think the darker styles make file icons and other highlighting colors really pop out... what do you think?
 
 ![](https://grantwinney.com/content/images/2020/03/dark1.png)
 
@@ -108,7 +108,7 @@ Octotree gives you a file explorer style view of your repo
 [About](https://www.zenhub.com/product) | [Docs](https://help.zenhub.com/support/solutions/43000361405) | [Privacy](https://www.zenhub.com/privacy-policy)  
 [Chrome](https://chrome.google.com/webstore/detail/zenhub-for-github/ogcgkffhplmphkaahpmffcafajaocjbd)
 
-One of the toughest things to grok when you join a new team, is to figure out where everything __is.__ Where the source code is, where the issues and PR's related to that source code are, where the project management that organizes and prioritizes the stories related to those issues and PR's are... where the internal documentation lives, where the __external__ documentation lives, and on and on __and on...__
+One of the toughest things to grok when you join a new team, is to figure out where everything _is._ Where the source code is, where the issues and PR's related to that source code are, where the project management that organizes and prioritizes the stories related to those issues and PR's are... where the internal documentation lives, where the _external_ documentation lives, and on and on _and on..._
 
 If you can keep your tools in a single area, it makes life that much easier. I haven't played with GitHub's projects much, but they seem tied to a single repo. In my experience, a single team working on a single project might actually be committing changes to several (or dozens) of related repos.
 
@@ -143,7 +143,7 @@ GitHub shows a generic text file icon for every file, regardless of its type. Co
 
 GitHub File Icons add file type specific icons (optionally with color)
 
-****Alternative:**** The [github-vscode-icons](https://chrome.google.com/webstore/detail/github-vscode-icons/hoccpcefjcgnabbmojbfoflggkecmpgd) addon __(__[__source code__](https://github.com/dderevjanik/github-vscode-icons)__)__ uses icons from [VS Code](https://code.visualstudio.com/), which IMO stand out __much__ better. I find the other icon colors a bit washed out. Presently though, this addon seems to have an issue checking for updated icons.. they appear for a moment, then all change to a small "loading" icon until you refresh the page. So ... kinda broken unfortunately. :(
+**Alternative:** The [github-vscode-icons](https://chrome.google.com/webstore/detail/github-vscode-icons/hoccpcefjcgnabbmojbfoflggkecmpgd) addon _(_[_source code_](https://github.com/dderevjanik/github-vscode-icons)_)_ uses icons from [VS Code](https://code.visualstudio.com/), which IMO stand out _much_ better. I find the other icon colors a bit washed out. Presently though, this addon seems to have an issue checking for updated icons.. they appear for a moment, then all change to a small "loading" icon until you refresh the page. So ... kinda broken unfortunately. :(
 
 ![](https://grantwinney.com/content/images/2020/03/vscodeicons1.png)
 
@@ -160,7 +160,7 @@ Vanilla GitHub vs GitHub File Icons vs github-vscode-icons
 [Docs](https://github.com/softvar/enhanced-github/blob/master/README.md) | [Source Code](https://github.com/softvar/enhanced-github)  
 [Chrome](https://chrome.google.com/webstore/detail/enhanced-github/anlikcnbgdeidpacdbdljnabclhahhmd) | [Access Tokens](https://github.com/softvar/enhanced-github#github-api-rate-limiting)
 
-Did you know you can store any type of file on GitHub, with [files up to 100 MB and repos up to 100 GB](https://help.github.com/en/github/managing-large-files/what-is-my-disk-quota#file-and-repository-size-limitations) (although they recommend 50 MB and 1 GB, respectively, for top performance)? That being said, you need to have a legitimate reason for files and repos that large, but assuming there __is__ one, wouldn't you like to know it before cloning some 5 GB repo to your local disk?!
+Did you know you can store any type of file on GitHub, with [files up to 100 MB and repos up to 100 GB](https://help.github.com/en/github/managing-large-files/what-is-my-disk-quota#file-and-repository-size-limitations) (although they recommend 50 MB and 1 GB, respectively, for top performance)? That being said, you need to have a legitimate reason for files and repos that large, but assuming there _is_ one, wouldn't you like to know it before cloning some 5 GB repo to your local disk?!
 
 [Enhanced GitHub](https://chrome.google.com/webstore/detail/enhanced-github/anlikcnbgdeidpacdbdljnabclhahhmd) displays the size of the repo right above the"Clone" button. It also displays sizes of individual files, which is cool although I don't find that as useful. Another feature that I do like though is "Copy File", which.. um... copies the current file to your clipboard. Kinda self-explanatory, now that I think about it.
 
@@ -179,11 +179,11 @@ Regarding privacy, similar to the other addons, [it can't access private repos](
 [About](https://gitzip.org/) | [Source Code](https://github.com/GitZip/chrome-extension) | [Privacy](https://gitzip.org/privacy_policy.html)  
 [Chrome](https://chrome.google.com/webstore/detail/gitzip-for-github/ffabmkklhbepgcgfonabamgnfafbdlkn) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/gitzip/)
 
-_****(possibly dead?)****_
+_**(possibly dead?)**_
 
 One of the ways I use GitHub is to upload code samples from various posts I've written, going back several years. I create a new directory for the blog post in that repo, then upload the code to that directory, and link to it from the post. It's sorta like Finder or Windows Explorer, except you can't download just the directory.. you have to clone the entire repo and dig around in it! Until now...
 
-[GitZip](https://gitzip.org/) lets you click on one or more files or directories (actually, you have to click the white space __next to__ the name), and then you get a handy "download" button for your selection, which gets (gits?) you a zip file. Who says naming things is hard?
+[GitZip](https://gitzip.org/) lets you click on one or more files or directories (actually, you have to click the white space _next to_ the name), and then you get a handy "download" button for your selection, which gets (gits?) you a zip file. Who says naming things is hard?
 
 ![](https://grantwinney.com/content/images/2020/03/gitzip2.png)
 
@@ -191,7 +191,7 @@ One of the ways I use GitHub is to upload code samples from various posts I've w
 
 ![](https://grantwinney.com/content/images/2020/03/gitzip4.png)
 
-This complements the Enhanced GitHub addon pretty well - if you find out a repo is too large and you don't want to bother cloning it, use GitZip to download just the parts you __are__ interested in! I can imagine other sites where this would be useful, like programming books that upload the related code to a repo, one lesson or exercise per directory.
+This complements the Enhanced GitHub addon pretty well - if you find out a repo is too large and you don't want to bother cloning it, use GitZip to download just the parts you _are_ interested in! I can imagine other sites where this would be useful, like programming books that upload the related code to a repo, one lesson or exercise per directory.
 
 After a couple tries, I hit my unauthenticated limits. Just click the GitZip icon to create an access token, and you'll be back in business.
 
@@ -202,7 +202,7 @@ After a couple tries, I hit my unauthenticated limits. Just click the GitZip ico
 [Source Code](https://github.com/xthexder/wide-github)  
 [Chrome](https://chrome.google.com/webstore/detail/wide-github/kaalofacklcidaampbokdplbklpeldpj/related)
 
-There are times when you fully expect an app won't use all your screen real estate.. playing a retro PC game, or [installing Windows 3.1](https://grantwinney.com/installing-windows-3-1-in-vmware-player/) for example. But in a modern web app, there's no reason __not__ to take advantage of a wider screen. For some reason though, GitHub doesn't and (AFAIK) never has.
+There are times when you fully expect an app won't use all your screen real estate.. playing a retro PC game, or [installing Windows 3.1](https://grantwinney.com/installing-windows-3-1-in-vmware-player/) for example. But in a modern web app, there's no reason _not_ to take advantage of a wider screen. For some reason though, GitHub doesn't and (AFAIK) never has.
 
 [Wide GitHub](https://github.com/xthexder/wide-github) applies some CSS that takes full advantage of your 32:9 super-duper ultra-mega-wide curvy monitor. Now your GitHub code can wrap all around you, like a giant omnimax theater.. for code. But if you hit a page that seems less readable in wide format, just click the icon to disable it.
 
@@ -229,7 +229,7 @@ If you already use [Stylus](https://add0n.com/stylus.html) (or Tampermonkey, etc
 
 When you come across a broken GitHub link, you get a 404 - no surprises there. The problem is, the 404 page doesn't tell you if the entire repo is gone, or the branch that was linked was merged back to master, or just the linked file was deleted. Your forced to do some digging to figure out which might be true.
 
-If everything goes well and you never come across a broken link, then you'll never even notice [GitHub 404 Breakdown](https://chrome.google.com/webstore/detail/github-404-breakdown/pnhdlhabpckpibnkkddmgcimdejbljge). But when you inevitably __do__ hit a broken link, then this nice little addon tests every portion of the URL and lets you know exactly where things broke down.
+If everything goes well and you never come across a broken link, then you'll never even notice [GitHub 404 Breakdown](https://chrome.google.com/webstore/detail/github-404-breakdown/pnhdlhabpckpibnkkddmgcimdejbljge). But when you inevitably _do_ hit a broken link, then this nice little addon tests every portion of the URL and lets you know exactly where things broke down.
 
 ![](https://grantwinney.com/content/images/2020/03/breakdown1.png)
 
@@ -259,13 +259,13 @@ It's amazing how something as straight-forward as adding a little color can inst
 [Source Code](https://github.com/lukechilds/github-custom-tab-size)  
 [Chrome](https://chrome.google.com/webstore/detail/github-custom-tab-size/jcjfkmdkcaopkioccnpbhiemfcmpnghe)
 
-Commit a file with tabs in it, and then open it on GitHub. Oddly, if you __edit__ the file right on GitHub, you can choose between a few sizes for tabs. But if you just want to view the file (far more likely), you get 8 spaces per tab. Maybe it's GitHub's way of showing you the truth... spaces ****are**** better! __*ducks*__
+Commit a file with tabs in it, and then open it on GitHub. Oddly, if you _edit_ the file right on GitHub, you can choose between a few sizes for tabs. But if you just want to view the file (far more likely), you get 8 spaces per tab. Maybe it's GitHub's way of showing you the truth... spaces **are** better! _*ducks*_
 
 ![](https://grantwinney.com/content/images/2020/03/tabs3.png)
 
 ![](https://grantwinney.com/content/images/2020/03/tabs2.png)
 
-When editing a file, you can choose 2, 4, or 8 spaces for tabs... but not when __viewing!s__
+When editing a file, you can choose 2, 4, or 8 spaces for tabs... but not when _viewing!s_
 
 The [GitHub Custom Tab Size](https://chrome.google.com/webstore/detail/github-custom-tab-size/jcjfkmdkcaopkioccnpbhiemfcmpnghe) addon gives you an easy way to change that, especially helpful if you're working in a codebase with deeply nested code. Yeah yeah, this can be a sign of a code smell.. but until you manage to refactor that old codebase that's 20 levels deep, this addon might help preserve your sanity.
 
@@ -322,7 +322,7 @@ Oh look, I found something to show anyway. 1 unread item is offscreen.
 
 It's just making a call to the [Notifications API](https://developer.github.com/v3/activity/notifications/#list-notifications-for-the-authenticated-user), which returns a JSON block with detailed info about your notifications, and then it counts the number of returned items. Actually, since the author has access to all that data, I wish there was an option to hover over the toolbar icon and see a brief summary of the newest notifications, but oh well. It's nice anyway, if you're trying to stay on top of alerts.
 
-****Alternative:**** There's another addon that actually __does__ show information about the notifications, called [Notifications Preview for GitHub](https://chrome.google.com/webstore/detail/notifications-preview-for/kgilejfahkjidpaclkepbdoeioeohfmj/related), but [it seems to be broken with the new beta interface](https://github.com/tanmayrajani/notifications-preview-github/issues/79)... which probably means it traverses the DOM instead of using the API, and the new UI likely completely changed the DOM.
+**Alternative:** There's another addon that actually _does_ show information about the notifications, called [Notifications Preview for GitHub](https://chrome.google.com/webstore/detail/notifications-preview-for/kgilejfahkjidpaclkepbdoeioeohfmj/related), but [it seems to be broken with the new beta interface](https://github.com/tanmayrajani/notifications-preview-github/issues/79)... which probably means it traverses the DOM instead of using the API, and the new UI likely completely changed the DOM.
 
 ---
 
@@ -349,7 +349,7 @@ It appears to be in the early stages of development, but I hope the author conti
 [Source Code](https://github.com/stilliard/quick-add-github-issue-browser-extension)  
 [Chrome](https://chrome.google.com/webstore/detail/quick-add-issue-to-github/mgamfhobfmlghohfjdiecjhddoigenkk) | [Access Token](https://github.com/settings/tokens/new?scopes=repo,read:org&description=Quick%20add%20issue%20to%20GitHub)
 
-It's pretty self-explanatory, allowing you to quickly add issues to a repo. Unfortunately, it only works for a single user or organization, not across __all__ the organizations a person might belong too. Hope the author makes a few changes to it.
+It's pretty self-explanatory, allowing you to quickly add issues to a repo. Unfortunately, it only works for a single user or organization, not across _all_ the organizations a person might belong too. Hope the author makes a few changes to it.
 
 ![](https://grantwinney.com/content/images/2020/03/addissue1.png)
 
@@ -361,4 +361,4 @@ It's pretty self-explanatory, allowing you to quickly add issues to a repo. Unfo
 
 [Chrome](https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf)
 
-I didn't try [Refined GitHub](https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf), but the author (who also wrote __Notifier for GitHub,__ above) is prolific on GitHub for his OSS, and the addon is very highly rated. It's definitely worth checking out, but I'm personally not interested in an addon that fixes all the things for all the people.
+I didn't try [Refined GitHub](https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf), but the author (who also wrote _Notifier for GitHub,_ above) is prolific on GitHub for his OSS, and the addon is very highly rated. It's definitely worth checking out, but I'm personally not interested in an addon that fixes all the things for all the people.

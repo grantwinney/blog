@@ -22,15 +22,15 @@ The reality about working with an application that's years - maybe even decades 
 
 It's a good feeling getting to overhaul something when the opportunity arises, but "modern" is a moving target and certain areas of the code will chug along for years, happily unaware it lives in the dark ages.
 
-Even when we can't change code, though, it's always possible to hide it without having to replace the old code right away.. or at all, if it's in some codebase you don't have access to. Take the [BackgroundWorker](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.backgroundworker?view=netframework-2.0) for example, which has been around since 2005 (.NET 2.0). It has methods for safely sending progress updates to the UI, cancelling it before completion, and setting the result when it finally __does__ complete. 10 years ago, it was a great way to toss some piece of work to a separate thread.
+Even when we can't change code, though, it's always possible to hide it without having to replace the old code right away.. or at all, if it's in some codebase you don't have access to. Take the [BackgroundWorker](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.backgroundworker?view=netframework-2.0) for example, which has been around since 2005 (.NET 2.0). It has methods for safely sending progress updates to the UI, cancelling it before completion, and setting the result when it finally _does_ complete. 10 years ago, it was a great way to toss some piece of work to a separate thread.
 
 Now, of course, there's [async/await and Tasks](https://grantwinney.com/using-async-await-and-task-to-keep-the-winforms-ui-more-responsive).
 
-When I wrote about Tasks before, I considered how you might turn a bunch of synchronous code into async code, but what if the code is __already__ asynchronous? What if you just want to modernize it, like effectively turning a BackgroundWorker into a Task? [TaskCompletionSource](https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.taskcompletionsource-1) to the rescue!
+When I wrote about Tasks before, I considered how you might turn a bunch of synchronous code into async code, but what if the code is _already_ asynchronous? What if you just want to modernize it, like effectively turning a BackgroundWorker into a Task? [TaskCompletionSource](https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.taskcompletionsource-1) to the rescue!
 
 > The code in this article is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Threading/TaskCompletion?ref=grantwinney.com), if you'd like to use it in your own projects or just follow along while you read.
 
-__Assuming you can, I'd suggest cloning the repo and opening it in VS 2022 or later to follow along. To test both examples I describe below, open the Program.cs file and comment one "Application.Run" line out or the other.__
+_Assuming you can, I'd suggest cloning the repo and opening it in VS 2022 or later to follow along. To test both examples I describe below, open the Program.cs file and comment one "Application.Run" line out or the other._
 
 ## Sample legacy class with BackgroundWorker
 
@@ -254,7 +254,7 @@ public class SpaceTask
 }
 ```
 
-And here's how we might call the new SpaceTask class from anywhere in the application that's interested in ISS data. There's nothing in the code below that suggests we're still dealing with a BackgroundWorker. For all intents and purposes, it's just a Task. The underlying details are hidden by the `SpaceTask` class, nothing to see here, __thankyouverymuch__.
+And here's how we might call the new SpaceTask class from anywhere in the application that's interested in ISS data. There's nothing in the code below that suggests we're still dealing with a BackgroundWorker. For all intents and purposes, it's just a Task. The underlying details are hidden by the `SpaceTask` class, nothing to see here, _thankyouverymuch_.
 
 If someone's interested in updates, they can create a new `Progress<T>` handler (like I'm doing below) and pass that to the other class. One of the interesting differences with Tasks is that cancellations and exceptions are handled more inline.. they don't require subscribing to additional events like the BackgroundWorker. If the Task is cancelled it throws a TaskCanceledException, if there's an error it throws that instead, and both can be caught and handled like I'm doing below.
 
@@ -313,7 +313,7 @@ private async void btnGetData_Click(object sender, EventArgs e)
 
 [Grab the example from GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Threading/TaskCompletion) and try it out yourself. Good luck!
 
-If you just can't get enough of backgroundworkers and tasks, and comparisons between them, this series of posts by Stephen Cleary are still valid (even if they're a little dated). __(You'll see his name all over the place on stackoverflow, answering everyone's questions about threading in C#.)__
+If you just can't get enough of backgroundworkers and tasks, and comparisons between them, this series of posts by Stephen Cleary are still valid (even if they're a little dated). _(You'll see his name all over the place on stackoverflow, answering everyone's questions about threading in C#.)_
 
 [Task.Run vs BackgroundWorker: Intro](https://blog.stephencleary.com/2013/05/taskrun-vs-backgroundworker-intro.html?ref=grantwinney.com)
 

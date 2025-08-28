@@ -76,7 +76,7 @@ As long as the user plays nicely, everything okay. But what if they enter their 
 select * from user_table where user_name = gwinney; delete * from user_table
 ```
 
-The solution to this is to sanitize all input, aka parameterize the query. I don’t want to dive too deeply into it here, but if we’ve done things the __right__ way then the query looks more like this, which will of course fail because that crazy username doesn’t exist.
+The solution to this is to sanitize all input, aka parameterize the query. I don’t want to dive too deeply into it here, but if we’ve done things the _right_ way then the query looks more like this, which will of course fail because that crazy username doesn’t exist.
 
 `select * from user_table where user_name = 'gwinney; delete * from user_table'`
 
@@ -84,7 +84,7 @@ The solution to this is to sanitize all input, aka parameterize the query. I don
 
 Similarly, we can run into security issues with our expression code.
 
-We’re allowed to include a call to __any__ function – local functions as well as BIFs (Erlang’s built-in functions) and exported functions in other modules we’ve created – and it’ll parse and attempt to execute them.
+We’re allowed to include a call to _any_ function – local functions as well as BIFs (Erlang’s built-in functions) and exported functions in other modules we’ve created – and it’ll parse and attempt to execute them.
 
 If we make the above function accessible to the outside world, even indirectly, and the input isn’t sanitized, then we’ve handed over the ability for someone to directly call all kinds of functions they have no business calling. Oops.
 
@@ -94,9 +94,9 @@ So how do we prevent that?
 
 We can supply a function to `erl_eval:exprs` through which all calls to local functions will be passed, and that’s where we can take additional actions.
 
-Local functions are those in the same module, which can be called without specifying the module name. Though some BIFs don’t __require__ a module name, like `list_to_binary`, that's only because they’re auto-imported by the system – they’re still considered non-local.
+Local functions are those in the same module, which can be called without specifying the module name. Though some BIFs don’t _require_ a module name, like `list_to_binary`, that's only because they’re auto-imported by the system – they’re still considered non-local.
 
-There’s some new stuff in the code below – a function called `handle_local_function` and a local function called `get_random_number` __(thanks__ [__xkcd__](https://xkcd.com/221/)__)__. The handler function outputs an informational message and then handles the passed-in function name.
+There’s some new stuff in the code below – a function called `handle_local_function` and a local function called `get_random_number` _(thanks_ [_xkcd_](https://xkcd.com/221/)_)_. The handler function outputs an informational message and then handles the passed-in function name.
 
 ```erlang
 -module(parser).
@@ -155,7 +155,7 @@ Local call to break_the_system with []
 
 ## Intercepting Non-Local Function Calls
 
-Similarly, we can supply a function to `erl_eval:exprs` through which all calls to _****non-****_local functions will be passed __(anything outside of the current module, including BIFs and even the operators used in comparisons).__
+Similarly, we can supply a function to `erl_eval:exprs` through which all calls to _**non-**_local functions will be passed _(anything outside of the current module, including BIFs and even the operators used in comparisons)._
 
 Here’s the code again, extended to handle non-local functions:
 
@@ -266,7 +266,7 @@ Good examples in Erlang can be hard to come by, and what you see here was a fair
 
 Other resources to check out:
 
-- [Evaluating Erlang code stored in a string](https://erlangcentral.org/wiki/String_Eval) __(touches on binding variables)__
-- Official docs: [erl_scan](http://erlang.org/doc/man/erl_scan.html), [erl_parse](http://erlang.org/doc/man/erl_parse.html), [erl_eval](http://erlang.org/doc/man/erl_eval.html) __(have a pot of coffee ready)__
-- [Domain Specific Languages in Erlang](http://people.apache.org/~dennisbyrne/infoq/DSLs_in_Erlang.ppt) __(powerpoint presentation)__
-- [Can parameterized statement stop all SQL injection?](http://stackoverflow.com/q/6786034) __(a thread with more details)__
+- [Evaluating Erlang code stored in a string](https://erlangcentral.org/wiki/String_Eval) _(touches on binding variables)_
+- Official docs: [erl_scan](http://erlang.org/doc/man/erl_scan.html), [erl_parse](http://erlang.org/doc/man/erl_parse.html), [erl_eval](http://erlang.org/doc/man/erl_eval.html) _(have a pot of coffee ready)_
+- [Domain Specific Languages in Erlang](http://people.apache.org/~dennisbyrne/infoq/DSLs_in_Erlang.ppt) _(powerpoint presentation)_
+- [Can parameterized statement stop all SQL injection?](http://stackoverflow.com/q/6786034) _(a thread with more details)_

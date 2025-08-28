@@ -22,7 +22,7 @@ title: Using Tuples and deconstruction to return multiple values in C#
 ---
 One of the biggie challenges when programming in any language is figuring how to group and organize things sensibly. Even a small project can get out of hand quickly, and once you've got a dozen devs working in something for years, all bets are off.
 
-So we have methods and functions, organized into classes __(even__ [__JS has classes__](https://www.javascripttutorial.net/es6/javascript-class/) __now)__ and namespaces, separate projects and assemblies, and on and on. The tricky part of having so many ways to organize things is knowing how and when to use one of them. A lot of it's up for debate __(what isn't?)__ and some of it's not... I wouldn't recommend publishing a NuGet package for [a few lines of code](https://www.sciencealert.com/how-a-programmer-almost-broke-the-internet-by-deleting-11-lines-of-code), lol.
+So we have methods and functions, organized into classes _(even_ [_JS has classes_](https://www.javascripttutorial.net/es6/javascript-class/) _now)_ and namespaces, separate projects and assemblies, and on and on. The tricky part of having so many ways to organize things is knowing how and when to use one of them. A lot of it's up for debate _(what isn't?)_ and some of it's not... I wouldn't recommend publishing a NuGet package for [a few lines of code](https://www.sciencealert.com/how-a-programmer-almost-broke-the-internet-by-deleting-11-lines-of-code), lol.
 
 > The code in this article is available on <a href="https://github.com/grantwinney/Surviving-WinForms/tree/master/ClarityConciseness/TupleDeconstruction">GitHub</a>, if you'd like to use it in your own projects or just follow along while you read.
 
@@ -77,7 +77,7 @@ private (int diameter, double circumference, double area) GetCircle(int radius)
 }
 ```
 
-Being able to access each element of the tuple by name makes this __soo__ much friendlier than in the past.
+Being able to access each element of the tuple by name makes this _soo_ much friendlier than in the past.
 
 ```csharp
 // Access each tuple element individually

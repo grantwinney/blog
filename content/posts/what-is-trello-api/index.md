@@ -45,7 +45,7 @@ Open your sample board and check out the URL. Copy the unique 8-character ID and
 GET https://api.trello.com/1/boards/Ii6vhIyq?fields=name,url&key=<your-key>&token=<your-token>
 ```
 
-The ID is returned, but apparently isn't necessary since the 8-character code seems to work just fine for identifying a board too (after all, that still allows for 218 __trillion__ combos).
+The ID is returned, but apparently isn't necessary since the 8-character code seems to work just fine for identifying a board too (after all, that still allows for 218 _trillion_ combos).
 
 ```json
 {

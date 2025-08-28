@@ -19,9 +19,9 @@ tags:
 - Code Review
 title: Why are websites requesting access to motion sensors... on my desktop?
 ---
-I was checking the status of a FedEx order in Brave, when I noticed a notification in the address bar that I've never seen before. It was warning me that __"this site has been blocked from accessing your motion sensors"__. Wut? It doesn't even need to be an order status - [their home page](https://www.fedex.com/) kicks it up too.
+I was checking the status of a FedEx order in Brave, when I noticed a notification in the address bar that I've never seen before. It was warning me that _"this site has been blocked from accessing your motion sensors"_. Wut? It doesn't even need to be an order status - [their home page](https://www.fedex.com/) kicks it up too.
 
-I'm struggling to understand why a website would need access to a motion sensor on a __mobile__ device, let alone the fact I was using a __desktop__. Do I get a different experience if I knock my PC off the desk? Tip my monitor on its side? Grab the mouse cord and spin it around my head really fast?
+I'm struggling to understand why a website would need access to a motion sensor on a _mobile_ device, let alone the fact I was using a _desktop_. Do I get a different experience if I knock my PC off the desk? Tip my monitor on its side? Grab the mouse cord and spin it around my head really fast?
 
 ![](https://grantwinney.com/content/images/2019/12/2019-12-27-23_12_42-FedEx-_-Tracking--Shipping--and-Locations---Brave.png)
 
@@ -33,13 +33,13 @@ Guess it's time to dig a little deeper.
 
 ## What are Web APIs?
 
-Before zeroing in on sensors, let's backup a sec and talk about web design and [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API). Your browser has access to a __lot__ of data via (and metadata regarding) the device you installed it on. As much as [some of the websites](https://grantwinney.com/why-i-dumped-facebook-for-good/) you visit would looove to have access to all that data, any decent browser acts as a firewall, blocking that access by default and prompting you to allow it.
+Before zeroing in on sensors, let's backup a sec and talk about web design and [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API). Your browser has access to a _lot_ of data via (and metadata regarding) the device you installed it on. As much as [some of the websites](https://grantwinney.com/why-i-dumped-facebook-for-good/) you visit would looove to have access to all that data, any decent browser acts as a firewall, blocking that access by default and prompting you to allow it.
 
 ### Geolocation API
 
 One of the more common APIs is the one used to request your location, usually when you're using a websites's "store locator" to find the store nearest you.
 
-Here's some __(lightly modified)__ from MDN's [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) docs. When you click it, the JavaScript code executes a call to [navigator.geolocation.getCurrentPosition()](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition), asking the browser for your location.
+Here's some _(lightly modified)_ from MDN's [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) docs. When you click it, the JavaScript code executes a call to [navigator.geolocation.getCurrentPosition()](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition), asking the browser for your location.
 
 [Simple Geolocation API example](https://codepen.io/astrangegame/pen/OPyoPOq)
 
@@ -57,7 +57,7 @@ If you don't see the prompt but you think you've allowed it, there are two diffe
 
 ### Notifications API
 
-Another (unfortunately, __very__) popular API is the one used to display notifications to visitors. Using the [Notifications API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API), you can request permission from a visitor with a call to `Notification.requestPermission()` and then just create a `new Notification()` to ~~annoy them~~ keep them up to date. __(__[__May not work in Brave__](https://github.com/brave/brave-browser/issues/2362) __due to a bug.)__
+Another (unfortunately, _very_) popular API is the one used to display notifications to visitors. Using the [Notifications API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API), you can request permission from a visitor with a call to `Notification.requestPermission()` and then just create a `new Notification()` to ~~annoy them~~ keep them up to date. _(_[_May not work in Brave_](https://github.com/brave/brave-browser/issues/2362) _due to a bug.)_
 
 [Simple Notifications API example](https://codepen.io/astrangegame/pen/ByoOyYe)
 
@@ -67,11 +67,11 @@ There's a (maybe sorta?) new API for requesting access to sensors in Chromium-ba
 
 Check out the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Sensor_APIs), the [W3C candidate recommendation](https://www.w3.org/TR/generic-sensor), the ongoing conversation over at [Chrome](https://bugs.chromium.org/p/chromium/issues/detail?id=796904#c15), and Intel's [Sensor API playground](https://intel.github.io/generic-sensor-demos/) for examples.
 
-The following examples execute some JavaScript code to try starting up various sensors, which should trigger the sensor icon in the address bar (results may vary by browser). __(If an error occurs, it'll display below the links.)__
+The following examples execute some JavaScript code to try starting up various sensors, which should trigger the sensor icon in the address bar (results may vary by browser). _(If an error occurs, it'll display below the links.)_
 
 [Simple Sensor API examples](https://codepen.io/astrangegame/pen/pvjOvOy)
 
-As with the geolocation and notification APIs, you can grant or deny access at the global or per-site level. What's kind of annoying is that all of the above sensors fall under a single "motion sensors" umbrella, so you can't easily tell __which__ of those sensors a particular site is trying to access.
+As with the geolocation and notification APIs, you can grant or deny access at the global or per-site level. What's kind of annoying is that all of the above sensors fall under a single "motion sensors" umbrella, so you can't easily tell _which_ of those sensors a particular site is trying to access.
 
 ![](https://grantwinney.com/content/images/2019/12/global-sensors-access-list.png)
 
@@ -94,7 +94,7 @@ All the pages I've checked out have a reference to an obfuscated file that, when
 
 A look at the markup for the page shows it loads the script right before the end of the page, and it looks nearly identical in all cases.
 
-****Lowe's****
+**Lowe's**
 
 ```html
 <noscript>
@@ -109,7 +109,7 @@ A look at the markup for the page shows it loads the script right before the end
 <script type="text/javascript"  src="/resources/c45ff2fedf18894428b6eae366abf1"></script>
 ```
 
-****FedEx****
+**FedEx**
 
 ```html
 <noscript>
@@ -124,7 +124,7 @@ A look at the markup for the page shows it loads the script right before the end
 <script type="text/javascript"  src="/assets/b6c65804238fde1fae4a597ae052"></script>
 ```
 
-****Anthem****
+**Anthem**
 
 ```html
 <noscript>
@@ -139,7 +139,7 @@ A look at the markup for the page shows it loads the script right before the end
 <script type="text/javascript"  src="/public/c3ce05c96199f8c080a174ece11ff"></script>
 ```
 
-****Hotels.com****
+**Hotels.com**
 
 ```html
 <script type="text/javascript" >
@@ -151,7 +151,7 @@ A look at the markup for the page shows it loads the script right before the end
 <script type="text/javascript"  src="/assets/0997d10d16655fda9826ab5d88ea"></script>
 ```
 
-****Kayo Sports****
+**Kayo Sports**
 
 ```html
 <noscript>
@@ -274,7 +274,7 @@ Registrar Abuse Contact Phone: +1.6174443076
 
 ## It seems safe to assume it's Akamai
 
-At this point, I feel fairly confident it's Akamai's script, and it probably __is__ some kind of bot detection service. I'm not sure why a bot detection service would need to check sensors, but maybe it's just one signal in a myriad of signals to detect if a requestor is a human or a bot? Or maybe it's being used as part of fingerprinting to track and individually identify visitors?
+At this point, I feel fairly confident it's Akamai's script, and it probably _is_ some kind of bot detection service. I'm not sure why a bot detection service would need to check sensors, but maybe it's just one signal in a myriad of signals to detect if a requestor is a human or a bot? Or maybe it's being used as part of fingerprinting to track and individually identify visitors?
 
 I spent a little time digging around the Akamai site, and while most of their documentation is locked behind having an actual account, I stumbled on [this](https://developer.akamai.com/tools/sdk/bot-manager) regarding their mobile device capabilities:
 

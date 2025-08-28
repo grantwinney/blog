@@ -36,11 +36,11 @@ Here's a sample of what the config file looks like, without resembling actual pr
 
 My first thought was to just open the file and use the [proplists](http://erlang.org/doc/man/proplists.html) module to parse it, but whenever I opened it I got a binary string with the contents of the file. Was I reading it wrong? I started looking at the [file](http://erlang.org/doc/man/file.html) module for different ways to read a file, aaaand..... I had skipped right over the function I needed - [file:consult/1](http://erlang.org/doc/man/file.html#consult-1). If your file has nothing but legit Erlang code in it, then `file:consult()` can read it into memory.
 
-In my defense, the name, description, and example are all awful... __"Reads Erlang terms, separated by '.'"__ That's all we get, but then the Erlang documentation leaves __much__ to be desired. And the name!! What does consulting a file have to do with reading in Erlang terms? And of course, there's no opposite unconsult or deconsult. Why can't we have a module that makes parsing and modifying these config files easier? 😖
+In my defense, the name, description, and example are all awful... _"Reads Erlang terms, separated by '.'"_ That's all we get, but then the Erlang documentation leaves _much_ to be desired. And the name!! What does consulting a file have to do with reading in Erlang terms? And of course, there's no opposite unconsult or deconsult. Why can't we have a module that makes parsing and modifying these config files easier? 😖
 
 ## Modifying a config file
 
-And so, I present my own, more appropriately-named module called `config_parser`. You can grab it below or [find it on GitHub](https://github.com/grantwinney/erl-config-modifier), and modify it to your heart's content. It reads and writes __(__[__thank you__](https://zxq9.com/archives/1021)__)__ config files, and can also get and set nested terms so you can more easily modify them.
+And so, I present my own, more appropriately-named module called `config_parser`. You can grab it below or [find it on GitHub](https://github.com/grantwinney/erl-config-modifier), and modify it to your heart's content. It reads and writes _(_[_thank you_](https://zxq9.com/archives/1021)_)_ config files, and can also get and set nested terms so you can more easily modify them.
 
 ```erlang
 % Author: Grant Winney

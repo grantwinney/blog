@@ -18,7 +18,7 @@ I wrote about [5 quick hacks for your Ghost theme](https://grantwinney.com/5-qui
 A table of contents is nice to have though, and convenient for your visitors, so I wrote a new script that should work for any html page (with minor adjustments). Here it is in entirety, or [check GitHub for the latest version](https://github.com/grantwinney/table-of-contents-for-html-page).
 
 ```javascript
-/**
+/*
  * For displaying a table of contents - pass the entire document (DOM) to getTocMarkup
  */
 
@@ -173,4 +173,4 @@ While you're at it, you could create a `<div id="toc"></div` element or similar,
 
 ## Other Implementations
 
-I'm happy with my solution, but it requires modifying your theme files directly, which isn't the most user-friendly thing. If you'd like to see this solution re-implemented so you can paste it into the blog footer with Ghost's __"code injection"__ section, check out László's blog post, [A jQuery Table of Contents for your Ghost Blog Entries](https://kb.zensoft.hu/toc-for-your-blog/?ref=grantwinney.com).
+I'm happy with my solution, but it requires modifying your theme files directly, which isn't the most user-friendly thing. If you'd like to see this solution re-implemented so you can paste it into the blog footer with Ghost's _"code injection"_ section, check out László's blog post, [A jQuery Table of Contents for your Ghost Blog Entries](https://kb.zensoft.hu/toc-for-your-blog/?ref=grantwinney.com).

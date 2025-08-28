@@ -33,7 +33,7 @@ When someone creates a public Google calendar for the whole world to use, you'll
 
 Unless you've replaced it with another service, like I did. 😐
 
-If you don't __want__ to import a Google calendar into a Google account, you might see the "Public URL" and try to import that into another client. That's reasonable, but it won't work.
+If you don't _want_ to import a Google calendar into a Google account, you might see the "Public URL" and try to import that into another client. That's reasonable, but it won't work.
 
 ![](https://grantwinney.com/content/images/2020/02/google-calendar-settings.png)
 

@@ -23,13 +23,13 @@ I decided to build on that a bit, adding a button to the circuit that allows me 
 
 ## Defining the Rules
 
-We should always figure out what a program is going to do __before__ we start writing it, so here are a few rules to guide us:
+We should always figure out what a program is going to do _before_ we start writing it, so here are a few rules to guide us:
 
 - Dots and dashes will be entered using the rules on timing outlined in “[What is Morse Code?](https://grantwinney.com/building-a-morse-code-transmitter-on-a-raspberry-pi/#What_isMorse_Code)“
 - An acceptable tolerance will be built into the timing, since it’s difficult to keep an exact rhythm.
 - Blink a blue LED to the rhythm of the “base time”, to help with timing.
 - Interpret dots and dashes using International Morse Code (IMC)
-- The __message separator__ [prosign](https://en.wikipedia.org/wiki/Prosigns_for_Morse_code) AR ·-·-· will indicate the end of the message, after which the script will display its interpretation.
+- The _message separator_ [prosign](https://en.wikipedia.org/wiki/Prosigns_for_Morse_code) AR ·-·-· will indicate the end of the message, after which the script will display its interpretation.
 - When a dot or dash is timed correctly, blink green LED 3x; otherwise, blink red 3x
 - When a dot/dash sequence (indicated by a gap equal to 3 dots) is interpreted
 - - as a valid letter/number, blink a green LED 3x,
@@ -44,7 +44,7 @@ Now let’s decide what we need in a circuit, based on the rules we just laid ou
 - A button to “transmit” dots and dashes.
 - A line from 3.3v, thru a 220Ω resistor, to one side of the button (let’s call it side 1).
 - A line from the other side of the button (side 2) to pin 31 (GPIO 6).
-- A 10kΩ pulldown resistor from pin 31 to ground. __(__[__more on pulldown resistors__](https://grantwinney.com/using-pullup-and-pulldown-resistors-on-the-raspberry-pi/)__)__
+- A 10kΩ pulldown resistor from pin 31 to ground. _(_[_more on pulldown resistors_](https://grantwinney.com/using-pullup-and-pulldown-resistors-on-the-raspberry-pi/)_)_
 - A yellow LED and 220Ω resistor from side 2 of the button, to ground.
 - A red LED and 220Ω resistor connecting pin 36 (GPIO 16) to ground.
 - A green LED and 220Ω resistor connecting pin 32 (GPIO 12) to ground.
@@ -239,23 +239,23 @@ You can apply a “bouncetime” when you setup the pin, which tells it to ignor
 
 ## More Resources
 
-****Courses****
+**Courses**
 
 If you’re interested, Coursera has a series of courses on Python, two of which are called [Getting Started with Python](https://www.coursera.org/learn/python) and [Python Data Structures](https://www.coursera.org/learn/python-data). There’s another course I’ve started working through too, called [Interfacing with the Raspberry Pi](https://www.coursera.org/learn/raspberry-pi-interface).
 
-****Reference Card****
+**Reference Card**
 
 Here’s a reference card from [toptechboy.com](http://www.toptechboy.com/raspberry-pi/raspberry-pi-with-lesson-26-controlling-gpio-pins-in-python/) that shows what the pins do on the Pi. If you don’t have a cobbler that plugs into your breadboard, and you have to wire up individual GPIO pins on the Pi to your breadboard, you’ll want to keep this handy.
 
 ![raspberry-pi-2-pinout](https://grantwinney.com/content/images/2016/04/raspberry-pi-2-pinout.jpg)
 
-****Hardware****
+**Hardware**
 
-If you want any of the accessory hardware you saw here, including the T-shaped cobbler and cable __(it’s very handy to not have to wire up all the individual GPIO pins!),__ you can pick up the same set I did, called the [CanaKit Raspberry Pi GPIO Breakout Board Bundle](https://amzn.to/2TwfVcL).
+If you want any of the accessory hardware you saw here, including the T-shaped cobbler and cable _(it’s very handy to not have to wire up all the individual GPIO pins!),_ you can pick up the same set I did, called the [CanaKit Raspberry Pi GPIO Breakout Board Bundle](https://amzn.to/2TwfVcL).
 
-I wouldn’t suggest it if I didn’t like it. It’s affordable __(in keeping with the spirit of the whole Pi movement),__ has good reviews, and I’ve used most of the parts in it now and haven’t had a problem with a single one.
+I wouldn’t suggest it if I didn’t like it. It’s affordable _(in keeping with the spirit of the whole Pi movement),_ has good reviews, and I’ve used most of the parts in it now and haven’t had a problem with a single one.
 
-****Helpful Links****
+**Helpful Links**
 
 - [Simple Guide to the RPi GPIO Header and Pins](http://www.raspberrypi-spy.co.uk/2012/06/simple-guide-to-the-rpi-gpio-header-and-pins/)
 - [International Morse Code – Sounds](http://morsecode.scphillips.com/morse.html)

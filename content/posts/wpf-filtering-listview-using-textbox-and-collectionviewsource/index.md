@@ -27,11 +27,11 @@ In WinForms, filtering is easy – a few settings on a ComboBox control, set the
 
 One of the biggest strengths in WPF is in binding. As developers, we regularly bind to data – collections of numbers and strings, dates and classes. We present these to our users in grids, combo boxes, list views, etc.
 
-**When we bind a collection to a `ListView` in WPF, there's another layer between the control and the collection it's binding to, and that's the `CollectionView`.**
+*When we bind a collection to a `ListView` in WPF, there's another layer between the control and the collection it's binding to, and that's the `CollectionView`.*
 
 ### The CollectionView Class
 
-Much like a database table vs a view, or a `DataTable` vs a `DataView`, **the `CollectionView` allows us to manipulate the _presentation_ of a collection of data without affecting the underlying data.** Per [MSDN](http://msdn.microsoft.com/en-us/library/system.windows.data.collectionview\(v=vs.110\).aspx):
+Much like a database table vs a view, or a `DataTable` vs a `DataView`, *the `CollectionView` allows us to manipulate the _presentation_ of a collection of data without affecting the underlying data.* Per [MSDN](http://msdn.microsoft.com/en-us/library/system.windows.data.collectionview\(v=vs.110\).aspx):
 
 > You can think of a collection view as a layer on top of a binding source collection that allows you to navigate and display the collection based on sort, filter, and group queries, all without having to manipulate the underlying source collection itself.
 
@@ -45,9 +45,9 @@ We don’t have to create a `CollectionView` because WPF does it for us. That's 
 
 Similar to how you can access the default view of a `DataTable` using the (appropriately named) `DataTable.DefaultView`, we can also access a collection's default view using `CollectionViewSource.GetDefaultView()`.
 
-From [MSDN](http://msdn.microsoft.com/en-us/library/system.windows.data.collectionviewsource.getdefaultview\(v=vs.110\).aspx) again, the following restates some of what we just learned, but with an additional important note about how the default binding works for multiple controls __(emphasis mine)__.
+From [MSDN](http://msdn.microsoft.com/en-us/library/system.windows.data.collectionviewsource.getdefaultview\(v=vs.110\).aspx) again, the following restates some of what we just learned, but with an additional important note about how the default binding works for multiple controls _(emphasis mine)_.
 
-> All collections have a default CollectionView. WPF always binds to a view rather than a collection. ****If you bind directly to a collection, WPF actually binds to the default view for that collection.**** This default view is shared by all bindings to the collection, which causes all direct bindings to the collection to share the sort, filter, group, and current item characteristics of the one default view.
+> All collections have a default CollectionView. WPF always binds to a view rather than a collection. **If you bind directly to a collection, WPF actually binds to the default view for that collection.** This default view is shared by all bindings to the collection, which causes all direct bindings to the collection to share the sort, filter, group, and current item characteristics of the one default view.
 
 Once we have a reference to the default view, what can we do with it?
 
@@ -137,7 +137,7 @@ Now we need the XAML, with a `ListView` and `TextBox`:
 
 Here we're binding the `Pirates` collection to `PiratesListView`, and using the `TextBox` named `PiratesFilter` to help filter the contents of the list.
 
-Finally, a few lines of code in the code-behind file help us wire up the filtering mechanism. __(If there's a way to define this in the XAML too, I'd like to hear about it, but this works just fine too.)__
+Finally, a few lines of code in the code-behind file help us wire up the filtering mechanism. _(If there's a way to define this in the XAML too, I'd like to hear about it, but this works just fine too.)_
 
 ```csharp
 public partial class MainWindow
@@ -180,8 +180,8 @@ In the `OnLoaded` event, we've attached a delegate to the [Filter](http://msdn.m
 
 Most of the time, WPF applies the filter automatically for us, without doing anything extra. However, if our code is performing some heavy calculations, we may want to have more control over the timing of when the filter is applied.
 
-****It's possible to manually**** [****refresh****](http://msdn.microsoft.com/en-us/library/system.windows.data.collectionview.refresh\(v=vs.110\).aspx) ****the view, even though most of the time it's unnecessary****:
+**It's possible to manually** [**refresh**](http://msdn.microsoft.com/en-us/library/system.windows.data.collectionview.refresh\(v=vs.110\).aspx) **the view, even though most of the time it's unnecessary**:
 
 > When you set the [Filter](https://learn.microsoft.com/en-us/dotnet/api/system.windows.data.collectionview.filter?view=windowsdesktop-8.0), [SortDescriptions](https://learn.microsoft.com/en-us/dotnet/api/system.windows.data.collectionview.sortdescriptions?view=windowsdesktop-8.0), or [GroupDescriptions](https://learn.microsoft.com/en-us/dotnet/api/system.windows.data.collectionview.groupdescriptions?view=windowsdesktop-8.0) property; a refresh occurs. You do not have to call the [Refresh](https://learn.microsoft.com/en-us/dotnet/api/system.windows.data.collectionview.refresh?view=windowsdesktop-8.0) method immediately after you set one of those properties. For information about how to delay automatic refresh, see [DeferRefresh](https://learn.microsoft.com/en-us/dotnet/api/system.windows.data.collectionview.deferrefresh?view=windowsdesktop-8.0).
 
-Ultimately, we're in control of how often the view is refreshed. And now that's __really__ it. 😄
+Ultimately, we're in control of how often the view is refreshed. And now that's _really_ it. 😄

@@ -15,8 +15,8 @@ Check out the [official Ghost API docs](https://docs.ghost.org/api/), and read a
 
 The [source code for GhostSharp](https://github.com/grantwinney/GhostSharp) is available on GitHub. It's covered by a full suite of unit and integration tests, which you can configure and run against your Ghost instance, or just [check out the build history here](https://travis-ci.org/github/grantwinney/GhostSharp/builds). Instructions on using it are in the [readme](https://github.com/grantwinney/GhostSharp), or you could [install it via NuGet](https://www.nuget.org/packages/GhostSharp/) (recommended).
 
-I've implemented those endpoints that are [marked as stable](https://docs.ghost.org/api/admin/#endpoints) __(posts, pages, images, themes, site)__. No sense covering things that are just going to change...
+I've implemented those endpoints that are [marked as stable](https://docs.ghost.org/api/admin/#endpoints) _(posts, pages, images, themes, site)_. No sense covering things that are just going to change...
 
 ## Contributions / Issues
 
-[Open an issue](https://github.com/grantwinney/GhostSharp/issues/new), and include errors, unexpected behavior, steps to reproduce, etc. ****The more details, the better!**** Feel free to [open a PR](https://github.com/grantwinney/GhostSharp/compare) if you figure out how to fix it. I don't always have a ton of time, but I'll address issues as time permits.
+[Open an issue](https://github.com/grantwinney/GhostSharp/issues/new), and include errors, unexpected behavior, steps to reproduce, etc. **The more details, the better!** Feel free to [open a PR](https://github.com/grantwinney/GhostSharp/compare) if you figure out how to fix it. I don't always have a ton of time, but I'll address issues as time permits.

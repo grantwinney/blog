@@ -25,7 +25,7 @@ First though, two things to consider:
 
 ---
 
-The Google Maps API isn't so much an API but a [series of APIs](https://developers.google.com/maps/get-started/) - for Android, iOS, web, etc - and each is focused on a small set of tasks. At first this seemed a bit overwhelming, to see a large set of APIs, but each of them is easy to use. I'll pick a few out to play around with. __(does that count as three days then?)__
+The Google Maps API isn't so much an API but a [series of APIs](https://developers.google.com/maps/get-started/) - for Android, iOS, web, etc - and each is focused on a small set of tasks. At first this seemed a bit overwhelming, to see a large set of APIs, but each of them is easy to use. I'll pick a few out to play around with. _(does that count as three days then?)_
 
 ## Geocoding API
 
@@ -33,7 +33,7 @@ The first one I thought looked interesting was the [Geocoding API](https://devel
 
 ### Authorization
 
-Oddly enough, you don't __need__ an API key to experiment with these calls - they worked fine for me without it. I'm not sure how they rate limit requests then, but you'd still need one for a real product, so if you're up for it then [request an API key](https://developers.google.com/maps/documentation/geocoding/get-api-key) before doing anything else. Google's docs are pretty straightforward so there's not much else to say, except that you can just select "Create a new project".
+Oddly enough, you don't _need_ an API key to experiment with these calls - they worked fine for me without it. I'm not sure how they rate limit requests then, but you'd still need one for a real product, so if you're up for it then [request an API key](https://developers.google.com/maps/documentation/geocoding/get-api-key) before doing anything else. Google's docs are pretty straightforward so there's not much else to say, except that you can just select "Create a new project".
 
 ![google-maps-geocoding-api---create-project-for-api-key](https://grantwinney.com/content/images/2017/12/google-maps-geocoding-api---create-project-for-api-key.png)
 
@@ -162,7 +162,7 @@ How about trying the reverse, and getting the address again from the coordinates
 GET https://maps.googleapis.com/maps/api/geocode/json?latlng=41.4984174,-81.69372869999999
 ```
 
-I was suprised to find the results (a portion of which is shown below) included far more than I had expected (such as a bus station), only because the coordinates seem __so__ specific.
+I was suprised to find the results (a portion of which is shown below) included far more than I had expected (such as a bus station), only because the coordinates seem _so_ specific.
 
 I searched for my home address and had similar results with the reverse search - the lat/long coords returned my house (cool), an address range on the street that intersects mine (we're a corner lot, so okay), and a few addresses at the county level and the closest major city (weird and vague). It's possible the list that gets returned is most to least specific, but why there are multiple hits at all I don't really get.
 
@@ -353,7 +353,7 @@ I searched for my home address and had similar results with the reverse search -
 
 That last API was straight-forward. Let's try looking up some directions with the [Directions API](https://developers.google.com/maps/documentation/directions/intro) next. You don't need an API token to test this one either, although certain parameters seem to require it. [Create a new key](https://developers.google.com/maps/documentation/directions/get-api-key) if you want, and append it with `&key=<your-api-key>`.
 
-Pick an origin and destination. I chose the Terminal Tower (again) as the origin, and a Starbucks around the corner from it as the destination (I know, there's probably 2 Starbucks __inside__ it), so the results wouldn't be too large. Note the section in the results called "steps", each of which have a start and end, total distance and duration, and even a one-line instruction in English.
+Pick an origin and destination. I chose the Terminal Tower (again) as the origin, and a Starbucks around the corner from it as the destination (I know, there's probably 2 Starbucks _inside_ it), so the results wouldn't be too large. Note the section in the results called "steps", each of which have a start and end, total distance and duration, and even a one-line instruction in English.
 
 There are lots of parameters for specifying how the directions should be calculated. In the following request, I've chosen "walking" as the travel mode, told it to return alternative routes, and set the language to French.
 
@@ -790,7 +790,7 @@ GET https://maps.googleapis.com/maps/api/directions/json?origin=50+Public+Square
 
 ## Time Zone API
 
-We'll try one more. The Time Zone API presents time zone information for a given set of coordinates. Again, the key doesn't seem to be required for testing, but you can [get a key](https://developers.google.com/maps/documentation/timezone/start#get-a-key) anyway if you'd like. FWIW, when I tried to re-use a __previous__ auth key, it didn't like that - I got an error:
+We'll try one more. The Time Zone API presents time zone information for a given set of coordinates. Again, the key doesn't seem to be required for testing, but you can [get a key](https://developers.google.com/maps/documentation/timezone/start#get-a-key) anyway if you'd like. FWIW, when I tried to re-use a _previous_ auth key, it didn't like that - I got an error:
 
 ```json
 {

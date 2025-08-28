@@ -13,13 +13,13 @@ tags:
 - Reflections
 title: Every software dev is a contractor
 ---
-The work we do for any company in any role, even as full-time employees, is still just contract work, when you really think about it. It may be a very __long__ term contract - years or even decades - but eventually the contract ends. We pass the baton and someone else runs with it.
+The work we do for any company in any role, even as full-time employees, is still just contract work, when you really think about it. It may be a very _long_ term contract - years or even decades - but eventually the contract ends. We pass the baton and someone else runs with it.
 
 Keeping that in mind has subtly changed my outlook and approach.
 
 ## This is not your baby
 
-Whatever work I happen to be doing, it's not mine. Someone's paying me for my knowledge and experience, to make __their__ vision a reality. And that can actually be a freeing thought.
+Whatever work I happen to be doing, it's not mine. Someone's paying me for my knowledge and experience, to make _their_ vision a reality. And that can actually be a freeing thought.
 
 Imagine hiring someone to lay a patio for you. They spend weeks arguing with you and their fellow patio installers, about the shape and design, using new cutting-edge materials, pouring cement from front to back and top to bottom (lol). They finally pour it out, break it up and repour it, destroy it and rebuild it, again and again. And the whole time, they're charging you for their time and materials. Absurd, right?
 
@@ -45,4 +45,4 @@ Even though I'm full time now, I still do it. It helps me constantly re-evaluate
 
 There are always other opportunities out there. I like Scott Hanselman's post on [renewing your boss](https://www.hanselman.com/blog/changing-perspectives-on-your-job-will-you-renew-your-boss-for-another-season). It's not a dig on anyone's particular boss, but a call to really ask yourself, is (my boss, my boss's boss, this company, the project) still doing it for me?
 
-If the answer is no, don't settle for "at least it's familiar". You can always change it, hopefully right where you're at, but __always__ somewhere.
+If the answer is no, don't settle for "at least it's familiar". You can always change it, hopefully right where you're at, but _always_ somewhere.
