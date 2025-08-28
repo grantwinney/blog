@@ -18,7 +18,7 @@ tags:
 - Coding
 title: What is the opposite of Any in LINQ?
 ---
-If you are (or hope to be) a .NET developer, knowing [LINQ](https://linqsamples.com/) is a _huge_ time-saver. It's a syntax that allows you to manipulate data in a fashion that'll be familiar to anyone who's worked in a database.
+If you are (or hope to be) a .NET developer, knowing [LINQ](https://learn.microsoft.com/en-us/dotnet/csharp/linq/) is a _huge_ time-saver. It's a syntax that allows you to manipulate data in a fashion that'll be familiar to anyone who's worked in a database.
 
 ## Any
 
