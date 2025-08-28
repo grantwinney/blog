@@ -5,6 +5,41 @@ title: 'Grant Winney'
 theme:
   - 'papermod'
 
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 params:
   assets:
     favicon: "https://grantwinney.com/favicon.ico"
@@ -27,9 +62,3 @@ params:
 permalinks:
   page:
     posts: "/:slug/"
-
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
