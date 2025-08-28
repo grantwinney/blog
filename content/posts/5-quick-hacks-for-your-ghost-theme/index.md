@@ -33,7 +33,7 @@ Ghost can generate RSS feeds for individual tags, but they're not all that disco
 
 This produces a new "subscribe" link under the tag description when viewing a particular tag. _(Here I've applied some color and shadow effects to the other elements too.)_
 
-![](https://grantwinney.com/content/images/2017/03/ghost-subscribe-to-tag.png)
+![](ghost-subscribe-to-tag.png)
 
 ---
 
@@ -56,7 +56,7 @@ But what about posts? If there isn't a cover image for a post, the `post.hbs` te
 
 Here's a post that has no cover image assigned to it, so it's loading my blog cover image instead.
 
-![](https://grantwinney.com/content/images/2024/09/image-3.png)
+![](image-3.png)
 
 ---
 
@@ -89,7 +89,7 @@ The `front-page-image` class is for adding styling, because it's gonna look pret
 
 Here's what it ends up looking like. Notice how I have longer descriptions too. You can change `{{excerpt words="26"}}` to a larger number in the `tag.hbs` file. I set it to 100.
 
-![](https://grantwinney.com/content/images/2017/03/ghost-thumbnails-in-post-list.png)
+![](ghost-thumbnails-in-post-list.png)
 
 ---
 
@@ -97,9 +97,9 @@ Here's what it ends up looking like. Notice how I have longer descriptions too. 
 
 Ghost has built SEO functionality right into its core. While editing a post, you can add meta data about it. Ghost then uses that meta data to generate markup that can be consumed by search engines or used when posting to social media sites.
 
-![](https://grantwinney.com/content/images/2017/03/ghost-meta-data-in-post-list-1.png)
+![](ghost-meta-data-in-post-list-1.png)
 
-![](https://grantwinney.com/content/images/2017/03/ghost-meta-data-in-post-list-3.png)
+![](ghost-meta-data-in-post-list-3.png)
 
 What if you wanted to use this data, when present, as the "title" and "excerpt" on your blog in lists of posts like on the front page? I mean, you've already taken the extra step of adding a concise description of your post, so why not use that instead of having Ghost simply display the first xx words of your post?
 
@@ -131,7 +131,7 @@ You can modify that to check for the presence of a `meta_title` and `meta_descri
 
 And here's how it renders. The first post has a meta title _and_ meta description specified, but the second has neither.
 
-![](https://grantwinney.com/content/images/2024/09/image-4.png)
+![](image-4.png)
 
 ---
 
