@@ -2,7 +2,7 @@ baseURL = 'https://example.org/'
 description = 'A dev with questions... and answers too.'
 languageCode = 'en-us'
 title = 'Grant Winney'
-theme = ['hugo-admonitions', 'papermod']
+theme = ['papermod']
 
 [caches]
   [caches.images]
@@ -11,9 +11,3 @@ theme = ['hugo-admonitions', 'papermod']
 [permalinks]
   [permalinks.page]
     posts = '/:slug/'
-
-[module]
-  [[module.imports]]
-    path = "github.com/KKKZOZ/hugo-admonitions"
-  [[module.imports]]
-    path = "papermod"
