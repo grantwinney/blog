@@ -17,33 +17,34 @@ tags:
 - Deprecated API
 title: Manage blog posts, tags, and users with Ghost API v5.0
 ---
-
-
-The Ghost API provides access to your Ghost blog's posts, tags, and users. You can get items, as well as create them. Before accessing anything though, you'll need several pieces of data - which ones exactly depends on your blog settings and whether you're trying to use the public API or private API. I'll elaborate on the differences below.
+The [Ghost API](https://api.ghost.org/) provides access to your Ghost blog's posts, tags, and users. You can get items, as well as create them. Before accessing anything though, you'll need several pieces of data - which ones exactly depends on your blog settings and whether you're trying to use the public API or private API. I'll elaborate on the differences below.
 
 Before we get started though...
 
- * If you're unfamiliar with APIs, you might want to read this first to familiarize yourself with them.
- * You may want to install Postman, which allows you to access API endpoints without having to write an app, as well as save the calls you make and sync them online between your computers.
+- If you're unfamiliar with APIs, you might want to [read this first](https://grantwinney.com/what-is-an-api/) to familiarize yourself with them.
+- You may want to install [Postman](https://www.getpostman.com/), which allows you to access API endpoints without having to write an app, as well as save the calls you make and sync them online between your computers.
 
+## Authentication
 
-Authentication
+The API is split into two parts. The public one, called the [Content API](https://ghost.org/docs/content-api/), provides read access to any public data that a user/reader of a blog would normally see.
 
-The API is split into two parts. The public one, called the Content API, provides read access to any public data that a user/reader of a blog would normally see.
-
-The private one, called the Admin API, provides access to blog data in accordance with the permissions of the user making the request. This includes read and write access for any private data, managing users, uploading themes, etc. It's far more powerful, so obviously we need to be especially careful with that one.
+The private one, called the [Admin API](https://ghost.org/docs/admin-api/), provides access to blog data in accordance with the permissions of the user making the request. This includes read and write access for any private data, managing users, uploading themes, etc. It's far more powerful, so obviously we need to be especially careful with that one.
 
 Generating keys to use either of them is in site settings, under Advanced / Integrations, by choosing to add a custom integration. Even though we're only trying things out in Postman, it's the same process you'd have others go through for an integration of your own.
 
+![](https://grantwinney.com/content/images/2024/09/image-23.png)
 
-Try the Content API
+![](https://grantwinney.com/content/images/2024/09/image-21.png)
 
-The full list of available Content API endpoints is available in their dev docs, but let's try a couple here. In Postman, make a GET request like this one, substituting your own site and Content API key in place of mine:
+## Try the Content API
 
-https://YOUR_SITE.com/ghost/api/content/posts/?key=CONTENT_API_KEY&limit=1&include=tags
+The full list of [available Content API endpoints](https://ghost.org/docs/content-api/#endpoints) is available in their dev docs, but let's try a couple here. In Postman, make a `GET` request like this one, substituting your own site and Content API key in place of mine:
 
-Every request needs to have an Accept-Version header with a value of v5.0 or whatever version the API is. If everything goes well, we get a single post (which is what the limit=1 param is doing):
+`https://YOUR_SITE.com/ghost/api/content/posts/?key=CONTENT_API_KEY&limit=1&include=tags`
 
+Every request needs to have an `Accept-Version` header with a value of `v5.0` or whatever version the API is. If everything goes well, we get a single post (which is what the `limit=1` param is doing):
+
+```json
 {
     "posts": [
         {
@@ -73,13 +74,15 @@ Every request needs to have an Accept-Version header with a value of v5.0 or wha
         }
     }
 }
+```
 
 Here's one more, to get info about the an author by their slug:
 
-https://YOUR_SITE.com/ghost/api/content/authors/slug/AUTHOR_SLUG?key=CONTENT_API_KEY&include=count.posts&fields=id
+`https://YOUR_SITE.com/ghost/api/content/authors/slug/AUTHOR_SLUG?key=CONTENT_API_KEY&include=count.posts&fields=id`
 
 And the response from my site, when I query the only author on it... me:
 
+```json
 {
     "authors": [
         {
@@ -101,18 +104,19 @@ And the response from my site, when I query the only author on it... me:
         }
     ]
 }
+```
 
 Notice there's nothing personal here. It's all information a visitor could figure out anyway, or that's available once a page is loaded. I removed most of the "html" field and a few others, since there's no reason to re-post the full responses here, but you get the idea.
 
-
-Try the Admin API
+## Try the Admin API
 
 The Admin API used to be accessed very similiarly to the Content API, just using the Admin API key instead. Unfortunately, the implementation is more complicated now, and the documentation is difficult to understand and possibly inaccurate. Or maybe it's just me.
 
 There's nothing in the docs about getting this to work from Postman, and try as I might, I couldn't figure it out. There's also a sample bash script that seems straight-forward enough, but it wasn't working for me either, as-is.
 
-The Python script worked though, so we'll run with that. I've got this working in C# as well, in GhostSharp, so maybe just sticking to existing libraries for whatever language you're interested in is the best way to go...
+The Python script worked though, so we'll run with that. I've got this working in C# as well, in [GhostSharp](https://grantwinney.com/ghostsharp/), so maybe just sticking to existing libraries for whatever language you're interested in is the best way to go...
 
+```python
 import requests # pip install requests
 import jwt	# pip install pyjwt
 from datetime import datetime as date
@@ -142,9 +146,11 @@ headers = {'Authorization': 'Ghost {}'.format(token)}
 r = requests.get(url, headers=headers)
 
 print(r.content)
+```
 
 This produces a list of tiers, not surprisingly, which I've edited below to cut down on the amount of output:
 
+```json
 {
     "tiers": [
         {
@@ -195,5 +201,6 @@ This produces a list of tiers, not surprisingly, which I've edited below to cut 
         }
     }
 }
+```
 
-Just like with the Content API, the full list of available Admin API endpoints is in their docs too.
+Just like with the Content API, the full list of [available Admin API endpoints](https://ghost.org/docs/admin-api/#endpoints) is in their docs too.

@@ -18,52 +18,54 @@ tags:
 - Tools of the Trade
 title: Manage Boards and Cards With the Trello API
 ---
-
-
-If you're unfamiliar with Trello, it's a nice service that's similar to a kanban board... or a to-do list if you're just using it personally like I do. Anyway, I like it - maybe you will too. Let's check out the Trello API.
+If you're unfamiliar with Trello, it's a nice service that's similar to a kanban board... or a to-do list if you're just using it personally like I do. Anyway, I like it - maybe you will too. Let's check out the [Trello API](https://developers.trello.com/v1.0/reference).
 
 First though, two things to consider:
 
- * If you're unfamiliar with APIs, you might want to read this first to familiarize yourself.
- * Install Postman, which allows you to access API endpoints without having to write an app, as well as save the calls you make and sync them online.
+- If you're unfamiliar with APIs, you might want to [read this first](https://grantwinney.com/what-is-an-api/) to familiarize yourself.
+- Install [Postman](https://www.getpostman.com/), which allows you to access API endpoints without having to write an app, as well as save the calls you make and sync them online.
 
+---
 
-Authorization
+## Authorization
 
-The process for trying things out is nice and easy. Go to the Developer API Keys screen and copy the "Key" at the top of the page. Then click where it says "generate a Token" (it requests access to everything so you can try everything) and copy the token it generates too.
+The process for trying things out is nice and easy. Go to the [Developer API Keys](https://trello.com/app-key) screen and copy the "Key" at the top of the page. Then click where it says "generate a Token" (it requests access to everything so you can try everything) and copy the token it generates too.
 
+![](https://grantwinney.com/content/images/2017/12/trello-api---create-token.png)
 
-Trying It Out
+## Trying It Out
 
 Every request needs to have the key and auth token you copied above. To try it out, create a new board, and then throw a few lists in there, and a few cards in each list. You might want to add a couple descriptions and attachments too. Doing that will make it easier to see how the data is returned to you.
 
+### Get Board Metadata
 
-Get Board Metadata
+Open your sample board and check out the URL. Copy the unique 8-character ID and [retrieve your board's metadata](https://developers.trello.com/v1.0/reference#boardsboardid-1).
 
-Open your sample board and check out the URL. Copy the unique 8-character ID and retrieve your board's metadata.
-
+```
 GET https://api.trello.com/1/boards/Ii6vhIyq?fields=name,url&key=<your-key>&token=<your-token>
+```
 
+The ID is returned, but apparently isn't necessary since the 8-character code seems to work just fine for identifying a board too (after all, that still allows for 218 __trillion__ combos).
 
-The ID is returned, but apparently isn't necessary since the 8-character code seems to work just fine for identifying a board too (after all, that still allows for 218 trillion combos).
-
+```json
 {
     "id": "5a43c77676a7de01ddf92550",
     "name": "Just a test board",
     "url": "https://trello.com/b/Ii6vhIyq/just-a-test-board"
 }
+```
 
+### Get Cards for a Board
 
+What if you want to [get the contents of a board](https://developers.trello.com/v1.0/reference#boardsboardidtest), not just metadata? You can request that too.
 
-Get Cards for a Board
-
-What if you want to get the contents of a board, not just metadata? You can request that too.
-
+```
 https://api.trello.com/1/boards/<board-id>/cards?key=<your-key>&token=<your-token>
+```
 
+Here's part of the result from my sample board. I've actually got 5 cards, but I'm only showing data for 2 of them. There's a lot of unique IDs we can use to look up more information. The first card below has an image attached - see where it has a value for `idAttachmentCover` where the second card has null? The second card has a description (see `desc`), checklist (see `idChecklists`), and an attachment (a link) which doesn't seem to show in the response. Am I missing something?
 
-Here's part of the result from my sample board. I've actually got 5 cards, but I'm only showing data for 2 of them. There's a lot of unique IDs we can use to look up more information. The first card below has an image attached - see where it has a value for idAttachmentCover where the second card has null? The second card has a description (see desc), checklist (see idChecklists), and an attachment (a link) which doesn't seem to show in the response. Am I missing something?
-
+```json
 [
     {
         "id": "5a43c8080110176567dbd1d5",
@@ -160,21 +162,23 @@ Here's part of the result from my sample board. I've actually got 5 cards, but I
         "url": "https://trello.com/c/Ko9IqGHj/4-second-list-card-2"
     },
 ]
+```
 
+### Get Details for a Card
 
+In Trello, boards have lists, lists have cards, and cards have ... stuff. Like [checklists](https://developers.trello.com/v1.0/reference#checklistsid), [attachments](https://developers.trello.com/v1.0/reference#cardsidattachments), etc. Here's what the card I referenced above, with the checklists and whatnot, looks like:
 
-Get Details for a Card
+![](https://grantwinney.com/content/images/2017/12/trello-api---card-1.png)
 
-In Trello, boards have lists, lists have cards, and cards have ... stuff. Like checklists, attachments, etc. Here's what the card I referenced above, with the checklists and whatnot, looks like:
-
-
-
+  
 
 There are endpoints to query all of that data. Let's query the checklist.
 
+```
 GET https://api.trello.com/1/checklists/5a43d3805d56ec37f5780b4e?key=<your-key>&token=<your-token>
+```
 
-
+```json
 {
     "id": "5a43d3805d56ec37f5780b4e",
     "name": "Vegetables",
@@ -212,23 +216,24 @@ GET https://api.trello.com/1/checklists/5a43d3805d56ec37f5780b4e?key=<your-key>&
         }
     ]
 }
+```
 
+### Update a Card
 
+We can also [update cards](https://developers.trello.com/v1.0/reference#cardsid-1). Here's a `PUT` request that updates the above card's name and description:
 
-Update a Card
-
-We can also update cards. Here's a PUT request that updates the above card's name and description:
-
+```
 PUT https://api.trello.com/1/cards/5a43c80fa2cc50186c1f8df9?name=second%20list,%20card%20TOOOO&desc=a%20less%20briefer%20description&key=<your-key>&token=<your-token>
-
+```
 
 The response returns the entire updated record, which is pretty typical for a REST endpoint (but not required... in fact, the suggestions and recommendations for REST APIs are endless, but there are very few hard and fast rules). Here's what the card looks like after the update:
 
+![](https://grantwinney.com/content/images/2017/12/trello-api---card-2.png)
 
-Thoughts
+## Thoughts
 
-The documentation is pretty easy to read. There are tons of endpoints for getting as much or as little data as you need, and you can even try most of them out right from their website.
+The [documentation](https://developers.trello.com/v1.0/reference) is pretty easy to read. There are tons of endpoints for getting as much or as little data as you need, and you can even try most of them out right from their website.
 
 I like that they make it so easy to get an auth token with access to everything, for the purposes of playing around, but that they provide fine-grained access for when you get around to creating a real application. When you're designing an app, it should only request access to what it absolutely needs.
 
-There's way more available than I could possibly even touch the tip of the iceberg with here. There are enough calls to allow you to write some pretty cool apps / browser extensions / whatever. The devs behind it did a really nice job. Now that Atlassian purchased Trello, I'm hoping it continues to improve where needed - and remain the same where it already works perfectly well!
+There's way more available than I could possibly even touch the tip of the iceberg with here. There are enough calls to allow you to write some pretty cool apps / browser extensions / whatever. The devs behind it did a really nice job. Now that [Atlassian purchased Trello](https://techcrunch.com/2017/01/09/atlassian-acquires-trello/), I'm hoping it continues to improve where needed - and remain the same where it already works perfectly well!

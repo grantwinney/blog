@@ -16,36 +16,38 @@ tags:
 - Space
 title: View the Mars Rover, Landsat Images, and More with the NASA API
 ---
-
-
-NASA's API makes their data (such as Mars rover photos) available to anyone who wants to consume it. It's an unprecedented wealth of knowledge, so let's dig in!
+[NASA's API](https://api.nasa.gov/) makes their data (such as Mars rover photos) available to anyone who wants to consume it. It's an unprecedented wealth of knowledge, so let's dig in!
 
 First though, two things to consider:
 
- * If you're unfamiliar with APIs, you might want to read this first to familiarize yourself.
- * Install Postman, which allows you to access API endpoints without having to write an app, as well as save the calls you make and sync them online.
+- If you're unfamiliar with APIs, you might want to [read this first](https://grantwinney.com/what-is-an-api/) to familiarize yourself.
+- Install [Postman](https://www.getpostman.com/), which allows you to access API endpoints without having to write an app, as well as save the calls you make and sync them online.
 
+---
 
-Authorization
+## Authorization
 
-You aren't required to get an API key (you can just use the string "DEMO_KEY" instead of an actual key), but you might as well. Without one, the limit is 50 requests per day - with one, it's (usually) 1000 requests per hour. Fill out the form, and it immediately displays an API key on the same page.
+You aren't required to get an API key __(you can just use the string "DEMO_KEY" instead of an actual key),__ but you might as well. Without one, the limit is 50 requests per day - with one, it's (usually) 1000 requests per hour. [Fill out the form](https://api.nasa.gov/#signUp), and it immediately displays an API key on the same page.
+
+![nasa-api---get-api-key](https://grantwinney.com/content/images/2017/12/nasa-api---get-api-key.png)
 
 Interestingly, they also refer to this as your api.data.gov API key ... not sure where else this key is supposed to work, or whether they just have plans for the future. But at the very least, it seems to work across the various APIs published by NASA.
 
+## Requesting Data
 
-Requesting Data
+Just append your API key as a parameter to any of the [available API requests](https://api.nasa.gov/#browseAPI) __(scroll down towards the bottom of the page if the link doesn't take you there)__. Try a simple one first, to make sure your API key works.
 
-Just append your API key as a parameter to any of the available API requests (scroll down towards the bottom of the page if the link doesn't take you there). Try a simple one first, to make sure your API key works.
+### Photo of the Day
 
+There's one that returns [metadata about the photo of the day](https://api.nasa.gov/#apod).
 
-Photo of the Day
-
-There's one that returns metadata about the photo of the day.
-
+```none
 GET https://api.nasa.gov/planetary/apod?api_key=<your-api-key>
+```
 
 You could parse the result and display the photo on your personal site, for example.
 
+```json
 {
     "copyright": "Craig Bobchin",
     "date": "2017-12-24",
@@ -56,19 +58,23 @@ You could parse the result and display the photo on your personal site, for exam
     "title": "SpaceX Rocket Launch Plume over California",
     "url": "https://apod.nasa.gov/apod/image/1712/SpaceXLaunch_Bobchin_960.jpg"
 }
+```
 
+![](https://apod.nasa.gov/apod/image/1712/SpaceXLaunch_Bobchin_960.jpg)
 
-
-Mars Rover Photos (Spirit)
+### Mars Rover Photos (Spirit)
 
 More photos! There's an API someone created just for retrieving photos from the various cameras on the various Mars rovers, going back 15 years.
 
-Here's a request for archived photos from May 9, 2009 (1900th "day" since landing), from the navigational camera aboard the Mars Spirit Rover (its mission ran from 2003 to 2011).
+Here's a request for archived photos from May 9, 2009 (1900th "day" since landing), from the navigational camera aboard the [Mars Spirit Rover](https://www.jpl.nasa.gov/missions/mars-exploration-rover-spirit-mer/) (its mission ran from 2003 to 2011).
 
+```none
 GET https://api.nasa.gov/mars-photos/api/v1/rovers/spirit/photos?sol=1900&camera=NAVCAM&api_key=<your-api-key>
+```
 
-And here's the result, with a couple of the photos displayed after it - this is so awesome! I had absolutely no idea all of this data was out there. Imagine, tens of thousands of photos spanning years and years, and it's all available for the querying.
+And here's the result. I had absolutely no idea all of this data was out there. Imagine, tens of thousands of photos spanning years and years, and it's all available for the querying.
 
+```json
 {
     "photos": [
         {
@@ -173,17 +179,19 @@ And here's the result, with a couple of the photos displayed after it - this is 
         }
     ]
 }
+```
 
-
-
-Mars Rover Photos (Curiosity)
+### Mars Rover Photos (Curiosity)
 
 Let's check the cameras on the Curiosity, which is currently still running. To get photos from earlier this year (Feb 4, the 1600th "day" since landing):
 
+```none
 GET https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1600&api_key=<your-api-key>
+```
 
 The returned dataset includes over 13000 lines of JSON, so's here's a couple photos worth - and a few actual photos again.
 
+```json
 {
     "photos": [
         {
@@ -239,11 +247,20 @@ The returned dataset includes over 13000 lines of JSON, so's here's a couple pho
         ...
     ]
 }
+```
 
+![](1600MR0081460100800609E02_DXXX.jpg)
 
+![](1600MR0081460240800623E01_DXXX.jpg)
 
-Thoughts
+![](NRB_539546160EDR_F0602928NCAM00207M_.JPG)
+
+![](NRB_539547976EDR_F0602928NCAM00207M_.JPG)
+
+![](NLB_539546160EDR_F0602928NCAM00207M_.JPG)
+
+## Thoughts
 
 There are lots of other APIs to experiment with too, but it's Christmas Eve and I can't sit around playing forever. ;) This was a nice set of APIs to discover though, and I'm excited to discover more about them in the future.
 
-It's great that NASA has made such an effort to publicize the data it's amassed over the years. Even more amazing is that this data - which could've been kept on a server somewhere inaccessible - is available to anyone in the world who requests it!
+It's great that NASA has made such an effort to publicize the data it's amassed over the years. Even more amazing is that this data - which could've been kept on a server somewhere inaccessible - is available to anyone in the __world__ who requests it!

@@ -13,18 +13,13 @@ tags:
 - Coding
 title: Modify a config file in Erlang
 ---
+I found myself recently needing to write an [escript](http://erlang.org/doc/man/escript.html) to modify a [config file](http://erlang.org/doc/man/config.html). All I needed was to read it in, make a couple updates, and write it back out. Should be easy, right? Please make it easy Erlang. No? Okay... 😢
 
+> The code in this post is available on <a href="https://github.com/grantwinney/BlogCodeSamples/tree/master/Languages/Erlang/ConfigFileModifier">GitHub</a>, for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
-I found myself recently needing to write an escript to modify a config file. All I needed was to read it in, make a couple updates, and write it back out. Should be easy, right? Please make it easy Erlang. No? Okay... 😢
+Here's a sample of what the config file looks like, without resembling actual production code of course. The point is, it's nothing special - just a list of configuration parameters for a system, laid out in a nested `proplist` format.
 
-
-
-The code in this post is available on GitHub, for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
-
-
-
-Here's a sample of what the config file looks like, without resembling actual production code of course. The point is, it's nothing special - just a list of configuration parameters for a system, laid out in a nested proplist format.
-
+```erlang
 [{application_1,[{log_options,[{log_path,"C:/Program Files/Acme/Logs"}]}]},
  {application_2,[{log_options,[{log_path,"C:/Program Files/Acme/Logs"}]},
                  {app_options,[{max_attempts,4},{attempt_delay_ms,5000}]},
@@ -35,20 +30,19 @@ Here's a sample of what the config file looks like, without resembling actual pr
                                 [{name,server},
                                  {exe,"C:/Program Files/Acme/Server.exe"}]]}]},
  {application_3,[{app_options,[{allowed_groups,[admin,manager]}]}]}].
+```
 
+## Reading in terms from a file
 
+My first thought was to just open the file and use the [proplists](http://erlang.org/doc/man/proplists.html) module to parse it, but whenever I opened it I got a binary string with the contents of the file. Was I reading it wrong? I started looking at the [file](http://erlang.org/doc/man/file.html) module for different ways to read a file, aaaand..... I had skipped right over the function I needed - [file:consult/1](http://erlang.org/doc/man/file.html#consult-1). If your file has nothing but legit Erlang code in it, then `file:consult()` can read it into memory.
 
-Reading in terms from a file
+In my defense, the name, description, and example are all awful... __"Reads Erlang terms, separated by '.'"__ That's all we get, but then the Erlang documentation leaves __much__ to be desired. And the name!! What does consulting a file have to do with reading in Erlang terms? And of course, there's no opposite unconsult or deconsult. Why can't we have a module that makes parsing and modifying these config files easier? 😖
 
-My first thought was to just open the file and use the proplists module to parse it, but whenever I opened it I got a binary string with the contents of the file. Was I reading it wrong? I started looking at the file module for different ways to read a file, aaaand..... I had skipped right over the function I needed - file:consult/1. If your file has nothing but legit Erlang code in it, then file:consult() can read it into memory.
+## Modifying a config file
 
-In my defense, the name, description, and example are all awful... "Reads Erlang terms, separated by '.'" That's all we get, but then the Erlang documentation leaves much to be desired. And the name!! What does consulting a file have to do with reading in Erlang terms? And of course, there's no opposite unconsult or deconsult. Why can't we have a module that makes parsing and modifying these config files easier? 😖
+And so, I present my own, more appropriately-named module called `config_parser`. You can grab it below or [find it on GitHub](https://github.com/grantwinney/erl-config-modifier), and modify it to your heart's content. It reads and writes __(__[__thank you__](https://zxq9.com/archives/1021)__)__ config files, and can also get and set nested terms so you can more easily modify them.
 
-
-Modifying a config file
-
-And so, I present my own, more appropriately-named module called config_parser. You can grab it below or find it on GitHub, and modify it to your heart's content. It reads and writes (thank you) config files, and can also get and set nested terms so you can more easily modify them.
-
+```erlang
 % Author: Grant Winney
 % License: MIT
 
@@ -92,13 +86,13 @@ error_message(enomem, _FileName) ->
     io_lib:format("There is not enough memory for the contents of the file.");
 error_message(Error, FileName) ->
     io_lib:format("~p error: ~p", [Error, FileName]).
+```
 
+## Usage
 
+There's a couple other files in the [repo](https://github.com/grantwinney/erl-config-modifier) so you can try it out. Just leave them in the same directory, compile the Erlang module, and run the two functions to see how it updates the config file. You should see a new dependency added to application_2, and a new group added to application_3.
 
-Usage
-
-There's a couple other files in the repo so you can try it out. Just leave them in the same directory, compile the Erlang module, and run the two functions to see how it updates the config file. You should see a new dependency added to application_2, and a new group added to application_3.
-
+```erlang
 [{application_1,[{log_options,[{log_path,"C:/Program Files/Acme/Logs"}]}]},
  {application_2,[{log_options,[{log_path,"C:/Program Files/Acme/Logs"}]},
                  {app_options,[{max_attempts,4},{attempt_delay_ms,5000}]},
@@ -111,9 +105,8 @@ There's a couple other files in the repo so you can try it out. Just leave them 
                                 [{name,consumer},
                                  {exe,"C:/Program Files/Acme/Consumer.exe"}]]}]},
  {application_3,[{app_options,[{allowed_groups,[admin,manager,owner]}]}]}].
+```
 
+## Issues
 
-
-Issues
-
-If you have a fix or problem, feel free to submit a PR or open an issue. Also, I haven't added any specs or EUnit tests around this, but if you do and you'd like to share them, I'd like to include them!
+If you have a fix or problem, feel free to [submit a PR](https://github.com/grantwinney/BlogCodeSamples/pulls) or [open an issue](https://github.com/grantwinney/BlogCodeSamples/issues/new?title=Issue%20regarding%20Erlang%20config%20file%20script). Also, I haven't added any specs or EUnit tests around this, but if you do and you'd like to share them, I'd like to include them!

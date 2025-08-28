@@ -16,24 +16,23 @@ tags:
 - Coding
 title: Taming the Erlang Beast
 ---
-
-
-When I switched from C# to Erlang, it was a steeper climb than I had anticipated. There's a lot that's different - static vs dynamic types, object-oriented vs functional, the immutability of variables and heavy emphasis on pattern-matching and recursion. It's a very different way of thinking. And unfortunately for me, there's no Visual Studio for Erlang to hold your hand.
+When I started programming in Erlang professionally, it was a steeper climb than I had anticipated. There's a __lot__ that's different from C# - static vs dynamic types, object-oriented vs functional, the immutability of variables and heavy emphasis on pattern-matching and recursion. It's a very different way of thinking. And unfortunately for me, there's no Visual Studio for Erlang to hold your hand.
 
 Over the last couple of years I've learned a few ways to tame the Erlang beast. It doesn't need to become C# or any other language, but there's definitely room for improving the developer experience.
 
+## Dialyzer
 
-Dialyzer
-
-Dialyzer is a static analysis tool that reports when you're attempting to pass the wrong types between functions, have unreachable code, etc.
+[Dialyzer](http://erlang.org/doc/man/dialyzer.html) is a static analysis tool that reports when you're attempting to pass the wrong types between functions, have unreachable code, etc.
 
 First, you have to run a command like this, in order to build up a persistent lookup table (PLT) containing type information for modules of the Erlang standard library. That information in turn is used by the actual analysis.
 
+```erlang
 dialyzer --build_plt --apps erts kernel stdlib
-
+```
 
 If we run Dialyzer against the following module, we'll be presented with a few warnings. Note that this module would have compiled just fine, and then would've thrown an exception at runtime.
 
+```erlang
 -module(dialsample).
 -export([function1/0]).
 
@@ -45,10 +44,11 @@ add_lists_of_ages(Ages1, Ages2) ->
 
 unused_function() ->
     ok.
+```
 
+Let's break the following output down a bit, in case it's the first time you've seen Dialyzer in action. It's warning us that since we're using the `++` operator, the first parameter to `add_lists_of_ages` __must__ be a list of something (anything). So it knows that passing `20` as the first parameter is going to fail. It's also warning us that `unused_function` will never be called, since it's not exported and nothing in the module calls it.
 
-Let's break the following output down a bit, in case it's the first time you've seen Dialyzer in action. It's warning us that since we're using the ++ operator, the first parameter to add_lists_of_ages must be a list of something (anything). So it knows that passing 20 as the first parameter is going to fail. It's also warning us that unused_function will never be called, since it's not exported and nothing in the module calls it.
-
+```none
 > dialyzer --src dialsample.erl
 
 dialsample.erl:4: Function function1/0 has no local return
@@ -60,22 +60,22 @@ dialsample.erl:8: The call erlang:'++'(Ages1::20,Ages2::25) will never return si
   the 1st argument from the success typing arguments: ([any()],any())
 
 dialsample.erl:10: Function unused_function/0 will never be called
-
+```
 
 Dialyzer is helpful by itself, but it's even more powerful when used with specs, which I'll cover next. If you'd like to learn more about Dialyzer, start here:
 
- * Dialyzer, a DIscrepancy AnaLYZer for ERlang programs (official docs)
- * Type Specifications and Erlang (Learn You Some Erlang)
+- [Dialyzer, a DIscrepancy AnaLYZer for ERlang programs](http://erlang.org/doc/man/dialyzer.html) (official docs)
+- [Type Specifications and Erlang](http://learnyousomeerlang.com/dialyzer) (Learn You Some Erlang)
 
+## Specs
 
-Specs
-
-Erlang is strongly typed (like C#, Java and others), but it's dynamic (not static) typed. That means it has distinct data types, but it resolves them at runtime instead of compile time - in other words, you don't realize you've screwed up until your code is executed and blows up in your face.
+Erlang is strongly typed (like C#, Java and others), but it's dynamic (not static) typed. That means it has [distinct data types](http://erlang.org/doc/reference_manual/data_types.html), but it resolves them at runtime instead of compile time - in other words, you don't realize you've screwed up until your code is executed and blows up in your face.
 
 Even when everything is working smoothly, it's absolutely painful to revisit a function that accepts multiple data types months later and try to expand on it. Or refactor it. Or just look at it.
 
-Dialyzer is powerful on its own, but coupling it with specs dials things up to 11. Here's the above example again, but including specs this time.
+Dialyzer is powerful on its own, but coupling it with [specs](http://erlang.org/doc/reference_manual/typespec.html#id80050) dials things up to 11. Here's the above example again, but including specs this time.
 
+```erlang
 -module(dialsample).
 
 -export([function1/0]).
@@ -87,10 +87,11 @@ function1() ->
 -spec add_lists_of_ages([pos_integer()], [pos_integer()]) -> [pos_integer()].
 add_lists_of_ages(Ages1, Ages2) ->
     Ages1 ++ Ages2.
-
+```
 
 Now when we run Dialyzer it recognizes that the function should receive (and return) lists of positive integers (and not just lists of anything).
 
+```none
 dialsample.erl:6: Function function1/0 has no local return
 dialsample.erl:7: The call dialsample:add_lists_of_ages(20,25) will never return since the success typing
   is ([any()],any()) -> any() and the contract is ([pos_integer()],[pos_integer()]) -> [pos_integer()]
@@ -98,22 +99,22 @@ dialsample.erl:7: The call dialsample:add_lists_of_ages(20,25) will never return
 dialsample.erl:10: Function add_lists_of_ages/2 has no local return
 dialsample.erl:11: The call erlang:'++'(Ages1::20,Ages2::25) will never return since it differs in the
   1st argument from the success typing arguments: ([any()],any())
-
+```
 
 Dialyzer always errs on the side of caution though, so as not to provide false-positive warnings. In other words, you get the most bang for your buck if you add specs to as much of your codebase as possible. The more you do, the more accurate and helpful Dialyzer becomes.
 
- * Types and Function Specifications (official docs)
- * Types (or lack thereof) (Learn You Some Erlang)
+- [Types and Function Specifications](http://erlang.org/doc/reference_manual/typespec.html) (official docs)
+- [Types (or lack thereof)](http://learnyousomeerlang.com/types-or-lack-thereof) (Learn You Some Erlang)
 
+## Records
 
-Records
-
-Records are glorified tuples, but provide some real benefits over a simple tuple. You can group information together under a name (the name of the record, also the first element of the tuple) and access all the fields in it by name too.
+[Records](http://erlang.org/doc/reference_manual/records.html) are glorified tuples, but provide some real benefits over a simple tuple. You can group information together under a name (the name of the record, also the first element of the tuple) and access all the fields in it by name too.
 
 I suggest using a record whenever you identify a few parameters that all seem to be related. It's somewhat analogous to grouping fields together into a class in other languages.
 
-Let's look at a small module that defines a record and then acts on it. Notice how it's defined, then used in generate_employee(), and then accessed in the last two functions. The alternative would be to pass around all those individual fields as separate ungrouped fields, but that could become a maintenance nightmare quickly.
+Let's look at a small module that defines a record and then acts on it. Notice how it's defined, then used in `generate_employee()`, and then accessed in the last two functions. The alternative would be to pass around all those individual fields as separate ungrouped fields, but that could become a maintenance nightmare quickly.
 
+```erlang
 -module(person).
 
 -record(employee,
@@ -138,8 +139,9 @@ get_name(Employee) ->
 -spec get_active_employees([#employee{}]) -> [#employee{}].
 get_active_employees(Employees) ->
     lists:filter(fun(Employee) -> Employee#employee.active =:= true end, Employees).
+```
 
-
+```none
 10> c(person).
 {ok,person}
 11> person:get_name(person:generate_employee()).
@@ -147,20 +149,24 @@ Jane Doe
 ok
 12> person:get_active_employees([person:generate_employee()]).
 [{employee,"Jane","Doe",{{2017,10,31},{6,1,55}},true}]
+```
 
+- [Records: Programming Examples](http://erlang.org/doc/programming_examples/records.html) (official docs)
+- [A Short Visit to Common Data Structures: Records](http://learnyousomeerlang.com/a-short-visit-to-common-data-structures#records) (Learn You Some Erlang)
 
- * Records: Programming Examples (official docs)
- * A Short Visit to Common Data Structures: Records (Learn You Some Erlang)
-
-
-EDoc
+## EDoc
 
 If you've been a programmer for longer than a few months you know we love to argue about certain things. Tabs vs spaces for example. I say one letter per line.
 
-The necessity of comments is another sticking point. Some love them, some think they're evil incarnate. Personally, I think comments are fine, but that the "why" of the code is more important than the "what". Not having any comments anywhere, no documentation or anything, is less than ideal. Write a large chunk of code, then check it in with a dozen other programmer's large chunks of code, then step away from the thing for a few months and try to remember what you did and why.
+![](https://imgs.xkcd.com/comics/third_way.png)
 
-Erlang has a documentation system called EDoc, which allows you document your code and even generate HTML page from it. Here's the previous example again, this time with comments added.
+[__https://xkcd.com/1285__](https://xkcd.com/1285)
 
+The necessity of comments is another sticking point. Some love them, some think they're evil incarnate. Personally, I think comments are fine, but that the "why" of the code is more important than the "what". Not having any comments __anywhere__, no documentation or anything, is less than ideal. Write a large chunk of code, then check it in with a dozen other programmer's large chunks of code, then step away from the thing for a few months and try to remember what you did and why.
+
+Erlang has a documentation system called [EDoc](http://erlang.org/doc/apps/edoc/chapter.html), which allows you document your code and even generate HTML page from it. Here's the previous example again, this time with comments added.
+
+```erlang
 %% @author Grant Winney
 %% @copyright 2017 Yours Truly
 %% @reference See <a href="http://homestarrunner.com">HomestarRunner</a> with any questions.
@@ -196,25 +202,30 @@ get_full_name(Employee) ->
 -spec get_active_employees([#employee{}]) -> [#employee{}].
 get_active_employees(Employees) ->
     lists:filter(fun(Employee) -> Employee#employee.active =:= true end, Employees).
+```
 
 Once you've added comments, you can easily generate an HTML document from the erl shell with a one-liner, and the results are pretty good. Compare the page below to the comments above - is everything there?
 
+```erlang
 edoc:files(["person.erl"]).
+```
+
+![](https://grantwinney.com/content/images/2017/11/edoc.png "EDoc")
 
 I really like the "Learn You Some Erlang" site, but unfortunately there's nothing on there about EDoc! Lots of info in the official docs though.
 
- * Welcome to EDoc
- * EDoc Reference Manual
+- [Welcome to EDoc](http://erlang.org/doc/apps/edoc/chapter.html)
+- [EDoc Reference Manual](http://erlang.org/doc/apps/edoc/)
 
+## EUnit
 
-EUnit
-
-You should strive to write tests for all your code. Well, as much as it makes sense. And not because someone wrote about it in a book or sold you on it at a conference, but because it just makes good sense. Once you write some code, or refactor it, or change any code around it, you should test everything to make sure it still works. Do you want to test it manually every time, or would you rather it happens automatically? Please tell me you said automatically.
+You should strive to write tests for all your code. Well, as much as it makes sense. And not because someone wrote about it in a book or sold you on it at a conference, but because it just makes good sense. Once you write some code, or refactor it, or change any code __around__ it, you should test everything to make sure it still works. Do you want to test it manually every time, or would you rather it happens automatically? Please tell me you said automatically.
 
 Erlang comes with a unit testing suite called EUnit, which you can use to test isolated blocks of your code. It's similar in vein to testing suites used by other languages, like NUnit, JUnit, xUnit (see a pattern yet?), etc.
 
 Here's the same code as before, stripped of all the EDoc and spec stuff, but with EUnit tests now. The first test is making sure employees' full names are returned as expected, while the second makes sure that only active employees are returned.
 
+```erlang
 -module(eunitsample).
 
 -record(employee,
@@ -265,24 +276,24 @@ get_active_employees_returns_active_employee_test() ->
     
     %% ...but not "Someone2"
     ?assertEqual(false, lists:keyfind("Someone2", #employee.first_name, ActiveEmployees)).
-
+```
 
 To run these tests, just pop into an erl shell, recompile and run them:
 
+```none
 > c(eunitsample).
 {ok,eunitsample}
 > eunit:test(eunitsample).
   All 3 tests passed.
 ok
+```
 
+Tests are a great form of documentation. Sure, you can document with EDoc what these functions do and why they exist, but that doesn't stop bugs. Now if anyone changes `get_name` to return only a first name, or adds an additional filter to `get_active_employees` that changes the results, the tests will fail. And this is HUGE in a language like Erlang, where nearly anything that might go wrong will do so at runtime.
 
-Tests are a great form of documentation. Sure, you can document with EDoc what these functions do and why they exist, but that doesn't stop bugs. Now if anyone changes get_name to return only a first name, or adds an additional filter to get_active_employees that changes the results, the tests will fail. And this is HUGE in a language like Erlang, where nearly anything that might go wrong will do so at runtime.
+- [EUnit - a Lightweight Unit Testing Framework for Erlang](http://erlang.org/doc/apps/eunit/chapter.html) (official docs)
+- [EUnit: The need for tests](http://learnyousomeerlang.com/eunit) (Learn You Some Erlang)
 
- * EUnit - a Lightweight Unit Testing Framework for Erlang (official docs)
- * EUnit: The need for tests (Learn You Some Erlang)
-
-
-Did I miss anything?
+# Did I miss anything?
 
 If you use any of these - or hopefully all of them! - you should find that the wild Erlang beast is greatly tamed. You'll have cleaner, more predictable, less buggy code.
 

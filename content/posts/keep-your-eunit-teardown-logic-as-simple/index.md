@@ -17,14 +17,13 @@ tags:
 - Coding
 title: Keep your EUnit teardown logic as simple as possible!
 ---
+When you use [test fixtures](https://learnyousomeerlang.com/eunit#fixtures) in EUnit, you'll likely define a `setup` and a `teardown` function, for doing initialization and cleanup work before and after each test. If you're familiar with `try/catch/finally` blocks in other languages, the teardown function is similar to a `finally` block; that is, it should always run even when a test throws an exception. But like a `finally` block, you want to be careful about what you're doing in your cleanup.
 
+I ran into an issue recently where EUnit tests that were part of a [test fixture](https://learnyousomeerlang.com/eunit#test-generators) were failing with an error I hadn't seen before. The error seemed to be coming from the [meck](https://github.com/eproxus/meck) mocking suite itself, and was reporting that it was "already_started"... and the tests would fail to run.
 
-When you use test fixtures in EUnit, you'll likely define a setup and a teardown function, for doing initialization and cleanup work before and after each test. If you're familiar with try/catch/finally blocks in other languages, the teardown function is similar to a finally block; that is, it should always run even when a test throws an exception. But like a finally block, you want to be careful about what you're doing in your cleanup.
+Here's a small program we can use to see the problem. All it does is accept a name, and print out a short greeting with the current time. __(The code below is trimmed down, but the__ [__full code is available on GitHub__](https://github.com/grantwinney/BlogCodeSamples/tree/master/Languages/Erlang/MeckTeardownTest) __if you'd like to run it. You'll want to have__ [__Rebar3__](https://www.rebar3.org/docs/getting-started) __installed, and it'd help to be familiar with__ [__Meck__](https://github.com/eproxus/meck)__.)__
 
-I ran into an issue recently where EUnit tests that were part of a test fixture were failing with an error I hadn't seen before. The error seemed to be coming from the meck mocking suite itself, and was reporting that it was "already_started"... and the tests would fail to run.
-
-Here's a small program we can use to see the problem. All it does is accept a name, and print out a short greeting with the current time. (The code below is trimmed down, but the full code is available on GitHub if you'd like to run it. You'll want to have Rebar3 installed, and it'd help to be familiar with Meck.)
-
+```erlang
 -module(salutations_app).
 -export([greeting_time/1]).
 
@@ -38,12 +37,13 @@ current_time() ->
 
 format(Template, Params) ->
     lists:flatten(io_lib:fwrite(Template, Params)).
+```
 
+## Teardown succeeds, even when a test throws an exception
 
-Teardown succeeds, even when a test throws an exception
+Here's the first example. Two of these tests intentionally throw exceptions - dividing by zero and sorting a non-list - but the `teardown` function should run regardless of whether individual tests throw an exception.
 
-Here's the first example. Two of these tests intentionally throw exceptions - dividing by zero and sorting a non-list - but the teardown function should run regardless of whether individual tests throw an exception.
-
+```erlang
 -module(exceptions_in_tests).
 
 -ifdef(EUNIT).
@@ -85,9 +85,11 @@ sue_gets_expected_greeting() ->
     ?assertEqual("Hi Sue, it's 2019-02-16T01:06:48Z!", salutations_app:greeting_time("Sue")).
 
 -endif.
+```
 
-From the output below, we can see where sue_gets_expected_greeting printed the first debug statement, but not the second after the exception is thrown. Both exceptions are printed to the console. But the teardown function ran all three times, even for the tests that fail. 👍
+From the output below, we can see where `sue_gets_expected_greeting` printed the first debug statement, but not the second after the exception is thrown. Both exceptions are printed to the console. But the `teardown` function ran all three times, even for the tests that fail. 👍
 
+```none
 > rebar3 eunit --module exceptions_in_tests
 ===> Verifying dependencies...
 ===> Compiling salutations
@@ -120,12 +122,13 @@ Failures:
 Finished in 0.343 seconds
 3 tests, 2 failures
 ===> Error running tests
+```
 
+## Teardown fails, when the teardown itself throws an exception
 
-Teardown fails, when the teardown itself throws an exception
+Here's the second example. Now the tests should pass, but the `teardown` function itself will throw an exception. The question is, what happens when it throws before the `meck:unload` runs?
 
-Here's the second example. Now the tests should pass, but the teardown function itself will throw an exception. The question is, what happens when it throws before the meck:unload runs?
-
+```erlang
 -module(exceptions_in_teardown).
 
 -ifdef(EUNIT).
@@ -164,9 +167,11 @@ sue_gets_expected_greeting() ->
     ?assertEqual("Hi Sue, it's 2019-02-16T01:06:48Z!", salutations_app:greeting_time("Sue")).
 
 -endif.
+```
 
-Nothing good, as it turns out! This is why I was seeing the "already_started" error - a previous meck:unload fails to run and the next test causes meck:new to run again. This example is silly, but what if you had some tests creating a file (yeah, yeah, against unit test philosophy but whatever) and wanted to delete it each time? What if one of those deletes failed and threw an exception? Every test after it fails too. 😭
+Nothing good, as it turns out! __This__ is why I was seeing the "already_started" error - a previous `meck:unload` fails to run and the next test causes `meck:new` to run again. This example is silly, but what if you had some tests creating a file (yeah, yeah, against unit test philosophy but whatever) and wanted to delete it each time? What if one of those deletes failed and threw an exception? Every test after it fails too. 😭
 
+```none
 > rebar3 eunit --module exceptions_in_teardown
 ===> Verifying dependencies...
 ===> Compiling salutations
@@ -225,12 +230,13 @@ Pending:
 Finished in 0.235 seconds
 3 tests, 0 failures, 3 cancelled
 ===> Error running tests
+```
 
+## Teardown succeeds, as long as it handles exceptions
 
-Teardown succeeds, as long as it handles exceptions
+Oooookay, first let me say you should really refactor your `teardown` function to do as little as possible and make it simple. But if that's not possible, then at the very least surround anything that could potentially fail in a [try/catch/after block](https://learnyousomeerlang.com/errors-and-exceptions#dealing-with-exceptions). Here's one final example that catches exceptions and __guarantees__ that the `meck:unload` will run.
 
-Oooookay, first let me say you should really refactor your teardown function to do as little as possible and make it simple. But if that's not possible, then at the very least surround anything that could potentially fail in a try/catch/after block. Here's one final example that catches exceptions and guarantees that the meck:unload will run.
-
+```erlang
 -module(exceptions_in_teardown_handled).
 
 -ifdef(EUNIT).
@@ -276,9 +282,11 @@ sue_gets_expected_greeting() ->
     ?assertEqual("Hi Sue, it's 2019-02-16T01:06:48Z!", salutations_app:greeting_time("Sue")).
 
 -endif.
+```
 
-So now we have a teardown that should always run and finish, thanks to an after block that runs meck:unload if all hell breaks loose. Granted, if it did throw when it failed to delete a file, you might run into other issues... but one disaster at a time. 😎
+So now we have a `teardown` that should always run __and__ finish, thanks to an `after` block that runs `meck:unload` if all hell breaks loose. Granted, if it __did__ throw when it failed to delete a file, you might run into other issues... but one disaster at a time. 😎
 
+```none
 > rebar3 eunit --module exceptions_in_teardown_handled
 ===> Verifying dependencies...
 ===> Compiling salutations
@@ -298,3 +306,4 @@ So now we have a teardown that should always run and finish, thanks to an after 
 
 Finished in 0.438 seconds
 3 tests, 0 failures
+```

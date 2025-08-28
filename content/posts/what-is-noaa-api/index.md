@@ -14,39 +14,42 @@ tags:
 - API
 title: Access Climate Data With the NOAA API
 ---
-
-
-NOAA is an American agency that studies and charts various conditions in the oceans and atmosphere, and today we're going to check out the NOAA API.
+[NOAA](http://www.noaa.gov/) is an American agency that studies and charts various conditions in the oceans and atmosphere, and today we're going to check out the [NOAA API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2/).
 
 First though, two things to consider:
 
- * If you're unfamiliar with APIs, you might want to read this first to familiarize yourself.
- * Install Postman, which allows you to access API endpoints without having to write an app, as well as save the calls you make and sync them online.
+- If you're unfamiliar with APIs, you might want to [read this first](https://grantwinney.com/what-is-an-api/) to familiarize yourself.
+- Install [Postman](https://www.getpostman.com/), which allows you to access API endpoints without having to write an app, as well as save the calls you make and sync them online.
 
+---
 
-Authorization
+## Authorization
 
-First things first... we need an access token. NOAA uses a slightly differently method than the other ones I've seen so far, but it's minor. You need to provide an email address and they'll email you a unique token. You can request an API token here. I got the email within seconds.
+First things first... we need an access token. NOAA uses a slightly differently method than the other ones I've seen so far, but it's minor. You need to provide an email address and they'll email you a unique token. You can [request an API token](https://www.ncdc.noaa.gov/cdo-web/token) here. I got the email within seconds.
 
-The limits are very generous if you're using it for a small project for yourself or a team - "each token will be limited to five requests per second and 10,000 requests per day".
+![noaa-api---request-token-1](https://grantwinney.com/content/images/2017/12/noaa-api---request-token-1.png)
+
+The limits are very generous if you're using it for a small project for yourself or a team - __"each token will be limited to five requests per second and 10,000 requests per day"__.
 
 For any request you make, include the access token as a header named "token".
 
+![noaa-api---token-header](https://grantwinney.com/content/images/2017/12/noaa-api---token-header.png)
 
-Requesting Data
+## Requesting Data
 
-Their web services documentation is pretty straight-forward. It follows a simple format, and each endpoint you can hit is in a tab along the top of that page.
+Their [web services documentation](https://www.ncdc.noaa.gov/cdo-web/webservices/v2) is pretty straight-forward. It follows a simple format, and each endpoint you can hit is in a tab along the top of that page.
 
-
-Get All Stations
+### Get All Stations
 
 Try requesting all stations using:
 
+```
 GET https://www.ncdc.noaa.gov/cdo-web/api/v2/stations
-
+```
 
 You'll get the first 25 results. Check out the metadata section that tells you the offset, the number of records returned (limit), and the total records (count). You can adjust the results using "offset" and "limit" parameters.
 
+```json
 {
     "metadata": {
         "resultset": {
@@ -82,15 +85,15 @@ You'll get the first 25 results. Check out the metadata section that tells you t
         ...
     ]
 }
+```
 
+### Get a Subset of Stations
 
-
-Get a Subset of Stations
-
-There are certain filters that can be applied. You can limit stations to a certain geographical location using a FIPS (Federal Information Processing System) code. I don't know if there's a central source for these codes, but here are some.
+There are certain filters that can be applied. You can limit stations to a certain geographical location using a FIPS (Federal Information Processing System) code. I don't know if there's a central source for these codes, but [here are some](https://census.gov/geographies/reference-files/2016/demo/popest/2016-fips.html).
 
 Since it's an excel sheet and not everyone can open it, here's a portion of it reproduced:
 
+```
 09 - Connecticut
 23 - Maine
 25 - Massachusetts
@@ -142,15 +145,17 @@ Since it's an excel sheet and not everyone can open it, here's a portion of it r
 15 - Hawaii
 41 - Oregon
 53 - Washington
+```
 
+I made the same call as previously, but used the FIPS code for Maine, limited the result to 5 records, and sorted by oldest `mindate` first:
 
-I made the same call as previously, but used the FIPS code for Maine, limited the result to 5 records, and sorted by oldest mindate first:
-
+```
 GET https://www.ncdc.noaa.gov/cdo-web/api/v2/stations?locationid=FIPS:23&limit=5&sortfield=mindate
-
+```
 
 Here are the results. Not sure what the dates mean.
 
+```json
 {
     "metadata": {
         "resultset": {
@@ -217,18 +222,19 @@ Here are the results. Not sure what the dates mean.
         }
     ]
 }
+```
 
-
-
-Get Available Datasets for a Station
+### Get Available Datasets for a Station
 
 Once you've got a list of stations, you can get data for a station. But what set of data do you want? In order to determine that, you'll need to query to see what datasets are available. I selected the last one from the results of the previous query.
 
+```
 GET https://www.ncdc.noaa.gov/cdo-web/api/v2/datasets?stationid=GHCND:USC00173046
-
+```
 
 At first glance, it appears I can choose from daily, monthly, and yearly summaries.
 
+```json
 {
     "metadata": {
         "resultset": {
@@ -288,23 +294,23 @@ At first glance, it appears I can choose from daily, monthly, and yearly summari
         }
     ]
 }
+```
 
+## Get Data for a Station
 
-
-Get Data for a Station
-
-You've got a station you're interested in, and the dataset for that station, so all that's left is querying for the actual data. Unfortunately, I have no clue what the returned data means.
+You've got a station you're interested in, and the dataset for that station, so all that's left is querying for the actual data. Unfortunately, I have no clue what the returned data __means__.
 
 Oh well, let's get the data first, then try figuring out what it means.
 
-
-Get Daily Summary
+### Get Daily Summary
 
 This request gets the daily summary for the same station we looked up previously. I limited it to the month of January because trying to get the entire year didn't finish after waiting several minutes.
 
+```
 GET https://www.ncdc.noaa.gov/cdo-web/api/v2/data?stationid=GHCND:USC00173046&datasetid=GHCND&startdate=2017-01-01&enddate=2017-01-31
+```
 
-
+```json
 {
     "metadata": {
         "resultset": {
@@ -360,32 +366,34 @@ GET https://www.ncdc.noaa.gov/cdo-web/api/v2/data?stationid=GHCND:USC00173046&da
         ...
     ]
 }
-
+```
 
 The above is just a portion of the results. The "station" is the one I specified, and the "date" falls within the range I specified. The "datatype" is a code that indicates what the record refers to.
 
-I don't feel like going into codes too deeply - you can find more here, under the header "III. FORMAT OF DATA FILES" - but here are a few to match the results above:
+I don't feel like going into codes too deeply - you can [find more here](undefined), under the header "III. FORMAT OF DATA FILES" - but here are a few to match the results above:
 
+```
 PRCP = Precipitation (tenths of mm)
 SNOW = Snowfall (mm)
 SNWD = Snow depth (mm)
 TMAX = Maximum temperature (tenths of degrees C)
 TMIN = Minimum temperature (tenths of degrees C)
 TOBS = Temperature at the time of observation (tenths of degrees C)
+```
 
+I'm guessing that "value" is self-explanatory - like 279 for SNWD is 279mm or about 11" of snow; and 6 for TOBS means .6°C, or about 33°F. The "attributes" though - not sure what those mean. __(update: thanks to__ [__Tim Erickson__](https://disqus.com/by/disqus_oHegIKlHsZ/) __for finding a reference to__ [__NOAA NCDC dataset attributes__](https://cran.r-project.org/web/packages/rnoaa/vignettes/ncdc_attributes.html)__!)__
 
-I'm guessing that "value" is self-explanatory - like 279 for SNWD is 279mm or about 11" of snow; and 6 for TOBS means .6°C, or about 33°F. The "attributes" though - not sure what those mean. (update: thanks to Tim Erickson for finding a reference to NOAA NCDC dataset attributes!)
-
-
-Get Yearly Summary
+### Get Yearly Summary
 
 Here's one last one - same station as before, but using the "yearly" dataset filtered to about a 7 year period.
 
+```
 GET https://www.ncdc.noaa.gov/cdo-web/api/v2/data?stationid=GHCND:USC00173046&datasetid=GSOY&startdate=2010-01-01&enddate=2017-01-31
-
+```
 
 The results contain different codes than before, but I couldn't find definitions for them this time... so I'm not even sure what to make of this but here it is anyway.
 
+```json
 {
     "metadata": {
         "resultset": {
@@ -453,10 +461,9 @@ The results contain different codes than before, but I couldn't find definitions
         ...
     ]
 }
+```
 
-
-
-Thoughts
+## Thoughts
 
 Emailing an API token, with no apparent way to reset it (maybe there is and I didn't see it), is a little like emailing a password. It wouldn't be my first choice. I wish they did like many other APIs and either let you generate it through the secure website itself, or make a separate API call to return the token.
 

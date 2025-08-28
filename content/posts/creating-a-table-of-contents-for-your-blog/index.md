@@ -13,12 +13,11 @@ tags:
 - Coding
 title: Creating a table of contents for your blog
 ---
+I wrote about [5 quick hacks for your Ghost theme](https://grantwinney.com/5-quick-hacks-for-your-ghost-theme) last year, after switching to Ghost as a blogging platform. The last hack I mentioned was generating a "table of contents" using a handlebars script I'd found. Ghost was still considered beta at the time, and when 1.0 was released, the script stopped working correctly. I never bothered going back to figure out why.
 
+A table of contents is nice to have though, and convenient for your visitors, so I wrote a new script that should work for any html page (with minor adjustments). Here it is in entirety, or [check GitHub for the latest version](https://github.com/grantwinney/table-of-contents-for-html-page).
 
-I wrote about 5 quick hacks for your Ghost theme last year, after switching to Ghost as a blogging platform. The last hack I mentioned was generating a "table of contents" using a handlebars script I'd found. Ghost was still considered beta at the time, and when 1.0 was released, the script stopped working correctly. I never bothered going back to figure out why.
-
-A table of contents is nice to have though, and convenient for your visitors, so I wrote a new script that should work for any html page (with minor adjustments). Here it is in entirety, or check GitHub for the latest version.
-
+```javascript
 /**
  * For displaying a table of contents - pass the entire document (DOM) to getTocMarkup
  */
@@ -85,9 +84,11 @@ function getTocMarkup(document) {
         return "";
     }
 }
+```
 
 And a sample of the HTML it generates, using this post as an example:
 
+```html
 <h2 class="title bordered uppercase">Table of Contents</h2>
 <div style="margin-left:15px; margin-bottom:20px">
     <ol style="list-style-type:disc; margin-left:10px">
@@ -103,32 +104,32 @@ And a sample of the HTML it generates, using this post as an example:
     </ol>
 </div>
 <hr>
+```
 
-
-General Usage
+## General Usage
 
 Just call the function and write the return value out to the page.
 
+```html
 <script type="text/javascript">
     document.write(getTocMarkup(document));
 </script>
+```
 
-
-
-Usage in Ghost
+## Usage in Ghost
 
 Here's how I've got it displayed in the side bar in Ghost.
 
- 1. Copy the above script into a file named toc.js, and drop the file into the assets/js directory.
- 2. Reference the file from default.hbs, somewhere between the <head></head> tags so it's available as the page loads.
-    <script type="text/javascript" src="{{asset "js/toc.js"}}"></script>
- 3. Call it from wherever you want to display it.
+1. Copy the above script into a file named `toc.js`, and drop the file into the `assets/js` directory.
+2. Reference the file from `default.hbs`, somewhere between the `<head></head>` tags so it's available as the page loads.  
+    `<script type="text/javascript" src="{{asset "js/toc.js"}}"></script>`
+3. Call it from wherever you want to display it.
 
+### Wildbird
 
-Wildbird
+To get it to work with the Wildbird theme specifically, I modified the `sidebar.hbs` file so that, if the current page is a "post", it'll insert a new section containing a table of contents.
 
-To get it to work with the Wildbird theme specifically, I modified the sidebar.hbs file so that, if the current page is a "post", it'll insert a new section containing a table of contents.
-
+```html
 {{!-- Table of Contents --}}
 {{#is "post"}}
 <section class="widget widget-text">
@@ -137,15 +138,16 @@ To get it to work with the Wildbird theme specifically, I modified the sidebar.h
     </script>
 </section><!-- .widget -->
 {{/is}}
+```
 
-
-Casper
+### Casper
 
 If you want it to work with the Casper theme, you'll need to make a couple changes.
 
- * First, change this line in the toc.js script, so that post-content is post-full-content, since that's the name of the class on the element that contains the body of your post.
- * Second, you'll have to update the post.hbs file directly, since there's no sidebar.hbs file like in the Wildbird theme. Look for the section that starts with <section class="post-full-content">. After that markup, setup an empty div where you'd like to display the table of contents. Leave {{content}} since that displays the body of your post. Now you can pass the document to the toc.js script and set the results to the div you just created. That has the effect of inserting the TOC at the top of your post, right after the image (if any).
+- First, change this line in the `toc.js` script, so that `post-content` is `post-full-content`, since that's the name of the class on the element that contains the body of your post.
+- Second, you'll have to update the `post.hbs` file directly, since there's no `sidebar.hbs` file like in the Wildbird theme. Look for the section that starts with `<section class="post-full-content">`. After that markup, setup an empty div where you'd like to display the table of contents. Leave `{{content}}` since that displays the body of your post. Now you can pass the document to the `toc.js` script and set the results to the div you just created. That has the effect of inserting the TOC at the top of your post, right after the image (if any).
 
+```html
 <div id="toc"></div>
 
 {{content}}
@@ -155,17 +157,20 @@ If you want it to work with the Casper theme, you'll need to make a couple chang
     var toc = document.getElementById('toc');
     toc.innerHTML = getTocMarkup(document);
 </script>
+```
 
+---
 
-Snapshots
+## Snapshots
 
-Here's how it looks when rendered, showing a single level of headers, two levels, and multiple levels, respectively. It handles omitted headers, like going right from <H2> to <H5>, but uh.. it could be better. Heh.
+Here's how it looks when rendered, showing a single level of headers, two levels, and multiple levels, respectively. It handles omitted headers, like going right from `<H2>` to `<H5>`, but uh.. it could be better. Heh.
 
-While you're at it, you could create a <div id="toc"></div element or similar, and generate your TOC inside of that. Then use CSS styling to your heart's content. Here's what it looks like without numbers, and indenting on linewrap. If you're using Ghost, you could even put the CSS in the "code injection" section of the admin panel.
+![](multiple-level-toc.png)
 
+While you're at it, you could create a `<div id="toc"></div` element or similar, and generate your TOC inside of that. Then use CSS styling to your heart's content. Here's what it looks like without numbers, and indenting on linewrap. If you're using Ghost, you could even put the CSS in the "code injection" section of the admin panel.
 
-Other Implementations
+![](https://grantwinney.com/content/images/2024/09/image-5.png)
 
-I'm happy with my solution, but it requires modifying your theme files directly, which isn't the most user-friendly thing. If you'd like to see this solution re-implemented so you can paste it into the blog footer with Ghost's "code injection" section, check out László's blog post:
+## Other Implementations
 
-A jQuery Table of Contents for your Ghost Blog EntriesA modular approach to generating a TOC for your blog based on heading levels.ZenSoft IT NotesLászló L. Lieszkovszky
+I'm happy with my solution, but it requires modifying your theme files directly, which isn't the most user-friendly thing. If you'd like to see this solution re-implemented so you can paste it into the blog footer with Ghost's __"code injection"__ section, check out László's blog post, [A jQuery Table of Contents for your Ghost Blog Entries](https://kb.zensoft.hu/toc-for-your-blog/?ref=grantwinney.com).

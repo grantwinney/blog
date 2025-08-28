@@ -13,36 +13,26 @@ tags:
 - API
 title: Access Book and Author Data with the Penguin Random House API
 ---
-
-
-Penguin Random House is a book publisher, and their API
-[http://www.penguinrandomhouse.biz/webservices/rest/] can be used to get data
-about books, authors and events. Let's check it out!
+Penguin Random House is a book publisher, and their [API](http://www.penguinrandomhouse.biz/webservices/rest/) can be used to get data about books, authors and events. Let's check it out!
 
 First though, two things to consider:
 
- * If you're unfamiliar with APIs, you might want to read this first
-   [__GHOST_URL__/what-is-an-api/] to familiarize yourself.
- * Install Postman [https://www.getpostman.com/], which allows you to access API
-   endpoints without having to write an app, as well as save the calls you make
-   and sync them online.
+- If you're unfamiliar with APIs, you might want to [read this first](https://grantwinney.com/what-is-an-api/) to familiarize yourself.
+- Install [Postman](https://www.getpostman.com/), which allows you to access API endpoints without having to write an app, as well as save the calls you make and sync them online.
 
-Normally the first thing you have to worry about is some form of authorization
-and getting an API key. This API doesn't require or even offer it though, so...
-let's make some requests!
+Normally the first thing you have to worry about is some form of authorization and getting an API key. This API doesn't require or even offer it though, so... let's make some requests!
 
-Find Authors
-Try looking up an author such as Isaac Asimov. You can specify a first and last
-name, and most likely you'll get multiple author records back - especially if
-you search for a popular name like "Smith" or something.
+## Find Authors
 
+Try looking up an author such as Isaac Asimov. You can specify a first and last name, and most likely you'll get multiple `author` records back - especially if you search for a popular name like "Smith" or something.
+
+```
 GET https://reststop.randomhouse.com/resources/authors?lastName=Asimov&firstName=Isaac
+```
 
+Here's a very small sample of the returned payload. You get the name back as well as an `authorid` (we'll use that in a moment), a short bio, and a list of titles (Asimov wrote a __lot__ of books).
 
-Here's a very small sample of the returned payload. You get the name back as
-well as an authorid (we'll use that in a moment), a short bio, and a list of
-titles (Asimov wrote a lot of books).
-
+```json
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <authors uri="https://reststop.randomhouse.com/resources/authors?lastName=Asimov&amp;firstName=Isaac">
     <author uri="https://reststop.randomhouse.com/resources/authors/947">
@@ -71,21 +61,19 @@ titles (Asimov wrote a lot of books).
     </author>
     ...
 </authors>
+```
 
+## Get Author Details
 
-Get Author Details
-You can use the authorid value from the previous response (or just use the uri 
-attribute of the author node) to get the details of the author you're interested
-in.
+You can use the `authorid` value from the previous response (or just use the `uri` attribute of the `author` node) to get the details of the author you're interested in.
 
+```
 GET https://reststop.randomhouse.com/resources/authors/947
+```
 
+What I find interesting is that it seems to be the same data as the previous request. I'm not sure why, in order to make it faster, the previous endpoint doesn't return less data... maybe a few titles and works to make sure it's the right author in the event of some ambiguity.
 
-What I find interesting is that it seems to be the same data as the previous
-request. I'm not sure why, in order to make it faster, the previous endpoint
-doesn't return less data... maybe a few titles and works to make sure it's the
-right author in the event of some ambiguity.
-
+```json
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <author uri="https://reststop.randomhouse.com/resources/authors/947">
     <approved>X</approved>
@@ -111,17 +99,17 @@ right author in the event of some ambiguity.
         ...
     </works>
 </author>
+```
 
+## Get Title / Work Details
 
-Get Title / Work Details
-The two responses so far have included the author's titles and works, of which I
-just showed a few (Asimov had hundreds). You can use that data with another
-endpoint to get more details about them. FWIW, I'm a little fuzzy on the
-difference between "titles" and "works"...
+The two responses so far have included the author's titles and works, of which I just showed a few (Asimov had hundreds). You can use that data with another endpoint to get more details about them. FWIW, I'm a little fuzzy on the difference between "titles" and "works"...
 
+```
 GET https://reststop.randomhouse.com/resources/titles/9780307490247
+```
 
-
+```json
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <title uri="https://reststop.randomhouse.com/resources/titles/9780307490247">
     <author>ASIMOV, ISAAC</author>
@@ -174,11 +162,13 @@ GET https://reststop.randomhouse.com/resources/titles/9780307490247
     <links/>
     <workid>5799</workid>
 </title>
+```
 
-
+```
 GET https://reststop.randomhouse.com/resources/works/5596
+```
 
-
+```json
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <work uri="https://reststop.randomhouse.com/resources/works/5596">
     <authorweb>ASIMOV, ISAAC</authorweb>
@@ -192,10 +182,8 @@ GET https://reststop.randomhouse.com/resources/works/5596
     <titleweb>A Choice of Catastrophes</titleweb>
     <workid>5596</workid>
 </work>
+```
 
+## Thoughts
 
-Thoughts
-There's not too much to say about this one. Not sure what the limitations /
-request throttling might be for this API. It's free, which is nice! The
-documentation is all in one place and includes examples in php and java, which
-is nice too.
+There's not too much to say about this one. Not sure what the limitations / request throttling might be for this API. It's free, which is nice! The documentation is all in one place and includes examples in php and java, which is nice too.

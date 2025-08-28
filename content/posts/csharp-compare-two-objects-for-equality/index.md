@@ -32,8 +32,6 @@ Console.WriteLine($"{name} {(isAdult ? "is" : "is not")} an adult.");
 
 Comparing numbers, strings, `DateTime`, and other out-of-the-box .NET types are the most typical examples, but what if we want to use our own type in a comparison?
 
-> The code in this article is available on <a href="https://github.com/grantwinney/CSharpDotNetExamples/tree/master/GeneralConcepts/CompareObjectsForEquality">GitHub</a>, if you'd like to use it or just follow along.
-
 ## Default Equality Comparison
 
 Before we dig into that, let's consider how testing for equality works by default, without us having to do anything extra.

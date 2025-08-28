@@ -21,23 +21,15 @@ tags:
 - Coding
 title: Using Attributes in C#
 ---
-
-
 Ever thought it'd be convenient to attach some extra info to your code? Not just documentation to read at design time, but something that can actually be consumed at runtime and change how your program runs?
 
-Attributes let you attach metadata to methods, classes, tests, enumerations... pretty much anything. Then you can use reflection to read them at runtime and take some action. If you haven't used them much before, or if it's just been awhile, let's look at a few practical examples.
+[Attributes](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/attributes/) let you attach metadata to methods, classes, tests, enumerations... pretty much anything. Then you can use reflection to read them at runtime and take some action. If you haven't used them much before, or if it's just been awhile, let's look at a few practical examples.
 
-
-
-The code in this article is available on GitHub, for you to use or just follow along with.
-
-
-
-
-Parsing Config Files
+## Parsing Config Files
 
 It's common for a .NET app to include a config file of some sorts (app.config, web.config, etc). These are great because you can simply change values, without having to recompile the app.
 
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
   <configSections>
@@ -50,10 +42,11 @@ It's common for a .NET app to include a config file of some sorts (app.config, w
              level="Warn" />
   </application>
 </configuration>
+```
 
+They're slightly less great because there's several ways to read those values from your code, and some of them are a pain. By using the [ConfigurationProperty](https://docs.microsoft.com/en-us/dotnet/api/system.configuration.configurationproperty?view=netframework-4.7.2) attribute, and any of the various classes that extend the [ConfigurationValidator](https://docs.microsoft.com/en-us/dotnet/api/system.configuration.configurationvalidatorattribute?view=netframework-4.7.2) attribute, you can actually set up a class to represent the config file at runtime.
 
-They're slightly less great because there's several ways to read those values from your code, and some of them are a pain. By using the ConfigurationProperty attribute, and any of the various classes that extend the ConfigurationValidator attribute, you can actually set up a class to represent the config file at runtime.
-
+```csharp
 using System;
 using System.Configuration;
 
@@ -105,30 +98,33 @@ namespace AttributesExamples
         }
     }
 }
-
+```
 
 Setting up the class is a little time-consuming, but once it's done you have a nice way of accessing and displaying your config settings.
 
+```csharp
 var settings = Application.LoggingConfig;
 
 Console.WriteLine($"Log Name: {settings.LogName}");
 Console.WriteLine($"Log Location: {settings.LogPath}");
 Console.WriteLine($"Severity Level: {settings.SeverityLevel}");
 Console.WriteLine($"Logging {(settings.LoggingEnabled ? @"is" : @"is not")} enabled.");
+```
 
+![](https://grantwinney.com/content/images/2019/04/parsingdemo.PNG)
 
 If you want to learn more:
 
- * Configuring Apps by using Configuration Files
- * What is App.config in C#.NET? How to use it?
+- [Configuring Apps by using Configuration Files](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/)
+- [What is App.config in C#.NET? How to use it?](https://stackoverflow.com/questions/13043530/what-is-app-config-in-c-net-how-to-use-it)
 
+## Unit Testing
 
-Unit Testing
+Any testing framework you use - [NUnit](https://nunit.org/), [xUnit](https://github.com/xunit/xunit), [MSTest](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest) - will make use of attributes. (If you're not sure what unit testing is, [this might help](https://grantwinney.com/an-intro-to-code-katas-tdd-and-red-green-refactor/).)
 
-Any testing framework you use - NUnit, xUnit, MSTest - will make use of attributes. (If you're not sure what unit testing is, this might help.)
+Here's a ridiculous `Employee` class, thoroughly vetted by some NUnit tests. You can decorate any method you want with `SetUp` and `TearDown` attributes, which act like a constructor and destructor run before and after __every__ test. Tests have a `Test` attribute, and you can even reuse the same test for multiple values with the `TestCase` attribute. NUnit makes use of all these attributes to know what, when, and how to run things.
 
-Here's a ridiculous Employee class, thoroughly vetted by some NUnit tests. You can decorate any method you want with SetUp and TearDown attributes, which act like a constructor and destructor run before and after every test. Tests have a Test attribute, and you can even reuse the same test for multiple values with the TestCase attribute. NUnit makes use of all these attributes to know what, when, and how to run things.
-
+```csharp
 using NUnit.Framework;
 
 namespace AttributesExamples
@@ -179,13 +175,15 @@ namespace AttributesExamples
         }
     }
 }
+```
 
+![](https://grantwinney.com/content/images/2019/04/unittest.PNG)
 
+## Planned Code Obsolescence
 
-Planned Code Obsolescence
+Another practical use for attributes is warning users of your library that you plan on [deprecating some piece of code](https://docs.microsoft.com/en-us/dotnet/api/system.obsoleteattribute?view=netframework-4.7.2). Even Microsoft, known for its unprecedented backwards-compatibility in the .NET Framework, marks their code as obsolete from [time](https://github.com/dotnet/coreclr/blob/baa4f19a7158e31b7012ff2dafebfb5f1b1edee4/src/System.Private.CoreLib/shared/System/Reflection/AssemblyFlagsAttribute.cs) to [time](https://github.com/dotnet/coreclr/blob/3b807944d8822b44eb5085d6b95b130b4a91808f/src/System.Private.CoreLib/shared/System/ExecutionEngineException.cs).
 
-Another practical use for attributes is warning users of your library that you plan on deprecating some piece of code. Even Microsoft, known for its unprecedented backwards-compatibility in the .NET Framework, marks their code as obsolete from time to time.
-
+```csharp
 using System;
 
 namespace AttributesExamples
@@ -226,15 +224,19 @@ namespace AttributesExamples
         }
     }
 }
+```
 
+When you mark something as obsolete, any attempts to use it are underlined in green as a warning. You might leave things like this for several releases, and when you're ready you set the error parameter to `true`, which tells the compiler to treat usage as an error instead of a warning.
 
-When you mark something as obsolete, any attempts to use it are underlined in green as a warning. You might leave things like this for several releases, and when you're ready you set the error parameter to true, which tells the compiler to treat usage as an error instead of a warning.
+![](https://grantwinney.com/content/images/2019/04/obsolescence.png)
 
+![](https://grantwinney.com/content/images/2019/04/errorlist.PNG)
 
-Bit Field Enums
+## Bit Field Enums
 
-If you've ever needed to store a bunch of related flags, you could do something like this. It's tedious - and unnecessary.
+If you've ever needed to store a bunch of related flags, you __could__ do something like this. It's tedious - and unnecessary.
 
+```csharp
 public class PreferredContactMethods
 {
     public IsLandPhoneAllowed { get; set; }
@@ -243,16 +245,17 @@ public class PreferredContactMethods
     ...
     ...
 }
+```
 
+Instead, create an enumeration and use the [Flags](https://docs.microsoft.com/en-us/dotnet/api/system.flagsattribute?view=netframework-4.7.2) attribute so the system knows to treat it like a bit field. What is that, you ask? Great question.
 
-Instead, create an enumeration and use the Flags attribute so the system knows to treat it like a bit field. What is that, you ask? Great question.
-
-Imagine you had a bunch of switches or flags, to signify "on" and "off" for a variety of settings. You could use 1 for "on" and 0 for "off". So if you had three such flags, and the second was "off" while the first and third were "on", you might represent them like this: 1 0 1
+Imagine you had a bunch of switches or flags, to signify "on" and "off" for a variety of settings. You could use 1 for "on" and 0 for "off". So if you had three such flags, and the second was "off" while the first and third were "on", you might represent them like this: `1 0 1`
 
 As it turns out, using bits to represent your flags is a perfect fit, but then how do you code that? Well, 101 in binary is the same as 22 + 21 + 20 = 7 in decimal. If you only use the power of 2 for each flag, you can combine values and know exactly which flags are "on". The decimal value of 7 means the first and third flag are set, and nothing else. It's completely unambiguous... and efficient.
 
-Note the numbering for the enum values in the following example.. all powers of 2. By applying the Flags attribute, you can make use of other .NET code that allows you to quickly select multiple values at once, as well as quickly test which values are selected.
+Note the numbering for the enum values in the following example.. all powers of 2. By applying the `Flags` attribute, you can make use of other .NET code that allows you to quickly select multiple values at once, as well as quickly test which values are selected.
 
+```csharp
 using System;
 
 namespace AttributesExamples
@@ -293,26 +296,30 @@ namespace AttributesExamples
         }
     }
 }
+```
 
+![](https://grantwinney.com/content/images/2019/04/bitflags.PNG)
 
-
-Your Own Implementation
+## Your Own Implementation
 
 Okay, I tricked you. Number 5 is whatever you come up with!
 
-For me, in creating a library called GhostSharp (a C# wrapper around an API that connects to Ghost blogs), I had a single class representing an object that could be POSTed to an API endpoint. The problem was that a PUT (update) to the same endpoint could only be a subset of those fields... trying to pass the same object failed. I could've created two objects - one for POST and one for PUT - but I really wanted to use a single object. The solution?
+For me, in creating a library called [GhostSharp](https://github.com/grantwinney/GhostSharp) __(a C# wrapper around an API that connects to Ghost blogs),__ I had a single class representing an object that could be POSTed to an API endpoint. The problem was that a PUT (update) to the same endpoint could only be a subset of those fields... trying to pass the same object failed. I could've created two objects - one for POST and one for PUT - but I really wanted to use a single object. The solution?
 
-I created a simple attribute to dress up those fields that were acceptable for an update. I mean, really simple. There's nothing else but a name, but that's all I needed.
+I created a simple attribute to dress up those fields that were acceptable for an update. I mean, __really__ simple. There's nothing else but a name, but that's all I needed.
 
+```csharp
 /// <summary>
 /// Represents a field that can be updated in a PUT request.
 /// </summary>
 public class UpdatableFieldAttribute : Attribute
 {
 }
+```
 
 And here's a portion of the class representing a post (as in a blog post, not the REST action POST 😅). The uuid and comment_id fields cannot be updated, but the title and feature_image can. Adding an attribute is only half the work though.
 
+```csharp
 /// <summary>
 /// Request sent to Ghost
 /// </summary>
@@ -373,10 +380,11 @@ public class Post
     ...
     ...
 }
+```
 
+I'm not going to get into the details of serializing a C# object to JSON, but with the updatable fields marked appropriately I had to write a short piece of code to tell RestSharp when a property should be included in the serialization. Using a little reflection, I could test to see whether the `UpdatableField` attribute was on a given property - if it is (`!= null`) then send it with the rest of the PUT.
 
-I'm not going to get into the details of serializing a C# object to JSON, but with the updatable fields marked appropriately I had to write a short piece of code to tell RestSharp when a property should be included in the serialization. Using a little reflection, I could test to see whether the UpdatableField attribute was on a given property - if it is (!= null) then send it with the rest of the PUT.
-
+```csharp
 protected override JsonProperty CreateProperty(MemberInfo member, MemberSerialization memberSerialization)
 {
     JsonProperty property = base.CreateProperty(member, memberSerialization);
@@ -390,14 +398,8 @@ protected override JsonProperty CreateProperty(MemberInfo member, MemberSerializ
 
     return property;
 }
+```
 
+Attributes are a handy way to add metadata to your code, which can be read back using reflection at runtime. In addition, they offer a bit of documentation too - I can look at my `post` class and quickly confirm which fields are included in an update.
 
-Attributes are a handy way to add metadata to your code, which can be read back using reflection at runtime. In addition, they offer a bit of documentation too - I can look at my post class and quickly confirm which fields are included in an update.
-
-If you're interested in learning about a newer feature called generic attributes, introduced in C# 11, check out this post:
-
-What are generic attributes?Generic attributes increase the flexibility of a very early .NET feature. Let’s try using them and see how it keeps our code DRY.Grant WinneyGrant Winney
-
-And if you want to learn more about a variety of C# features, check out my GitHub repo, where you'll find links to plenty more blog posts and practical examples.
-
-GitHub - grantwinney/CSharpDotNetExamples: Discovering and learning about the various features of the C# programming language and .NET Framework.Discovering and learning about the various features of the C# programming language and .NET Framework. - GitHub - grantwinney/CSharpDotNetExamples: Discovering and learning about the various featur…GitHubgrantwinney
+If you're interested in learning about a newer feature called generic attributes, introduced in C# 11, check out *[What are generic attributes in C# 11?](https://grantwinney.com/what-are-generic-attributes/)*. And if you want to learn more about a variety of C# features, [check out my GitHub repo](https://github.com/grantwinney/CSharpDotNetExamples), where you'll find links to plenty more blog posts and practical examples.

@@ -15,42 +15,42 @@ tags:
 - Climate
 title: Access Current and Historical Weather Data with the OpenWeatherMap API
 ---
-
-
-OpenWeatherMap provides free access to current weather conditions, 5-day forecast, uv index, alerts, etc. Let's check out the OpenWeatherMap API.
+OpenWeatherMap provides free access to current weather conditions, 5-day forecast, uv index, alerts, etc. Let's check out the [OpenWeatherMap API](https://openweathermap.org/api).
 
 First though, two things to consider:
 
- * If you're unfamiliar with APIs, you might want to read this first to familiarize yourself.
- * Install Postman, which allows you to access API endpoints without having to write an app, as well as save the calls you make and sync them online.
+- If you're unfamiliar with APIs, you might want to [read this first](https://grantwinney.com/what-is-an-api/) to familiarize yourself.
+- Install [Postman](https://www.getpostman.com/), which allows you to access API endpoints without having to write an app, as well as save the calls you make and sync them online.
 
+## Authorization
 
-Authorization
+[Sign up](http://openweathermap.org/appid) to request an API key. You should end up in a user settings area where you can select the "API keys" tab. It showed a message about taking 10 minutes to generate keys but then it already had a key immediately generated and ready to go, so... I don't know.
 
-Sign up to request an API key. You should end up in a user settings area where you can select the "API keys" tab. It showed a message about taking 10 minutes to generate keys but then it already had a key immediately generated and ready to go, so... I don't know.
+![openweathermap-api---api-key](https://grantwinney.com/content/images/2017/12/openweathermap-api---api-key.png)
 
+## Get Current Weather
 
-Get Current Weather
+There are a number of ways to [request current weather data](http://openweathermap.org/current) for your area, but the two most accurate ones seem to be using zip code, and using latitude/longitude:
 
-There are a number of ways to request current weather data for your area, but the two most accurate ones seem to be using zip code, and using latitude/longitude:
-
+```
 GET http://api.openweathermap.org/data/2.5/weather?lat=41.4984174&lon=-81.69372869999999&APPID=<your-app-key>
 
 GET http://api.openweathermap.org/data/2.5/weather?zip=44113,US&APPID=<your-app-key>
+```
 
+It returns an abundance of data for the location - you can [read about the result values here](http://openweathermap.org/current#parameter). Here's the result for Cleveland OH, where it's snowing lightly. There's also a block with other current conditions, such as:
 
-It returns an abundance of data for the location - you can read about the result values here. Here's the result for Cleveland OH, where it's snowing lightly. There's also a block with other current conditions, such as:
+- Tempature, in Kelvin (261.02 K is about 10 Fahrenheit)
+- Barometric Pressure, in mm (1038 mm is about 40 inches)
+- Humidity, percentage (it's currently snowing so the humidity is high)
+- Min and Max temps, in Kelvin (deviation for large geographical areas)
+- Visibility, in meters (about 9 miles)
+- Wind speed and direction, in m/sec (about 6 mph, due South)
+- Cloud cover (currently 90%)
+- Timestamp of request (which you can [convert to normal time](https://www.epochconverter.com/) here)
+- Timestamps of sunset and sunrise (currently 7:52:43 AM and 5:05:01 PM, respectively)
 
- * Tempature, in Kelvin (261.02 K is about 10 Fahrenheit)
- * Barometric Pressure, in mm (1038 mm is about 40 inches)
- * Humidity, percentage (it's currently snowing so the humidity is high)
- * Min and Max temps, in Kelvin (deviation for large geographical areas)
- * Visibility, in meters (about 9 miles)
- * Wind speed and direction, in m/sec (about 6 mph, due South)
- * Cloud cover (currently 90%)
- * Timestamp of request (which you can convert to normal time here)
- * Timestamps of sunset and sunrise (currently 7:52:43 AM and 5:05:01 PM, respectively)
-
+```JSON
 {
     "coord": {
         "lon": -81.69,
@@ -93,16 +93,17 @@ It returns an abundance of data for the location - you can read about the result
     "name": "Cleveland",
     "cod": 200
 }
+```
 
+### Finding Latitude/Longitude
 
+If you need to lookup the coordinates of a location, [check out the Google Maps API](https://grantwinney.com/day-6-google-maps-api/) - they have an endpoint for just that purpose. You can parse out the geometry/location values and use those in the weather request.
 
-Finding Latitude/Longitude
-
-If you need to lookup the coordinates of a location, check out the Google Maps API - they have an endpoint for just that purpose. You can parse out the geometry/location values and use those in the weather request.
-
+```
 GET https://maps.googleapis.com/maps/api/geocode/json?address=50 Public Square Cleveland, Ohio&key=<your-key>
+```
 
-
+```json
 {
     "results": [
         {
@@ -114,18 +115,19 @@ GET https://maps.googleapis.com/maps/api/geocode/json?address=50 Public Square C
                 },
             ...
             ...
+```
 
+## Get 5-Day Forecast
 
+The process for [getting the 5-day forecast](http://openweathermap.org/forecast5) is pretty much the same as current weather, except you get a lot more data - every 3 hours worth, in fact.
 
-Get 5-Day Forecast
-
-The process for getting the 5-day forecast is pretty much the same as current weather, except you get a lot more data - every 3 hours worth, in fact.
-
+```
 GET api.openweathermap.org/data/2.5/forecast?lat=41.4984174&lon=-81.69372869999999&APPID=<your-app-key>
+```
 
+Here's a small portion of the results - there's a `dt_txt` field that clearly shows that each "block" of JSON data is for a 3-hour interval.
 
-Here's a small portion of the results - there's a dt_txt field that clearly shows that each "block" of JSON data is for a 3-hour interval.
-
+```json
 {
     "cod": "200",
     "message": 0.0044,
@@ -178,23 +180,22 @@ Here's a small portion of the results - there's a dt_txt field that clearly show
         },
         ...
         ...
+```
 
+## Historical Data
 
+__Update:__ Someone asked me about historical data, so I figured I'd post what I found here. If you'd like to [get historical data](https://openweathermap.org/history), such as the weather in a certain location for all of 2017, the endpoint changes from `api` to `history`:
 
-Historical Data
-
-Update: Someone asked me about historical data, so I figured I'd post what I found here. If you'd like to get historical data, such as the weather in a certain location for all of 2017, the endpoint changes from api to history:
-
+```
 GET history.openweathermap.org/data/2.5/find?q=Cleveland&type=accurate&units=metric&mode=xml&start=1483228800&end=1485820800&APPID=<your-app-key>
+```
 
+Unfortunately (but understandably), this data is not free. If you try to use the free token, it'll return a 401 error with the message "Invalid API key." You can [find out more about pricing](http://openweathermap.org/price#history) on their site.
 
-Unfortunately (but understandably), this data is not free. If you try to use the free token, it'll return a 401 error with the message "Invalid API key." You can find out more about pricing on their site.
-
-
-Thoughts
+## Thoughts
 
 It's unclear what the usage limits are. The page where you get an app key warns against sending requests "more than 1 time per 10 minutes from one device/one API key", which seems like an extreme limitation. Yet the page that compares price and packages says "no more than 60 calls per minute" for a free account, and thousands or even hundreds of thousands per minute for paid accounts; that seems more reasonable.
 
 There are several ways to get weather data. It's odd that the method they encourage is to use a "city id" - a value you get from a JSON file they provide, but the file is not organized in any particular order and has well over a million lines in it. They also provide a way that uses city and country, but that's inaccurate - I live by Cleveland, OH but there's also a Cleveland, GA. Guess there could be a use-case, and it's there if you need it, I just don't think I'd use it.
 
-The other APIs available for use with a free account are Weather Maps, UV Index, Air Pollution, and Weather Alerts. The last three are still in beta, whatever that means - not sure if that means they're not quite reliable yet? Still would be interesting to try. I could see looking up alerts and then having a Raspberry Pi or similar light an LED or sound a siren for certain conditions.
+The other APIs available for use with a free account are [Weather Maps](http://openweathermap.org/api/weathermaps), [UV Index](http://openweathermap.org/api/uvi), [Air Pollution](http://openweathermap.org/api/pollution/co), and [Weather Alerts](http://openweathermap.org/triggers). The last three are still in beta, whatever that means - not sure if that means they're not quite reliable yet? Still would be interesting to try. I could see looking up alerts and then having a Raspberry Pi or similar light an LED or sound a siren for certain conditions.

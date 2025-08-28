@@ -13,62 +13,67 @@ tags:
 - API
 title: Managing Workspaces and Channels With the Slack API
 ---
-
-
-Slack is a popular communication and collaboration tool, and the Slack API gives us access to workspaces, channels, messages, and more.
+Slack is a popular communication and collaboration tool, and the [Slack API](https://api.slack.com/) gives us access to workspaces, channels, messages, and more.
 
 First though, two things to consider:
 
- * If you're unfamiliar with APIs, read this first to familiarize yourself with the concept.
- * Install Postman, which allows you to access API endpoints without having to write an app, as well as save the calls you make and sync them online.
+- If you're unfamiliar with APIs, [read this first](https://grantwinney.com/what-is-an-api/) to familiarize yourself with the concept.
+- Install [Postman](https://www.getpostman.com/), which allows you to access API endpoints without having to write an app, as well as save the calls you make and sync them online.
 
+---
 
-Getting Started
+## Getting Started
 
+### Create an account or sign in
 
-Create an account or sign in
+First, you'll need to be signed in. [Create an account](https://slack.com/create) if you don't already have one. They'll ask for a few pieces of information. Well, we're just playing around so...
 
-First, you'll need to be signed in. Create an account if you don't already have one. They'll ask for a few pieces of information. Well, we're just playing around so...
+- About your "team" - __select "other" and "1-10 people"__
+- The name of your group - __use "Sandbox" or whatever you'd like__
+- The workspace url - __unique among everyone, so use your full name or a random phrase__
+- Send invitations - __skip it__
 
- * About your "team" - select "other" and "1-10 people"
- * The name of your group - use "Sandbox" or whatever you'd like
- * The workspace url - unique among everyone, so use your full name or a random phrase
- * Send invitations - skip it
+### Create an app
 
+Then, you'll need to [create an app](https://api.slack.com/apps/new). Give it whatever name you like, and choose the name of your group/workspace from the dropdown. Click "Create App". If all goes well, you should end up on a dashboard like this one:
 
-Create an app
+![slack-api---app-dashboard](https://grantwinney.com/content/images/2017/12/slack-api---app-dashboard.png)
 
-Then, you'll need to create an app. Give it whatever name you like, and choose the name of your group/workspace from the dropdown. Click "Create App". If all goes well, you should end up on a dashboard like this one:
+### Choose some permissions
 
+Now that you've got an app, you need to decide what you want it to do. I'm glad they have apps scoped like this - it's very similar to [creating browser extensions](https://grantwinney.com/making-your-first-chrome-extension/) and phone apps, where not everything has access to everything, and the user must explicitly "grant" permissions.
 
-Choose some permissions
+Click the "OAuth & Permissions" link on the left, and then scroll down to "Scopes". Choose a few permissions that sound interesting and then "Save Changes". I chose to access channel information and alter pinned messages. __(The incoming-webhook one got added, and can't be removed - guess it's required by the other two?)__
 
-Now that you've got an app, you need to decide what you want it to do. I'm glad they have apps scoped like this - it's very similar to creating browser extensions and phone apps, where not everything has access to everything, and the user must explicitly "grant" permissions.
+![slack-api---request-permissions](https://grantwinney.com/content/images/2017/12/slack-api---request-permissions.png)
 
-Click the "OAuth & Permissions" link on the left, and then scroll down to "Scopes". Choose a few permissions that sound interesting and then "Save Changes". I chose to access channel information and alter pinned messages. (The incoming-webhook one got added, and can't be removed - guess it's required by the other two?)
-
-
-Install your new app in your workspace
+### Install your new app in your workspace
 
 On the same page, scroll back to the top and press the "Install App to Workspace" button. You'll be notified about what permissions the app needs - just click "Authorize". I also created a new channel named "testing", so that I could select it here, but you can just select a built-in channel from the dropdown if you'd like.
 
+![slack-api---authorize-app](https://grantwinney.com/content/images/2017/12/slack-api---authorize-app.png)
 
-Auth Token (finally!)
+### Auth Token (finally!)
 
 It should've redirected back to the "OAuth & Permissions" section. This is the auth token you'll need when you make requests to the Slack API.
 
+![slack-api---auth-token](https://grantwinney.com/content/images/2017/12/slack-api---auth-token.png)
 
-Try it out
+## Try it out
 
-Now you can actually try some API methods. For most of these, I think you need at least the Authorization and Content-Type headers - although the latter isn't always required, it won't hurt to include it.
+Now you can actually try some [API methods](https://api.slack.com/methods). For most of these, I think you need at least the `Authorization` and `Content-Type` headers - although the latter isn't __always__ required, it won't hurt to include it.
 
+![slack-api---post-headers](https://grantwinney.com/content/images/2017/12/slack-api---post-headers.png)
 
-List Channels
+### List Channels
 
-The first thing we'll try is listing channels. In Postman, do a POST and include the headers above. The JSON body only needs to have your auth token.
+The first thing we'll try is [listing channels](https://api.slack.com/methods/channels.list). In Postman, do a `POST` and include the headers above. The JSON body only needs to have your auth token.
 
-You should get a result similar to this. My results include three channels - the default "general" and "random" ones, and also my "testing" one. Note how each channel has an "id" too. It appears that many (most? all?) of the requests that operate on channels require an id, not a name.
+![slack-api---list-channels-request](https://grantwinney.com/content/images/2017/12/slack-api---list-channels-request.png)
 
+You should get a result similar to this. My results include three channels - the default "general" and "random" ones, and also my "testing" one. Note how each channel has an "id" too. It appears that many (most? all?) of the requests that operate on channels require an id, __not a name.__
+
+```json
 {
     "ok": true,
     "channels": [
@@ -167,20 +172,21 @@ You should get a result similar to this. My results include three channels - the
         }
     ]
 }
+```
 
+### List Messages
 
+Now that you've got your channels, switch over to Slack and type a message into the channel you're interested in. Anything is fine - I typed __"Just a test message!"__ into my "testing" channel.
 
-List Messages
+Try retrieving the messages from your channel, including the message you just added. Most of the API calls can be made in two ways - either with a JSON body like I did above, or as query string parameters, which seems to be what we __have__ to use with this one, as the JSON body doesn't work. Oddly, either a `POST` or `GET` works... a `GET` seems more intuitive for requesting information, so that's what I used.
 
-Now that you've got your channels, switch over to Slack and type a message into the channel you're interested in. Anything is fine - I typed "Just a test message!" into my "testing" channel.
-
-Try retrieving the messages from your channel, including the message you just added. Most of the API calls can be made in two ways - either with a JSON body like I did above, or as query string parameters, which seems to be what we have to use with this one, as the JSON body doesn't work. Oddly, either a POST or GET works... a GET seems more intuitive for requesting information, so that's what I used.
-
+```
 GET https://slack.com/api/channels.history?token=<your-auth-token>&channel=C8HN58XQU
-
+```
 
 Here's the result I got back. See my test message? See the timestamp on it? If you're following along, grab the timestamp for your message too - you'll need it.
 
+```json
 {
     "ok": true,
     "messages": [
@@ -227,35 +233,39 @@ Here's the result I got back. See my test message? See the timestamp on it? If y
     ],
     "has_more": false
 }
+```
 
+### Add a pinned message
 
-
-Add a pinned message
-
-Now that you've got the id for your channel, and the timestamp for your message, you can use one of the pin methods - the pins.add API call - to pin the message to the channel.
+Now that you've got the id for your channel, and the timestamp for your message, you can use one of the [pin methods](https://api.slack.com/methods#pins) - the [pins.add](https://api.slack.com/methods/pins.add) API call - to pin the message to the channel.
 
 Here's the request:
 
-POST https://slack.com/api/pins.add
+`POST` [https://slack.com/api/pins.add](https://slack.com/api/pins.add)
 
+```json
 {
 	"channel": "C8HN58XQU",
 	"timestamp": "1513859401.000295"
 }
-
+```
 
 The result doesn't tell us much, other than it hopefully succeeded.
 
+```json
 {
     "ok": true
 }
-
+```
 
 Checking the channel though, you should be able to confirm the message is pinned on the right side. Success!
 
+![slack-api---pinned-message-1](https://grantwinney.com/content/images/2017/12/slack-api---pinned-message.png)
 
-Thoughts
+## Thoughts
 
-Similar to the Dropbox API and its API Explorer, the Slack API lets you explore it online too, generating the code for you to copy when you're satisfied. This is super convenient for trying things out. If you have an auth token already, there doesn't seem to be a place to paste it in here - just click the button and follow the prompts to generate another one.
+Similar to the [Dropbox API](https://grantwinney.com/what-is-dropbox-api/) and its API Explorer, the Slack API lets you explore it online too, generating the code for you to copy when you're satisfied. This is super convenient for trying things out. If you have an auth token already, there doesn't seem to be a place to paste it in here - just click the button and follow the prompts to generate another one.
 
-Then check out the pins.add method again. Here's what I got when I entered the same values that I put in Postman. (It's whining because the message is already pinned, but it works.)
+Then check out the [pins.add](https://api.slack.com/methods/pins.add/test) method again. Here's what I got when I entered the same values that I put in Postman. (It's whining because the message is already pinned, but it works.)
+
+![slack-api---online-api-tester](https://grantwinney.com/content/images/2017/12/slack-api---online-api-tester.png)

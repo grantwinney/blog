@@ -15,67 +15,76 @@ tags:
 - Python
 title: Connecting an Analog Joystick to the Raspberry Pi
 ---
-
-
-One of the best things about the Raspberry Pi is its GPIO pins. They’re just sitting there, waiting to be connected to all kinds of interesting peripherals so your Pi can interact with the world around it. We can send alerts, attach sensors, and even plug cards like the Sense HAT over top of the pins to do even more.
+One of the best things about the Raspberry Pi is its GPIO pins. They’re just sitting there, waiting to be connected to all kinds of interesting peripherals so your Pi can interact with the world around it. We can [send alerts](https://grantwinney.com/how-to-flash-an-led-on-your-raspberry-pi-when-you-get-new-email/), attach sensors, and even plug cards like the [Sense HAT](https://www.raspberrypi.org/products/sense-hat/) over top of the pins to do even more.
 
 A few months ago, I bought a set of 37 sensor modules. I knew they wouldn’t directly interface with the Pi, but that it was entirely possible to do it, so they were set aside for later. Well, it's time to try one out, and I figure the mini-joystick might offer some interesting opportunities!
 
-
-
-The code in this article is available on GitHub, if you'd like to use it or just follow along.
-
-
-
-
-Materials
+## Materials
 
 There are a few things we need first:
 
- * Raspberry Pi Starter Kit
-   A decent starter kit includes the Pi, adapter, memory card, case, breadboard and cobbler, wires and LEDs, etc.
- * Long Breadboard
-   Some of the kits come with a shorter breadboard, but a longer board gives us more space to work, allowing for more wires, LEDs, switches, etc.
- * Kuman 37 Sensor Module Kit for Arduino
-   That's the one I got, but I'm sure there's plenty of similar ones. Mine came with a joystick control (which I used for this post), and a load of other sensors and input devices. There was no documentation, but I found a link to (somewhat sparse) instructions for each module on Amazon.
- * Male to female jumper wires
-   We need wires to connect the joystick to the breadboard.
- * Adafruit MCP3008 – 8-Channel 10-Bit ADC With SPI Interface [ADA856]
-   A tiny chip that bridges the gap between an analog control and the Pi. It’s cheaper directly from Adafruit, but watch out for shipping. If you’re buying several instead of just one like me, consider Adafruit’s site. Here's the datasheet.
+- ****Raspberry Pi Starter Kit****  
+    A decent starter kit includes the Pi, adapter, memory card, case, breadboard and cobbler, wires and LEDs, etc.
+- ****Long Breadboard****  
+    Some of the kits come with a shorter breadboard, but a longer board gives us more space to work, allowing for more wires, LEDs, switches, etc.
+- ****Kuman 37 Sensor Module Kit for Arduino****  
+    That's the one I got, but I'm sure there's plenty of similar ones. Mine came with a joystick control (which I used for this post), and a load of other sensors and input devices. There was no documentation, but I found a [link to (somewhat sparse) instructions for each module](https://mega.nz/#F!LElQwT6R!Tj6SclwUfajz1ZihF_s2Mw) on Amazon.
+- ****Male to female jumper wires****  
+    We need wires to connect the joystick to the breadboard.
+- ****Adafruit MCP3008 – 8-Channel 10-Bit ADC With SPI Interface [ADA856]****  
+    A tiny chip that bridges the gap between an analog control and the Pi. It’s cheaper directly from [Adafruit](https://www.adafruit.com/products/856), but watch out for shipping. If you’re buying several instead of just one like me, consider Adafruit’s site. [Here's the datasheet](http://www.microchip.com/wwwproducts/en/en010530).
 
+## Interfacing with Analog Controls
 
-Interfacing with Analog Controls
-
-The joystick is an analog control, consisting of two potentiometers that send a variable voltage depending on the position of the joystick (here’s a video that shows how they work), and it won’t just connect directly to the GPIO pins on the Pi. If your joystick can be pressed down like mine can, then that bonus button just has an on/off state and can be connected directly to any regular GPIO pin. But I’ll wire it up same as the potentiometers, since that’s what the articles linked below do as well.
+The joystick is an analog control, consisting of two potentiometers that send a variable voltage depending on the position of the joystick (here’s a [video that shows how they work](https://www.youtube.com/watch?v=MXFvWLrpVSk)), and it won’t just connect directly to the GPIO pins on the Pi. If your joystick can be pressed down like mine can, then that bonus button just has an on/off state and can be connected directly to any regular GPIO pin. But I’ll wire it up same as the potentiometers, since that’s what the articles linked below do as well.
 
 To get it to work, we need to learn a little about the SPI bus protocol and how to enable it on the Pi, then how to wire up a small chip that uses SPI to bridge the gap between analog controls and the Pi. Fortunately, there’s a set of helpful tutorials on the Raspberry Pi Spy website, which I'd suggest checking out:
 
- * Enabling The SPI Interface On The Raspberry Pi
- * Using A Joystick On The Raspberry Pi Using An MCP3008
- * Analogue Sensors On The Raspberry Pi Using An MCP3008
+- [Enabling The SPI Interface On The Raspberry Pi](http://www.raspberrypi-spy.co.uk/2014/08/enabling-the-spi-interface-on-the-raspberry-pi/)
+- [Using A Joystick On The Raspberry Pi Using An MCP3008](http://www.raspberrypi-spy.co.uk/2014/04/using-a-joystick-on-the-raspberry-pi-using-an-mcp3008/)
+- [Analogue Sensors On The Raspberry Pi Using An MCP3008](http://www.raspberrypi-spy.co.uk/2013/10/analogue-sensors-on-the-raspberry-pi-using-an-mcp3008/)
 
 The first link shows how to enable the Serial Peripheral Interface (SPI) bus on certain GPIO pins. Method 1 worked fine for me – just open up a config screen in Raspbian and select the SPI option.
 
 The second link walks through wiring up the MCP3008 chip, providing the bridge between the joystick and Pi. The third link isn't necessary, but it’s got some helpful info in it that’s not in the other one. I suggest reading both.
 
-Also, for changing colors on an RGB LED, it may help to read about pulse-width modulation (PWM).
+Also, for changing colors on an RGB LED, it may help to read about [pulse-width modulation (PWM)](https://grantwinney.com/how-to-use-an-rgb-multicolor-led-with-pulse-width-modulation-pwm-on-the-raspberry-pi/).
 
-Here are some pictures and a diagram of my setup, although the author of the linked articles provides a good set of pics too. There’s some additional stuff in my circuit that’s not in his, namely the RGB LED and resistors/wires to make it work. I used a 100Ω resistor for red and 220Ω for green and blue, same as here.
+Here are some pictures and a diagram of my setup, although the author of the linked articles provides a good set of pics too. There’s some additional stuff in my circuit that’s not in his, namely the RGB LED and resistors/wires to make it work. I used a 100Ω resistor for red and 220Ω for green and blue, [same as here](https://grantwinney.com/how-to-use-an-rgb-multicolor-led-with-pulse-width-modulation-pwm-on-the-raspberry-pi/).
 
+![](https://grantwinney.com/content/images/2019/07/joystick-color-wheel-setup-1.jpg)
 
-Fritzing Diagram
+![](https://grantwinney.com/content/images/2019/07/joystick-color-wheel-setup-2.jpg)
 
-If you’d like, you can download the original Fritzing file and play around with it.
+![](https://grantwinney.com/content/images/2019/07/joystick-color-wheel-setup-3.jpg)
 
+![](https://grantwinney.com/content/images/2019/07/joystick-color-wheel-setup-4.jpg)
 
-Reading Input
+![](https://grantwinney.com/content/images/2019/07/joystick-color-wheel-setup-5.jpg)
 
-You should’ve already verified that Python Spidev (pi-spydev) was installed after you enabled SPI. We’ll need that for reading input from the analog device.
+![](https://grantwinney.com/content/images/2019/07/joystick-color-wheel-setup-6.jpg)
 
-Since I’ve been messing with an RGB LED lately, I thought it’d be interesting to map the position of the joystick to the RGB color wheel and then light up the LED appropriately. Imagine the X-axis running horizontal above Blue and Green, and the Y-axis running vertical through Red and Cyan.
+![](https://grantwinney.com/content/images/2019/07/mcp3008-in-package.jpg)
+
+![](https://grantwinney.com/content/images/2019/07/mcp3008.jpg)
+
+### Fritzing Diagram
+
+![joystick-color-wheel](https://grantwinney.com/content/images/2016/09/Joystick-Color-Wheel.png)
+
+If you’d like, you can [download the original Fritzing file](https://grantwinney.com/content/images/2016/09/Joystick-Color-Wheel.fzz) and play around with it.
+
+## Reading Input
+
+You should’ve already verified that Python Spidev ([pi-spydev](https://github.com/doceme/py-spidev)) was installed after you enabled SPI. We’ll need that for reading input from the analog device.
+
+Since I’ve been [messing with an RGB LED](https://grantwinney.com/how-to-use-an-rgb-multicolor-led-with-pulse-width-modulation-pwm-on-the-raspberry-pi/) lately, I thought it’d be interesting to map the position of the joystick to the RGB color wheel and then light up the LED appropriately. Imagine the X-axis running horizontal above Blue and Green, and the Y-axis running vertical through Red and Cyan.
+
+![rgb_color_wheel_400px](https://grantwinney.com/content/images/2016/08/rgb_color_wheel_400px.jpg)
 
 Here’s the code in its entirety:
 
+```python
 import math
 import RPi.GPIO as GPIO
 import spidev
@@ -230,22 +239,18 @@ def main():
  
 if __name__ == '__main__':
     main()
+```
 
-I wrote the adjust_angle_for_perspective_of_current_led function to make calculations easier. Imagine a 360 degree circle overlaying the color wheel. Each color (red, blue, green) is separated by 120 degrees. So if red is at 90 (the top), then blue is at 210 and green is at 330. That function rotates the imaginary circle, placing the LED we’re concerned about at 0 degrees.
+I wrote the `adjust_angle_for_perspective_of_current_led` function to make calculations easier. Imagine a 360 degree circle overlaying the color wheel. Each color (red, blue, green) is separated by 120 degrees. So if red is at 90 (the top), then blue is at 210 and green is at 330. That function rotates the imaginary circle, placing the LED we’re concerned about at 0 degrees.
 
-The is_joystick_near_center function was necessary because the joystick is not that accurate. Even when it’s sitting still, the readings coming off it fluctuate a bit. That’s not a huge deal when the joystick is positioned far away from the center, but imagine what happens when the position is near center and the X and Y coordinates keep jumping around the vertex of our “angle”. The angle varies wildly, so that when the joystick is “at rest”, the color flickers all over the place on the LED. So instead, I just display white if you’re near center.
+The `is_joystick_near_center` function was necessary because the joystick is not that accurate. Even when it’s sitting still, the readings coming off it fluctuate a bit. That’s not a huge deal when the joystick is positioned far away from the center, but imagine what happens when the position is near center and the X and Y coordinates keep jumping around the vertex of our “angle”. The angle varies wildly, so that when the joystick is “at rest”, the color flickers all over the place on the LED. So instead, I just display white if you’re near center.
 
-If you clone the repo, you'll see a separate file with tests in it. To run the tests in this project, first install the DDT (Data-Driven Tests) package for Python unit testing via pip.
+If you clone the repo, you'll see a separate file with tests in it. To run the tests in this project, first install the [DDT (Data-Driven Tests) package for Python unit testing](https://technomilk.wordpress.com/2012/02/12/multiplying-python-unit-test-cases-with-different-sets-of-data/) via pip.
 
+## See it in Action
 
-See it in Action
+[You can see it in action here](https://res.cloudinary.com/dxm4riq52/video/upload/v1583294278/Raspberry%20Pi/Connecting_an_Analog_Joystick_to_the_Raspberry_Pi_nylfzo.mp4).
 
+If you have a question about any of the code, leave a comment below and I’ll try to clarify. There’s one tricky piece in the `read_spi_data_channel()` function, and that’s the call to `spi.xfer2()`. Suffice to say, that’s the pi-spydev module doing work.
 
-
-
-
-
-
-If you have a question about any of the code, leave a comment below and I’ll try to clarify. There’s one tricky piece in the read_spi_data_channel() function, and that’s the call to spi.xfer2(). Suffice to say, that’s the pi-spydev module doing work.
-
-If you want, check out the spidev_module.c file and do a search for “xfer2″. It’s roughly 100 lines of C code.
+If you want, check out the [spidev_module.c](https://github.com/doceme/py-spidev/blob/master/spidev_module.c) file and do a search for “xfer2″. It’s roughly 100 lines of C code.

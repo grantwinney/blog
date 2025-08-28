@@ -137,9 +137,9 @@ I create an example app in C#. The label, issuer and secret will be prepopulated
 
 When you're ready, scan it with your phone to add it like any other 2FA code.
 
-![500](https://grantwinney.com/content/images/2019/08/phonescanqrcode.jpg)
+![](https://grantwinney.com/content/images/2019/08/phonescanqrcode.jpg)
 
-![500](https://grantwinney.com/content/images/2019/08/phoneqrcodeadded.jpg)
+![](https://grantwinney.com/content/images/2019/08/phoneqrcodeadded.jpg)
 
 ![](https://grantwinney.com/content/images/2019/08/codevalid.png)
 
