@@ -2,7 +2,7 @@ baseURL = 'https://example.org/'
 description = 'A dev with questions... and answers too.'
 languageCode = 'en-us'
 title = 'Grant Winney'
-theme = ['loveit']
+theme = ['papermod']
 
 [caches]
   [caches.images]
