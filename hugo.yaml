@@ -5,9 +5,12 @@ title: 'Grant Winney'
 theme:
   - 'papermod'
 
-caches:
-  images:
-    dir: ":cacheDir/images"
+assets:
+    favicon: "https://grantwinney.com/favicon.ico"
+
+# caches:
+#   images:
+#     dir: ":cacheDir/images"
 
 permalinks:
   page:
