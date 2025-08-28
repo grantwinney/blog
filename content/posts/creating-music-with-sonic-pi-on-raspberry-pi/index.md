@@ -227,11 +227,9 @@ You can learn more about why Sam chose Ruby, the advanced concepts it can teach,
 
 {{< youtube 7sEMKXrRaAs >}}
 
-
 Another good video of someone just having fun with it. 😄
 
 {{< youtube QGLPinGZhfg >}}
-
 
 If you're interested in learning more, here's some links to other resources:
 

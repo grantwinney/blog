@@ -8,13 +8,19 @@ summary: Hides various commenting systems across the web, including (but not lim
   to) Disqus, YouTube, various news sites and forums, etc.
 title: Hide Comments Everywhere
 ---
-
-
 The comments sections on most major news outlets and social media sites are full of vitriol. I just wanted the content, so I wrote an extension that hides various commenting systems across the web, including (but not limited to) Disqus, YouTube, Instagram, replies on Reddit and Twitter, etc.
 
-_(Getting it work on Facebook was a pain, and required constant updates, so I don't really bother trying anymore... I recommend trying_ [_UnDistracted_](https://chrome.google.com/webstore/detail/undistracted-hide-faceboo/pjjgklgkfeoeiebjogplpnibpfnffkng)_.)_
+__(Getting it to work on Facebook was a pain, and required constant updates, so I don't really bother trying anymore... I recommend trying__ [__UnDistracted__](https://chrome.google.com/webstore/detail/undistracted-hide-faceboo/pjjgklgkfeoeiebjogplpnibpfnffkng)__.)__
 
-Available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/hide-comments-everywhere/) and [Chrome](https://chrome.google.com/webstore/detail/hide-comments-everywhere/bmhkdngdngchlneelllmdennfpmepbnc), and works on Brave _([natively](https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-))_ and Opera _(requires an [additional extension](https://addons.opera.com/en/extensions/details/install-chrome-extensions/)) too._
+Available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/hide-comments-everywhere/) and [Chrome](https://chrome.google.com/webstore/detail/hide-comments-everywhere/bmhkdngdngchlneelllmdennfpmepbnc), and works on Brave __(__[__natively__](https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-)__)__ and Opera __(requires an__ [__additional extension__](https://addons.opera.com/en/extensions/details/install-chrome-extensions/)__) too.__
+
+![](https://grantwinney.com/content/images/2019/07/hide-comments-2.jpg)
+
+![](https://grantwinney.com/content/images/2022/03/popup.png)
+
+![](https://grantwinney.com/content/images/2022/03/options1.png)
+
+![](https://grantwinney.com/content/images/2022/03/options2.png)
 
 ## How's it work?
 
@@ -36,7 +42,7 @@ Have a question, comment or request? [Open a new issue](https://github.com/grant
 
 ## FAQs
 
-Okay, these aren't _really_ frequently asked questions. I mean, someone somewhere probably asked them.. at least once. They're definitely questions though.
+Okay, these aren't __really__ frequently asked questions. I mean, someone somewhere probably asked them.. at least once. They're definitely questions though.
 
 ### What permissions does it need?
 
@@ -57,7 +63,7 @@ Step 2 is determining whether or not to enable or disable those styles.
 1. First, it checks to see whether you've previously clicked the "toggle" button to hide or show comments on a site.
 2. Then, it checks your personal whitelist. If you've included a site that should always show comments, it allows them even if you previously clicked the "toggle" button to hide them.
 3. After that, it checks a global whitelist of sites that should always be allowed. There's only a few sites in that list, that don't play nicely with this addon, like GitHub. Anything there trumps your personal whitelist or toggling.
-4. Finally, it checks your personal blacklist. If you've got a site on there, it trumps everything, even if it's in the global whitelist. My thinking is, if I couldn't find a reasonable way to block comments on a few sites but you _did_ somehow, well then... more power to ya.
+4. Finally, it checks your personal blacklist. If you've got a site on there, it trumps everything, even if it's in the global whitelist. My thinking is, if I couldn't find a reasonable way to block comments on a few sites but you __did__ somehow, well then... more power to ya.
 
 After the page loads, you can still click the "toggle" button (but the effect is only temporary if the site is in one of the whitelists or your blacklist, because when the page reloads, the above logic will run again).
 
@@ -70,4 +76,3 @@ Everything else is stored in sync storage, like the settings and whitelist and b
 I don't use analytics or anything else to track what you're doing. If you want to share anything, there's myriad ways, like on GitHub, or by email, or just by leaving a comment below (yeah I know, kinda ironic).
 
 Hope you find this addon as useful as I do!
-
