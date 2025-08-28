@@ -8,7 +8,6 @@ description: ""
 draft: false
 cover:
   image: photo-1487893667092-772cdd6fe0ec.jpg
-  relative: true
 slug: websites-requesting-access-to-motion-sensors
 summary: I was checking the status of a FedEx order when Brave warned me that "this
   site has been blocked from accessing your motion sensors". I'm struggling to understand

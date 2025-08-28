@@ -7,7 +7,6 @@ description: ""
 draft: false
 cover:
   image: chrome-old-car.jpg
-  relative: true
 slug: making-your-first-chrome-extension
 summary: We all have our favorite web browser with our favorite extensions loaded,
   but have you ever considered writing your own? In the past few months I've created

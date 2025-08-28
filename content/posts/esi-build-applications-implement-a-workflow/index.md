@@ -8,7 +8,6 @@ description: ""
 draft: false
 cover:
   image: photo-1601388152430-4ad0f14c0788.jpg
-  relative: true
 slug: esi-build-applications-implement-a-workflow
 summary: Continuing with Microsoft's ESI, I spent some time this week learning about
   workflows, reusable elements, and protecting and monitoring the code.

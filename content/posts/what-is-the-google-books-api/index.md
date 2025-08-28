@@ -7,7 +7,6 @@ description: ""
 draft: false
 cover:
   image: photo-1517770413964-df8ca61194a6.jpg
-  relative: true
 slug: what-is-the-google-books-api
 summary: The Google Books API provides access to Google Books, which lets you search
   for any book and, at a bare minimium, see meta data about it. Depending on copyright

@@ -7,7 +7,6 @@ description: ""
 draft: false
 cover:
   image: photo-1560523371-b28d9e070c21.jpg
-  relative: true
 slug: how-to-evaluate-a-string-of-code-in-erlang-at-runtime
 tags:
 - Erlang

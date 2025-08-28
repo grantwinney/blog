@@ -7,7 +7,6 @@ description: ""
 draft: false
 cover:
   image: photo-1580519542036-c47de6196ba5.jpg
-  relative: true
 slug: csharp-implicit-vs-explicit-conversion
 summary: We use implicit and explicit conversion in C# all the time, without even
   realizing it. Let's learn more about them and look at examples of each.

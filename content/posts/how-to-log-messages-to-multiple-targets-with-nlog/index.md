@@ -10,7 +10,6 @@ description: ""
 draft: false
 cover:
   image: wood-snake.JPG.jpg
-  relative: true
 slug: how-to-log-messages-to-multiple-targets-with-nlog
 summary: When it comes to finding a bug in an app, few things beat a good trail of
   logs. And for writing those logs, few tools beat NLog in simplicity or flexibility.

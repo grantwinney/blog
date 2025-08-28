@@ -8,7 +8,6 @@ description: ""
 draft: false
 cover:
   image: photo-1581079289196-67865ea83118.jpg
-  relative: true
 slug: csharp-overload-arithmetic-equality-comparison-operators
 summary: What's it mean to overload operators in C#? And what's that have to do with
   Generic Math in C# 11? Let's find out! (part 2 of 3)

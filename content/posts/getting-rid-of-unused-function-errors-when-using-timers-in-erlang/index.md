@@ -7,7 +7,6 @@ description: ""
 draft: false
 cover:
   image: antique-clock.jpg
-  relative: true
 slug: getting-rid-of-unused-function-errors-when-using-timers-in-erlang
 summary: Have you ever tried to execute a function at some future time in Erlang?
   You can, with a timer, but the compiler may complain that the function you're calling

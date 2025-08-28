@@ -7,7 +7,6 @@ description: ""
 draft: false
 cover:
   image: multi-sided-dice.jpg
-  relative: true
 slug: writing-a-random-selection-algorithm-that-factors-in-the-age-of-an-item
 summary: Have you ever had a collection of items and needed to select a random one
   from the lot? What if you have a class with some property (i.e. 'age' or 'weight')

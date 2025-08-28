@@ -6,7 +6,6 @@ description: ""
 draft: false
 cover:
   image: pile-of-rocks.jpg
-  relative: true
 slug: safely-customize-a-theme-in-ghost
 tags:
 - Ghost Blog

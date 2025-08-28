@@ -9,7 +9,6 @@ description: ""
 draft: false
 cover:
   image: photo-1571907483086-3c0ea40cc16d.jpg
-  relative: true
 slug: csharp-attributes
 summary: Ever thought it'd be convenient to attach metadata to your code at design
   time, then read it at runtime? Attributes let you do just that - to methods, classes,

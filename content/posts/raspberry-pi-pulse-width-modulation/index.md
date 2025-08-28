@@ -8,7 +8,6 @@ description: ""
 draft: false
 cover:
   image: photo-1543005183-b66272de41f3.jpg
-  relative: true
 slug: raspberry-pi-pulse-width-modulation
 tags:
 - Raspberry PI

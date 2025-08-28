@@ -8,7 +8,6 @@ description: ""
 draft: false
 cover:
   image: photo-1454165804606-c3d57bc86b40.jpg
-  relative: true
 slug: nunit-constraint-model
 summary: I recently discovered the constraint model in NUnit. It's been there for
   years, hiding in plain sight! What is it? Is it worth using? Let's check it out.

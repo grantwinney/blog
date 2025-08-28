@@ -6,7 +6,6 @@ description: ""
 draft: false
 cover:
   image: photo-1645651964715-d200ce0939cc.jpg
-  relative: true
 slug: were-all-contractors
 summary: Seeing my full-time job as a long-term contract has helped me improve and
   contribute, without taking things personally or falling into complacency.

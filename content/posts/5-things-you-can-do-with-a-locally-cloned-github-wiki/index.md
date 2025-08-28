@@ -8,7 +8,6 @@ description: ""
 draft: false
 cover:
   image: photo-1618401471353-b98afee0b2eb.jpg
-  relative: true
 slug: 5-things-you-can-do-with-a-locally-cloned-github-wiki
 summary: There’s a feature of every GitHub repo that in my experience doesn’t get
   a ton of love, and that's the wiki. In all fairness, I'm not sure how much love

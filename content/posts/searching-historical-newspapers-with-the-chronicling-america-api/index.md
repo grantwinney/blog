@@ -6,7 +6,6 @@ description: ""
 draft: false
 cover:
   image: photo-1504711434969-e33886168f5c.jpg
-  relative: true
 slug: searching-historical-newspapers-with-the-chronicling-america-api
 summary: I've got a few old newspapers from the 1930s and 1940s, and find them fascinating.
   And so I was excited to stumble on the Library of Congress's Chronicling America

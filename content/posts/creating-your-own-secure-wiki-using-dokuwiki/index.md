@@ -8,7 +8,6 @@ description: ""
 draft: false
 cover:
   image: setting-up-a-dokuwiki-2.jpg
-  relative: true
 slug: creating-your-own-secure-wiki-using-dokuwiki
 summary: I've been thinking for awhile now that I wanted to setup a wiki. I wanted
   something light-weight, with support for uploading images and files. And I wanted

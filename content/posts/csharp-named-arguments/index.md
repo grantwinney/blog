@@ -10,7 +10,6 @@ description: ""
 draft: false
 cover:
   image: photo-1571171637578-41bc2dd41cd2.jpg
-  relative: true
 slug: csharp-named-arguments
 summary: Named arguments in C#.. they've been around a long time, but does anyone
   use them? Let's check out another feature that helps tame wild code.

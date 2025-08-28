@@ -9,7 +9,6 @@ description: ""
 draft: false
 cover:
   image: rope-g963ba1f3c_1920-web.jpg
-  relative: true
 slug: using-string-interpolation-to-craft-readable-strings
 summary: The longer I write software, the more I come to appreciate clear code. String
   interpolation in C# is just one more way to help us do that.

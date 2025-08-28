@@ -9,7 +9,6 @@ description: ""
 draft: false
 cover:
   image: harpal-singh-_zKxPsGOGKg-unsplash.jpg
-  relative: true
 slug: how-to-use-getstockicon-for-winforms
 summary: Buried deep in the list of .NET 8 improvements for WinForms is the GetStockIcon method. It gives us a way to access stock Windows icons at runtime for the OS the app is running on. Let's check it out.
 tags:

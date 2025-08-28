@@ -8,7 +8,6 @@ description: ""
 draft: false
 cover:
   image: photo-1562259949-e8e7689d7828.jpg
-  relative: true
 slug: convert-backgroundworker-to-task-with-taskcompletionsource
 summary: Sometimes the safer way to "update" old code is to leave it be and paint
   over it with a newer construct. Let's see how to modernize a BackgroundWorker using

@@ -10,7 +10,6 @@ description: ""
 draft: false
 cover:
   image: photo-1630402283739-3f61474e2a3a.jpg
-  relative: true
 slug: csharp-generic-math-support
 summary: What is Generic Math support in C# 11, and how do we take advantage of it?
   Let's dig in and find out! (part 3 of 3)

@@ -7,7 +7,6 @@ description: ""
 draft: false
 cover:
   image: pexels-brett-jordan-5444628.jpg
-  relative: true
 slug: creating-a-git-alias
 summary: If you're unfamiliar with Git's "alias" feature, it provides a way to create
   shortcuts for other Git commands, which can save you a lot of time. They’re easy

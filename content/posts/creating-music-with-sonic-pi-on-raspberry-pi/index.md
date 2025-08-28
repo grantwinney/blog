@@ -8,7 +8,6 @@ description: ""
 draft: false
 cover:
   image: photo-1500702790369-fe461685b3c8.jpg
-  relative: true
 slug: creating-music-with-sonic-pi-on-raspberry-pi
 summary: After watching Scott Fradkin live-code Sonic Pi for an hour at a conference,
   it inspired me to make a little music of my own.

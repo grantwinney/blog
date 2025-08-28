@@ -7,7 +7,6 @@ description: ""
 draft: false
 cover:
   image: photo-1533979640417-546cbced58b0.jpg
-  relative: true
 slug: installing-dos-6-22-in-vmware-player
 summary: While looking for a copy of Windows 98 on MSDN to install some old software
   (compatibility mode under Windows 7 didn’t work), I came across Windows 3.11. I

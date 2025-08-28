@@ -6,7 +6,6 @@ description: ""
 draft: false
 cover:
   image: magic-github.jpg
-  relative: true
 slug: cool-markdown-tricks-for-github
 summary: Here's a few tricks for rendering markdown in GitHub that most people wouldn't
   know about. Oh, and they work for new Issues, Pull Requests, and in the Wiki too!

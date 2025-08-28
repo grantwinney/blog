@@ -6,7 +6,6 @@ description: ""
 draft: false
 cover:
   image: photo-1476283721796-dd935b062838.jpg
-  relative: true
 slug: migrating-a-blog-from-wordpress-to-ghost
 tags:
 - Ghost Blog

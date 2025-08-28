@@ -7,7 +7,6 @@ description: ""
 draft: false
 cover:
   image: photo-1555861496-0666c8981751.jpg
-  relative: true
 slug: rethrowing-an-exception-in-csharp
 summary: All programming languages have gotchas to trip you up, and C# is no exception.
   Today, let's check out the subtle (but significant) difference between "throw" and

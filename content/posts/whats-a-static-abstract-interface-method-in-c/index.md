@@ -9,7 +9,6 @@ description: ""
 draft: false
 cover:
   image: photo-1552083974-186346191183.jpg
-  relative: true
 slug: whats-a-static-abstract-interface-method-in-c
 summary: What are static abstract members (new in C# 11), what can we do with them,
   and how are they related to Generic Math? (part 1 of 3)

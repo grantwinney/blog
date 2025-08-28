@@ -7,7 +7,6 @@ description: ""
 draft: false
 cover:
   image: debian-find-terminal.png
-  relative: true
 slug: raspberry-pi-virtual-machine-in-virtualbox
 summary: I was flipping through The MagPi back-issues and came across an article about
   setting up a virtual Raspberry Pi environment. It got me thinking... I’ve been playing

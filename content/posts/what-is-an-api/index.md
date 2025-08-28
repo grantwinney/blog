@@ -7,7 +7,6 @@ description: ""
 draft: false
 cover:
   image: finger-769300_1920.jpg
-  relative: true
 slug: what-is-an-api
 summary: An API is an Application Programming Interface, but what's that really mean?
   In a more practical sense, it's one programmer hiding the (possibly messy) details

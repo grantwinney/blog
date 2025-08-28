@@ -6,7 +6,6 @@ description: ""
 draft: false
 cover:
   image: photo-1514329926535-7f6dbfbfb114.jpg
-  relative: true
 slug: web-comics-for-devs
 summary: Need a comic break? Here's some web comics I've stumbled upon over the years
   - the funny, sarcastic, informative, and just plain weird.

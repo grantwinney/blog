@@ -6,7 +6,6 @@ description: ""
 draft: false
 cover:
   image: photo-1518688248740-7c31f1a945c4.jpg
-  relative: true
 slug: passwordrandom-api
 summary: The PasswordRandom API provides random values - and not just passwords as
   the name would seem to suggest. It also generates GUIDs, random numbers, characters,

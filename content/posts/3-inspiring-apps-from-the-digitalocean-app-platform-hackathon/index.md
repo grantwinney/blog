@@ -6,7 +6,6 @@ description: ""
 draft: false
 cover:
   image: photo-1504384764586-bb4cdc1707b0.jpg
-  relative: true
 slug: 3-inspiring-apps-from-the-digitalocean-app-platform-hackathon
 summary: A few of my favorite submissions from DigitalOcean's App Platform hackathon, that hold real promise for bringing people together!
 tags:

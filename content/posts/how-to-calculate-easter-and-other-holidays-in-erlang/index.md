@@ -8,7 +8,6 @@ description: ""
 draft: false
 cover:
   image: sundial.jpg
-  relative: true
 slug: how-to-calculate-easter-and-other-holidays-in-erlang
 summary: I wrote a small library for calculating Easter and other holidays in Erlang.
   Here's how I did it and what I learned.

@@ -6,7 +6,6 @@ description: ""
 draft: false
 cover:
   image: photo-1605142859862-978be7eba909.jpg
-  relative: true
 slug: how-can-i-generate-a-new-guid
 summary: GUIDs are heavily used in the world of development, so let's look at a few
   quick and easy ways to generate them whenever we need them.

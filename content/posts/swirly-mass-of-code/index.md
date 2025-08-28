@@ -6,7 +6,6 @@ description: ""
 draft: false
 cover:
   image: photo-1597425098166-90b88803284b.jpg
-  relative: true
 slug: swirly-mass-of-code
 tags:
 - Reflections
