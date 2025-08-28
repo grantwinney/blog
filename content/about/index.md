@@ -5,9 +5,6 @@ draft: false
 slug: about
 title: Hi! I'm Grant.
 ---
- [!NOTIFY]
- Test
-
 Is there anything more satisfying than trying to figure something out, _finally_ getting it, and then sharing it with someone else who will appreciate it? Or taking some piece of knowledge, passing it on to someone, and getting to witness their ["ah ha" moment](https://xkcd.com/1053/)?
 
 ![](https://grantwinney.com/content/images/2025/01/image-1.png)
