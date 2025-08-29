@@ -25,6 +25,7 @@
       {{- partial "translation_list.html" . -}}
       {{- partial "edit_post.html" . -}}
       {{- partial "post_canonical.html" . -}}
+      <hyvor-talk-comment-count page-id="{{.Params.Slug}}"></hyvor-talk-comment-count>
     </div>
     {{- end }}
   </header>
@@ -60,6 +61,13 @@
     {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
     {{- partial "share_icons.html" . -}}
     {{- end }}
+    <script src="https://talk.hyvor.com/embed/comment-counts.js"></script>
+    <script>
+      hyvorTalkCommentCounts.load({
+          "website-id": 906
+      })
+    </script>
+
   </footer>
 
   {{- if (.Param "comments") }}
