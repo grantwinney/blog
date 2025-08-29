@@ -34,13 +34,13 @@ languages:
           url: about
           weight: 5
         - name: Code
-          url: "/tags/coding"
+          url: about
           weight: 10
         - name: Questions
-          url: "/tags/questions"
+          url: about
           weight: 10
         - name: Tools of the Trade
-          url: "/tags/tools-of-the-trade"
+          url: about
           weight: 10
         - name: Search
           url: search/
