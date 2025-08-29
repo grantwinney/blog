@@ -1,3 +1,11 @@
 .post-footer-section {
     text-transform: uppercase;
 }
+
+.post-footer-section:after {
+    background-color: var(--color-light-gray);
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    margin-left: 1.6rem
+}
