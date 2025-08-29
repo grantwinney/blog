@@ -40,11 +40,6 @@
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}
-    <div>
-      <div id="comments" class="post-footer-section">Comments</div>
-      <script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
-      <hyvor-talk-comments website-id="906" page-id="{{.Params.Slug}}"></hyvor-talk-comments>
-    </div>
   </div>
   {{- end }}
 
@@ -61,6 +56,11 @@
     {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
     {{- partial "share_icons.html" . -}}
     {{- end }}
+    <div>
+      <div id="comments" class="post-footer-section">Comments</div>
+      <script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
+      <hyvor-talk-comments website-id="906" page-id="{{.Params.Slug}}"></hyvor-talk-comments>
+    </div>
     <script src="https://talk.hyvor.com/embed/comment-counts.js"></script>
     <script>
       hyvorTalkCommentCounts.load({
