@@ -30,24 +30,19 @@ languages:
       series: series
     menu:
       main:
-        - identifier: about
-          name: About
+        - name: About
           url: about
           weight: 5
-        - identifier: code
-          name: Code
+        - name: Code
           url: "/tags/coding"
           weight: 10
-        - identifier: questions
-          name: Questions
+        - name: Questions
           url: "/tags/questions"
           weight: 10
-        - identifier: tools
-          name: Tools of the Trade
+        - name: Tools of the Trade
           url: "/tags/tools-of-the-trade"
           weight: 10
-        - identifier: search
-          name: Search
+        - name: Search
           url: search/
           weight: 50
 
