@@ -56,6 +56,12 @@ params:
     limit: 10  # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 
+  socialIcons:
+    - name: github
+      url: "https://github.com/grantwinney"
+    
+
+  env: production
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: false
