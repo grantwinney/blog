@@ -1,5 +1,6 @@
 .post-footer-section {
     align-items: center;
+    display: flex;
     font-weight: bold;
     padding-top: 30px;
     text-transform: uppercase;
