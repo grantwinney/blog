@@ -6,33 +6,20 @@ theme:
   - 'PaperMod'
 
 enableInlineShortcodes: true
-enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
 enableEmoji: true
-pygmentsUseClasses: true
 mainsections: ["posts", "PaperMod"]
 
-languages:
-  en:
-    languageName: "English"
-    weight: 1
-    taxonomies:
-      category: categories
-      tag: tags
-      series: series
-    menu:
-      main:
-        - name: Archive
-          url: archives
-          weight: 5
-        - name: Search
-          url: search/
-          weight: 10
-        - name: Tags
-          url: tags/
-          weight: 10
+menu:
+  main:
+    - name: Archive
+      url: archives
+      weight: 5
+    - name: Search
+      url: search/
+      weight: 10
+    - name: Tags
+      url: tags/
+      weight: 10
 
 outputs:
   home:
@@ -41,7 +28,6 @@ outputs:
     - JSON
 
 params:
-  # https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-hugoyml
   assets:
     favicon: "https://grantwinney.com/favicon.ico"
   
@@ -59,7 +45,19 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/grantwinney"
-    
+
+ # analytics:
+ #   google:
+ #     SiteVerificationTag: ""
+ #   bing:
+ #     SiteVerificationTag: ""
+ #   yandex:
+ #     SiteVerificationTag: ""
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   env: production
   ShowReadingTime: true
@@ -85,3 +83,6 @@ params:
 permalinks:
   page:
     posts: "/:slug/"
+
+# https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-hugoyml
+# https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-configyml
