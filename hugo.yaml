@@ -9,6 +9,17 @@ enableInlineShortcodes: true
 enableEmoji: true
 mainsections: ["posts", "PaperMod"]
 
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    lineNos: true
+    # style: monokai
+
 menu:
   main:
     - name: Archive
