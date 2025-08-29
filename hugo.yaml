@@ -43,8 +43,8 @@ outputs:
 params:
   assets:
     favicon: "https://grantwinney.com/favicon.ico"
-  # for search
-  # https://fusejs.io/api/options.html
+  
+  # search - https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -52,7 +52,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    limit: 10  # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 
 # caches:
