@@ -45,8 +45,8 @@
       <hyvor-talk-comments website-id="906" page-id=""></hyvor-talk-comments>
     </div>
   </div>
-  a {{ slug }}
-  b {{ $slug }}
+  a {{ .Site.Slug }}
+  b {{ .Site }}
   {{- end }}
 
   <footer class="post-footer">
