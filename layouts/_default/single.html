@@ -42,10 +42,9 @@
     <div>
       <div class="post-footer-section">Comments</div>
       <script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
-      <hyvor-talk-comments website-id="906" page-id=""></hyvor-talk-comments>
+      <hyvor-talk-comments website-id="906" page-id="{{.Params.Slug}}"></hyvor-talk-comments>
     </div>
   </div>
-  a {{ .Params.Slug }}
   {{- end }}
 
   <footer class="post-footer">
