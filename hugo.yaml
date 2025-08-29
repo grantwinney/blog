@@ -22,25 +22,20 @@ markup:
 
 menu:
   main:
-    - identifier: about
-      name: About
-      url: about
+    - name: About
+      url: /about
       weight: 5
-    - identifier: code
-      name: Code
-      url: tags/coding
+    - name: Code
+      url: /tags/coding
       weight: 10
-    - identifier: questions
-      name: Questions
-      url: tags/concepts
+    - name: Questions
+      url: /tags/concepts
       weight: 10
-    - identifier: tools
-      name: Tools of the Trade
-      url: tags/tools-of-the-trade
+    - name: Tools of the Trade
+      url: /tags/tools-of-the-trade
       weight: 10
-    - identifier: search
-      name: Search
-      url: search/
+    - name: Search
+      url: /search/
       weight: 50
 
 outputs:
