@@ -22,12 +22,16 @@ markup:
 
 menu:
   main:
+    - name: About
+      url: about
+      weight: 5
     - name: Archive
       url: archives
-      weight: 5
+      weight: 10
     - name: Search
       url: search/
-      weight: 10
+      weight: 50
+  footer:
     - name: Tags
       url: tags/
       weight: 10
