@@ -20,28 +20,36 @@ markup:
     lineNos: true
     # style: monokai
 
-menu:
-  main:
-    - identifier: about
-      name: About
-      url: /about
-      weight: 5
-    - identifier: code
-      name: Code
-      url: /tags/coding
-      weight: 10
-    - identifier: questions
-      name: Questions
-      url: /tags/concepts
-      weight: 10
-    - identifier: tools
-      name: Tools of the Trade
-      url: /tags/tools-of-the-trade
-      weight: 10
-    - identifier: search
-      name: Search
-      url: search/
-      weight: 50
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - identifier: about
+          name: About
+          url: /about
+          weight: 5
+        - identifier: code
+          name: Code
+          url: /tags/coding
+          weight: 10
+        - identifier: questions
+          name: Questions
+          url: /tags/concepts
+          weight: 10
+        - identifier: tools
+          name: Tools of the Trade
+          url: /tags/tools-of-the-trade
+          weight: 10
+        - identifier: search
+          name: Search
+          url: search/
+          weight: 50
 
 outputs:
   home:
