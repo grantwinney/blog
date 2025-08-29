@@ -36,8 +36,11 @@ languages:
         - name: Code
           url: "/tags/coding"
           weight: 10
-        - name: Questions2
+        - name: "Questions"
           url: "/tags/questions"
+          weight: 10
+        - name: "Tools of the Trade"
+          url: "/tags/tools-of-the-trade"
           weight: 10
         - name: Search
           url: search/
