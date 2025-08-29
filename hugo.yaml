@@ -23,19 +23,19 @@ markup:
 menu:
   main:
     - name: About
-      url: /about
+      url: about
       weight: 5
     - name: Code
-      url: /tags/coding
+      url: tags/coding
       weight: 10
-    - name: Questions
-      url: /tags/concepts
+    - name: Concepts
+      url: tags/concepts
       weight: 10
     - name: Tools of the Trade
-      url: /tags/tools-of-the-trade
+      url: tags/tools-of-the-trade
       weight: 10
     - name: Search
-      url: /search/
+      url: search/
       weight: 50
 
 outputs:
