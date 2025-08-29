@@ -5,7 +5,7 @@ draft: false
 slug: ghostsharp
 title: GhostSharp
 ---
-![](https://github.com/grantwinney/GhostSharp/actions/workflows/dotnet.yml/badge.svg) ![](https://img.shields.io/nuget/v/GhostSharp.svg) ![](https://www.codefactor.io/repository/github/grantwinney/ghostsharp/badge) ![](https://www.codetriage.com/grantwinney/ghostsharp/badges/users.svg) ![](https://img.shields.io/github/languages/top/grantwinney/GhostSharp.svg) ![](https://img.shields.io/twitter/url/http/shields.io.svg)
+![](https://github.com/grantwinney/GhostSharp/actions/workflows/dotnet.yml/badge.svg) ![](https://img.shields.io/nuget/v/GhostSharp.svg) ![](https://www.codefactor.io/repository/github/grantwinney/ghostsharp/badge) ![](https://www.codetriage.com/grantwinney/ghostsharp/badges/users.svg) ![](https://img.shields.io/github/languages/top/grantwinney/GhostSharp.svg)
 
 GhostSharp is a C# [wrapper](https://grantwinney.com/what-is-an-api-wrapper-and-how-do-i-write-one/) around the [Ghost API v3.0](https://ghost.org/docs/api/v3/), a RESTful JSON API built into the core of the [Ghost blogging platform](https://ghost.org/). I wrote it as a personal challenge, to get acquainted with the Ghost API, but also to familiarize myself with [C# 7.x](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7), [8.x](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8), [.NET Core](https://docs.microsoft.com/en-us/dotnet/core/about), and [.NET Standard](https://devblogs.microsoft.com/dotnet/introducing-net-standard/).
 
