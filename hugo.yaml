@@ -41,6 +41,7 @@ outputs:
     - JSON
 
 params:
+  # https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-hugoyml
   assets:
     favicon: "https://grantwinney.com/favicon.ico"
   
@@ -54,6 +55,22 @@ params:
     minMatchCharLength: 0
     limit: 10  # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
 
 # caches:
 #   images:
