@@ -1,5 +1,27 @@
-/* Headers for sections at end of post, like comments area */
+/** POSTS **/
 
+/* Color the comment count the same as other text near it */
+hyvor-talk-comment-count {
+    color: var(--secondary);
+}
+
+/* Center all images */
+.post-single img {
+    margin: auto;
+}
+
+/** HEADER AREA **/
+
+/* Add fa icons beside search text */
+a[title^='Search']::before {
+    content: "\f002";
+    font-family: "FontAwesome";
+    margin-right: 0.5em; /* spacing between icon and text */
+}
+
+/** FOOTER AREA **/
+
+/* Titles for sections at end of post, like near comments area */
 .post-footer-section {
     align-items: center;
     display: flex;
@@ -7,7 +29,6 @@
     padding-top: 30px;
     text-transform: uppercase;
 }
-
 .post-footer-section:after {
     background-color: #ccc;
     content: "";
@@ -16,20 +37,7 @@
     margin: 0px 0px 0px 16px;
 }
 
-/* Color the comment count the same as other text near it */
-
-hyvor-talk-comment-count {
-    color: var(--secondary);
-}
-
-/* Add fa icons beside text */
-
-a[title^='Search']::before {
-    content: "\f002";
-    font-family: "FontAwesome";
-    margin-right: 0.5em; /* spacing between icon and text */
-}
-
+/* Links at bottom of footer area, above copyright */
 .footer_links {
     margin-bottom: 10px;
 }
