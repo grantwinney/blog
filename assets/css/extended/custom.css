@@ -11,7 +11,10 @@ hyvor-talk-comment-count {
 }
 
 .post-content figure > figcaption {
+    font-size: small;
+    font-style: italic;
     font-weight: normal;
+    text-align: center;
 }
 
 /** HEADER AREA **/
