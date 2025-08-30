@@ -2,7 +2,7 @@
     margin: auto;
     height: 400px;
     width: 400px;
-    background-image: url("sun.png");
+    background-image: url("https://grantwinney.com/how-to-make-a-dark-mode-with-css/sun.png");
     background-size: 360px 360px;
     background-repeat: no-repeat;
     background-position: center;
@@ -12,13 +12,13 @@
 (prefers-color-scheme: no-preference) {
     #sunmoonpic {
         background-color: skyblue;
-        background-image: url("sun.png");
+        background-image: url("https://grantwinney.com/how-to-make-a-dark-mode-with-css/sun.png");
     }
 }
 
 @media (prefers-color-scheme: dark) {
     #sunmoonpic {
         background-color: midnightblue;
-        background-image: url("moon.png");
+        background-image: url("https://grantwinney.com/how-to-make-a-dark-mode-with-css/moon.png");
     }
 }
