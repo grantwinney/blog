@@ -72,98 +72,98 @@ Lastly, since the StockIconId page doesn't include the actual _images_ of the ic
 
 |Name|Value|Description|Image|
 |---|---|---|---|
-|DocumentNoAssociation|0|Document (blank page), no associated program.|![](https://grantwinney.com/content/images/2024/12/DocumentNoAssociation-2.png)|
-|DocumentWithAssociation|1|Document with an associated program.|![](https://grantwinney.com/content/images/2024/12/DocumentWithAssociation-2.png)|
-|Application|2|Generic application with no custom icon.|![](https://grantwinney.com/content/images/2024/12/Application-2.png)|
-|Folder|3|Closed folder.|![](https://grantwinney.com/content/images/2024/12/Folder-2.png)|
-|FolderOpen|4|Open folder.|![](https://grantwinney.com/content/images/2024/12/FolderOpen-2.png)|
-|Drive525|5|5.25" floppy disk drive.|![](https://grantwinney.com/content/images/2024/12/Drive525-2.png)|
-|Drive35|6|3.5" floppy disk drive.|![](https://grantwinney.com/content/images/2024/12/Drive35-2.png)|
-|DriveRemovable|7|Removable drive.|![](https://grantwinney.com/content/images/2024/12/DriveRemovable-2.png)|
-|DriveFixed|8|Fixed drive.|![](https://grantwinney.com/content/images/2024/12/DriveFixed-2.png)|
-|DriveNet|9|Network drive.|![](https://grantwinney.com/content/images/2024/12/DriveNet-2.png)|
-|DriveNetDisabled|10|Disabled network drive.|![](https://grantwinney.com/content/images/2024/12/DriveNetDisabled-2.png)|
-|DriveCD|11|CD drive.|![](https://grantwinney.com/content/images/2024/12/DriveCD-2.png)|
-|DriveRam|12|RAM disk drive.|![](https://grantwinney.com/content/images/2024/12/DriveRam-2.png)|
-|World|13|Entire network.|![](https://grantwinney.com/content/images/2024/12/World-2.png)|
-|Server|15|A computer on the network.|![](https://grantwinney.com/content/images/2024/12/Server-2.png)|
-|Printer|16|Printer.|![](https://grantwinney.com/content/images/2024/12/Printer-2.png)|
-|MyNetwork|17|My network places.|![](https://grantwinney.com/content/images/2024/12/MyNetwork-2.png)|
-|Find|22|Find.|![](https://grantwinney.com/content/images/2024/12/Find-2.png)|
-|Help|23|Help.|![](https://grantwinney.com/content/images/2024/12/Help-2.png)|
-|Share|28|Overlay for shared items.|![](https://grantwinney.com/content/images/2024/12/Share-2.png)|
-|Link|29|Overlay for shortcuts to items.|![](https://grantwinney.com/content/images/2024/12/Link-2.png)|
-|SlowFile|30|Overlay for slow items.|![](https://grantwinney.com/content/images/2024/12/SlowFile-2.png)|
-|Recycler|31|Empty recycle bin.|![](https://grantwinney.com/content/images/2024/12/Recycler-2.png)|
-|RecyclerFull|32|Full recycle bin.|![](https://grantwinney.com/content/images/2024/12/RecyclerFull-2.png)|
-|MediaCDAudio|40|Audio CD media.|![](https://grantwinney.com/content/images/2024/12/MediaCDAudio-2.png)|
-|Lock|47|Security lock.|![](https://grantwinney.com/content/images/2024/12/Lock-2.png)|
-|AutoList|49|AutoList.|![](https://grantwinney.com/content/images/2024/12/AutoList-2.png)|
-|PrinterNet|50|Network printer.|![](https://grantwinney.com/content/images/2024/12/PrinterNet-2.png)|
-|ServerShare|51|Server share.|![](https://grantwinney.com/content/images/2024/12/ServerShare-2.png)|
-|PrinterFax|52|Fax printer.|![](https://grantwinney.com/content/images/2024/12/PrinterFax-2.png)|
-|PrinterFaxNet|53|Networked fax printer.|![](https://grantwinney.com/content/images/2024/12/PrinterFaxNet-2.png)|
-|PrinterFile|54|Print to file.|![](https://grantwinney.com/content/images/2024/12/PrinterFile-2.png)|
-|Stack|55|Stack.|![](https://grantwinney.com/content/images/2024/12/Stack-2.png)|
-|MediaSVCD|56|SVCD media.|![](https://grantwinney.com/content/images/2024/12/MediaSVCD-2.png)|
-|StuffedFolder|57|Folder containing other items.|![](https://grantwinney.com/content/images/2024/12/StuffedFolder-2.png)|
-|DriveUnknown|58|Unknown drive.|![](https://grantwinney.com/content/images/2024/12/DriveUnknown-2.png)|
-|DriveDVD|59|DVD drive.|![](https://grantwinney.com/content/images/2024/12/DriveDVD-2.png)|
-|MediaDVD|60|DVD media.|![](https://grantwinney.com/content/images/2024/12/MediaDVD-2.png)|
-|MediaDVDRAM|61|DVD-RAM media.|![](https://grantwinney.com/content/images/2024/12/MediaDVDRAM-2.png)|
-|MediaDVDRW|62|DVD-RW media.|![](https://grantwinney.com/content/images/2024/12/MediaDVDRW-2.png)|
-|MediaDVDR|63|DVD-R media.|![](https://grantwinney.com/content/images/2024/12/MediaDVDR-2.png)|
-|MediaDVDROM|64|DVD-ROM media.|![](https://grantwinney.com/content/images/2024/12/MediaDVDROM-2.png)|
-|MediaCDAudioPlus|65|CD+ (Enhanced CD) media.|![](https://grantwinney.com/content/images/2024/12/MediaCDAudioPlus-2.png)|
-|MediaCDRW|66|CD-RW media.|![](https://grantwinney.com/content/images/2024/12/MediaCDRW-2.png)|
-|MediaCDR|67|CD-R media.|![](https://grantwinney.com/content/images/2024/12/MediaCDR-2.png)|
-|MediaCDBurn|68|Burning CD.|![](https://grantwinney.com/content/images/2024/12/MediaCDBurn-2.png)|
-|MediaBlankCD|69|Blank CD media.|![](https://grantwinney.com/content/images/2024/12/MediaBlankCD-2.png)|
-|MediaCDROM|70|CD-ROM media.|![](https://grantwinney.com/content/images/2024/12/MediaCDROM-2.png)|
-|AudioFiles|71|Audio files.|![](https://grantwinney.com/content/images/2024/12/AudioFiles-2.png)|
-|ImageFiles|72|Image files.|![](https://grantwinney.com/content/images/2024/12/ImageFiles-2.png)|
-|VideoFiles|73|Video files.|![](https://grantwinney.com/content/images/2024/12/VideoFiles-2.png)|
-|MixedFiles|74|Mixed files.|![](https://grantwinney.com/content/images/2024/12/MixedFiles-2.png)|
-|FolderBack|75|Folder back.|![](https://grantwinney.com/content/images/2024/12/FolderBack-2.png)|
-|FolderFront|76|Folder front.|![](https://grantwinney.com/content/images/2024/12/FolderFront-2.png)|
-|Shield|77|Security shield. Use for UAC prompts only.|![](https://grantwinney.com/content/images/2024/12/Shield-2.png)|
-|Warning|78|Warning.|![](https://grantwinney.com/content/images/2024/12/Warning-2.png)|
-|Info|79|Informational.|![](https://grantwinney.com/content/images/2024/12/Info-2.png)|
-|Error|80|Error.|![](https://grantwinney.com/content/images/2024/12/Error-2.png)|
-|Key|81|Key / secure.|![](https://grantwinney.com/content/images/2024/12/Key-2.png)|
-|Software|82|Software.|![](https://grantwinney.com/content/images/2024/12/Software-2.png)|
-|Rename|83|Rename.|![](https://grantwinney.com/content/images/2024/12/Rename-2.png)|
-|Delete|84|Delete.|![](https://grantwinney.com/content/images/2024/12/Delete-2.png)|
-|MediaAudioDVD|85|Audio DVD media.|![](https://grantwinney.com/content/images/2024/12/MediaAudioDVD-2.png)|
-|MediaMovieDVD|86|Movied DVD media.|![](https://grantwinney.com/content/images/2024/12/MediaMovieDVD-2.png)|
-|MediaEnhancedCD|87|Enhanced CD media.|![](https://grantwinney.com/content/images/2024/12/MediaEnhancedCD-2.png)|
-|MediaEnhancedDVD|88|Enhanced DVD media.|![](https://grantwinney.com/content/images/2024/12/MediaEnhancedDVD-2.png)|
-|MediaHDDVD|89|HD-DVD media.|![](https://grantwinney.com/content/images/2024/12/MediaHDDVD-2.png)|
-|MediaBluRay|90|BluRay media.|![](https://grantwinney.com/content/images/2024/12/MediaBluRay-2.png)|
-|MediaVCD|91|VCD media.|![](https://grantwinney.com/content/images/2024/12/MediaVCD-2.png)|
-|MediaDVDPlusR|92|DVD+R media.|![](https://grantwinney.com/content/images/2024/12/MediaDVDPlusR-2.png)|
-|MediaDVDPlusRW|93|DVD+RW media.|![](https://grantwinney.com/content/images/2024/12/MediaDVDPlusRW-2.png)|
-|DesktopPC|94|Desktop computer.|![](https://grantwinney.com/content/images/2024/12/DesktopPC-2.png)|
-|MobilePC|95|Mobile computer.|![](https://grantwinney.com/content/images/2024/12/MobilePC-2.png)|
-|Users|96|Users.|![](https://grantwinney.com/content/images/2024/12/Users-2.png)|
-|MediaSmartMedia|97|Smart media.|![](https://grantwinney.com/content/images/2024/12/MediaSmartMedia-2.png)|
-|MediaCompactFlash|98|Compact Flash.|![](https://grantwinney.com/content/images/2024/12/MediaCompactFlash-2.png)|
-|DeviceCellPhone|99|Cell phone.|![](https://grantwinney.com/content/images/2024/12/DeviceCellPhone-2.png)|
-|DeviceCamera|100|Camera.|![](https://grantwinney.com/content/images/2024/12/DeviceCamera-2.png)|
-|DeviceVideoCamera|101|Video camera.|![](https://grantwinney.com/content/images/2024/12/DeviceVideoCamera-2.png)|
-|DeviceAudioPlayer|102|Audio player.|![](https://grantwinney.com/content/images/2024/12/DeviceAudioPlayer-2.png)|
-|NetworkConnect|103|Connect to network.|![](https://grantwinney.com/content/images/2024/12/NetworkConnect-2.png)|
-|Internet|104|Internet.|![](https://grantwinney.com/content/images/2024/12/Internet-2.png)|
-|ZipFile|105|ZIP file.|![](https://grantwinney.com/content/images/2024/12/ZipFile-2.png)|
-|Settings|106|Settings.|![](https://grantwinney.com/content/images/2024/12/Settings-2.png)|
-|DriveHDDVD|132|HD-DVD drive.|![](https://grantwinney.com/content/images/2024/12/DriveHDDVD-2.png)|
-|DriveBD|133|BluRay drive.|![](https://grantwinney.com/content/images/2024/12/DriveBD-2.png)|
-|MediaHDDVDROM|134|HD-DVD-ROM media.|![](https://grantwinney.com/content/images/2024/12/MediaHDDVDROM-2.png)|
-|MediaHDDVDR|135|HD-DVD-R media.|![](https://grantwinney.com/content/images/2024/12/MediaHDDVDR-2.png)|
-|MediaHDDVDRAM|136|HD-DVD-RAM media.|![](https://grantwinney.com/content/images/2024/12/MediaHDDVDRAM-2.png)|
-|MediaBDROM|137|BluRay-ROM media.|![](https://grantwinney.com/content/images/2024/12/MediaBDROM-2.png)|
-|MediaBDR|138|BluRay-R media.|![](https://grantwinney.com/content/images/2024/12/MediaBDR-2.png)|
-|MediaBDRE|139|BluRay-RE media.|![](https://grantwinney.com/content/images/2024/12/MediaBDRE-2.png)|
-|ClusteredDrive|140|Clustered disk.|![](https://grantwinney.com/content/images/2024/12/ClusteredDrive-2.png)|
+|DocumentNoAssociation|0|Document (blank page), no associated program.|![](DocumentNoAssociation-2.png)|
+|DocumentWithAssociation|1|Document with an associated program.|![](DocumentWithAssociation-2.png)|
+|Application|2|Generic application with no custom icon.|![](Application-2.png)|
+|Folder|3|Closed folder.|![](Folder-2.png)|
+|FolderOpen|4|Open folder.|![](FolderOpen-2.png)|
+|Drive525|5|5.25" floppy disk drive.|![](Drive525-2.png)|
+|Drive35|6|3.5" floppy disk drive.|![](Drive35-2.png)|
+|DriveRemovable|7|Removable drive.|![](DriveRemovable-2.png)|
+|DriveFixed|8|Fixed drive.|![](DriveFixed-2.png)|
+|DriveNet|9|Network drive.|![](DriveNet-2.png)|
+|DriveNetDisabled|10|Disabled network drive.|![](DriveNetDisabled-2.png)|
+|DriveCD|11|CD drive.|![](DriveCD-2.png)|
+|DriveRam|12|RAM disk drive.|![](DriveRam-2.png)|
+|World|13|Entire network.|![](World-2.png)|
+|Server|15|A computer on the network.|![](Server-2.png)|
+|Printer|16|Printer.|![](Printer-2.png)|
+|MyNetwork|17|My network places.|![](MyNetwork-2.png)|
+|Find|22|Find.|![](Find-2.png)|
+|Help|23|Help.|![](Help-2.png)|
+|Share|28|Overlay for shared items.|![](Share-2.png)|
+|Link|29|Overlay for shortcuts to items.|![](Link-2.png)|
+|SlowFile|30|Overlay for slow items.|![](SlowFile-2.png)|
+|Recycler|31|Empty recycle bin.|![](Recycler-2.png)|
+|RecyclerFull|32|Full recycle bin.|![](RecyclerFull-2.png)|
+|MediaCDAudio|40|Audio CD media.|![](MediaCDAudio-2.png)|
+|Lock|47|Security lock.|![](Lock-2.png)|
+|AutoList|49|AutoList.|![](AutoList-2.png)|
+|PrinterNet|50|Network printer.|![](PrinterNet-2.png)|
+|ServerShare|51|Server share.|![](ServerShare-2.png)|
+|PrinterFax|52|Fax printer.|![](PrinterFax-2.png)|
+|PrinterFaxNet|53|Networked fax printer.|![](PrinterFaxNet-2.png)|
+|PrinterFile|54|Print to file.|![](PrinterFile-2.png)|
+|Stack|55|Stack.|![](Stack-2.png)|
+|MediaSVCD|56|SVCD media.|![](MediaSVCD-2.png)|
+|StuffedFolder|57|Folder containing other items.|![](StuffedFolder-2.png)|
+|DriveUnknown|58|Unknown drive.|![](DriveUnknown-2.png)|
+|DriveDVD|59|DVD drive.|![](DriveDVD-2.png)|
+|MediaDVD|60|DVD media.|![](MediaDVD-2.png)|
+|MediaDVDRAM|61|DVD-RAM media.|![](MediaDVDRAM-2.png)|
+|MediaDVDRW|62|DVD-RW media.|![](MediaDVDRW-2.png)|
+|MediaDVDR|63|DVD-R media.|![](MediaDVDR-2.png)|
+|MediaDVDROM|64|DVD-ROM media.|![](MediaDVDROM-2.png)|
+|MediaCDAudioPlus|65|CD+ (Enhanced CD) media.|![](MediaCDAudioPlus-2.png)|
+|MediaCDRW|66|CD-RW media.|![](MediaCDRW-2.png)|
+|MediaCDR|67|CD-R media.|![](MediaCDR-2.png)|
+|MediaCDBurn|68|Burning CD.|![](MediaCDBurn-2.png)|
+|MediaBlankCD|69|Blank CD media.|![](MediaBlankCD-2.png)|
+|MediaCDROM|70|CD-ROM media.|![](MediaCDROM-2.png)|
+|AudioFiles|71|Audio files.|![](AudioFiles-2.png)|
+|ImageFiles|72|Image files.|![](ImageFiles-2.png)|
+|VideoFiles|73|Video files.|![](VideoFiles-2.png)|
+|MixedFiles|74|Mixed files.|![](MixedFiles-2.png)|
+|FolderBack|75|Folder back.|![](FolderBack-2.png)|
+|FolderFront|76|Folder front.|![](FolderFront-2.png)|
+|Shield|77|Security shield. Use for UAC prompts only.|![](Shield-2.png)|
+|Warning|78|Warning.|![](Warning-2.png)|
+|Info|79|Informational.|![](Info-2.png)|
+|Error|80|Error.|![](Error-2.png)|
+|Key|81|Key / secure.|![](Key-2.png)|
+|Software|82|Software.|![](Software-2.png)|
+|Rename|83|Rename.|![](Rename-2.png)|
+|Delete|84|Delete.|![](Delete-2.png)|
+|MediaAudioDVD|85|Audio DVD media.|![](MediaAudioDVD-2.png)|
+|MediaMovieDVD|86|Movied DVD media.|![](MediaMovieDVD-2.png)|
+|MediaEnhancedCD|87|Enhanced CD media.|![](MediaEnhancedCD-2.png)|
+|MediaEnhancedDVD|88|Enhanced DVD media.|![](MediaEnhancedDVD-2.png)|
+|MediaHDDVD|89|HD-DVD media.|![](MediaHDDVD-2.png)|
+|MediaBluRay|90|BluRay media.|![](MediaBluRay-2.png)|
+|MediaVCD|91|VCD media.|![](MediaVCD-2.png)|
+|MediaDVDPlusR|92|DVD+R media.|![](MediaDVDPlusR-2.png)|
+|MediaDVDPlusRW|93|DVD+RW media.|![](MediaDVDPlusRW-2.png)|
+|DesktopPC|94|Desktop computer.|![](DesktopPC-2.png)|
+|MobilePC|95|Mobile computer.|![](MobilePC-2.png)|
+|Users|96|Users.|![](Users-2.png)|
+|MediaSmartMedia|97|Smart media.|![](MediaSmartMedia-2.png)|
+|MediaCompactFlash|98|Compact Flash.|![](MediaCompactFlash-2.png)|
+|DeviceCellPhone|99|Cell phone.|![](DeviceCellPhone-2.png)|
+|DeviceCamera|100|Camera.|![](DeviceCamera-2.png)|
+|DeviceVideoCamera|101|Video camera.|![](DeviceVideoCamera-2.png)|
+|DeviceAudioPlayer|102|Audio player.|![](DeviceAudioPlayer-2.png)|
+|NetworkConnect|103|Connect to network.|![](NetworkConnect-2.png)|
+|Internet|104|Internet.|![](Internet-2.png)|
+|ZipFile|105|ZIP file.|![](ZipFile-2.png)|
+|Settings|106|Settings.|![](Settings-2.png)|
+|DriveHDDVD|132|HD-DVD drive.|![](DriveHDDVD-2.png)|
+|DriveBD|133|BluRay drive.|![](DriveBD-2.png)|
+|MediaHDDVDROM|134|HD-DVD-ROM media.|![](MediaHDDVDROM-2.png)|
+|MediaHDDVDR|135|HD-DVD-R media.|![](MediaHDDVDR-2.png)|
+|MediaHDDVDRAM|136|HD-DVD-RAM media.|![](MediaHDDVDRAM-2.png)|
+|MediaBDROM|137|BluRay-ROM media.|![](MediaBDROM-2.png)|
+|MediaBDR|138|BluRay-R media.|![](MediaBDR-2.png)|
+|MediaBDRE|139|BluRay-RE media.|![](MediaBDRE-2.png)|
+|ClusteredDrive|140|Clustered disk.|![](ClusteredDrive-2.png)|
 
 If you found this content useful, and would like to learn more about a variety of [C#](https://grantwinney.com/tag/csharp/) features, check out my [CSharpDotNetFeatures repo](https://github.com/grantwinney/CSharpDotNetFeatures), where you'll find links to plenty more blog posts and practical examples!
