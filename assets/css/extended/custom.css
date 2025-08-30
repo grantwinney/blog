@@ -30,6 +30,9 @@ a[title^='Search']::before {
     margin-right: 0.5em; /* spacing between icon and text */
 }
 
+.footer_links {
+    margin-bottom: 10px;
+}
 .footer_links > span:first-child {
     padding-right: 5px;
 }
