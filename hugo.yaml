@@ -43,7 +43,7 @@ languages:
           pageRef: "/tags/questions/"
           weight: 10
         - identifier: tool-of-the-trade
-          name: "Tools of the Trade"
+          name: "Tools"
           pageRef: "/tags/tools-of-the-trade/"
           weight: 10
         - identifier: search
