@@ -32,23 +32,23 @@ languages:
       main:
         - identifier: about
           name: About
-          url: about
+          pageRef: about
           weight: 5
         - identifier: code
           name: Code
-          url: "/tags/coding/"
+          pageRef: "/tags/coding/"
           weight: 10
         - identifier: questions
           name: "Questions"
-          url: "/tags/questions/"
+          pageRef: "/tags/questions/"
           weight: 10
         - identifier: tool-of-the-trade
           name: "Tools of the Trade"
-          url: "/tags/tools-of-the-trade/"
+          pageRef: "/tags/tools-of-the-trade/"
           weight: 10
         - identifier: search
           name: Search
-          url: search/
+          pageRef: search/
           weight: 50
 
 outputs:
