@@ -15,7 +15,7 @@ tags:
   - WinForms
   - Coding
   - CSharp
-  - DotNet8
+  - .NET 8
   - CSharp12
 title: How to Use GetStockIcon for WinForms in .NET 8
 ---
