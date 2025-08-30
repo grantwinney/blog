@@ -24,21 +24,30 @@ languages:
   en:
     languageName: "English"
     weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
     menu:
       main:
-        - name: About
+        - identifier: about
+          name: About
           url: about
           weight: 5
-        - name: Code
+        - identifier: code
+          name: Code
           url: "/tags/coding/"
           weight: 10
-        - name: "Questions"
+        - identifier: questions
+          name: "Questions"
           url: "/tags/questions/"
           weight: 10
-        - name: "Tools of the Trade"
+        - identifier: tool-of-the-trade
+          name: "Tools of the Trade"
           url: "/tags/tools-of-the-trade/"
           weight: 10
-        - name: Search
+        - identifier: search
+          name: Search
           url: search/
           weight: 50
 
