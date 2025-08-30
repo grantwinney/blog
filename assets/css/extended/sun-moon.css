@@ -1,0 +1,24 @@
+#sunmoonpic {
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    background-image: url("https://grantwinney.com/content/images/2020/02/sun.png");
+    background-size: 360px 360px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (prefers-color-scheme: light),
+(prefers-color-scheme: no-preference) {
+    #sunmoonpic {
+        background-color: skyblue;
+        background-image: url("https://grantwinney.com/content/images/2020/02/sun.png");
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    #sunmoonpic {
+        background-color: midnightblue;
+        background-image: url("https://grantwinney.com/content/images/2020/02/moon.png");
+    }
+}

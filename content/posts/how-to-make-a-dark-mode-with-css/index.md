@@ -14,12 +14,13 @@ tags:
 - CSS
 - Coding
 title: How to make a dark mode with CSS
+css: sun-moon.css
 ---
 Every time I learn some new piece of CSS I'm amazed at how flexible and powerful it is, and the [prefers-color-scheme media element](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) is no exception. The "dark mode" setting from a visitor's desktop or mobile device can be passed to the browser, which then applies it to your site according to your style sheets. So. Cool.
 
 MDN has a good example and lots of notes, as usual _(I love their docs!),_ and I created my own fun little example below. To try it out, toggle between light and dark mode on your device, and the sun should change to a moon. If it doesn't work for some reason, you can see what it _should_ do in the screen capture at the bottom of this post. 🌞 🌜
 
-
+{{< sun-moon >}}
 
 ## How's it work?
 
