@@ -1,3 +1,5 @@
+/* Headers for sections at end of post, like comments area */
+
 .post-footer-section {
     align-items: center;
     display: flex;
@@ -14,14 +16,17 @@
     margin: 0px 0px 0px 16px;
 }
 
+/* Color the comment count the same as other text near it */
+
 hyvor-talk-comment-count {
     color: var(--secondary);
 }
 
+/* Add fa icons beside text */
 
 a[title^='Search']::before {
-    content: "\f002";   /* Unicode for the Font Awesome icon */
-    font-family: "FontAwesome"; /* must match FA version */
-    font-weight: 900;   /* required for solid icons */
+    content: "\f002";   /* search */
+    font-family: "FontAwesome";
+    font-weight: 900;
     margin-right: 0.5em; /* spacing between icon and text */
 }
