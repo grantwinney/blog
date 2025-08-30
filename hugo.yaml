@@ -38,10 +38,6 @@ languages:
           name: Code
           pageRef: "/tags/coding/"
           weight: 10
-        - identifier: questions
-          name: "Questions"
-          pageRef: "/tags/questions/"
-          weight: 10
         - identifier: tool-of-the-trade
           name: "Tools of the Trade"
           pageRef: "/tags/tools-of-the-trade/"
