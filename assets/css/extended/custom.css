@@ -20,8 +20,8 @@ hyvor-talk-comment-count {
 
 
 a[title^='Search']::before {
-    content: "\f059";   /* Unicode for the Font Awesome icon */
-    font-family: "Font Awesome 6 Free"; /* must match FA version */
+    content: "\f002";   /* Unicode for the Font Awesome icon */
+    font-family: "FontAwesome"; /* must match FA version */
     font-weight: 900;   /* required for solid icons */
     margin-right: 0.5em; /* spacing between icon and text */
 }
