@@ -83,7 +83,7 @@ public void GetIdentifierWorksForAllTypesOfContainers()
 }
 ```
 
-You can use generics in interfaces too, like the .NET framework does with [`IEnumerable<T>`](https://referencesource.microsoft.com/#mscorlib/system/collections/generic/ienumerable.cs,3acf01620172c7f0) (heavily used with [LINQ](https://grantwinney.com/10-resources-for-learning-linq/)).
+You can use generics in interfaces too, like the .NET framework does with [`IEnumerable<T>`](https://referencesource.microsoft.com/#mscorlib/system/collections/generic/ienumerable.cs,3acf01620172c7f0) (heavily used with LINQ).
 
 Here's a slightly different version of the above code, replacing the generic base class with a generic interface. Anything that accepts an `IContainer<T>` can rest assured that the classes implementing the interface will have an identifier (whose type may vary per class, like with the int, string, and Guid above) and a method that prints a description about the identifier.
 

@@ -17,9 +17,9 @@ tags:
 - C#
 title: Local functions in C# (aka nested methods)
 ---
-I've recently been refreshing myself on some of the goodies we got with [C# 6](https://grantwinney.com/tag/c-6-0/), like [null safety operators](https://grantwinney.com/null-conditional-and-null-coalescing-operators/) and [string interpolation](https://grantwinney.com/using-string-interpolation-to-craft-readable-strings/). I find a use for them from time to time, but I'd bet there's a lot of people besides me who could use a refresher too... if they've heard of them at all.
+I've recently been refreshing myself on some of the goodies we got with [C# 6](https://grantwinney.com/tags/c-6-0/), like [null safety operators](https://grantwinney.com/null-conditional-and-null-coalescing-operators/) and [string interpolation](https://grantwinney.com/using-string-interpolation-to-craft-readable-strings/). I find a use for them from time to time, but I'd bet there's a lot of people besides me who could use a refresher too... if they've heard of them at all.
 
-Everyone wants to learn, but there isn't always an opportunity for discovering the newest and hottest, especially in older apps. Sometimes we get so familiar with the old that it seems good enough, but little improvements help too, which is why I'm doing these posts on [surviving WinForms](https://grantwinney.com/tag/surviving-winforms/).
+Everyone wants to learn, but there isn't always an opportunity for discovering the newest and hottest, especially in older apps. Sometimes we get so familiar with the old that it seems good enough, but little improvements help too, which is why I'm doing these posts on [surviving WinForms](https://grantwinney.com/tags/surviving-winforms/).
 
 Today I'm digging into something we got in C# 7 - [local functions](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/local-functions). These are functions that can be nested inside of _other_ functions. Actually, it's an odd name choice since, unlike some languages, C# typically calls them methods. So why aren't they called nested methods? One of life's great mysteries, I suppose.
 

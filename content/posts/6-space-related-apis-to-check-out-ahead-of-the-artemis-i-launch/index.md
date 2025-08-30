@@ -25,7 +25,7 @@ Given that the launch is just around the corner, I figured it as good a time as 
 
 - [Read this](https://grantwinney.com/what-is-an-api/) if you're unfamiliar with APIs.
 - Get [Postman](https://www.getpostman.com/) to make your life easier when accessing APIs.
-- [Check out my previous posts](https://grantwinney.com/tag/api/) if you'd like to learn about other interesting APIs.
+- [Check out my previous posts](https://grantwinney.com/tags/api/) if you'd like to learn about other interesting APIs.
 
 ## ISS Notify API
 

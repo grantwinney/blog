@@ -17,7 +17,7 @@ title: What is an API wrapper?
 ---
 Forget about peeling back the layers - today we're gonna talk about _adding_ layers.
 
-When you find an API that looks interesting, you'll naturally want to try it out. I've [tested and written quite a bit about APIs](https://grantwinney.com/tag/api/), and most of the time I start off with a tool like [Postman](https://www.getpostman.com/). That's fine for playing around, but eventually you'll want to use it in your app.
+When you find an API that looks interesting, you'll naturally want to try it out. I've [tested and written quite a bit about APIs](https://grantwinney.com/tags/api/), and most of the time I start off with a tool like [Postman](https://www.getpostman.com/). That's fine for playing around, but eventually you'll want to use it in your app.
 
 APIs come in all shapes and sizes. Some are dead simple; others are amazingly complex - even overly complicated at times. It takes time to implement it in a language - to figure out the right way to access _any_ REST endpoint, then to figure out the right way to access a _specific_ endpoint and get the data you're interested in. As long as you're doing all that work, why keep it to yourself?
 
@@ -83,7 +83,7 @@ Now you can share your nice module / API wrapper with the world. If the API endp
 
 Let's try the same thing one more time, in C# this time.
 
-I wrapped all three examples from the [ISS Notify API](https://grantwinney.com/day-11-iss-notify-api/) post. This code depends on the [RestSharp NuGet package](https://www.nuget.org/packages/RestSharp/) _(just discovered it; made accessing the endpoint simple)_ and some classes I had to defined but didn't want to paste below - you can [find everything on GitHub](https://github.com/grantwinney/BlogCodeSamples/tree/master/APIs/IssNotifyApiWrapper/CSharp). You can [see the original JSON output from the API](https://grantwinney.com/day-11-iss-notify-api/) here.
+I wrapped all three examples from the [ISS Notify API](https://grantwinney.com/what-is-iss-notify-api/) post. This code depends on the [RestSharp NuGet package](https://www.nuget.org/packages/RestSharp/) _(just discovered it; made accessing the endpoint simple)_ and some classes I had to defined but didn't want to paste below - you can [find everything on GitHub](https://github.com/grantwinney/BlogCodeSamples/tree/master/APIs/IssNotifyApiWrapper/CSharp). You can [see the original JSON output from the API](https://grantwinney.com/what-is-iss-notify-api/) here.
 
 ```csharp
 using System;

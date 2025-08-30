@@ -21,7 +21,7 @@ Learning to write code asynchronously does _not_ come naturally, at least not fo
 
 A few years ago, I wrote [an async article](https://grantwinney.com/using-async-await-and-task-to-keep-the-winforms-ui-more-responsive/) that shows (in a small way) how much faster it can be when we tell the computer to do many things at once. The trick is that we have to tell it which things can be done in parallel, and safely bring everything back together at the end.
 
-I don't feel completely comfortable with `async` yet, but learning to use and get comfortable with it really intrigues me, in the same way that [LINQ](https://grantwinney.com/10-resources-for-learning-linq) did years ago. Here's a few examples I put together to show off a little `async` code as well as cancellation tokens and how to report progress. I'm not running a lot of parallel code here, but I _am_ running things in a way that the task can be canceled and the UI won't be locked up.
+I don't feel completely comfortable with `async` yet, but learning to use and get comfortable with it really intrigues me, in the same way that LINQ did years ago. Here's a few examples I put together to show off a little `async` code as well as cancellation tokens and how to report progress. I'm not running a lot of parallel code here, but I _am_ running things in a way that the task can be canceled and the UI won't be locked up.
 
 > The code in this post is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Threading/SimpleAsyncExamples), for you to use, extend, or just follow along while you read... and hopefully discover something new along the way!
 
@@ -295,6 +295,6 @@ public static async Task Example5Async(CancellationToken cToken, IProgress<(int,
 
 ## Learning More
 
-If you'd like to read more, I've written a few other articles on [async](https://grantwinney.com/tag/async/) that may or may not be helpful.
+If you'd like to read more, I've written a few other articles on [async](https://grantwinney.com/tags/async/) that may or may not be helpful.
 
 One of the best sources I've found for all things async is Stephen Cleary's blog. After reading through his 5-part _(as of the time of this writing)_ series on [Cancellation](https://blog.stephencleary.com/2022/02/cancellation-1-overview.html) recently, I decided to play around a bit and share what I learned – hence the article you just read. 😄

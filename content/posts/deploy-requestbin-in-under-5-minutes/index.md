@@ -46,7 +46,7 @@ Create your first RequestBin and `POST` some data with a simple curl command lik
 
 ![](2020-01-03-15_02_01-RequestBin---zb6acbzb---Brave.png)
 
-You can also use a tool like [Postman](https://www.getpostman.com/) to make requests to the endpoint, and even save them for future use - something I've made extensive use of while learning and writing about various [APIs](https://grantwinney.com/tag/api/).
+You can also use a tool like [Postman](https://www.getpostman.com/) to make requests to the endpoint, and even save them for future use - something I've made extensive use of while learning and writing about various [APIs](https://grantwinney.com/tags/api/).
 
 ![](2020-01-04-21_58_44-RequestBin---11g07061---Brave.png)
 

@@ -14,7 +14,7 @@ tags:
 - API
 title: Generate random passwords, numbers and GUIDs with the PasswordRandom API
 ---
-Some of the API's I've written about give you access to data - public data like [ISS sightings](https://grantwinney.com/day-11-iss-notify-api/) and [amazing space photos](https://grantwinney.com/day-9-hubblesite-api/), and personal data like your [Instagram photos](https://grantwinney.com/day-2-instagram-api/) and [Dropbox files](https://grantwinney.com/day-4-dropbox-api/) - but an API can return other things too. Here's an API that returns random numbers, GUIDs and other values, and provides an opportunity to customize what it returns.
+Some of the API's I've written about give you access to data - public data like [ISS sightings](https://grantwinney.com/what-is-iss-notify-api/) and [amazing space photos](https://grantwinney.com/day-9-hubblesite-api/), and personal data like your [Instagram photos](https://grantwinney.com/day-2-instagram-api/) and [Dropbox files](https://grantwinney.com/day-4-dropbox-api/) - but an API can return other things too. Here's an API that returns random numbers, GUIDs and other values, and provides an opportunity to customize what it returns.
 
 Two things before you get started:
 

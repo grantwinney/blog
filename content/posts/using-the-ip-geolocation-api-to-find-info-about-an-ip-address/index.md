@@ -25,7 +25,7 @@ Before we dig deeper though, a few things to consider:
 
 - If you're new to APIs, here's a brief intro: [What is an API?](https://grantwinney.com/what-is-an-api/)
 - You also may want to install [Postman](https://www.getpostman.com/), which lets you access endpoints without having to write an app, plus it saves/syncs everything to the cloud.
-- Afterwards, check out some [other APIs I've written about](https://grantwinney.com/tag/api/).
+- Afterwards, check out some [other APIs I've written about](https://grantwinney.com/tags/api/).
 
 ---
 

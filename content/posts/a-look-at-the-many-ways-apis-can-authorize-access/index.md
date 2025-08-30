@@ -22,7 +22,7 @@ When you encounter an [API](https://grantwinney.com/what-is-an-api/) that gives 
 
 If you write an API to expose data to the outside world, there's questions you'll want to ask. How do you know the user is who they claim to be? Or that they actually granted access to the app requesting their data? Or whether the requester even _is_ a user or an app? How do you limit the rate at which data can be accessed? It depends on how sensitive the data is, what you want to let them do with it, whether there are different levels of access for different users, etc.
 
-I've written about a number of [APIs](https://grantwinney.com/tag/api/) in the past, and wanted to compare how these different services approach authentication and authorization, and why they might've decided to do it the way they did.
+I've written about a number of [APIs](https://grantwinney.com/tags/api/) in the past, and wanted to compare how these different services approach authentication and authorization, and why they might've decided to do it the way they did.
 
 ---
 
@@ -34,7 +34,7 @@ But potentially unsafe too, in that it's more difficult to rate limit. Even the 
 
 I'm not sure exactly how you can limit rates if you don't know who's making the request, other than blocking an IP address after a certain threshold is reached. But the use of [VPNs](https://www.howtogeek.com/133680/htg-explains-what-is-a-vpn/) that mask true IPs can make this difficult. And accessing an API from a university or corporation, where thousands of users may be masked behind a few outward-facing IP addresses, could result in blocking way more people than intended. Off the top of my head, I'd think that caching similar result sets, or integrating with a service like [Cloudflare](https://www.cloudflare.com/rate-limiting/), might help there.
 
-Other examples include the [US Census Bureau](https://grantwinney.com/day-13-us-census-bureau-api/), which (interestingly) provides a way to request a key, but doesn't seem to require it. Same goes for the [Google Maps API](https://grantwinney.com/day-6-google-maps-api/). The [ISS Notify API](https://grantwinney.com/day-11-iss-notify-api/) and [PasswordRandom API](https://grantwinney.com/passwordrandom-api/) have no auth or documented rate limits, but they're relatively small so it's probably not a big deal for them.
+Other examples include the [US Census Bureau](https://grantwinney.com/day-13-us-census-bureau-api/), which (interestingly) provides a way to request a key, but doesn't seem to require it. Same goes for the [Google Maps API](https://grantwinney.com/day-6-google-maps-api/). The [ISS Notify API](https://grantwinney.com/what-is-iss-notify-api/) and [PasswordRandom API](https://grantwinney.com/passwordrandom-api/) have no auth or documented rate limits, but they're relatively small so it's probably not a big deal for them.
 
 The upside is ease of access. It doesn't get any easier than having to do absolutely _nothing_. But it's difficult to limit which, or how much, data can be accessed when there's nothing to easily identify the consumer.
 
@@ -134,6 +134,6 @@ The [Google Books API](https://grantwinney.com/what-is-the-google-books-api/) pr
 
 ---
 
-I hope you found something of interest here! After writing about [quite a few APIs](https://grantwinney.com/tag/api/) and having to figure out the authorization process for each, I've been considering their various approaches.
+I hope you found something of interest here! After writing about [quite a few APIs](https://grantwinney.com/tags/api/) and having to figure out the authorization process for each, I've been considering their various approaches.
 
 It seems like most services are using OAuth, and that OAuth 1.0 is not going away soon due to concerns that 2.0 is less secure. It also seems like a simple API key is fairly popular for services that only allow GET operations, but that there needs to be a way to reset an API key in the event it's accidentally exposed or shared with an application that turns out to be untrustworthy.
