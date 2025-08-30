@@ -72,6 +72,10 @@ params:
     limit: 10  # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 
+  homeInfoParams:
+    Title: Hi there wave
+    Content: Can be Info, links, about...
+
   socialIcons:
     - name: github
       url: "https://github.com/grantwinney"
