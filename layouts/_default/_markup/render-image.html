@@ -1,3 +1,12 @@
-<a href="{{ .Destination | safeURL }}" target="_blank">
-  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" />
-</a>
+<figure>
+  <a href="{{ .Destination | safeURL }}" target="_blank">
+    <img 
+      src="{{ .Destination | safeURL }}" 
+      alt="{{ .Text }}" 
+      loading="lazy"
+    />
+  </a>
+  {{ with .Text }}
+    <figcaption>{{ . }}</figcaption>
+  {{ end }}
+</figure>
