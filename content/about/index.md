@@ -8,9 +8,7 @@ css: resume.css
 ---
 Is there anything more satisfying than trying to figure something out, _finally_ getting it, and then sharing it with someone else who will appreciate it? Or taking some piece of knowledge, passing it on to someone, and getting to witness their ["ah ha" moment](https://xkcd.com/1053/)?
 
-![](xkcd10000.png)
-
-[_Ten Thousand_](https://www.xkcd.com/1053/) (XKCD)
+![XKCD - https://www.xkcd.com/1053](xkcd10000.png)
 
 For over a decade, I've been developing software in a variety of settings and industries, focusing primarily on C# and the .NET stack, but branching into React, Erlang, and whatever else the job calls for. I'm a constant learner with an appreciation for good docs, DevOps, and the Agile process. I enjoy a good challenge, producing clear and maintainable code, and sharing what I learn with others.
 
