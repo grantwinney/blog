@@ -1,0 +1,7 @@
+table td:nth-child(1) {
+    vertical-align: top;
+}
+
+table td:nth-child(2) {
+    padding-left: 30px !important
+}
