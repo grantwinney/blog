@@ -10,6 +10,10 @@ hyvor-talk-comment-count {
     margin: auto;
 }
 
+.post-content figure > figcaption {
+    font-weight: normal;
+}
+
 /** HEADER AREA **/
 
 /* Add fa icons beside search text */
