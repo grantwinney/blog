@@ -100,6 +100,8 @@ params:
       url: "https://github.com/grantwinney"
     - name: linkedin
       url: "https://www.linkedin.com/in/grantwinney"
+    - name: rss
+      url: "https://grantwinney.com/index.xml"
     - name: buymeacoffee
       url: "https://www.buymeacoffee.com/fhnVUiB19"
 
@@ -110,15 +112,6 @@ params:
  #     SiteVerificationTag: ""
  #   yandex:
  #     SiteVerificationTag: ""
-
-  cover:
-    hidden: false # hide everywhere but not in structured data
-    hiddenInList: false # hide on list pages and home
-    hiddenInSingle: false # hide on single page
-
-# caches:
-#   images:
-#     dir: ":cacheDir/images"
 
 permalinks:
   page:
