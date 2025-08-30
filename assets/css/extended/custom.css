@@ -5,8 +5,8 @@ hyvor-talk-comment-count {
     color: var(--secondary);
 }
 
-/* Center all images */
-.post-single img {
+/* Center images in posts */
+.post-content img {
     margin: auto;
 }
 
