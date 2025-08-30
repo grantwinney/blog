@@ -13,13 +13,11 @@ My policy on privacy? It's good! So in the interest of full disclosure...
 
 ## Privacy / Tracking
 
-I use [Hyvor Talk](https://talk.hyvor.com/docs/gdpr) (for comments) to improve your experience while also respecting everyone's privacy as much as possible.
+I use [Hyvor Talk](https://talk.hyvor.com/docs/gdpr) (for comments) to improve the site while respecting everyone's privacy as much as possible. I don't use any analytics software for the same reason I don't wear a FitBit.. I enjoy _doing,_ not counting.
 
 ## Advertising
 
-I partnered with [EthicalAds](https://www.ethicalads.io/privacy-policy/) to display small and unobtrusive, technical (mostly software development) ads. Unlike other ad networks, they strive to be privacy-friendly, show relevant products only, and adhere to the [Acceptable Ads Standard](https://acceptableads.com/standard/).
-
-Years ago I tried partnering with a typical ad network that went for quantity over quality. Never again. It was a frustrating couple of weeks trying to mess with their wonky tool that, no matter what, seemed to think my visitors wanted lingerie and colon cleansers_._
+I'm partnered with [EthicalAds](https://www.ethicalads.io/privacy-policy/) to display small and unobtrusive, technical (mostly software development) ads. Unlike other ad networks, they strive to be privacy-friendly, show relevant products only, and adhere to the [Acceptable Ads Standard](https://acceptableads.com/standard/).
 
 ## Affiliate Links
 
