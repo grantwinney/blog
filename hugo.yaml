@@ -72,10 +72,10 @@ params:
     limit: 10  # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 
+  # https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode
   homeInfoParams:
-    Title: Hi there wave
-    Content: Can be Info, links, about...
-
+    Title: Hi there \U0001F44B
+    Content: For over a decade, I’ve been developing software primarily on C# and the .NET stack, but branching into React, Erlang, and whatever else the job calls for. I’m a constant learner with an appreciation for good docs, DevOps, and the Agile process. I enjoy a good challenge, producing clear and maintainable code, and sharing what I learn with others.
   socialIcons:
     - name: github
       url: "https://github.com/grantwinney"
