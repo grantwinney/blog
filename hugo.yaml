@@ -74,8 +74,8 @@ params:
 
   # https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode
   homeInfoParams:
-    Title: Hi there \U0001F44B
-    Content: For over a decade, I’ve been developing software primarily on C# and the .NET stack, but branching into React, Erlang, and whatever else the job calls for. I’m a constant learner with an appreciation for good docs, DevOps, and the Agile process. I enjoy a good challenge, producing clear and maintainable code, and sharing what I learn with others.
+    Title: Hi there!
+    Content: Is there anything more satisfying than trying to figure something out, finally getting it, and then sharing it with someone else? Of taking some piece of knowledge, passing it on to someone, and getting to witness their “ah ha” moment? I hope you find that here today, and get to pay it forward to someone else!
   socialIcons:
     - name: github
       url: "https://github.com/grantwinney"
