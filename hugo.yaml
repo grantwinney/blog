@@ -97,13 +97,16 @@ params:
   # https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-icons/#social-icons
   socialIcons:
     - name: github
+      title: GitHub
       url: "https://github.com/grantwinney"
     - name: linkedin
+      title: LinkedIn
       url: "https://www.linkedin.com/in/grantwinney"
     - name: rss
+      title: Subscribe to RSS
       url: "https://grantwinney.com/index.xml"
     - name: buymeacoffee
-      title: Buy Me A Coffee
+      title: Buy Me a Coffee
       url: "https://www.buymeacoffee.com/fhnVUiB19"
 
  # analytics:
