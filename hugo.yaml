@@ -73,7 +73,7 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 
   socialIcons:
-    - name: github
+    - name: "github"
       url: "https://github.com/grantwinney"
 
  # analytics:
