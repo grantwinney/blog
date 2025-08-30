@@ -1,7 +1,9 @@
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
     <div class="footer_links">
-        <span>Connect</span>·<span>Privacy</span>·<span>License</span>·<span>Cross-Posting</span>
+        <span><a href="privacy-policy">Privacy</a></span> ·
+        <span><a href="license">License</a></span> ·
+        <span><a href="cross-posting-policy">Cross-Posting</a></span>
     </div>
     {{- if not site.Params.footer.hideCopyright }}
         {{- if site.Copyright }}
