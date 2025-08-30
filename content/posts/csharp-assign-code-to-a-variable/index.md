@@ -127,4 +127,4 @@ You can play with these yourself on .NET Fiddle:
 - [Action delegate demo | .NET Fiddle](https://dotnetfiddle.net/Widget/3kpajq)
 - [Func delegate demo | .NET Fiddle](https://dotnetfiddle.net/Widget/VbkB8z)
 
-If you found this content useful, and would like to learn more about a variety of [C#](https://grantwinney.com/tag/csharp/) features, check out my [CSharpDotNetFeatures repo](https://github.com/grantwinney/CSharpDotNetFeatures), where you'll find links to plenty more blog posts and practical examples!
+If you found this content useful, and would like to learn more about a variety of [C#](https://grantwinney.com/tags/csharp/) features, check out my [CSharpDotNetFeatures repo](https://github.com/grantwinney/CSharpDotNetFeatures), where you'll find links to plenty more blog posts and practical examples!

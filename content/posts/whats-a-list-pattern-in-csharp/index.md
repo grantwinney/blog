@@ -204,4 +204,4 @@ Are these examples more realistic? At the very least, I hope these show off more
 
 > If you want to mess around with any of the code yourself, [it's available on GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/ListPatternMatching) as usual. Get it, play with it, and see what you can do.
 
-If you found this content useful, and want to learn more about a variety of [C#](https://grantwinney.com/tag/csharp/) features, check out [this GitHub repo](https://github.com/grantwinney/CSharpDotNetExamples), where you'll find links to plenty more blog posts and practical examples!
+If you found this content useful, and want to learn more about a variety of [C#](https://grantwinney.com/tags/csharp/) features, check out [this GitHub repo](https://github.com/grantwinney/CSharpDotNetExamples), where you'll find links to plenty more blog posts and practical examples!

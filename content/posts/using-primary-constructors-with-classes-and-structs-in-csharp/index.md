@@ -176,4 +176,4 @@ To learn more about primary constructors, explore the [official docs](https://le
 
 [Records, Classes and Equality in C# 9 / .NET 5](https://grantwinney.com/records-classes-and-equality-in-csharp/)
 
-If you found this content useful, and would like to learn more about a variety of [C#](https://grantwinney.com/tag/csharp/) features, check out my [CSharpDotNetFeatures repo](https://github.com/grantwinney/CSharpDotNetFeatures), where you'll find links to plenty more blog posts and practical examples!
+If you found this content useful, and would like to learn more about a variety of [C#](https://grantwinney.com/tags/csharp/) features, check out my [CSharpDotNetFeatures repo](https://github.com/grantwinney/CSharpDotNetFeatures), where you'll find links to plenty more blog posts and practical examples!

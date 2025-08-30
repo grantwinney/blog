@@ -12,7 +12,7 @@ The comments sections on most major news outlets and social media sites are full
 
 _(Getting it to work on Facebook was a pain, and required constant updates, so I don't really bother trying anymore... I recommend trying_ [_UnDistracted_](https://chrome.google.com/webstore/detail/undistracted-hide-faceboo/pjjgklgkfeoeiebjogplpnibpfnffkng)_.)_
 
-Available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/hide-comments-everywhere/) and [Chrome](https://chrome.google.com/webstore/detail/hide-comments-everywhere/bmhkdngdngchlneelllmdennfpmepbnc), and works on Brave _(_[_natively_](https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-)_)_ and Opera _(requires an_ [_additional extension_](https://addons.opera.com/en/extensions/details/install-chrome-extensions/)_) too._
+Available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/hide-comments-everywhere/) and [Chrome](https://chrome.google.com/webstore/detail/hide-comments-everywhere/bmhkdngdngchlneelllmdennfpmepbnc), and works on Brave _([natively](https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-))_, Opera, and Edge too.
 
 ![](https://grantwinney.com/content/images/2019/07/hide-comments-2.jpg)
 
@@ -34,9 +34,9 @@ If you're interested, check out the [source code](https://github.com/grantwinney
 
 ## Contributions / Questions
 
-If you notice a commenting system that could be blocked by default, [open an issue](https://github.com/grantwinney/hide-comments-in-chrome-sites/issues/new). Include the website where you noticed it, and I'll try to tackle it as time permits.
+If you notice a commenting system that could be blocked by default, [open an issue](https://github.com/grantwinney/hide-comments-everywhere/issues/new). Include the website where you noticed it, and I'll try to tackle it as time permits.
 
-If you're comfortable with RegEx and HTML/CSS, you could just create a pull request against [the file that defines which sites and html elements are blocked](https://github.com/grantwinney/hide-comments-in-chrome-sites/blob/master/sites.json).
+If you're comfortable with RegEx and HTML/CSS, you could just create a pull request against [the file that defines which sites and html elements are blocked](https://github.com/grantwinney/hide-comments-everywhere/blob/master/sites.json).
 
 Have a question, comment or request? [Open a new issue](https://github.com/grantwinney/hide-comments-everywhere/issues/new) with as many details as possible. The more you let me know upfront, the less I'll have to ask later. I'll get to it as time permits.
 

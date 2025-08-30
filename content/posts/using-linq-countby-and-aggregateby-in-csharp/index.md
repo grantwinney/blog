@@ -166,4 +166,4 @@ If you're interested in other changes in .NET 9 / C# 13, a good place to start (
 - [What's new in C# 13 | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-13)
 - [What's new in .NET 9 | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-9/overview)
 
-If you found this content useful, and would like to learn more about a variety of [C#](https://grantwinney.com/tag/csharp/) features, check out my [CSharpDotNetFeatures repo](https://github.com/grantwinney/CSharpDotNetFeatures), where you'll find links to plenty more blog posts and practical examples!
+If you found this content useful, and would like to learn more about a variety of [C#](https://grantwinney.com/tags/csharp/) features, check out my [CSharpDotNetFeatures repo](https://github.com/grantwinney/CSharpDotNetFeatures), where you'll find links to plenty more blog posts and practical examples!

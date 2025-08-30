@@ -403,4 +403,4 @@ If you'd like to learn more about this intriguing new .NET 8 feature, I'd encour
 - [Testing Time-Dependent Code With TimeProvider in .NET | CodeMaze](https://code-maze.com/csharp-testing-time-dependent-code-with-timeprovider/)
 - [Avoiding flaky tests with TimeProvider and ITimer | Andrew Lock](https://andrewlock.net/exploring-the-dotnet-8-preview-avoiding-flaky-tests-with-timeprovider-and-itimer/)
 
-If you found this content useful, and would like to learn more about a variety of [C#](https://grantwinney.com/tag/csharp/) features, check out the [CSharpDotNetExamples repo](https://github.com/grantwinney/CSharpDotNetExamples), where you'll find links to plenty more blog posts and practical examples!
+If you found this content useful, and would like to learn more about a variety of [C#](https://grantwinney.com/tags/csharp/) features, check out the [CSharpDotNetExamples repo](https://github.com/grantwinney/CSharpDotNetExamples), where you'll find links to plenty more blog posts and practical examples!

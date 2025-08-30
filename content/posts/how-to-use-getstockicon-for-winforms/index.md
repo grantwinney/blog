@@ -166,4 +166,4 @@ Lastly, since the StockIconId page doesn't include the actual _images_ of the ic
 |MediaBDRE|139|BluRay-RE media.|![](MediaBDRE-2.png)|
 |ClusteredDrive|140|Clustered disk.|![](ClusteredDrive-2.png)|
 
-If you found this content useful, and would like to learn more about a variety of [C#](https://grantwinney.com/tag/csharp/) features, check out my [CSharpDotNetFeatures repo](https://github.com/grantwinney/CSharpDotNetFeatures), where you'll find links to plenty more blog posts and practical examples!
+If you found this content useful, and would like to learn more about a variety of [C#](https://grantwinney.com/tags/csharp/) features, check out my [CSharpDotNetFeatures repo](https://github.com/grantwinney/CSharpDotNetFeatures), where you'll find links to plenty more blog posts and practical examples!

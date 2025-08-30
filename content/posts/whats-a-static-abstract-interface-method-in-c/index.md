@@ -290,4 +290,4 @@ Unfortunately, this new construct doesn't seem to play nicely yet with the popul
 
 Next up, we'll check out another C# feature we've had for a long time - [operator overloading](https://grantwinney.com/how-do-i-overload-operators-in-csharp/). After that, we'll take a closer look at what this [Generic Math](https://grantwinney.com/whats-generic-math-support-in-csharp/) thing is all about.
 
-If you found this content useful, and want to learn more about a variety of [C#](https://grantwinney.com/tag/csharp/) features, check out [this GitHub repo](https://github.com/grantwinney/CSharpDotNetExamples), where you'll find links to plenty more blog posts and practical examples!
+If you found this content useful, and want to learn more about a variety of [C#](https://grantwinney.com/tags/csharp/) features, check out [this GitHub repo](https://github.com/grantwinney/CSharpDotNetExamples), where you'll find links to plenty more blog posts and practical examples!

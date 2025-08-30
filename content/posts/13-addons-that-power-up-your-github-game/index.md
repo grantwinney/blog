@@ -27,7 +27,7 @@ Where GitHub fails to impress, browser addons (and the services they tie into) c
 
 - If an addon hasn't been touched in years and doesn't seem to be actively maintained, I might exclude it.
 - I only included addons that solve one (or a few) problems, not general addons that address every issue under the sun.
-- These are listed in the Chrome store, but easily work for Brave and [Opera](https://addons.opera.com/en/extensions/details/install-chrome-extensions/) [](undefined)too. If there's a Firefox version too, I listed it.
+- These are listed in the Chrome store, but easily work for Brave, Opera and Edge too. If there's a Firefox version as well, I listed it.
 
 One more thing.. shockingly, after installing all of these addons to test them out, none of them seemed to get in each others way. Let's just take a moment to appreciate that fact, shall we? 😮
 
