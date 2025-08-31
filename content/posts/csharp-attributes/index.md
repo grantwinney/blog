@@ -20,6 +20,9 @@ tags:
 - Metadata
 - Coding
 title: Using Attributes in C#
+aliases:
+- 5-examples-of-attributes-in-c-and-why-youll-want-to-make-your-own
+- blog/test
 ---
 Ever thought it'd be convenient to attach some extra info to your code? Not just documentation to read at design time, but something that can actually be consumed at runtime and change how your program runs?
 
