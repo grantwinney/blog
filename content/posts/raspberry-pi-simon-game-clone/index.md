@@ -127,7 +127,7 @@ def add_new_color_to_pattern():
 
 ## Musical notes, Sonic Pi and the sonic-pi-cli Gem
 
-If you haven’t heard of it before, [Sonic Pi](http://sonic-pi.net) is a synthesizer that lets you program music. It was written by [Sam Aaron](https://twitter.com/samaaron), with the Pi in mind (it’s in its name after all), but you can run it on Windows or OS X too. It’s capable of amazing stuff, and I’ve only very, _very_ lightly scratched the surface. I used it previously with the Pi to create a [grandfather clock that played the westminster chimes](https://grantwinney.com/creating-music-with-sonic-pi-on-the-raspberry-pi/).
+If you haven’t heard of it before, [Sonic Pi](http://sonic-pi.net) is a synthesizer that lets you program music. It was written by [Sam Aaron](https://twitter.com/samaaron), with the Pi in mind (it’s in its name after all), but you can run it on Windows or OS X too. It’s capable of amazing stuff, and I’ve only very, _very_ lightly scratched the surface. I used it previously with the Pi to create a [grandfather clock that played the westminster chimes](https://grantwinney.com/creating-music-with-sonic-pi-on-raspberry-pi/).
 
 At the very least, read the section entitled _What is OSC?,_ install the ruby gem and try playing some notes _(make sure Sonic Pi is open)._
 

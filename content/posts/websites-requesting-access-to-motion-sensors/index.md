@@ -33,7 +33,7 @@ Guess it's time to dig a little deeper.
 
 ## What are Web APIs?
 
-Before zeroing in on sensors, let's backup a sec and talk about web design and [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API). Your browser has access to a _lot_ of data via (and metadata regarding) the device you installed it on. As much as [some of the websites](https://grantwinney.com/why-i-dumped-facebook-for-good/) you visit would looove to have access to all that data, any decent browser acts as a firewall, blocking that access by default and prompting you to allow it.
+Before zeroing in on sensors, let's backup a sec and talk about web design and [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API). Your browser has access to a _lot_ of data via (and metadata regarding) the device you installed it on. As much as some of the websites you visit would looove to have access to all that data, any decent browser acts as a firewall, blocking that access by default and prompting you to allow it.
 
 ### Geolocation API
 

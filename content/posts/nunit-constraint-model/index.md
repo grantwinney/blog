@@ -17,7 +17,7 @@ tags:
 - Coding
 title: What is the NUnit constraint model?
 ---
-When I wrote about the new [Generic Math support in C# 11](https://grantwinney.com/whats-generic-math-support-in-csharp), along with some related topics like [static abstract interface methods](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c/) and [overloading operators](https://grantwinney.com/how-do-i-overload-operators-in-csharp/), I created a few examples, as I usually do. I added some unit tests using NUnit ([one of my go-to tools](https://grantwinney.com/8-tools-every-developer-should-know-and-use)), and noticed warnings in Visual Studio that I hadn't seen before.
+When I wrote about the new [Generic Math support in C# 11](https://grantwinney.com/csharp-generic-math-support/), along with some related topics like [static abstract interface methods](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c/) and [overloading operators](https://grantwinney.com/csharp-overload-arithmetic-equality-comparison-operators/), I created a few examples as I usually do. I added some unit tests using NUnit, and noticed warnings in Visual Studio that I hadn't seen before.
 
 ![](image-8.png)
 

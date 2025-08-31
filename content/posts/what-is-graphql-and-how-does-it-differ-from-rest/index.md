@@ -13,7 +13,7 @@ tags:
 - GraphQL
 title: What is GraphQL and how does it differ from REST?
 ---
-Finding a new [API](https://grantwinney.com/what-is-an-api/) can be like discovering a gateway to a vast amount of data that might be otherwise inaccessible. A couple of my favorites have led to [photos from the Mars Rover](https://grantwinney.com/day-8-nasa-api/) and [300 year old newspapers](https://grantwinney.com/searching-historical-newspapers-with-the-chronicling-america-api/). These APIs are often implemented using [REST](https://en.wikipedia.org/wiki/Representational_state_transfer), the standard for making web resources accessible for over a decade, but there's a different way to access resources called [GraphQL](https://en.wikipedia.org/wiki/GraphQL).
+Finding a new [API](https://grantwinney.com/what-is-an-api/) can be like discovering a gateway to a vast amount of data that might be otherwise inaccessible. A couple of my favorites have led to [photos from the Mars Rover](https://grantwinney.com/what-is-nasa-api/) and [300 year old newspapers](https://grantwinney.com/searching-historical-newspapers-with-the-chronicling-america-api/). These APIs are often implemented using [REST](https://en.wikipedia.org/wiki/Representational_state_transfer), the standard for making web resources accessible for over a decade, but there's a different way to access resources called [GraphQL](https://en.wikipedia.org/wiki/GraphQL).
 
 The first time I heard about GraphQL was a few years ago in some article about Facebook, but I didn't pay much attention to it at the time. Thanks to frequent data breaches, one doesn't really need an API to access Facebook's data.. but I digress.
 

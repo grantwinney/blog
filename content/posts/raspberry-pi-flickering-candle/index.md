@@ -15,7 +15,7 @@ tags:
 - Python
 title: Creating a Flickering Candle Using an RGB LED on the Raspberry Pi
 ---
-After [getting PWM (pulse-width modulation) to work with an RGB LED](https://grantwinney.com/how-to-use-an-rgb-multicolor-led-with-pulse-width-modulation-pwm-on-the-raspberry-pi/) last week, I was trying to think of what else I could do with an LED that demonstrated changes in color as well as intensity.
+After [getting PWM (pulse-width modulation) to work with an RGB LED](https://grantwinney.com/raspberry-pi-pulse-width-modulation/) last week, I was trying to think of what else I could do with an LED that demonstrated changes in color as well as intensity.
 
 I’m not sure why – maybe it was because we lost power in our neighborhood recently – but I thought a flickering candle could be an interesting little challenge…
 

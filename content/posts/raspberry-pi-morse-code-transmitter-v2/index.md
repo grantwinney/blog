@@ -17,7 +17,7 @@ tags:
 - Python
 title: Building a Morse Code Transmitter on a Raspberry Pi (version 2)
 ---
-Last month, [I created a morse code generator](https://grantwinney.com/building-a-morse-code-transmitter-on-a-raspberry-pi/). It accepts user input from the console, translates it into morse code, and blinks an LED to “transmit” the message.
+Last month, [I created a morse code generator](https://grantwinney.com/raspberry-pi-morse-code-transmitter/). It accepts user input from the console, translates it into morse code, and blinks an LED to “transmit” the message.
 
 I decided to build on that a bit, adding a button to the circuit that allows me to generate morse code from a button click. The clicks are read in by a GPIO pin, and interpreted by a Python script.
 
@@ -25,7 +25,7 @@ I decided to build on that a bit, adding a button to the circuit that allows me 
 
 We should always figure out what a program is going to do _before_ we start writing it, so here are a few rules to guide us:
 
-- Dots and dashes will be entered using the rules on timing outlined in “[What is Morse Code?](https://grantwinney.com/building-a-morse-code-transmitter-on-a-raspberry-pi/#What_isMorse_Code)“
+- Dots and dashes will be entered using the rules on timing outlined in “[What is Morse Code?](https://grantwinney.com/raspberry-pi-morse-code-transmitter/#What_isMorse_Code)“
 - An acceptable tolerance will be built into the timing, since it’s difficult to keep an exact rhythm.
 - Blink a blue LED to the rhythm of the “base time”, to help with timing.
 - Interpret dots and dashes using International Morse Code (IMC)
@@ -44,7 +44,7 @@ Now let’s decide what we need in a circuit, based on the rules we just laid ou
 - A button to “transmit” dots and dashes.
 - A line from 3.3v, thru a 220Ω resistor, to one side of the button (let’s call it side 1).
 - A line from the other side of the button (side 2) to pin 31 (GPIO 6).
-- A 10kΩ pulldown resistor from pin 31 to ground. _(_[_more on pulldown resistors_](https://grantwinney.com/using-pullup-and-pulldown-resistors-on-the-raspberry-pi/)_)_
+- A 10kΩ pulldown resistor from pin 31 to ground. _(_[_more on pulldown resistors_](https://grantwinney.com/raspberry-pi-using-pullup-and-pulldown-resistors/)_)_
 - A yellow LED and 220Ω resistor from side 2 of the button, to ground.
 - A red LED and 220Ω resistor connecting pin 36 (GPIO 16) to ground.
 - A green LED and 220Ω resistor connecting pin 32 (GPIO 12) to ground.
@@ -265,7 +265,7 @@ I wouldn’t suggest it if I didn’t like it. It’s affordable _(in keeping wi
 
 ## Final Thoughts
 
-This project led me down the path of detecting the pin edges (whether the button is pressed or not, 1 or 0, on or off, high or low), and other pin-related concepts like bounce time. [I wrote more about what I learned](https://grantwinney.com/using-pullup-and-pulldown-resistors-on-the-raspberry-pi/).
+This project led me down the path of detecting the pin edges (whether the button is pressed or not, 1 or 0, on or off, high or low), and other pin-related concepts like bounce time. [I wrote more about what I learned](https://grantwinney.com/raspberry-pi-using-pullup-and-pulldown-resistors/).
 
 Quick note about buttons. When you use one on your breadboard for the first time, it might feel like it only goes so far. Be sure to give it a good firm push so it’s flush with the breadboard, otherwise it won’t come into contact like it should. Mine looked like it was in at first, but wasn’t registering clicks very well.
 

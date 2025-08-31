@@ -15,7 +15,7 @@ tags:
 - Erlang
 title: Common dialyzer errors and solutions in Erlang
 ---
-When you're dealing with a dynamically typed language like Erlang, any effort to [tame the beast](https://grantwinney.com/5-ways-to-tame-the-erlang-beast/#dialyzer) can pay off in spades. I'm currently focused on an Erlang app that has zero [Dialyzer specs](https://learnyousomeerlang.com/dialyzer) in it, so adding them is the hill I'm currently dying on. If you're new to it, check out [Learn You Some Erlang](https://learnyousomeerlang.com/dialyzer).
+When you're dealing with a dynamically typed language like Erlang, any effort to [tame the beast](https://grantwinney.com/taming-the-erlang-beast/#dialyzer) can pay off in spades. I'm currently focused on an Erlang app that has zero [Dialyzer specs](https://learnyousomeerlang.com/dialyzer) in it, so adding them is the hill I'm currently dying on. If you're new to it, check out [Learn You Some Erlang](https://learnyousomeerlang.com/dialyzer).
 
 > Dialyzer begins each analysis optimistically assuming that all functions are good. It will see them as always succeeding, accepting anything, and possibly returning anything. No matter how an unknown is used, it's a good way to use it. This is why warnings about unknown functions are not a big deal when generating PLTs. It's all good anyway; Dialyzer is a natural optimist when it comes to type inference. As the analysis goes, Dialyzer gets to know your functions better and better.
 

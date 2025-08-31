@@ -49,7 +49,7 @@ git pull upstream master
 git push
 ```
 
-If you're a fan of [git aliases](https://grantwinney.com/what-is-a-git-alias-and-how-do-i-use-it/), after you've run the above once you could add something like this to your .gitconfig file:
+If you're a fan of [git aliases](https://grantwinney.com/creating-a-git-alias/), after you've run the above once you could add something like this to your .gitconfig file:
 
 ```none
 updatecasper = !cd your/casper/location && git fetch upstream && git pull upstream master && git push

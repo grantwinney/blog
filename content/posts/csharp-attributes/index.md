@@ -120,7 +120,7 @@ If you want to learn more:
 
 ## Unit Testing
 
-Any testing framework you use - [NUnit](https://nunit.org/), [xUnit](https://github.com/xunit/xunit), [MSTest](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest) - will make use of attributes. (If you're not sure what unit testing is, [this might help](https://grantwinney.com/an-intro-to-code-katas-tdd-and-red-green-refactor/).)
+All of the major testing frameworks make use of attributes, whether it's [NUnit](https://nunit.org/), [xUnit](https://github.com/xunit/xunit), or [MSTest](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest).
 
 Here's a ridiculous `Employee` class, thoroughly vetted by some NUnit tests. You can decorate any method you want with `SetUp` and `TearDown` attributes, which act like a constructor and destructor run before and after _every_ test. Tests have a `Test` attribute, and you can even reuse the same test for multiple values with the `TestCase` attribute. NUnit makes use of all these attributes to know what, when, and how to run things.
 

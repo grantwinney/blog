@@ -93,7 +93,7 @@ When you install it, you get a straight-forward prompt to allow the permission.
 
 ### Google
 
-[Google's](https://chrome.google.com/webstore/detail/google-docs-offline/ghbmnnjooekpmoecnnnilnnbdlolhkhi) is bundled with a bunch of other functionality, as I mentioned earlier. They request the clipboardRead permission too, but in a funny way. First, they request access to unlimited storage, alarms, etc., for a series of sites. _(Unrelated but ironic, they're still targeting MV2 despite_ [_pushing for MV3_](https://grantwinney.com/what-is-manifest-v3-and-why-is-google-pestering-me/) _from everyone else for months. Good thing_ [_they keep delaying it_](https://grantwinney.com/twil-vol-2/#google-puts-the-brakes-on-mv3-again)_.)_
+[Google's](https://chrome.google.com/webstore/detail/google-docs-offline/ghbmnnjooekpmoecnnnilnnbdlolhkhi) is bundled with a bunch of other functionality, as I mentioned earlier. They request the clipboardRead permission too, but in a funny way. First, they request access to unlimited storage, alarms, etc., for a series of sites:
 
 ```json
 "externally_connectable": {

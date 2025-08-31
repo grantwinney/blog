@@ -29,7 +29,7 @@ A link in that thread led to a Microsoft Connect (discontinued and deleted.. tha
 
 > Parameter defaults do not get updated when re-deploying existing reports. These either have to be updated manually or the reports deleted and re-deployed. The latter regenerates all report ID's (GUID's) and makes traking usage from the ExecutionLog more difficult.  
 >   
-> This is explained [here](http://forums.microsoft.com/MSDN/ShowPost.aspx?PostID=100960&SiteID=1) as being by design however I can't envisage parameter defaults and prompts being maintaned by an administrator. An override mechanism similar to OverwriteDataSources should be added to Reporting Services projects to allow deploymnent from Visual Studio.
+> This is explained here as being by design however I can't envisage parameter defaults and prompts being maintaned by an administrator. An override mechanism similar to OverwriteDataSources should be added to Reporting Services projects to allow deploymnent from Visual Studio.
 
 That led to [an even older post](https://web.archive.org/web/20100828132548/http://social.msdn.microsoft.com/forums/en-US/sqlreportingservices/thread/c6c5b75a-fcbd-48f4-a30d-852d443d0a74/) from a Microsoft Forums (also discontinued and deleted.. thanks _again_ Microsoft) thread in 2005, with an answer from a SQL Server program manager at MS, which is probably the closest we'll get to an authoritative answer: _(emphasis in Brian's answer is mine)_
 
@@ -59,7 +59,7 @@ Since the problem seems to be that SSRS ignores default values when a report is 
 
 I tried it out, and as far as I can see, it has no adverse effects, despite Brian's admonition in 2005 that _"modifying the tables directly is not supported"._ There's a lot of built-in stored procs in SSRS, and this one just sets the `dbo.Catalog.Parameter` column for a given report. You can even, as JonoB suggests, pass in `NULL` to clear out the `Parameter` column.
 
-After doing that, running the original API endpoint then repopulates `dbo.Catalog.Parameter` with the correct values.. including any changes to default values! It doesn't seem to touch anything else, other than making a call to the `dbo.FlushReportFromCache` stored proc that updates some cache in the [report server temp database](https://learn.microsoft.com/en-us/previous-versions/sql/sql-server-2008/ms156016\(v=sql.100\)#report-server-temporary-database).
+After doing that, running the original API endpoint then repopulates `dbo.Catalog.Parameter` with the correct values.. including any changes to default values! It doesn't seem to touch anything else, other than making a call to the `dbo.FlushReportFromCache` stored proc that updates some cache in the [report server temp database](https://learn.microsoft.com/en-us/previous-versions/sql/sql-server-2008/ms156016(v=sql.100)#report-server-temporary-database).
 
 You might be able to just update the column directly with a simple `UPDATE` statement, but if someone thought it was important to update the cache in the temp db after updating the `Parameter` column, it probably is.
 

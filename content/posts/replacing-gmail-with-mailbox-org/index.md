@@ -167,7 +167,7 @@ Be sure to [download your data first](https://takeout.google.com/?hl=en), at lea
 
 ## Other Features (disposable addresses, security, etc)
 
-They also provide a bunch of other awesome sauce right out of the box. I've pondered just [what the heck ultimately happens to our digital life](https://grantwinney.com/what-happens-to-our-online-presence-when-we-die/), and so have they apparently. I don't know how they _confirm_ my death, but presumably once they receive a request to release it, they can (at your instruction) grant it or delete it. Not sure how it'd hold up in court, but it's interesting.
+They also provide a bunch of other awesome sauce right out of the box. If you've ever pondered what happens to your digital life when you pass away, well, so have they apparently. I don't know how they confirm someone's died, but presumably once they receive a request to release it, they can (at your instruction) grant it or delete it. Not sure how it'd hold up in court, but it's interesting.
 
 The built-in disposable addresses are awesome as well. I spent a few hours porting my online accounts to my new email, and closed quite a few that I hadn't used in a long time. That is an _incredibly_ painful and frustrating experience, especially when there's no obvious way to even close the account. So, at the very least, I spun up a disposable address, changed it in those services and confirmed it, then deleted the address. At that point, they're effectively dead to me. 👍
 

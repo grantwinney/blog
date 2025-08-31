@@ -21,7 +21,7 @@ title: Create a secure, personal instance of DokuWiki on DigitalOcean
 ---
 I've been thinking for awhile now that I wanted to throw together a wiki for my personal use. Something light-weight that supported uploading images and files - nothing too fancy. And I wanted to self-host it so I have greater control over the data and installation, and can restrict and secure access to it while still accessing it from anywhere.
 
-Before you tread this path, there are plenty of nice free/inexpensive tools for notetaking too - Evernote, Confluence, Dropbox Paper, docs.google.com, [etc](https://www.workzone.com/blog/evernote-alternatives/). I guess Facebook just has me wondering in general what the [hidden cost of "free"](https://grantwinney.com/why-i-dumped-facebook-for-good/) is.
+Before you tread this path, there are plenty of nice free/inexpensive tools for notetaking too - Evernote, Confluence, Dropbox Paper, docs.google.com, [etc](https://www.workzone.com/blog/evernote-alternatives/), but sometimes there's a hidden cost in "free" services.
 
 If you want a wiki, but you need more than what I've listed, check out [WikiMatrix](https://www.wikimatrix.org/compare/TiddlyWiki+DokuWiki+MediaWiki) to compare what's out there - just try not to get overwhelmed. For what I wanted it looked like [DokuWiki](https://www.dokuwiki.org/) would do the job, so that's what I went with.
 

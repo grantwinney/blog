@@ -125,7 +125,7 @@ I implemented a [SyndicationFeedReaderWriter](https://github.com/dotnet/Syndicat
 
 ### AWS Lambda
 
-I'm only just starting out with AWS Lambda, so I'm not sure what all it's capable of yet. A few days ago [I created a function that keeps my personal Twitter timeline clean](https://grantwinney.com/my-first-experience-with-aws-lambda/). So far, it's awesome. Their [free tier plan](https://aws.amazon.com/lambda/pricing/#Lambda_pricing_details) is generous enough to let you try out _lots_ of different things before you need to pay a single penny.
+I'm only just starting out with AWS Lambda, so I'm not sure what all it's capable of yet. A few days ago I created a function that keeps my personal Twitter timeline clean.. so far, it's awesome. Their [free tier plan](https://aws.amazon.com/lambda/pricing/#Lambda_pricing_details) is generous enough to let you try out _lots_ of different things before you need to pay a single penny.
 
 ---
 

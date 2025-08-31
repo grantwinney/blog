@@ -127,7 +127,7 @@ The very last part of the process is validating that the code is good. When some
 
 You can try to [implement that algorithm](https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm#Algorithm) yourself (not recommended) or just look for a reliable library in the language of your choice like [JavaScript](https://jsfiddle.net/russau/ch8PK/) or [Otp.NET in C#](https://github.com/kspearrin/Otp.NET). Since the time on a server versus a user's device may be slightly out of sync, it's possible they'll get a code that's different than the one we calculate, so it's a good idea to calculate several codes (one for the _previous_ 30 seconds, and one for the _next_ 30 seconds) and validate for all of them. It's also worth noting that if they're using a device that has the wrong time, their generated 2FA codes might never validate.
 
-If you'd like to see an implementation written in C#, [check this out](https://grantwinney.com/a-sample-csharp-app-for-generating-and-verifying-totp-2fa-codes/).
+If you'd like to see an implementation written in C#, [check this out](https://grantwinney.com/how-to-create-a-2fa-code-for-your-app/).
 
 ---
 

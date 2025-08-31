@@ -15,7 +15,7 @@ tags:
 - Python
 title: Connecting an Analog Joystick to the Raspberry Pi
 ---
-One of the best things about the Raspberry Pi is its GPIO pins. They’re just sitting there, waiting to be connected to all kinds of interesting peripherals so your Pi can interact with the world around it. We can [send alerts](https://grantwinney.com/how-to-flash-an-led-on-your-raspberry-pi-when-you-get-new-email/), attach sensors, and even plug cards like the [Sense HAT](https://www.raspberrypi.org/products/sense-hat/) over top of the pins to do even more.
+One of the best things about the Raspberry Pi is its GPIO pins. They’re just sitting there, waiting to be connected to all kinds of interesting peripherals so your Pi can interact with the world around it. We can [send alerts](https://grantwinney.com/raspberry-pi-flash-led-for-new-email/), attach sensors, and even plug cards like the [Sense HAT](https://www.raspberrypi.org/products/sense-hat/) over top of the pins to do even more.
 
 A few months ago, I bought a set of 37 sensor modules. I knew they wouldn’t directly interface with the Pi, but that it was entirely possible to do it, so they were set aside for later. Well, it's time to try one out, and I figure the mini-joystick might offer some interesting opportunities!
 
@@ -48,9 +48,9 @@ The first link shows how to enable the Serial Peripheral Interface (SPI) bus on 
 
 The second link walks through wiring up the MCP3008 chip, providing the bridge between the joystick and Pi. The third link isn't necessary, but it’s got some helpful info in it that’s not in the other one. I suggest reading both.
 
-Also, for changing colors on an RGB LED, it may help to read about [pulse-width modulation (PWM)](https://grantwinney.com/how-to-use-an-rgb-multicolor-led-with-pulse-width-modulation-pwm-on-the-raspberry-pi/).
+Also, for changing colors on an RGB LED, it may help to read about [pulse-width modulation (PWM)](https://grantwinney.com/raspberry-pi-pulse-width-modulation/).
 
-Here are some pictures and a diagram of my setup, although the author of the linked articles provides a good set of pics too. There’s some additional stuff in my circuit that’s not in his, namely the RGB LED and resistors/wires to make it work. I used a 100Ω resistor for red and 220Ω for green and blue, [same as here](https://grantwinney.com/how-to-use-an-rgb-multicolor-led-with-pulse-width-modulation-pwm-on-the-raspberry-pi/).
+Here are some pictures and a diagram of my setup, although the author of the linked articles provides a good set of pics too. There’s some additional stuff in my circuit that’s not in his, namely the RGB LED and resistors/wires to make it work. I used a 100Ω resistor for red and 220Ω for green and blue, [same as here](https://grantwinney.com/raspberry-pi-pulse-width-modulation/).
 
 ![](joystick-color-wheel-setup-1.jpg)
 
@@ -78,7 +78,7 @@ If you’d like, you can [download the original Fritzing file](Joystick-Color-Wh
 
 You should’ve already verified that Python Spidev ([pi-spydev](https://github.com/doceme/py-spidev)) was installed after you enabled SPI. We’ll need that for reading input from the analog device.
 
-Since I’ve been [messing with an RGB LED](https://grantwinney.com/how-to-use-an-rgb-multicolor-led-with-pulse-width-modulation-pwm-on-the-raspberry-pi/) lately, I thought it’d be interesting to map the position of the joystick to the RGB color wheel and then light up the LED appropriately. Imagine the X-axis running horizontal above Blue and Green, and the Y-axis running vertical through Red and Cyan.
+Since I’ve been [messing with an RGB LED](https://grantwinney.com/raspberry-pi-pulse-width-modulation/) lately, I thought it’d be interesting to map the position of the joystick to the RGB color wheel and then light up the LED appropriately. Imagine the X-axis running horizontal above Blue and Green, and the Y-axis running vertical through Red and Cyan.
 
 ![rgb_color_wheel_400px](rgb_color_wheel_400px.jpg)
 

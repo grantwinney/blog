@@ -156,7 +156,7 @@ public void Test1(string username)
 
 ### Don't read from disk
 
-Something else that's pretty common in programming is reading from a file - maybe a configuration file or an ini (initialization) file. So here's another example, that reads an XML file from disk to find the price of a book _(_[_thanks Microsoft_](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ms762271\(v=vs.85\))_)._
+Something else that's pretty common in programming is reading from a file - maybe a configuration file or an ini (initialization) file. So here's another example, that reads an XML file from disk to find the price of a book _(_[_thanks Microsoft_](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ms762271(v=vs.85))_)._
 
 ```csharp
 public class Books

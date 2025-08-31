@@ -77,7 +77,7 @@ As usual, I posted to GitHub the code I used to test this - you can [view it her
 
 ### Parsing the config file in .NET Standard
 
-I created a class that matches the config file, in order to make using it easier. If you'd like to learn more about how that works, I wrote about it and [the many other uses of attributes](https://grantwinney.com/5-examples-of-attributes-in-c-and-why-youll-want-to-make-your-own/#parsing-config-files).
+I created a class that matches the config file, in order to make using it easier. If you'd like to learn more about how that works, I wrote about it and [the many other uses of attributes](https://grantwinney.com/csharp-attributes/#parsing-config-files).
 
 ```csharp
 public class LogSettings : ConfigurationSection

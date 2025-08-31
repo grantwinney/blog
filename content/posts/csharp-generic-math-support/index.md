@@ -21,7 +21,7 @@ tags:
 - Series Generic Math Intro
 title: Generic Math Support in C# 11
 ---
-This is post 3 in a 3-part series building up to a new C# 11 feature called [Generic Math](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#generic-math-support). First though, it might be helpful to read two other posts, to get familiar with [static abstract members](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c/) (also new to C# 11) and [overloading operators](https://grantwinney.com/how-do-i-overload-operators-in-csharp/) (not new, but useful).
+This is post 3 in a 3-part series building up to a new C# 11 feature called [Generic Math](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#generic-math-support). First though, it might be helpful to read two other posts, to get familiar with [static abstract members](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c/) (also new to C# 11) and [overloading operators](https://grantwinney.com/csharp-overload-arithmetic-equality-comparison-operators/) (not new, but useful).
 
 > The code in this post is available on <a href="https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericMathSupport/GenericMathSupport">GitHub</a>, for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
@@ -128,7 +128,7 @@ public void GetDescriptionWorksForAllTypesOfContainers()
 
 One thing we haven't really been able to do before, though, is add "static" members to an interface. Actually, since C# 8 we've apparently been able to add static methods to interfaces as long as they declare a default body. I'm sure there's a good reason for it, but I haven't used it yet.
 
-Anyway, since [overloading an operator](https://grantwinney.com/how-do-i-overload-operators-in-csharp/) requires defining a static method on a class, and there's never been a way to specify a static _abstract_ member in an interface (aka one without a default body), it hasn't been possible to have an interface require that classes overload certain operators. Until now.
+Anyway, since [overloading an operator](https://grantwinney.com/csharp-overload-arithmetic-equality-comparison-operators/) requires defining a static method on a class, and there's never been a way to specify a static _abstract_ member in an interface (aka one without a default body), it hasn't been possible to have an interface require that classes overload certain operators. Until now.
 
 As of C# 11, you can add [static abstract members](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c/) to interfaces, which means you _can_ require classes to have to implement one or more overloaded operators. Although you can certainly test this with your own interfaces _(_[_learn more here_](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c/)_),_ you can also make use of the new interfaces that C# 11 has given us. There's [IAdditionOperators](https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Numerics/IAdditionOperators.cs,67cc175feb3d46df) and [IComparisonOperators](https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Numerics/IComparisonOperators.cs,75f68921e83607a1), as well as [quite a few others](https://learn.microsoft.com/en-us/dotnet/standard/generics/math#operator-interfaces). Let's take a closer look...
 
