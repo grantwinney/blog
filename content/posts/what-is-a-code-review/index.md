@@ -33,7 +33,7 @@ Sure, most of us won't be working on mission critical systems that mean life and
 
 ## What should you expect?
 
-Every place is different, so your experience will be too. If you're in school, it might just mean zipping up your code and uploading it so a couple other students can provide some feedback. But most code reviews take place as the final step before merging new code (which usually lives on its own [git branch](https://codesource.io/understanding-branching-in-git/)) back into master (where it needs to play nicely with everyone else's code, the build environment, etc) - a process known as a [pull request](https://dzone.com/articles/learning-git-what-is-a-pull-request).
+Every place is different, so your experience will be too. If you're in school, it might just mean zipping up your code and uploading it so a couple other students can provide some feedback. But most code reviews take place as the final step before merging new code (which usually lives on its own git branch) back into master (where it needs to play nicely with everyone else's code, the build environment, etc) - a process known as a [pull request](https://dzone.com/articles/learning-git-what-is-a-pull-request).
 
 Some teams may have a loose requirement on their code review / pull request process, simply giving other developers a chance to approve it if they'd like. Other teams have a stricter requirement, which actually prevents merging (completing the pull request) before at least x number of devs review and approve it. Some are okay leaving code reviews open for days, while others prefer they be addressed within a few hours.
 

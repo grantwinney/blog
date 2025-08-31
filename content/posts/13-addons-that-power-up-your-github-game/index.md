@@ -47,12 +47,12 @@ Alright, enough of that! On to the main attraction...
 
 ## Sourcegraph (web-based IDE)
 
-[About](https://about.sourcegraph.com/) | [Docs](https://docs.sourcegraph.com/integration/browser_extension) | [Source Code](https://github.com/sourcegraph/sourcegraph) | [Privacy](https://docs.sourcegraph.com/integration/browser_extension#privacy)  
+[About](https://about.sourcegraph.com/) | [Docs](https://sourcegraph.com/docs/integration/browser_extension) | [Source Code](https://github.com/sourcegraph/sourcegraph-public-snapshot) | [Privacy](https://sourcegraph.com/docs/integration/browser_extension/references/privacy)  
 [Chrome](https://chrome.google.com/webstore/detail/sourcegraph/dgjhfomjieaadpoljlnidmbgkdffpack)
 
 If you need to do a little debugging on a repo, you have to clone it locally and open it in your favorite IDE or code editor, something that can be expensive (time-wise) if you just need to take a quick peek. Well you _had_ to clone it, anyway.
 
-[Sourcegraph](https://docs.sourcegraph.com/integration/browser_extension) is an IDE for the browser that works with multiple languages. Just hover over a keyword or identifier in your codebase, and the addon pops up a link that takes you to sourcegraph's site, which in turn provides syntax highlighting and click-through navigation for your application. I tried it with a C# application I wrote for a recent post on [MVP](https://grantwinney.com/its-possible-to-test-a-winforms-app-using-mvp/), and it had no problem navigating around.
+[Sourcegraph](https://sourcegraph.com/docs/integration/browser_extension) is an IDE for the browser that works with multiple languages. Just hover over a keyword or identifier in your codebase, and the addon pops up a link that takes you to sourcegraph's site, which in turn provides syntax highlighting and click-through navigation for your application. I tried it with a C# application I wrote for a recent post on [MVP](https://grantwinney.com/its-possible-to-test-a-winforms-app-using-mvp/), and it had no problem navigating around.
 
 ![](sourcegraph-in-action-1.png)
 
@@ -66,7 +66,7 @@ If you need to do a little debugging on a repo, you have to clone it locally and
 
 Sourcegraph brings the IDE experience to your browser
 
-It's [free to use](https://about.sourcegraph.com/pricing/) for small teams, and you can [install it on premise](https://docs.sourcegraph.com/#quickstart-guide) for free too. Their [future goals](https://about.sourcegraph.com/plan) are lofty, to say the least. It seems they'd like to replace the need for separate, local IDEs using a protocol called [LSP](https://microsoft.github.io/language-server-protocol/), and to eventually have a global graph of _all_ OSS to make it easier to find and share code. 🤯
+It's [free to use](https://about.sourcegraph.com/pricing/) for small teams, and you can [install it on premise](https://sourcegraph.com/docs#quickstart) for free too. Their [future goals](https://about.sourcegraph.com/plan) are lofty, to say the least. It seems they'd like to replace the need for separate, local IDEs using a protocol called [LSP](https://microsoft.github.io/language-server-protocol/), and to eventually have a global graph of _all_ OSS to make it easier to find and share code. 🤯
 
 **Alternative:** [Octohint](https://chrome.google.com/webstore/detail/octohint/hbkpjkfdheainjkkebeoofkpgddnnbpk) _(_[_source code_](https://github.com/pd4d10/octohint)_)_ appears to do something similar, although I didn't try it out and I have no idea how it's implemented.
 

@@ -23,7 +23,7 @@ title: Using TimeProvider and FakeTimeProvider in WinForms
 ---
 Each new version of .NET brings great new tools. We got generics and LINQ in .NET 2 and 3, the [async/await model](https://grantwinney.com/using-async-await-and-task-to-keep-the-winforms-ui-more-responsive/) in .NET 4.5, and [string interpolation](https://grantwinney.com/using-string-interpolation-to-craft-readable-strings) in .NET 4.6. Okay, that last one's not in the same league as the other ones, but I use string interpolation _all_ the time.
 
-Unfortunately for those of us working on legacy WinForms apps, we don't often get to use the latest and greatest, like [generic math support](https://grantwinney.com/whats-generic-math-support-in-csharp/) or [list patterns](https://grantwinney.com/whats-a-list-pattern-in-csharp) from .NET 7. One new feature from .NET 8 though – the `TimeProvider` class – _is_ available to .NET Framework users. Let's see how.
+Unfortunately for those of us working on legacy WinForms apps, we don't often get to use the latest and greatest, like [generic math support](https://grantwinney.com/csharp-generic-math-support/) or [list patterns](https://grantwinney.com/whats-a-list-pattern-in-csharp) from .NET 7. One new feature from .NET 8 though – the `TimeProvider` class – _is_ available to .NET Framework users. Let's see how.
 
 ## Backporting TimeProvider
 

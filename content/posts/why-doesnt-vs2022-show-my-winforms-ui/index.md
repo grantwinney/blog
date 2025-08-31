@@ -132,4 +132,4 @@ Targeting x64 for class library (designer works; project doesn't run)
 
 Targeting Any CPU for class library (designer works _and_ project runs)
 
-If you want to try out the example yourself, [get the code here](https://github.com/grantwinney/BlogCodeSamples/tree/master/WinFormsDesignerInVS2022). Hopefully we'll be able to go all-in on VS 2022 soon, but I wouldn't bet on it until later this year at least.
+If you want to try out the example yourself, [get the code here](https://github.com/grantwinney/BlogCodeSamples/tree/master/DevTools/WinFormsDesignerInVS2022). Hopefully we'll be able to go all-in on VS 2022 soon, but I wouldn't bet on it until later this year at least.

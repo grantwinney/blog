@@ -25,7 +25,7 @@ As the years have gone by, and other places I've worked have used points too, I'
 
 ## Building in wiggle room
 
-Someone always, eventually comes around asking uncomfortable questions about [how long will this take](https://grantwinney.com/how-long-will-it-take/), and when can that be picked up, yadda yadda. They have valid reasons to ask, but what do you tell them?
+Someone always, eventually, comes around asking uncomfortable questions about how long will this take, and when can that be picked up, yadda yadda. They have valid reasons to ask, but what do you tell them?
 
 The 10 years ago me might've thought, "well, the stuff I'm doing has taken some time, it'll take a little more time, and after this I'll grab that other thing that'll take time too". Now I recognize (sometimes begrudgingly) that you can't plan anything further out than today if everyone is just plugging away, and no one has a clear idea of how long anything will take.
 

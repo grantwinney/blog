@@ -49,7 +49,7 @@ Play around with it a bit, change the code, progress through their examples, try
 
 To understand what's going on, find the directory where you ran the `dotnet try demo` command and check out the markdown files. Let me just say that I really like they're using markdown, and not html or (gasp) some one-off syntax.
 
-_(If you're not familiar with markdown, find a_ [_good tutorial_](https://www.howtogeek.com/448323/what-is-markdown-and-how-do-you-use-it/) _and get familiar with it. It's used on GitHub as well as a lot of forums, commenting systems, blogs, etc. But I digress...)_
+_(If you're not familiar with markdown, find a good tutorial and get familiar with it. It's used on GitHub as well as a lot of forums, commenting systems, blogs, etc. But I digress...)_
 
 ![](image-9.png)
 

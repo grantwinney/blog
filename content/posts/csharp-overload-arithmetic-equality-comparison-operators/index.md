@@ -247,6 +247,6 @@ I wrote a longer post about equality operators a few years ago too, if you want 
 
 [Comparing Two Objects for Equality in C#](https://grantwinney.com/csharp-compare-two-objects-for-equality/)
 
-Next up, we'll see how operation overloading and the [static abstract concept](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c/) applies to [Generic Math](https://grantwinney.com/whats-generic-math-support-in-csharp/).
+Next up, we'll see how operation overloading and the [static abstract concept](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c/) applies to [Generic Math](https://grantwinney.com/csharp-generic-math-support/).
 
 If you found this content useful, and want to learn more about a variety of [C#](https://grantwinney.com/tags/csharp/) features, check out [this GitHub repo](https://github.com/grantwinney/CSharpDotNetExamples), where you'll find links to plenty more blog posts and practical examples!

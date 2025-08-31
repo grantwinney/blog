@@ -17,7 +17,7 @@ tags:
 - Code Review
 title: What is Manifest V3 and why is Google pestering me about it?
 ---
-If you've ever dug into [the underpinnings of a browser extension](https://grantwinney.com/chrome-extensions-a-peek-under-the-hood/), or maybe even [created one yourself](https://grantwinney.com/making-your-first-chrome-extension), you've seen the manifest.json file that acts as a sort of usage guide for an extension. Not the kind of usage guide most people would want to read, but it's vital for browsers.
+If you've ever dug into the underpinnings of a browser extension, or maybe even [created one yourself](https://grantwinney.com/making-your-first-chrome-extension), you've seen the manifest.json file that acts as a sort of usage guide for an extension. Not the kind of usage guide most people would want to read, but it's vital for browsers.
 
 The manifest file tells them what name and version to display, who the author is, what permissions to request access to, which icons to display, what css and js files to load and when. It's important, but once you get the hang of it, pretty simple to implement. You create it and move on, only ever reopening it to bump the version when you've got something new to publish, and maybe requesting a new permission.
 
