@@ -154,7 +154,7 @@ public class ResetStack
 
 But that seems useless anyway. If they had the compiled code, they could decompile it to debug it. If they're hitting an API, you probably want to return a useful error instead of a raw exception in any case.
 
-The official docs failed me here. The [legacy docs](https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/ms229005\(v=vs.100\)) simply warn against it:
+The official docs failed me here. The [legacy docs](https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/ms229005(v=vs.100)) simply warn against it:
 
 > [P]refer using an empty throw when catching and re-throwing an exception. This is the best way to preserve the exception call stack. The following code example demonstrates catching an exception and incorrectly specifying it when re-throwing the exception. This causes the stack trace to point to the re-throw as the error location....
 

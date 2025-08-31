@@ -89,7 +89,7 @@ Here's [a collection of book covers](https://boyter.org/2016/04/collection-orly-
 
 ## MonkeyUser
 
-[MonkeyUser](http://www.monkeyuser.com/toc/) by Cornel and Constantin is another funny comic about life as a dev. The comic below is completely believable with some of the test suites in old monolithic apps. 💀
+[MonkeyUser](https://www.monkeyuser.com/) by Cornel and Constantin is another funny comic about life as a dev. The comic below is completely believable with some of the test suites in old monolithic apps. 💀
 
 ![](https://www.monkeyuser.com/assets/images/2018/110-test-optimization.png)
 

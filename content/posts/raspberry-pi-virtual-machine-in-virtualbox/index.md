@@ -53,7 +53,7 @@ Go to [https://www.debian.org/distrib](https://www.debian.org/distrib/) and down
 
 Create a new VirtualBox instance. Type the name “Debian” and it should auto-select type Linux and version Debian (64-bit) – if not, select them.
 
-Set the settings according to the minimum requirements, which should pretty closely mirror the Pi. [The current release is jessie](https://www.debian.org/releases/jessie/amd64/ch03s04.html.en). Using the graphical desktop, the recommended RAM is 1GB and hard drive space is 10GB.
+Set the settings according to the minimum requirements, which should pretty closely mirror the Pi. As of this writing, the current release is jessie. Using the graphical desktop, the recommended RAM and hard drive space is currently 1GB and 10GB, respectively.
 
 ![debian - virtualbox config 1](debian-virtualbox-config-1.png)
 
@@ -79,7 +79,7 @@ You can verify that python2 and python3 are already installed by starting each s
 
 ### Upgrading Packages
 
-From time to time, you may want to upgrade the packages installed on your new VM. To do that, you’ll need to be logged in as root, but “sudo” isn’t installed by default. You can [follow this tutorial to install sudo](https://www.privateinternetaccess.com/forum/discussion/18063/debian-8-1-0-jessie-sudo-fix-not-installed-by-default), or just type “su” and enter your password. Personally, I’d recommend installing sudo. Every example you find is going to tell you to use it, not to type “su”.
+From time to time, you may want to upgrade the packages installed on your new VM. To do that, you’ll need to be logged in as root, but “sudo” isn’t installed by default. You can [install sudo easily enough](https://unix.stackexchange.com/a/333062), which I’d recommend doing since most examples you find are going to tell you to use it.
 
 To upgrade installed packages, run:
 
@@ -101,7 +101,7 @@ sudo apt-get install git
 
 Let’s clone a project from GitHub and try out a script. There’s a repo on GitHub that’s full of “hello world” scripts in different languages. Let’s use that.
 
-Create a new directory and clone “[https://github.com/leachim6/hello-world.git”](https://github.com/leachim6/hello-world.git%E2%80%9D). Run the “p/python.py” file.
+Create a new directory and clone "[https://github.com/leachim6/hello-world.git](https://github.com/leachim6/hello-world.git)". Run the “p/python.py” file.
 
 ![debian - hello world test](debian-hello-world-test.png)
 
@@ -111,7 +111,7 @@ You can install whatever else you’d normally install on Raspbian too.
 
 Do you use Pibrella? Follow “[Emulating a Raspberry Pi on Virtualbox](http://dbakevlar.com/2015/08/emulating-a-raspberry-pi-on-virtualbox)”, starting half-way down under the header “Pibrella Module Installation” and “Python 3 Addition”.
 
-If you typically use the [pip package manager](https://en.wikipedia.org/wiki/Pip_\(package_manager\)), you can easily install that too.
+If you typically use the [pip package manager](https://en.wikipedia.org/wiki/Pip_(package_manager)), you can easily install that too.
 
 ### What about the GPIO pins and RPi.GPIO?
 

@@ -133,7 +133,7 @@ At the very least, read the section entitled _What is OSC?,_ install the ruby ge
 
 ### Recreating Simon’s notes
 
-Once that’s setup and working, it should work from the Python script too. The notes, which I grabbed from [Wikipedia](https://en.wikipedia.org/wiki/Simon_\(game\)), don’t sound exactly the same as the original game, from what I could find of it on YouTube. Not sure the octave is right… probably missing several things. Whatever the reason, the effect is the same – four colors, four notes.
+Once that’s setup and working, it should work from the Python script too. The notes, which I grabbed from [Wikipedia](https://en.wikipedia.org/wiki/Simon_(game)), don’t sound exactly the same as the original game, from what I could find of it on YouTube. Not sure the octave is right… probably missing several things. Whatever the reason, the effect is the same – four colors, four notes.
 
 Simon’s tones … were designed to always be harmonic, no matter what order they were played in, and consisted of an A major triad in second inversion which resembles a Trumpet fanfare:
 
