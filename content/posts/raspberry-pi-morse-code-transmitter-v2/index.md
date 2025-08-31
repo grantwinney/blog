@@ -258,9 +258,8 @@ I wouldn’t suggest it if I didn’t like it. It’s affordable _(in keeping wi
 **Helpful Links**
 
 - [Simple Guide to the RPi GPIO Header and Pins](http://www.raspberrypi-spy.co.uk/2012/06/simple-guide-to-the-rpi-gpio-header-and-pins/)
-- [International Morse Code – Sounds](http://morsecode.scphillips.com/morse.html)
-- [International Morse Code – Dots and Dashes](http://morsecode.scphillips.com/morse2.html)
-- [An Introduction to Python Lists](http://effbot.org/zone/python-list.htm)
+- [International Morse Code | Morse Code World](https://morsecode.world/international/morse.html)
+- [Python Lists | GeeksforGeeks](https://www.geeksforgeeks.org/python/python-lists/)
 - [Manage Concurrent Threads](https://pymotw.com/2/threading/) (Python)
 
 ## Final Thoughts

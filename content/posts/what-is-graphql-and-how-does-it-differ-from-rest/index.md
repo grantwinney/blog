@@ -25,12 +25,12 @@ As much as we'd like to think there's one "best" way to do things, GraphQL is an
 
 An API that implements the REST interface allows us to (for example) very easily `GET` some data about an entity. By default, we get the whole shebang. If we can limit or otherwise customize the returned dataset somehow, it's only because the developers wrote code to explicitly support those limits and customizations. How that looks will differ with every API.
 
-Take the [Ghost API](https://ghost.org/docs/api/v2/content) as an example, which is built into the blog engine I use for this site. You can request data on individual posts, authors, etc, which is all standard fare. On top of that though, the devs provided a few query parameters to affect the returned data:
+Take the [Ghost API](https://docs.ghost.org/content-api) as an example, which is built into the blog engine I use for this site. You can request data on individual posts, authors, etc, which is all standard fare. On top of that though, the devs provided a few query parameters to affect the returned data:
 
-- [include](https://ghost.org/docs/api/v2/content/#include) returns _more_ data, like full author details for a post
-- [fields](https://ghost.org/docs/api/v2/content/#fields) returns _less_ data, by specifying which fields should be returned
-- [formats](https://ghost.org/docs/api/v2/content/#formats) returns _more_ data, by returning data in multiple formats
-- [filter](https://ghost.org/docs/api/v2/content/#filter) returns _less_ data, by filtering by certain attributes
+- `include` returns _more_ data, like full author details for a post
+- `fields` returns _less_ data, by specifying which fields should be returned
+- `formats` returns _more_ data, by returning data in multiple formats
+- `filter` returns _less_ data, by filtering by certain attributes
 - `limit` and `page` return _less_ data by implementing paging
 - `order` doesn't even filter data, but it affects paging results so it's tacked on
 

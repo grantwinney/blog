@@ -164,6 +164,6 @@ GPIO.output(13, True)     # Turn the pin "on". Could use: True/False, 1/0, GPIO.
 - I’m also taking [Programming for Everybody (Getting Started with Python)](https://www.coursera.org/learn/python/) on Coursera.
 - [Tkinter Library](https://www.coursera.org/learn/raspberry-pi-platform/lecture/xyVag/lecture-3-2-tkinter-library), a Python library for GUI development _(no clue about this yet, just noting it)_
 
-When programming in Python, there are [online Python editors](http://stackoverflow.com/q/4616159/301857). Personally, I just installed the free [PyCharm IDE](https://www.jetbrains.com/pycharm/) from JetBrains.
+When programming in Python, there are online Python editors, but personally I just installed the free [PyCharm IDE](https://www.jetbrains.com/pycharm/) from JetBrains and that went well enough.
 
 By using [VNC (Virtual Network Computing)](https://www.raspberrypi.org/documentation/remote-access/vnc/) and following a tutorial on [How to give your Raspberry Pi a Static IP Address](https://www.modmypi.com/blog/tutorial-how-to-give-your-raspberry-pi-a-static-ip-address), I’m now able to connect to the Pi from other machines. Maybe I’ll write something up on how I did that. It’s convenient to not have* *to plug it into the TV or use a spare mouse/keyboard with it unless I want to.

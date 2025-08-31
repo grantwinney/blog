@@ -154,8 +154,8 @@ The circuit I created for this was as simple as it gets. But I’ve seen some th
 
 ### Tutorials
 
-- [How to Use a Breadboard and Build a LED Circuit](http://computers.tutsplus.com/tutorials/how-to-use-a-breadboard-and-build-a-led-circuit--mac-54746)
 - Introduction to [Using a Breadboard](https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/robot/breadboard/)
+- [How to Use a Breadboard and Build a LED Circuit](https://web.archive.org/web/20160716090534/http://computers.tutsplus.com/tutorials/how-to-use-a-breadboard-and-build-a-led-circuit--mac-54746)
 
 ### gpiocrust (mocking RPi.GPIO)
 

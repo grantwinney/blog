@@ -58,7 +58,7 @@ print(names[randint(0, len(names)-1)])
 
 But what if you have a class with some property (i.e. "age" or "weight") that you want to take into account when doing the random selection? For example, I recently wrote an app to [randomly tweet blog posts](https://grantwinney.com/using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post/), and I wanted to make sure newer posts were far more likely to be selected than older ones... but I wanted even the oldest post to still have some tiny chance of being selected.
 
-Here's a sample of the object I was dealing with (and [here's the full object](https://github.com/grantwinney/TweetRandomPostFromAGhostBlog/blob/master/TweetRandomFeedItem/GhostEntities.cs)). I was interested in the `PublishedAt` field, where a post that had been published more recently should be more likely to be selected.
+Here's a sample of the object I was dealing with. I was interested in the `PublishedAt` field, where a post that had been published more recently should be more likely to be selected.
 
 ```csharp
 public class Post

@@ -266,7 +266,6 @@ Good examples in Erlang can be hard to come by, and what you see here was a fair
 
 Other resources to check out:
 
-- [Evaluating Erlang code stored in a string](https://erlangcentral.org/wiki/String_Eval) _(touches on binding variables)_
 - Official docs: [erl_scan](http://erlang.org/doc/man/erl_scan.html), [erl_parse](http://erlang.org/doc/man/erl_parse.html), [erl_eval](http://erlang.org/doc/man/erl_eval.html) _(have a pot of coffee ready)_
 - [Domain Specific Languages in Erlang](http://people.apache.org/~dennisbyrne/infoq/DSLs_in_Erlang.ppt) _(powerpoint presentation)_
 - [Can parameterized statement stop all SQL injection?](http://stackoverflow.com/q/6786034) _(a thread with more details)_

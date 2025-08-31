@@ -67,7 +67,7 @@ And then add to the end of `C:\AUTOEXEC.BAT`:
 LH MSCDEx /D:CD1
 ```
 
-These drivers extend BIOS and DOS, respectively, to support the CD-ROM drive, and Windows 3.1 inherits that when it runs. _(credit:_ [_tomshardware.com_](http://www.tomshardware.com/forum/173467-48-error-windows-install#8953171)_)_
+These drivers extend BIOS and DOS, respectively, to support the CD-ROM drive, and Windows 3.1 inherits that when it runs.
 
 ![](Win-311-Image-011.png)
 
@@ -180,7 +180,7 @@ I suppose other than finding other apps to install, I’ll try to find a graphic
 
 You can download this [graphics driver](https://sites.google.com/site/chitchatvmback/misc) and follow the instructions in the zip file; it gets you 256 colors and 1024×768 res in a VMWARE environment. You may also need [these drivers](http://www.sierrahelp.com/Patches-Updates/Patches-Updates-Misc/Win31SVGAUpdate.html).. not sure.
 
-Installed IE too. Ouch. [Get it here.](http://www.oldapps.com/internet_explorer.php?old_internet_explorer=1?download)
+Installed IE too. Ouch.
 
 ![](Win-311-Image-061.png)
 

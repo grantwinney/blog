@@ -33,11 +33,11 @@ Finally, if you're just looking to have someone host and maintain Ghost for you,
 
 ## Step 1: Get your data out of WordPress
 
-You don't want to lose those old posts! The folks at Ghost wrote up some [instructions for migrating posts from WordPress](https://help.ghost.org/hc/en-us/articles/225093168-Migrating-From-WordPress-to-Ghost), and it involves [their very own WordPress plugin](https://wordpress.org/plugins/ghost/) that does some of the work for you. It runs through your content, exporting posts, pages and tags to a file (in JSON format) which you then download and import into Ghost. It has some issues that I'll cover later, but it gets the job done.
+You don't want to lose those old posts! The folks at Ghost wrote up some [instructions for migrating posts from WordPress](https://docs.ghost.org/migration/wordpress), and it involves [their very own WordPress plugin](https://wordpress.org/plugins/ghost/) that does some of the work for you. It runs through your content, exporting posts, pages and tags to a file (in JSON format) which you then download and import into Ghost. It has some issues that I'll cover later, but it gets the job done.
 
 _**Note 1:**_ If you have a lot of drafts without titles, give them something now. Otherwise the import may fail later until you edit the JSON file and add titles manually. (Alternatively, move them to trash temporarily, which the plugin seems to ignore, and then copy/paste them into the new blog later on.)
 
-_**Note 2:**_ I ran into a timeout issue running their plugin. After 30 seconds, it'd timeout with a 500 server error. To fix it, I had to [increase the php timeout](http://www.clickonf5.org/11921/solution-for-wordpress-php-error-maximum-execution-time-of-30-seconds-exceeded/) to 120 seconds and run it again. The first suggested fix worked fine - you can find the `wp-config.php` file in the root of your blog installation, i.e: `/var/www/wp-config.php`
+_**Note 2:**_ I ran into a timeout issue running their plugin. After 30 seconds, it'd timeout with a 500 server error. To fix it, I had to [increase the php timeout](https://web.archive.org/web/20170815145950/http://www.clickonf5.org/11921/solution-for-wordpress-php-error-maximum-execution-time-of-30-seconds-exceeded/) to 120 seconds and run it again. The first suggested fix worked fine - you can find the `wp-config.php` file in the root of your blog installation, i.e: `/var/www/wp-config.php`
 
 Now you've got your textual data, but you still need to get your images. To do that, you'll have to [setup SSH access to your server](https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh) _(you may find_ [_this_](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets) _and_ [_this_](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-putty-on-digitalocean-droplets-windows-users) _helpful as well)._ Once you do, the images are in the `/var/www/wp-content/uploads` folder, organized by year. Just [download the whole directory using sftp](https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server).
 
@@ -61,7 +61,7 @@ When you [SSH into the server](https://www.digitalocean.com/community/tutorials/
 
 ## Step 3: Clean up the exported file
 
-In the [instructions for migrating posts](https://help.ghost.org/hc/en-us/articles/225093168-Migrating-From-WordPress-to-Ghost), they warn you that the image directory in Ghost is similar but not identical. Open the JSON file you downloaded (in an editor like Atom or Notepad++), and take note of the various images paths in your posts. The date portion of the path should be fine, but `/wp-uploads/` needs to be replaced with `/content/images/`.
+In the [instructions for migrating posts](https://docs.ghost.org/migration/wordpress), they warn you that the image directory in Ghost is similar but not identical. Open the JSON file you downloaded (in an editor like Atom or Notepad++), and take note of the various images paths in your posts. The date portion of the path should be fine, but `/wp-uploads/` needs to be replaced with `/content/images/`.
 
 You might also want to do a search for your previous host's IP address. You can leave the domain name alone, but if the IP address is in the JSON file anywhere you'll want to replace it with the IP address of your new site _(which you'll eventually replace with the domain name, but not yet)_.
 
@@ -71,7 +71,7 @@ Before I could access the admin area of Ghost, I had to open `http://<your-ip-ad
 
 ![](ghost-import-failed-missing-date.png)
 
-Here are [common import problems and solutions](https://help.ghost.org/hc/en-us/articles/226670028). You might find it easier to run the contents of the JSON file through a JSON formatter first, like [this one](https://atom.io/packages/pretty-json) for Atom. It makes it easier to read, and it'll still import into Ghost just fine. Eventually, everything should import without errors.
+You might find it easier to run the contents of the JSON file through a JSON formatter first, like [this one](https://atom.io/packages/pretty-json) for Atom. It makes it easier to read, and it'll still import into Ghost just fine. Eventually, everything should import without errors.
 
 Next, upload the images to the `/content/images/` directory [using the sftp command](https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server), and change the owner to `ghost`. Something like this should work nicely:
 
@@ -86,7 +86,7 @@ If the posts and images have been correctly uploaded, you should be able to open
 
 ## Step 5: Assign the domain name
 
-If you're migrating from your old blog, it's time to point your domain name to the Ghost installation. Usually, this means going into your domain name provider's settings and changing the Type A record to point at your new site's IP address. Now your site is accessible via HTTP, but I'd highly recommend enabling (and enforcing) HTTPS - you'll be able to login securely, and [Google is HTTPS](https://motherboard.vice.com/en_us/article/google-will-soon-shame-all-websites-that-are-unencrypted-chrome-https) both as a ranking factor in their search engine and eventually as the default for Chrome.
+If you're migrating from your old blog, it's time to point your domain name to the Ghost installation. Usually, this means going into your domain name provider's settings and changing the Type A record to point at your new site's IP address. Now your site is accessible via HTTP, but I'd highly recommend enabling (and enforcing) HTTPS - you'll be able to login securely, and [Google is using HTTPS](https://www.vice.com/en/article/google-will-soon-shame-all-websites-that-are-unencrypted-chrome-https/) both as a ranking factor in their search engine and eventually as the default for Chrome.
 
 ## Step 6: Setting up HTTPS
 
@@ -164,8 +164,8 @@ Bing has its own set of [Webmaster Tools](http://www.bing.com/toolbox/webmaster/
 
 This post has gone on longer than I intended. Here are some other links you may find interesting too...
 
-- [Using MailChimp with Ghost](http://academy.ghost.org/how-to-use-mailchimp-with-your-ghost-blog/)
+- [Official Ghost + Mailchimp Integration](https://ghost.org/integrations/mailchimp/)
 - [Ghost vs WordPress](https://ghost.org/vs/wordpress/)
-- [SSL Setup with Cloudflare](https://help.ghost.org/hc/en-us/articles/223238128-SSL-Setup-with-CloudFlare)
+- [Cloudflare domain setup](https://ghost.org/help/cloudflare-domain-setup/)
 
 Nothing left to do now but to get blogging!

@@ -72,7 +72,7 @@ Now let’s talk about how we’re going to get the color we’re looking for ou
 
 ### The RGB Color Wheel
 
-Grab some cookies and milk and join me on the floor for a lesson on the [color wheel](http://urlnextdoor.com/ai/web-design_1-fundamentals/week04.php). Our LED consists of red, green and blue, so we need the RGB wheel.
+Grab some milk and cookies and join me on the floor for a lesson on the color wheel. Our LED consists of red, green and blue, so we need the RGB wheel.
 
 To create the yellow/orange of a candle, we’ll start with lots of red. Then we’ll add enough green to pull the balance towards orange or yellow. We don’t need any blue at all. As the candle “burns down”, we can remove some of the red (to make it look dimmer) and a lot more of the green (to change it from yellow to orange and finally red).
 

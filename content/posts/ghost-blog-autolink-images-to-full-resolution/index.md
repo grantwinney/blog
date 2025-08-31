@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 ## What's it do?
 
-This selects all image elements under the element that has the `.post-content` class applied to it, which is the main body of your post's content, and makes them clickable to display the full image. You probably don't want to apply this script to _every_ image on your site, but you can change change the selector as needed. Read more about [querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/querySelectorAll) and [selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) at MDN.
+This selects all image elements under the element that has the `.post-content` class applied to it, which is the main body of your post's content, and makes them clickable to display the full image. You probably don't want to apply this script to _every_ image on your site, but you can change change the selector as needed. Read more about [querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) and [selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) at MDN.
 
 It does this when the [DOMContentLoaded](https://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded) event fires, which occurs after the HTML is rendered but before any resources (images, stylesheets, etc) are downloaded, this code. That way, we can be sure the image placeholders are present, even if the images themselves are not yet.
 

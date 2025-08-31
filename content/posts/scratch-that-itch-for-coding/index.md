@@ -36,7 +36,7 @@ In the early 2000's, Mitchell, John Maeda of MIT, and Yasmin Kafai of UCLA [had 
 
 Despite that, the design and implementation in Scratch teaches some concepts most casual users wouldn't even be aware of, aside from the obvious stuff like loops and `if` statements.
 
-You can create your own "blocks" that accept parameters and contain other blocks, just like methods and parameters. You can run multiple blocks concurrently, so it introduces users to threading. And like [Sonic Pi](https://thehopeful.dev/sonic-pi/), it supports "live coding". Users can modify their code on the fly, without needing to wait for compilation.
+You can create your own "blocks" that accept parameters and contain other blocks, just like methods and parameters. You can run multiple blocks concurrently, so it introduces users to threading. And like [Sonic Pi](https://grantwinney.com/creating-music-with-sonic-pi-on-raspberry-pi/), it supports "live coding". Users can modify their code on the fly, without needing to wait for compilation.
 
 ![](gUQ1e1R4TS.gif)
 

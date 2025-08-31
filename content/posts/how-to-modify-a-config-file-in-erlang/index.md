@@ -13,7 +13,7 @@ tags:
 - Coding
 title: Modify a config file in Erlang
 ---
-I found myself recently needing to write an [escript](http://erlang.org/doc/man/escript.html) to modify a [config file](http://erlang.org/doc/man/config.html). All I needed was to read it in, make a couple updates, and write it back out. Should be easy, right? Please make it easy Erlang. No? Okay... 😢
+I found myself recently needing to write an [escript](http://erlang.org/doc/man/escript.html) to modify a [config file](https://www.erlang.org/docs/19/man/config). All I needed was to read it in, make a couple updates, and write it back out. Should be easy, right? Please make it easy Erlang. No? Okay... 😢
 
 > The code in this post is available on <a href="https://github.com/grantwinney/BlogCodeSamples/tree/master/Languages/Erlang/ConfigFileModifier">GitHub</a>, for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
@@ -40,7 +40,7 @@ In my defense, the name, description, and example are all awful... _"Reads Erlan
 
 ## Modifying a config file
 
-And so, I present my own, more appropriately-named module called `config_parser`. You can grab it below or [find it on GitHub](https://github.com/grantwinney/erl-config-modifier), and modify it to your heart's content. It reads and writes _(_[_thank you_](https://zxq9.com/archives/1021)_)_ config files, and can also get and set nested terms so you can more easily modify them.
+And so, I present my own, more appropriately-named module called `config_parser`. You can grab it below or [find it on GitHub](https://github.com/grantwinney/BlogCodeSamples/tree/master/Languages/Erlang/ConfigFileModifier), and modify it to your heart's content. It reads and writes _([thank you](https://zxq9.com/archives/1021))_ config files, and can also get and set nested terms so you can more easily modify them.
 
 ```erlang
 % Author: Grant Winney
@@ -90,7 +90,7 @@ error_message(Error, FileName) ->
 
 ## Usage
 
-There's a couple other files in the [repo](https://github.com/grantwinney/erl-config-modifier) so you can try it out. Just leave them in the same directory, compile the Erlang module, and run the two functions to see how it updates the config file. You should see a new dependency added to application_2, and a new group added to application_3.
+There's a couple other files in the [repo](https://github.com/grantwinney/BlogCodeSamples/tree/master/Languages/Erlang/ConfigFileModifier) so you can try it out. Just leave them in the same directory, compile the Erlang module, and run the two functions to see how it updates the config file. You should see a new dependency added to application_2, and a new group added to application_3.
 
 ```erlang
 [{application_1,[{log_options,[{log_path,"C:/Program Files/Acme/Logs"}]}]},

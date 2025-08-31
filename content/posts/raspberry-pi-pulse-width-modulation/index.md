@@ -189,7 +189,7 @@ if _name_ == '_main_':
 
 Apparently there is one pin (GPIO18) that allows hardware PWM, and maybe GPIO12 too, but I’m unclear on that. Then you’d need to use something like the [Adafruit 16-Channel 12-bit PWM/Servo Driver – I2C interface](https://www.adafruit.com/products/815) to turn the pin into 16 pins, and the board can even be chained together.
 
-Other libraries, like [WiringPi for Python](https://github.com/WiringPi/WiringPi-Python) and the [pigpio module](http://abyz.co.uk/rpi/pigpio/python.html#hardware_PWM), can make use of PWM using the dedicated hardware on the Pi (again, I’m not completely clear on this yet), but RPi.GPIO doesn’t support it yet. That’s okay though… for what we’re doing here, the software PWM performs just fine.
+Other libraries, like [WiringPi for Python](https://github.com/WiringPi/WiringPi-Python) and the [pigpio module](https://pypi.org/project/pigpio/), can make use of PWM using the dedicated hardware on the Pi (again, I’m not completely clear on this yet), but RPi.GPIO doesn’t support it yet. That’s okay though… for what we’re doing here, the software PWM performs just fine.
 
 Note that the current release does not support SPI, I2C, hardware PWM or serial functionality on the RPi yet. This is planned for the near future – watch this space! One-wire functionality is also planned.
 
@@ -219,7 +219,6 @@ For those that just can’t get enough, here’s some resources I stumbled on wh
 
 - [Voltage, Current, Resistance, and Ohm’s Law](https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law), I’d recommend reading the entire article – it’s very helpful.
 - [Basics: Picking Resistors for LEDs](http://www.evilmadscientist.com/2012/resistors-for-leds/)
-- [LED Center](http://led.linear1.org/category/led-basics/)
 - [Can I use the GPIO for pulse width modulation (PWM)?](http://raspberrypi.stackexchange.com/q/298/44926)
 - [Dim an LED using Pulse-Width Modulation with the Raspberry Pi](https://www.youtube.com/watch?v=uUn0KWwwkq8), a YouTube video demonstrating PWM
 
