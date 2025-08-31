@@ -67,9 +67,9 @@ https://api.nasa.gov/insight_weather/?api_key=your-api-key&feedtype=json&ver=1.0
 
 It's interesting to think how everything we use is one layer upon another, and whatever we create with those layers is a potential layer for someone else to use. It's true for software, and everything else we use too.
 
-The Curiosity rover includes a component called the [REMS](https://cab.inta-csic.es/proyectos/mision-msl-rems/) environmental station, which records the weather on Mars. That data's transmitted back to Earth, and the [MAAS2 API](https://maas2.apollorion.com/) uses it to display the Martian weather for any SOL (a Martian day). Then you can use it for whatever project you dream up.
+The Curiosity rover includes a component called the [REMS](https://cab.inta-csic.es/proyectos/mision-msl-rems/) environmental station, which records the weather on Mars. That data's transmitted back to Earth, and the MAAS2 API uses it to display the Martian weather for any SOL (a Martian day). Then you can use it for whatever project you dream up.
 
-The request is really simple, and you can try them out on their Swagger page. Just press "Try it out" and then "Execute".
+The request is really simple: _(there used to be a Swagger page, but it's gone)_
 
 ```json
 GET https://api.maas2.apollorion.com
@@ -107,7 +107,7 @@ Click on the following link, then the "docs" folder, and scroll to the bottom of
 
 [r-spacex/SpaceX-API](https://github.com/r-spacex/SpaceX-API)
 
-You can get data about the Starlink satellites, which currently returns 160,000 lines of JSON, implying there are _thousands_ of Starlink satellites. I figured there were like maybe a couple dozen currently, but nope. [Thousands](https://history-computer.com/how-many-satellites-does-musks-starlink-have-in-orbit/). And apparently a whole lot more planned. 😲
+You can get data about the Starlink satellites, which currently returns 160,000 lines of JSON, implying there are thousands of Starlink satellites. I figured there were like maybe a few hundreds currently, but nope... _[thousands](https://starlinkinsider.com/starlink-launch-statistics/)_, with tens of thousands more planned. 😲
 
 If you already know the ID, you can grab the data for just that one. All kinds of interesting info in here, like when the satellite decays (which I assume is when it burns up in the atmosphere), where it is, how high it is and how fast it's going, etc.
 

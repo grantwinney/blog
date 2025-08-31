@@ -20,9 +20,7 @@ I just got access to an MSDN account with keys for various versions of Windows a
 
 With that in mind, let's check out the best of Windows yesteryear. But first...
 
-**Note 1:** If you just need to run something in XP with a minimum of fuss, check out the free [Windows XP Mode](https://www.microsoft.com/en-us/download/details.aspx?id=8002) app that runs XP inside of Windows 7. It doesn't work on Windows 10 easily, but [there's usually a workaround](https://www.download3k.com/articles/How-to-add-an-XP-Mode-Virtual-Machine-to-Windows-10-or-8-using-Hyper-V-00770).
-
-**Note 2:** I won't share any keys or recommend where to find them, but you were allowed to use XP for 60 days without activating, so you could probably use any key you find and you'll be good for a couple months. Sure, that's annoying, but you're not seriously using this for anything serious are you?
+**Note:** I won't share any keys or recommend where to find them, but you were allowed to use XP for 60 days without activating, so you could probably use any key you find and you'll be good for a couple months. Sure, that's annoying, but you're not seriously using this for anything serious are you?
 
 [You can't install service packs on 64-bit systems](http://web.archive.org/web/20080430165302/http://www.microsoft.com/windowsxp/sp2/sysreqs.mspx), so you may want to choose the 32-bit option. If you're doing this from MSDN, select the _"with Service Pack 3"_ option to make life easier.
 
@@ -85,7 +83,7 @@ Alternatively, you can grab them from the [Microsoft Update Catalog](http://www.
 
 ## Install Updates
 
-Although [support for XP ended 5 years ago](https://www.microsoft.com/en-us/windowsforbusiness/end-of-xp-support), you can still grab the updates that were available. Click on _Start / All Programs / Windows Update_ and select all the updates. Install, reboot, select more updates, rinse, repeat. Good ol' XP.
+Although [support for XP ended 5 years ago](https://web.archive.org/web/20170217202701/https://www.microsoft.com/en-us/windowsforbusiness/end-of-xp-support), you can still grab the updates that were available. Click on _Start / All Programs / Windows Update_ and select all the updates. Install, reboot, select more updates, rinse, repeat. Good ol' XP.
 
 ![](winupdate1.png)
 

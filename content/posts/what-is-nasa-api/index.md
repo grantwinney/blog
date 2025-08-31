@@ -66,7 +66,7 @@ You could parse the result and display the photo on your personal site, for exam
 
 More photos! There's an API someone created just for retrieving photos from the various cameras on the various Mars rovers, going back 15 years.
 
-Here's a request for archived photos from May 9, 2009 (1900th "day" since landing), from the navigational camera aboard the [Mars Spirit Rover](https://www.jpl.nasa.gov/missions/mars-exploration-rover-spirit-mer/) (its mission ran from 2003 to 2011).
+Here's a request for archived photos from May 9, 2009 (1900th "day" since landing), from the navigational camera aboard the [Mars Spirit Rover](https://www.jpl.nasa.gov/missions/mars-exploration-rover-spirit-mer-spirit/) (its mission ran from 2003 to 2011).
 
 ```none
 GET https://api.nasa.gov/mars-photos/api/v1/rovers/spirit/photos?sol=1900&camera=NAVCAM&api_key=<your-api-key>

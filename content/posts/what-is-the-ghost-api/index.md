@@ -28,7 +28,7 @@ Before we get started though...
 
 The API is split into two parts. The public one, called the [Content API](https://ghost.org/docs/content-api/), provides read access to any public data that a user/reader of a blog would normally see.
 
-The private one, called the [Admin API](https://ghost.org/docs/admin-api/), provides access to blog data in accordance with the permissions of the user making the request. This includes read and write access for any private data, managing users, uploading themes, etc. It's far more powerful, so obviously we need to be especially careful with that one.
+The private one, called the [Admin API](https://docs.ghost.org/admin-api), provides access to blog data in accordance with the permissions of the user making the request. This includes read and write access for any private data, managing users, uploading themes, etc. It's far more powerful, so obviously we need to be especially careful with that one.
 
 Generating keys to use either of them is in site settings, under Advanced / Integrations, by choosing to add a custom integration. Even though we're only trying things out in Postman, it's the same process you'd have others go through for an integration of your own.
 
@@ -203,4 +203,4 @@ This produces a list of tiers, not surprisingly, which I've edited below to cut 
 }
 ```
 
-Just like with the Content API, the full list of [available Admin API endpoints](https://ghost.org/docs/admin-api/#endpoints) is in their docs too.
+Just like with the Content API, the full list of [available Admin API endpoints](https://docs.ghost.org/admin-api#endpoints) is in their docs too.

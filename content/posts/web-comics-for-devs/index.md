@@ -109,19 +109,14 @@ Here's [a collection of book covers](https://boyter.org/2016/04/collection-orly-
 
 ## Abstruse Goose
 
-[Abstruse Goose](https://abstrusegoose.com) is yet another comic about random topics... although quite a few seem to be about development. Seriously, imagine how much less stress there'd be if Bob Ross taught programming classes! 🎨
+Abstruse Goose ***was*** a comic about random topics... although quite a few seemed to be about development. There's a few archives laying around, but the most organized and accessible I've seen is the [Abstruse Goose Archive](https://github.com/s-macke/Abstruse-Goose-Archive) on GitHub.
 
-![](https://cdn-images-1.medium.com/max/1000/1*KY82wjv0nVEzB1hmWWbLfg.png)
+![The Happy Programmer - Abstruse Goose](abstrusegoose-joyofprogramming.png)
 
-[The Happy Programmer - Abstruse Goose](https://abstrusegoose.com/467)
+![How to Teach Yourself Programming - Abstruse Goose](abstrusegoose-249.png)
 
-![](https://abstrusegoose.com/strips/ars_longa_vita_brevis.png)
+![Other People's Code](abstrusegoose-432.png)
 
-[How to Teach Yourself Programming - Abstruse Goose](https://abstrusegoose.com/249)
-
-![](https://cdn-images-1.medium.com/max/1000/1*aF4L0WQV77WPd1MW3r530Q.png)
-
-[Other People's Code - Abstruse Goose](https://abstrusegoose.com/432)
 
 ---
 

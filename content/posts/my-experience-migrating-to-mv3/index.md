@@ -39,7 +39,6 @@ Yep, looks pretty good.
 One by one, I moved down the list. [Browser_action was renamed to action](https://developer.chrome.com/docs/extensions/mv3/mv3-migration/#action-api-unification) and browser_specific_settings is a Firefox thing which [_might_ be required in Firefox for MV3](https://extensionworkshop.com/documentation/develop/extensions-and-the-add-on-id/#when-do-you-need-an-add-on-id). Requesting host URLs (like I do, to periodically grab updated css selectors to block on sites) got moved into their own section called [host permissions](https://developer.chrome.com/docs/extensions/mv3/mv3-migration/#host-permissions). All pretty straight-forward so far, and documented pretty well in a number of places. Here's a few I found along the way:
 
 - [Migrating to Manifest V3 - Chrome Developers](https://developer.chrome.com/docs/extensions/mv3/mv3-migration/#man-sw)
-- [Chrome Extension Manifest V3: A Migration Guide - VSH Solutions](https://www.vshsolutions.com/blogs/chrome-extension-manifest-v3-a-migration-guide/)
 - [Begin your MV3 migration by implementing new features today | Mozilla](https://blog.mozilla.org/addons/2022/10/31/begin-your-mv3-migration-by-implementing-new-features-today/)
 
 That last error gave me pause. What does "service work registration failed" mean? [Service workers replaced background pages](https://developer.chrome.com/docs/extensions/mv3/mv3-migration/#man-sw), which isn't cryptic, but the error itself is so vague. _Why_ did it fail? Well, reason 15 of course! Including the error number in there required a [bug fix](https://chromium-review.googlesource.com/c/chromium/src/+/3805456), apparently, and oh boy what a good time that would've been to toss some more descriptive text in there. I never did find a source for what the numbers mean, but while I was flailing around for a fix, they kept switching between 3 and 15.
@@ -82,7 +81,6 @@ In MV2, anyone could get out there and write an addon, and I feel like the compl
 
 I already linked to some of these articles throughout this post, but here's a bunch of sites I found useful while trying to migrate. Oh, and [my migration is complete](https://github.com/grantwinney/hide-comments-everywhere/pull/137), uploaded, and was accepted the next day.
 
-- [Chrome Extension Manifest V3: A Migration Guide - VSH Solutions](https://www.vshsolutions.com/blogs/chrome-extension-manifest-v3-a-migration-guide/)
 - [Service worker overview - Chrome Developers](https://developer.chrome.com/docs/workbox/service-worker-overview/)
 - [JavaScript modules - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 - [Using the Fetch API - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)

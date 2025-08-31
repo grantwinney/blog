@@ -22,7 +22,7 @@ I decided this week to install Windows 3.1 on a virtual machine. First, [you’l
 
 ## Requirements
 
-- [VMware Player](http://www.vmware.com/products/player/)
+- ~~VMware Player~~ I _think_ this was replaced by [VMware Fusion and Workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)
 - [An instance of DOS 6.22 running in a virtual machine](https://grantwinney.com/installing-dos-6-22-in-vmware-player/)
 - Software capable of packaging files into a floppy disk image (may end in FLV, IMA, etc), such as [WinImage](http://www.winimage.com/download.htm)_(30 day free trial)_
 - Software capable of packaging files into an cd (ISO) image, such as [Folder2Iso](http://www.trustfm.net/divx/SoftwareFolder2Iso.php)_(freeware)_

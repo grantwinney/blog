@@ -22,7 +22,7 @@ This was back in the days when Windows ran on top of DOS though, so I needed to 
 
 First, you’ll need:
 
-- [VMware Player](http://www.vmware.com/products/player/)
+- ~~VMware Player~~ I _think_ this was replaced by [VMware Fusion and Workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)
 - A valid copy of the DOS 6.22 floppy disk image files - Available with an MSDN or TechNet account
 - Also available for free from [AllBootDisks](http://www.allbootdisks.com/download/iso.html); I can’t vouch for them, but they were linked to on several forums, including Microsoft’s
 

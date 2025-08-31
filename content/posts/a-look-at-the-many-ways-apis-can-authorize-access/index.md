@@ -46,7 +46,7 @@ Some APIs require that consumers create an account and generate an API key, whic
 
 The [NASA API](https://grantwinney.com/what-is-nasa-api/) lets you use a generic "demo" key with a rate limit of 50 requests per day _(enough to try it out),_ but if you request an API key _(an easy process)_ the rate limit increases to 1000 requests _per hour_. From what I've observed, rate limits tend to usually be greater (when they're specified at all) for APIs where some sort of authentication is required.
 
-The [Planet OS API](https://grantwinney.com/what-is-the-planet-os-api/) and [Internet Game Database API](https://grantwinney.com/what-is-internet-game-database-api/) both have API keys and clearly defined rate limits, with the former providing [100 calls per day](http://docs.planetos.com/#limits) up to 5 GB of data per month, and the latter providing a [free tier](https://api.igdb.com/pricing) with 3000 requests per month. The [NOAA API](https://grantwinney.com/what-is-noaa-api/) emails you a token upon request, and once you have it, the rate limits are high for a personal account - 5/second and 10,000/day.
+The [Internet Game Database API](https://grantwinney.com/what-is-internet-game-database-api/) has API keys and clearly defined rate limits, providing a [free tier](https://api.igdb.com/pricing) with 3000 requests per month. The [NOAA API](https://grantwinney.com/what-is-noaa-api/) emails you a token upon request, and once you have it, the rate limits are high for a personal account - 5/second and 10,000/day.
 
 The [OpenWeatherMap API](https://grantwinney.com/what-is-openweathermap-api/), unlike some others I looked at, provides a very nice interface for deleting keys and creating new ones as needed, with the push of a single button. Since it's conceivable a user's key could be exposed by accident, or shared with a malicious application, giving them a way to reset it is a very good practice.
 
@@ -100,7 +100,7 @@ The consumer key (generated after registration) and access token (generated afte
 
 Here's an app trying to authorize with Twitter to gain access to a user's account:
 
-The [Trello API](https://grantwinney.com/what-is-trello-api/) supports two methods. They have their own [authorization route](https://developers.trello.com/page/authorization#authorizing-a-client), which combines an application key with a token that's generated when a user visits a particular link and authenticates with Trello. They also support [OAuth 1.0](https://developers.trello.com/page/authorization#using-basic-oauth), combining the aforementioned application key with an application "secret", and providing some URLs through which the user can authenticate themselves and authorize the application. Trello has a [node.js demo](https://glitch.com/edit/#!/trello-oauth) you can check out if interested.
+The [Trello API](https://grantwinney.com/what-is-trello-api/) supports two methods. They have their own [authorization route](https://developers.trello.com/page/authorization#authorizing-a-client), which combines an application key with a token that's generated when a user visits a particular link and authenticates with Trello. They also support [OAuth 1.0](https://developers.trello.com/page/authorization#using-basic-oauth), combining the aforementioned application key with an application "secret", and providing some URLs through which the user can authenticate themselves and authorize the application.
 
 Here's an app trying to authorize with Trello:
 

@@ -45,7 +45,7 @@ The .NET Framework has had different ways of doing this for a long time, but the
 
 The most common thing to do in a WinForms app (in my experience) is to just keep adding more and more code, without thinking about where it's running... which usually means the UI thread by default. The problem is that a long-running job running on the UI thread freezes the app. Even short job will lock the UI for a half-second here, a full second there, even if we've gotten used to it.
 
-In the [BreakfastSingleThread class](https://github.com/grantwinney/SurvivingWinForms/blob/master/Threading/AsyncAwait/AsyncAwait/BreakfastSingleThread.cs), I've written a couple dozen methods for making a full breakfast. They're not doing any real work.. just sleeping for a fraction of a second or so, then continuing. When you click the "Run on Main Thread" button, it kicks off the process with this: _(ignore the inline method passed to the ctor - I'm passing messages to the TextBox control, but that's not important right now)_
+In the [BreakfastSingleThread class](https://github.com/grantwinney/Surviving-WinForms/blob/master/Threading/AsyncAwait/AsyncAwait/Breakfast.cs#L175), I've written a couple dozen methods for making a full breakfast. They're not doing any real work.. just sleeping for a fraction of a second or so, then continuing. When you click the "Run on Main Thread" button, it kicks off the process with this: _(ignore the inline method passed to the ctor - I'm passing messages to the TextBox control, but that's not important right now)_
 
 ```csharp
 var bmt = new BreakfastSingleThread((text) => txtMainThread.AppendText(text + Environment.NewLine));
@@ -75,7 +75,7 @@ That previous example was a quick win. The UI was responsive again, but it's sti
 
 Running things in _separate_ threads would be a much larger win, but there's more changes to make in the code, and we have to be more careful about what we're calling, and when we have to wait (await) for certain parts to finish before moving on with others.
 
-To support multiple threads, I rewrote the previous class and named it [BreakfastMultipleThreads.cs](https://github.com/grantwinney/SurvivingWinForms/blob/master/Threading/AsyncAwait/AsyncAwait/BreakfastMultipleThreads.cs). The changes are pretty significant. Many of the methods have been changed to support async operations.
+To support multiple threads, I rewrote the previous class and named it [BreakfastMultipleThreads.cs](https://github.com/grantwinney/Surviving-WinForms/blob/master/Threading/AsyncAwait/AsyncAwait/Breakfast.cs#L204). The changes are pretty significant. Many of the methods have been changed to support async operations.
 
 - The method signatures have changed from `void` to `async Task`. If you try to use `void Task`, you'll get a syntax error and VS will offer to change it for you.
 - The main "work" in each method (a sleepy thread) is moved inside a separate task. When the task is complete (we `await` it), the message is printed. I could've called `await Task.Delay(2000)` but felt the way I did it made it clearer that we could've been running other (more realistic) code.

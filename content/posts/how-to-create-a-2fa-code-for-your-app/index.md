@@ -117,7 +117,7 @@ Looking at those 4 basic fields again, here's what we'll use:
 otpauth://totp/${encodeURI(label)}?secret=${secret}&issuer=${encodeURI(issuer)};
 ```
 
-Once we've got everything, we need a library that can convert it to a QR code. For JavaScript, check out the [2FA QR code generator](https://stefansundin.github.io/2fa-qr/) which uses [jQuery.qrcode](https://larsjung.de/jquery-qrcode/). For C#, there's the [QRCoder](https://www.nuget.org/packages/QRCoder/) library. We should avoid reinventing the wheel where we can, and look for established libraries when possible.
+Once we've got everything, we need a library that can convert it to a QR code. For JavaScript, check out the [2FA QR code generator](https://stefansundin.github.io/2fa-qr/). For C#, there's the [QRCoder](https://www.nuget.org/packages/QRCoder/) library. We should avoid reinventing the wheel where we can, and look for established libraries when possible.
 
 A user scans the QR code, at which point their app and our system will both be storing the secret code. No matter what 2FA app they used to scan the code originally, it should be capable of combining the secret with the current time and generating a single-use code that's good for 30 seconds.
 

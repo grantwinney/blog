@@ -75,7 +75,7 @@ A few hours in, and we were getting pretty close to finishing it up. The manual 
 
 ![Smithsonian-Motor-Works-00022](Smithsonian-Motor-Works-00022.jpg)
 
-I mounted the finished product – engine and battery compartment – to a spare piece of wood (left over from [my bed bunk project](https://grantwinney.com/how-and-why-i-built-my-kids-a-bunk-bed-instead-of-buying-one/)) for easier transport.
+I mounted the finished product – engine and battery compartment – to a spare piece of wood for easier transport.
 
 ![Smithsonian-Motor-Works-00023](Smithsonian-Motor-Works-00023.jpg)
 

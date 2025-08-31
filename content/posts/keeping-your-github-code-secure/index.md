@@ -59,7 +59,7 @@ At that level, it's highly unlikely anyone that someone will manage to crack you
 
 ![](pass4-1.png)
 
-Tyler has a post on passwords that I recommend reading, especially the section on [password security precautions](http://www.fidian.com/programming/passwordsecurity#TOC-Precautions-You-Need-To-Take). It's full of great suggestions for choosing a password wisely.
+Tyler has a post on passwords that I recommend reading, especially the section on [password security precautions](https://web.archive.org/web/20220123131343/http://www.fidian.com/programming/passwordsecurity#TOC-Precautions-You-Need-To-Take). It's full of great suggestions for choosing a password wisely.
 
 ---
 
@@ -159,7 +159,7 @@ gpgsign = true
 
 ### Add the GPG key to GitHub
 
-Finally, you'll need to [add the GPG key to your account](https://help.github.com/en/articles/adding-a-new-gpg-key-to-your-github-account).
+Finally, you'll need to [add the GPG key to your account](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account).
 
 ```sh
 gpg --armor --export 12341234ABCDEF12

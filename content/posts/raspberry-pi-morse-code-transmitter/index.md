@@ -17,7 +17,7 @@ tags:
 - Python
 title: Building a Morse Code Transmitter on a Raspberry Pi
 ---
-Last week, [I made the Raspberry Pi blink an LED a few times](https://grantwinney.com/hello-world-for-the-raspberry-pi-making-an-led-blink/). As thrilling as that was, I almost immediately wanted something more. Building a morse code transmitter seemed like a nice little challenge.
+Last week, [I made the Raspberry Pi blink an LED a few times](https://grantwinney.com/raspberry-pi-making-an-led-blink/). As thrilling as that was, I almost immediately wanted something more. Building a morse code transmitter seemed like a nice little challenge.
 
 ## Goals
 
@@ -32,7 +32,7 @@ To do this, a few things are necessary:
 
 - Install Raspbian on the Pi _(comes with Python 3 preinstalled)_
 - Get a kit with a breadboard, LED and resistor _(cobbler is optional, but helpful)_
-- [Setup a breadboard with an LED and resistor](https://grantwinney.com/hello-world-for-the-raspberry-pi-making-an-led-blink/)
+- [Setup a breadboard with an LED and resistor](https://grantwinney.com/raspberry-pi-making-an-led-blink/)
 
 ## What is Morse Code?
 

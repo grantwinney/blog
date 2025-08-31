@@ -63,7 +63,7 @@ Another (unfortunately, _very_) popular API is the one used to display notificat
 
 ### Sensors API
 
-There's a (maybe sorta?) new API for requesting access to sensors in Chromium-based browsers ([Ghacks](https://www.ghacks.net/2019/03/21/google-adds-sensor-permission-controls-to-chrome/) puts it at Chrome 75, around June 2019, but [wikipedia](https://en.wikipedia.org/wiki/Google_Chrome_version_history) suggests Chrome 67 around May 2018). It's not widely supported yet. According to MDN, the only major browsers that currently support it are Chrome and Opera, on desktop and mobile.
+There's a (maybe sorta?) new API for requesting access to sensors in Chromium-based browsers ([Ghacks](https://www.ghacks.net/2019/03/21/google-adds-sensor-permission-controls-to-chrome/) puts it at Chrome 75, around June 2019. It's not widely supported yet - according to MDN, the only major browsers that currently support it are Chrome and Opera, on desktop and mobile.
 
 Check out the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Sensor_APIs), the [W3C candidate recommendation](https://www.w3.org/TR/generic-sensor), the ongoing conversation over at [Chrome](https://bugs.chromium.org/p/chromium/issues/detail?id=796904#c15), and Intel's [Sensor API playground](https://intel.github.io/generic-sensor-demos/) for examples.
 

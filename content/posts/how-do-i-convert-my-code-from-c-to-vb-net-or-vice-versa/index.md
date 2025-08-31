@@ -29,13 +29,13 @@ Or what if it's a legacy app that your company invested 10 years in, complete wi
 
 **💡**_**You can have several .NET languages in one solution, as long as they're separated by project.**_
 
-That's right. It's been possible for a [long time](https://stackoverflow.com/questions/862723/use-vb-net-and-c-sharp-in-the-same-application), but I'd bet those fancy blue shoes that even some experienced devs don't know it - it's easy to live entirely within a single language. So move that legacy VB.NET or C# code into its own project and reference it from the project you're working in. I wrote a quickie example _(pictured at the top of this post -_ [_grab the source code_](https://github.com/grantwinney/BlogCodeSamples/tree/master/CSharpAndVbNetTogether)_)_ that has a C# project referencing F# and VB.NET projects.
+That's right. It's been possible for a [long time](https://stackoverflow.com/questions/862723/use-vb-net-and-c-sharp-in-the-same-application), but I'd bet those fancy blue shoes that even some experienced devs don't know it - it's easy to live entirely within a single language. So move that legacy VB.NET or C# code into its own project and reference it from the project you're working in. I wrote a quickie example _(pictured at the top of this post -_ [_grab the source code_](https://github.com/grantwinney/BlogCodeSamples/tree/master/Languages/CSharp/CSharpAndVbNetTogether)_)_ that has a C# project referencing F# and VB.NET projects.
 
 All you need to do is open the project with the language you want to use, and add references to the projects that use the other .NET languages. Here's a C# project with references to F# and VB.NET projects:
 
 ![netlanguagereferences](netlanguagereferences.png)
 
-If you [check out my sample app](https://github.com/grantwinney/BlogCodeSamples/tree/master/CSharpAndVbNetTogether), you'll see the modules in the other two languages are treated by C# like any other C# static class.
+If you check out my sample app, you'll see the modules in the other two languages are treated by C# like any other C# static class.
 
 ---
 
@@ -76,5 +76,5 @@ And here's a few more links to documentation:
 
 - [.NET Documentation - Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/index) with guides and examples for C#, VB.NET, F#, etc.
 - [Languages features in C# and VB - dotnet/roslyn Wiki](https://github.com/dotnet/roslyn/wiki/Languages-features-in-C%23-6-and-VB-14)
-- [101 LINQ samples - Code Samples | Microsoft Docs](https://docs.microsoft.com/en-us/samples/dotnet/try-samples/101-linq-samples/)
+- [101 LINQ samples - Code Samples | Microsoft Docs](https://github.com/dotnet/try-samples/tree/main/101-linq-samples/)
 - [Converting C# knowledge to VB.NET - any potential problems?](https://stackoverflow.com/questions/1337253/converting-c-sharp-knowledge-to-vb-net-any-potential-problems) (an old Stack Overflow thread, but may still be helpful)

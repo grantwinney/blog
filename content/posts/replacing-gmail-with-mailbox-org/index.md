@@ -41,7 +41,7 @@ As you can see, I have a whopping $2 in my account, good for 2 months of basic u
 
 Setup is far easier if you just use the default mailbox.org domain, buuuut.. I love to complicate things. Seriously though, after changing gmail.com to protonmail.com and now to mailbox.org (and being realistic that I may want to change services again someday, and since I already have a domain for this blog), it just makes sense to make this the last email address change I'll ever have to make.
 
-Mailbox.org provides a detailed doc on [setting up e-mail addresses for your domain](https://kb.mailbox.org/display/BMBOKBEN/Using+e-mail+addresses+of+your+domain). You'll definitely have to be comfortable configuring your own domain setup, but it's not _that_ hard if you're willing to do some research. I can only share what I do personally.
+Mailbox.org provides a detailed doc on [setting up e-mail addresses for your domain](https://kb.mailbox.org/en/private/custom-domains/using-e-mails-with-a-custom-domain/). You'll definitely have to be comfortable configuring your own domain setup, but it's not _that_ hard if you're willing to do some research. I can only share what I do personally.
 
 My domain name is currently registered with Namecheap, which I configured to [forward all traffic to the DigitalOcean nameservers](https://www.digitalocean.com/community/tutorials/how-to-point-to-digitalocean-nameservers-from-common-domain-registrars), where I host this blog. Everything (web traffic, emails, etc) goes through Namecheap to DO, where the actual config is done.
 
@@ -61,7 +61,7 @@ _But wait, there's more!_ You may have proven who you are to Mailbox.org, but th
 
 ![](spf-04.png)
 
-To fix that, you need another DNS entry. Use a tool like [this one](https://mxtoolbox.com/SuperTool.aspx?action=spf) to check for an SPF record - if you don't find one, you need one, and you can [find instructions here](https://kb.mailbox.org/display/BMBOKBEN/Using+e-mail+addresses+of+your+domain#Usinge-mailaddressesofyourdomain-Step3:HowtosettheSPFrecords).
+To fix that, you need another DNS entry. Use a tool like [this one](https://mxtoolbox.com/SuperTool.aspx?action=spf) to check for an SPF record - if you don't find one, you need one, and you can [find instructions here](https://kb.mailbox.org/en/private/custom-domains/using-e-mails-with-a-custom-domain/#Usinge-mailaddressesofyourdomain-Step3:HowtosettheSPFrecords).
 
 ![](spf-2.png)
 

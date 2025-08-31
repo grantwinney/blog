@@ -14,7 +14,7 @@ tags:
 - API
 title: Access Climate Data With the NOAA API
 ---
-[NOAA](http://www.noaa.gov/) is an American agency that studies and charts various conditions in the oceans and atmosphere, and today we're going to check out the [NOAA API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2/).
+[NOAA](http://www.noaa.gov/) is an American agency that studies and charts various conditions in the oceans and atmosphere, and today we're going to check out the [NOAA API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2).
 
 First though, two things to consider:
 
@@ -381,7 +381,7 @@ TMIN = Minimum temperature (tenths of degrees C)
 TOBS = Temperature at the time of observation (tenths of degrees C)
 ```
 
-I'm guessing that "value" is self-explanatory - like 279 for SNWD is 279mm or about 11" of snow; and 6 for TOBS means .6°C, or about 33°F. The "attributes" though - not sure what those mean. _(update: thanks to_ [_Tim Erickson_](https://disqus.com/by/disqus_oHegIKlHsZ/) _for finding a reference to_ [_NOAA NCDC dataset attributes_](https://cran.r-project.org/web/packages/rnoaa/vignettes/ncdc_attributes.html)_!)_
+I'm guessing that "value" is self-explanatory - like 279 for SNWD is 279mm or about 11" of snow; and 6 for TOBS means .6°C, or about 33°F. The "attributes" though - not sure what those mean. _(update: thanks to_ [_Tim Erickson_](https://disqus.com/by/disqus_oHegIKlHsZ/) _for finding a reference to_ [_NOAA NCDC dataset attributes_](https://web.archive.org/web/20170718224700/https://cran.r-project.org/web/packages/rnoaa/vignettes/ncdc_attributes.html)_!)_
 
 ### Get Yearly Summary
 

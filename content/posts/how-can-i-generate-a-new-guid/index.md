@@ -65,7 +65,7 @@ fe6d2f03-b4bb-4df8-9247-5ece632a9fc1
 
 ## DuckDuckGo
 
-The privacy-friendly search engine is well known (among those of us who use it) for its [easter eggs](https://dev.to/harshhhdev/fun-duckduckgo-tricks-4c5h) and [hidden features](https://itsfoss.com/duckduckgo-easter-eggs/), some that stick around and others that eventually disappear. One of those features is generating a GUID.
+The privacy-friendly search engine is well known (among those of us who use it) for its [easter eggs](https://web.archive.org/web/20201104130902/https://dev.to/harshhhdev/fun-duckduckgo-tricks-4c5h) and [hidden features](https://itsfoss.com/duckduckgo-easter-eggs/), some that stick around and others that eventually disappear. One of those features is generating a GUID.
 
 Just do a search for "guid" and above the search results you get a new one. It's a little more convenient if you have DDG setup as your default search engine, and then you can just type "guid" in the address bar.
 

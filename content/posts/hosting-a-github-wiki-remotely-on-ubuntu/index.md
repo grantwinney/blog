@@ -226,6 +226,6 @@ These are just the downsides / limitations that I noticed... I'm sure there's mo
 
 ## What next?
 
-Since installing Gollum is pretty much all that's needed here, it'd be interesting to try setting this up by running [Gollum in a Docker container](https://github.com/gollum/gollum/wiki/Gollum-via-Docker), perhaps using [DigitalOcean's one-click Docker app](https://www.digitalocean.com/docs/one-clicks/docker/).
+Since installing Gollum is pretty much all that's needed here, it'd be interesting to try setting this up by running [Gollum in a Docker container](https://github.com/gollum/gollum/wiki/Gollum-via-Docker), perhaps using [DigitalOcean's one-click Docker app](https://docs.digitalocean.com/products/marketplace/catalog/docker/).
 
 If you want to see what else you can do with Gollum, check out my post on [5 Things You Can Do With a Locally Cloned GitHub Wiki](https://grantwinney.com/5-things-you-can-do-with-a-locally-cloned-github-wiki/).

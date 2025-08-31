@@ -91,7 +91,7 @@ The only caveat is that it's not under source control, but I can't really see th
 
 But what if you get your image inserted and it's obnoxiously huge? You can't resize an image using markdown.
 
-Well, GitHub doesn't support _all_ HTML tags - for example the `style` tag - but it _does_ support a subset. You can [check out their filter](https://github.com/jch/html-pipeline/blob/master/lib/html/pipeline/sanitization_filter.rb#L38-L107) for yourself, but here's the list of tags they support:
+Well, GitHub doesn't support _all_ HTML tags - for example the `style` tag - but it _does_ support a subset. You can [check out their filter](https://github.com/gjtorikian/html-pipeline/blob/main/lib/html_pipeline/sanitization_filter.rb) for yourself, but here's the list of tags they support:
 
 ```
 h1 h2 h3 h4 h5 h6 h7 h8 br b i strong em a pre code img tt div ins del
@@ -134,6 +134,6 @@ The above markdown is rendered like this:
 
 **What else?**
 
-I was hoping to find some trick for generating a table of contents, but alas after [years of ongoing discussion](https://github.com/isaacs/github/issues/215)... nada. There are other solutions like [github-markdown-toc](https://github.com/ekalinin/github-markdown-toc) and the [Github Markdown Outline](https://chrome.google.com/webstore/detail/github-markdown-outline-e/gccinjjdbfdkkkebfbeipopijjfohfgj) chrome extension, but nothing native. Who knows though... maybe since [Microsoft bought GitHub](https://itsfoss.com/microsoft-github/) and is [actively adding features](https://dzone.com/articles/github-roadmap-better-for-everyone), we'll see more features built-in.
+I was hoping to find some trick for generating a table of contents, but alas after [years of ongoing discussion](https://github.com/isaacs/github/issues/215)... nada. There are other solutions like [github-markdown-toc](https://github.com/ekalinin/github-markdown-toc) and the [Github Markdown Outline](https://chrome.google.com/webstore/detail/github-markdown-outline-e/gccinjjdbfdkkkebfbeipopijjfohfgj) chrome extension, but nothing native. Who knows though... maybe since [Microsoft bought GitHub](https://itsfoss.com/microsoft-github/) and is [actively adding features](https://web.archive.org/web/20230203202759/https://dzone.com/articles/github-roadmap-better-for-everyone), we'll see more features built-in.
 
 If you find any cool tricks of your own, I'd love to know about them! Share below...
