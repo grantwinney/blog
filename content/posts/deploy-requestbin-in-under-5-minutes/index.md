@@ -19,7 +19,7 @@ If you've ever needed to consume a webhook from another service, say from [Strip
 
 Same goes if you're developing a REST API and want to make sure that your `POST` and `PUT` actions are sending what you expect. You could develop a separate app that consumes your API the way your customers will and displays the results, but why bother with the overhead? _(At least, initially...)_
 
-The same team that designed RequestBin _(which seems to be abandoned, but more on that below)_ used to host a public instance of it for anyone to use too, but such services don't seem to last, and [theirs didn't either](https://github.com/Runscope/requestbin/commit/8ca17a8ed7f603864329391f4be131c4b3355aaf#commitcomment-28200726) once the VC money dried up. It's _got_ to be expensive hosting something like that for thousands _(tens of thousands? hundreds?)_ of users for free. 💸
+The same team that designed RequestBin _(which seems to be abandoned, but more on that below)_ used to host a public instance of it for anyone to use too, but such services don't seem to last, and [theirs didn't either](https://web.archive.org/web/20210116160324/https://github.com/Runscope/requestbin/commit/8ca17a8ed7f603864329391f4be131c4b3355aaf). It's _got_ to be expensive hosting something like that for thousands _(tens of thousands? hundreds?)_ of users for free. 💸
 
 ## Deploy with DigitalOcean in <5 minutes
 

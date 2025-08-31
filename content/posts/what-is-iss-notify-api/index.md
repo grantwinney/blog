@@ -79,7 +79,7 @@ print "On %s at %s, the lat/long of the ISS was: %s %s" % (date, time, latitude,
 
 **This endpoint no longer exists, it seems.**
 
-The other day, I used the [Google Maps API](https://grantwinney.com/day-6-google-maps-api/) to get the location of the Terminal Tower in Cleveland - the lat/long is 41.4984174, -81.6937287 respectively. We can use another endpoint to [calculate when the ISS will fly over](http://open-notify.org/Open-Notify-API/ISS-Pass-Times/) the Terminal Tower (or any other location of your choice).
+The other day, I used the [Google Maps API](https://grantwinney.com/what-is-google-maps-api/) to get the location of the Terminal Tower in Cleveland - the lat/long is 41.4984174, -81.6937287 respectively. We can use another endpoint to [calculate when the ISS will fly over](http://open-notify.org/Open-Notify-API/ISS-Pass-Times/) the Terminal Tower (or any other location of your choice).
 
 ```
 GET http://api.open-notify.org/iss-pass.json?lat=41.4984174&lon=-81.6937287

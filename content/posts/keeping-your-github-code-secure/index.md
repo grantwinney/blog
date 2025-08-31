@@ -27,9 +27,9 @@ _"All account compromises were the result of credential leakage by users or othe
 _"[W]e identified a third-party credential dump ... where the account compromise activity had originated. That credential dump comprised roughly one third of the accounts affected by the ransom campaign."_
 
 **There are more ways than a large-scale hack to become a victim too.**  
-_"[C]ontinuous scanning for publicly exposed_ _`_.git/config_`_ _and other environment files has been and continues to be conducted by the same IP address that conducted the account compromises. These files can contain sensitive credentials and personal access tokens..."_
+_"[C]ontinuous scanning for publicly exposed_ `.git/config` _and other environment files has been and continues to be conducted by the same IP address that conducted the account compromises. These files can contain sensitive credentials and personal access tokens..."_
 
-As a developer, there are few accounts I'd hate to lose access to more than my GitHub account. Writing code is such an intangible thing - [it can be tough enough to show results](https://grantwinney.com/showing-results-is-hard/) without having it deleted from under you ([sometimes necessary](https://help.github.com/en/articles/removing-sensitive-data-from-a-repository) but in this case completely malicious). And for a technology company, it could be a death knell - their bread and butter suddenly gone from their control, their intellectual property exposed to the world.
+As a developer, there are few accounts I'd hate to lose access to more than my GitHub account. Writing code is such an intangible thing - it can be tough enough to show results without having it deleted from under you ([sometimes necessary](https://help.github.com/en/articles/removing-sensitive-data-from-a-repository) but in this case completely malicious). And for a technology company, it could be a death knell - their bread and butter suddenly gone from their control, their intellectual property exposed to the world.
 
 ---
 

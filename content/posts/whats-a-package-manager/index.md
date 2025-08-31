@@ -54,7 +54,7 @@ Your (library, gem, module, JAR, whatever) can be shared with other projects, wh
 
 - Provide the source code, so they can manually compile it.
 - Provide the compiled code, so they can just drop it in their project.
-- Provide a _link_ to the source code (GitHub). Some tools, like [rebar3](https://www.rebar3.org/docs/dependencies) for Erlang, can reference a GitHub link directly and include it in the build process, even targeting a specific branch or tag.
+- Provide a _link_ to the source code (GitHub). Some tools, like [rebar3](https://www.rebar3.org/docs/configuration/dependencies/) for Erlang, can reference a GitHub link directly and include it in the build process, even targeting a specific branch or tag.
 - Host the compiled code in some central location, where others can discover it, reference it, be notified of updates, maybe even discuss it and get help.
 
 This is the problem a package manager solves, to one degree or another. It maintains each version of your code, along with metadata you provide about it, and makes it accessible to others. You could set one up on your machine, or on a corporate intranet, but there's a lot of good public ones out there, usually organized around the language you're working in.
@@ -96,4 +96,4 @@ If you want to learn more, Microsoft has a great set of intro docs covering the 
 - [Create and publish a .NET Standard NuGet package - Visual Studio on Windows](https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-visual-studio?tabs=netcore-cli)
 - [.nuspec File Reference for NuGet](https://docs.microsoft.com/en-us/nuget/reference/nuspec)
 
-If you have any questions or need something clarified, just leave a comment below or [send me a message](https://grantwinney.com/contact/) and I'll try to help out. Happy coding!
+If you have any questions or need something clarified, just leave a comment below and I'll try to help out. Happy coding!

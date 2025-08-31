@@ -17,7 +17,7 @@ tags:
 - Coding
 title: What are list patterns in C#?
 ---
-[As I've mentioned before](https://grantwinney.com/adding-deconstructors-in-csharp-is-it-worth-it/), there's very little I miss from my days of Erlang programming. One of the things I do miss, though, is pattern matching. Erlang does a _lot_ with it, and it's interesting to see C# doing more with it in the last few major releases too.
+There's very little I miss from my days of Erlang programming. One of the things I do miss, though, is pattern matching. Erlang does a _lot_ with it, and it's interesting to see C# doing more with it in the last few major releases too.
 
 Imagine, for a moment, if we could do some kind of pattern matching while [overloading methods](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/member-overloading). In the (completely invalid) code beow, the first method catches any call where the first parameter is "Anne", the second catches any call where the year is 1999, and the last one catches everything else. It's not a perfect analogy, but it's similar to what you can do in Erlang, without needing to have a bunch of `IF/ELSE` statements.
 

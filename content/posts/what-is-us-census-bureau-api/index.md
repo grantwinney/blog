@@ -32,7 +32,7 @@ Congratulations! Your key has been activated. You may now use it to query the Da
 
 ## Geocoding Service
 
-Try your shiny new key with the [geocoding API](https://www.census.gov/data/developers/data-sets/Geocoding-services.html), a service for looking up addresses and getting a latitude/longitude coordinate - similar to the [Google Maps geocoding API](https://grantwinney.com/day-6-google-maps-api/#geocodingapi).
+Try your shiny new key with the [geocoding API](https://www.census.gov/data/developers/data-sets/Geocoding-services.html), a service for looking up addresses and getting a latitude/longitude coordinate - similar to the [Google Maps geocoding API](https://grantwinney.com/what-is-google-maps-api/#geocodingapi).
 
 ```
 GET https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=50+Public+Square+Cleveland+Ohio&format=json&benchmark=Public_AR_Current&key=<your-key>

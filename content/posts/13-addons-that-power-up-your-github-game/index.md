@@ -89,18 +89,6 @@ Octotree produces a file explorer style "directory structure" view of your entir
 
 ![](octotree4.png)
 
-Octotree gives you a file explorer style view of your repo
-
-**Bonus:** The pro version of Octotree includes a host of extra features, but if the only one you're interested in is a dark mode, the [GitHub Dark Theme](https://poychang.github.io/github-dark-theme/) addon does a nice job. Hmm, I think the darker styles make file icons and other highlighting colors really pop out... what do you think?
-
-![](dark1.png)
-
-![](dark2.png)
-
-![](dark3.png)
-
-![](dark4.png)
-
 ---
 
 ## ZenHub (kanban-style project management)

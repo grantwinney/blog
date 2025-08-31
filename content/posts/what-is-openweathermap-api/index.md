@@ -97,7 +97,7 @@ It returns an abundance of data for the location - you can [read about the resul
 
 ### Finding Latitude/Longitude
 
-If you need to lookup the coordinates of a location, [check out the Google Maps API](https://grantwinney.com/day-6-google-maps-api/) - they have an endpoint for just that purpose. You can parse out the geometry/location values and use those in the weather request.
+If you need to lookup the coordinates of a location, [check out the Google Maps API](https://grantwinney.com/what-is-google-maps-api/) - they have an endpoint for just that purpose. You can parse out the geometry/location values and use those in the weather request.
 
 ```
 GET https://maps.googleapis.com/maps/api/geocode/json?address=50 Public Square Cleveland, Ohio&key=<your-key>

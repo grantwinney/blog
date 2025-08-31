@@ -33,7 +33,7 @@ There's a tiny utility for generating GUIDs that gets installed with every versi
 
 ## VS Code
 
-VS Code has been my favorite editor for the last few years, and definitely one of [my go-to tools](https://grantwinney.com/8-tools-every-developer-should-know-and-use/). There's [extensions for just about anything](https://marketplace.visualstudio.com/VSCode), including one for [inserting GUIDs](https://marketplace.visualstudio.com/items?itemName=heaths.vscode-guid). Just install it and you get two new options, one to insert a single GUID and another to insert multiple GUIDs.
+VS Code has been my favorite editor for the last few years. There's [extensions for just about anything](https://marketplace.visualstudio.com/VSCode), including one for [inserting GUIDs](https://marketplace.visualstudio.com/items?itemName=heaths.vscode-guid). Just install it and you get two new options, one to insert a single GUID and another to insert multiple GUIDs.
 
 Here's an example, that definitely only took 30 seconds to create and that I certainly didn't have to re-record 5 times because I kept pressing the wrong keys. Notice how the "manager_id" gets the same value as the manager's "id", but then the two employees get different values for their IDs, depending on which command is selected. Convenience!
 
