@@ -25,9 +25,7 @@ My policy on privacy? It's good! So in the interest of full disclosure...
 
 For those interested, and unless I note otherwise in individual posts, all of my code samples on here are licensed with the [MIT License](https://opensource.org/licenses/MIT), posted below. Use them for whatever you'd like, but give credit where it's due. Thanks!
 
----
-
-``` {.wrap}
+```
 MIT License
 
 Copyright (c) 2025 Grant Winney
