@@ -2,8 +2,8 @@
 categories:
 - API
 - Swagger
-- ASP.NET Core
-- Minimal API
+- asp-net-core
+- minimal-api
 - Reflections
 date: "2023-12-12T22:48:16Z"
 description: ""
@@ -16,8 +16,8 @@ summary: After an unexpected debugging session, some thoughts on APIs, similar e
 tags:
 - api
 - swagger
-- ASP.NET Core
-- Minimal api
+- asp-net-core
+- minimal-api
 - reflection
 title: Similar endpoints, swagger pages, and a DevOps fail
 ---

@@ -2,8 +2,8 @@
 categories:
 - LINQ
 - csharp
-- csharp 10
-- .NET 6
+- csharp-10
+- dotnet-6
 - Coding
 date: "2024-12-05T22:24:55Z"
 description: ""
@@ -16,8 +16,8 @@ summary: The .NET team has made some helpful additions to LINQ over the last few
 tags:
 - linq
 - csharp
-- csharp 10
-- .NET 6
+- csharp-10
+- dotnet-6
 - coding
 title: Using MinBy and MaxBy in C# 10 / .NET 6
 ---

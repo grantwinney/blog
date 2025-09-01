@@ -2,7 +2,7 @@
 categories:
 - Privacy
 - Bots
-- Code Review
+- code-review
 date: "2019-12-30T17:49:59Z"
 description: ""
 draft: false
@@ -16,7 +16,7 @@ summary: I was checking the status of a FedEx order when Brave warned me that "t
 tags:
 - privacy
 - bots
-- Code Review
+- code-review
 title: Why are websites requesting access to motion sensors... on my desktop?
 ---
 I was checking the status of a FedEx order in Brave, when I noticed a notification in the address bar that I've never seen before. It was warning me that _"this site has been blocked from accessing your motion sensors"_. Wut? It doesn't even need to be an order status - [their home page](https://www.fedex.com/) kicks it up too.

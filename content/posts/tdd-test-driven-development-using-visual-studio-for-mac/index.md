@@ -14,7 +14,7 @@ summary: Are you a Mac user and .NET fan? Did you know there's a native VS app n
 tags:
 - vs4mac
 - testing
-- tools-of-the-trade
+- tools
 title: Unit Testing in Visual Studio for Mac
 ---
 Last month at a user group, they selected the [magic square kata](https://github.com/gigasquid/wonderland-clojure-katas/tree/master/magic-square), which was a new one for me. Basically, you arrange 9 unique numbers in a 3x3 grid such that they add up to the same number horizontally, vertically and diagonally. I paired up with someone else who knew C#, and we tackled the kata in Visual Studio for Mac.

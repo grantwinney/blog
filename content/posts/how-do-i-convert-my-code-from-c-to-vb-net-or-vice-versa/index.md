@@ -12,7 +12,7 @@ summary: If you work with the .NET Framework long enough, you may eventually fin
   But conversion isn't always necessary - it's possible (and easy!) to have one solution
   with multiple languages.
 tags:
-- tools-of-the-trade
+- tools
 title: Convert code from C# to VB.NET and back
 ---
 If you work with the .NET Framework long enough, you may eventually find yourself tasked with converting one .NET language to another. There are hundreds of questions on Stack Overflow for converting [C# to VB.NET](https://stackoverflow.com/questions/tagged/c%23-to-vb.net), [VB.NET to C#](https://stackoverflow.com/questions/tagged/vb.net-to-c%23), and even [C# to F#](https://stackoverflow.com/questions/tagged/c%23-to-f%23) - and maybe thousands more that aren't tagged. But first, ask yourself...

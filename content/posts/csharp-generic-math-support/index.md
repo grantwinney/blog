@@ -4,7 +4,6 @@ categories:
 - csharp
 - Generic Math
 - Coding
-- Series Generic Math Intro
 date: "2023-04-05T03:50:14Z"
 description: ""
 draft: false
@@ -18,7 +17,6 @@ tags:
 - csharp
 - Generic Math
 - coding
-- Series Generic Math Intro
 title: Generic Math Support in C# 11
 aliases:
 - /whats-generic-math-support-in-csharp

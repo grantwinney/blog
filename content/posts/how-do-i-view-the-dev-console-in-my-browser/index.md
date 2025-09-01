@@ -11,7 +11,7 @@ summary: Most people will never even know their browser hides a great set of too
   mostly used by web developers, but which can be useful for anyone trying to figure
   out why their browser is misbehaving.
 tags:
-- tools-of-the-trade
+- tools
 title: Opening the developer console in every major browser
 ---
 Most people will never know their browser hides a great set of tools, mostly used by web developers, but which can be useful for anyone trying to figure out why their browser seems to be acting up.

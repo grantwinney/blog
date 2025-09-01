@@ -13,7 +13,7 @@ summary: If you've heard the term package manager, especially with GitHub announ
   reuse, and share code, among other things.
 tags:
 - nuget
-- tools-of-the-trade
+- tools
 title: What's a package manager?
 ---
 None of us writes code in a vacuum.

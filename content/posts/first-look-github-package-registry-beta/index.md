@@ -14,7 +14,7 @@ summary: Most of us host something (and some of us everything) on GitHub, especi
   beta, so let's see what we can do!
 tags:
 - github
-- tools-of-the-trade
+- tools
 title: What's the GitHub Package Registry?
 ---
 A few prerequisites before we dig in...

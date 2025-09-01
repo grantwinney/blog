@@ -2,7 +2,6 @@
 categories:
 - csharp
 - Coding
-- Series Generic Math Intro
 date: "2023-04-01T03:54:20Z"
 description: ""
 draft: false
@@ -14,7 +13,6 @@ summary: What's it mean to overload operators in C#? And what's that have to do 
 tags:
 - csharp
 - coding
-- Series Generic Math Intro
 title: Overloading arithmetic, equality, and comparison operators in C#
 aliases:
 - /how-do-i-overload-operators-in-csharp

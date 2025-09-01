@@ -16,7 +16,7 @@ summary: There’s a feature of every GitHub repo that in my experience doesn’
 tags:
 - git
 - github
-- tools-of-the-trade
+- tools
 title: 5 Things You Can Do With a Locally Cloned GitHub Wiki
 ---
 For software developers, GitHub is a useful (possibly even indispensible) tool. We use it for our personal projects, finding new libraries to use, and collaborating as a team. There’s a feature of every GitHub repo that I hear little about and rarely think about – the wiki.

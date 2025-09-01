@@ -12,7 +12,7 @@ summary: Need to pull a subdirectory out of repo A and create a new repo B out w
   it? Including full history and branches? Okay, here's how.
 tags:
 - git
-- tools-of-the-trade
+- tools
 title: Move a subdirectory into its own Git repo, with history
 ---
 I moved a project that was in a subdirectory of a larger, pretty much unrelated, repository. I don't know who thought it belonged there to begin with, but it was my first go at pulling something like that out into its own repo.

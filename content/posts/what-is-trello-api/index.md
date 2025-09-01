@@ -15,7 +15,7 @@ summary: Trello is a virtual kanban board... or a nice to-do list if you're goin
 tags:
 - api
 - trello
-- tools-of-the-trade
+- tools
 title: Manage Boards and Cards With the Trello API
 aliases:
 - /day-10-trello-api

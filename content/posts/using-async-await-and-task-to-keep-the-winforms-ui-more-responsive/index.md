@@ -2,7 +2,7 @@
 categories:
 - Multithreading
 - surviving-winforms
-- csharp 5
+- csharp-5
 - csharp
 - Async
 date: "2021-06-07T12:56:43Z"
@@ -16,7 +16,7 @@ summary: Using the async/await pattern in WinForms is an easy win, helping preve
 tags:
 - threading
 - surviving-winforms
-- csharp 5
+- csharp-5
 - csharp
 - async
 title: Using Async, Await, and Task to keep the WinForms UI responsive

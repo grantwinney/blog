@@ -1,8 +1,8 @@
 ---
 categories:
 - LINQ
-- csharp 10
-- .NET 6
+- csharp-10
+- dotnet-6
 - csharp
 - Coding
 date: "2024-12-08T22:59:12Z"
@@ -15,8 +15,8 @@ summary: The .NET team has made some helpful additions to LINQ in recent years. 
   let's check out the various set-based updates from C# 10 / .NET 6.
 tags:
 - linq
-- csharp 10
-- .NET 6
+- csharp-10
+- dotnet-6
 - csharp
 - coding
 title: Set-based LINQ - ExceptBy, IntersectBy, UnionBy, DistinctBy

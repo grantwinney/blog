@@ -13,7 +13,7 @@ summary: If you're unfamiliar with Git's "alias" feature, it provides a way to 
   to setup and maintain too. Let's see how.
 tags:
 - git
-- tools-of-the-trade
+- tools
 title: How to Create a Git Alias
 aliases:
 - /what-is-a-git-alias-and-how-do-i-use-it

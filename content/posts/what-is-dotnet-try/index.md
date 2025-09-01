@@ -14,7 +14,7 @@ summary: Do you prefer reading or doing? How about both? DotNet Try pulls in C# 
 tags:
 - documentation
 - .NET
-- tools-of-the-trade
+- tools
 title: What is DotNet Try?
 ---
 Some of my favorite sources of documentation are the ones that include interactive code snippets you can run right on the site. For example, any of the fantastic MDN web docs, like this one for [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map). They've really figured out how to do documentation right. 👍

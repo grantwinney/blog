@@ -3,7 +3,7 @@ categories:
 - browser-extension
 - Google
 - MV3
-- Code Review
+- code-review
 date: "2022-06-06T11:30:43Z"
 description: ""
 draft: false
@@ -14,7 +14,7 @@ tags:
 - browser-extension
 - google
 - mv3
-- Code Review
+- code-review
 title: What is Manifest V3 and why is Google pestering me about it?
 ---
 If you've ever dug into the underpinnings of a browser extension, or maybe even [created one yourself](https://grantwinney.com/making-your-first-chrome-extension), you've seen the manifest.json file that acts as a sort of usage guide for an extension. Not the kind of usage guide most people would want to read, but it's vital for browsers.

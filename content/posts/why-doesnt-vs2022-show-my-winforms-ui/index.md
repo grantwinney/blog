@@ -17,7 +17,7 @@ summary: Someone at work asked about whether we'd be able to use VS 2022 to work
 tags:
 - winforms
 - vs2022
-- tools-of-the-trade
+- tools
 - visual-studio
 title: Why doesn't VS 2022 show my WinForms UI at design time?
 ---
