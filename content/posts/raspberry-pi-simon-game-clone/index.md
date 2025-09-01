@@ -20,6 +20,8 @@ tags:
 - Coding
 - Python
 title: A Simon Game Clone for the Raspberry Pi
+aliases:
+- /creating-a-simon-game-clone-on-the-raspberry-pi
 ---
 Have you been around long enough to remember the popular _Simon_ game from the 70s and 80s? There’ve been plenty of remakes over the years, but I had one of the originals when I was younger.
 

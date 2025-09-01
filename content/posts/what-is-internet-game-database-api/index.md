@@ -12,6 +12,8 @@ summary: The Internet Game Database is a community-driven site that collects and
 tags:
 - API
 title: Access Game Data with the IGDB API v4
+aliases:
+- /day-15-igdb-api-internet-game-database
 ---
 The [Internet Game Database (IGDB)](https://github.com/twitchtv/igdb-contribution-guidelines/wiki) is a community-driven site, now owned by Twitch, that collects and shares information about games and game-related data. They have an API to support the mission, so today let's check out the [IGDB API](https://www.igdb.com/api).
 

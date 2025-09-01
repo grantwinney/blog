@@ -16,6 +16,8 @@ tags:
 - API
 - Space
 title: Learn About the ISS and its Crew with the ISS Notify API
+aliases:
+- /day-11-iss-notify-api
 ---
 [Nathan Bergey](https://github.com/natronics) wrote the [ISS Notify API](http://open-notify.org/Open-Notify-API/) (or is it the Open Notify API?) for a competition called Science Hack Day. You can [learn more here](http://open-notify.org/about.html), or read on to try it out!
 

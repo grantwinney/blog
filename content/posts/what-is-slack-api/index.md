@@ -12,6 +12,8 @@ summary: Slack is a popular communication and collaboration tool, and their API 
 tags:
 - API
 title: Managing Workspaces and Channels With the Slack API
+aliases:
+- /day-5-slack-api
 ---
 Slack is a popular communication and collaboration tool, and the [Slack API](https://api.slack.com/) gives us access to workspaces, channels, messages, and more.
 

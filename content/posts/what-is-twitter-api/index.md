@@ -12,6 +12,8 @@ summary: The Twitter API lets you access tweets, users who tweet, metadata, mani
 tags:
 - API
 title: Accessing Tweets and More With the Twitter API
+aliases:
+- /day-1-twitter-api
 ---
 Let's check out the Twitter API, how to use it and what it has to offer. You can start with their [getting started guide](https://developer.twitter.com/en/docs/basics/getting-started) if you like, but basically Twitter offers API calls that return various JSON payloads, or what they call [tweet data dictionaries](https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/intro-to-tweet-json).
 

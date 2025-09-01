@@ -14,6 +14,8 @@ tags:
 - Coding
 - Python
 title: How to Use Pulse Width Modulation (PWM) on an RGB LED and the Raspberry Pi
+aliases:
+- /how-to-use-an-rgb-multicolor-led-with-pulse-width-modulation-pwm-on-the-raspberry-pi
 ---
 If you buy a kit with random LEDs, wires, switches, etc, you’re likely to end up with one or two of those funky little LEDs that appears to be white, and has 4 wires instead of 2. I had set mine aside and made a mental note to figure it out later – well, that time has come!
 
@@ -209,9 +211,11 @@ Apparently (from what I’ve read) it’s possible for some RGB LEDs to have a s
 
 I just looked up RGB LEDs on Amazon, and came across a set that appears to have this issue. Be sure the read the comments, as people will probably note when they have an issue with them.
 
-## Video or It Didn’t Happen
+## Demo
 
 And finally, a video showing it in practice:
+
+[Using_an_RGB_multi-color_LED_with_Pulse_Width_Modulation_PWM.mp4](https://res.cloudinary.com/dxm4riq52/video/upload/v1583296511/Raspberry%20Pi/Using_an_RGB_multi-color_LED_with_Pulse_Width_Modulation_PWM_bjftre.mp4)
 
 ## Further Reading
 

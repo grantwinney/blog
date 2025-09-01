@@ -17,6 +17,8 @@ tags:
 - Trello
 - Tools of the Trade
 title: Manage Boards and Cards With the Trello API
+aliases:
+- /day-10-trello-api
 ---
 If you're unfamiliar with Trello, it's a nice service that's similar to a kanban board... or a to-do list if you're just using it personally like I do. Anyway, I like it - maybe you will too. Let's check out the [Trello API](https://developers.trello.com/v1.0/reference).
 

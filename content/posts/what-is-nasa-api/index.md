@@ -15,6 +15,8 @@ tags:
 - API
 - Space
 title: View the Mars Rover, Landsat Images, and More with the NASA API
+aliases:
+- /day-8-nasa-api
 ---
 [NASA's API](https://api.nasa.gov/) makes their data (such as Mars rover photos) available to anyone who wants to consume it. It's an unprecedented wealth of knowledge, so let's dig in!
 

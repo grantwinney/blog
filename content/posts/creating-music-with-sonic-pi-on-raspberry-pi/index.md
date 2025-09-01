@@ -16,6 +16,8 @@ tags:
 - Sonic Pi
 - Coding
 title: Creating Music with Sonic Pi on a Raspberry Pi
+aliases:
+- /creating-music-with-sonic-pi-on-the-raspberry-pi
 ---
 Back in May, at the [Stir Trek conference](http://stirtrek.com/) in Columbus OH, I got to watch Scott Fradkin live-code using Sonic Pi for nearly an hour, not only explaining what it was capable of, but showing it too.
 

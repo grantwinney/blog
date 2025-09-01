@@ -16,6 +16,8 @@ tags:
 - Coding
 - Security
 title: Create a TOTP 2FA code for your app
+aliases:
+- /a-sample-csharp-app-for-generating-and-verifying-totp-2fa-codes
 ---
 I've been using 2FA on [every site that supports it](https://twofactorauth.org/) for quite some time, but I've never given much thought to how a 2FA code is created. I enable it, scan the QR code, and print the backup codes. The rest is magic. 🧙‍♂️
 

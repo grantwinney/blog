@@ -14,6 +14,8 @@ summary: When you find an API to use in your app, you'll need to access it in a 
 tags:
 - Questions
 title: What is an API wrapper?
+aliases:
+- /what-is-an-api-wrapper-and-how-do-i-write-one
 ---
 Forget about peeling back the layers - today we're gonna talk about _adding_ layers.
 

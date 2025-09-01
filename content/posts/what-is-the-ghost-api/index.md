@@ -16,6 +16,8 @@ tags:
 - Ghost Blog
 - Deprecated API
 title: Manage blog posts, tags, and users with Ghost API v5.0
+aliases:
+- /ghost-admin-api-v20
 ---
 The [Ghost API](https://api.ghost.org/) provides access to your Ghost blog's posts, tags, and users. You can get items, as well as create them. Before accessing anything though, you'll need several pieces of data - which ones exactly depends on your blog settings and whether you're trying to use the public API or private API. I'll elaborate on the differences below.
 

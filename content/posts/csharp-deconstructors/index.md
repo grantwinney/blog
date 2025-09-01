@@ -16,6 +16,8 @@ tags:
 - C# 7
 - C#
 title: Adding deconstructors to C# types
+aliases:
+- /adding-deconstructors-in-csharp-is-it-worth-it
 ---
 Earlier this year, I wrote about being able to [deconstruct tuples in C#](https://grantwinney.com/using-tuple-and-deconstruction-to-return-multiple-values/), something that was added to [C# 7](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-70). That kind of functional behavior is one of the _(so so very few)_ things I miss from my years of writing Erlang code. It neatens up your code a bit, and you can read more about it here:
 

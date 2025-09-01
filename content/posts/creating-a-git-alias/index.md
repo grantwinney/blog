@@ -15,6 +15,8 @@ tags:
 - Git
 - Tools of the Trade
 title: How to Create a Git Alias
+aliases:
+- /what-is-a-git-alias-and-how-do-i-use-it
 ---
 If you're unfamiliar with Git's "alias" feature, it provides a way to easily create shortcuts for other Git commands. It can save a _lot_ of time over calling some lengthy command that's tough to remember.. or even shorter ones that are used frequently.
 

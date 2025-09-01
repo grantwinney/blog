@@ -15,6 +15,8 @@ tags:
 - API
 - Google
 title: Finding Directions, Coordinates and More With the Google Maps API
+aliases:
+- /day-6-google-maps-api
 ---
 Google is a service that... a provider who.... they run the Internet. They have this little mapping service too, so let's check out the [Google Maps API](https://developers.google.com/maps/).
 

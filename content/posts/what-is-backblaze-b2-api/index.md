@@ -12,6 +12,8 @@ summary: The Backblaze B2 Storage API, built on top of Backblaze's cloud storage
 tags:
 - API
 title: Access Buckets and Files on Backblaze With the B2 Cloud Storage API
+aliases:
+- /day-3-backblaze-b2-api
 ---
 If you're not familiar with [Backblaze](https://secure.backblaze.com/r/00d15h), they're a handy and inexpensive service that backs up your computer. I've been using them for years, and I even had to restore files when my hard drive succumbed to the "click of death" a couple years ago, so totally worth it.
 

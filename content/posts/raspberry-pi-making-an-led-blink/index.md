@@ -16,6 +16,8 @@ tags:
 - Python
 - Coding
 title: Hello World for the Raspberry Pi - Making an LED Blink
+aliases:
+- /hello-world-for-the-raspberry-pi-making-an-led-blink
 ---
 I finally unboxed my Pi a few weeks ago, and since then I’ve been learning some Python - the primary language of the Pi.
 

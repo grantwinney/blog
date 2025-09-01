@@ -17,6 +17,8 @@ tags:
 - Python
 - Coding
 title: Using PullUp and PullDown Resistors on the Raspberry Pi
+aliases:
+- /using-pullup-and-pulldown-resistors-on-the-raspberry-pi
 ---
 When you start out creating circuits with the Raspberry Pi and its GPIO pins, there's an unexpected but important concept to understand, called "floating".
 

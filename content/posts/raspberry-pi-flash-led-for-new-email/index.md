@@ -16,6 +16,8 @@ tags:
 - Coding
 - Python
 title: Flash an LED on Your Raspberry Pi When You Get New Email
+aliases:
+- /how-to-flash-an-led-on-your-raspberry-pi-when-you-get-new-email
 ---
 Let's create an email notification system using the Raspberry Pi. It'll check for new email, and flash an LED when we get one.
 
