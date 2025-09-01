@@ -36,29 +36,3 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
-
-## Cross-Posting
-
-I've been asked a couple of times for permission to cross-post my content in different languages. I'm thrilled someone would find enough value in what I've written that they'd want to make it more available, but I'd ask a few things in return.
-
-**Give me a heads up** _(before and after)_
-
-If you'd like to translate and cross-post something you found valuable, either email me at "webmaster@\<this site>" or leave a comment under the post you're interested in, to get in touch. And when it's done, send me a link... I'd love to check it out!
-
-**Link back to the original post**
-
-When there's duplicate content across the web, search engines have a difficult time telling which was the original, something we can both get penalized for. To avoid problems, specify the [canonical url](https://www.reliablesoft.net/what-is-a-canonical-url/) of the content by placing the following in the page header:
-
-```html
-<link rel="canonical" href="ORIGNAL-POST-URL">
-```
-
-Please place a block like the following somewhere too, either at the top or bottom of the post:
-
-> The post <insert post title> was originally published on [https://grantwinney.com](https://grantwinney.com/). Grant writes whenever he has something to share - a personal project, a solution to a difficult problem, or just an idea. We learn by doing and sharing. We've all got something to contribute!
-
-**Don't hotlink images**
-
-If the post has images in it - _especially_ if it has a lot of images - I'd ask that you don't just hotlink back to the images hosted on my site Please host the images on your own server or with a third-party, and link to them there.
-
-Thanks!
