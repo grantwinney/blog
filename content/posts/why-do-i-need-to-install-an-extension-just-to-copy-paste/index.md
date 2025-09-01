@@ -1,21 +1,16 @@
 ---
 categories:
-- Security
-- browser-extension
-- code-review
-date: "2022-12-31T17:18:11Z"
+  - Code Review
+date: 2022-12-31T17:18:11Z
 description: ""
 draft: false
 cover:
   image: photo-1515378960530-7c0da6231fb1.jpg
 slug: why-do-i-need-to-install-an-extension-just-to-copy-paste
-summary: I was creating a document in Office365 the other day - something I've done
-  a hundred times - but when I tried to paste with their custom right-click menu I
-  was greeted with a popup telling me to download a browser addon. Well, that's weird.
+summary: I was creating a document in Office365 the other day - something I've done a hundred times - but when I tried to paste with their custom right-click menu I was greeted with a popup telling me to download a browser addon. Well, that's weird.
 tags:
-- security
-- browser-extension
-- code-review
+  - security
+  - browser-extension
 title: Why do I need to install an extension just to copy/paste?
 ---
 I was creating a document in Office365 the other day - something I've done a hundred times - but when I tried to paste something into the document with their custom right-click menu (the keyword here is "custom", but more on that later), I was greeted with the following popup. Well, that's weird.

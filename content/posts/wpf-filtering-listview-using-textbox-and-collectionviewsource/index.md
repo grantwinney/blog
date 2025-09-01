@@ -1,20 +1,16 @@
 ---
 categories:
-- wpf
-- Coding
-- csharp
-date: "2014-12-07T09:13:17Z"
+  - Coding
+date: 2014-12-07T09:13:17Z
 description: ""
 draft: false
 cover:
   image: photo-1514927298007-a2b56e5270e1.jpg
 slug: wpf-filtering-listview-using-textbox-and-collectionviewsource
-summary: In WPF, a ListView allows for quite a bit of flexibility. Let's take a look
-  at filtering a ListView, using input being typed into a TextBox.
+summary: In WPF, a ListView allows for quite a bit of flexibility. Let's take a look at filtering a ListView, using input being typed into a TextBox.
 tags:
-- wpf
-- coding
-- csharp
+  - wpf
+  - csharp
 title: Filtering a ListView in WPF Using a TextBox and CollectionViewSource
 ---
 I was recently asked to provide a field users could type in, that would filter a ListView with up to a couple hundred names in real-time.

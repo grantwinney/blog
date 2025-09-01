@@ -1,20 +1,15 @@
 ---
 categories:
-- Algorithms
-- Coding
-date: "2018-06-07T03:44:14Z"
+  - Coding
+date: 2018-06-07T03:44:14Z
 description: ""
 draft: false
 cover:
   image: multi-sided-dice.jpg
 slug: writing-a-random-selection-algorithm-that-factors-in-the-age-of-an-item
-summary: Have you ever had a collection of items and needed to select a random one
-  from the lot? What if you have a class with some property (i.e. 'age' or 'weight')
-  that you want to take into account when doing the random selection? Let's see how
-  we might approach that...
+summary: Have you ever had a collection of items and needed to select a random one from the lot? What if you have a class with some property (i.e. 'age' or 'weight') that you want to take into account when doing the random selection? Let's see how we might approach that...
 tags:
-- algorithms
-- coding
+  - algorithms
 title: A random selection algorithm that factors in age (weighted selection)
 ---
 ## Random Selection
