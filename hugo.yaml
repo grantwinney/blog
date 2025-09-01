@@ -109,6 +109,7 @@ params:
       title: Buy Me a Coffee
       url: "https://www.buymeacoffee.com/fhnVUiB19"
 
+  # https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/#profile-mode
   profileMode:
     enabled: true
     subtitle: "Welcome to my corner of the web! I'm a dev with 15+ years experience, who enjoys learning and sharing with others. I hope you find something interesting here, and get to pay it forward to someone else!"

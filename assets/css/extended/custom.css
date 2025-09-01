@@ -1,3 +1,20 @@
+/** HEADER AREA **/
+
+/* Add fa icons beside search text */
+a[title^='Search']::after {
+    content: "\f002";
+    font-family: "FontAwesome";
+    margin-left: 0.5em; /* spacing between icon and text */
+}
+
+
+/** FRONT PAGE **/
+
+.profile_inner > h1 {
+    display: none;
+}
+
+
 /** POSTS **/
 
 /* Color the comment count the same as other text near it */
@@ -17,14 +34,6 @@ hyvor-talk-comment-count {
     text-align: center;
 }
 
-/** HEADER AREA **/
-
-/* Add fa icons beside search text */
-a[title^='Search']::after {
-    content: "\f002";
-    font-family: "FontAwesome";
-    margin-left: 0.5em; /* spacing between icon and text */
-}
 
 /** FOOTER AREA **/
 
