@@ -2,7 +2,7 @@
 categories:
 - csharp-11
 - csharp
-- Generic Math
+- generic-math
 - Coding
 date: "2023-04-05T03:50:14Z"
 description: ""
@@ -15,7 +15,7 @@ summary: What is Generic Math support in C# 11, and how do we take advantage of 
 tags:
 - csharp-11
 - csharp
-- Generic Math
+- generic-math
 - coding
 title: Generic Math Support in C# 11
 aliases:

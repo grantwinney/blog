@@ -1,6 +1,6 @@
 ---
 categories:
-- WPF
+- wpf
 - csharp
 - Coding
 date: "2019-11-12T00:30:00Z"
@@ -12,7 +12,7 @@ slug: how-can-i-find-the-state-of-numlock-capslock-scrolllock-in-wpf
 summary: If you're writing a WPF application and need to find the state of the Num
   Lock, Caps Lock, or Scroll Lock keys, you're in luck - there's a method for that.
 tags:
-- WPF
+- wpf
 - csharp
 - coding
 title: How can I find the state of NumLock, CapsLock or ScrollLock in WPF?

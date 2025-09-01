@@ -61,7 +61,7 @@ This is the problem a package manager solves, to one degree or another. It maint
 
 - For .NET, there's [NuGet packages](https://docs.microsoft.com/en-us/nuget/what-is-nuget) and [NuGet.org](https://www.nuget.org/).
 - For Ruby, there's [gems](https://guides.rubygems.org/what-is-a-gem/) and [RubyGems.org](https://rubygems.org).
-- Node.js has [npm](https://www.npmjs.com/), Python [PyPi](https://pypi.org/), Java [Maven](https://search.maven.org/), PHP [Composer](https://packagist.org/), Perl [CPAN](https://www.cpan.org/), _etc..._
+- nodejs has [npm](https://www.npmjs.com/), Python [PyPi](https://pypi.org/), Java [Maven](https://search.maven.org/), PHP [Composer](https://packagist.org/), Perl [CPAN](https://www.cpan.org/), _etc..._
 
 ---
 
