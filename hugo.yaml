@@ -44,7 +44,7 @@ languages:
           weight: 10
         - identifier: tool-of-the-trade
           name: "Tools"
-          pageRef: "/tags/tools-of-the-trade/"
+          pageRef: "/tags/tools/"
           weight: 10
         - identifier: search
           name: Search
