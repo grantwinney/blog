@@ -4,7 +4,7 @@ description: ""
 draft: false
 slug: read-me
 tags:
-title: Read Me
+title: Readme
 aliases:
 - /cross-posting-policy
 - /license
@@ -27,7 +27,7 @@ For those interested, and unless I note otherwise in individual posts, all of my
 
 ---
 
-```
+``` {.wrap}
 MIT License
 
 Copyright (c) 2025 Grant Winney

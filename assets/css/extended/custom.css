@@ -17,6 +17,12 @@ hyvor-talk-comment-count {
     text-align: center;
 }
 
+/* Use wordwrap in code blocks when class "wrap" is included */
+pre code.wrap {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
 /** HEADER AREA **/
 
 /* Add fa icons beside search text */
