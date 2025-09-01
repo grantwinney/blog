@@ -11,7 +11,7 @@ summary: The NOAA API lets us query weather and climate data from NOAA, an agenc
   that studies and charts conditions in the oceans and atmosphere. Let's check it
   out!
 tags:
-- API
+- api
 title: Access Climate Data With the NOAA API
 aliases:
 - /day-7-noaa-api

@@ -13,8 +13,8 @@ summary: Have you ever had a collection of items and needed to select a random o
   that you want to take into account when doing the random selection? Let's see how
   we might approach that...
 tags:
-- Algorithms
-- Coding
+- algorithms
+- coding
 title: A random selection algorithm that factors in age (weighted selection)
 ---
 ## Random Selection

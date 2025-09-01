@@ -11,7 +11,7 @@ summary: I recently realized that somehow, in the 6 months since I last logged i
   my Mozilla developer account, none of my short list of emails would let me back
   in. Here's how I regained access.
 tags:
-- Mozilla
+- mozilla
 title: Regaining access to a Mozilla Addons account
 ---
 I recently realized that somehow, in the 6 months since I last logged into my Mozilla developer account, none of my short list of emails would let me back in.

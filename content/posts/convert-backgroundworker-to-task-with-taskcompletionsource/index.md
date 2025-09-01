@@ -1,7 +1,7 @@
 ---
 categories:
 - Async
-- Surviving WinForms
+- surviving-winforms
 - Coding
 date: "2022-12-06T00:20:13Z"
 description: ""
@@ -13,9 +13,9 @@ summary: Sometimes the safer way to "update" old code is to leave it be and pain
   over it with a newer construct. Let's see how to modernize a BackgroundWorker using
   Tasks and TaskCompletionSource.
 tags:
-- Async
-- Surviving WinForms
-- Coding
+- async
+- surviving-winforms
+- coding
 title: Converting a BackgroundWorker to a Task with TaskCompletionSource
 ---
 The reality about working with an application that's years - maybe even decades - old is that we don't have the time or resources to rewrite everything to be modern, nor would that be wise. Every legacy app, and the different areas within it, represents ideas and business functions that a company has paid dozens or hundreds of employees millions of dollars for, over the course of many years.

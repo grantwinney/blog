@@ -1,7 +1,7 @@
 ---
 categories:
 - GitHub
-- Tools of the Trade
+- tools-of-the-trade
 date: "2019-10-06T03:55:19Z"
 description: ""
 draft: false
@@ -13,8 +13,8 @@ summary: Most of us host something (and some of us everything) on GitHub, especi
   Package Registry since they announced it last May. Well, I just got access to the
   beta, so let's see what we can do!
 tags:
-- GitHub
-- Tools of the Trade
+- github
+- tools-of-the-trade
 title: What's the GitHub Package Registry?
 ---
 A few prerequisites before we dig in...

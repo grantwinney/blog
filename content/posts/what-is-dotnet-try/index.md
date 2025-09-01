@@ -2,7 +2,7 @@
 categories:
 - Documentation
 - .NET
-- Tools of the Trade
+- tools-of-the-trade
 date: "2021-05-29T21:40:16Z"
 description: ""
 draft: false
@@ -12,9 +12,9 @@ slug: what-is-dotnet-try
 summary: Do you prefer reading or doing? How about both? DotNet Try pulls in C# code
   from your project and turns your docs into an interactive experience.
 tags:
-- Documentation
+- documentation
 - .NET
-- Tools of the Trade
+- tools-of-the-trade
 title: What is DotNet Try?
 ---
 Some of my favorite sources of documentation are the ones that include interactive code snippets you can run right on the site. For example, any of the fantastic MDN web docs, like this one for [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map). They've really figured out how to do documentation right. 👍

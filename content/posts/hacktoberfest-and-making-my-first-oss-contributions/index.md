@@ -11,8 +11,8 @@ slug: hacktoberfest-and-making-my-first-oss-contributions
 summary: I made my first OSS contributions during HacktoberFest, gaining experience
   (and swag!) with the help of DigitalOcean and GitHub. :)
 tags:
-- OSS
-- Reflections
+- oss
+- reflection
 title: HacktoberFest and My First OSS Contributions
 ---
 All last month, DigitalOcean carried out an event called HacktoberFest. In their own words…

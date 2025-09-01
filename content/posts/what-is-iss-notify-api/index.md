@@ -13,8 +13,8 @@ summary: The ISS Notify API (or is it the Open Notify API?) was written by Natha
   use it to find the location of the ISS, or to find when it'll pass over a location!
   Check it out.
 tags:
-- API
-- Space
+- api
+- astronomy
 title: Learn About the ISS and its Crew with the ISS Notify API
 aliases:
 - /day-11-iss-notify-api

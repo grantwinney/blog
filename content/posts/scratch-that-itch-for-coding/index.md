@@ -1,6 +1,6 @@
 ---
 categories:
-- Learn to Code
+- learn-to-code
 date: "2021-01-19T04:28:00Z"
 description: ""
 draft: false
@@ -10,7 +10,7 @@ slug: scratch-that-itch-for-coding
 summary: Learning a little about programming could benefit anyone. If you want a fun
   intro to coding and logical thinking, check out Scratch!
 tags:
-- Learn to Code
+- learn-to-code
 title: Scratch that itch for coding!
 ---
 In the early 90's, when I first got the coding itch, there weren't many options for a curious kid. We had a family computer running Win 3.1 with QBasic on it. It's easy to get started with (hence the name), but not very easy to get excited about. The web of the early 90's cost a premium and was mostly mailing lists, so not much collaboration to be had for a kid either. It didn't matter though, little of what I learned was personally appealing - I was more interested in video games and music than input prompts and.. more input prompts. 🥱 💤

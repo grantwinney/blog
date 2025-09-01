@@ -1,6 +1,6 @@
 ---
 categories:
-- C#
+- csharp
 - Coding
 - Series Generic Math Intro
 date: "2023-04-01T03:54:20Z"
@@ -12,8 +12,8 @@ slug: csharp-overload-arithmetic-equality-comparison-operators
 summary: What's it mean to overload operators in C#? And what's that have to do with
   Generic Math in C# 11? Let's find out! (part 2 of 3)
 tags:
-- C#
-- Coding
+- csharp
+- coding
 - Series Generic Math Intro
 title: Overloading arithmetic, equality, and comparison operators in C#
 aliases:

@@ -12,8 +12,8 @@ summary: Just got an MSDN account, which always comes with some old treasures (h
   beauty's in the eye of the beholder). Take a trip back with me, to the days of Windows
   XP, the beginning of the .NET Framework, and even further... ;)
 tags:
-- Retro
-- Virtualization
+- retro
+- virtualization
 title: Running Windows XP in VirtualBox
 ---
 I just got access to an MSDN account with keys for various versions of Windows and Visual Studio, so.... it's retro time! Isn't it funny how something brand new comes out and we get excited, then we get annoyed with it's deficiencies, then it's forgotten when something better comes out, and finally after enough time we get all nostalgic and pull it out of mothballs?

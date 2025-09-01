@@ -12,7 +12,7 @@ summary: "I just deleted my coworkers code. \U0001F631 It was good code that was
   and any individual code is transient by nature. Today's code is subject to tomorrow's
   refactoring."
 tags:
-- Reflections
+- reflection
 title: The transient nature of code
 ---
 I just did one of the most painful things a dev can do to another dev. I deleted his code! I mean, it wasn't out of spite or anything, lol. It was good, solid code, covered by dozens of tests, which made it _that_ much harder to pull the trigger. But it wasn't needed anymore.

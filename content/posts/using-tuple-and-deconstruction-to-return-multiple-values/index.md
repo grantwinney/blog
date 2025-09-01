@@ -1,9 +1,9 @@
 ---
 categories:
-- C# 7
-- Surviving WinForms
+- csharp-7
+- surviving-winforms
 - Coding
-- C#
+- csharp
 date: "2023-01-05T00:38:03Z"
 description: ""
 draft: false
@@ -14,10 +14,10 @@ summary: A big challenge with any language is trying to group and organize thing
   sensibly, and returning multiple values is no exception. Let's check out Tuples
   and deconstruction, and see how they can help us out.
 tags:
-- C# 7
-- Surviving WinForms
-- Coding
-- C#
+- csharp-7
+- surviving-winforms
+- coding
+- csharp
 title: Using Tuples and deconstruction to return multiple values in C#
 ---
 One of the biggie challenges when programming in any language is figuring how to group and organize things sensibly. Even a small project can get out of hand quickly, and once you've got a dozen devs working in something for years, all bets are off.

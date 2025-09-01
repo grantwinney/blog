@@ -1,6 +1,6 @@
 ---
 categories:
-- Raspberry PI
+- raspberry-pi
 - STEM
 date: "2017-02-17T09:03:29Z"
 description: ""
@@ -13,8 +13,8 @@ summary: On past projects, when I needed multiple LEDs, I just connected each to
   to take advantage of that fact. Charlieplexing is a method for arranging multiple
   LEDs so as to use the minimal number of pins possible.
 tags:
-- Raspberry PI
-- STEM
+- raspberry-pi
+- stem
 title: What is charlieplexing? (a Raspberry Pi demo)
 ---
 On past projects, when I've needed multiple LEDs (like in my [Simon clone](https://grantwinney.com/raspberry-pi-simon-game-clone/)), I just connected each individual LED to its own GPIO pin. I was aware that current had to travel through the LED in one direction and that it wouldn’t light if wired in the other direction, but it hadn’t occurred to me to take advantage of that fact.

@@ -1,6 +1,6 @@
 ---
 categories:
-- Browser Extension
+- browser-extension
 - Coding
 date: "2017-08-16T10:27:33Z"
 description: ""
@@ -12,8 +12,8 @@ summary: We all have our favorite web browser with our favorite extensions loade
   but have you ever considered writing your own? In the past few months I've created
   a couple extensions to suit my own needs. Here's what I've learned!
 tags:
-- Browser Extension
-- Coding
+- browser-extension
+- coding
 title: Creating Your First Chrome Extension
 aliases:
 - /chrome-extensions-a-peek-under-the-hood

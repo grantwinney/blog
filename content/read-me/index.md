@@ -3,7 +3,6 @@ date: "2020-02-12T18:10:41Z"
 description: ""
 draft: false
 slug: read-me
-tags:
 title: Readme
 aliases:
 - /cross-posting-policy

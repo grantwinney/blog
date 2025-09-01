@@ -1,7 +1,7 @@
 ---
 categories:
 - Git
-- Tools of the Trade
+- tools-of-the-trade
 date: "2017-01-28T13:07:51Z"
 description: ""
 draft: false
@@ -12,8 +12,8 @@ summary: If you're unfamiliar with Git's "alias" feature, it provides a way to 
   shortcuts for other Git commands, which can save you a lot of time. They’re easy
   to setup and maintain too. Let's see how.
 tags:
-- Git
-- Tools of the Trade
+- git
+- tools-of-the-trade
 title: How to Create a Git Alias
 aliases:
 - /what-is-a-git-alias-and-how-do-i-use-it

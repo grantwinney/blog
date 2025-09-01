@@ -1,6 +1,6 @@
 ---
 categories:
-- C#
+- csharp
 - Coding
 date: "2019-11-14T17:25:00Z"
 description: ""
@@ -12,8 +12,8 @@ summary: This error might look a little cryptic at first glance, but it's fairly
   in explaining what's wrong. You're likely to come across this one before your first
   cup of coffee.
 tags:
-- C#
-- Coding
+- csharp
+- coding
 title: Only assignment, call, increment, decrement, await, and new object expressions
   can be used as a statement
 ---

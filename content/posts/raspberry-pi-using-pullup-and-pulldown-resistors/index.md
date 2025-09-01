@@ -1,6 +1,6 @@
 ---
 categories:
-- Raspberry PI
+- raspberry-pi
 - Python
 - Coding
 date: "2016-05-09T07:30:30Z"
@@ -13,9 +13,9 @@ summary: When you start out creating circuits with the Raspberry Pi and its GPIO
   there's an unexpected but important concept to understand, called "floating". To
   adjust for it, you need to understand how to use pullup and pulldown resistors.
 tags:
-- Raspberry PI
-- Python
-- Coding
+- raspberry-pi
+- python
+- coding
 title: Using PullUp and PullDown Resistors on the Raspberry Pi
 aliases:
 - /using-pullup-and-pulldown-resistors-on-the-raspberry-pi
@@ -28,7 +28,7 @@ If all you've got right now is the Raspberry Pi, you'll want a kit with all the 
 
 If you're on a tighter budget, you'll need at least:
 
-- Raspberry Pi with micro USB adapter (~$50-75 ideally, although prices have shot up on Amazon - more on that below)
+- raspberry-pi with micro USB adapter (~$50-75 ideally, although prices have shot up on Amazon - more on that below)
 - A few resistors, wires and a button. A basic starter kit should have these, or get the [CamJam EduKit](https://thepihut.com/collections/raspberry-pi-store/products/camjam-edukit) - £5 (~$7)
 - A breadboard and either some wires to connect it to the Pi, or a T-Cobbler and ribbon (for a much easier and cleaner connection) - $5 - $15
 - _.... a decent kit is much less headache the first time around!_

@@ -12,9 +12,9 @@ slug: difference-between-singleton-scoped-transient
 summary: It's trivial to register a dependency in a .NET API, but it's important to
   clarify a few terms that drastically change a dependency's lifetime.
 tags:
-- DI
-- Coding
-- Questions
+- dependency-injection
+- coding
+- question
 title: What's the difference between singleton, scoped, and transient?
 ---
 I saw an issue with a .NET 6 API recently, where dependency injection (DI) was in full use, but instead of getting a new instance of a dependency every time one was requested (as expected), the _same_ instance kept being returned.

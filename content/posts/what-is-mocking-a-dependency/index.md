@@ -13,9 +13,9 @@ summary: When you're writing tests, you generally don't want to write to the dat
   email customers, and hit third-party API's. That's why we need to know how to mock
   dependencies!
 tags:
-- Testing
-- Coding
-- Questions
+- testing
+- coding
+- question
 title: What is mocking a dependency?
 ---
 Ever taken your car for an e-check and had it placed on those rollers for testing? It's part of a gadget called a dynamometer, and it's used to test your car at high speeds without having to move it an inch.

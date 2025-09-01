@@ -1,7 +1,7 @@
 ---
 categories:
-- C# 11
-- C#
+- csharp-11
+- csharp
 - Coding
 - Series Generic Math Intro
 date: "2023-03-31T03:59:47Z"
@@ -13,9 +13,9 @@ slug: whats-a-static-abstract-interface-method-in-c
 summary: What are static abstract members (new in C# 11), what can we do with them,
   and how are they related to Generic Math? (part 1 of 3)
 tags:
-- C# 11
-- C#
-- Coding
+- csharp-11
+- csharp
+- coding
 - Series Generic Math Intro
 title: What is a static abstract interface method in C#?
 ---

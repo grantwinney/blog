@@ -10,7 +10,7 @@ slug: what-is-internet-game-database-api
 summary: The Internet Game Database is a community-driven site that collects and shares
   information about games and game-related data. Let's check out the IGDB API!
 tags:
-- API
+- api
 title: Access Game Data with the IGDB API v4
 aliases:
 - /day-15-igdb-api-internet-game-database

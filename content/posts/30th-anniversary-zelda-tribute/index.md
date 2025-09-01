@@ -12,7 +12,7 @@ summary: A few years ago, on the 30th anniversary of the Legend of Zelda, Scott 
   and Mike Magee open sourced a 3D version of the original LoZ. The site was taken
   down, but the code's still available to run!
 tags:
-- Retro
+- retro
 - Node.js
 title: A 30th anniversary Zelda tribute, in Node.js
 ---

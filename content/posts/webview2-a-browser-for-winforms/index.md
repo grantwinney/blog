@@ -1,6 +1,6 @@
 ---
 categories:
-  - Surviving WinForms
+  - surviving-winforms
   - .NET 5
   - WinForms
 date: 2025-01-17T22:41:08Z
@@ -11,10 +11,9 @@ cover:
 slug: webview2-a-browser-for-winforms
 summary: In .NET 5, WinForms got a WebView2 control for displaying web pages.. even ones we create on-the-fly while the app's running. Let's kick the tires.
 tags:
-  - Surviving
-  - WinForms
-  - WinForms
-  - DotNet5
+  - winforms
+  - winforms
+  - dotnet-5
 title: WebView2, a browser for WinForms in .NET 5
 ---
 When one thinks of WinForms, one does _not_ generally think of the web at the same time, unless it's how they wish they could move their app from one to the other. However, there's a number of controls for displaying web pages in a WinForms app, and with .NET 5 we got a new one called [WebView2](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/whats-new/net50?view=netdesktop-9.0#new-controls).

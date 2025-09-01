@@ -14,9 +14,9 @@ summary: Today I'm wrapping my head around a build tool called Ansible, used for
   tutorial from DigitalOcean, applying what I learn to a couple DO Ubuntu VMs... the
   $5/mo ones - nothing fancy needed!
 tags:
-- Ansible
-- DevOps
-- DigitalOcean
+- ansible
+- devops
+- digitalocean
 title: Hands-on Ansible, using two DigitalOcean Ubuntu droplets
 ---
 For the uninitiated, Docker allows you to build VMs in a predictable, repeatable manner as a series of layers called images. Automation is where it's at – if you think you'll have to deploy a box several times, your future self will thank you for scripting it out.

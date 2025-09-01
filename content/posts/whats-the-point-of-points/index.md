@@ -12,9 +12,9 @@ slug: whats-the-point-of-points
 summary: "Points aren't hours, but they sorta represent hours. Or do they? \U0001F914
   If you're as perplexed as I used to be, here's a few thoughts about points."
 tags:
-- Agile
-- Scrum
-- Questions
+- agile
+- scrum
+- question
 title: What is the point of points?
 ---
 A quick disclaimer - everything that follows is just one developer's experience (guess whose lol), having been in agile/scrum environments of varying degrees for the past decade. I say varying degrees because everyone seems to do it slightly differently, which is good actually. One size seldom fits all.

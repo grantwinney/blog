@@ -12,7 +12,7 @@ summary: When dealing with a dynamically typed language, any effort to tame the 
   helpful the tool becomes - but getting to that point can be painful. Here are some
   warnings I've seen, what they mean and how I solved them.
 tags:
-- Erlang
+- erlang
 title: Common dialyzer errors and solutions in Erlang
 ---
 When you're dealing with a dynamically typed language like Erlang, any effort to [tame the beast](https://grantwinney.com/taming-the-erlang-beast/#dialyzer) can pay off in spades. I'm currently focused on an Erlang app that has zero [Dialyzer specs](https://learnyousomeerlang.com/dialyzer) in it, so adding them is the hill I'm currently dying on. If you're new to it, check out [Learn You Some Erlang](https://learnyousomeerlang.com/dialyzer).
@@ -206,7 +206,7 @@ create_message(undefined) ->
 
 If you've added type specs to a record, and then attempt to pattern match fields of that record in ways that are inconsistent with the specs, Dialyzer can warn you that you've violated the rules you set for the record.
 
-> Matching of pattern {'person', _, 'whatever'} tagged with a record name violates the declared type of #person{name::'undefined' | string(), age::'adult' | 'kid' | 'undefined'}
+> Matching of pattern {'person', _, 'whatever'} tagged with a record name violates the declared type of \#person{name::'undefined' | string(), age::'adult' | 'kid' | 'undefined'}
 
 Assume you've got a `person` record, where `age` can only be two values - `kid` or `adult`. If you write a function that tries to pattern match for a value of `age` that's not one of those two - in this case `whatever` - Dialyzer will warn you of the violation.
 

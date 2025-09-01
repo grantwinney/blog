@@ -11,8 +11,8 @@ slug: how-to-make-a-dark-mode-with-css
 summary: Every time I learn some new piece of CSS I'm amazed at how flexible and powerful
   it is. Like how easy it is to tailor your site for your visitor's "dark mode" preference!
 tags:
-- CSS
-- Coding
+- css
+- coding
 title: How to make a dark mode with CSS
 css: sun-moon.css
 ---

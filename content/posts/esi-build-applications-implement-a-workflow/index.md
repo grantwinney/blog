@@ -1,6 +1,6 @@
 ---
 categories:
-- Azure DevOps
+- azure-devops
 - ESI
 - DevOps
 date: "2022-07-16T18:48:55Z"
@@ -12,9 +12,9 @@ slug: esi-build-applications-implement-a-workflow
 summary: Continuing with Microsoft's ESI, I spent some time this week learning about
   workflows, reusable elements, and protecting and monitoring the code.
 tags:
-- Azure DevOps
-- ESI
-- DevOps
+- azure-devops
+- esi
+- devops
 title: 'ESI: Building Apps with Azure DevOps - Implement a Workflow'
 ---
 DevOps in general, and Azure DevOps specifically, is something I've had a growing interest in, ever since someone at our company set it up a couple years ago. The whole "DevOps" concept is worth learning more about (sprints and workflows, collaboration and communication, and all that), but I'm really interested in scripting and automation at the moment.

@@ -1,6 +1,6 @@
 ---
 categories:
-- Browser Extension
+- browser-extension
 date: "2018-02-25T21:33:09Z"
 description: ""
 draft: false
@@ -12,7 +12,7 @@ summary: Ever needed to link directly to one section of a webpage? You can, as l
   it. Getting the ID isn't tough, but it's a bit of a pain. It doesn't have to be
   that hard.
 tags:
-- Browser Extension
+- browser-extension
 title: Automatically add links to all headers on a website (a Chrome extension)
 ---
 Ever needed to link directly to one section of a webpage? You can, as long as there's a header (or another element nearby like a div) with an ID assigned to it. The presence of an ID isn't guaranteed for every website, but a lot of personal blogs and technical doc sites use them.

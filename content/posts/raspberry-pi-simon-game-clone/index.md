@@ -1,7 +1,7 @@
 ---
 categories:
-- Raspberry PI
-- Sonic Pi
+- raspberry-pi
+- sonic-pi
 - Retro
 - Coding
 - Python
@@ -14,11 +14,11 @@ slug: raspberry-pi-simon-game-clone
 summary: Let's recreate the Simon game of the 1980s using a Raspberry Pi and Sonic
   Pi!
 tags:
-- Raspberry PI
-- Sonic Pi
-- Retro
-- Coding
-- Python
+- raspberry-pi
+- sonic-pi
+- retro
+- coding
+- python
 title: A Simon Game Clone for the Raspberry Pi
 aliases:
 - /creating-a-simon-game-clone-on-the-raspberry-pi
@@ -140,7 +140,7 @@ Once that’s setup and working, it should work from the Python script too. The 
 Simon’s tones … were designed to always be harmonic, no matter what order they were played in, and consisted of an A major triad in second inversion which resembles a Trumpet fanfare:
 
 - E-note (blue, lower right)
-- C#-note (yellow, lower left)
+- csharp-note (yellow, lower left)
 - A-note (red, upper right)
 - E-note (green, upper left, an octave lower than blue)
 

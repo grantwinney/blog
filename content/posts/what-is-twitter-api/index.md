@@ -10,7 +10,7 @@ slug: what-is-twitter-api
 summary: The Twitter API lets you access tweets, users who tweet, metadata, manipulate
   lists, and more. Let's check it out!
 tags:
-- API
+- api
 title: Accessing Tweets and More With the Twitter API
 aliases:
 - /day-1-twitter-api

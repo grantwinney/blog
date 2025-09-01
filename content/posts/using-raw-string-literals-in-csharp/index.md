@@ -1,8 +1,8 @@
 ---
 categories:
-  - C# 11
+  - csharp-11
   - .NET 7
-  - C#
+  - csharp
   - Coding
 date: 2024-12-14T22:32:43Z
 description: ""
@@ -12,10 +12,10 @@ cover:
 slug: using-raw-string-literals-in-csharp
 summary: C# 11 added raw string literals, not a life-altering new feature, but they could be useful in the right circumstances. Let's see how to use them.
 tags:
-  - Coding
-  - CSharp11
-  - CSharp
-  - DotNet7
+  - coding
+  - csharp-11
+  - csharp
+  - dotnet-7
 title: Using Raw String Literals in C# 11 / .NET 7
 ---
 Some of the many additions to C# and the .NET Framework are huge (like LINQ or async), while others are much smaller. I'd definitely place raw string literals in the latter group, but then maybe I'm missing something. They're still worth a look though.
@@ -165,8 +165,8 @@ And finally, we can use raw string literals in a whole lot of cases other than j
 Microsoft has a lot more to say about raw string literals, and strings in general, than what I can post here. They've spread info out over a few different docs, but if you're interested then they're definitely worth a looksie:
 
 - [What's new in C# 11 | Raw string literals](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#raw-string-literals)
-- [Strings - C# | Raw string literals](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/#raw-string-literals)
-- [Built-in reference types - C# reference | String literals](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/reference-types#string-literals)
+- [Strings - csharp | Raw string literals](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/#raw-string-literals)
+- [Built-in reference types - csharp reference | String literals](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/reference-types#string-literals)
 - [$ - string interpolation | Interpolated raw string literals](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated#interpolated-raw-string-literals)
 
 If you found this content useful, and would like to learn more about a variety of [C#](https://grantwinney.com/tags/csharp/) features, check out my [CSharpDotNetFeatures repo](https://github.com/grantwinney/CSharpDotNetFeatures), where you'll find links to plenty more blog posts and practical examples!

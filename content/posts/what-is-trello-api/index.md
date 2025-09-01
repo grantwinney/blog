@@ -2,7 +2,7 @@
 categories:
 - API
 - Trello
-- Tools of the Trade
+- tools-of-the-trade
 date: "2017-12-27T20:45:59Z"
 description: ""
 draft: false
@@ -13,9 +13,9 @@ summary: Trello is a virtual kanban board... or a nice to-do list if you're goin
   solo. I like it, maybe you will too, and their API makes nearly all areas accessible
   to devs.
 tags:
-- API
-- Trello
-- Tools of the Trade
+- api
+- trello
+- tools-of-the-trade
 title: Manage Boards and Cards With the Trello API
 aliases:
 - /day-10-trello-api

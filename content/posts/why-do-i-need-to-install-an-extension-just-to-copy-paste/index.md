@@ -1,7 +1,7 @@
 ---
 categories:
 - Security
-- Browser Extension
+- browser-extension
 - Code Review
 date: "2022-12-31T17:18:11Z"
 description: ""
@@ -13,8 +13,8 @@ summary: I was creating a document in Office365 the other day - something I've d
   a hundred times - but when I tried to paste with their custom right-click menu I
   was greeted with a popup telling me to download a browser addon. Well, that's weird.
 tags:
-- Security
-- Browser Extension
+- security
+- browser-extension
 - Code Review
 title: Why do I need to install an extension just to copy/paste?
 ---

@@ -1,7 +1,7 @@
 ---
 categories:
-- C# 11
-- C#
+- csharp-11
+- csharp
 - Generic Math
 - Coding
 - Series Generic Math Intro
@@ -14,10 +14,10 @@ slug: csharp-generic-math-support
 summary: What is Generic Math support in C# 11, and how do we take advantage of it?
   Let's dig in and find out! (part 3 of 3)
 tags:
-- C# 11
-- C#
+- csharp-11
+- csharp
 - Generic Math
-- Coding
+- coding
 - Series Generic Math Intro
 title: Generic Math Support in C# 11
 aliases:

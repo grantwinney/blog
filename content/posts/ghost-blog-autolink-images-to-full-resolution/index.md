@@ -1,6 +1,6 @@
 ---
 categories:
-- Ghost Blog
+- ghost-blog
 - Coding
 date: "2018-01-22T03:41:27Z"
 description: ""
@@ -9,8 +9,8 @@ cover:
   image: make-all-images-in-ghost-auto-post-blog-post-v2-1.jpg
 slug: ghost-blog-autolink-images-to-full-resolution
 tags:
-- Ghost Blog
-- Coding
+- ghost-blog
+- coding
 title: How to Autolink All Images in Ghost to the Full Resolution
 ---
 ## The Problem

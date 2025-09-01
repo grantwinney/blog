@@ -9,8 +9,8 @@ cover:
   image: photo-1560523371-b28d9e070c21.jpg
 slug: how-to-evaluate-a-string-of-code-in-erlang-at-runtime
 tags:
-- Erlang
-- Coding
+- erlang
+- coding
 title: Evaluating a string of code in Erlang at runtime
 ---
 Did you know that Erlang has the ability to read in a string representing a line of code to execute at runtime? It can parse it out, evaluate it and return the value.

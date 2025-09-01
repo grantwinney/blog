@@ -1,7 +1,7 @@
 ---
 categories:
-- C#
-- Attributes
+- csharp
+- attributes
 - Metadata
 - Coding
 date: "2019-04-04T15:57:19Z"
@@ -15,10 +15,10 @@ summary: Ever thought it'd be convenient to attach metadata to your code at desi
   tests, enumerations, and more. Use reflection to read them at runtime and take some
   action. Here's a few examples for the uninitiated...
 tags:
-- C#
-- Attributes
-- Metadata
-- Coding
+- csharp
+- attributes
+- metadata
+- coding
 title: Using Attributes in C#
 aliases:
 - /5-examples-of-attributes-in-c-and-why-youll-want-to-make-your-own

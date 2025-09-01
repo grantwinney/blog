@@ -11,7 +11,7 @@ summary: How do you know when you've finally arrived, and are officially a progr
   Is it a set of skills, a certain amount of time? Can you ever really arrive, when
   it's a race of one with no finish line?
 tags:
-- Reflections
+- reflection
 title: How will I know when I'm a programmer?
 ---
 In the early 2000s, I worked for a small business where part of my job involved writing some software our clients used for uploading data to us. Still in college, I bought the academic version of .NET 2003 to get familiar with programming at home. I remember the excitement I felt opening that large honking package, with a thick book and 6 CDs, when it finally arrived in the mail. I was on my way to becoming a programmer!

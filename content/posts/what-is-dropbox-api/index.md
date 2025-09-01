@@ -10,7 +10,7 @@ slug: what-is-dropbox-api
 summary: Dropbox provides file storage that syncs between your devices, and their
   API gives you access to that. Let's check it out!
 tags:
-- API
+- api
 title: Managing Files and Folders Using the Dropbox API
 aliases:
 - /day-4-dropbox-api

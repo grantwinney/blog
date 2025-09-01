@@ -1,6 +1,6 @@
 ---
 categories:
-- Raspberry PI
+- raspberry-pi
 - Coding
 - Python
 date: "2016-08-29T22:34:44Z"
@@ -10,9 +10,9 @@ cover:
   image: photo-1476900164809-ff19b8ae5968.jpg
 slug: raspberry-pi-flickering-candle
 tags:
-- Raspberry PI
-- Coding
-- Python
+- raspberry-pi
+- coding
+- python
 title: Creating a Flickering Candle Using an RGB LED on the Raspberry Pi
 ---
 After [getting PWM (pulse-width modulation) to work with an RGB LED](https://grantwinney.com/raspberry-pi-pulse-width-modulation/) last week, I was trying to think of what else I could do with an LED that demonstrated changes in color as well as intensity.

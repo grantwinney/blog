@@ -1,6 +1,6 @@
 ---
 categories:
-- C#
+- csharp
 - Coding
 date: "2020-09-17T04:08:32Z"
 description: ""
@@ -12,8 +12,8 @@ summary: All programming languages have gotchas to trip you up, and C# is no exc
   Today, let's check out the subtle (but significant) difference between "throw" and
   "throw ex".
 tags:
-- C#
-- Coding
+- csharp
+- coding
 title: The right way to rethrow an exception in C#
 ---
 All languages have gotchas, and C# is no different. A subtle one is the difference between `catch (Exception) throw;` and `catch (Exception ex) throw ex;`. On the surface, it seems like they'll do the same thing; in reality, the difference is really important if you care to know why your app is _really_ crashing.

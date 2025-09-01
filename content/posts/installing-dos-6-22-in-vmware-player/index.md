@@ -12,8 +12,8 @@ summary: While looking for a copy of Windows 98 on MSDN to install some old soft
   (compatibility mode under Windows 7 didn’t work), I came across Windows 3.11. I
   just had to try installing it! But first, DOS 6.22...
 tags:
-- Retro
-- Virtualization
+- retro
+- virtualization
 title: Installing DOS 6.22 in VMware Player
 ---
 I started off looking at my MSDN account for a copy of Windows 98 to install some old software (compatibility mode under Windows 7 didn’t work), and noticed the only versions of Windows available are 7, 8 and….. 3.11. Ooo, I already have Windows 8 running in a virtual machine. Why not fire up Win 3.11?

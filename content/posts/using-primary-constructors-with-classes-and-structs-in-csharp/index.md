@@ -1,9 +1,9 @@
 ---
 categories:
-  - C# 12
-  - C#
+  - csharp-12
+  - csharp
   - Coding
-  - .NET 8
+  - dotnet-8
 date: 2024-12-13T02:05:42Z
 description: ""
 draft: false
@@ -12,10 +12,10 @@ cover:
 slug: using-primary-constructors-with-classes-and-structs-in-csharp
 summary: As part of C# 12, we got a new feature called primary constructors. Let's see how they work and what we can do with them.
 tags:
-  - Coding
-  - DotNet8
-  - CSharp12
-  - CSharp
+  - coding
+  - dotnet-8
+  - csharp-12
+  - csharp
 title: Using Primary Constructors with Classes and Structs in C# 12 / .NET 8
 ---
 The C# and .NET teams are always adding interesting, useful features, more frequently than ever since the norm has become annual releases. It's easy to lose track of [all the changes](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history) though, and whenever I go back and dig around I usually find something interesting to try out.

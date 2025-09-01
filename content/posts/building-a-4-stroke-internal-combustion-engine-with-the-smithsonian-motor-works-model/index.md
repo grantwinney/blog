@@ -12,7 +12,7 @@ summary: Last summer, I found this “Smithsonian Motor-Works” set at a garage
   a rainy day and rediscovered it last weekend while cleaning the basement. The girls
   were out - time for a little father/son bonding!
 tags:
-- STEM
+- stem
 title: Building the model 4-stroke combustion engine from Smithsonian
 ---
 Garage sales are great for finding random, interesting things to do with the kids, usually for dirt cheap. Last summer, I found this “Smithsonian Motor-Works” set for $5, which I figured was a steal. Once built, it’s supposed to model a 4-stroke internal combustion engine.

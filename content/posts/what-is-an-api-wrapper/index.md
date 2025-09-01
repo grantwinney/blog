@@ -12,7 +12,7 @@ summary: When you find an API to use in your app, you'll need to access it in a 
   that work, why keep it to yourself? Let's look at creating an API wrapper that you
   can share with others!
 tags:
-- Questions
+- question
 title: What is an API wrapper?
 aliases:
 - /what-is-an-api-wrapper-and-how-do-i-write-one

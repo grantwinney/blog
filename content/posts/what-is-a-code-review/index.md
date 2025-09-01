@@ -12,7 +12,7 @@ summary: Does the idea of submitting to a code review make you sweat bullets? Or
   wherein the team agrees to the code they're all going to have to help maintain,
   and maybe learns something new too.
 tags:
-- Questions
+- question
 title: What is a code review / pull request?
 ---
 Has someone told you to submit your code for a review? Or to review someone else's code? You might be worrying about the criticism you'll receive, or that you won't have anything constructive to share. You might be concerned they'll poke holes in your code, or fear you're not good enough. Or maybe you feel it's all ridiculous - why should it matter anyway? If the code compiles, ship it! 🚢

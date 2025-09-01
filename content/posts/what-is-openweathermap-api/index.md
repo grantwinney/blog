@@ -11,8 +11,8 @@ slug: what-is-openweathermap-api
 summary: OpenWeatherMap provides free access to extensive weather data - current conditions,
   5-day forecast, uv index, weather alerts, etc. Let's check out their API!
 tags:
-- API
-- Climate
+- api
+- climate
 title: Access Current and Historical Weather Data with the OpenWeatherMap API
 aliases:
 - /day-12-openweathermap-api

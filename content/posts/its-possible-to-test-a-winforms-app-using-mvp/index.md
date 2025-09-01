@@ -3,7 +3,7 @@ categories:
 - MVP
 - WinForms
 - Testing
-- Surviving WinForms
+- surviving-winforms
 - Coding
 date: "2021-06-09T02:12:00Z"
 description: ""
@@ -16,11 +16,11 @@ summary: If you find yourself supporting a WinForms application, you're likely t
   on automated tests and continuous integration when WinForms was younger, that doesn't
   mean we can't introduce them now. Better late than never!
 tags:
-- MVP
-- WinForms
-- Testing
-- Surviving WinForms
-- Coding
+- mvp-design
+- winforms
+- testing
+- surviving-winforms
+- coding
 title: Using MVP to test a WinForms app
 ---
 If you find yourself in a position where you're supporting a WinForms application, you're likely to notice the tests... or lack thereof. Just because we may not have been so focused on automated tests and continuous integration when WinForms was younger, that doesn't mean we can't introduce them now. Better late than never!

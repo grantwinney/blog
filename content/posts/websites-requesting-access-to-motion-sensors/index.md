@@ -14,8 +14,8 @@ summary: I was checking the status of a FedEx order when Brave warned me that "t
   why a website would need that access. Do I get a different experience if I drop
   my device? Tip my monitor over? Spin the mouse around?
 tags:
-- Privacy
-- Bots
+- privacy
+- bots
 - Code Review
 title: Why are websites requesting access to motion sensors... on my desktop?
 ---

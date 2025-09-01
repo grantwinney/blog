@@ -1,6 +1,6 @@
 ---
 categories:
-- Browser Extension
+- browser-extension
 - Google
 - MV3
 - Code Review
@@ -11,9 +11,9 @@ cover:
   image: photo-1518648949339-298b03f37f3b.jpg
 slug: what-is-manifest-v3-and-why-is-google-pestering-me
 tags:
-- Browser Extension
-- Google
-- MV3
+- browser-extension
+- google
+- mv3
 - Code Review
 title: What is Manifest V3 and why is Google pestering me about it?
 ---

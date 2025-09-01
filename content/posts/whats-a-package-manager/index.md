@@ -1,7 +1,7 @@
 ---
 categories:
 - NuGet
-- Tools of the Trade
+- tools-of-the-trade
 date: "2019-10-03T17:09:27Z"
 description: ""
 draft: false
@@ -12,8 +12,8 @@ summary: If you've heard the term package manager, especially with GitHub announ
   their own, you might be wondering what exactly it is. Well, it's a way to find,
   reuse, and share code, among other things.
 tags:
-- NuGet
-- Tools of the Trade
+- nuget
+- tools-of-the-trade
 title: What's a package manager?
 ---
 None of us writes code in a vacuum.
@@ -93,7 +93,7 @@ If you want to learn more, Microsoft has a great set of intro docs covering the 
 
 - [What is NuGet and what does it do?](https://docs.microsoft.com/en-us/nuget/what-is-nuget)
 - [Install and use a NuGet package in Visual Studio](https://docs.microsoft.com/en-us/nuget/quickstart/install-and-use-a-package-in-visual-studio)
-- [Create and publish a .NET Standard NuGet package - Visual Studio on Windows](https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-visual-studio?tabs=netcore-cli)
+- [Create and publish a .NET Standard NuGet package - visual-studio on Windows](https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-visual-studio?tabs=netcore-cli)
 - [.nuspec File Reference for NuGet](https://docs.microsoft.com/en-us/nuget/reference/nuspec)
 
 If you have any questions or need something clarified, just leave a comment below and I'll try to help out. Happy coding!

@@ -1,7 +1,7 @@
 ---
 categories:
-- C#
-- C# 11
+- csharp
+- csharp-11
 - Coding
 date: "2023-08-31T23:04:38Z"
 description: ""
@@ -12,9 +12,9 @@ slug: whats-a-list-pattern-in-csharp
 summary: C# has been getting a lot of pattern matching love in recent years, like
   with list patterns in C# 11. The problem is knowing where and how to use it.
 tags:
-- C#
-- C# 11
-- Coding
+- csharp
+- csharp-11
+- coding
 title: What are list patterns in C#?
 ---
 There's very little I miss from my days of Erlang programming. One of the things I do miss, though, is pattern matching. Erlang does a _lot_ with it, and it's interesting to see C# doing more with it in the last few major releases too.

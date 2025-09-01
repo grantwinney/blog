@@ -13,8 +13,8 @@ summary: Google provides some amazing tools, but at what cost to privacy? One of
   replacement for email (and ideally, calendar, documents, tasks, etc too). Well I
   may have finally found it, in Mailbox.org.
 tags:
-- Google
-- Privacy
+- google
+- privacy
 title: Replacing Gmail (and its office suite) with Mailbox.org
 ---
 I had a gmail account for 10 years, and was perfectly happy but for the nagging issue of privacy and [gobbling up](https://www.nytimes.com/2019/11/11/business/google-ascension-health-data.html) [our data](https://www.cnbc.com/2019/11/01/google-to-acquire-fitbit-valuing-the-smartwatch-maker-at-about-2point1-billion.html). Finding a reliable and affordable replacement with a full suite of office tools wasn't easy though.

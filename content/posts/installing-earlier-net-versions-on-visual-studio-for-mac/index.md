@@ -1,7 +1,7 @@
 ---
 categories:
-- Visual Studio
-- Tools of the Trade
+- visual-studio
+- tools-of-the-trade
 - VS4Mac
 date: "2018-08-20T16:20:12Z"
 description: ""
@@ -14,9 +14,9 @@ summary: Despite its marketing, Visual Studio for Mac is not the Visual Studio t
   VS, switching between .NET Frameworks, wasted several of my evenings. Maybe it'll
   help someone else.
 tags:
-- Visual Studio
-- Tools of the Trade
-- VS4Mac
+- visual-studio
+- tools-of-the-trade
+- vs4mac
 title: 'How to select an earlier .NET version on Visual Studio for Mac (tl;dr: you
   can''t)'
 ---

@@ -1,6 +1,6 @@
 ---
 categories:
-- Software Design
+- software-design
 - Questions
 date: "2020-05-02T03:59:22Z"
 description: ""
@@ -9,8 +9,8 @@ cover:
   image: private-20115_1920.jpg
 slug: the-law-of-demeter-a-practical-example
 tags:
-- Software Design
-- Questions
+- software-design
+- question
 title: What is the Law of Demeter?
 ---
 At work, we're running through [The Pragmatic Programmer](https://amzn.to/2KNdr4i) - the original, not the 2nd edition published last year. If anyone is reading that, I'd love to know if it really updates things for modern programming and whether it seems necessary. The original seems pretty timeless.

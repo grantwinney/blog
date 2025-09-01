@@ -1,7 +1,7 @@
 ---
 categories:
-- Ghost Blog
-- Deprecated API
+- ghost-blog
+- deprecated-api
 date: "2018-02-08T04:12:44Z"
 description: ""
 draft: false
@@ -13,8 +13,8 @@ summary: The Ghost API provides access to your blog's posts, tags, and users. Yo
   need several pieces of data, depending on your blog settings and whether you're
   trying to get data or create it. Let's see what we can do with it.
 tags:
-- Ghost Blog
-- Deprecated API
+- ghost-blog
+- deprecated-api
 title: Manage blog posts, tags, and users with Ghost API v5.0
 aliases:
 - /ghost-admin-api-v20

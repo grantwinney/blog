@@ -2,7 +2,7 @@
 categories:
 - Erlang
 - Coding
-- Date-Time Handling
+- datetime-handling
 date: "2019-12-01T01:51:59Z"
 description: ""
 draft: false
@@ -12,9 +12,9 @@ slug: how-do-i-add-seconds-minutes-or-hours-to-a-datetime-structure-in-erlang
 summary: I was trying to add times in Erlang, but couldn't find an existing function,
   so I wrote my own.
 tags:
-- Erlang
-- Coding
-- Date-Time Handling
+- erlang
+- coding
+- datetime-handling
 title: Add and subtract time from a DateTime structure in Erlang
 ---
 Some languages, like Ruby, give you 12 ways to do the same thing. Other languages, like Erlang, make it tough to find 1 way to do something.

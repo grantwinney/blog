@@ -1,6 +1,6 @@
 ---
 categories:
-- C#
+- csharp
 - Testing
 - Coding
 date: "2019-04-15T14:37:19Z"
@@ -14,9 +14,9 @@ summary: Porting .NET Framework code to .NET Standard has been a learning experi
   an application config file, but loading one from an NUnit test suite proved to be
   more difficult than it sounded at first.
 tags:
-- C#
-- Testing
-- Coding
+- csharp
+- testing
+- coding
 title: Using an application config file with a .NET Standard app and NUnit 3
 ---
 I've been busy porting some .NET Framework 4.x code to individual [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard) libraries at work, in the hopes of modularizing some of our codebase and making it possible to build and run on different platforms. Since quite a few of our devs use OSX and there's a [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/), this could be a nice win... but it's led to some frustrating issues too. The whole idea of a .NET Standard app is that it's sort of a "lowest common denominator" of the .NET family, containing a minimum of API calls in order to work on more platforms than just Windows.

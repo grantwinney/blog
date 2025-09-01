@@ -1,6 +1,6 @@
 ---
 categories:
-- Software Design
+- software-design
 - Coding
 date: "2020-05-22T03:59:32Z"
 description: ""
@@ -11,8 +11,8 @@ slug: where-should-i-store-app-data-in-windows
 summary: Windows sets certain locations aside for apps, and makes them easily discoverable
   for devs to use. Let's see how.
 tags:
-- Software Design
-- Coding
+- software-design
+- coding
 title: Where should I store application data in Windows?
 ---
 When it comes to writing software and deciding where to store the files an application needs to run, Windows makes it easy by setting certain areas of the system aside, and grouping them into two general categories.

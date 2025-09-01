@@ -1,9 +1,9 @@
 ---
 categories:
-- Surviving WinForms
-- C# 6
+- surviving-winforms
+- csharp-6
 - Coding
-- C#
+- csharp
 date: "2021-12-30T01:53:29Z"
 description: ""
 draft: false
@@ -13,10 +13,10 @@ slug: using-nameof-to-avoid-magic-strings
 summary: There's a lot of ways to make our code work for us. Let's check out using
   the nameof operator to avoid magic strings.
 tags:
-- Surviving WinForms
-- C# 6
-- Coding
-- C#
+- surviving-winforms
+- csharp-6
+- coding
+- csharp
 title: Using nameof to avoid magic strings in C#
 ---
 Having magic strings in your code is definitely something to watch out for. What's a magic string? It's any string containing a value that might change, like an application setting, a timeout value, a method or class name, etc.

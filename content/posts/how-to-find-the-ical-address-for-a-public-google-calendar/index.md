@@ -10,7 +10,7 @@ slug: how-to-find-the-ical-address-for-a-public-google-calendar
 summary: Every Google calendar URL has an iCal file you can use... here's how to find
   it.
 tags:
-- Google
+- google
 title: How to find the iCal address for a public Google calendar
 ---
 If you already know why you're here, then visit the CodePen link below, plug-in the public URL (or the calendar ID) from the calendar settings page, and click the appropriate button to get the iCal link.

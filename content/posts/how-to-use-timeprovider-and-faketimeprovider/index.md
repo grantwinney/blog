@@ -1,7 +1,7 @@
 ---
 categories:
-- C# 12
-- Date-Time Handling
+- csharp-12
+- datetime-handling
 - Testing
 - Coding
 - TimeProvider
@@ -15,12 +15,12 @@ slug: how-to-use-timeprovider-and-faketimeprovider
 summary: Testing time in C# is difficult, but .NET 8 (C# 12) adds an abstract TimeProvider
   class that makes it easier. Let's take a closer look.
 tags:
-- C# 12
-- Date-Time Handling
-- Testing
-- Coding
-- TimeProvider
-- FakeTimeProvider
+- csharp-12
+- datetime-handling
+- testing
+- coding
+- time-provider
+- fake-time-provider
 title: How to use TimeProvider and FakeTimeProvider (time abstraction in .NET)
 ---
 Since it's the Christmas season, and .NET 8 (C# 12) was [recently released](https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/), it seems like a good time to unwrap some of the goodies we got. A couple of the most intriguing ones, IMO, are new constructs for abstracting time and timers, two things that have traditionally been a pain when it comes to testing.

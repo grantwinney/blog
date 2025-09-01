@@ -1,7 +1,7 @@
 ---
 categories:
 - Async
-- Surviving WinForms
+- surviving-winforms
 - Coding
 date: "2024-10-07T02:43:55Z"
 description: ""
@@ -12,9 +12,9 @@ slug: async-in-5-short-examples
 summary: Async code isn't always intuitive, but practicing helps. Let's take a look
   at Async, CancellationToken, and IProgress, in a few short examples.
 tags:
-- Async
-- Surviving WinForms
-- Coding
+- async
+- surviving-winforms
+- coding
 title: Async, CancellationToken, and IProgress in 5 Short Examples
 ---
 Learning to write code asynchronously does _not_ come naturally, at least not for this dev. We're wired to give the majority of our attention to [one thing at a time](https://www.psychologytoday.com/us/blog/creativity-without-borders/201405/the-myth-of-multitasking), so it can be difficult to write code that takes advantage of the fact that a computer can multitask _very_ well.

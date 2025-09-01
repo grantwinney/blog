@@ -13,8 +13,8 @@ summary: Mozilla announced they'll no longer accept extensions with obfuscated c
   nearly impossible to understand, and could easily be malicious. Let's unpack and
   break down a few concepts.
 tags:
-- Security
-- Questions
+- security
+- question
 title: What is minification vs obfuscation?
 ---
 Mozilla recently announced that they'll [no longer accept extensions with obfuscated code](https://blog.mozilla.org/addons/2019/05/02/add-on-policy-and-process-updates/). This is good news for anyone who uses browser extensions in Firefox, since such code is _(intentionally)_ nearly impossible to understand, and could easily (but not necessarily, as I'll explain later) be malicious.

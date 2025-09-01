@@ -12,8 +12,8 @@ summary: Becoming an Erlang developer has not always been easy, but over the las
   couple of years I've learned a few ways to tame the beast. It doesn't need to become
   any other language, but there's definitely room for improving the developer experience!
 tags:
-- Erlang
-- Coding
+- erlang
+- coding
 title: Taming the Erlang Beast
 aliases:
 - /5-ways-to-tame-the-erlang-beast

@@ -12,8 +12,8 @@ summary: While looking for a copy of Windows 98 on MSDN to install some old soft
   (compatibility mode under Windows 7 didn’t work), I came across Windows 3.11. Installing
   it was a little tricky though...
 tags:
-- Retro
-- Virtualization
+- retro
+- virtualization
 title: Installing Windows 3.1 in VMware Player
 ---
 Every once in awhile it’s interesting in a nerdy way to check out some legacy technology and… I dunno… reminisce about the old days and how far we’ve come or some crap like that. Like the fact that the pen drive in my pocket is 10x bigger than the largest hard drives 15 years ago.

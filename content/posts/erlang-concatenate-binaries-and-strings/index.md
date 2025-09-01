@@ -9,8 +9,8 @@ slug: erlang-concatenate-binaries-and-strings
 summary: Concatenating strings and binaries in Erlang can get ugly quick. Let's make
   it easier.
 tags:
-- Erlang
-- Coding
+- erlang
+- coding
 title: Concatenate Binaries and Strings in Erlang
 ---
 ## The Problem

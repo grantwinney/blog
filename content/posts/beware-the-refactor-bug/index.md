@@ -11,7 +11,7 @@ summary: Refactoring code is part of the dev life, and can even help keep the co
   healthy, but going too far can do more harm than good. Ever after a decade of writing
   code, I still have to remind myself from time to time!
 tags:
-- Reflections
+- reflection
 title: Beware the bite of the refactor bug
 ---
 It's been an interesting couple of weeks. After a break during Christmas, burning through unused PTO, I came back ready to extend some logic in an old screen. In other words, another day in monolithic WinForms paradise.🍹 And then I proceeded to commit one of the cardinal sins of development - rewriting too much at once. Never go full rewrite.

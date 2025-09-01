@@ -1,6 +1,6 @@
 ---
 categories:
-- Raspberry PI
+- raspberry-pi
 - Coding
 - Python
 date: "2016-04-03T09:03:25Z"
@@ -12,9 +12,9 @@ slug: raspberry-pi-morse-code-transmitter
 summary: Making the Pi blink an LED a few times is thrilling, but what about building
   something.. more? Let's build a morse code transmitter!
 tags:
-- Raspberry PI
-- Coding
-- Python
+- raspberry-pi
+- coding
+- python
 title: Building a Morse Code Transmitter on a Raspberry Pi
 aliases:
 - /building-a-morse-code-transmitter-on-a-raspberry-pi

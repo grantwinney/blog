@@ -11,7 +11,7 @@ summary: One of the biggest struggles I have with programming is knowing when to
   for help. A little struggle is necessary for growth, but when am I just wasting
   time when I could be learning from others?
 tags:
-- Reflections
+- reflection
 title: Sunk costs, timeboxing, and asking for help
 ---
 One of the biggest struggles I have with programming (or anything I'm trying to learn) is knowing when to ask for help. Ask too soon, and I might miss an opportunity to grow in self-reliance and self-confidence. A little struggle is necessary for growth. But ask too late, and I might just be wasting time and missing the opportunity to learn from others.

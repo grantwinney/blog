@@ -1,7 +1,7 @@
 ---
 categories:
-- Raspberry PI
-- Sonic Pi
+- raspberry-pi
+- sonic-pi
 - Coding
 date: "2016-06-21T13:02:00Z"
 description: ""
@@ -12,9 +12,9 @@ slug: creating-music-with-sonic-pi-on-raspberry-pi
 summary: After watching Scott Fradkin live-code Sonic Pi for an hour at a conference,
   it inspired me to make a little music of my own.
 tags:
-- Raspberry PI
-- Sonic Pi
-- Coding
+- raspberry-pi
+- sonic-pi
+- coding
 title: Creating Music with Sonic Pi on a Raspberry Pi
 aliases:
 - /creating-music-with-sonic-pi-on-the-raspberry-pi

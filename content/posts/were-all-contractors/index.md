@@ -10,7 +10,7 @@ slug: were-all-contractors
 summary: Seeing my full-time job as a long-term contract has helped me improve and
   contribute, without taking things personally or falling into complacency.
 tags:
-- Reflections
+- reflection
 title: Every software dev is a contractor
 ---
 The work we do for any company in any role, even as full-time employees, is still just contract work, when you really think about it. It may be a very _long_ term contract - years or even decades - but eventually the contract ends. We pass the baton and someone else runs with it.

@@ -11,8 +11,8 @@ slug: can-i-write-my-own-html-tags
 summary: Can you create your own HTML tags? The answer is..... sorta. Yes and no.
   Not completely, but a little. Typical, I know.
 tags:
-- Coding
-- HTML
+- coding
+- html
 title: Can I write my own HTML tags?
 ---
 As usual, the answer is... yes and no.

@@ -12,9 +12,9 @@ slug: how-to-create-a-2fa-code-for-your-app
 summary: I use 2FA on every site that supports it, but I'd never given much thought
   to how a 2FA code is generated. Let's learn how!
 tags:
-- 2FA
-- Coding
-- Security
+- 2fa
+- coding
+- security
 title: Create a TOTP 2FA code for your app
 aliases:
 - /a-sample-csharp-app-for-generating-and-verifying-totp-2fa-codes

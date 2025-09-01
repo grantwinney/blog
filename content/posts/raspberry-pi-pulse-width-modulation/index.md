@@ -1,6 +1,6 @@
 ---
 categories:
-- Raspberry PI
+- raspberry-pi
 - Coding
 - Python
 date: "2016-08-22T07:28:52Z"
@@ -10,9 +10,9 @@ cover:
   image: photo-1543005183-b66272de41f3.jpg
 slug: raspberry-pi-pulse-width-modulation
 tags:
-- Raspberry PI
-- Coding
-- Python
+- raspberry-pi
+- coding
+- python
 title: How to Use Pulse Width Modulation (PWM) on an RGB LED and the Raspberry Pi
 aliases:
 - /how-to-use-an-rgb-multicolor-led-with-pulse-width-modulation-pwm-on-the-raspberry-pi

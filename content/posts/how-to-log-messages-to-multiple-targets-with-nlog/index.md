@@ -1,6 +1,6 @@
 ---
 categories:
-- Surviving WinForms
+- surviving-winforms
 - Logging
 - NLog
 - WinForms
@@ -16,11 +16,11 @@ summary: When it comes to finding a bug in an app, few things beat a good trail 
   I rarely appreciate just how flexible it is though, so it's worth spending a little
   time taking a closer look.
 tags:
-- Surviving WinForms
-- Logging
-- NLog
-- WinForms
-- Coding
+- surviving-winforms
+- logging
+- nlog
+- winforms
+- coding
 title: How to log messages to multiple targets with NLog
 ---
 When it comes to finding a bug in an app, few things beat a good trail of logs. And for writing those logs, few tools beat NLog in simplicity or flexibility. I rarely appreciate just _how_ flexible it is though, so it's worth spending a little time taking a closer look.

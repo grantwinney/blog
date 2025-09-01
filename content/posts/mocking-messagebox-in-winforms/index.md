@@ -1,9 +1,9 @@
 ---
 categories:
-- Surviving WinForms
+- surviving-winforms
 - Testing
 - Coding
-- C#
+- csharp
 date: "2022-01-07T04:12:17Z"
 description: ""
 draft: false
@@ -13,10 +13,10 @@ slug: mocking-messagebox-in-winforms
 summary: Unit testing a WinForms app is an uphill battle in the best of times, before
   you add in classes like MessageBox. Let's make the best of it.
 tags:
-- Surviving WinForms
-- Testing
-- Coding
-- C#
+- surviving-winforms
+- testing
+- coding
+- csharp
 title: Mocking MessageBox (or any static class) in WinForms
 ---
 Trying to integrate testing into a WinForms app can be an uphill battle, especially if it's a legacy app with most of the logic tightly coupled to the UI in the code-behind files of hundreds of forms. It doesn't help when you toss in portions of the .NET Framework that were designed in very test-unfriendly ways.

@@ -1,6 +1,6 @@
 ---
 categories:
-- Ghost Blog
+- ghost-blog
 date: "2017-07-24T18:57:36Z"
 description: ""
 draft: false
@@ -8,7 +8,7 @@ cover:
   image: pile-of-rocks.jpg
 slug: safely-customize-a-theme-in-ghost
 tags:
-- Ghost Blog
+- ghost-blog
 title: Safely Build on a Ghost Theme
 ---
 As of this writing, my blog runs on the [Ghost platform](https://ghost.org/), and I was mildly surprised when I ran a `ghost update` the other day and suddenly my custom themes and scripts were just gone! Luckily I use [DigitalOcean](https://m.do.co/c/448f25462030) with backups enabled, and I had a backup from just a couple days before. I rolled back, verified my styles and customizations were present, then ran `ghost update` again. Wiped out.
