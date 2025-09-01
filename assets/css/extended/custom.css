@@ -20,7 +20,7 @@ hyvor-talk-comment-count {
 /** HEADER AREA **/
 
 /* Add fa icons beside search text */
-a[title^='Search']::before {
+a[title^='Search']::after {
     content: "\f002";
     font-family: "FontAwesome";
     margin-right: 0.5em; /* spacing between icon and text */
