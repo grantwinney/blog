@@ -40,7 +40,7 @@ languages:
           weight: 10
         - identifier: how-to-questions
           name: "Questions"
-          pageRef: "/tags/questions/"
+          pageRef: "/tags/question/"
           weight: 10
         - identifier: tool-of-the-trade
           name: "Tools"
