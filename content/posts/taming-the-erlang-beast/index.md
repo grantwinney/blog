@@ -15,6 +15,8 @@ tags:
 - Erlang
 - Coding
 title: Taming the Erlang Beast
+aliases:
+- /5-ways-to-tame-the-erlang-beast
 ---
 When I started programming in Erlang professionally, it was a steeper climb than I had anticipated. There's a _lot_ that's different from C# - static vs dynamic types, object-oriented vs functional, the immutability of variables and heavy emphasis on pattern-matching and recursion. It's a very different way of thinking. And unfortunately for me, there's no Visual Studio for Erlang to hold your hand.
 
