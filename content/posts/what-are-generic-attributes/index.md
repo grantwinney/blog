@@ -1,7 +1,7 @@
 ---
 categories:
 - csharp-11
-- C#
+- csharp
 - attributes
 - Metadata
 - Coding
@@ -15,7 +15,7 @@ summary: Generic attributes increase the flexibility of a very early .NET featur
   Let's try using them and see how it keeps our code DRY.
 tags:
 - csharp-11
-- C#
+- csharp
 - attributes
 - metadata
 - coding
