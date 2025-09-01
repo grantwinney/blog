@@ -23,7 +23,7 @@ hyvor-talk-comment-count {
 a[title^='Search']::after {
     content: "\f002";
     font-family: "FontAwesome";
-    margin-right: 0.5em; /* spacing between icon and text */
+    margin-left: 0.5em; /* spacing between icon and text */
 }
 
 /** FOOTER AREA **/
@@ -44,17 +44,17 @@ a[title^='Search']::after {
     margin: 0px 0px 0px 16px;
 }
 
-/* Links at bottom of footer area, above copyright */
+/* Links at bottom of footer area */
 .footer_links {
     margin-bottom: 10px;
 }
-.footer_links > span:first-child {
+.footer_links > a:first-child {
     padding-right: 5px;
 }
-.footer_links > span:not(:first-child):not(:last-child) {
+.footer_links > a:not(:first-child):not(:last-child) {
     padding-left: 5px;
     padding-right: 5px;
 }
-.footer_links > span:last-child {
+.footer_links > a:last-child {
     padding-left: 5px;
 }

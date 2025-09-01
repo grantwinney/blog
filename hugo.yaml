@@ -111,16 +111,16 @@ params:
 
   profileMode:
     enabled: true
-    subtitle: "Is there anything more satisfying than trying to figure something out, finally getting it, and then sharing it with someone else? Of taking some piece of knowledge, passing it on to someone, and getting to witness their “ah ha” moment? I hope you find that here today, and get to pay it forward to someone else!"
-    imageUrl: "https://images.unsplash.com/photo-1506818144585-74b29c980d4b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" # optional
-    imageTitle: "<title of image as alt>" # optional
-    imageWidth: 240 # custom size
-    imageHeight: 360 # custom size
+    subtitle: "Welcome to my corner of the web! I'm a dev with 15+ years experience, who enjoys learning and sharing with others. I hope you find something interesting here, and get to pay it forward to someone else!"
+    imageUrl: "https://grantwinney.com/profile.png"
+    # imageTitle: "<title of image as alt>"
+    imageWidth: 200
+    imageHeight: 200
     buttons:
-      - name: Archive
-        url: "/archive"
+      - name: LinkedIn
+        url: "https://www.linkedin.com/in/grantwinney"
       - name: Github
-        url: "https://github.com/"
+        url: "https://github.com/grantwinney"
 
  # analytics:
  #   google:
