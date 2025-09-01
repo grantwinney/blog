@@ -1,7 +1,7 @@
 ---
 categories:
   - csharp-11
-  - .NET 7
+  - dotnet-7
   - csharp
   - Coding
 date: 2024-12-14T22:32:43Z

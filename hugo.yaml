@@ -5,7 +5,7 @@ title: 'Grant Winney'
 theme:
   - 'PaperMod'
 
-# https://discourse.gohugo.io/t/how-can-i-force-tags-to-be-all-lowercase/48420/4
+# Force tag names to lowercase when displayed on site
 capitalizeListTitles: false
 
 enableInlineShortcodes: true

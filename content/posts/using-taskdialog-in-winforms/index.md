@@ -1,6 +1,6 @@
 ---
 categories:
-  - .NET 5
+  - dotnet-5
   - WinForms
   - surviving-winforms
 date: 2024-12-31T23:41:30Z
