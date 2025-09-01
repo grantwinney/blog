@@ -112,7 +112,7 @@ params:
   profileMode:
     enabled: true
     subtitle: "Welcome to my corner of the web! I'm a dev with 15+ years experience, who enjoys learning and sharing with others. I hope you find something interesting here, and get to pay it forward to someone else!"
-    imageUrl: "https://grantwinney.com/profile.png"
+    imageUrl: "https://grantwinney.com/profile_bw.png"
     # imageTitle: "<title of image as alt>"
     imageWidth: 200
     imageHeight: 200
