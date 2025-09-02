@@ -1,11 +1,7 @@
 ---
 categories:
-- API
-- Swagger
-- asp-net-core
-- minimal-api
-- Reflections
-date: "2023-12-12T22:48:16Z"
+  - Reflections
+date: 2023-12-12T22:48:16Z
 description: ""
 draft: false
 cover:
@@ -13,11 +9,9 @@ cover:
 slug: similar-endpoints-swagger-pages-and-a-devops-fail
 summary: After an unexpected debugging session, some thoughts on APIs, similar endpoints, swagger, and an ugly DevOps fail.
 tags:
-- api
-- swagger
-- asp-net-core
-- minimal-api
-- reflection
+  - swagger
+  - asp-net-core
+  - minimal-api
 title: Similar endpoints, swagger pages, and a DevOps fail
 ---
 The great thing about being a developer is there's no shortage of interesting problems to solve, new concepts to learn, and ideas to bring to life. The annoying thing about being a developer is there's no end to the problems that need solving, an interminable number of things to learn, and 30 new ideas to replace every completed one. To paraphrase Tolkien, "It's a dangerous business, sitting at your keyboard. You step into the code, and if you don't keep your seat, there's no knowing where you might be swept off to."
