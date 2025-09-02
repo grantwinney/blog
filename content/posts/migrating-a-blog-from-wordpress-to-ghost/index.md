@@ -47,7 +47,7 @@ Another option (and the one I used) is to setup the [UpdraftPlus Backup plugin](
 
 I mentioned the easy route - Ghost(Pro) - but I'm trying to minimize costs so I went the self-hosting way. [I've been using DigitalOcean for several years](https://m.do.co/c/448f25462030) so I stuck with them - they even provide a one-click droplet for Ghost that makes it super-easy to get up and running with the latest version. Press the "Create Droplet" button and select Ghost from the "One-click apps". This is a huge convenience over [deploying Ghost yourself](http://docs.ghost.org/pl/installation/deploy/).
 
-![](ghost_install_1.png)
+![](ghost_install_1.webp)
 
 I selected the $10/month 1GB plan and Ghost seems plenty responsive - _much_ quicker than WordPress was. You might consider selecting "Backups" under "Additional Options" too, especially if you find yourself mucking with the server configurations at all. For $2/month they take a complete snapshot of your entire server every week; restoring it is as easy as one button press.
 
@@ -69,9 +69,7 @@ You might also want to do a search for your previous host's IP address. You can 
 
 Before I could access the admin area of Ghost, I had to open `http://<your-ip-address>/ghost/signup` and create a new account. From there, I opened the "Labs" section and attempted to import the file, but it kept failing. It took awhile to realize that the list of messages was _not_ of successfully imported files but exactly the opposite - a list of failures and the reason(s) why. Several of my draft posts were missing titles and one had a missing date.
 
-![](ghost-import-failed-missing-date.png)
-
-You might find it easier to run the contents of the JSON file through a JSON formatter first, like [this one](https://atom.io/packages/pretty-json) for Atom. It makes it easier to read, and it'll still import into Ghost just fine. Eventually, everything should import without errors.
+![](ghost-import-failed-missing-date.![](ghost-import-failed-missing-date.webp) contents of the JSON file through a JSON formatter first, like [this one](https://atom.io/packages/pretty-json) for Atom. It makes it easier to read, and it'll still import into Ghost just fine. Eventually, everything should import without errors.
 
 Next, upload the images to the `/content/images/` directory [using the sftp command](https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server), and change the owner to `ghost`. Something like this should work nicely:
 
@@ -108,7 +106,7 @@ If you've gotten this far, you may want to re-import your posts. Open that JSON 
 
 There are a couple ways you could approach this. One way is to do what I did. Go to the "Labs" panel and press "DELETE" to delete all your posts. It'll leave your images and other settings alone. After you've updated the JSON file you got from the WordPress plugin, just re-import it and everything should be back and good to go.
 
-![](labs-settings-ghost.png)
+![](labs-settings-ghost.webp)
 
 The other option, which I didn't try but you may want to if you've made changes to your posts after you uploaded them into Ghost the first time, is to click the "EXPORT" button on that same screen to export your posts from Ghost. Update _that_ file and then delete all your content and re-import the updated file.
 

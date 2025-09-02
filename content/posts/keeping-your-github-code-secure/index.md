@@ -43,17 +43,17 @@ _source:_ [_xkcd.com_](https://xkcd.com/936) _(_[_good explanation_](https://sec
 
 For the curious, try out a tool like Tyler Akins's [password strength tester](http://rumkin.com/tools/password/passchk.php) to see how length can increase security even without adding special characters. For instance, an apparently random one presents 18.5 billion billion trillion possibilities, but a random string of words presents for more (7 trillion trillion trillion trillion).
 
-![](pass1-1.png)
+![](pass1-1.webp)
 
-![](pass2-1.png)
+![](pass2-1.webp)
 
 If you save your passwords in a password manager like [1Password](https://1password.com/) _(my personal favorite),_ [Lastpass](https://lastpass.com/), [Keeper](https://keepersecurity.com/), [Clipperz](https://clipperz.is/), or another one you trust, then you can _really_ go completely random. 1Password has a built-in random password generator. The default settings produce a password with 1200 trillion trillion trillion possibilities, but you can dial it to 64 and produce something with _118 quadrillion quadrillion quadrillion quadrillion quadrillion quadrillion quadrillion quintillion possibilities!_
 
 At that level, it's highly unlikely anyone that someone will manage to crack your password (before the heat death of the universe anyway).
 
-![](pass3-1.png)
+![](pass3-1.webp)
 
-![](pass4-1.png)
+![](pass4-1.webp)
 
 Tyler has a post on passwords that I recommend reading, especially the section on [password security precautions](https://web.archive.org/web/20220123131343/http://www.fidian.com/programming/passwordsecurity#TOC-Precautions-You-Need-To-Take). It's full of great suggestions for choosing a password wisely.
 
@@ -79,11 +79,11 @@ Setup 2FA for [GitHub](https://github.com/settings/security) _(_[_help_](https:/
 
 Briefly, how it works is a site generates a unique QR code, which you'll scan with an app like [andOTP](https://github.com/andOTP/andOTP) (which can do encrypted backups). If you scan the code with multiple devices, they'll generate the same (one-time use) code every 30 seconds or so, which is a great way to avoid disaster if one device fails. Print and store any recovery codes they give you too.
 
-![](qr-code-namecheap.png)
+![](qr-code-namecheap.webp)
 
 Using an [online decoder](https://zxing.org/w/decode.jspx) on the above QR code, the contents include the site and a unique "secret". The only way this works is if the service stores the secret too and (by combining it with the current time) generates the same code your app does, in order to verify it. This keeps you safe in the event a third party leaks your credentials (like happened with GitHub et al), or a different site gets hacked and you reused the same password, or someone discovers your password scrawled under your keyboard. It's unlikely to help if the site itself gets hacked and the secret is discovered along with your password.
 
-![](qr-code-decrypted.png)
+![](keeping-your-github-code-secure/qr-code-decrypted.webp)
 
 [Learn more about what 2FA is](https://authy.com/what-is-2fa/), the [pros and cons of various 2FA methods](https://web.archive.org/web/20181121184020/https://auth0.com/learn/two-factor-authentication/), or just see [what a typical setup process for enabling 2FA looks like](https://www.namecheap.com/support/knowledgebase/article.aspx/10073/45/how-can-i-use-the-totp-method-for-twofactor-authentication). 1Password can [store and track your 2FA codes for you](https://support.1password.com/one-time-passwords/) too, which seemed a little odd when I first heard about it... but then, if someone hacks them and gets anything useful we're screwed anyway.
 
@@ -97,11 +97,11 @@ If they have access to push changes to the organization's repos, any one of them
 
 GitHub allows [organization owners to force members to enable 2FA](https://help.github.com/en/articles/requiring-two-factor-authentication-in-your-organization). Um, warn them first though, because as soon as you enable this option it'll boot everyone who doesn't have 2FA from the organization, lol. Don't worry, [you can reinstate them](https://help.github.com/en/articles/reinstating-a-former-member-of-your-organization).
 
-![](github-require-2fa-org.png)
+![](github-require-2fa-org.webp)
 
 If you didn't want to enforce 2FA on everyone_,_ I can think of another way that _might_ prevent a problem like this as long as the admins have 2FA enabled - [branch restrictions](https://help.github.com/en/articles/enabling-branch-restrictions). Setup a branch protection rule for the pattern "master". That alone disables force-pushes, which is what the hacker used to ransom these accounts. You can also make it so PRs can't be merged without other eyes on the changes, and require signed commits (more on that next).
 
-![](master-branch-protected.png)
+![](master-branch-protected.webp)
 
 ---
 
@@ -119,7 +119,7 @@ If you've never setup a key before (I hadn't before writing this), start by [gen
 gpg --full-generate-key
 ```
 
-![](gpg-setup-1.png)
+![](gpg-setup-1.webp)
 
 In a minute, you'll need the key id listed next to _"gpg: key"_. If you clear the screen or whatever, you can display it again with this; it's on the first line next to _"rsa4096"._
 
@@ -127,7 +127,7 @@ In a minute, you'll need the key id listed next to _"gpg: key"_. If you clear th
 gpg --list-secret-keys --keyid-format LONG
 ```
 
-![](gpg-setup-2.png)
+![](gpg-setup-2.webp)
 
 ### Add the key id to your local git config
 
@@ -163,11 +163,11 @@ gpg --armor --export 12341234ABCDEF12
 
 Open the [SSH and GPG keys](https://github.com/settings/gpg/new) settings and enter the ginormous value it generates for you.
 
-![](gpg-setup-3.png)
+![](gpg-setup-3.webp)
 
 Now when you push to a repo, you'll have to enter the passphrase you chose (you can [save the passphrase](https://stackoverflow.com/a/38422272/301857) so you don't have to enter it with each commit, but I'm not... for now), and you'll see a special badge next to your commits on GitHub.
 
-![](gpg-setup-4.png)
+![](gpg-setup-4.webp)
 
 ---
 
@@ -177,7 +177,7 @@ Okay, you're signing your commits... but [what about everyone else with access](
 
 If you wanted to require all commits to master be signed, for instance, you could do that on the "Branches" settings page. This would've (I believe) prevented the hackers from being able to force-push their ransom note and overwrite repo history.
 
-![](master-branch-protected-1.png)
+![](master-branch-protected-1.webp)
 
 ---
 

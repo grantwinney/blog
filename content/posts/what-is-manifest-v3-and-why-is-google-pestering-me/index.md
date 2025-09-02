@@ -20,15 +20,15 @@ The manifest file tells them what name and version to display, who the author is
 
 For quite awhile now, whenever I visit the Chrome dashboard, I get a notice at the top about migrating to Manifest V3 (aka MV3). Fair enough.
 
-![](image.png)
+![](what-is-manifest-v3-and-why-is-google-pestering-me/image.png)
 
-Apparently though that notice wasn't enough to make developers care, because they've sent emails with links to blog posts, and now when I load an extension to debug it, it immediately reports an error. Hm, is it related to the issue I wanted to debug? Nope, just Chromium abusing functionality to send me more reminders.
+Apparently though tha![](what-is-manifest-v3-and-why-is-google-pestering-me/image.png)t enough to make developers care, because they've sent emails with links to blog posts, and now when I load an extension to debug it, it immediately reports an error. Hm, is it related to the issue I wanted to debug? Nope, just Chromium abusing functionality to send me more reminders.
 
-![](image-3.png)
+![](what-is-manifest-v3-and-why-is-google-pestering-me/image-3.png)
 
 What they're badgering extension authors about though is _much_ more than just a change in format for a single file. Google is spearheading major changes to how extensions are written and interact with the browser, in the name of privacy and security, and those changes are coming soon. As of writing this post, no one can publish new extensions using version 2 (MV2) anymore. In 6 months, everyone has to update if they want to continue hosting their extension in the Chrome web store and having it work in Chromium-based browsers.
 
-![](image-4.png)
+![](what-is-manifest-v3-and-why-is-google-pestering-me/image-4.png)
 
 Source: [Manifest V2 support timeline](https://developer.chrome.com/docs/extensions/mv3/mv2-sunset/)
 
@@ -71,13 +71,13 @@ A new set of APIs that allow an extension to affect the page without being hande
 
 The above didn't mean much to me, other than making me smile (or is it a smirk?) at the idea that an ad company, whose [SEC filing](https://abc.xyz/investor/static/pdf/20210203_alphabet_10K.pdf?cache=b44182d) includes a section called "how we make money" that's _all_ about advertising, would claim to be working to enable ad blocker extensions. Maybe I'm just cynical, but that seems like a huge conflict of interest.
 
-![](image-5.png)
+![](what-is-manifest-v3-and-why-is-google-pestering-me/image-5.png)
 
 Their blog post titled [_Web Request and Declarative Net Request: Explaining the impact on Extensions in Manifest V3_](https://blog.chromium.org/2019/06/web-request-and-declarative-net-request.html) has a couple useful diagrams _(shown below)_ that make the changes clearer. In MV2, the browser hands over the whole page to an extension to modify as needed, but in V3 the browser will allow an extension to define what it wants to do under certain circumstances by setting up rules, and then apply those rules. No more handing over the whole page.
 
-![](image-6.png)
+![](what-is-manifest-v3-and-why-is-google-pestering-me/image-6.png)
 
-![](image-7.png)
+![](what-is-manifest-v3-and-why-is-google-pestering-me/image-7.png)
 
 Source: [_Web Request and Declarative Net Request: Explaining the impact on Extensions in Manifest V3_](https://blog.chromium.org/2019/06/web-request-and-declarative-net-request.html)
 

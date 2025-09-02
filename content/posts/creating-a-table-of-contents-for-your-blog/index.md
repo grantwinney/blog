@@ -162,11 +162,11 @@ If you want it to work with the Casper theme, you'll need to make a couple chang
 
 Here's how it looks when rendered, showing a single level of headers, two levels, and multiple levels, respectively. It handles omitted headers, like going right from `<H2>` to `<H5>`, but uh.. it could be better. Heh.
 
-![](multiple-level-toc.png)
+![](multiple-level-toc.webp)
 
 While you're at it, you could create a `<div id="toc"></div` element or similar, and generate your TOC inside of that. Then use CSS styling to your heart's content. Here's what it looks like without numbers, and indenting on linewrap. If you're using Ghost, you could even put the CSS in the "code injection" section of the admin panel.
 
-![](image-5.png)
+![](creating-a-table-of-contents-for-your-blog/image-5.webp)
 
 ## Other Implementations
 

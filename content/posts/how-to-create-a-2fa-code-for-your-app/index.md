@@ -51,9 +51,9 @@ A time-based one-time password (TOTP) is just one way to do 2FA... but it's very
 
 A website generates a QR code to scan with an app like [andOTP](https://github.com/andOTP/andOTP), [Microsoft Authenticator](https://support.microsoft.com/en-us/account-billing/download-microsoft-authenticator-351498fc-850a-45da-b7b6-27e523b8702a), [1Password](https://support.1password.com/one-time-passwords/), etc. The QR code represents a URI with a few pieces of data, including a random string that's unique to you, which is encoded in base32 _(more on that later)_. From then on, the app generates a new random code every 30 seconds, which you use at login. And in case your [phone catches fire](https://time.com/4485396/samsung-note-7-battery-fire-why/), they provide some recovery codes to print and save.
 
-![](QR-code.png)
+![](QR-code.webp)
 
-![](Backup-Codes-.png)
+![](Backup-Codes-.webp)
 
 If someone guesses your password, or hacks your email and requests a password recovery, they still can't login unless they also have access to your 2FA app (which usually means having physical access to your phone as well).
 
@@ -63,7 +63,7 @@ If someone guesses your password, or hacks your email and requests a password re
 
 From the user's perspective, it starts with a QR code that represents a URI, as I mentioned above. Using a service like [ZXing Decoder](https://zxing.org/w/decode.jspx) on one of those QR codes, we see it holds a few pieces of data, as outlined here: [Key URI Format](https://github.com/google/google-authenticator/wiki/Key-Uri-Format)
 
-![](qr-code-decrypted.png)
+![](how-to-create-a-2fa-code-for-your-app/qr-code-decrypted.webp)
 
 ### Dissecting a QR code
 
@@ -135,13 +135,13 @@ I create an example app in C#. The label, issuer and secret will be prepopulated
 
 When you're ready, scan it with your phone to add it like any other 2FA code.
 
-![](phonescanqrcode.jpg)
+![](phonescanqrcode.webp)
 
-![](phoneqrcodeadded.jpg)
+![](phoneqrcodeadded.webp)
 
-![](codevalid.png)
+![](codevalid.webp)
 
-![](codeinvalid.png)
+![](codeinvalid.webp)
 
 Enter the code from your phone into the bottom field (left image) to verify it's valid; enter an invalid TOTP code (right image) and it tells you.
 
@@ -155,4 +155,4 @@ One of the recommendations, as I mentioned previously, is to allow ±1 step to h
 
 During the elapsed time between the two screenshots, you can see a new "Current Code" has been generated, and the previous "Current Code" is now the current "Previous Code". lol
 
-![](image-2.png)
+![](how-to-create-a-2fa-code-for-your-app/image-2.webp)

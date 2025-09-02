@@ -21,9 +21,9 @@ There's a standard set of HTML tags, css elements, and JavaScript code that you 
 
 This leads to a nice, predictable experience, unlike ye olden days when [IE](https://docstore.mik.ua/orelly/web2/wdesign/appd_01.htm) and [Netscape](https://docstore.mik.ua/orelly/web2/wdesign/appd_02.htm) used to create their own proprietary tags that only worked in their own browsers. If you've been around long enough, you'll remember seeing these littered throughout the net, usually when a site only worked well in a single browser.
 
-![](bvw-ie-4x-1.gif)
+![](bvw-ie-4x-1.webp)
 
-![](image.png)
+![](can-i-write-my-own-html-tags/image.webp)
 
 But now, standards and standards-compliance is the name of the game, and the differences between the major browsers are in the features they provide (sync'ing bookmarks, ad blocking, etc), not in how they display web pages. It's a win-win for everyone.
 
@@ -38,7 +38,7 @@ We can use the standard HTML elements, and apply the standard CSS styles to thos
 
 ... and we'll always get a box with a yellow background and red text.
 
-![](notification1.png)
+![](notification1.webp)
 
 _But..._ what if we don't want all our div boxes to have a yellow background? What if you want some of them to have a _blue_ background? Just assign a class named "blue" to the div, and layer on the css...
 
@@ -53,7 +53,7 @@ _But..._ what if we don't want all our div boxes to have a yellow background? Wh
 
 ... and the new styles are applied to the second div.
 
-![](notification2.png)
+![](notification2.webp)
 
 But _but..._ what if you didn't want to keep applying that class to divs that should be blue? What if you just wanted an "angrydiv" element that displays a bright red box?
 
@@ -68,7 +68,7 @@ But _but..._ what if you didn't want to keep applying that class to divs that sh
 
 That's completely doable. Just create a new element, then use the standard css styles to give it the look you want.
 
-![](notification3.png)
+![](notification3.webp)
 
 It's interesting that this works, but it's completely predicable and works in every browser I've tried, so I imagine there's something in the specs that allows for it. If you know where, feel free to leave a comment. I'd be interested in checking it out.
 
@@ -76,9 +76,9 @@ The limitation here is that you can't extend existing elements, or just invent n
 
 But css can do a _lot._ You can have div's that behave much like tables, then create an errortable, errorrow, etc. I'm not saying that's a great idea. In fact, it doesn't offer much of anything over just assigning a class to the table, especially if you're not writing the site by hand using HTML. It's just an interesting oddity.
 
-![](image-1.png)
+![](can-i-write-my-own-html-tags/image-1.webp)
 
-Because? Why not? Actually, the idea for writing about this came from [Leon Arnott's neocities site](https://leonarnott.neocities.org/), which I stumbled on at random while hopping around the geocities replacement the other day. The sites on there are _seriously_ bad.. in a wow-websites-were-ugly-so-why-do-i-still-feel-nostalgic sorta way.
+Because? Why not? A![](can-i-write-my-own-html-tags/image-1.webp)a for writing about this came from [Leon Arnott's neocities site](https://leonarnott.neocities.org/), which I stumbled on at random while hopping around the geocities replacement the other day. The sites on there are _seriously_ bad.. in a wow-websites-were-ugly-so-why-do-i-still-feel-nostalgic sorta way.
 
 Here's a few elements based on those CSS elements (I think I got these from [Brad Gessler](https://bradgessler.com/) originally, but I've lost the direct link):
 
@@ -88,4 +88,4 @@ Still here? Something else random to reward you with then...
 
 When I was looking for those browser button images at the top of this post, I stumbled across something from 20 years ago that's somehow still up. I love finding this stuff. [What is the Internet](https://www.thirteen.org/edonline/primer/)? How do you [get the most out of your browser](https://www.thirteen.org/edonline/primer/b_how.html)? All your questions will be answered. You're welcome!
 
-![](b-ns.gif)
+![](b-ns.webp)

@@ -17,7 +17,7 @@ I saw an implementation of some C# code this week that looked like it _should_ w
 
 So I spent a few evenings trying to target a C# project for an earlier version of .NET, which seemed as if it were going to be trivial. You can right-click a project and choose options to find a dropdown under the "Build" settings, which is very similar to Visual Studio on Windows.
 
-![vs4mac-target-framework](vs4mac-target-framework.png)
+![vs4mac-target-framework](vs4mac-target-framework.webp)
 
 However, switching to an earlier version of .NET alternated between showing an error in the console when I tried to run my tiny app:
 
@@ -26,7 +26,7 @@ However, switching to an earlier version of .NET alternated between showing an e
 
 And sometimes the IDE blew up completely by underlining everything and claiming it could no longer find `System.Object` or `System.Int32`. This is fairly typical of my experience in VS4Mac... it works okay as long as you stay in the lines. Once you start doing anything remotely interesting though...
 
-![vs4mac-whats-an-integer](vs4mac-whats-an-integer.png)
+![vs4mac-whats-an-integer](vs4mac-whats-an-integer.webp)
 
 Even after restarting (and reinstalling) VS4Mac, that project appeared to be permanently hosed, and I had to create a new one. I even tried committing the project to git before this happened so I could restore it, but it showed no changes, so whatever got borked must've been in some hidden file.
 
@@ -34,11 +34,11 @@ Even after restarting (and reinstalling) VS4Mac, that project appeared to be per
 
 When I checked the .NET Runtimes tab in preferences, all I had was Mono 5. Okay, so maybe each Mono version supports whatever version of the .NET Framework was out when it was released, and I needed to install them? Sure, just a guess, but it seemed logical.
 
-![mono-5-only](mono-5-only.png)
+![mono-5-only](mono-5-only.webp)
 
 I [downloaded](https://download.mono-project.com/archive/) the last release for 2.x, 3.x, etc and installed them all. Afterwards, I tried different combinations of Mono release _(Project / Active Runtime)_ to .NET framework, but no luck there either. Same error.
 
-![all-the-monos](all-the-monos.png)
+![all-the-monos](all-the-monos.webp)
 
 ## Getting official help
 
@@ -48,7 +48,7 @@ After awhile, I [opened a ticket](https://developercommunity.visualstudio.com/co
 
 In other words, the marketing team should've probably thought a little longer about how to brand this. There's no need to "Visual Studio" all the things. I replied asking for any other hints or tips on how to do that, but haven't heard back yet. I can only assume he means I should compile the [MonoDevelop source code](https://github.com/mono/monodevelop)... or just use Windows.
 
-![not-the-ide-loved-by-millions](not-the-ide-loved-by-millions.png)
+![not-the-ide-loved-by-millions](not-the-ide-loved-by-millions.webp)
 
 After doing some more research, I found [release notes for MonoDevelop 4.0.0](https://www.mono-project.com/docs/about-mono/releases/4.0.0/#dropped-support-for-old-frameworks) that corraborated what he said. Although I don't know why the 2.x and 3.x versions of Mono don't work then... or why there's an available selection for the .NET Framework at all. Or why the MonoDevelop team decided to drop support for devs writing apps in a corporate environment, where only an older version of .NET is installed.
 
@@ -68,4 +68,4 @@ Use Visual Studio on Windows, I guess. Seriously. I found at least [one workarou
 
 I think the most frustrating thing is that this app, which is really a [rebranded Xamarin Studio](https://developer.xamarin.com/releases/studio/xamarin.studio_6.3/xamarin.studio_6.3/), is marketed like it's the full Visual Studio IDE ported from Windows to Mac. It is absolutely _**not**_. A better name would've helped avoid confusion _(_[_something that frustrated devs from the moment it launched_](https://news.ycombinator.com/item?id=14308754)_),_ but MS has had a rough history of finding good names for products.
 
-![](vs4mac-installation.jpg)
+![](vs4mac-installation.webp)

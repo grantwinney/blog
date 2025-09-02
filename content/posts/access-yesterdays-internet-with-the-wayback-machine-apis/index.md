@@ -175,7 +175,7 @@ You can see how this could be implemented as a browser extension fairly easily. 
 
 In fact, there's a Chrome extension called [Wayback Machine](https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak) that does just that, and it's actually from the Internet Archive! How nice.
 
-![wayback-machine-extension](wayback-machine-extension.png)
+![wayback-machine-extension](wayback-machine-extension.webp)
 
 If you're curious what it does, check it out using the awesome [Chrome extension source viewer](https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin) extension, or check out the main crux of it below.
 

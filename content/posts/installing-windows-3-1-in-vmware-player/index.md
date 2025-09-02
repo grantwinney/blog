@@ -31,23 +31,23 @@ DOS doesn’t support CDs right out of the box, so we’ll need a driver. I used
 
 Install [WinImage](http://www.winimage.com/winimage.htm) and package the driver into a floppy disk image.
 
-![](Win-311-Image-001.png)
+![](Win-311-Image-001.webp)
 
-![](Win-311-Image-002.png)
+![](Win-311-Image-002.webp)
 
-![](Win-311-Image-003.png)
+![](Win-311-Image-003.webp)
 
-![](Win-311-Image-004.png)
+![](Win-311-Image-004.webp)
 
-![](Win-311-Image-005.png)
+![](Win-311-Image-005.webp)
 
-![](Win-311-Image-006.png)
+![](Win-311-Image-006.webp)
 
 Mount the image to your virtual machine and copy the driver into `c:\dos`.
 
-![](Win-311-Image-007.png)
+![](Win-311-Image-007.webp)
 
-![](Win-311-Image-009.png)
+![](Win-311-Image-009.webp)
 
 You’ll need to adjust two configuration files to use the new driver:
 
@@ -65,88 +65,88 @@ LH MSCDEx /D:CD1
 
 These drivers extend BIOS and DOS, respectively, to support the CD-ROM drive, and Windows 3.1 inherits that when it runs.
 
-![](Win-311-Image-011.png)
+![](Win-311-Image-011.webp)
 
-![](Win-311-Image-012.png)
+![](Win-311-Image-012.webp)
 
-![](Win-311-Image-013.png)
+![](Win-311-Image-013.webp)
 
-![](Win-311-Image-014.png)
+![](Win-311-Image-014.webp)
 
-![](Win-311-Image-015.png)
+![](Win-311-Image-015.webp)
 
-![](Win-311-Image-016.png)
+![](Win-311-Image-016.webp)
 
 Reboot the virtual machine to apply your changes and then mount the Windows 3.1 disk.
 
 - If you’ve already got floppy disk or cd-rom images of Windows, then mount those now.
 - If you’ve got a zip file with the installation files inside it, like the one I got from MSDN, then you’ll need to run an app (such as [Folder2Iso](http://www.trustfm.net/software/utilities/Folder2Iso.php)) that can package them into a CD ISO, which you can then mount. It’s a straight-forward process.
 
-![Win 311 Image 010](Win-311-Image-010.png)
+![Win 311 Image 010](Win-311-Image-010.webp)
 
 With the CD-ROM now recognized and the Windows 3.1 disk mounted, you can boot up into DOS and type `D:` at the prompt to access the disk. Type `setup` to begin installation. I just accepted all the defaults.
 
-![](Win-311-Image-017.png)
+![](Win-311-Image-017.webp)
 
-![](Win-311-Image-018.png)
+![](Win-311-Image-018.webp)
 
-![](Win-311-Image-019.png)
+![](Win-311-Image-019.webp)
 
-![](Win-311-Image-020.png)
+![](Win-311-Image-020.webp)
 
-![](Win-311-Image-021.png)
+![](Win-311-Image-021.webp)
 
 I opted for all the features, but at what cost? _Over_ _**2 MB**_ _of hard drive space!_ 😱
 
-![](Win-311-Image-022.png)
+![](Win-311-Image-022.webp)
 
-![](Win-311-Image-023.png)
+![](Win-311-Image-023.webp)
 
 Some changes to the same files we edited earlier. Windows saves a backup copy before modifying it.
 
-![](Win-311-Image-024.png)
+![](Win-311-Image-024.webp)
 
-![](Win-311-Image-027.png)
+![](Win-311-Image-027.webp)
 
 Wasn’t sure what to do with this. Considered skipping it, but ended up selecting the ‘generic’ printer. Maybe I’ll search for a driver that would allow me to print.
 
-![](Win-311-Image-028.png)
+![](Win-311-Image-028.webp)
 
-![](Win-311-Image-029.png)
+![](Win-311-Image-029.webp)
 
-![](Win-311-Image-030.png)
+![](Win-311-Image-030.webp)
 
-![](Win-311-Image-031.png)
+![](Win-311-Image-031.webp)
 
 I _had_ to go through the tutorial. Never too late to learn to use a mouse.
 
-![](Win-311-Image-032.png)
+![](Win-311-Image-032.webp)
 
-![](Win-311-Image-033.png)
+![](Win-311-Image-033.webp)
 
-![](Win-311-Image-034.png)
+![](Win-311-Image-034.webp)
 
-![](Win-311-Image-035.png)
+![](Win-311-Image-035.webp)
 
 Mmm… icecream. I’m a little dubious of how they calculate the number of calories in “chocolate sauce” and “nuts”. Weight-watchers app, this is not.
 
-![](Win-311-Image-036.png)
+![](Win-311-Image-036.webp)
 
-![](Win-311-Image-037.png)
+![](Win-311-Image-037.webp)
 
-![](Win-311-Image-038.png)
+![](Win-311-Image-038.webp)
 
-![](Win-311-Image-040.png)
+![](Win-311-Image-040.webp)
 
 ## What's here?
 
 Wow, notice the evolution of Notepad over 20 years. :p
 
-![Win 311 Image 042](Win-311-Image-042.png)
+![Win 311 Image 042](Win-311-Image-042.webp)
 
 Something I threw together.
 
-![Win 311 Image 043](Win-311-Image-043.png)
+![Win 311 Image 043](Win-311-Image-043.webp)
 
 Hmm.. what else can I install on here?
 
@@ -154,23 +154,23 @@ Hmm.. what else can I install on here?
 
 Here’s Visual Basic 2.0. Woah. Okay, that one’s improved in 20 years. Notice that a complete installation will require 18 MB! _(gasp)_
 
-![](Win-311-Image-044.png)
+![](Win-311-Image-044.webp)
 
-![](Win-311-Image-045.png)
+![](Win-311-Image-045.webp)
 
-![](Win-311-Image-046.png)
+![](Win-311-Image-046.webp)
 
-![](Win-311-Image-047.png)
+![](Win-311-Image-047.webp)
 
-![](Win-311-Image-048.png)
+![](Win-311-Image-048.webp)
 
 ### QBasic 4.5
 
-![](Win-311-Image-049.png)
+![](Win-311-Image-049.webp)
 
-![](Win-311-Image-050.png)
+![](Win-311-Image-050.webp)
 
-![](Win-311-Image-051.png)
+![](Win-311-Image-051.webp)
 
 I suppose other than finding other apps to install, I’ll try to find a graphics driver, sound driver, etc. Or I’ll get bored after using it for 10 minutes because, come on, the real fun is in getting it to work. Who the heck wants to _use_ it for anything??
 
@@ -178,6 +178,6 @@ You can download this [graphics driver](https://sites.google.com/site/chitchatvm
 
 Installed IE too. Ouch.
 
-![](Win-311-Image-061.png)
+![](Win-311-Image-061.webp)
 
-![](Win-311-Image-062.png)
+![](Win-311-Image-062.webp)

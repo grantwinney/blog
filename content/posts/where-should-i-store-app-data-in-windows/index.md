@@ -23,9 +23,9 @@ These special folders aren't necessarily a specific location. They vary by versi
 
 Here's what my _My Documents_ currently looks like - loads of stuff I shouldn't be aware most of the time. Amazon is storing encrypted ebook files that are useless outside their app, ShareX is storing log files and plugins, Microsoft some default templates, and Zoom.. an empty directory.
 
-![](image-27.png)
+![](where-should-i-store-app-data-in-windows/image-27.png)
 
-![](image-28.png)
+![](where-should-i-store-app-data-in-windows/image-28.png)
 
 I've got this nice little area that's supposed to be just mine, but everyone decided to run everything through it. If I want to sync _My Documents_ between several machines, I don't need ShareX's logs on both. I can install the Kindle app on multiple machines and it'll download books, so those encrypted files are unnecessary.
 
@@ -33,7 +33,7 @@ I've got this nice little area that's supposed to be just mine, but everyone dec
 
 Windows has had the concept of special folders for decades, going all the way back to Windows 95. The folders are visible in the registry editor, but don't rely on them there.. it's a [long and sad story](https://devblogs.microsoft.com/oldnewthing/20031103-00/?p=41973) apparently. On a side note, let no one say Microsoft takes backwards compatibility lightly.
 
-![](image-29.png)
+![](where-should-i-store-app-data-in-windows/image-29.png)
 
 Special folders in the registry editor
 

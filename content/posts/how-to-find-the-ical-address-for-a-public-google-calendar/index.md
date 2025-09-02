@@ -24,19 +24,19 @@ Impressive, you didn't just run off. This won't take too long, I promise.
 
 When someone creates a public Google calendar for the whole world to use, you'll see a little "+ Google Calendar" button in the lower-right corner. Click on that, and you can import the calendar into your own Google account.
 
-![](google-calendar-html.png)
+![](google-calendar-html.webp)
 
-![](google-calendar-add-prompt.png)
+![](google-calendar-add-prompt.webp)
 
-![](google-calendar-calendar-added.png)
+![](google-calendar-calendar-added.webp)
 
 Unless you've replaced it with another service, like I did. 😐
 
 If you don't _want_ to import a Google calendar into a Google account, you might see the "Public URL" and try to import that into another client. That's reasonable, but it won't work.
 
-![](google-calendar-settings.png)
+![](google-calendar-settings.webp)
 
-![](import-calendar-error.png)
+![](import-calendar-error.webp)
 
 The reason it can't be imported is that the Public URL from Google is really just a link to an HTML page, and other clients don't know what to do with it. You need something that's standardized, that all clients can easily consume and do something with, and that's an iCalendar file, which (if you open it up in a text editor) looks something like this:
 

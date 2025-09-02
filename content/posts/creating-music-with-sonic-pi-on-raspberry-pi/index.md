@@ -101,7 +101,7 @@ I figured it might make a fun project that tied in the Pi, Python and Sonic Pi, 
 
 First, here’s the circuit I designed. It’s really basic, just connecting a series of LEDs to board pins 12, 16, 22, 36 and 40, which can be turned on or off in sequence with the notes being played.
 
-![Grandfather Clock Sonic Pi_bb](Grandfather-Clock-Sonic-Pi_bb.png)
+![Grandfather Clock Sonic Pi_bb](Grandfather-Clock-Sonic-Pi_bb.webp)
 
 ### The Script
 

@@ -193,3 +193,4 @@ public class Tests
 ### Results... Success!
 
 ![](testresults.PNG)
+![](testresults.webp)

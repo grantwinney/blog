@@ -219,7 +219,7 @@ builder.Services.AddSingleton(TimeProvider.System);
 
 All of that's well and good, and possibly even interesting, but how does it help us with testing? Well, .NET 8 provides us with one more new class, via NuGet package, and that's the `FakeTimeProvider`.
 
-![](image.png)
+![](how-to-use-timeprovider-and-faketimeprovider/image.webp)
 
 It's another implementation of the abstract `TimeProvider` class, with additional methods for making us the masters of time. Here's part of it, with everything cut out except what I think is relevant at the moment. Things to note:
 
@@ -289,7 +289,7 @@ The part of FakeTimeProvider that I care about at the moment...
 
 If you try to move backwards, or set the time to something less than Jan 1, 2000, it throws an exception like the one below. So no testing like it's 1999.
 
-![](image-2.png)
+![](how-to-use-timeprovider-and-faketimeprovider/image-2.webp)
 
 ### Using FakeTimeProvider with xUnit
 
@@ -333,13 +333,13 @@ public class BusinessOperationsTests
 }
 ```
 
-![](image-4.png)
+![](how-to-use-timeprovider-and-faketimeprovider/image-4.webp)
 
 Results in the Test Explorer pane
 
 _Unrelated note:_ The eagle-eyed reader might've noticed the above tests are grouped by category. You can set category names (aka "traits") on your xUnit tests, and then choose to "Group By" those traits in the test explorer pane. It's a nice way of organizing things a bit.
 
-![](image-5.png)
+![](how-to-use-timeprovider-and-faketimeprovider/image-5.webp)
 
 ### Using FakeTimeProvider with NUnit
 
@@ -385,7 +385,7 @@ public class BusinessOperationsTests
 
 One more side note.. you can categorize tests in NUnit too, with a slightly different syntax, by decorating the test methods with a `CategoryAttribute`.
 
-![](image-6.png)
+![](how-to-use-timeprovider-and-faketimeprovider/image-6.webp)
 
 Results in the Test Explorer pane
 

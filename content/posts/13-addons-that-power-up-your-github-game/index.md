@@ -49,15 +49,15 @@ If you need to do a little debugging on a repo, you have to clone it locally and
 
 [Sourcegraph](https://sourcegraph.com/docs/integration/browser_extension) is an IDE for the browser that works with multiple languages. Just hover over a keyword or identifier in your codebase, and the addon pops up a link that takes you to sourcegraph's site, which in turn provides syntax highlighting and click-through navigation for your application. I tried it with a C# application I wrote for a recent post on [MVP](https://grantwinney.com/its-possible-to-test-a-winforms-app-using-mvp/), and it had no problem navigating around.
 
-![](sourcegraph-in-action-1.png)
+![](sourcegraph-in-action-1.webp)
 
-![](sourcegraph-in-action-2.png)
+![](sourcegraph-in-action-2.webp)
 
-![](sourcegraph-in-action-3.png)
+![](sourcegraph-in-action-3.webp)
 
-![](sourcegraph-in-action-4.png)
+![](sourcegraph-in-action-4.webp)
 
-![](sourcegraph-in-action-5.png)
+![](sourcegraph-in-action-5.webp)
 
 Sourcegraph brings the IDE experience to your browser
 
@@ -76,13 +76,13 @@ Once you've installed sourcegraph, you can navigate your codebase from your brow
 
 Octotree produces a file explorer style "directory structure" view of your entire repo. Just expand to the file you need, and click the name to go to that file or click the arrow to the left of it to see the "raw" version of the file. I think this complements sourcegraph really well, and makes the IDE experience in the browser that much more awesome.
 
-![](octotree1.png)
+![](octotree1.webp)
 
-![](octotree2.png)
+![](octotree2.webp)
 
-![](octotree3.png)
+![](octotree3.webp)
 
-![](octotree4.png)
+![](octotree4.webp)
 
 ---
 
@@ -97,13 +97,13 @@ If you can keep your tools in a single area, it makes life that much easier. I h
 
 [ZenHub](https://www.zenhub.com/product) lets you group a bunch of projects into a single "workspace", and then integrates itself smoothly into the GitHub UI, so you can manage the workspace from any repo. I was able to easily group two related repos, pull in their issues, move the cards around, and even mark an issue in one repo as "blocked" by an issue in the other repo.
 
-![](brave_XTqYuR969v.png)
+![](brave_XTqYuR969v.webp)
 
-![](brave_TkHhqi14Ul.png)
+![](brave_TkHhqi14Ul.webp)
 
-![](brave_mYgeA1xxHW.png)
+![](brave_mYgeA1xxHW.webp)
 
-![](brave_HLB3SFKXXg.png)
+![](brave_HLB3SFKXXg.webp)
 
 ZenHub tracks progress across multiple repos, right from the GitHub UI
 
@@ -118,21 +118,21 @@ The ZenHub board is a kanban style, where you can easily drag issues (and PR's, 
 
 GitHub shows a generic text file icon for every file, regardless of its type. Considering [colors and shapes were the first things most of us learned](https://www.scholastic.com/parents/family-life/creativity-and-critical-thinking/learning-skills-for-kids/why-colors-and-shapes-matter.html), I think GitHub could do a little better. [GitHub File Icons](https://chrome.google.com/webstore/detail/github-file-icons/kkokonbjllgdmblmbichgkkikhlcnekp) brings the same as Octotree (which come from the [Atom](https://ide.atom.io/) editor) into the main GitHub UI. So if you use Octotree, this fits in really nicely.
 
-![](fileicons1-1.png)
+![](fileicons1-1.webp)
 
-![](fileicons3-1.png)
+![](fileicons3-1.webp)
 
-![](fileicons4-1.png)
+![](fileicons4-1.webp)
 
 GitHub File Icons add file type specific icons (optionally with color)
 
 **Alternative:** The [github-vscode-icons](https://chrome.google.com/webstore/detail/github-vscode-icons/hoccpcefjcgnabbmojbfoflggkecmpgd) addon _(_[_source code_](https://github.com/dderevjanik/github-vscode-icons)_)_ uses icons from [VS Code](https://code.visualstudio.com/), which IMO stand out _much_ better. I find the other icon colors a bit washed out. Presently though, this addon seems to have an issue checking for updated icons.. they appear for a moment, then all change to a small "loading" icon until you refresh the page. So ... kinda broken unfortunately. :(
 
-![](vscodeicons1.png)
+![](vscodeicons1.webp)
 
-![](vscodeicons2.png)
+![](vscodeicons2.webp)
 
-![](vscodeicons3.png)
+![](vscodeicons3.webp)
 
 Vanilla GitHub vs GitHub File Icons vs github-vscode-icons
 
@@ -147,9 +147,9 @@ Did you know you can store any type of file on GitHub, with [files up to 100 MB 
 
 [Enhanced GitHub](https://chrome.google.com/webstore/detail/enhanced-github/anlikcnbgdeidpacdbdljnabclhahhmd) displays the size of the repo right above the"Clone" button. It also displays sizes of individual files, which is cool although I don't find that as useful. Another feature that I do like though is "Copy File", which.. um... copies the current file to your clipboard. Kinda self-explanatory, now that I think about it.
 
-![](image-9.png)
+![](13-addons-that-power-up-your-github-game/image-9.webp)
 
-![](image-10.png)
+![](13-addons-that-power-up-your-github-game/image-10.webp)
 
 View a repository's size before deciding to clone
 
@@ -168,11 +168,11 @@ One of the ways I use GitHub is to upload code samples from various posts I've w
 
 [GitZip](https://gitzip.org/) lets you click on one or more files or directories (actually, you have to click the white space _next to_ the name), and then you get a handy "download" button for your selection, which gets (gits?) you a zip file. Who says naming things is hard?
 
-![](gitzip2.png)
+![](gitzip2.webp)
 
-![](gitzip3.png)
+![](gitzip3.webp)
 
-![](gitzip4.png)
+![](gitzip4.webp)
 
 This complements the Enhanced GitHub addon pretty well - if you find out a repo is too large and you don't want to bother cloning it, use GitZip to download just the parts you _are_ interested in! I can imagine other sites where this would be useful, like programming books that upload the related code to a repo, one lesson or exercise per directory.
 
@@ -189,17 +189,17 @@ There are times when you fully expect an app won't use all your screen real esta
 
 [Wide GitHub](https://github.com/xthexder/wide-github) applies some CSS that takes full advantage of your 32:9 super-duper ultra-mega-wide curvy monitor. Now your GitHub code can wrap all around you, like a giant omnimax theater.. for code. But if you hit a page that seems less readable in wide format, just click the icon to disable it.
 
-![](wide1.png)
+![](wide1.webp)
 
-![](wide4.png)
+![](wide4.webp)
 
-![](wide2.png)
+![](wide2.webp)
 
-![](wide5.png)
+![](wide5.webp)
 
-![](wide3.png)
+![](wide3.webp)
 
-![](wide6.png)
+![](wide6.webp)
 
 If you already use [Stylus](https://add0n.com/stylus.html) (or Tampermonkey, etc), there are instructions on [how to use them](https://github.com/xthexder/wide-github/blob/master/README.md#installing) instead. But the addon is easier and you'll get automatic updates, so there's that... decisions, decisions.
 
@@ -214,11 +214,11 @@ When you come across a broken GitHub link, you get a 404 - no surprises there. T
 
 If everything goes well and you never come across a broken link, then you'll never even notice [GitHub 404 Breakdown](https://chrome.google.com/webstore/detail/github-404-breakdown/pnhdlhabpckpibnkkddmgcimdejbljge). But when you inevitably _do_ hit a broken link, then this nice little addon tests every portion of the URL and lets you know exactly where things broke down.
 
-![](breakdown1.png)
+![](breakdown1.webp)
 
-![](breakdown2-1.png)
+![](breakdown2-1.webp)
 
-![](breakdown3-1.png)
+![](breakdown3-1.webp)
 
 ---
 
@@ -231,9 +231,9 @@ It's amazing how something as straight-forward as adding a little color can inst
 
 [GitHub Issue Link Status](https://github.com/fregante/github-issue-link-status) does just that, adding different colors and icons to issues and PRs, dependent on whether they're open, closed, or merged. And it seems to work all over the GitHub interface, not just the issue or PR screens.
 
-![](issuelinkstatus1.png)
+![](issuelinkstatus1.webp)
 
-![](issuelinkstatus2.png)
+![](issuelinkstatus2.webp)
 
 ---
 
@@ -244,15 +244,15 @@ It's amazing how something as straight-forward as adding a little color can inst
 
 Commit a file with tabs in it, and then open it on GitHub. Oddly, if you _edit_ the file right on GitHub, you can choose between a few sizes for tabs. But if you just want to view the file (far more likely), you get 8 spaces per tab. Maybe it's GitHub's way of showing you the truth... spaces **are** better! _*ducks*_
 
-![](tabs3.png)
+![](tabs3.webp)
 
-![](tabs2.png)
+![](tabs2.webp)
 
 When editing a file, you can choose 2, 4, or 8 spaces for tabs... but not when _viewing!s_
 
 The [GitHub Custom Tab Size](https://chrome.google.com/webstore/detail/github-custom-tab-size/jcjfkmdkcaopkioccnpbhiemfcmpnghe) addon gives you an easy way to change that, especially helpful if you're working in a codebase with deeply nested code. Yeah yeah, this can be a sign of a code smell.. but until you manage to refactor that old codebase that's 20 levels deep, this addon might help preserve your sanity.
 
-![](W3TJs5alK3.gif)
+![](W3TJs5alK3.webp)
 
 ---
 
@@ -265,7 +265,7 @@ If you've been doing PRs as a team for any length of time, sooner or later you'l
 
 [Better Pull Request for GitHub](https://chrome.google.com/webstore/detail/better-pull-request-for-g/nfhdjopbhlggibjlimhdbogflgmbiahc/related) generates a table of contents (only when you're viewing a PR) that looks very similar to the navigational explorer window you'd find in nearly any IDE. Clicking a link takes you right to the file in question, and as you scroll the looooong PR, the selected file actually changes depending on where you are on screen.
 
-![](f8obsQf4Mn.gif)
+![](f8obsQf4Mn.webp)
 
 Although Octotree is collapsed here, it plays nicely with the navigational tree that Octotree creates too. Better Pull Request inserts its panel into the PR page smoothly, making it appear like it's just another part of the UI.
 
@@ -281,9 +281,9 @@ This one definitely follows in the suit of other addons that enhance GitHub to m
 
 [OctoLinker](https://octolinker.now.sh/) looks at the file type, and if it's a [supported language](https://octolinker.now.sh/#languages) (like Python, Ruby, JavaScript, etc), it inserts links for any libraries it finds to their respective docs.
 
-![](brave_6bbcZx6Wa4.png)
+![](brave_6bbcZx6Wa4.webp)
 
-![](brave_fQHJfcdTTG.png)
+![](brave_fQHJfcdTTG.webp)
 
 It's supposed to work for relative file references between your files too, but the only thing I had to try it on were some Python scripts, and it didn't work with those.
 
@@ -299,7 +299,7 @@ GitHub has a spiffy [Notifications](https://github.com/notifications) area that 
 
 If you want to know about new notifications, but you neither need more emails nor leave GitHub visible all day, then checkout [Notifier for GitHub](https://github.com/sindresorhus/notifier-for-github). It's so simple there's nothing really to show.. it displays an icon in your toolbar with a notification count, and clicking on it opens the GitHub notifications page.
 
-![](brave_AfaBFyoLnv.png)
+![](brave_AfaBFyoLnv.webp)
 
 Oh look, I found something to show anyway. 1 unread item is offscreen.
 
@@ -319,11 +319,11 @@ Some addons look promising, but aren't quite ready for prime-time yet. Others ar
 
 A picture is worth a thousand words, especially when you're trying to describe a problem you're having. [Paint GitHub](https://chrome.google.com/webstore/detail/paint-github/dmcjbappfnlamankemdmmdjiecnclapl) adds a new tab with a canvas to the "New Issue" screen, allowing you to create a freehand drawing and then "upload" it to GitHub for attachment. If you want to draw over an existing image, like maybe a screen capture of the problem you're having, you can insert it with "Insert image".
 
-![](paint2.png)
+![](paint2.webp)
 
-![](paint3.png)
+![](paint3.webp)
 
-![](paint4.png)
+![](paint4.webp)
 
 It appears to be in the early stages of development, but I hope the author continues with it. You can draw free-hand but not much else - it'd be great to have all the basic functions of a "paint" style app like adding text and geometric shapes, etc. But... it works as-is and (for some cases) eliminates the need to edit an image in a separate paint app and then drag it over to the "New Issue" panel.
 
@@ -334,11 +334,11 @@ It appears to be in the early stages of development, but I hope the author conti
 
 It's pretty self-explanatory, allowing you to quickly add issues to a repo. Unfortunately, it only works for a single user or organization, not across _all_ the organizations a person might belong too. Hope the author makes a few changes to it.
 
-![](addissue1.png)
+![](addissue1.webp)
 
-![](addissue2.png)
+![](addissue2.webp)
 
-![](addissue3.png)
+![](addissue3.webp)
 
 ### Refined GitHub
 

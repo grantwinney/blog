@@ -190,11 +190,11 @@ public partial class frmCallBackgroundWorker : Form
 
 If things run successfully, the user gets a nice message using the data returned from the two API calls.
 
-![](image.png)
+![](convert-backgroundworker-to-task-with-taskcompletionsource/image.webp)
 
-![](image-1.png)
+![](convert-backgroundworker-to-task-with-taskcompletionsource/image-1.webp)
 
-## Approach #2: Wrapping the BackgroundWorker in a Task
+## Approach #2: ![](convert-backgroundworker-to-task-with-taskcompletionsource/image-1.webp)kgroundWorker in a Task
 
 As I said earlier, there's a class called [TaskCompletionSource](https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.taskcompletionsource-1) that allows us to take something that's already async and make it appear to the outside world as if it were a Task all along, hiding the details.
 
@@ -300,11 +300,11 @@ private async void btnGetData_Click(object sender, EventArgs e)
 }
 ```
 
-![](image-4.png)
+![](convert-backgroundworker-to-task-with-taskcompletionsource/image-4.webp)
 
-![](image-2.png)
+![](convert-backgroundworker-to-task-with-taskcompletionsource/image-2.webp)
 
-![](image-3.png)
+![](convert-backgroundworker-to-task-with-taskcompletionsource/image-3.webp)
 
 [Grab the example from GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Threading/TaskCompletion) and try it out yourself. Good luck!
 

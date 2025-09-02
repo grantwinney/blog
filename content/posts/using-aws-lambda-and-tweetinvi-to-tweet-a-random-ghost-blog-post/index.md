@@ -56,30 +56,30 @@ When you get the email for your new developer account (mine was nearly immediate
 
 Under "App permissions", change the default "read" permissions to "read and write", since the app needs to be able to send tweets and not just read them. Then click back into your new app and press "Generate" under the "Access token & secret" section, and note the additional access token and secret that are generated - you'll need those in a bit too! _(Make sure it says "created with read and write permissions" underneath it.)_
 
-![](image-4.png)
+![](using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post/image-4.png)
 
-![](image-10.png)
+![](using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post/image-10.png)
 
 ### Setup AWS Lambda
 
 Open the [AWS Free Tier](https://aws.amazon.com/free) page and create an account if you don't already have one. Then open the Products dropdown and look for AWS Lambda, or [just go here](https://aws.amazon.com/lambda). Click the button in middle of the page, leave "root" selected, and enter your credentials. You should end up at [console.aws.amazon.com/lambda](https://console.aws.amazon.com/lambda), on a screen like this:
 
-![](image-2.png)
+![](using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post/image-2.png)
 
 Now you need to create a new Lambda function.
 
-1. Create a new function (author from scratch) and choose `C# (.NET Core 3.1)` for the runtime.
+1. Create a new function (author from scratch) and ![](using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post/image-2.png) Core 3.1)` for the runtime.
 2. The name of the function doesn't matter, nor does the role it makes you create.
 3. Under "Function code", upload the zip file you previously created.
 4. Under "Runtime settings", change the handler to: `TweetRandomFeedItem::TweetRandomFeedItem.Program::Main`
 
-![](image-5.png)
+![](using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post/image-5.png)
 
-![](image-6.png)
+![](using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post/image-6.png)
 
 Under "Basic settings", decrease the memory to 128MB and increase the timeout to a minute. For me, it generally takes about 15-20 seconds to run, and uses 50MB or less of memory.
 
-![](image-7.png)
+![](using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post/image-7.png)
 
 ### Create the environment variables
 
@@ -107,7 +107,7 @@ These values all come from your Twitter account, from the app you created before
 
 When you're done, it should look something like this:
 
-![](image-8.png)
+![](using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post/image-8.png)
 
 ### Take it out for a spin!
 
@@ -117,7 +117,7 @@ If it seems to have done nothing, press "Test" again. Hopefully everything goes 
 
 ![successful-lambda-run](successful-lambda-run.jpg)
 
-![](image-11.png)
+![](using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post/image-11.png)
 
 ### Schedule it
 
@@ -127,7 +127,7 @@ If you're ready to let it do your work for you, schedule it to run via cron.
 - Select "Create a new rule" from the drop-down and give the new rule some random name.
 - Enter a cron command in the "Schedule expression" box, such as `cron(0 12 * * ? *)` to run your job at 12 UTC every day. You can find more help in their developer guide: [Schedule expressions using rate or cron](https://docs.aws.amazon.com/lambda/latest/dg/services-cloudwatchevents-expressions.html)
 
-![](image-12.png)
+![](using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post/image-12.png)
 
 ---
 

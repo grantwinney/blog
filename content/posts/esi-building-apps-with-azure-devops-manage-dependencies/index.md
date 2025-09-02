@@ -30,11 +30,9 @@ It's pretty easy to setup a new "feed" in Azure DevOps, and they provide instruc
 
 ![](image-38.png)
 
-![](image-43.png)
+![](image-43.pn![](image-38.webp)png)
 
-![](image-44.png)
-
-![](image-46.png)
+![](image-46.webp)
 
 Another good reason to setup your own feed is when you've got dependencies that you're unlikely (or unable) to change, and that have nowhere else to live.
 
@@ -50,10 +48,10 @@ Oh, and bonus points, the code built and ran, right out of the gate. In the last
 
 I don't know what was wrong for sure, but I deleted one of the user permission settings (below), then re-added the same user with the same default permission, and voila. As usual, I'll just pretend it was intentional and I knew exactly what I was doing. ;)
 
-![](image-39.png)
+![](image-39.webp)
 
-![](image-40.png)
+![](image-40.webp)
 
-![](image-41.png)
+![](image-41.webp)
 
-![](image-42.png)
+![](image-42.webp)

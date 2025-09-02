@@ -28,7 +28,7 @@ An HR app that stores hiring and termination dates, or a time clock app that tra
 
 While [dialyzer](https://learnyousomeerlang.com/dialyzer) and [writing tests](https://learnyousomeerlang.com/eunit) can help, representing the same thing several different ways is at best aggravating... and at worst, leads to difficult to trace bugs. And if you use `erlang:system_time` at different resolutions, like nanoseconds and seconds for example, you'll end up with differently sized integers that mean completely different things - and dialyzer won't help at all.
 
-![](spec-gandalf.png)
+![](spec-gandalf.webp)
 
 ## Decide how to represent time externally
 

@@ -25,7 +25,7 @@ GitHub uses a wiki system called [Gollum](https://github.com/gollum/gollum), whi
 
 To clone a wiki, we can find the link conveniently shoved into the lower-right corner of the page, way near the bottom if there's already a lot of wiki pages in it.
 
-![](image-4.png)
+![](5-things-you-can-do-with-a-locally-cloned-github-wiki/image-4.webp)
 
 We're presented with the "https" link, but can change it to the SSH link if needed.
 
@@ -44,27 +44,27 @@ Installing Gollum differs based on the environment it's going to run in, which i
 
 First, head to the [Java download page](https://www.java.com/en/) and install the JRE, which includes the JVM that JRuby needs. Next, head to the [JRuby download page](https://www.jruby.org/download) and install the x64 Windows exe with Ruby 3.1.x support and accept the defaults. At this point, we can verify in PowerShell that they're both installed:
 
-![A terminal window showing Java and JRuby are installed](image-7.png)
+![A terminal window showing Java and JRuby are installed](5-things-you-can-do-with-a-locally-cloned-github-wiki/image-7.webp)
 
 Verifying Java and JRuby are installed
 
 Finally, start Windows PowerShell as an administrator and run `gem install gollum` to install Gollum – in other terminals, or in a non-admin PS window, it may fail. This took awhile for me, and seemed to lag on certain steps, but it eventually completed:
 
-![Console output from installing the Gollum gem](image-9.png)
+![Console output from installing the Gollum gem](5-things-you-can-do-with-a-locally-cloned-github-wiki/image-9.webp)
 
 Let's change to the directory where the wiki is cloned and type "gollum" to fire up the Gollum server, which should show us which port it's running the site on:
 
-![Console output showing that Gollum is running](image-10.png)
+![Console output showing that Gollum is running](5-things-you-can-do-with-a-locally-cloned-github-wiki/image-10.webp)
 
 Open up the browser to [http://localhost:4567](http://localhost:4567) and check it out. I used the wiki in my [Hide Comments Everywhere](https://github.com/grantwinney/hide-comments-everywhere/wiki) repo – GitHub hosted is on the left, and Gollum local is on the right.
 
-![](image-12-1.png)
+![](image-12-1.webp)
 
-![](image-13.png)
+![](5-things-you-can-do-with-a-locally-cloned-github-wiki/image-13.webp)
 
-![](image-16.png)
+![](5-things-you-can-do-with-a-locally-cloned-github-wiki/image-16.webp)
 
-![](image-17.png)
+![](5-things-you-can-do-with-a-locally-cloned-github-wiki/image-17.webp)
 
 The wiki files are just plain markdown files, so while we _could_ use any editor with these, it's nice to have access to something that looks similar to GitHub. There's some minor differences of course, but it's largely the same.
 
@@ -80,7 +80,7 @@ Wiki pages can be run through tools that generate HTML pages, which can then be 
 
 The [installation page](http://pandoc.org/installing.html) for Pandoc has instructions for different systems – for Windows, it's just a simple msi file that runs in under a minute. After it installs, we can verify the version in a terminal window:
 
-![Console output showing the Pandoc version installed](image-18.png)
+![Console output showing the Pandoc version installed](5-things-you-can-do-with-a-locally-cloned-github-wiki/image-18.webp)
 
 Verifying the Pandoc version
 
@@ -90,7 +90,7 @@ Running a conversion can be as simple as specifying two files and letting Pandoc
 
 Here's how the main page of one of my project wikis looks. On the left is the GitHub hosted version, then the local Gollum version in the middle, and finally the Pandoc HTML one on the right.
 
-![Rendered outputs of a wiki page, on GitHub, in Gollum, and converted by Pandoc](image-19.png)
+![Rendered outputs of a wiki page, on GitHub, in Gollum, and converted by Pandoc](5-things-you-can-do-with-a-locally-cloned-github-wiki/image-19.webp)
 
 Various rendered outputs of the same wiki page
 
@@ -179,7 +179,7 @@ sub createLink {
 
 You'd need to do some work to get this production-ready (such as stripping punctuation from the headers since they aren't included in the anchors) but it does the trick in simple scenarios. Here's how it renders:
 
-![](custom-toc-in-wiki-pages.png)
+![](custom-toc-in-wiki-pages.webp)
 
 Now that I showed you the harder way, you could search for one of the many projects out there that do it for you. For example, a quick search turned up [DocToc](https://github.com/thlorenz/doctoc), which you can install with [npm](https://www.npmjs.com/). If you check the output below, you'll see that DocToc recursively checks inside other directories (like "images"), just in case you're structuring your wiki differently than the default "all pages in a single folder" style.
 
@@ -229,7 +229,7 @@ The end-result is similar in appearance to mine, even using comments (albeit reg
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ```
 
-![](custom-toc-from-doctoc-wiki.png)
+![](custom-toc-from-doctoc-wiki.webp)
 
 While we're at it, pandoc can do it too by specifying the `--toc` argument. Here's a quick script for converting your markdown files into HTML documentation that includes a table of contents.
 
@@ -260,7 +260,7 @@ Drag a file over the editor and it'll show a light green border around it. The f
 
 Files dropped onto the editor this way are committed, and will be pushed up with the rest of your wiki.
 
-![](gollum-wiki-file-upload-enabled.png)
+![](gollum-wiki-file-upload-enabled.webp)
 
 The `show-all` flag complements this nicely too.
 
@@ -270,7 +270,7 @@ gollum --allow-uploads dir --show-all
 
 With that option enabled, clicking the "All" or "Files" buttons in the wiki will show _everything,_ not just pages.
 
-![](gollum-wiki-view-all-files-option.png)
+![](gollum-wiki-view-all-files-option.webp)
 
 ### Manipulate Pages with the Ruby API
 
@@ -280,7 +280,7 @@ Gollum-lib is nice because it abstracts away some of the nitty-gritty details. F
 
 Here's a short script that loads the local wiki _(use the relative path from your Ruby script)_, then loads a page from the wiki and calls the `raw_data` function to output the contents of the file. You can see the output in the terminal window in the bottom half of the screenshot.
 
-![](query-data-about-gollum-wiki-page-using-gollum_lib.png)
+![](query-data-about-gollum-wiki-page-using-gollum_lib.webp)
 
 What else can we do with the API?
 
@@ -366,7 +366,7 @@ File.write('outline.html', html)
 
 That'll produce a small HTML page with a link to each wiki page and a table of contents if available. _(The missing header below was due to some wonky markdown in that file.)_
 
-![](master-contents-page-for-wiki-using-gollum_lib.png)
+![](master-contents-page-for-wiki-using-gollum_lib.webp)
 
 So far, all we've seen is how to query data.
 
@@ -403,7 +403,7 @@ end
 
 Here's the rendered output:
 
-![](gollum-wiki-add-copyright-to-top.png)
+![](gollum-wiki-add-copyright-to-top.webp)
 
 ## What's Next..?
 

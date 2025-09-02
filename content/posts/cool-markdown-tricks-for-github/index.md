@@ -46,7 +46,7 @@ fix it and submit a [pull request][pulls].
   [pulls]:     https://github.com/grantwinney/BlogCodeSamples/pulls
 ```
 
-![](image-1.png)
+![](cool-markdown-tricks-for-github/image-1.webp)
 
 You can use the same technique with images too!
 
@@ -80,7 +80,7 @@ Although the Wiki has a button that lets you upload images to it, and the Issues
 
 Just create a new issue and drag your image into the editor pane. It'll upload it and generate a unique URL for you. Don't even bother saving the issue... just copy the markdown it generates and drop it into your Readme.
 
-![](issue-example-1.png)
+![](issue-example-1.webp)
 
 The only caveat is that it's not under source control, but I can't really see that being an issue. I've never had a need to keep revisions of images, but if you do then this may not be the tip for you.
 
@@ -127,7 +127,7 @@ You can't color your text using markdown, but you _can_ use an image placeholder
 
 The above markdown is rendered like this:
 
-![](color.png)
+![](color.webp)
 
 ---
 

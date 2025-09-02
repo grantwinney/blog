@@ -48,15 +48,15 @@ Now let’s decide what we need in a circuit, based on the rules we just laid ou
 
 Here’s the kind of layout I planned out.
 
-![Morse Code Button Click Fritzing Diagram](Morse-Code-Button-Click-Fritzing-Diagram.png)
+![Morse Code Button Click Fritzing Diagram](Morse-Code-Button-Click-Fritzing-Diagram.webp)
 
 In retrospect, that resistor connecting the cathode side of the yellow LED to ground won’t hurt, but it’s unnecessary, since there’s already a resistor connecting 3.3v to the button.
 
 And here are a few pictures of the actual board after I wired it up:
 
-![](morse-code-button-click-3.jpg)
+![](morse-code-button-click-3.webp)
 
-![](morse-code-button-click-2.jpg)
+![](morse-code-button-click-2.webp)
 
 ![](morse-code-button-click-1.jpg)
 
@@ -243,7 +243,7 @@ If you’re interested, Coursera has a series of courses on Python, two of which
 
 Here’s a reference card from [toptechboy.com](http://www.toptechboy.com/raspberry-pi/raspberry-pi-with-lesson-26-controlling-gpio-pins-in-python/) that shows what the pins do on the Pi. If you don’t have a cobbler that plugs into your breadboard, and you have to wire up individual GPIO pins on the Pi to your breadboard, you’ll want to keep this handy.
 
-![raspberry-pi-2-pinout](raspberry-pi-2-pinout.jpg)
+![raspberry-pi-2-pinout](raspberry-pi-2-pinout.webp)
 
 **Hardware**
 
@@ -264,7 +264,7 @@ This project led me down the path of detecting the pin edges (whether the button
 
 Quick note about buttons. When you use one on your breadboard for the first time, it might feel like it only goes so far. Be sure to give it a good firm push so it’s flush with the breadboard, otherwise it won’t come into contact like it should. Mine looked like it was in at first, but wasn’t registering clicks very well.
 
-![Inserting the Button](P1020697.jpg)
+![Inserting the Button](P1020697.webp)
 
 ## Demo
 

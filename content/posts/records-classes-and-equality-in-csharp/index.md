@@ -128,9 +128,9 @@ public record Automobile(string Make, string Model, int Year)
 
 And if we try to overload the equality operators, we can't. It warns us that they're already defined.
 
-![](image-1.png)
+![](records-classes-and-equality-in-csharp/image-1.webp)
 
-So now this works with just the original one-liner defining the record:
+So now this works with just![](records-classes-and-equality-in-csharp/image-1.webp)e-liner defining the record:
 
 ```csharp
 var auto1 = new Automobile("Toyota", "Corolla", 2023);

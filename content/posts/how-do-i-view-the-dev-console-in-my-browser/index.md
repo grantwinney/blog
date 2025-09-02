@@ -51,7 +51,7 @@ You can also change the shortcuts if you'd like:
 
 ## Brave
 
-[If you're not using Brave yet, do](https://brave.com/gra339). This is my preferred browser now that they have all of the annoying kinks worked out... it's more secure by default and they have this novel idea for rewarding good content.
+[If you're ![](opera.webp)e yet, do](https://brave.com/gra339). This is my preferred browser now that they have all of the annoying kinks worked out... it's more secure by default and they have this novel idea for rewarding good content.
 
 Author: Brave Software Inc  
 Toolset: Developer Tools
@@ -90,4 +90,4 @@ That link is a pretty basic (nearly useless) overview - there's more detail in t
 - If you're using the last available Windows version from 2012: `Edit > Preferences > Advanced > Show Develop menu in menu bar`
 - After showing the new menu, you can view page elements with `Control+Alt+I` or the console with `Control+Alt+C`. Beware, it's a pretty busted experience. 🙄
 
-![](safari.png)
+![](safari.webp)

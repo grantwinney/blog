@@ -72,3 +72,4 @@ Notice that there's a setting for when they haven't indicated a preference, and 
 And just in case it doesn't work for you, which probably means you're either using an unsupported browser or your device doesn't pass those settings to the browser, this is how it looks in Windows when I toggle between modes. In clockwise order is DuckDuckGo who has a whole separate theme, the MDN example I loved so much, the Windows settings for dark mode, aaaand.. some new-agey sun/moon example someone put together.
 
 ![](dark-scheme.gif)
+![](dark-scheme.webp)

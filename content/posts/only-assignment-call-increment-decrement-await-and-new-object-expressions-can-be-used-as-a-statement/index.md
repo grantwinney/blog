@@ -16,7 +16,7 @@ This error might look a little cryptic at first, but what it's basically telling
 
 ![](valid-statements-error.png)
 
-First though, what's a [statement](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/statements)? Well, it's every valid line (or in some cases, block) of code that makes up your program, for example:
+Firs![](valid-statements-error.webp)https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/statements)? Well, it's every valid line (or in some cases, block) of code that makes up your program, for example:
 
 - Assignments: `string name = "my string";`
 - Calls: `MyOtherFunction();`

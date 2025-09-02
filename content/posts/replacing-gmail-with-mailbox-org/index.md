@@ -25,11 +25,11 @@ After trying a few others, I discovered [mailbox.org](https://mailbox.org/en/), 
 
 As you can see, I have a whopping $2 in my account, good for 2 months of basic usage. The free 30 day account ain't bad for trying it out, but hey I'm rolling in washingtons over here. 💸
 
-![](mail.org-contract-1.png)
+![](mail.org-contract-1.webp)
 
-![](mail.org-contract-2.png)
+![](mail.org-contract-2.webp)
 
-![](mailbox.org-add-credit.png)
+![](mailbox.org-add-credit.webp)
 
 ---
 
@@ -41,35 +41,33 @@ Mailbox.org provides a detailed doc on [setting up e-mail addresses for your dom
 
 My domain name is currently registered with Namecheap, which I configured to [forward all traffic to the DigitalOcean nameservers](https://www.digitalocean.com/community/tutorials/how-to-point-to-digitalocean-nameservers-from-common-domain-registrars), where I host this blog. Everything (web traffic, emails, etc) goes through Namecheap to DO, where the actual config is done.
 
-![](namecheap-forwarding-1.png)
+![](namecheap-forwarding-1.webp)
 
 The first thing you'll see in Mailbox.org when you try to setup an alias to your own domain is a warning telling you to add a TXT record to your DNS settings. They have to do that to verify you have access to the domain, otherwise _anyone_ could claim _any_ domain for their own. [That would be Bad](https://www.youtube.com/watch?v=9wrEEd1ajz4&t=28).
 
-![](add-txt-record-warning.png)
+![](add-txt-record-warning.webp)
 
 After you've proven you're the owner, you see this instead. Now you can add some MX records to your DNS settings, directing all traffic from (in my case) DigitalOcean to Mailbox.org's several servers (note the "priority" setting). 🐢🐢🐢🌎
 
 ![](add-mx-records-1.png)
 
-![](add-mx-records-2-1.png)
+![](add-mx![](add-mx-records-1.webp)ait, there's more!_ You may have proven who you are to Mailbox.org, but that's not enough for other providers like Gmail, who will mark your messages as possible spam and unceremoniously dump them in the recipient's spam folder. Fun.
 
-_But wait, there's more!_ You may have proven who you are to Mailbox.org, but that's not enough for other providers like Gmail, who will mark your messages as possible spam and unceremoniously dump them in the recipient's spam folder. Fun.
-
-![](spf-04.png)
+![](spf-04.webp)
 
 To fix that, you need another DNS entry. Use a tool like [this one](https://mxtoolbox.com/SuperTool.aspx?action=spf) to check for an SPF record - if you don't find one, you need one, and you can [find instructions here](https://kb.mailbox.org/en/private/custom-domains/using-e-mails-with-a-custom-domain/#Usinge-mailaddressesofyourdomain-Step3:HowtosettheSPFrecords).
 
-![](spf-2.png)
+![](spf-2.webp)
 
-![](spf-1.png)
+![](spf-1.webp)
 
 Give it time to take effect, then check it with the website again, and everything should be much greener and happier. Either this tells Gmail how to check Mailbox.org to verify you, or it causes Mailbox.org to attach some meta data to requests that Gmail uses, or... whatever. I don't care, my stuff ain't going to spam anymore. 💚
 
-![](spf-3.png)
+![](spf-3.webp)
 
 Here's my full DNS records, which might help someone. Not sure why the bottom 3 NS records are in there, but I think they were there by default so I'm leaving 'em. There's also a reference in their docs to adding a record for [DKIM](https://blog.woodpecker.co/cold-email/spf-dkim/#dkim), but that doesn't seem to be necessary... maybe I'll revisit it later.
 
-![](spf-5.png)
+![](spf-5.webp)
 
 ---
 
@@ -111,15 +109,15 @@ You should be able to use the Google Calendar app like you would for any other c
 
 Don't forget to go into the Google Calendar app settings (if you use it) and uncheck the calendar built into Gmail, otherwise you'll have two personal calendars showing. I've been using [Business Calendar 2](https://play.google.com/store/apps/details?id=com.appgenix.bizcal) - it's got more features than the stock app.
 
-![](calendar-test-1.png)
+![](calendar-test-1.webp)
 
-![400](calendar-test-3.png)
+![400](calendar-test-3.webp)
 
-![400](calendar-test-4.png)
+![400](calendar-test-4.webp)
 
-![](contact-test-1.png)
+![](contact-test-1.webp)
 
-![400](contact-test-2.png)
+![400](contact-test-2.webp)
 
 ---
 
@@ -131,19 +129,19 @@ If you decide to make the move, here's how. Ymmv of course.
 
 Export your calendar from Gmail and upload the file into Mailbox.org to import it. Although you can't delete your primary Gmail calendar, you can click the "Delete" button to wipe out all events in one go.
 
-![](calendar-export.png)
+![](calendar-export.webp)
 
-![](mb-calendar.png)
+![](mb-calendar.webp)
 
-![](calendar-delete.png)
+![](calendar-delete.webp)
 
 ### Migrate Contacts
 
 Export your contacts in CSV format, and Mailbox.org can consume them pretty easily. There was a little cleanup to do, but nothing major.
 
-![](gmail-contacts.png)
+![](gmail-contacts.webp)
 
-![](mb-contacts.png)
+![](mb-contacts.webp)
 
 ### Migrate Gmail
 
@@ -153,7 +151,7 @@ There's no getting around this one - you'll have to login to each billing provid
 - Everything sent to me that _isn't_ flagged as spam is forwarded to my new email.
 - Everything that's spam is deleted.
 
-![](gmail-forwardemails.jpg)
+![](gmail-forwardemails.webp)
 
 You probably want to wait 6 months to make sure there wasn't some random bill or service you forgot to change, but when you're ready, you can [delete your Gmail account](https://myaccount.google.com/deleteservices) while leaving the rest of your Google account intact. There might be someone you know who tries sending email and it fails, but then you probably weren't that close anyway. You're just doing all kinds of purging today, aintcha?
 
@@ -167,16 +165,16 @@ They also provide a bunch of other awesome sauce right out of the box. If you've
 
 The built-in disposable addresses are awesome as well. I spent a few hours porting my online accounts to my new email, and closed quite a few that I hadn't used in a long time. That is an _incredibly_ painful and frustrating experience, especially when there's no obvious way to even close the account. So, at the very least, I spun up a disposable address, changed it in those services and confirmed it, then deleted the address. At that point, they're effectively dead to me. 👍
 
-![](aliases.png)
+![](aliases.webp)
 
-![](digital-legacy.png)
+![](digital-legacy.webp)
 
-![](disposable-addresses.png)
+![](disposable-addresses.webp)
 
-![](hack-alert.png)
+![](hack-alert.webp)
 
 While enabling 2FA, I noticed this message. Since SMS is the [least](https://authy.com/blog/security-of-sms-for-2fa-what-are-your-options/) [secure](https://www.theverge.com/2017/9/18/16328172/sms-two-factor-authentication-hack-password-bitcoin) way to 2FA (and also won't work if you go outside your coverage area), I was actually glad to see it.
 
-![](no-sms-2fa.png)
+![](no-sms-2fa.webp)
 
 So far I'm super happy with this service, and consider $1/mo a steal for an ad-free, creepy-dig-through-my-data-free experience. If I need more aliases, cloud space, or convince my wife to jump on board with the "team" settings, I'll gladly play $2.50/mo for it too.
