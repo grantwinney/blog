@@ -1,6 +1,5 @@
 ---
 categories:
-- csharp
 - Coding
 date: "2015-01-15T00:45:22Z"
 description: ""
