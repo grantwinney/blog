@@ -1,8 +1,7 @@
 ---
 categories:
-- csharp
-- Coding
-date: "2023-04-01T03:54:20Z"
+  - Coding
+date: 2023-04-01T03:54:20Z
 description: ""
 draft: false
 cover:
@@ -10,11 +9,10 @@ cover:
 slug: csharp-overload-arithmetic-equality-comparison-operators
 summary: What's it mean to overload operators in C#? And what's that have to do with Generic Math in C# 11? Let's find out! (part 2 of 3)
 tags:
-- csharp
-- coding
+  - csharp
 title: Overloading arithmetic, equality, and comparison operators in C#
 aliases:
-- /how-do-i-overload-operators-in-csharp
+  - /how-do-i-overload-operators-in-csharp
 ---
 This is post 2 in a 3-part series building up to a new C# 11 feature called [Generic Math](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#generic-math-support). Before tackling that though, I covered [static abstract members](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c/) (also new to C# 11), and now I want to look at overload operators (not new, but worth knowing).
 

@@ -1,11 +1,7 @@
 ---
 categories:
-- Multithreading
-- surviving-winforms
-- csharp-5
-- csharp
-- Async
-date: "2021-06-07T12:56:43Z"
+  - Coding
+date: 2021-06-07T12:56:43Z
 description: ""
 draft: false
 cover:
@@ -13,11 +9,11 @@ cover:
 slug: using-async-await-and-task-to-keep-the-winforms-ui-more-responsive
 summary: Using the async/await pattern in WinForms is an easy win, helping prevent one of the most annoying user experiences - a frozen UI.
 tags:
-- threading
-- surviving-winforms
-- csharp-5
-- csharp
-- async
+  - threading
+  - surviving-winforms
+  - csharp-5
+  - csharp
+  - async
 title: Using Async, Await, and Task to keep the WinForms UI responsive
 ---
 For most of my dev career, I've been in C# shops. That doesn't mean _every_ project required C# exclusively, but most of them did. I've also used React, Ruby, C++, Erlang.. whatever's called for. But large company or small, if you're a C# dev, sooner or later you'll likely find yourself supporting a WinForms app. And crystal reports, but we shan't speak of that here. 😑

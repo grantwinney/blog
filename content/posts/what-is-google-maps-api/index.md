@@ -1,8 +1,7 @@
 ---
 categories:
-- API
-- Google
-date: "2017-12-23T04:10:01Z"
+  - APIs
+date: 2017-12-23T04:10:01Z
 description: ""
 draft: false
 cover:
@@ -10,11 +9,10 @@ cover:
 slug: what-is-google-maps-api
 summary: The Google Maps API is a series of APIs for multiple platforms, each focused on a small set of tasks. At first it all seems a bit overwhelming, but each of them is pretty easy to use. Let's check a few out!
 tags:
-- api
-- google
+  - google
 title: Finding Directions, Coordinates and More With the Google Maps API
 aliases:
-- /day-6-google-maps-api
+  - /day-6-google-maps-api
 ---
 Google is a service that... a provider who.... they run the Internet. They have this little mapping service too, so let's check out the [Google Maps API](https://developers.google.com/maps/).
 

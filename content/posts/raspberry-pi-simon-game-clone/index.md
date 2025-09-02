@@ -1,11 +1,7 @@
 ---
 categories:
-- raspberry-pi
-- sonic-pi
-- Retro
-- Coding
-- Python
-date: "2016-07-28T08:09:41Z"
+  - Raspberry Pi
+date: 2016-07-28T08:09:41Z
 description: ""
 draft: false
 cover:
@@ -13,14 +9,12 @@ cover:
 slug: raspberry-pi-simon-game-clone
 summary: Let's recreate the Simon game of the 1980s using a Raspberry Pi and Sonic Pi!
 tags:
-- raspberry-pi
-- sonic-pi
-- retro
-- coding
-- python
+  - raspberry-pi
+  - sonic-pi
+  - python
 title: A Simon Game Clone for the Raspberry Pi
 aliases:
-- /creating-a-simon-game-clone-on-the-raspberry-pi
+  - /creating-a-simon-game-clone-on-the-raspberry-pi
 ---
 Have you been around long enough to remember the popular _Simon_ game from the 70s and 80s? There’ve been plenty of remakes over the years, but I had one of the originals when I was younger.
 

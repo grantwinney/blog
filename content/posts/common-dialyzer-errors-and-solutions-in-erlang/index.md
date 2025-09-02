@@ -1,7 +1,7 @@
 ---
 categories:
-- Erlang
-date: "2019-02-09T21:10:27Z"
+  - Coding
+date: 2019-02-09T21:10:27Z
 description: ""
 draft: false
 cover:
@@ -9,7 +9,7 @@ cover:
 slug: common-dialyzer-errors-and-solutions-in-erlang
 summary: When dealing with a dynamically typed language, any effort to tame the beast can pay off. For Erlang, that means Dialyzer specs. The more specs added, the more helpful the tool becomes - but getting to that point can be painful. Here are some warnings I've seen, what they mean and how I solved them.
 tags:
-- erlang
+  - erlang
 title: Common dialyzer errors and solutions in Erlang
 ---
 When you're dealing with a dynamically typed language like Erlang, any effort to [tame the beast](https://grantwinney.com/taming-the-erlang-beast/#dialyzer) can pay off in spades. I'm currently focused on an Erlang app that has zero [Dialyzer specs](https://learnyousomeerlang.com/dialyzer) in it, so adding them is the hill I'm currently dying on. If you're new to it, check out [Learn You Some Erlang](https://learnyousomeerlang.com/dialyzer).

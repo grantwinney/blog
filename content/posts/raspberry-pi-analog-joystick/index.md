@@ -1,18 +1,15 @@
 ---
 categories:
-- raspberry-pi
-- Coding
-- Python
-date: "2016-09-24T13:30:49Z"
+  - Raspberry Pi
+date: 2016-09-24T13:30:49Z
 description: ""
 draft: false
 cover:
   image: joystick-color-wheel-setup-3.jpg
 slug: raspberry-pi-analog-joystick
 tags:
-- raspberry-pi
-- coding
-- python
+  - raspberry-pi
+  - python
 title: Connecting an Analog Joystick to the Raspberry Pi
 ---
 One of the best things about the Raspberry Pi is its GPIO pins. They’re just sitting there, waiting to be connected to all kinds of interesting peripherals so your Pi can interact with the world around it. We can [send alerts](https://grantwinney.com/raspberry-pi-flash-led-for-new-email/), attach sensors, and even plug cards like the [Sense HAT](https://www.raspberrypi.org/products/sense-hat/) over top of the pins to do even more.

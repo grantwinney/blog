@@ -1,9 +1,7 @@
 ---
 categories:
-- GitHub
-- Security
-- 2FA
-date: "2019-05-22T02:23:58Z"
+  - Tools
+date: 2019-05-22T02:23:58Z
 description: ""
 draft: false
 cover:
@@ -11,9 +9,9 @@ cover:
 slug: keeping-your-github-code-secure
 summary: GitHub, GitLab, and Bitbucket just released a joint statement on a widespread ransomware attack that resulted  in compromised accounts. That got me thinking, what can a person do to protect his or her code on GitHub? As it turns out, a lot...
 tags:
-- github
-- security
-- 2fa
+  - github
+  - security
+  - 2fa
 title: Protect your GitHub account to keep your code secure
 ---
 A few days ago, [GitHub](https://github.blog/2019-05-14-git-ransom-campaign-incident-report/) (along with [Bitbucket](https://bitbucket.org/blog/git-ransom-campaign-incident-report-atlassian-bitbucket-github-gitlab) and [GitLab](https://about.gitlab.com/2019/05/14/git-ransom-campaign-incident-report-atlassian-bitbucket-github-gitlab/)) reported that numerous users across their platforms had repos hacked, their code forcibly overwritten and held for ransom. You can read the whole thing in any of their blog posts (they're all the same), but here's a few takeaways:

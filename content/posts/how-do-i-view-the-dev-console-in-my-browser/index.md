@@ -1,7 +1,7 @@
 ---
 categories:
-- tools-of-the-trade
-date: "2019-03-26T14:47:54Z"
+  - Tools
+date: 2019-03-26T14:47:54Z
 description: ""
 draft: false
 cover:
@@ -9,7 +9,7 @@ cover:
 slug: how-do-i-view-the-dev-console-in-my-browser
 summary: Most people will never even know their browser hides a great set of tools, mostly used by web developers, but which can be useful for anyone trying to figure out why their browser is misbehaving.
 tags:
-- tools
+  - debugging
 title: Opening the developer console in every major browser
 ---
 Most people will never know their browser hides a great set of tools, mostly used by web developers, but which can be useful for anyone trying to figure out why their browser seems to be acting up.

@@ -1,10 +1,7 @@
 ---
 categories:
-- csharp
-- attributes
-- Metadata
-- Coding
-date: "2019-04-04T15:57:19Z"
+  - Coding
+date: 2019-04-04T15:57:19Z
 description: ""
 draft: false
 cover:
@@ -12,13 +9,12 @@ cover:
 slug: csharp-attributes
 summary: Ever thought it'd be convenient to attach metadata to your code at design time, then read it at runtime? Attributes let you do just that - to methods, classes, tests, enumerations, and more. Use reflection to read them at runtime and take some action. Here's a few examples for the uninitiated...
 tags:
-- csharp
-- attributes
-- metadata
-- coding
+  - csharp
+  - attributes
+  - metadata
 title: Using Attributes in C#
 aliases:
-- /5-examples-of-attributes-in-c-and-why-youll-want-to-make-your-own
+  - /5-examples-of-attributes-in-c-and-why-youll-want-to-make-your-own
 ---
 Ever thought it'd be convenient to attach some extra info to your code? Not just documentation to read at design time, but something that can actually be consumed at runtime and change how your program runs?
 

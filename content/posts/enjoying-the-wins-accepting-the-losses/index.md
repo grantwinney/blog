@@ -1,7 +1,7 @@
 ---
 categories:
-- Reflections
-date: "2022-08-09T13:07:49Z"
+  - Reflections
+date: 2022-08-09T13:07:49Z
 description: ""
 draft: false
 cover:
@@ -9,7 +9,6 @@ cover:
 slug: enjoying-the-wins-accepting-the-losses
 summary: When our code isn't clicking, negativity can quickly overshadow all the positive. That's when we need to remember our victories!
 tags:
-- reflection
 title: Enjoying the wins, accepting the losses
 ---
 Sometimes, when I try to code something, pouring extra hours of effort into it, I can just _feel_ how close all the pieces are to falling into place. Then I realize I'm going in circles, spending more time than I meant to, and a solution, whatever it might be, has escaped me at the moment. [Git checkout](https://www.delftstack.com/howto/git/git-remove-uncommitted-changes/#use-git-checkout-to-remove-uncommitted-changes-in-git), try again later.

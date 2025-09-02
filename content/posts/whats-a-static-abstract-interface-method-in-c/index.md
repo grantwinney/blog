@@ -1,9 +1,7 @@
 ---
 categories:
-- csharp-11
-- csharp
-- Coding
-date: "2023-03-31T03:59:47Z"
+  - Coding
+date: 2023-03-31T03:59:47Z
 description: ""
 draft: false
 cover:
@@ -11,9 +9,8 @@ cover:
 slug: whats-a-static-abstract-interface-method-in-c
 summary: What are static abstract members (new in C# 11), what can we do with them, and how are they related to Generic Math? (part 1 of 3)
 tags:
-- csharp-11
-- csharp
-- coding
+  - csharp-11
+  - csharp
 title: What is a static abstract interface method in C#?
 ---
 This is post 1 in a 3-part series building up to the new C# 11 feature called [Generic Math](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#generic-math-support). Before tackling that though, let's check out another new C# 11 feature - the [static abstract interface method](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/static-virtual-interface-members) (aka static virtual members).

@@ -1,9 +1,7 @@
 ---
 categories:
-- csharp-7
-- Coding
-- csharp
-date: "2022-10-08T18:40:48Z"
+  - Coding
+date: 2022-10-08T18:40:48Z
 description: ""
 draft: false
 cover:
@@ -11,9 +9,8 @@ cover:
 slug: local-functions-in-csharp-aka-nested-methods
 summary: C# 7 introduced a new tool for the belt - local functions. Let's take a look at what they are, how to use them, and why we might not want to.
 tags:
-- csharp-7
-- coding
-- csharp
+  - csharp-7
+  - csharp
 title: Local functions in C# (aka nested methods)
 ---
 I've recently been refreshing myself on some of the goodies we got with [C# 6](https://grantwinney.com/tags/c-6-0/), like [null safety operators](https://grantwinney.com/null-conditional-and-null-coalescing-operators/) and [string interpolation](https://grantwinney.com/using-string-interpolation-to-craft-readable-strings/). I find a use for them from time to time, but I'd bet there's a lot of people besides me who could use a refresher too... if they've heard of them at all.

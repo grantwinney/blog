@@ -1,9 +1,7 @@
 ---
 categories:
-- csharp
-- LINQ
-- Coding
-date: "2019-11-11T23:36:00Z"
+  - Coding
+date: 2019-11-11T23:36:00Z
 description: ""
 draft: false
 cover:
@@ -11,9 +9,8 @@ cover:
 slug: what-is-the-opposite-method-of-any-t-in-linq
 summary: One of the many nice functions in LINQ is a single word that iterates through a collection, returning true if at least one item in the collection matches the condition you specify. But what's the opposite of the Any keyword in LINQ?
 tags:
-- csharp
-- linq
-- coding
+  - csharp
+  - linq
 title: What is the opposite of Any in LINQ?
 ---
 If you are (or hope to be) a .NET developer, knowing [LINQ](https://learn.microsoft.com/en-us/dotnet/csharp/linq/) is a _huge_ time-saver. It's a syntax that allows you to manipulate data in a fashion that'll be familiar to anyone who's worked in a database.

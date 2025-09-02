@@ -1,10 +1,7 @@
 ---
 categories:
-- csharp
-- Coding
-- csharp-6
-- datetime-handling
-date: "2019-04-04T20:06:50Z"
+  - Coding
+date: 2019-04-04T20:06:50Z
 description: ""
 draft: false
 cover:
@@ -12,10 +9,9 @@ cover:
 slug: csharp-constant-datetime-format-inside-string-interpolation
 summary: I was upgrading some code to use string interpolation, a feature introduced in C# 6, when I ran into a small snag with DateTimes and a format string stored as a constant.
 tags:
-- csharp
-- coding
-- csharp-6
-- datetime-handling
+  - csharp
+  - csharp-6
+  - datetime-handling
 title: Using a constant as a DateTime format inside string interpolation
 ---
 I was upgrading some code to use string interpolation, a feature [introduced in C# 6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6#string-interpolation), when I ran into a small snag with DateTimes and format strings.

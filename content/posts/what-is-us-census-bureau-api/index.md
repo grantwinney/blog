@@ -1,7 +1,7 @@
 ---
 categories:
-- API
-date: "2017-12-30T23:01:30Z"
+  - APIs
+date: 2017-12-30T23:01:30Z
 description: ""
 draft: false
 cover:
@@ -9,10 +9,9 @@ cover:
 slug: what-is-us-census-bureau-api
 summary: The US Census Bureau APIs provide free access to geolocation data, as well as American census data, demographics, housing stats, etc. Let's check them out!
 tags:
-- api
 title: Accessing Census, Demographic, and Housing Data with the US Census Bureau API
 aliases:
-- /day-13-us-census-bureau-api
+  - /day-13-us-census-bureau-api
 ---
 The [US Census Bureau APIs](https://www.census.gov/data/developers/data-sets.html) provide free access to American census data, demographics, housing stats, etc. It's all anonymous aggregate data that's already publicly available - no personal data.
 

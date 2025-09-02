@@ -1,8 +1,7 @@
 ---
 categories:
-- GitHub
-- tools-of-the-trade
-date: "2020-04-04T19:01:02Z"
+  - Tools
+date: 2020-04-04T19:01:02Z
 description: ""
 draft: false
 cover:
@@ -10,8 +9,7 @@ cover:
 slug: 13-addons-that-power-up-your-github-game
 summary: GitHub is an amazing set of tools around Git, but it's lacking in certain areas. Where it fails to impress, browser addons often pick up the slack. Here's 13 addons (plus a few honorable mentions) that will take your GitHub experience to the next level!
 tags:
-- github
-- tools
+  - github
 title: 13 addons to power up your GitHub game
 ---
 Git is the defacto vcs for most developers today. It happens to lend itself well to all kinds of not-strictly-code-related things too, like [collaborative list making](https://grantwinney.com/github-a-tool-for-collaborative-list-making/) and [other surprising purposes](https://reclaimthenet.org/china-github-coronavirus-censorship/).

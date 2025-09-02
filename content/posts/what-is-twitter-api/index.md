@@ -1,7 +1,7 @@
 ---
 categories:
-- API
-date: "2017-12-16T04:58:47Z"
+  - APIs
+date: 2017-12-16T04:58:47Z
 description: ""
 draft: false
 cover:
@@ -9,10 +9,10 @@ cover:
 slug: what-is-twitter-api
 summary: The Twitter API lets you access tweets, users who tweet, metadata, manipulate lists, and more. Let's check it out!
 tags:
-- api
+  - twitter
 title: Accessing Tweets and More With the Twitter API
 aliases:
-- /day-1-twitter-api
+  - /day-1-twitter-api
 ---
 Let's check out the Twitter API, how to use it and what it has to offer. You can start with their [getting started guide](https://developer.twitter.com/en/docs/basics/getting-started) if you like, but basically Twitter offers API calls that return various JSON payloads, or what they call [tweet data dictionaries](https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/intro-to-tweet-json).
 

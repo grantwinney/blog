@@ -1,9 +1,7 @@
 ---
 categories:
-- raspberry-pi
-- Python
-- Coding
-date: "2016-03-26T16:37:30Z"
+  - Raspberry Pi
+date: 2016-03-26T16:37:30Z
 description: ""
 draft: false
 cover:
@@ -11,12 +9,11 @@ cover:
 slug: raspberry-pi-making-an-led-blink
 summary: I unboxed my Raspberry Pi a few weeks ago and started learning Python. Let's code the "Hello World" of the Pi, and make an LED blink.
 tags:
-- raspberry-pi
-- python
-- coding
+  - raspberry-pi
+  - python
 title: Hello World for the Raspberry Pi - Making an LED Blink
 aliases:
-- /hello-world-for-the-raspberry-pi-making-an-led-blink
+  - /hello-world-for-the-raspberry-pi-making-an-led-blink
 ---
 I finally unboxed my Pi a few weeks ago, and since then I’ve been learning some Python - the primary language of the Pi.
 

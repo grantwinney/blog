@@ -1,11 +1,7 @@
 ---
 categories:
-- MVP
-- WinForms
-- Testing
-- surviving-winforms
-- Coding
-date: "2021-06-09T02:12:00Z"
+  - Coding
+date: 2021-06-09T02:12:00Z
 description: ""
 draft: false
 cover:
@@ -13,11 +9,10 @@ cover:
 slug: its-possible-to-test-a-winforms-app-using-mvp
 summary: If you find yourself supporting a WinForms application, you're likely to notice the tests... or lack thereof. Just because we may not have been so focused on automated tests and continuous integration when WinForms was younger, that doesn't mean we can't introduce them now. Better late than never!
 tags:
-- mvp-design
-- winforms
-- testing
-- surviving-winforms
-- coding
+  - mvp-design
+  - winforms
+  - testing
+  - surviving-winforms
 title: Using MVP to test a WinForms app
 ---
 If you find yourself in a position where you're supporting a WinForms application, you're likely to notice the tests... or lack thereof. Just because we may not have been so focused on automated tests and continuous integration when WinForms was younger, that doesn't mean we can't introduce them now. Better late than never!

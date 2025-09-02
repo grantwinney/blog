@@ -1,7 +1,7 @@
 ---
 categories:
-- API
-date: "2017-12-21T18:09:09Z"
+  - APIs
+date: 2017-12-21T18:09:09Z
 description: ""
 draft: false
 cover:
@@ -9,10 +9,10 @@ cover:
 slug: what-is-slack-api
 summary: Slack is a popular communication and collaboration tool, and their API gives us access to channels, messages, and more. Let's check it out!
 tags:
-- api
+  - chat
 title: Managing Workspaces and Channels With the Slack API
 aliases:
-- /day-5-slack-api
+  - /day-5-slack-api
 ---
 Slack is a popular communication and collaboration tool, and the [Slack API](https://api.slack.com/) gives us access to workspaces, channels, messages, and more.
 

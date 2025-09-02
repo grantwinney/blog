@@ -11,7 +11,6 @@ summary: C# has been getting a lot of pattern matching love in recent years, lik
 tags:
   - csharp
   - csharp-11
-  - coding
 title: What are list patterns in C#?
 ---
 There's very little I miss from my days of Erlang programming. One of the things I do miss, though, is pattern matching. Erlang does a _lot_ with it, and it's interesting to see C# doing more with it in the last few major releases too.

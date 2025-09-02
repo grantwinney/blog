@@ -1,14 +1,13 @@
 ---
 categories:
-- Reflections
-date: "2023-11-14T04:31:52Z"
+  - Reflections
+date: 2023-11-14T04:31:52Z
 description: ""
 draft: false
 cover:
   image: photo-1597425098166-90b88803284b.jpg
 slug: swirly-mass-of-code
 tags:
-- reflection
 title: A swirly mass of shared code
 ---
 I heard a story recently, where a team was asked, after spending months adding a set of features to a codebase, to remove a specific feature from very early on in the project, right before the release date. Other features had been built around it and on top of it. Without necessarily even intending too, the devs that came after that code was written would've had to understand it in order to add to it. I don't know what the outcome was, but that's not an easy ask.

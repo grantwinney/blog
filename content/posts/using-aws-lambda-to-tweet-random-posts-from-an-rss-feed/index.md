@@ -1,9 +1,7 @@
 ---
 categories:
-- aws-lambda
-- AWS
-- Coding
-date: "2018-06-02T12:32:54Z"
+  - Coding
+date: 2018-06-02T12:32:54Z
 description: ""
 draft: false
 cover:
@@ -11,9 +9,8 @@ cover:
 slug: using-aws-lambda-to-tweet-random-posts-from-an-rss-feed
 summary: If you've got a Twitter account, and a blog with a lot of content, sharing your posts can be a nice way to help someone out, and drive a little extra traffic to your site. If your site generates an RSS feed, here's how you can automate the process - for free!
 tags:
-- aws-lambda
-- aws
-- coding
+  - aws-lambda
+  - aws
 title: Tweet random blog posts from an RSS feed using AWS Lambda
 ---
 Following on the heels of writing a small app to [tweet random posts from a Ghost blog using AWS Lambda](https://grantwinney.com/using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post/), I thought I'd write a similar implementation that operated on an RSS feed instead of specifically just Ghost.

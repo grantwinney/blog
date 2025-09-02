@@ -1,8 +1,7 @@
 ---
 categories:
-- browser-extension
-- Coding
-date: "2017-08-16T10:27:33Z"
+  - Coding
+date: 2017-08-16T10:27:33Z
 description: ""
 draft: false
 cover:
@@ -10,11 +9,10 @@ cover:
 slug: making-your-first-chrome-extension
 summary: We all have our favorite web browser with our favorite extensions loaded, but have you ever considered writing your own? In the past few months I've created a couple extensions to suit my own needs. Here's what I've learned!
 tags:
-- browser-extension
-- coding
+  - browser-extension
 title: Creating Your First Chrome Extension
 aliases:
-- /chrome-extensions-a-peek-under-the-hood
+  - /chrome-extensions-a-peek-under-the-hood
 ---
 We all have our favorite web browser with our favorite extensions loaded, but have you ever considered writing your own? You've probably had at least one idea for _something_ that it'd be nice to have, but there's nothing out there that quite does what you're looking for.
 

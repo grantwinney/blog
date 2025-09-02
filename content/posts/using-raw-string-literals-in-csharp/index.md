@@ -1,8 +1,5 @@
 ---
 categories:
-  - csharp-11
-  - dotnet-7
-  - csharp
   - Coding
 date: 2024-12-14T22:32:43Z
 description: ""
@@ -12,7 +9,6 @@ cover:
 slug: using-raw-string-literals-in-csharp
 summary: C# 11 added raw string literals, not a life-altering new feature, but they could be useful in the right circumstances. Let's see how to use them.
 tags:
-  - coding
   - csharp-11
   - csharp
   - dotnet-7

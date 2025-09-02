@@ -1,7 +1,7 @@
 ---
 categories:
-- Reflections
-date: "2021-07-05T19:20:06Z"
+  - Reflections
+date: 2021-07-05T19:20:06Z
 description: ""
 draft: false
 cover:
@@ -9,7 +9,7 @@ cover:
 slug: avoiding-tribal-knowledge-in-programming
 summary: When I was less skilled as a developer, it was enough to just stay afloat, learning what I needed for the current day or project. As my skill and confidence grows, I've come to appreciate the extra things in life - like a decent set of docs.
 tags:
-- reflection
+  - documentation
 title: Avoiding tribal knowledge in the programming world
 ---
 Whenever I've started a new job, the most overwhelming thing is getting up to speed with everything. How do I run this project; has anyone run into that problem before; how do I change the configuration? Do we have a license for such-and-such; what server hosts this website; am I running into a new issue or something we've already solved before?

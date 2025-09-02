@@ -1,9 +1,7 @@
 ---
 categories:
-- Erlang
-- Coding
-- datetime-handling
-date: "2018-07-01T00:32:52Z"
+  - Coding
+date: 2018-07-01T00:32:52Z
 description: ""
 draft: false
 cover:
@@ -11,9 +9,8 @@ cover:
 slug: how-to-calculate-easter-and-other-holidays-in-erlang
 summary: I wrote a small library for calculating Easter and other holidays in Erlang. Here's how I did it and what I learned.
 tags:
-- erlang
-- coding
-- datetime-handling
+  - erlang
+  - datetime-handling
 title: Calculate Easter and other holidays in Erlang
 ---
 On a whim, I created an Erlang module for calculating holidays, and things were going okay until it came to Easter. Have you ever tried to calculate Easter? It's surprisingly difficult.

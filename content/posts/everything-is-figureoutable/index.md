@@ -1,9 +1,16 @@
 ---
-date: "2025-06-20T01:08:55Z"
-description: ""
-draft: true
-slug: everything-is-figureoutable
 title: Everything is figureoutable
+slug: everything-is-figureoutable
+summary:
+description:
+date:
+draft: true
+cover:
+  image:
+  alt: banner image for post
+  caption:
+categories:
+  - Reflections
+tags:
+  -
 ---
-
-

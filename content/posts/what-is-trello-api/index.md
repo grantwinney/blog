@@ -1,9 +1,7 @@
 ---
 categories:
-- API
-- Trello
-- tools-of-the-trade
-date: "2017-12-27T20:45:59Z"
+  - APIs
+date: 2017-12-27T20:45:59Z
 description: ""
 draft: false
 cover:
@@ -11,12 +9,10 @@ cover:
 slug: what-is-trello-api
 summary: Trello is a virtual kanban board... or a nice to-do list if you're going solo. I like it, maybe you will too, and their API makes nearly all areas accessible to devs.
 tags:
-- api
-- trello
-- tools
+  - trello
 title: Manage Boards and Cards With the Trello API
 aliases:
-- /day-10-trello-api
+  - /day-10-trello-api
 ---
 If you're unfamiliar with Trello, it's a nice service that's similar to a kanban board... or a to-do list if you're just using it personally like I do. Anyway, I like it - maybe you will too. Let's check out the [Trello API](https://developers.trello.com/v1.0/reference).
 

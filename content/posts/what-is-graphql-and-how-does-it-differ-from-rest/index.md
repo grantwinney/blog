@@ -1,7 +1,7 @@
 ---
 categories:
-- GraphQL
-date: "2019-09-21T02:48:40Z"
+  - Questions
+date: 2019-09-21T02:48:40Z
 description: ""
 draft: false
 cover:
@@ -9,7 +9,7 @@ cover:
 slug: what-is-graphql-and-how-does-it-differ-from-rest
 summary: GraphQL is an alternative for REST, not a replacement. Let's take a brief look at how they differ.
 tags:
-- graphql
+  - graphql
 title: What is GraphQL and how does it differ from REST?
 ---
 Finding a new [API](https://grantwinney.com/what-is-an-api/) can be like discovering a gateway to a vast amount of data that might be otherwise inaccessible. A couple of my favorites have led to [photos from the Mars Rover](https://grantwinney.com/what-is-nasa-api/) and [300 year old newspapers](https://grantwinney.com/searching-historical-newspapers-with-the-chronicling-america-api/). These APIs are often implemented using [REST](https://en.wikipedia.org/wiki/Representational_state_transfer), the standard for making web resources accessible for over a decade, but there's a different way to access resources called [GraphQL](https://en.wikipedia.org/wiki/GraphQL).

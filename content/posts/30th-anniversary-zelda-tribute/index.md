@@ -1,7 +1,6 @@
 ---
 categories:
   - Retro
-  - nodejs
 date: 2020-09-09T16:28:52Z
 description: ""
 draft: false

@@ -1,8 +1,7 @@
 ---
 categories:
-- API
-- Space
-date: "2017-12-28T12:03:00Z"
+  - APIs
+date: 2017-12-28T12:03:00Z
 description: ""
 draft: false
 cover:
@@ -10,11 +9,10 @@ cover:
 slug: what-is-iss-notify-api
 summary: The ISS Notify API (or is it the Open Notify API?) was written by Nathan Bergey for a Science Hack Day competition, then released to the public. You can use it to find the location of the ISS, or to find when it'll pass over a location! Check it out.
 tags:
-- api
-- astronomy
+  - astronomy
 title: Learn About the ISS and its Crew with the ISS Notify API
 aliases:
-- /day-11-iss-notify-api
+  - /day-11-iss-notify-api
 ---
 [Nathan Bergey](https://github.com/natronics) wrote the [ISS Notify API](http://open-notify.org/Open-Notify-API/) (or is it the Open Notify API?) for a competition called Science Hack Day. You can [learn more here](http://open-notify.org/about.html), or read on to try it out!
 

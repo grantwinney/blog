@@ -1,8 +1,7 @@
 ---
 categories:
-- CSS
-- Coding
-date: "2020-02-13T23:50:42Z"
+  - Coding
+date: 2020-02-13T23:50:42Z
 description: ""
 draft: false
 cover:
@@ -10,8 +9,7 @@ cover:
 slug: how-to-make-a-dark-mode-with-css
 summary: Every time I learn some new piece of CSS I'm amazed at how flexible and powerful it is. Like how easy it is to tailor your site for your visitor's "dark mode" preference!
 tags:
-- css
-- coding
+  - css
 title: How to make a dark mode with CSS
 css: sun-moon.css
 ---

@@ -1,9 +1,7 @@
 ---
 categories:
-- Git
-- GitHub
-- tools-of-the-trade
-date: "2017-01-16T07:52:51Z"
+  - Tools
+date: 2017-01-16T07:52:51Z
 description: ""
 draft: false
 cover:
@@ -11,9 +9,8 @@ cover:
 slug: 5-things-you-can-do-with-a-locally-cloned-github-wiki
 summary: There’s a feature of every GitHub repo that in my experience doesn’t get a ton of love, and that's the wiki. In all fairness, I'm not sure how much love it deserves - it's sorely lacking in features. But did you know it's a separate repo that you can clone and manipulate locally?
 tags:
-- git
-- github
-- tools
+  - git
+  - github
 title: 5 Things You Can Do With a Locally Cloned GitHub Wiki
 ---
 For software developers, GitHub is a useful (possibly even indispensable) tool. We use it for our personal projects, finding new libraries to use, and collaborating as a team. There’s a feature of every GitHub repo that I hear little about and rarely think about – the wiki.

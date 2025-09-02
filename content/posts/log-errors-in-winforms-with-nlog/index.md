@@ -1,11 +1,7 @@
 ---
 categories:
-- surviving-winforms
-- Logging
-- WinForms
-- Coding
-- NLog
-date: "2021-10-09T15:53:15Z"
+  - Coding
+date: 2021-10-09T15:53:15Z
 description: ""
 draft: false
 cover:
@@ -13,11 +9,10 @@ cover:
 slug: log-errors-in-winforms-with-nlog
 summary: Logs are a great tool for squashing bugs and tracing errors. Let's see how to add NLog to our project.
 tags:
-- surviving-winforms
-- logging
-- winforms
-- coding
-- nlog
+  - surviving-winforms
+  - logging
+  - winforms
+  - nlog
 title: How to log errors in WinForms using NLog
 ---
 What's more annoying than a bug in your code? Not knowing _why_ there's a bug in your code! I've worked in code bases before that have little to no logging, and it's awful. When an exception is thrown, .NET tells us what and where, including the long chain of method calls (stack trace) all the way back to the origin. To not make a note of that somewhere is a shame.. and a waste of everyone's time! Some people love debugging. I'm not one of them.

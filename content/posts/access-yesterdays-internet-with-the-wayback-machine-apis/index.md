@@ -1,7 +1,7 @@
 ---
 categories:
-- API
-date: "2018-06-24T20:02:24Z"
+  - API
+date: 2018-06-24T20:02:24Z
 description: ""
 draft: false
 cover:
@@ -9,7 +9,7 @@ cover:
 slug: access-yesterdays-internet-with-the-wayback-machine-apis
 summary: The Wayback Machine, a product of the Internet Archive, is an ambitious tool that's been documenting websites for many years. It's useful when a page you need is removed by the original author. Let's take a look at their API and how we might make use of it.
 tags:
-- api
+  - archiving
 title: Access yesterday's Internet with the Wayback Machine API
 ---
 Today I'm checking out the Wayback Machine APIs from the Internet Archive. If you haven't heard of the IA before, it's a site that's aiming to... well.. archive everything. They're probably best known for helping people find [archived versions of deleted pages](https://web.archive.org/), but they have a lot of [old software and games](https://archive.org/details/software), [books](https://openlibrary.org/), and [much more](https://archive.org/projects/). Unfortunately, they only have a [demo version](https://archive.org/details/F19StealthFighter_1020) of F-19 stealth fighter, the first game I ever played... well, other than [Oregon Trail](https://archive.org/details/msdos_Oregon_Trail_The_1990). And [Number Munchers](https://archive.org/details/msdos_Number_Munchers_1990)!!

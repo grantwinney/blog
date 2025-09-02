@@ -1,11 +1,7 @@
 ---
 categories:
-- surviving-winforms
-- WinForms
-- CEF
-- CEFSharp
-- Coding
-date: "2022-08-16T03:56:47Z"
+  - Coding
+date: 2022-08-16T03:56:47Z
 description: ""
 draft: false
 cover:
@@ -13,11 +9,10 @@ cover:
 slug: displaying-an-iis-hosted-site-in-cefsharp
 summary: Thanks to CEFSharp, we can finally bring WinForms to the web! That didn't sound right. Okay, let's just look at hosting a site in IIS and showing it.
 tags:
-- surviving-winforms
-- winforms
-- cef
-- cefsharp
-- coding
+  - surviving-winforms
+  - winforms
+  - cef
+  - cefsharp
 title: Displaying an IIS hosted site in CEFSharp
 ---
 A few weeks ago I shared how you can use [CEFSharp](http://cefsharp.github.io/) to display an html page. I called it hosting, but uh, it was really just displaying a single html page that was baked into the project itself. Yeah, cutting edge, I know. It's WinForms, the bar is low folks.

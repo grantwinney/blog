@@ -1,8 +1,6 @@
 ---
 categories:
-  - dotnet-5
-  - WinForms
-  - surviving-winforms
+  - Coding
 date: 2024-12-31T23:41:30Z
 description: ""
 draft: false

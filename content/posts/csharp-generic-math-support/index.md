@@ -1,10 +1,7 @@
 ---
 categories:
-- csharp-11
-- csharp
-- generic-math
-- Coding
-date: "2023-04-05T03:50:14Z"
+  - Coding
+date: 2023-04-05T03:50:14Z
 description: ""
 draft: false
 cover:
@@ -12,13 +9,12 @@ cover:
 slug: csharp-generic-math-support
 summary: What is Generic Math support in C# 11, and how do we take advantage of it? Let's dig in and find out! (part 3 of 3)
 tags:
-- csharp-11
-- csharp
-- generic-math
-- coding
+  - csharp-11
+  - csharp
+  - generic-math
 title: Generic Math Support in C# 11
 aliases:
-- /whats-generic-math-support-in-csharp
+  - /whats-generic-math-support-in-csharp
 ---
 This is post 3 in a 3-part series building up to a new C# 11 feature called [Generic Math](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#generic-math-support). First though, it might be helpful to read two other posts, to get familiar with [static abstract members](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c/) (also new to C# 11) and [overloading operators](https://grantwinney.com/csharp-overload-arithmetic-equality-comparison-operators/) (not new, but useful).
 

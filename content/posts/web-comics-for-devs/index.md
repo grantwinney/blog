@@ -1,7 +1,7 @@
 ---
 categories:
-- Reflections
-date: "2019-02-10T18:58:54Z"
+  - Reflections
+date: 2019-02-10T18:58:54Z
 description: ""
 draft: false
 cover:
@@ -9,7 +9,6 @@ cover:
 slug: web-comics-for-devs
 summary: Need a comic break? Here's some web comics I've stumbled upon over the years - the funny, sarcastic, informative, and just plain weird.
 tags:
-- reflection
 title: Fun web comics for developers
 ---
 Who couldn't use a little light-heartedness in their day? Or dry humor if that's what you're looking for? Or something educational in an easy to digest format?

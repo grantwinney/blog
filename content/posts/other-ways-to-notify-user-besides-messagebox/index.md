@@ -1,10 +1,7 @@
 ---
 categories:
-- Coding
-- surviving-winforms
-- WinForms
-- csharp
-date: "2023-08-16T01:35:54Z"
+  - Coding
+date: 2023-08-16T01:35:54Z
 description: ""
 draft: false
 cover:
@@ -12,10 +9,9 @@ cover:
 slug: other-ways-to-notify-user-besides-messagebox
 summary: When sending notifications in a WinForms app, a MessageBox is the only way to go... or is it? Let's get creative and see what else we might do.
 tags:
-- coding
-- surviving-winforms
-- winforms
-- csharp
+  - surviving-winforms
+  - winforms
+  - csharp
 title: Simple ways to notify a user without a MessageBox in WinForms
 ---
 I think all of us would agree that when we're notified about something, it's best to have it jammed in front of our faces, interrupting whatever else we're doing until we deal with it. The latest issue, whatever it is, is the most pressing and should demand our immediate attention. This is the way. 😑

@@ -1,9 +1,7 @@
 ---
 categories:
-- VS4Mac
-- Testing
-- tools-of-the-trade
-date: "2017-07-06T12:15:51Z"
+  - Tools
+date: 2017-07-06T12:15:51Z
 description: ""
 draft: false
 cover:
@@ -11,9 +9,8 @@ cover:
 slug: tdd-test-driven-development-using-visual-studio-for-mac
 summary: Are you a Mac user and .NET fan? Did you know there's a native VS app now? Writing tests is important, so I decided to try out NUnit in @vs4mac.
 tags:
-- vs4mac
-- testing
-- tools
+  - vs4mac
+  - testing
 title: Unit Testing in Visual Studio for Mac
 ---
 Last month at a user group, they selected the [magic square kata](https://github.com/gigasquid/wonderland-clojure-katas/tree/master/magic-square), which was a new one for me. Basically, you arrange 9 unique numbers in a 3x3 grid such that they add up to the same number horizontally, vertically and diagonally. I paired up with someone else who knew C#, and we tackled the kata in Visual Studio for Mac.

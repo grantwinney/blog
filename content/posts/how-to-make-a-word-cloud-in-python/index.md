@@ -1,8 +1,7 @@
 ---
 categories:
-- Coding
-- Python
-date: "2020-06-04T21:43:00Z"
+  - Coding
+date: 2020-06-04T21:43:00Z
 description: ""
 draft: false
 cover:
@@ -10,8 +9,7 @@ cover:
 slug: how-to-make-a-word-cloud-in-python
 summary: We've all seen word clouds, like in the sidebars of blogs, but let's see how we might create our own with a little bit of code!
 tags:
-- coding
-- python
+  - python
 title: Creating a basic Word Cloud in Python
 ---
 You've most likely seen word clouds before, like in the sidebars of blogs. It's a fun, easy way to visualize which words in a group are more significant in some way. While you can [create your own](https://worditout.com/) online, there's no reason you can't write your own in the language of your choice too.

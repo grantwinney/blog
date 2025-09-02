@@ -1,11 +1,7 @@
 ---
 categories:
-- surviving-winforms
-- csharp-4
-- csharp-7.2
-- Coding
-- csharp
-date: "2022-10-12T22:09:47Z"
+  - Coding
+date: 2022-10-12T22:09:47Z
 description: ""
 draft: false
 cover:
@@ -13,11 +9,10 @@ cover:
 slug: csharp-named-arguments
 summary: Named arguments in C#.. they've been around a long time, but does anyone use them? Let's check out another feature that helps tame wild code.
 tags:
-- surviving-winforms
-- csharp-4
-- csharp-7.2
-- coding
-- csharp
+  - surviving-winforms
+  - csharp-4
+  - csharp-7
+  - csharp
 title: Named arguments in C#
 ---
 I've recently been spending time _(for my benefit and hopefully yours too!)_ reviewing some of the goodies C# has given us [over the years](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history). They mostly help make our code clearer and more concise, like [local functions](https://grantwinney.com/local-functions-in-csharp-aka-nested-methods/) and [string interpolation](https://grantwinney.com/using-string-interpolation-to-craft-readable-strings/), [safe null handling](https://grantwinney.com/null-conditional-and-null-coalescing-operators/) and the [nameof](https://grantwinney.com/using-nameof-to-avoid-magic-strings/) operator. Others have been complete game changers, like LINQ and [async/await](https://grantwinney.com/using-async-await-and-task-to-keep-the-winforms-ui-more-responsive/). If you find yourself supporting a legacy app, as many of us do, I've been writing a lot about [surviving WinForms](https://grantwinney.com/tags/surviving-winforms/) in general. 😉

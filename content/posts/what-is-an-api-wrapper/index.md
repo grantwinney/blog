@@ -1,7 +1,8 @@
 ---
 categories:
-- Questions
-date: "2018-01-25T04:59:32Z"
+  - Questions
+  - APIs
+date: 2018-01-25T04:59:32Z
 description: ""
 draft: false
 cover:
@@ -9,10 +10,9 @@ cover:
 slug: what-is-an-api-wrapper
 summary: When you find an API to use in your app, you'll need to access it in a specific language - not always an easy or straightforward task. As long as you're doing all that work, why keep it to yourself? Let's look at creating an API wrapper that you can share with others!
 tags:
-- question
 title: What is an API wrapper?
 aliases:
-- /what-is-an-api-wrapper-and-how-do-i-write-one
+  - /what-is-an-api-wrapper-and-how-do-i-write-one
 ---
 Forget about peeling back the layers - today we're gonna talk about _adding_ layers.
 

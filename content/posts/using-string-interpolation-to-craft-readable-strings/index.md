@@ -1,10 +1,7 @@
 ---
 categories:
-- surviving-winforms
-- csharp-6
-- Coding
-- csharp
-date: "2022-09-19T10:30:18Z"
+  - Coding
+date: 2022-09-19T10:30:18Z
 description: ""
 draft: false
 cover:
@@ -12,10 +9,9 @@ cover:
 slug: using-string-interpolation-to-craft-readable-strings
 summary: The longer I write software, the more I come to appreciate clear code. String interpolation in C# is just one more way to help us do that.
 tags:
-- surviving-winforms
-- csharp-6
-- coding
-- csharp
+  - surviving-winforms
+  - csharp-6
+  - csharp
 title: Using string interpolation to craft readable strings in C#
 ---
 The longer I've been writing software, the more I've come to appreciate clear code. One of the toughest challenges in software development is understanding someone else's code - or your own after a few months, heh. If you're supporting an older app, you're spending as much (or more) time understanding what someone wrote 20 years ago than writing new code. Anything that makes it easier is a welcome thing!

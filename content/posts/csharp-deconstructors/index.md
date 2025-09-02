@@ -1,9 +1,7 @@
 ---
 categories:
-- Coding
-- csharp-7
-- csharp
-date: "2023-06-15T22:12:31Z"
+  - Coding
+date: 2023-06-15T22:12:31Z
 description: ""
 draft: false
 cover:
@@ -11,12 +9,11 @@ cover:
 slug: csharp-deconstructors
 summary: We can deconstruct tuples in C#, but does it work with other types? And assuming it does (spoiler - it does), is it worth bothering with?
 tags:
-- coding
-- csharp-7
-- csharp
+  - csharp-7
+  - csharp
 title: Adding deconstructors to C# types
 aliases:
-- /adding-deconstructors-in-csharp-is-it-worth-it
+  - /adding-deconstructors-in-csharp-is-it-worth-it
 ---
 Earlier this year, I wrote about being able to [deconstruct tuples in C#](https://grantwinney.com/using-tuple-and-deconstruction-to-return-multiple-values/), something that was added to [C# 7](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-70). That kind of functional behavior is one of the _(so so very few)_ things I miss from my years of writing Erlang code. It neatens up your code a bit, and you can read more about it here:
 

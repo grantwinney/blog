@@ -1,8 +1,7 @@
 ---
 categories:
-- ghost-blog
-- deprecated-api
-date: "2018-02-08T04:12:44Z"
+  - APIs
+date: 2018-02-08T04:12:44Z
 description: ""
 draft: false
 cover:
@@ -10,11 +9,11 @@ cover:
 slug: what-is-the-ghost-api
 summary: The Ghost API provides access to your blog's posts, tags, and users. You can get items, as well as create them. Before accessing anything though, you'll need several pieces of data, depending on your blog settings and whether you're trying to get data or create it. Let's see what we can do with it.
 tags:
-- ghost-blog
-- deprecated-api
+  - ghost-blog
+  - deprecated-api
 title: Manage blog posts, tags, and users with Ghost API v5.0
 aliases:
-- /ghost-admin-api-v20
+  - /ghost-admin-api-v20
 ---
 The [Ghost API](https://api.ghost.org/) provides access to your Ghost blog's posts, tags, and users. You can get items, as well as create them. Before accessing anything though, you'll need several pieces of data - which ones exactly depends on your blog settings and whether you're trying to use the public API or private API. I'll elaborate on the differences below.
 

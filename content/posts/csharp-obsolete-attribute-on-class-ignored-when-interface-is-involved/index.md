@@ -1,19 +1,15 @@
 ---
 categories:
-- csharp
-- Coding
-- attributes
-- Metadata
-date: "2015-02-04T17:49:31Z"
+  - Coding
+date: 2015-02-04T17:49:31Z
 description: ""
 draft: false
 slug: csharp-obsolete-attribute-on-class-ignored-when-interface-is-involved
 summary: The Obsolete attribute on a class is ignored when an interface is involved. It caught me by surprise, but makes sense. Let's see why.
 tags:
-- csharp
-- coding
-- attributes
-- metadata
+  - csharp
+  - attributes
+  - metadata
 title: Obsolete Attribute on a Class is Ignored When an Interface is Involved
 ---
 While marking some code as [obsolete](https://msdn.microsoft.com/en-us/library/system.obsoleteattribute\(v=vs.110\).aspx) the other day, it seemed that the attribute was being ignored. As it turns out, there's a reasonable explanation, but it took me by surprise at first.

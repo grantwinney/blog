@@ -1,8 +1,7 @@
 ---
 categories:
-- NuGet
-- tools-of-the-trade
-date: "2019-10-03T17:09:27Z"
+  - Tools
+date: 2019-10-03T17:09:27Z
 description: ""
 draft: false
 cover:
@@ -10,8 +9,7 @@ cover:
 slug: whats-a-package-manager
 summary: If you've heard the term package manager, especially with GitHub announcing their own, you might be wondering what exactly it is. Well, it's a way to find, reuse, and share code, among other things.
 tags:
-- nuget
-- tools
+  - nuget
 title: What's a package manager?
 ---
 None of us writes code in a vacuum.

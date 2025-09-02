@@ -1,8 +1,7 @@
 ---
 categories:
-- OSS
-- Reflections
-date: "2015-11-12T07:27:00Z"
+  - Reflections
+date: 2015-11-12T07:27:00Z
 description: ""
 draft: false
 cover:
@@ -10,8 +9,7 @@ cover:
 slug: hacktoberfest-and-making-my-first-oss-contributions
 summary: I made my first OSS contributions during HacktoberFest, gaining experience (and swag!) with the help of DigitalOcean and GitHub. :)
 tags:
-- oss
-- reflection
+  - oss
 title: HacktoberFest and My First OSS Contributions
 ---
 All last month, DigitalOcean carried out an event called HacktoberFest. In their own words…

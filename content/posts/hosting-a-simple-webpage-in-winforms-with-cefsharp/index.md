@@ -1,11 +1,7 @@
 ---
 categories:
-- surviving-winforms
-- WinForms
-- CEFSharp
-- CEF
-- Coding
-date: "2022-06-28T23:07:09Z"
+  - Coding
+date: 2022-06-28T23:07:09Z
 description: ""
 draft: false
 cover:
@@ -13,11 +9,10 @@ cover:
 slug: hosting-a-simple-webpage-in-winforms-with-cefsharp
 summary: WinForms and the web. Like oil and water, they don't mix well. But with CEFSharp, they mix a LOT better. Let's check it out.
 tags:
-- surviving-winforms
-- winforms
-- cefsharp
-- cef
-- coding
+  - surviving-winforms
+  - winforms
+  - cefsharp
+  - cef
 title: Host a simple webpage in WinForms with CefSharp
 ---
 WinForms and the web. Like oil and water, they don't mix well. The web is the future, hands down. If I had an idea for an app that I wanted to share with the world, I'd make it a website, not a WinForms app. Who wants to worry about distribution and piracy and having to support nigh infinite number of slightly different machines it might run on? But WinForms isn't going away any time soon either.

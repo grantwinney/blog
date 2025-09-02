@@ -1,11 +1,7 @@
 ---
 categories:
-- LINQ
-- csharp
-- csharp-10
-- dotnet-6
-- Coding
-date: "2024-12-05T22:24:55Z"
+  - Coding
+date: 2024-12-05T22:24:55Z
 description: ""
 draft: false
 cover:
@@ -13,11 +9,10 @@ cover:
 slug: using-minby-and-maxby-in-csharp
 summary: The .NET team has made some helpful additions to LINQ over the last few years. Today let's check out MinBy and MaxBy from C# 10 / .NET 6.
 tags:
-- linq
-- csharp
-- csharp-10
-- dotnet-6
-- coding
+  - linq
+  - csharp
+  - csharp-10
+  - dotnet-6
 title: Using MinBy and MaxBy in C# 10 / .NET 6
 ---
 Microsoft made a couple new additions to LINQ as part of the C# 13 / .NET 9 release a few weeks ago, and, since I happen to really like LINQ, I wrote about [how to use them](https://grantwinney.com/using-linq-countby-and-aggregateby-in-csharp/). That got me thinking about other recent additions I might've missed in the last few releases, so I started [looking back](https://learn.microsoft.com/en-us/dotnet/maui/whats-new). And whatdya know, we got a slew of updates to LINQ in C# 10 / .NET 6 a few years ago.

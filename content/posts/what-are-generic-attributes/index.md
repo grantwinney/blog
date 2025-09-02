@@ -1,11 +1,7 @@
 ---
 categories:
-- csharp-11
-- csharp
-- attributes
-- Metadata
-- Coding
-date: "2023-08-23T15:52:21Z"
+  - Coding
+date: 2023-08-23T15:52:21Z
 description: ""
 draft: false
 cover:
@@ -13,11 +9,10 @@ cover:
 slug: what-are-generic-attributes
 summary: Generic attributes increase the flexibility of a very early .NET feature. Let's try using them and see how it keeps our code DRY.
 tags:
-- csharp-11
-- csharp
-- attributes
-- metadata
-- coding
+  - csharp-11
+  - csharp
+  - attributes
+  - metadata
 title: What are generic attributes in C# 11?
 ---
 For the uninitiated, [attributes](https://learn.microsoft.com/en-us/dotnet/csharp/advanced-topics/reflection-and-attributes/) provide a way to attach extra metadata to a variety of C# elements. They're built into the .NET Framework (like [Description](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.descriptionattribute)), third-party libraries (like NUnit's [TestFixture](https://docs.nunit.org/articles/nunit/writing-tests/attributes/testfixture.html)), and you can even [define your own](https://learn.microsoft.com/en-us/dotnet/csharp/advanced-topics/reflection-and-attributes/attribute-tutorial). While they don't directly affect your code, per se, they generally affect your application in some way, like how it compiles or what the user sees at runtime.

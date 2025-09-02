@@ -1,11 +1,7 @@
 ---
 categories:
-- csharp-12
-- TimeProvider
-- datetime-handling
-- Coding
-- FakeTimeProvider
-date: "2024-02-05T05:07:51Z"
+  - Coding
+date: 2024-02-05T05:07:51Z
 description: ""
 draft: false
 cover:
@@ -13,11 +9,10 @@ cover:
 slug: using-timeprovider-and-faketimeprovider-in-winforms
 summary: Testing .NET code involving time has always been a pain, but the TimeProvider class (backported to the .NET Framework) gives us awesome new tools.
 tags:
-- csharp-12
-- time-provider
-- datetime-handling
-- coding
-- fake-time-provider
+  - csharp-12
+  - time-provider
+  - datetime-handling
+  - fake-time-provider
 title: Using TimeProvider and FakeTimeProvider in WinForms
 ---
 Each new version of .NET brings great new tools. We got generics and LINQ in .NET 2 and 3, the [async/await model](https://grantwinney.com/using-async-await-and-task-to-keep-the-winforms-ui-more-responsive/) in .NET 4.5, and [string interpolation](https://grantwinney.com/using-string-interpolation-to-craft-readable-strings) in .NET 4.6. Okay, that last one's not in the same league as the other ones, but I use string interpolation _all_ the time.

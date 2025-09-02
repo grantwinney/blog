@@ -1,11 +1,7 @@
 ---
 categories:
-- surviving-winforms
-- Logging
-- NLog
-- WinForms
-- Coding
-date: "2023-07-02T03:09:24Z"
+  - Coding
+date: 2023-07-02T03:09:24Z
 description: ""
 draft: false
 cover:
@@ -13,11 +9,10 @@ cover:
 slug: how-to-log-messages-to-multiple-targets-with-nlog
 summary: When it comes to finding a bug in an app, few things beat a good trail of logs. And for writing those logs, few tools beat NLog in simplicity or flexibility. I rarely appreciate just how flexible it is though, so it's worth spending a little time taking a closer look.
 tags:
-- surviving-winforms
-- logging
-- nlog
-- winforms
-- coding
+  - surviving-winforms
+  - logging
+  - nlog
+  - winforms
 title: How to log messages to multiple targets with NLog
 ---
 When it comes to finding a bug in an app, few things beat a good trail of logs. And for writing those logs, few tools beat NLog in simplicity or flexibility. I rarely appreciate just _how_ flexible it is though, so it's worth spending a little time taking a closer look.

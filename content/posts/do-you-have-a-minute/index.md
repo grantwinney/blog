@@ -1,8 +1,12 @@
 ---
-date: "2025-06-17T23:22:27Z"
+categories:
+date: 2025-06-17T23:22:27Z
 description: ""
 draft: true
+cover:
 slug: do-you-have-a-minute
+summary:
+tags:
 title: Do you have a minute?
 ---
 

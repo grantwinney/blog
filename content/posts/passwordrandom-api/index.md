@@ -1,7 +1,7 @@
 ---
 categories:
-- API
-date: "2018-02-06T12:36:34Z"
+  - APIs
+date: 2018-02-06T12:36:34Z
 description: ""
 draft: false
 cover:
@@ -9,7 +9,8 @@ cover:
 slug: passwordrandom-api
 summary: The PasswordRandom API provides random values - and not just passwords as the name would seem to suggest. It also generates GUIDs, random numbers, characters, etc.
 tags:
-- api
+  - guid
+  - password
 title: Generate random passwords, numbers and GUIDs with the PasswordRandom API
 ---
 Some of the API's I've written about give you access to data - public data like [ISS sightings](https://grantwinney.com/what-is-iss-notify-api/) and personal data like your [Dropbox files](https://grantwinney.com/what-is-dropbox-api/) - but an API can return other things too. Here's an API that returns random numbers, GUIDs and other values, and provides an opportunity to customize what it returns.
