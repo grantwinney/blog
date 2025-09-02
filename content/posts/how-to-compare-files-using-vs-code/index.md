@@ -8,8 +8,7 @@ draft: false
 cover:
   image: pexels-gratisography-539--1-.jpg
 slug: how-to-compare-files-using-vs-code
-summary: VS Code is a great editor with a lot of useful features, like being able
-  to compare two random files for differences. Let's see how.
+summary: VS Code is a great editor with a lot of useful features, like being able to compare two random files for differences. Let's see how.
 tags:
 - vscode
 - tools

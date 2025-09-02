@@ -6,8 +6,7 @@ date: "2015-01-15T00:45:22Z"
 description: ""
 draft: false
 slug: csharp-extension-method-to-pass-column-name-to-getfieldvalue
-summary: Let's combine the SqlDataReader's GetFieldValue and GetOrdinal methods into
-  an extension method that lets us pass a column name and get back a specific type.
+summary: Let's combine the SqlDataReader's GetFieldValue and GetOrdinal methods into an extension method that lets us pass a column name and get back a specific type.
 tags:
 - csharp
 - coding

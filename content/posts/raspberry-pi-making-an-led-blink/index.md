@@ -9,8 +9,7 @@ draft: false
 cover:
   image: breadboard-single-led-circuit.jpg
 slug: raspberry-pi-making-an-led-blink
-summary: I unboxed my Raspberry Pi a few weeks ago and started learning Python. Let's
-  code the "Hello World" of the Pi, and make an LED blink.
+summary: I unboxed my Raspberry Pi a few weeks ago and started learning Python. Let's code the "Hello World" of the Pi, and make an LED blink.
 tags:
 - raspberry-pi
 - python

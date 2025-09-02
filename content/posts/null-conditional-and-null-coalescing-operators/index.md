@@ -9,8 +9,7 @@ draft: false
 cover:
   image: photo-1587920149371-ac728dd20da4.jpg
 slug: null-conditional-and-null-coalescing-operators
-summary: Checking for nulls in C# is tedious, but C# 6 gave us the null-conditional
-  and null-coalescing operators. Let's see how they've improved things.
+summary: Checking for nulls in C# is tedious, but C# 6 gave us the null-conditional and null-coalescing operators. Let's see how they've improved things.
 tags:
 - csharp-6
 - coding

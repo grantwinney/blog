@@ -9,8 +9,7 @@ draft: false
 cover:
   image: photo-1506621791785-381723a87549.jpg
 slug: whats-the-point-of-points
-summary: "Points aren't hours, but they sorta represent hours. Or do they? \U0001F914
-  If you're as perplexed as I used to be, here's a few thoughts about points."
+summary: "Points aren't hours, but they sorta represent hours. Or do they? \U0001F914 If you're as perplexed as I used to be, here's a few thoughts about points."
 tags:
 - agile
 - scrum

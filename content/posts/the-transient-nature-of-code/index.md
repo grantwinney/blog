@@ -7,10 +7,7 @@ draft: false
 cover:
   image: photo-1558932130-308a12148740.jpg
 slug: the-transient-nature-of-code
-summary: "I just deleted my coworkers code. \U0001F631 It was good code that wasn't
-  needed anymore, and he understood why. The nature of coding is that it's a progression,
-  and any individual code is transient by nature. Today's code is subject to tomorrow's
-  refactoring."
+summary: "I just deleted my coworkers code. \U0001F631 It was good code that wasn't needed anymore, and he understood why. The nature of coding is that it's a progression, and any individual code is transient by nature. Today's code is subject to tomorrow's refactoring."
 tags:
 - reflection
 title: The transient nature of code

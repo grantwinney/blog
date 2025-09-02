@@ -7,8 +7,7 @@ draft: false
 cover:
   image: photo-1582455462467-b2bf6e3e211f.jpg
 slug: even-in-failure-success
-summary: When what we're trying to accomplish fails, the extra knowledge and clarity
-  we get just by making the attempt is a win all by itself.
+summary: When what we're trying to accomplish fails, the extra knowledge and clarity we get just by making the attempt is a win all by itself.
 tags:
 - reflection
 title: Even in failure, an increase in understanding is a win

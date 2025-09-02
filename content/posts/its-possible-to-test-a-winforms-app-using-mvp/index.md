@@ -11,10 +11,7 @@ draft: false
 cover:
   image: plexiglas-4014712_1920.jpg
 slug: its-possible-to-test-a-winforms-app-using-mvp
-summary: If you find yourself supporting a WinForms application, you're likely to
-  notice the tests... or lack thereof. Just because we may not have been so focused
-  on automated tests and continuous integration when WinForms was younger, that doesn't
-  mean we can't introduce them now. Better late than never!
+summary: If you find yourself supporting a WinForms application, you're likely to notice the tests... or lack thereof. Just because we may not have been so focused on automated tests and continuous integration when WinForms was younger, that doesn't mean we can't introduce them now. Better late than never!
 tags:
 - mvp-design
 - winforms

@@ -7,9 +7,7 @@ draft: false
 cover:
   image: photo-1457327289196-f38b88d97147.jpg
 slug: what-is-noaa-api
-summary: The NOAA API lets us query weather and climate data from NOAA, an agency
-  that studies and charts conditions in the oceans and atmosphere. Let's check it
-  out!
+summary: The NOAA API lets us query weather and climate data from NOAA, an agency that studies and charts conditions in the oceans and atmosphere. Let's check it out!
 tags:
 - api
 title: Access Climate Data With the NOAA API

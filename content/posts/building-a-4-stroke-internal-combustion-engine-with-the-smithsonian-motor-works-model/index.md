@@ -7,10 +7,7 @@ draft: false
 cover:
   image: Smithsonian-Motor-Works-00007.jpg
 slug: building-a-4-stroke-internal-combustion-engine-with-the-smithsonian-motor-works-model
-summary: Last summer, I found this “Smithsonian Motor-Works” set at a garage sale.
-  Once built, it models a 4-stroke internal combustion engine. I’d shelved it for
-  a rainy day and rediscovered it last weekend while cleaning the basement. The girls
-  were out - time for a little father/son bonding!
+summary: Last summer, I found this “Smithsonian Motor-Works” set at a garage sale. Once built, it models a 4-stroke internal combustion engine. I’d shelved it for a rainy day and rediscovered it last weekend while cleaning the basement. Time for a little father/son bonding!
 tags:
 - stem
 title: Building the model 4-stroke combustion engine from Smithsonian

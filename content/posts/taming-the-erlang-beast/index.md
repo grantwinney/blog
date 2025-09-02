@@ -8,9 +8,7 @@ draft: false
 cover:
   image: tiger-2864785_1920.jpg
 slug: taming-the-erlang-beast
-summary: Becoming an Erlang developer has not always been easy, but over the last
-  couple of years I've learned a few ways to tame the beast. It doesn't need to become
-  any other language, but there's definitely room for improving the developer experience!
+summary: Becoming an Erlang developer has not always been easy, but over the last couple of years I've learned a few ways to tame the beast. It doesn't need to become any other language, but there's definitely room for improving the developer experience!
 tags:
 - erlang
 - coding

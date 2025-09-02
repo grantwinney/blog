@@ -7,8 +7,7 @@ draft: false
 cover:
   image: photo-1585838904386-1c86ceea945e.jpg
 slug: diligence-laziness-or-both
-summary: Funny how a little due diligence mixes so well with a healthy interest in
-  avoiding unnecessary future work.
+summary: Funny how a little due diligence mixes so well with a healthy interest in avoiding unnecessary future work.
 tags:
 - reflection
 title: Diligence, laziness.. or both?

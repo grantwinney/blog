@@ -8,10 +8,7 @@ draft: false
 cover:
   image: photo-1596526131083-e8c633c948d2.jpg
 slug: replacing-gmail-with-mailbox-org
-summary: Google provides some amazing tools, but at what cost to privacy? One of the
-  biggest blockers in eliminating them has been finding a reliable and affordable
-  replacement for email (and ideally, calendar, documents, tasks, etc too). Well I
-  may have finally found it, in Mailbox.org.
+summary: Google provides some amazing tools, but at what cost to privacy? One of the biggest blockers in eliminating them has been finding a reliable and affordable replacement for email (and ideally, calendar, documents, tasks, etc too). Well I may have finally found it, in Mailbox.org.
 tags:
 - google
 - privacy

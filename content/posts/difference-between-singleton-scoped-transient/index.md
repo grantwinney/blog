@@ -9,8 +9,7 @@ draft: false
 cover:
   image: photo-1508962914676-134849a727f0.jpg
 slug: difference-between-singleton-scoped-transient
-summary: It's trivial to register a dependency in a .NET API, but it's important to
-  clarify a few terms that drastically change a dependency's lifetime.
+summary: It's trivial to register a dependency in a .NET API, but it's important to clarify a few terms that drastically change a dependency's lifetime.
 tags:
 - dependency-injection
 - coding

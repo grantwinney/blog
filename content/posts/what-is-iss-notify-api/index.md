@@ -8,10 +8,7 @@ draft: false
 cover:
   image: international-space-station-67647_1920.jpg
 slug: what-is-iss-notify-api
-summary: The ISS Notify API (or is it the Open Notify API?) was written by Nathan
-  Bergey for a Science Hack Day competition, then released to the public. You can
-  use it to find the location of the ISS, or to find when it'll pass over a location!
-  Check it out.
+summary: The ISS Notify API (or is it the Open Notify API?) was written by Nathan Bergey for a Science Hack Day competition, then released to the public. You can use it to find the location of the ISS, or to find when it'll pass over a location! Check it out.
 tags:
 - api
 - astronomy

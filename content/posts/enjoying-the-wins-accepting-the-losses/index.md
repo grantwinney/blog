@@ -7,8 +7,7 @@ draft: false
 cover:
   image: photo-1506324587841-69c8c9aaa05c.jpg
 slug: enjoying-the-wins-accepting-the-losses
-summary: When our code isn't clicking, negativity can quickly overshadow all the positive.
-  That's when we need to remember our victories!
+summary: When our code isn't clicking, negativity can quickly overshadow all the positive. That's when we need to remember our victories!
 tags:
 - reflection
 title: Enjoying the wins, accepting the losses

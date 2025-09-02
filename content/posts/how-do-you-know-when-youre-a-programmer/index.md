@@ -7,9 +7,7 @@ draft: false
 cover:
   image: photo-1470506926202-05d3fca84c9a.jpg
 slug: how-do-you-know-when-youre-a-programmer
-summary: How do you know when you've finally arrived, and are officially a programmer?
-  Is it a set of skills, a certain amount of time? Can you ever really arrive, when
-  it's a race of one with no finish line?
+summary: How do you know when you've finally arrived, and are officially a programmer? Is it a set of skills, a certain amount of time? Can you ever really arrive, when it's a race of one with no finish line?
 tags:
 - reflection
 title: How will I know when I'm a programmer?

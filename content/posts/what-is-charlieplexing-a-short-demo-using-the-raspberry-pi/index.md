@@ -8,10 +8,7 @@ draft: false
 cover:
   image: charlieplexing-6-3-1.jpg
 slug: what-is-charlieplexing-a-short-demo-using-the-raspberry-pi
-summary: On past projects, when I needed multiple LEDs, I just connected each to its
-  own GPIO pin. I knew the current only worked in one direction, but I didn't think
-  to take advantage of that fact. Charlieplexing is a method for arranging multiple
-  LEDs so as to use the minimal number of pins possible.
+summary: On past projects, when I needed multiple LEDs, I just connected each to its own GPIO pin. I knew the current only worked in one direction, but I didn't think to take advantage of that fact. Charlieplexing is a method for arranging multiple LEDs so as to use the minimal number of pins possible.
 tags:
 - raspberry-pi
 - stem

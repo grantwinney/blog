@@ -7,10 +7,7 @@ draft: false
 cover:
   image: photo-1550745165-9bc0b252726f.jpg
 slug: access-yesterdays-internet-with-the-wayback-machine-apis
-summary: The Wayback Machine, a product of the Internet Archive, is an ambitious tool
-  that's been documenting websites for many years. It's useful when a page you need
-  is removed by the original author. Let's take a look at their API and how we might
-  make use of it.
+summary: The Wayback Machine, a product of the Internet Archive, is an ambitious tool that's been documenting websites for many years. It's useful when a page you need is removed by the original author. Let's take a look at their API and how we might make use of it.
 tags:
 - api
 title: Access yesterday's Internet with the Wayback Machine API

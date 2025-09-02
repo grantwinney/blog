@@ -7,8 +7,7 @@ draft: false
 cover:
   image: photo-1514329926535-7f6dbfbfb114.jpg
 slug: web-comics-for-devs
-summary: Need a comic break? Here's some web comics I've stumbled upon over the years
-  - the funny, sarcastic, informative, and just plain weird.
+summary: Need a comic break? Here's some web comics I've stumbled upon over the years - the funny, sarcastic, informative, and just plain weird.
 tags:
 - reflection
 title: Fun web comics for developers

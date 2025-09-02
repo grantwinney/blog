@@ -8,10 +8,7 @@ draft: false
 cover:
   image: photo-1476973422084-e0fa66ff9456.jpg
 slug: using-the-ip-geolocation-api-to-find-info-about-an-ip-address
-summary: Last year I caught an article about a simple, free service called ipify that
-  returns your IP address. It became so popular the author soon found himself dealing
-  with billions of requests per month! Here's a look at that API and the IP Geolocation
-  API that it spawned.
+summary: Last year I caught an article about a simple, free service called ipify that returns your IP address. It became so popular the author soon found himself dealing with billions of requests per month! Here's a look at that API and the IP Geolocation API that it spawned.
 tags:
 - api
 - geolocation

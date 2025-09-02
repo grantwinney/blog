@@ -9,8 +9,7 @@ draft: false
 cover:
   image: photo-1545987796-200677ee1011.jpg
 slug: esi-building-apps-with-azure-devops-manage-dependencies
-summary: Continuing with Microsoft's ESI lessons, I learned about Azure Artifacts
-  and the benefits of package managers. They're good. Use them. ;)
+summary: Continuing with Microsoft's ESI lessons, I learned about Azure Artifacts and the benefits of package managers. They're good. Use them. ;)
 tags:
 - azure-devops
 - esi

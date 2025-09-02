@@ -8,9 +8,7 @@ draft: false
 cover:
   image: franck-v-516609-unsplash.jpg
 slug: running-windows-xp-in-virtualbox
-summary: Just got an MSDN account, which always comes with some old treasures (hey,
-  beauty's in the eye of the beholder). Take a trip back with me, to the days of Windows
-  XP, the beginning of the .NET Framework, and even further... ;)
+summary: Just got an MSDN account, which always comes with some old treasures (hey, beauty's in the eye of the beholder). Take a trip back with me, to the days of Windows XP, the beginning of the .NET Framework, and even further... ;)
 tags:
 - retro
 - virtualization

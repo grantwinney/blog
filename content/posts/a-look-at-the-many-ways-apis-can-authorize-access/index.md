@@ -9,9 +9,7 @@ draft: false
 cover:
   image: photo-1586864387634-2f33030dab41.jpg
 slug: a-look-at-the-many-ways-apis-can-authorize-access
-summary: After writing about so many APIs and having to figure out the auth process
-  for each, I wanted to compare and contrast how some of these services approach authentication
-  and authorization, and why they might've decided to do it the way they did.
+summary: After writing about so many APIs and having to figure out the auth process for each, I wanted to compare and contrast how some of these services approach authentication and authorization, and why they might've decided to do it the way they did.
 tags:
 - api
 - security

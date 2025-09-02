@@ -9,8 +9,7 @@ draft: false
 cover:
   image: photo-1493953522814-88c4f52f6509.jpg
 slug: the-helpful-exception-box
-summary: "If you're in a legacy codebase with a centralized \"message box\" form,
-  why not add some features that make it work for you? \U0001F60F"
+summary: "If you're in a legacy codebase with a centralized \"message box\" form, why not add some features that make it work for you? \U0001F60F"
 tags:
 - surviving-winforms
 - debugging

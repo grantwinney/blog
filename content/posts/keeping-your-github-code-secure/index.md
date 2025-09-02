@@ -9,9 +9,7 @@ draft: false
 cover:
   image: padlock.jpg
 slug: keeping-your-github-code-secure
-summary: GitHub, GitLab, and Bitbucket just released a joint statement on a widespread
-  ransomware attack that resulted  in compromised accounts. That got me thinking,
-  what can a person do to protect his or her code on GitHub? As it turns out, a lot...
+summary: GitHub, GitLab, and Bitbucket just released a joint statement on a widespread ransomware attack that resulted  in compromised accounts. That got me thinking, what can a person do to protect his or her code on GitHub? As it turns out, a lot...
 tags:
 - github
 - security

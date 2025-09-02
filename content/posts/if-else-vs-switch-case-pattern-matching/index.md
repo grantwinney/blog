@@ -8,8 +8,7 @@ draft: false
 cover:
   image: photo-1429743305873-d4065c15f93e.jpg
 slug: if-else-vs-switch-case-pattern-matching
-summary: 'A look at if/else, switch/case, pattern matching, other options ... and
-  which is best. (spoiler: none ;) )'
+summary: 'A look at if/else, switch/case, pattern matching, other options ... and which is best. (spoiler: none ;) )'
 tags:
 - csharp
 - coding

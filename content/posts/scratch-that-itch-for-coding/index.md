@@ -7,8 +7,7 @@ draft: false
 cover:
   image: scratch.jpg
 slug: scratch-that-itch-for-coding
-summary: Learning a little about programming could benefit anyone. If you want a fun
-  intro to coding and logical thinking, check out Scratch!
+summary: Learning a little about programming could benefit anyone. If you want a fun intro to coding and logical thinking, check out Scratch!
 tags:
 - learn-to-code
 title: Scratch that itch for coding!

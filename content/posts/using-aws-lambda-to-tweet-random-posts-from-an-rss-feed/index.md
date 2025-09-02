@@ -9,10 +9,7 @@ draft: false
 cover:
   image: photo-1517959184834-fed20bdba773.jpg
 slug: using-aws-lambda-to-tweet-random-posts-from-an-rss-feed
-summary: If you've got a Twitter account, and a blog with a lot of content, sharing
-  your posts can be a nice way to help someone out, and drive a little extra traffic
-  to your site. If your site generates an RSS feed, here's how you can automate the
-  process - for free!
+summary: If you've got a Twitter account, and a blog with a lot of content, sharing your posts can be a nice way to help someone out, and drive a little extra traffic to your site. If your site generates an RSS feed, here's how you can automate the process - for free!
 tags:
 - aws-lambda
 - aws

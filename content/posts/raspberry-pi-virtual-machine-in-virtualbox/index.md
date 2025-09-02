@@ -8,10 +8,7 @@ draft: false
 cover:
   image: debian-find-terminal.png
 slug: raspberry-pi-virtual-machine-in-virtualbox
-summary: I was flipping through The MagPi back-issues and came across an article about
-  setting up a virtual Raspberry Pi environment. It got me thinking... I’ve been playing
-  around a lot on the Pi itself, but it’d be nice to experiment with code even when
-  I don’t have access to a physical Pi.
+summary: I was flipping through The MagPi back-issues and came across an article about setting up a virtual Raspberry Pi environment. It got me thinking... I’ve been playing around a lot on the Pi itself, but it’d be nice to experiment with code even when I don’t have access to a physical Pi.
 tags:
 - raspberry-pi
 - virtualization

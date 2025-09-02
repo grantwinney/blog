@@ -6,8 +6,7 @@ date: "2018-02-03T14:08:21Z"
 description: ""
 draft: false
 slug: creating-a-table-of-contents-for-your-blog
-summary: A table of contents is convenient for visitors, so I wrote a script to generate
-  one for any blog automatically!
+summary: A table of contents is convenient for visitors, so I wrote a script to generate one for any blog automatically!
 tags:
 - ghost-blog
 - coding

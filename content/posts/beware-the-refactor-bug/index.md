@@ -7,9 +7,7 @@ draft: false
 cover:
   image: scaffold-1207389_1920.jpg
 slug: beware-the-refactor-bug
-summary: Refactoring code is part of the dev life, and can even help keep the code
-  healthy, but going too far can do more harm than good. Ever after a decade of writing
-  code, I still have to remind myself from time to time!
+summary: Refactoring code is part of the dev life, and can even help keep the code healthy, but going too far can do more harm than good. Ever after a decade of writing code, I still have to remind myself from time to time!
 tags:
 - reflection
 title: Beware the bite of the refactor bug

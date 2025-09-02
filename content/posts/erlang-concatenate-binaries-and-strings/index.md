@@ -6,8 +6,7 @@ date: "2017-09-26T16:09:00Z"
 description: ""
 draft: false
 slug: erlang-concatenate-binaries-and-strings
-summary: Concatenating strings and binaries in Erlang can get ugly quick. Let's make
-  it easier.
+summary: Concatenating strings and binaries in Erlang can get ugly quick. Let's make it easier.
 tags:
 - erlang
 - coding

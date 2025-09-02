@@ -5,8 +5,7 @@ date: "2019-11-07T18:04:08Z"
 description: ""
 draft: false
 slug: where-are-my-logs-in-aws-lambda
-summary: In a new AWS Lambda function, logging is initially disabled. Lets see how
-  to enable it, for those times where additional detail is needed.
+summary: In a new AWS Lambda function, logging is initially disabled. Lets see how to enable it, for those times where additional detail is needed.
 tags:
 - aws-lambda
 title: Enable logging for an AWS Lambda job

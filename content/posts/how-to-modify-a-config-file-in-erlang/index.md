@@ -6,8 +6,7 @@ date: "2019-05-16T11:22:49Z"
 description: ""
 draft: false
 slug: how-to-modify-a-config-file-in-erlang
-summary: Modifying an Erlang config file at runtime wasn't as easy (or obvious) as
-  I'd thought it'd be. So I wrote a script to hopefully make it easier.
+summary: Modifying an Erlang config file at runtime wasn't as easy (or obvious) as I'd thought it'd be. So I wrote a script to hopefully make it easier.
 tags:
 - erlang
 - coding

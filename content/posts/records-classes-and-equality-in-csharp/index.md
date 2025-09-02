@@ -9,8 +9,7 @@ draft: false
 cover:
   image: maksym-kaharlytskyi-Q9y3LRuuxmg-unsplash.jpg
 slug: records-classes-and-equality-in-csharp
-summary: The record modifier can define properties and equality in our classes for
-  us, saving time and keeping our code cleaner. Let's see how it works!
+summary: The record modifier can define properties and equality in our classes for us, saving time and keeping our code cleaner. Let's see how it works!
 tags:
 - csharp-9
 - csharp

@@ -10,9 +10,7 @@ draft: false
 cover:
   image: photo-1436731837106-3b37ef132fc2.jpg
 slug: using-tuple-and-deconstruction-to-return-multiple-values
-summary: A big challenge with any language is trying to group and organize things
-  sensibly, and returning multiple values is no exception. Let's check out Tuples
-  and deconstruction, and see how they can help us out.
+summary: A big challenge with any language is trying to group and organize things sensibly, and returning multiple values is no exception. Let's check out Tuples and deconstruction, and see how they can help us out.
 tags:
 - csharp-7
 - surviving-winforms

@@ -8,10 +8,7 @@ draft: false
 cover:
   image: photo-1519791746699-ffdaa2d9ec36.jpg
 slug: minification-vs-obfuscation
-summary: Mozilla announced they'll no longer accept extensions with obfuscated code.
-  It's good news for users, maybe not so much for developers. Obfuscated code is (intentionally)
-  nearly impossible to understand, and could easily be malicious. Let's unpack and
-  break down a few concepts.
+summary: Mozilla announced they'll no longer accept extensions with obfuscated code. It's good news for users, maybe not so much for developers. Obfuscated code is (intentionally) nearly impossible to understand, and could easily be malicious. Let's unpack and break down a few concepts.
 tags:
 - security
 - question

@@ -2,7 +2,7 @@
 categories:
   - Coding
 date: 2020-05-22T03:59:32Z
-description: Sample description
+description:
 draft: false
 cover:
   image: photo-1569235186275-626cb53b83ce.jpg

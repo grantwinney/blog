@@ -7,8 +7,7 @@ draft: false
 cover:
   image: graphql_banner-1.jpg
 slug: using-graphiql-to-access-a-graphql-api
-summary: GraphQL is bundled with GraphiQL, which lets us run queries right in the
-  browser! Let's see how GitHub uses it and try kicking the tires.
+summary: GraphQL is bundled with GraphiQL, which lets us run queries right in the browser! Let's see how GitHub uses it and try kicking the tires.
 tags:
 - graphql
 title: Using the GraphiQL IDE to access a GraphQL API

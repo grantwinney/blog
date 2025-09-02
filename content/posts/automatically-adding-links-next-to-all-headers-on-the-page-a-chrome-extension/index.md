@@ -7,10 +7,7 @@ draft: false
 cover:
   image: photo-1563115298-e9585e7943d4.jpg
 slug: automatically-adding-links-next-to-all-headers-on-the-page-a-chrome-extension
-summary: Ever needed to link directly to one section of a webpage? You can, as long
-  as there's a header (or another element nearby like a div) with an ID assigned to
-  it. Getting the ID isn't tough, but it's a bit of a pain. It doesn't have to be
-  that hard.
+summary: Ever needed to link directly to one section of a webpage? You can, as long as there's a header (or another element nearby like a div) with an ID assigned to it. Getting the ID isn't tough, but it's a bit of a pain. It doesn't have to be that hard.
 tags:
 - browser-extension
 title: Automatically add links to all headers on a website (a Chrome extension)

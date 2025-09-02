@@ -7,9 +7,7 @@ draft: false
 cover:
   image: pexels-christina-morillo-1181376.jpg
 slug: be-ready-to-explain-your-code
-summary: Does the mere thought of explaining your code cause anxiety? Be confident!
-  We should all understand what we're writing and why. It's an opportunity (for everyone)
-  to learn!
+summary: Does the mere thought of explaining your code cause anxiety? Be confident! We should all understand what we're writing and why. It's an opportunity (for everyone) to learn!
 tags:
 - reflection
 title: Be ready to explain your code
