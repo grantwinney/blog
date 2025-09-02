@@ -5,7 +5,7 @@ date: 2023-08-24T21:30:16Z
 description: ""
 draft: false
 cover:
-  image: photo-1582455462467-b2bf6e3e211f.jpg
+  image:
 slug: even-in-failure-success
 summary: When what we're trying to accomplish fails, the extra knowledge and clarity we get just by making the attempt is a win all by itself.
 tags:

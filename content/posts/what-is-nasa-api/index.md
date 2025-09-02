@@ -5,7 +5,7 @@ date: 2017-12-24T19:06:14Z
 description: ""
 draft: false
 cover:
-  image: mars-67522_1920.jpg
+  image:
 slug: what-is-nasa-api
 summary: NASA's API makes their data (such as Mars rover photos) available to anyone who wants to consume it. It's an unprecedented wealth of knowledge, so let's dig in!
 tags:

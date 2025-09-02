@@ -5,7 +5,7 @@ date: 2014-12-07T09:13:17Z
 description: ""
 draft: false
 cover:
-  image: photo-1514927298007-a2b56e5270e1.jpg
+  image:
 slug: wpf-filtering-listview-using-textbox-and-collectionviewsource
 summary: In WPF, a ListView allows for quite a bit of flexibility. Let's take a look at filtering a ListView, using input being typed into a TextBox.
 tags:

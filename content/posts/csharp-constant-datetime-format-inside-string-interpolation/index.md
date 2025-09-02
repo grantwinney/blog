@@ -5,7 +5,7 @@ date: 2019-04-04T20:06:50Z
 description: ""
 draft: false
 cover:
-  image: photo-1501139083538-0139583c060f.jpg
+  image:
 slug: csharp-constant-datetime-format-inside-string-interpolation
 summary: I was upgrading some code to use string interpolation, a feature introduced in C# 6, when I ran into a small snag with DateTimes and a format string stored as a constant.
 tags:

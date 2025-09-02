@@ -5,7 +5,7 @@ date: 2025-01-17T22:41:08Z
 description: ""
 draft: false
 cover:
-  image: pexels-55570-196645.jpg
+  image:
 slug: webview2-a-browser-for-winforms
 summary: In .NET 5, WinForms got a WebView2 control for displaying web pages.. even ones we create on-the-fly while the app's running. Let's kick the tires.
 tags:

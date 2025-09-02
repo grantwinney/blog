@@ -5,7 +5,7 @@ date: 2024-01-11T04:34:20Z
 description: ""
 draft: false
 cover:
-  image: photo-1575197478864-c83e1d2a4443.jpg
+  image:
 slug: how-to-use-timeprovider-and-faketimeprovider-to-test-timers
 summary: Testing timers in C# is difficult, but .NET 8 (C# 12) adds an abstract TimeProvider class that makes it easier. Let's take a closer look.
 tags:

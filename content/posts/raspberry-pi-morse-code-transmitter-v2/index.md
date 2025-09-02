@@ -5,7 +5,7 @@ date: 2016-05-19T06:10:28Z
 description: ""
 draft: false
 cover:
-  image: morse-code-button-click-1.jpg
+  image:
 slug: raspberry-pi-morse-code-transmitter-v2
 summary: I created a morse code generator before based on entering a string at the console. Now I extended it to generate a message by clicking a button.
 tags:

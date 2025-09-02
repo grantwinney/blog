@@ -5,7 +5,7 @@ date: 2023-12-04T22:22:49Z
 description: ""
 draft: false
 cover:
-  image: photo-1585838904386-1c86ceea945e.jpg
+  image:
 slug: diligence-laziness-or-both
 summary: Funny how a little due diligence mixes so well with a healthy interest in avoiding unnecessary future work.
 tags:

@@ -5,7 +5,7 @@ date: 2019-11-14T17:25:00Z
 description: ""
 draft: false
 cover:
-  image: photo-1517694712202-14dd9538aa97.jpg
+  image:
 slug: only-assignment-call-increment-decrement-await-and-new-object-expressions-can-be-used-as-a-statement
 summary: This error might look a little cryptic at first glance, but it's fairly descriptive in explaining what's wrong. You're likely to come across this one before your first cup of coffee.
 tags:

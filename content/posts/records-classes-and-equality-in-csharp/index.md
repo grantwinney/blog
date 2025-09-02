@@ -5,7 +5,7 @@ date: 2024-12-10T12:35:55Z
 description: ""
 draft: false
 cover:
-  image: maksym-kaharlytskyi-Q9y3LRuuxmg-unsplash.jpg
+  image:
 slug: records-classes-and-equality-in-csharp
 summary: The record modifier can define properties and equality in our classes for us, saving time and keeping our code cleaner. Let's see how it works!
 tags:

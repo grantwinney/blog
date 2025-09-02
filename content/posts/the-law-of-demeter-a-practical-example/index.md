@@ -5,7 +5,7 @@ date: 2020-05-02T03:59:22Z
 description: ""
 draft: false
 cover:
-  image: private-20115_1920.jpg
+  image:
 slug: the-law-of-demeter-a-practical-example
 tags:
   - software-design

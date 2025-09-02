@@ -5,7 +5,7 @@ date: 2017-03-26T02:43:14Z
 description: ""
 draft: false
 cover:
-  image: photo-1476283721796-dd935b062838.jpg
+  image:
 slug: migrating-a-blog-from-wordpress-to-ghost
 tags:
   - ghost-blog

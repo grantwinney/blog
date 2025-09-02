@@ -5,7 +5,7 @@ date: 2017-04-01T18:47:23Z
 description: ""
 draft: false
 cover:
-  image: photo-1476283721796-dd935b062838.jpg
+  image:
 slug: 5-quick-hacks-for-your-ghost-theme
 summary: These "hacks" for Ghost add some cool features to any blog, and should be usable with any theme.
 tags:

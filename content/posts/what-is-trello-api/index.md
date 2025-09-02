@@ -5,7 +5,7 @@ date: 2017-12-27T20:45:59Z
 description: ""
 draft: false
 cover:
-  image: photo-1590402494756-10c265b9d736.jpg
+  image:
 slug: what-is-trello-api
 summary: Trello is a virtual kanban board... or a nice to-do list if you're going solo. I like it, maybe you will too, and their API makes nearly all areas accessible to devs.
 tags:

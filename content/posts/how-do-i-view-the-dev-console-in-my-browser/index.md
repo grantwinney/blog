@@ -5,7 +5,7 @@ date: 2019-03-26T14:47:54Z
 description: ""
 draft: false
 cover:
-  image: photo-1516828956617-80b9eec69bbb.jpg
+  image:
 slug: how-do-i-view-the-dev-console-in-my-browser
 summary: Most people will never even know their browser hides a great set of tools, mostly used by web developers, but which can be useful for anyone trying to figure out why their browser is misbehaving.
 tags:

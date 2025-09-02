@@ -5,7 +5,7 @@ date: 2020-10-11T03:00:46Z
 description: ""
 draft: false
 cover:
-  image: photo-1558932130-308a12148740.jpg
+  image:
 slug: the-transient-nature-of-code
 summary: I just deleted my coworkers code. 😱 It was good code that wasn't needed anymore, and he understood why. The nature of coding is that it's a progression, and any individual code is transient by nature. Today's code is subject to tomorrow's refactoring.
 tags:

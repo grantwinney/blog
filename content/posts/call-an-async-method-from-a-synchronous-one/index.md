@@ -5,7 +5,7 @@ date: 2023-08-11T03:59:55Z
 description: ""
 draft: false
 cover:
-  image: photo-1541397436527-c5d6df584ce1.jpg
+  image:
 slug: call-an-async-method-from-a-synchronous-one
 summary: Writing async code whenever possible is great, but how do we do it when we're stuck with legacy (and very synchronous) code?
 tags:

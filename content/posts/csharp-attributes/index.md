@@ -5,7 +5,7 @@ date: 2019-04-04T15:57:19Z
 description: ""
 draft: false
 cover:
-  image: photo-1571907483086-3c0ea40cc16d.jpg
+  image:
 slug: csharp-attributes
 summary: Ever thought it'd be convenient to attach metadata to your code at design time, then read it at runtime? Attributes let you do just that - to methods, classes, tests, enumerations, and more. Use reflection to read them at runtime and take some action. Here's a few examples for the uninitiated...
 tags:

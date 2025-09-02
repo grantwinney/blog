@@ -5,7 +5,7 @@ date: 2021-07-15T21:46:32Z
 description: ""
 draft: false
 cover:
-  image: photo-1522542550221-31fd19575a2d.jpg
+  image:
 slug: can-i-write-my-own-html-tags
 summary: Can you create your own HTML tags? The answer is..... sorta. Yes and no. Not completely, but a little. Typical, I know.
 tags:

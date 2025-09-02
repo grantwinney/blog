@@ -5,7 +5,7 @@ date: 2016-08-22T07:28:52Z
 description: ""
 draft: false
 cover:
-  image: photo-1543005183-b66272de41f3.jpg
+  image:
 slug: raspberry-pi-pulse-width-modulation
 tags:
   - raspberry-pi

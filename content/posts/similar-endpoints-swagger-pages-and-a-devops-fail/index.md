@@ -5,7 +5,7 @@ date: 2023-12-12T22:48:16Z
 description: ""
 draft: false
 cover:
-  image: photo-1459231978203-b7d0c47a2cb7.jpg
+  image:
 slug: similar-endpoints-swagger-pages-and-a-devops-fail
 summary: After an unexpected debugging session, some thoughts on APIs, similar endpoints, swagger, and an ugly DevOps fail.
 tags:

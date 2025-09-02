@@ -5,7 +5,7 @@ date: 2022-06-06T11:30:43Z
 description: ""
 draft: false
 cover:
-  image: photo-1518648949339-298b03f37f3b.jpg
+  image:
 slug: what-is-manifest-v3-and-why-is-google-pestering-me
 tags:
   - browser-extension

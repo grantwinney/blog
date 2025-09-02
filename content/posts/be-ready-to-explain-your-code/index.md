@@ -5,7 +5,7 @@ date: 2021-02-03T13:28:48Z
 description: ""
 draft: false
 cover:
-  image: pexels-christina-morillo-1181376.jpg
+  image:
 slug: be-ready-to-explain-your-code
 summary: Does the mere thought of explaining your code cause anxiety? Be confident! We should all understand what we're writing and why. It's an opportunity (for everyone) to learn!
 tags:

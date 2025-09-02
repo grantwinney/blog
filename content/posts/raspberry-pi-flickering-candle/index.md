@@ -5,7 +5,7 @@ date: 2016-08-29T22:34:44Z
 description: ""
 draft: false
 cover:
-  image: photo-1476900164809-ff19b8ae5968.jpg
+  image:
 slug: raspberry-pi-flickering-candle
 tags:
   - raspberry-pi

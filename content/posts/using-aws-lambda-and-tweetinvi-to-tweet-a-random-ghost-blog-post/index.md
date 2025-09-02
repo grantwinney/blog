@@ -5,7 +5,7 @@ date: 2018-06-01T17:28:01Z
 description: ""
 draft: false
 cover:
-  image: photo-1502116789488-8f0c6d794de6.jpg
+  image:
 slug: using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post
 summary: If you've got a Twitter account, and a blog with a lot of content, sharing your posts can be a nice way to help someone out, and drive a little extra traffic to your site. Here's how you can automate the process on your Ghost blog - for free!
 tags:

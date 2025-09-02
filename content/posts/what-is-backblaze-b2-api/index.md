@@ -5,7 +5,7 @@ date: 2017-12-17T19:37:29Z
 description: ""
 draft: false
 cover:
-  image: photo-1584169417032-d34e8d805e8b.jpg
+  image:
 slug: what-is-backblaze-b2-api
 summary: The Backblaze B2 Storage API, built on top of Backblaze's cloud storage, lets you access and manage your buckets. Let's check it out!
 tags:

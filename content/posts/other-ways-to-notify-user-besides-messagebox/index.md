@@ -5,7 +5,7 @@ date: 2023-08-16T01:35:54Z
 description: ""
 draft: false
 cover:
-  image: photo-1526554850534-7c78330d5f90.jpg
+  image:
 slug: other-ways-to-notify-user-besides-messagebox
 summary: When sending notifications in a WinForms app, a MessageBox is the only way to go... or is it? Let's get creative and see what else we might do.
 tags:

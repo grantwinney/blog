@@ -5,7 +5,7 @@ date: 2016-09-24T13:30:49Z
 description: ""
 draft: false
 cover:
-  image: joystick-color-wheel-setup-3.jpg
+  image:
 slug: raspberry-pi-analog-joystick
 tags:
   - raspberry-pi

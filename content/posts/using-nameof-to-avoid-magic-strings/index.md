@@ -5,7 +5,7 @@ date: 2021-12-30T01:53:29Z
 description: ""
 draft: false
 cover:
-  image: photo-1514940269061-a79f23a95316.jpg
+  image:
 slug: using-nameof-to-avoid-magic-strings
 summary: There's a lot of ways to make our code work for us. Let's check out using the nameof operator to avoid magic strings.
 tags:

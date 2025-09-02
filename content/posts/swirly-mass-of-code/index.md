@@ -5,7 +5,7 @@ date: 2023-11-14T04:31:52Z
 description: ""
 draft: false
 cover:
-  image: photo-1597425098166-90b88803284b.jpg
+  image:
 slug: swirly-mass-of-code
 tags:
 title: A swirly mass of shared code
