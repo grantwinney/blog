@@ -82,9 +82,6 @@ params:
   assets:
     favicon: "https://grantwinney.com/favicon.ico"
   
-  cover:
-    showInList: true
-
   # search - https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
