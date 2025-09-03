@@ -1,15 +1,15 @@
 {{ $src := .Destination | safeURL }}
 {{ $name := .Destination | path.Base }}
-
 <figure>
   <a href="{{ $src }}" class="glightbox" data-gallery="post-gallery">
     <img 
       src="{{ $src }}" 
       alt="{{ .Text }}"
-      {{ with and (.Page.Resources) (.Page.Resources.GetMatch $name) }}
-        width="{{ .Width }}" 
-        height="{{ .Height }}"
-      {{ end }}
+      {{- if .Page.BundleType -}}
+        {{ with .Page.Resources.GetMatch $name }}
+          width="{{ .Width }}" height="{{ .Height }}"
+        {{ end }}
+      {{- end -}}
       loading="lazy"
     />
   </a>
