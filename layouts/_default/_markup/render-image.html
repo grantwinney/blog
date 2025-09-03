@@ -6,7 +6,7 @@
     <img 
       src="{{ $src }}" 
       alt="{{ .Text }}"
-      {{ with .Page.Resources.GetMatch $name }}
+      {{ with and (.Page.Resources) (.Page.Resources.GetMatch $name) }}
         width="{{ .Width }}" 
         height="{{ .Height }}"
       {{ end }}
