@@ -1,15 +1,21 @@
-{{ $src := .Destination | safeURL }}
-{{ $name := .Destination | path.Base }}
 <figure>
-  <a href="{{ $src }}" class="glightbox" data-gallery="post-gallery">
-    <img 
-      src="{{ $src }}" 
+  <a href="{{ .Destination | safeURL }}" class="glightbox" data-gallery="post-gallery">
+    {{ $width := "" }}
+    {{ $height := "" }}
+
+    {{/* Only try GetMatch if this page is a bundle */}}
+    {{ if eq .Page.Kind "page" }}
+      {{ with .Page.Resources.GetMatch (path.Base .Destination) }}
+        {{ $width = printf "%d" .Width }}
+        {{ $height = printf "%d" .Height }}
+      {{ end }}
+    {{ end }}
+
+    <img
+      src="{{ .Destination | safeURL }}"
       alt="{{ .Text }}"
-      {{- if .Page.BundleType -}}
-        {{ with .Page.Resources.GetMatch $name }}
-          width="{{ .Width }}" height="{{ .Height }}"
-        {{ end }}
-      {{- end -}}
+      {{ if $width }} width="{{ $width }}"{{ end }}
+      {{ if $height }} height="{{ $height }}"{{ end }}
       loading="lazy"
     />
   </a>
