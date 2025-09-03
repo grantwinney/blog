@@ -4,6 +4,7 @@
 a[title^='Search']::after {
     content: "\f002";
     font-family: "FontAwesome";
+    font-size: smaller;
     margin-left: 0.5em; /* spacing between icon and text */
 }
 
