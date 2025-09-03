@@ -1,8 +1,8 @@
 {{ $src := .Destination | safeURL }}
 <figure>
-  <a href="{{ .Destination | safeURL }}" class="glightbox" data-gallery="post-gallery">
+  <a href="{{ $src }}" class="glightbox" data-gallery="post-gallery">
     <img 
-      src="{{ .Destination | safeURL }}" 
+      src="{{ $src }}" 
       alt="{{ .Text }}" 
 {{ with .Page.Resources.GetMatch $src }}
       width="{{ .Width }}"
