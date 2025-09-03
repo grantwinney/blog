@@ -1,23 +1,8 @@
-{{ $src := .Destination | safeURL }}
-{{ $alt := .Text | default "" }}
-
-{{/* Attempt to load as a resource, fallback to static */}}
-{{ $img := resources.Get $src }}
-{{ $width := "" }}
-{{ $height := "" }}
-
-{{ if $img }}
-  {{ $width = printf "%d" $img.Width }}
-  {{ $height = printf "%d" $img.Height }}
-{{ end }}
-
 <figure>
-  <a href="{{ $src }}" class="glightbox" data-gallery="post-gallery">
-    <img
-      src="{{ $src }}"
-      alt="{{ $alt }}"
-      {{ if $width }} width="{{ $width }}"{{ end }}
-      {{ if $height }} height="{{ $height }}"{{ end }}
+  <a href="{{ .Destination | safeURL }}" class="glightbox" data-gallery="post-gallery">
+    <img 
+      src="{{ .Destination | safeURL }}" 
+      alt="{{ .Text }}" 
       loading="lazy"
     />
   </a>
