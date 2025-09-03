@@ -16,7 +16,7 @@ title: A random selection algorithm that factors in age (weighted selection)
 
 Have you ever had a collection of items and needed to select a random one from the lot? That's easy enough in most languages, since they generally provide a way to generate a random number which you can use as the index.
 
-C# has its [Random](https://msdn.microsoft.com/en-us/library/2dx6wyd4\(v=vs.110\).aspx) class.
+C# has its [Random](https://msdn.microsoft.com/en-us/library/2dx6wyd4\(v=vs.110\).aspx) class:
 
 ```csharp
 using System;
@@ -34,14 +34,14 @@ public class Program
 }
 ```
 
-Ruby also has a [Random](https://ruby-doc.org/core-2.4.0/Random.html) class.
+Ruby also has a [Random](https://ruby-doc.org/core-2.4.0/Random.html) class:
 
 ```ruby
 names = ['Tom','Mary','Sam']
 puts "Random name: #{names[Random.rand(names.length)]}"
 ```
 
-And Python has a [Random](https://docs.python.org/3.5/library/random.html) module.
+And Python has a [Random](https://docs.python.org/3.5/library/random.html) module:
 
 ```python
 from random import randint

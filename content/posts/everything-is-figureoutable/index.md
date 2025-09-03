@@ -12,5 +12,4 @@ cover:
 categories:
   - Reflections
 tags:
-  -
 ---
