@@ -56,7 +56,7 @@ toolStrip1.Items.AddRange(imageList2.Images.Keys.Cast<string>().Select(x =>
 
 ## Pros and Cons
 
-Th![](how-to-use-getstockicon-for-winforms/image-6.webp)tion is only being able to call this at runtime. Of course, that's just the nature of this being a method call, but one of the best things about WinForms is its drag-and-drop designer and this definitely works against that. I'm not sure how much usage this will get if it means having a designer with blank toolbars, incomplete buttons, etc. Maybe I'm missing an obvious use case?
+The limitation is only being able to call this at runtime. Of course, that's just the nature of this being a method call, but one of the best things about WinForms is its drag-and-drop designer and this definitely works against that. I'm not sure how much usage this will get if it means having a designer with blank toolbars, incomplete buttons, etc. Maybe I'm missing an obvious use case?
 
 A nice feature, though, is that this method _"returns icons that are themed for the running version of Windows"._ If we copy icons into the project, they are what they are, unchanged no matter what version of Windows someone happens to be running. But with this new call, when someone runs our app in a different version of Windows from the one we designed it in, they'll see the icons that are normal for their OS.
 
