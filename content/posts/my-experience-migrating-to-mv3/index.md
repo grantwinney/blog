@@ -20,13 +20,13 @@ To briefly recap, [Google is spearheading a change](https://developer.chrome.com
 
 What it means is that every developer who writes an addon now needs to spend time figuring out how MV3 works, what changes are required, and make those changes [before June 2023](https://developer.chrome.com/docs/extensions/mv3/mv2-sunset/) when Google unlists MV2 addons from their store. Don't be shocked if some of your favorite browser addons simply vanish next summer.
 
-![](my-experience-migrating-to-mv3/image.webp)
+![](image.webp)
 
 Google keeps extending the deadline
 
 Firefox, which isn't built on Chromium, is attempting to [support both](https://blog.mozilla.org/addons/2022/05/18/manifest-v3-in-firefox-recap-next-steps/) and will [begin accepting MV3 addons](https://blog.mozilla.org/addons/2022/11/17/manifest-v3-signing-available-november-21-on-firefox-nightly/) in just a couple days, although they aren't requiring anyone to adopt the change. The question is, how manageable will that be in the long run?
 
-The first thing I tried was just bumping up the version number. Maybe I'd get lucky? Nope. I was greeted by a looong line of ![](my-experience-migrating-to-mv3/image-1.webp)ge-1.png)
+The first thing I tried was just bumping up the version number. Maybe I'd get lucky? Nope. I was greeted by a looong line of ![](image-1.webp)ge-1.png)
 
 Yep, looks pretty good.
 
@@ -69,7 +69,7 @@ if (header) {
 
 The reason for my concern is that one of the [differences between background pages and service workers](https://developer.chrome.com/docs/extensions/mv3/mv3-migration/#background-service-workers) is that the latter doesn't have access to the DOM. I interpreted that as not having access to the DOM at all, but it seems I was mistaken. I hope.
 
-![](my-experience-migrating-to-mv3/image-6.webp)
+![](image-6.webp)
 
 In MV2, anyone could get out there and write an addon, and I feel like the complexities here might stymie a lot of people with neat ideas. Time will tell.
 

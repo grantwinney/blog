@@ -25,7 +25,7 @@ It's great that the team behind WinForms has the bandwidth to add new features, 
 
 Without considering anything fancier, it's super easy to replace a standard `MessageBox`. Here's a simple message to warn the user when they're about to delete some files:
 
-![](using-taskdialog-in-winforms/image-12.png)
+![](image-12.png)
 
 The code for the above is pretty succinct. We want Yes/No buttons with No as the default:
 
@@ -45,7 +45,7 @@ if (result == DialogResult.Yes)
 
 And here's the a prompt with the same behavior, recreated using `TaskDialog`:
 
-![](using-taskdialog-in-winforms/image-11.png)
+![](image-11.png)
 
 The code is _very_ similar. We set the properties on a `TaskDialogPage` object and pass that to the `TaskDialog.ShowDialog` method:
 
@@ -90,9 +90,9 @@ private static void Application_ThreadException(
 
 Here's what we get. Ouch.
 
-![](using-taskdialog-in-winforms/image-13.png)
+![](image-13.png)
 
-With the new `TaskDi![](using-taskdialog-in-winforms/image-13.png)so much more:
+With the new `TaskDi![](image-13.png)so much more:
 
 ```csharp
 var submitError = new TaskDialogButton("Submit Error");

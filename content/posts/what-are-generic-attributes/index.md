@@ -42,10 +42,10 @@ class BarberShopCustomer
 }
 ```
 
-![](what-are-generic-attributes/image-13.png)
+![](image-13.png)
 
-![](what-are-generic-attributes/image-14.png)
-![](what-are-generic-attributes/image-13.png)ee other examples of attribute usage, here's an article I wrote a few years ago, but today I want to look at a new feature we got in C# 11 called generic attributes.
+![](image-14.png)
+![](image-13.png)ee other examples of attribute usage, here's an article I wrote a few years ago, but today I want to look at a new feature we got in C# 11 called generic attributes.
 
 The new [generic attribute](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#generic-attributes) brings (as the name suggests) the power of generics to attributes; in other words, an Attribute that can apply to more than one type. When I read this, it wasn't immediately obvious to me how this would be useful. I mean, I get how assigning metadata to an element to indicate that it's obsolete, or is an initializer for tests, or should be serialized is beneficial... but what do we get from passing the _type_ to the Attribute?
 
@@ -128,7 +128,7 @@ foreach (var vr in validationResults)
 
 The output correctly reports that DiscoveryYear and OrbitEccentricity are invalid, because the former is past the current year (2023), and the latter is a negative value.
 
-![](what-are-generic-attributes/image-15.png)
+![](image-15.png)
 
 ## A generic attribute that keeps things DRYer
 
@@ -174,6 +174,6 @@ class NumberValidation<T> : ValidationAttribute where T : INumber<T>
 
 The output is the same as before, detecting that 2 of the 3 properties have values that are outside the acceptable range.
 
-![](what-are-generic-attributes/image-16.png)
+![](image-16.png)
 
 If you find your own interesting use for generic attributes, feel free to share them in the comments below! And if you found this content useful, and want to learn more about a variety of [C#](https://grantwinney.com/tags/csharp/) features, check out my [CSharpDotNetExamples repo](https://github.com/grantwinney/CSharpDotNetExamples), where you'll find links to plenty more blog posts and practical examples.

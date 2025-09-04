@@ -31,9 +31,9 @@ Open your solution, go to "Manage NuGet Packages", and search for NLog. You shou
 
 What's the NLog.Extensions.Logging one that I glossed over? Something to do with new features in .NET Core and .NET Standard, and probably not something you're worried about in a WinForms app.
 
-![](log-errors-in-winforms-with-nlog/image-17.webp)
+![](image-17.webp)
 
-![](log-errors-in-winforms-with-nlog/image-19.webp)
+![](image-19.webp)
 
 ## Configure NLog
 

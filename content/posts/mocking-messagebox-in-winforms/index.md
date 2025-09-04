@@ -37,17 +37,17 @@ public partial class Form1 : Form
 
 It's not testable, at least not with unit tests. The moment you call a method that uses it (I made the button click event public), your test will actually popup a MessageBox. Probably not what you wanted.
 
-![](mocking-messagebox-in-winforms/image-3.webp)
+![](image-3.webp)
 
 ## So it's gonna be like that huh...
 
 Unfortunately, the MessageBox class doesn't make it easy for us. Every method is static, so it implements no interface, and you can't mock it. There's no way to extend it with your own class and create an interface for it either. They shut the door on that by giving the class a private constructor.
 
-![](mocking-messagebox-in-winforms/image-1.webp)
+![](image-1.webp)
 
-You can try it anyw![](mocking-messagebox-in-winforms/image-1.webp) mean.
+You can try it anyw![](image-1.webp) mean.
 
-![](mocking-messagebox-in-winforms/image.webp)
+![](image.webp)
 
 ## Wrapping the MessageBox class to mock it
 

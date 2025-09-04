@@ -18,13 +18,13 @@ I recently found myself in need of comparing two versions of an XML file for a m
 
 If the files are saved to disk in the same folder, open the folder, either with the "Open Folder" button on the left (if the "Explorer" pane is open), or with the "Open Folder" option in the "File" menu, or with the "ctrl-k, ctrl-o" shortcut (in Windows):
 
-![](how-to-compare-files-using-vs-code/image-12.webp)
+![](image-12.webp)
 
 Then select both files, right click, and choose "Compare Selected":
 
-![](how-to-compare-files-using-vs-code/image-13.webp)
+![](image-13.webp)
 
-We get a nice ![](how-to-compare-files-using-vs-code/image-13.webp)de that collapses into an inline comparison if the window's too small:
+We get a nice ![](image-13.webp)de that collapses into an inline comparison if the window's too small:
 
 ![](xmlcompare1.webp)
 
@@ -34,14 +34,14 @@ Whether your files are saved to disk or not, the first thing you'll need to do i
 
 Open the "Explorer" pane on the left, then press the "..." item in the top corner and select "Open Editors". Select both files, right click, and choose "Compare Selected" from the context menu:
 
-![](how-to-compare-files-using-vs-code/image-15.webp)
+![](image-15.webp)
 
-![](how-to-compare-files-using-vs-code/image-16.webp)
+![](image-16.webp)
 
-![](how-to-compare-files-using-vs-code/image-17.webp)
+![](image-17.webp)
 
 This works just as well for files that aren't saved too:
 
-![](how-to-compare-files-using-vs-code/image-19.webp)
+![](image-19.webp)
 
-![](how-to-compare-files-using-vs-code/image-18.webp)
+![](image-18.webp)

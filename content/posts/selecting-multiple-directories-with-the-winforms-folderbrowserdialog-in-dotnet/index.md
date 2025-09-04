@@ -26,7 +26,7 @@ if (fbd.ShowDialog() == DialogResult.OK)
     MessageBox.Show($"The path to process:\n\n{fbd.SelectedPath}");
 ```
 
-![](selecting-multiple-directories-with-the-winforms-folderbrowserdialog-in-dotnet/image-8.webp)
+![](image-8.webp)
 
 There's a lot of other available properties with this control too, but they didn't change so I won't bother with them. They're there though. 😏
 
@@ -45,6 +45,6 @@ if (fbd.ShowDialog() == DialogResult.OK)
     MessageBox.Show($"The path(s) to process:\n\n{string.Join("\n", fbd.SelectedPaths)}");
 ```
 
-![](selecting-multiple-directories-with-the-winforms-folderbrowserdialog-in-dotnet/image-10.webp)
+![](image-10.webp)
 
-![](![](selecting-multiple-directories-with-the-winforms-folderbrowserdialog-in-dotnet/image-10.webp)t's it! I can't decide if it's stranger that it never had this capability, or that someone decided to add it now after all these years. Did something else change that made this a priority? Or is someone who's been with WinForms since the very beginning retiring, and this was on their bucket list? Either way, we could only choose one folder at a time before, and now we can choose as many as we'd like!
+![](![](image-10.webp)t's it! I can't decide if it's stranger that it never had this capability, or that someone decided to add it now after all these years. Did something else change that made this a priority? Or is someone who's been with WinForms since the very beginning retiring, and this was on their bucket list? Either way, we could only choose one folder at a time before, and now we can choose as many as we'd like!

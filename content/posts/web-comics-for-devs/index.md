@@ -113,7 +113,7 @@ Abstruse Goose ***was*** a comic about random topics... although quite a few see
 
 ![How to Teach Yourself Programming - Abstruse Goose](abstrusegoose-249.png)
 
-![Other People's Code](web-comics-for-devs/abstrusegoose-432.png)
+![Other People's Code](abstrusegoose-432.png)
 
 
 ---

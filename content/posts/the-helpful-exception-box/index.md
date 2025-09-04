@@ -21,11 +21,11 @@ After I laughed about it for a few seconds, I stopped to think... is it really t
 
 And so I present.. an exceptional exception box.
 
-![](the-helpful-exception-box/image-1.webp)
+![](image-1.webp)
 
-![](the-helpful-exception-box/image-4.webp)
+![](image-4.webp)
 
-!![](the-helpful-exception-box/image-1.webp)
+!![](image-1.webp)
 Most of the codebases I've worked in are old. I'd wager most of the codebases out there _anywhere_ are old. Most companies that've been around a couple decades have a homegrown project or two, with lots of layers, written by lots of devs. And at some point someone always adds their own message box class that encapsulates the C# [MessageBox](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.messagebox?view=windowsdesktop-6.0), with helpful methods like ShowInfo and ShowError that standardize which buttons and icons are shown for each type of prompt, and in what order, etc.
 
 If you happen to be in that boat, you can take advantage of that to create some friendly links that take you right to StackOverflow, MSDN, or wherever else you happen to find the answers to your coding woes. Add some [preprocessor directives](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/preprocessor-directives#conditional-compilation) to make sure the buttons don't show in production, a couple more buttons to open the full stack trace for easy viewing, and you're on your way to making your own special mark in that legacy codebase. 😂

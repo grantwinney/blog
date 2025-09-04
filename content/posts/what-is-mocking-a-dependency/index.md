@@ -16,7 +16,7 @@ Ever taken your car for an e-check and had it placed on those rollers for testin
 
 Imagine.. you have a car with a problem. It makes a horrible noise and shakes when you hit 60 mph. Being an intrepid individual, you decide to diagnose it yourself. Being a _smart_ individual, you decide not to do it while careening down the highway. You need a way to make the car seem to be going really fast without it actually moving. Hm, those rollers might help!
 
-![](what-is-mocking-a-dependency/image.png)
+![](image.png)
 
 That's not a perfect analogy, but in essence that's mocking a dependency.
 

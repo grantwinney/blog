@@ -43,10 +43,10 @@ Ideally, there should be a back and forth, while you explain why you made a part
 
 Like everything, it depends. The most popular platform is currently GitHub, but there are others too, like Azure DevOps and Atlassian Bitbucket (pictured below). No matter the system your team uses, you should always try to answer the various what's, why's, and how's. When someone steps in to review your code, they shouldn't have to guess why it exists or what it's purpose is.
 
-![](what-is-a-code-review/image-13.png)
+![](image-13.png)
 
-![](what-is-a-code-review/image-15.png)
-![](what-is-a-code-review/image-13.png))
+![](image-15.png)
+![](image-13.png))
 
 GitHub, Azure DevOps, and Bitbucket
 

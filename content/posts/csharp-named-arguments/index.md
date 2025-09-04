@@ -89,7 +89,7 @@ And so the message, which was part of a prompt to the user, looks like this:
 
 ![](the-helpful-exception-box/image-3.webp)
 
-As of C# 4.0 (ye no![](csharp-named-arguments/image-3.webp)rameters we're interested in, and omit the optional parameters that we aren't. So you can pass in values for the mandatory ones first (which was required), then just set three to 5. Naturally.
+As of C# 4.0 (ye no![](image-3.webp)rameters we're interested in, and omit the optional parameters that we aren't. So you can pass in values for the mandatory ones first (which was required), then just set three to 5. Naturally.
 
 ```csharp
 // C# 4.0 - provide names for optional parameters, to pass values for only those you're actually interested in

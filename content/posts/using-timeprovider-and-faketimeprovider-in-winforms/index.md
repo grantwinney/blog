@@ -173,7 +173,7 @@ private void Form1_Shown(object sender, EventArgs e)
 }
 ```
 
-![](using-timeprovider-and-faketimeprovider-in-winforms/image-2.png)
+![](image-2.png)
 
 ## Testing TimeProvider Using FakeTimeProvider
 
@@ -193,7 +193,7 @@ public void GivenSummer_WhenWeekend_ThenNoDiscount()
 }
 ```
 
-![](using-timeprovider-and-faketimeprovider-in-winforms/image-1.png)
+![](image-1.png)
 
 The `FakeTimeProvider` class lets us jump to a future date, like the tests below that jump forward _(in the US)_ to a summer weekend and then a winter weekday, to make sure the appropriate discount (if any) is applied for different times of the year.
 
@@ -238,7 +238,7 @@ It's worth noting in the above code that I set the local time zone to UTC (somet
 
 The `TimeProvider` works with .NET Framework 4.6.2, so it makes sense that `FakeTimeProvider` would too – and it claims it does on the NuGet package page. But when I created a test project using that version, it wouldn't run my tests.
 
-![](using-timeprovider-and-faketimeprovider-in-winforms/image.png)
+![](image.png)
 
 There was a warning in the Error List panel that suggested setting a flag, which seems like overkill (assuming it works at all).
 

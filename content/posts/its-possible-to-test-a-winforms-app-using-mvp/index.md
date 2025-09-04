@@ -19,7 +19,7 @@ If you find yourself in a position where you're supporting a WinForms applicatio
 
 Let's say you had a simple Form, like this one. It has 3 fields to enter numbers and an `ADD` button to, you know, _add_ them in the bottom field. The "Running Total" field never resets, but just keeps adding each total as long as the app is running.
 
-![](its-possible-to-test-a-winforms-app-using-mvp/image-1.webp)
+![](image-1.webp)
 
 Assume the above is implemented like this.. a relatively short bit of code. _None_ of these methods can take advantage of automated testing. You'd need an instance of the Form itself, and every method is accessing or otherwise updating UI components.
 

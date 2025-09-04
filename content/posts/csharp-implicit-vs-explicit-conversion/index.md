@@ -143,7 +143,7 @@ If they don't cast it, the compiler throws an error:
 
 ## Final Thoughts
 
-![](csharp-implicit-vs-explicit-conversion/image-8.webp)fine our own implicit and explicit conversions is a powerful tool for .NET developers, but it should be used carefully. In particular, if there's any chance of data loss, use an `explicit` conversion instead of an `implicit` one.
+![](image-8.webp)fine our own implicit and explicit conversions is a powerful tool for .NET developers, but it should be used carefully. In particular, if there's any chance of data loss, use an `explicit` conversion instead of an `implicit` one.
 
 One other caveat – there’s no intellisense when using a conversion operator, so any “summary” comment you add above the keyword will go unnoticed and unread by whoever's using your class. Don't depend on someone dipping into your code to see if there's any gotchas or side-effects in your conversions!
 

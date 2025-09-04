@@ -154,7 +154,7 @@ Console.WriteLine($$"""
 
 And finally, we can use raw string literals in a whole lot of cases other than just writing out lines to a console. I can imagine a few, one of them being a multi-line message box like this:
 
-![](using-raw-string-literals-in-csharp/image-4.png)
+![](image-4.png)
 
 ## Learning More
 

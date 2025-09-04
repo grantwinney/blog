@@ -82,15 +82,15 @@ Console.WriteLine($"{name} has {population} people in it.");
 
 Right out the gate, I see some deal-breakers. Even if the Deconstruct method has comments on it, they don't show up when you attempt to deconstruct an instance. Hovering over the name where you instantiated the class shows nothing useful. In fact, you don't even know whether there _is_ a Deconstruct method on a class, or whether there's 5 or 50 overloads of it, without delving into the class itself.
 
-![](csharp-deconstructors/image.webp)
+![](image.webp)
 
 It's far more useful to call the Deconstruct method directly, but then it's just like any other public method with a couple "out" variables, so... nothing special there.
 
-![](csharp-deconstructors/image-1.webp)
+![](image-1.webp)
 
-![](csharp-deconstructors/image-2.webp)
+![](image-2.webp)
 
-A![](csharp-deconstructors/image-1.webp)d overloads can't have the same arity (numbers and types of parameters), you can't have one Deconstruct method that (for example) returns a country name and population, and another that returns the country name and total state count (assuming population and state count are both represented by the same type, like integer or long).
+A![](image-1.webp)d overloads can't have the same arity (numbers and types of parameters), you can't have one Deconstruct method that (for example) returns a country name and population, and another that returns the country name and total state count (assuming population and state count are both represented by the same type, like integer or long).
 
 There's absolutely nothing here that performs better or is easier to use than just accessing the properties themselves:
 
@@ -153,9 +153,9 @@ I feel like this works better, because the first thing I'd assume to get from a 
 
 On a side note, gotta say I'm impressed with VS 2022. As I created the Deconstruct method for this example, it correctly guessed that I'd want to set `w` to the width of the `Size` object and `h` to its height. Magic. 🪄
 
-![](csharp-deconstructors/image-4.webp)
+![](image-4.webp)
 
-![](csharp-deconstructors/image-3.webp)
+![](image-3.webp)
 
 What do you think? Will you use deconstructors? Do you have your own ideas of how and when to implement them?
 
