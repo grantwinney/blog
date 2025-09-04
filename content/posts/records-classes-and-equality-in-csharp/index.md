@@ -32,8 +32,6 @@ public class Plane(string Make, string Model, int Year)
 }
 ```
 
-Standard class that doesn't implement interface or override equality operators
-
 It's no surprise that we need public properties to access the values passed in via the primary constructor. And it should be no surprise that two instances with all the same values will _not_ be detected as "equal" to one another:
 
 ```csharp
@@ -78,8 +76,6 @@ public class Train(string Make, string Model, int Year) : IEquatable<Train>
 }
 ```
 
-Standard class that implements `IEquatable<T>` and overrides equality operators
-
 I don't know how everyone else likes to do it, but I tend to define equality in just one of the methods, and then have the other ones call it. It keeps the code more DRY, and more easily updated later on if needed.
 
 Now if we create a couple of trains and test to see if they're equal, they are:
@@ -101,8 +97,6 @@ Here's roughly the same class as above, with a different name and marked as a `r
 ```csharp
 public record Automobile(string Make, string Model, int Year);
 ```
-
-Record class that does the heavy lifting for us with regards to equality
 
 Nearly everything that was defined in the `Train` class is gone, automatically generated for us behind the scenes! The **parameters we define in the primary constructor get matching properties automatically**, without us having to manually define them.
 
@@ -130,7 +124,7 @@ And if we try to overload the equality operators, we can't. It warns us that the
 
 ![](records-classes-and-equality-in-csharp/image-1.webp)
 
-So now this works with just![](records-classes-and-equality-in-csharp/image-1.webp)e-liner defining the record:
+So now this works with just a one-liner defining the record:
 
 ```csharp
 var auto1 = new Automobile("Toyota", "Corolla", 2023);
