@@ -51,6 +51,7 @@ https://api.nasa.gov/mars-photos/api/v1/rovers/perseverance/photos?sol=531&api_k
 ![](image-21.png)
 
 ![](image-22.webp)
+
 ![](image-21.webp))
 
 There's a lot of other endpoints, some of which I don't fully understand, but here's one that returns the weather on Mars as reported by [Insight](https://mars.nasa.gov/insight/).

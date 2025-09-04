@@ -36,9 +36,7 @@ If your app has some sort of GUI for users, or an API providing access to data, 
 
 One of the most consistent ways to deal with dates and times is the [ISO8601](https://www.w3.org/TR/NOTE-datetime) standard, which defines a standardized way to display things that everyone can agree on. I'm sure there are other standards besides ISO8601 too (there always are), but this one seems to have stuck.
 
-![](https://imgs.xkcd.com/comics/standards.png)
-
-[_xkcd_](https://xkcd.com/927)
+![Standards - https://xkcd.com/927](xkcd-standards.webp)
 
 The [iso8601 library](https://github.com/erlsci/iso8601) works nicely, but only formats times that are tuples, so even though ISO8601 technically supports nanoseconds this particular library does not. It can also parse ISO8601 values back to something Erlang can natively work with.
 
