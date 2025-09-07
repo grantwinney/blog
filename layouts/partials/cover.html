@@ -7,7 +7,7 @@
     {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
     {{- $responsiveImages := (.Params.cover.responsiveImages | default site.Params.cover.responsiveImages) | default true }}
 
-    {{- $pageBundleCover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
+    {{- $pageBundleCover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover-image)) }}
     {{- $globalResourcesCover := (resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
     {{- $cover := (or $pageBundleCover $globalResourcesCover)}}
     {{- /* We are not using the .Param.cover.relative to decide the location of image */}}
@@ -32,7 +32,7 @@
         {{/* i.e it is present in page bundle */}}
         {{- if (and (in $processableFormats $cover.MediaType.SubType) ($responsiveImages) (eq $prod true)) }}
             <img loading="{{$loading}}"
-                src="{{ .cover-image }}"
+                src="{{ $cover.Permalink }}"
                 sizes="(min-width: 768px) 720px, 100vw"
                 width="{{ $cover.Width }}" height="{{ $cover.Height }}"
                 alt="{{ $alt }}">
