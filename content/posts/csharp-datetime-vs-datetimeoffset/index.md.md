@@ -79,7 +79,7 @@ Now, printing local (or unspecified) uses the current local time zone at the tim
 
 Storing these values in a `DateTimeOffset` column type retains the extra context. So we should use `DateTimeOffset` _everywhere_, right? Well, no...
 
-### Which one do we use?
+## Which one do we use?
 
 Sometimes we need the extra context...
 
