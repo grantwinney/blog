@@ -13,7 +13,7 @@
 {{- end }}
 
 {{- if $dateFields -}}
-{{- $scratch.Add "meta" (slice $dateFields) }}
+{{- $scratch.Add "meta" $dateFields }}
 {{- end }}
 
 {{- if (.Param "ShowReadingTime") -}}
