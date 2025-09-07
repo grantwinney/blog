@@ -109,7 +109,7 @@ The `img` tag is in the list, so just switch to standard HTML to resize it. It e
 
 ## Add Some Color to Your Life
 
-You can't color your text using markdown, but you _can_ use an image placeholder service like [placeholder.com](https://placeholder.com/) to create some useful effects that make sections of your Readme file, etc stand out.
+You can't color your text using markdown, but you _can_ use an image placeholder service like placeholder.com *([now defunct](https://www.reddit.com/r/web_design/comments/10lqgja/placeholdercom_is_no_more/), although there's other similar services)* to create some useful effects that make sections of your Readme file, etc stand out.
 
 ```markdown
 ## COLOR!
