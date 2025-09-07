@@ -25,6 +25,7 @@ hyvor-talk-comment-count {
 
 .modifiedDate {
     font-style: italic;
+    font-size: smaller;
 }
 
 /* Center images in posts */
