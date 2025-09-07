@@ -23,6 +23,10 @@ hyvor-talk-comment-count {
     color: var(--secondary);
 }
 
+.modifiedDate {
+    font-style: italic;
+}
+
 /* Center images in posts */
 .post-content img {
     margin: auto;
