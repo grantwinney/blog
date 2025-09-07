@@ -4,7 +4,7 @@ slug: csharp-datetime-vs-datetimeoffset
 summary: Should you use DateTime or DateTimeOffset? Well, it depends...
 description:
 date: 2025-09-06T17:16:00
-postimage: https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?q=80&w=1171&fm=jpg
+postimage:
 draft: false
 categories:
   - Coding
