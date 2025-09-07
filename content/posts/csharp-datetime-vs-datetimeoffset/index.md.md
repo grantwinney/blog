@@ -17,7 +17,7 @@ tags:
 ---
 For the last 20 years, the .NET Framework (starting with 2.0 in 2005) has had two structures for storing date/time values - `DateTime` and `DateTimeOffset`. In the last 15+ years of programming, nearly every instance of any C# code I've seen dealing with dates and times uses `DateTime`, and I have no idea why. My guess is that a lot of intro books and official docs used `DateTime`, since it's a little simpler, and everyone just went with it and didn't look back.
 
-It's important to take a few minutes and understand the difference, so let's take a look at a couple short examples.
+It's important to take a few minutes and understand the difference, so let's take a look at a couple short examples, which you can also [find here](https://dotnetfiddle.net/tyxO1X).
 
 ## A Short Example
 
