@@ -1,6 +1,6 @@
 ---
 categories:
-  - Tools
+  - Exploring
 date: 2021-05-29T21:40:16Z
 description: ""
 draft: false

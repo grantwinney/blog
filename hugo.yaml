@@ -38,20 +38,24 @@ languages:
           name: About
           pageRef: about
           weight: 5
-        - identifier: code
-          name: Code
-          pageRef: "/categories/coding/"
+        - identifier: learn
+          name: Learn
+          pageRef: "/categories/learn/"
           weight: 10
-        - identifier: how-to-questions
-          name: "Questions"
-          pageRef: "/categories/questions/"
+        - identifier: explore
+          name: "Explore"
+          pageRef: "/categories/exploring/"
           weight: 10
-        - identifier: tool-of-the-trade
-          name: "Tools"
-          pageRef: "/categories/tools/"
+        - identifier: build
+          name: "Build"
+          pageRef: "/categories/builds/"
+          weight: 10
+        - identifier: reflect
+          name: "Reflect"
+          pageRef: "/categories/reflections/"
           weight: 10
         - identifier: search
-          name: Search
+          name: ""
           pageRef: search/
           weight: 50
 

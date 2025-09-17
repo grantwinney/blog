@@ -1,6 +1,6 @@
 ---
 categories:
-  - Coding
+  - Exploring
 date: 2023-08-16T01:35:54Z
 description: ""
 draft: false

@@ -1,6 +1,6 @@
 ---
 categories:
-  - Tools
+  - Learn
 date: 2023-07-26T22:15:20Z
 description: ""
 draft: false

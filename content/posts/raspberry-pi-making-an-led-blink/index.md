@@ -1,6 +1,6 @@
 ---
 categories:
-  - Raspberry Pi
+  - Exploring
 date: 2016-03-26T16:37:30Z
 description: ""
 draft: false

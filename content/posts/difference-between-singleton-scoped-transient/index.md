@@ -1,6 +1,6 @@
 ---
 categories:
-  - Questions
+  - Learn
 date: 2023-07-28T21:41:00Z
 description: ""
 draft: false

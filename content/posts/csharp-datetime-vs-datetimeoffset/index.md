@@ -7,7 +7,7 @@ date: 2025-09-06T17:16:00
 postimage:
 draft: false
 categories:
-  - Coding
+  - Learn
 tags:
   - csharp
   - datetime-handling

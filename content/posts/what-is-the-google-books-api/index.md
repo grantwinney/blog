@@ -1,6 +1,6 @@
 ---
 categories:
-  - APIs
+  - Exploring
 date: 2018-01-31T00:07:00Z
 description: ""
 draft: false

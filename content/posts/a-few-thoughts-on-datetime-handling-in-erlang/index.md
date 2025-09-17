@@ -1,6 +1,6 @@
 ---
 categories:
-  - Coding
+  - Learn
 date: 2018-09-03T14:48:51Z
 description: ""
 draft: false
