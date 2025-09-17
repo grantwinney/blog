@@ -45,17 +45,17 @@ languages:
         - identifier: explore
           name: "Explore"
           pageRef: "/categories/exploring/"
-          weight: 10
+          weight: 20
         - identifier: build
           name: "Build"
           pageRef: "/categories/builds/"
-          weight: 10
+          weight: 30
         - identifier: reflect
           name: "Reflect"
           pageRef: "/categories/reflections/"
-          weight: 10
+          weight: 40
         - identifier: search
-          name: ""
+          name: " "
           pageRef: search/
           weight: 50
 
