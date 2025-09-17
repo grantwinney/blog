@@ -1,6 +1,6 @@
 ---
 categories:
-  - Exploring
+  - Explore
 date: 2017-08-16T10:27:33Z
 description: ""
 draft: false

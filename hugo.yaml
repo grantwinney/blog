@@ -44,15 +44,15 @@ languages:
           weight: 10
         - identifier: explore
           name: "Explore"
-          pageRef: "/categories/exploring/"
+          pageRef: "/categories/explore/"
           weight: 20
         - identifier: build
           name: "Build"
-          pageRef: "/categories/builds/"
+          pageRef: "/categories/build/"
           weight: 30
         - identifier: reflect
           name: "Reflect"
-          pageRef: "/categories/reflections/"
+          pageRef: "/categories/reflect/"
           weight: 40
         - identifier: search
           name: " "

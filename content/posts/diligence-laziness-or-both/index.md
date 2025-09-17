@@ -1,6 +1,6 @@
 ---
 categories:
-  - Reflections
+  - Reflect
 date: 2023-12-04T22:22:49Z
 description: ""
 draft: false

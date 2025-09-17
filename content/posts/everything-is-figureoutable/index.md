@@ -10,6 +10,6 @@ cover:
   alt: banner image for post
   caption:
 categories:
-  - Reflections
+  - Reflect
 tags:
 ---
