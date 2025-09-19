@@ -150,7 +150,9 @@ The result is a small popup Form with some messages in them. Click a message to 
 
 ![](image-9.webp)
 
-## Everything all a![](image-9.webp)ere's everything in one go.
+## Everything all at once...
+
+And here's everything in one go.
 
 ![](allthemessages.webp)
 
