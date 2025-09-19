@@ -73,9 +73,9 @@ The way I'm requesting two each of the `IIDScoped` and `IIDTransient` dependenci
 
 Here it is in action. When I press "refresh" to make a new request to the `/now` endpoint, keep an eye on three things - the singleton instance _never_ changes, the scoped instance doesn't change until a new request is made (aka, I hit refresh), and the transient instance _always_ changes.
 
-![](ditest.gif)
+![](ditest.webp)
 
-Oh, and I didn't wan![](ditest.webp)deeper into DI and IOC in this post, but if you're interested in learning more, here's a few good resources:
+Oh, and I didn't want to go deeper into DI and IOC in this post, but if you're interested in learning more, here's a few good resources:
 
 - [Using DI with OOP](https://www.techtarget.com/searchapparchitecture/definition/dependency-injection)
 - [Using DI specifically with .NET](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection-usage)
