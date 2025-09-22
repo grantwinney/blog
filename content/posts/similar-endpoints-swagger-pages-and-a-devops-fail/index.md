@@ -62,7 +62,7 @@ A nice feature of APIs written in ASP.NET Core using Visual Studio is that you g
 
 ![](image-8.webp)
 
-T![](image-7.webp)ly_ helpful, and was for us, because I opened the one for our deployed environment and, hmmm.. the new endpoint wasn't even listed. We had the record of a deploy in DevOps, it had succeeded without errors, and yet clearly had failed to actually, well.. deploy.
+This can be _really_ helpful, and was for us, because I opened the one for our deployed environment and, hmmm.. the new endpoint wasn't even listed. We had the record of a deploy in DevOps, it had succeeded without errors, and yet clearly had failed to actually, well.. deploy.
 
 _You had one job, DevOps._
 
