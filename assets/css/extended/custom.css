@@ -1,7 +1,6 @@
 /** THEME (copied from thme-vars.css **/
 
 :root {
-    --theme: rgb(101, 146, 238);
     --gap: 24px;
     --content-gap: 20px;
     --nav-width: 1024px;
@@ -9,7 +8,7 @@
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
-    --theme: rgb(255, 255, 255);
+    --theme: rgb(101, 146, 238);
     --entry: rgb(255, 255, 255);
     --primary: rgb(30, 30, 30);
     --secondary: rgb(108, 108, 108);
