@@ -173,7 +173,7 @@ If you need to read other [mime types](https://developer.mozilla.org/en-US/docs/
 
 ![](image-28.png)
 
-		And that, I think, is why Microsoft and Chrome still need their extensions. They probably wrote them before the above API existed in any form, and even now they can't really dump them because the support isn't fully there. Hopefully it will be soon.
+And that, I think, is why Microsoft and Chrome still need their extensions. They probably wrote them before the above API existed in any form, and even now they can't really dump them because the support isn't fully there. Hopefully it will be soon.
 
 If you want to learn more, here's a couple other interesting articles too:
 
