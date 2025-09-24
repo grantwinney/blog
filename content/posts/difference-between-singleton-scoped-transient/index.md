@@ -16,7 +16,7 @@ I saw an issue with a .NET 6 API recently, where dependency injection (DI) was i
 
 The problem didn't actually present itself that nicely (they never do), so it took quite awhile to track down. In the end though, it was obvious (as most solved problems are) that the dependency was registered incorrectly. The fix was a one-line change.
 
-> The code in this post is available on <a href="https://github.com/grantwinney/CSharpDotNetExamples/tree/master/GeneralConcepts/SingletonVsTransientDI">GitHub</a>, for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/GeneralConcepts/SingletonVsTransientDI), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
 When we create APIs in .NET, it's pretty easy to register a class with the DI service, as it's supported right out of the box. But there's different ways a service can be registered, so it's important to understand the differences between [AddSingleton](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.servicecollectionserviceextensions.addsingleton?view=dotnet-plat-ext-6.0), [AddScoped](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.servicecollectionserviceextensions.addscoped?view=dotnet-plat-ext-6.0), and [AddTransient](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.servicecollectionserviceextensions.addtransient?view=dotnet-plat-ext-6.0).
 

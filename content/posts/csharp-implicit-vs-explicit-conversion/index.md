@@ -14,7 +14,7 @@ title: Implicit vs Explicit Conversion in C#
 ---
 If you’ve programmed in C# for awhile, you’ve likely used both implicit and explicit conversion without even realizing it. Let's take a look at examples of each.
 
-> If you'd like to follow along while you read, the code in this article is available on <a href="https://github.com/grantwinney/CSharpDotNetExamples/tree/master/GeneralConcepts/ImplicitExplicitOperators">GitHub</a>.
+> If you'd like to follow along while you read, the code in this article is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/GeneralConcepts/ImplicitExplicitOperators).
 
 ## Implicit Conversion of .NET Data Types
 

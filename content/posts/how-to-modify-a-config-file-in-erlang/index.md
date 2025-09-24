@@ -12,7 +12,7 @@ title: Modify a config file in Erlang
 ---
 I found myself recently needing to write an [escript](http://erlang.org/doc/man/escript.html) to modify a [config file](https://www.erlang.org/docs/19/man/config). All I needed was to read it in, make a couple updates, and write it back out. Should be easy, right? Please make it easy Erlang. No? Okay... 😢
 
-> The code in this post is available on <a href="https://github.com/grantwinney/BlogCodeSamples/tree/master/Languages/Erlang/ConfigFileModifier">GitHub</a>, for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/BlogCodeSamples/tree/master/Languages/Erlang/ConfigFileModifier), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
 Here's a sample of what the config file looks like, without resembling actual production code of course. The point is, it's nothing special - just a list of configuration parameters for a system, laid out in a nested `proplist` format.
 

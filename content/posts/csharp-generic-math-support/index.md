@@ -18,7 +18,7 @@ aliases:
 ---
 This is post 3 in a 3-part series building up to a new C# 11 feature called [Generic Math](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#generic-math-support). First though, it might be helpful to read two other posts, to get familiar with [static abstract members](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c/) (also new to C# 11) and [overloading operators](https://grantwinney.com/csharp-overload-arithmetic-equality-comparison-operators/) (not new, but useful).
 
-> The code in this post is available on <a href="https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericMathSupport/GenericMathSupport">GitHub</a>, for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericMathSupport/GenericMathSupport), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
 ## Generics
 

@@ -15,7 +15,7 @@ The [SqlDataReader.GetFieldValue](http://msdn.microsoft.com/en-us/library/hh4856
 
 Let's see if we can do better with a simple extension method.
 
-> If you'd like to follow along while you read, the code in this article is available on <a href="https://github.com/grantwinney/BlogCodeSamples/tree/master/Languages/CSharp/SqlDataReaderGetFieldValueByName">GitHub</a>.
+> If you'd like to follow along while you read, the code in this article is available on [GitHub](https://github.com/grantwinney/BlogCodeSamples/tree/master/Languages/CSharp/SqlDataReaderGetFieldValueByName).
 
 ## GetFieldValue Only Accepts a Column Index
 

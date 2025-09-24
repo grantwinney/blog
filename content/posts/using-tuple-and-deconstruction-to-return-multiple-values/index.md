@@ -18,7 +18,7 @@ One of the biggie challenges when programming in any language is figuring how to
 
 So we have methods and functions, organized into classes _(even_ [_JS has classes_](https://www.javascripttutorial.net/es6/javascript-class/) _now)_ and namespaces, separate projects and assemblies, and on and on. The tricky part of having so many ways to organize things is knowing how and when to use one of them. A lot of it's up for debate _(what isn't?)_ and some of it's not... I wouldn't recommend publishing a NuGet package for [a few lines of code](https://www.sciencealert.com/how-a-programmer-almost-broke-the-internet-by-deleting-11-lines-of-code), lol.
 
-> The code in this article is available on <a href="https://github.com/grantwinney/Surviving-WinForms/tree/master/ClarityConciseness/TupleDeconstruction">GitHub</a>, if you'd like to use it in your own projects or just follow along while you read.
+> The code in this article is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/ClarityConciseness/TupleDeconstruction), if you'd like to use it in your own projects or just follow along while you read.
 
 In C#, it's not uncommon to use classes to group similar logic together, and then provide properties to access whatever values are in the class - a person with a name and birthdate, a car with an engine type and model, whatever. If you're going to have lots of properties, a class probably makes sense. But what if you don't? If there's a more lightweight option than a class and a good use case for it, I'd be interested in hearing about it.. or writing about it as the case may be.
 

@@ -14,7 +14,7 @@ title: Obsolete Attribute on a Class is Ignored When an Interface is Involved
 ---
 While marking some code as [obsolete](https://msdn.microsoft.com/en-us/library/system.obsoleteattribute\(v=vs.110\).aspx) the other day, it seemed that the attribute was being ignored. As it turns out, there's a reasonable explanation, but it took me by surprise at first.
 
-> If you'd like to follow along with the code yourself, it's available on <a href="https://github.com/grantwinney/BlogCodeSamples/tree/master/Languages/CSharp/ObsoleteAttributeOnInterfaces">GitHub</a>.
+> If you'd like to follow along with the code yourself, it's available on [GitHub](https://github.com/grantwinney/BlogCodeSamples/tree/master/Languages/CSharp/ObsoleteAttributeOnInterfaces).
 
 ## Simple Classes and the Obsolete Attribute
 

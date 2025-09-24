@@ -15,7 +15,7 @@ title: Filtering a ListView in WPF Using a TextBox and CollectionViewSource
 ---
 I was recently asked to provide a field users could type in, that would filter a ListView with up to a couple hundred names in real-time.
 
-> If you'd like to follow along while you read, the code in this article is available on <a href="https://github.com/grantwinney/BlogCodeSamples/tree/master/Frameworks/WPF/CollectionViewSourceSample">GitHub</a>.
+> If you'd like to follow along while you read, the code in this article is available on [GitHub](https://github.com/grantwinney/BlogCodeSamples/tree/master/Frameworks/WPF/CollectionViewSourceSample).
 
 In WinForms, filtering is easy – a few settings on a ComboBox control, set the data source, and off you go. Although WPF is a bit more complex, it provides for more flexibility out of the box like grouping and sorting, although we'll only look at filtering for now.
 

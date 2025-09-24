@@ -18,7 +18,7 @@ This is post 2 in a 3-part series building up to a new C# 11 feature called [Gen
 
 In C# you can [overload operators](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/operator-overloading), putting you in control of how two instances of an object are related to one another. We'll look at the different ways you can do that, but first...
 
-> The code in this post is available on <a href="https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericMathSupport/GenericMathSupport">GitHub</a>, for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericMathSupport/GenericMathSupport), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
 ## Arithmetic Operators
 

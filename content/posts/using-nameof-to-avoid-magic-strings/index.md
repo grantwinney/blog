@@ -48,7 +48,7 @@ private void txtUsername_Validating(object sender, CancelEventArgs e)
 
 There are different kinds of values that might need to be pulled out of magic strings. Some of them are business rule kind of logic, like above. Others are related more to our code, and concerns the devs more than end-users. Not everything has to be pulled out into a configuration file, but there are other ways to make our lives easier.
 
-> The code in this article is available on <a href="https://github.com/grantwinney/Surviving-WinForms/tree/master/AntiPatterns/MagicStrings/NameOfVersusMagicStrings">GitHub</a>, if you'd like to follow along.
+> The code in this article is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/AntiPatterns/MagicStrings/NameOfVersusMagicStrings), if you'd like to follow along.
 
 Introduced in C# 6, the `nameof` expression returns the name of the variable, type, or member (a method or class for example) that's passed to it. But the value you're passing to `nameof` is the method group, so if the name of that method changes, you'll actually get a compiler error!
 

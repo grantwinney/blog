@@ -16,7 +16,7 @@ title: Using a constant as a DateTime format inside string interpolation
 ---
 I was upgrading some code to use string interpolation, a feature [introduced in C# 6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6#string-interpolation), when I ran into a small snag with DateTimes and format strings.
 
-> The code in this post is available on <a href="https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2006/ConstantDateTimeFormatInStringInterpolation">GitHub</a>, for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2006/ConstantDateTimeFormatInStringInterpolation), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
 The original code looked something like this:
 

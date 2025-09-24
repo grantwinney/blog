@@ -14,7 +14,7 @@ title: If/else vs switch/case pattern matching
 ---
 I stumbled on a pull request recently, in which the suggestion was made to replace an `if/else` block with a `switch/case`. The reviewer seemed to feel it was "better". In reality, these are just two approaches to organizing conditional logic, and using one or the other mostly comes down to a matter of taste.. especially with changes to C# in the last few years, but more on that below.
 
-> The code in this post is available on <a href="https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2009/SwitchPatternMatchingVsIfElse">GitHub</a>, for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
+> The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2009/SwitchPatternMatchingVsIfElse), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
 Thinking back to when _I've_ used one over the other, I'd say I reserve `switch/case` for sets with a distinct, finite number of values. Say you want to set a couple flags, based on the current set piece being manipulated in a game of chess. You might use code like this:
 

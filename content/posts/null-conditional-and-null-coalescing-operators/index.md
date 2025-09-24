@@ -29,7 +29,7 @@ if (employee != null && employee.Name != null &&
 
 That is just so long-winded and _boring._ We shouldn't have to type all that repetitive code out, and we don't. C# 6 gave us a couple new tools - the null-conditional and null-coalescing operators.
 
-> The code in this article is available on <a href="https://github.com/grantwinney/Surviving-WinForms/tree/master/ClarityConciseness/NullHandlingOperators">GitHub</a>, if you'd like to use it in your own projects or just follow along while you read.
+> The code in this article is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/ClarityConciseness/NullHandlingOperators), if you'd like to use it in your own projects or just follow along while you read.
 
 First, let's define a few nested classes to use for examples, and then a company with a couple departments and employees to experiment with.
 

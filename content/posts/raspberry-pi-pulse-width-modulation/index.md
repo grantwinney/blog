@@ -16,7 +16,7 @@ aliases:
 ---
 If you buy a kit with random LEDs, wires, switches, etc, you’re likely to end up with one or two of those funky little LEDs that appears to be white, and has 4 wires instead of 2. I had set mine aside and made a mental note to figure it out later – well, that time has come!
 
-> The code in this article is available on <a href="https://github.com/grantwinney/52-Weeks-of-Pi/tree/master/06-RGB-LED-Experiment">GitHub</a>, if you'd like to use it or just follow along.
+> The code in this article is available on [GitHub](https://github.com/grantwinney/52-Weeks-of-Pi/tree/master/06-RGB-LED-Experiment), if you'd like to use it or just follow along.
 
 It’s a special kind of LED that consists of 3 separate LEDs – red, green and blue. By adjusting each color independently, you can create any color (similar to how a TV works). By lighting all 3 in the right proportions, you can even create white.
 
