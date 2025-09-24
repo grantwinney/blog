@@ -75,51 +75,31 @@ To support multiple threads, I rewrote the previous class and named it [Breakfas
 - The method signatures have changed from `void` to `async Task`. If you try to use `void Task`, you'll get a syntax error and VS will offer to change it for you.
 - The main "work" in each method (a sleepy thread) is moved inside a separate task. When the task is complete (we `await` it), the message is printed. I could've called `await Task.Delay(2000)` but felt the way I did it made it clearer that we could've been running other (more realistic) code.
 
-![](2021-06-06-21_53_00-SurvivingWinForms---Microsoft-Visual-Studio.png)
+![Before](2021-06-06-21_53_00-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
-Before
-
-![](2021-06-06-21_53_22-SurvivingWinForms---Microsoft-Visual-Studio.png)
-
-After
+![After](2021-06-06-21_53_22-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
 - Methods that called several other methods one at a time in order, like the steps for brewing a cup of coffee, still call them in order, but now we `await` for each task to complete before proceeding.
 - Not all methods were converted to async though. The steps for cooking eggs were not, so they're all grouped inside a single task together.
 
-![](2021-06-06-21_55_37-SurvivingWinForms---Microsoft-Visual-Studio.png)
+![Before](2021-06-06-21_55_37-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
-Before
+![After](2021-06-06-21_55_50-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
-![](2021-06-06-21_55_50-SurvivingWinForms---Microsoft-Visual-Studio.png)
+![Before](2021-06-06-22_00_38-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
-After
-
-![](2021-06-06-22_00_38-SurvivingWinForms---Microsoft-Visual-Studio.png)
-
-Before
-
-![](2021-06-06-22_01_07-SurvivingWinForms---Microsoft-Visual-Studio.png)
-
-After
+![After](2021-06-06-22_01_07-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
 - Methods that can be executed at the same time, like cooking bacon and eggs, or pouring the orange juice while the coffee brews, are run in separate tasks at the same time. _**(big win!)**_
 - Obviously certain things just can't be. You can't make the sandwich until everything's cooked. You can't pour the coffee while it's still brewing.
 
-![](2021-06-06-22_06_03-SurvivingWinForms---Microsoft-Visual-Studio.png)
+![Before](2021-06-06-22_06_03-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
-Before
+![After](2021-06-06-22_06_13-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
-![](2021-06-06-22_06_13-SurvivingWinForms---Microsoft-Visual-Studio.png)
+![Before](2021-06-06-22_06_39-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
-After
-
-![](2021-06-06-22_06_39-SurvivingWinForms---Microsoft-Visual-Studio.png)
-
-Before
-
-![](2021-06-06-22_06_54-SurvivingWinForms---Microsoft-Visual-Studio.png)
-
-After
+![After](2021-06-06-22_06_54-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
 The real time saver here is running multiple tasks. We're no longer staring at the coffee machine, or waiting on the bacon until the eggs are fried. We're doing everything pretty much how we'd make an actual breakfast, getting one thing going and then starting another while that finishes.
 
