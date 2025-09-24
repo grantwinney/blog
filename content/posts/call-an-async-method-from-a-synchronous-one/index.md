@@ -28,7 +28,7 @@ Let's look at a few ways to do what we (sometimes) gotta do, starting with what 
 
 ![](image-11.png)
 
-We'll also assume ![](image-11.webp)method doing some really important stuff.
+We'll also assume there's an async method doing some really important stuff.
 
 ```csharp
 public async Task<string> ImportantStuffAsync(IProgress<int> progress)

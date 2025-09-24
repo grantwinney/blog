@@ -17,7 +17,7 @@ Nearly 30 years ago, I remember being at one family thing or another, when my co
 
 Some little green-clad forest dude gets a message in a dream, wakes up to find his uncle slipping off in the middle of a stormy night (note to self, grab a lantern before climbing down a well), and within 30 seconds the player is off exploring. Right from the start, it had me, and I'll bet I've played it through 20 times over the years.
 
-![](Dream.webp)
+![](Dream.jpg)
 
 Before Link to the Past though, there was the original Legend of Zelda for the NES. I never got into that one quite as much, but I definitely played it through a few times. I haven't played either of them in a long time though, which is why I geeked out on a project I stumbled onto the other day - [an opensource 3D version of the original Legend of Zelda](https://github.com/scottlininger/zelda30tribute) that runs right in your browser!
 
@@ -54,7 +54,7 @@ Updating files: 100% (802/802), done.
 
 And then... \<insert the sounds of angelic choirs here\>
 
-![](image.webp)
+![](image.png)
 
 ## Play it remote
 
@@ -62,15 +62,15 @@ If you don't want to install NodeJS locally, you can host it remotely on Digital
 
 If you don't already have an account, [sign up](https://m.do.co/c/448f25462030) for one. They provide one-click servers (droplets), and there's a [NodeJS droplet](https://do.co/2PQEqgd) that'll work perfectly. Just click the blue "Create NodeJS Droplet" button and choose the most minimal server config available. After a few minutes, you should be able to open the IP address in your browser and see the sample NodeJS app running.
 
-![](image-1.webp)
+![](image-1.png)
 
-![](2020-09-05-23_05_43-Create-Droplets---DigitalOcean---Brave.webp)
+![](2020-09-05-23_05_43-Create-Droplets---DigitalOcean---Brave.png)
 
-![](2020-09-05-23_19_39-Your-NodeJS-Droplet---Brave.webp)
+![](2020-09-05-23_19_39-Your-NodeJS-Droplet---Brave.png)
 
 Once it's up and running, use your favorite terminal tool like [Git Bash](https://git-scm.com/downloads) to connect to your new VM. Type in `ssh root@your-ip` to connect, and then type in the "root" password you set during the setup process. If you get a prompt asking if you're sure you want to continue, I'd suggest typing yes or the rest of this is going to be really boring.
 
-![](image-2.webp)
+![](image-2.png)
 
 You can run the same file as for the local version, with two changes - opening the port in UFW and _not_ opening the site. And don't forget to `chmod +x your-file.sh` so you can execute the script.
 
@@ -128,50 +128,50 @@ this.state = {inventory: {
 
 Armed with invincibility, have a look around. They put in a ton of work into getting the basic layout of overworld in place and navigable. Most of the overworld enemies are present, though they only drop rupees.. ironic, since all items in the few working caves are free.
 
-![](2020-09-06-01_59_42-Zelda-30-Year-Tribute---Brave.webp)
+![](2020-09-06-01_59_42-Zelda-30-Year-Tribute---Brave.png)
 
-![](2020-09-07-12_19_11-Zelda-30-Year-Tribute---Brave.webp)
+![](2020-09-07-12_19_11-Zelda-30-Year-Tribute---Brave.png)
 
-![](2020-09-07-12_19_35-Zelda-30-Year-Tribute---Brave.webp)
+![](2020-09-07-12_19_35-Zelda-30-Year-Tribute---Brave.png)
 
-![](2020-09-07-12_25_31-Zelda-30-Year-Tribute---Brave.webp)
+![](2020-09-07-12_25_31-Zelda-30-Year-Tribute---Brave.png)
 
-![](2020-09-07-12_25_59-Zelda-30-Year-Tribute---Brave.webp)
+![](2020-09-07-12_25_59-Zelda-30-Year-Tribute---Brave.png)
 
-![](2020-09-07-12_44_59-Zelda-30-Year-Tribute---Brave.webp)
+![](2020-09-07-12_44_59-Zelda-30-Year-Tribute---Brave.jpg)
 
 You can even go through the first two dungeons and beat Aquamentus and Dodongo, although certain enemies and areas aren't really complete.
 
-![](2020-09-07-12_36_45-Zelda-30-Year-Tribute---Brave.webp)
+![](2020-09-07-12_36_45-Zelda-30-Year-Tribute---Brave.jpg)
 
-![](2020-09-07-12_45_30-Zelda-30-Year-Tribute---Brave.webp)
+![](2020-09-07-12_45_30-Zelda-30-Year-Tribute---Brave.jpg)
 
-![](2020-09-07-12_46_33--1.webp)
+![](2020-09-07-12_46_33--1.jpg)
 
-![](2020-09-09-08_57_59-Zelda-30-Year-Tribute---Brave.webp)
+![](2020-09-09-08_57_59-Zelda-30-Year-Tribute---Brave.jpg)
 
-![](2020-09-08-00_57_09--1.webp)
+![](2020-09-08-00_57_09--1.jpg)
 
-![](2020-09-08-00_59_23-Zelda-30-Year-Tribute---Brave.webp)
+![](2020-09-08-00_59_23-Zelda-30-Year-Tribute---Brave.jpg)
 
-![](2020-09-09-01_03_35-Zelda-30-Year-Tribute---Brave.webp)
+![](2020-09-09-01_03_35-Zelda-30-Year-Tribute---Brave.jpg)
 
-![](2020-09-09-09_01_23-Zelda-30-Year-Tribute---Brave.webp)
+![](2020-09-09-09_01_23-Zelda-30-Year-Tribute---Brave.jpg)
 
-![](2020-09-08-00_58_33-Zelda-30-Year-Tribute---Brave.webp)
+![](2020-09-08-00_58_33-Zelda-30-Year-Tribute---Brave.jpg)
 
 Things fall apart a little in the second dungeon, with "flat" enemies painted onto the floor in place, rooms that are pitch black, dead ends with "demo" messages, etc.
 
-![](2020-09-07-12_26_39-Zelda-30-Year-Tribute---Brave.webp)
+![](2020-09-07-12_26_39-Zelda-30-Year-Tribute---Brave.jpg)
 
-![](2020-09-07-12_33_53-.webp)
+![](2020-09-07-12_33_53-.jpg)
 
-![](2020-09-07-12_33_07-Zelda-30-Year-Tribute---Brave.webp)
+![](2020-09-07-12_33_07-Zelda-30-Year-Tribute---Brave.png)
 
-![](2020-09-07-12_26_21-Zelda-30-Year-Tribute---Brave.webp)
+![](2020-09-07-12_26_21-Zelda-30-Year-Tribute---Brave.jpg)
 
-![](2020-09-06-02_33_15-Zelda-30-Year-Tribute.webp)
+![](2020-09-06-02_33_15-Zelda-30-Year-Tribute.jpg)
 
 All in all, I _so_ wish this had been worked on and was more complete. The concept is one that any classic Legend of Zelda fan could appreciate, and they obviously put a ton of work into getting it as far as they did. I guess once Nintendo came knocking, most of the fun was gone, it's open sourced so maybe someone (you?) will pick it up and finish it!
 
-![](2020-09-09-09_02_34-.webp)
+![](2020-09-09-09_02_34-.jpg)

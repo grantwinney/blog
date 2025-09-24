@@ -55,7 +55,7 @@ private async void timer1_Tick(object sender, EventArgs e)
 
 The result is a simple message, out of the way yet still visible from anywhere, easily-readable yet not popping up in the user's face and stopping them in their tracks until they acknowledge it.
 
-![](image-4.webp)
+![](image-4.png)
 
 ## FlowLayoutPanel
 
@@ -80,7 +80,7 @@ private async Task AddMessageToPanel(string message)
 
 The result is a stack of messages in labels, aligned for us by the `FlowLayoutPanel`. No calculations of heights and positions to align everything, or using a single TextBox with `Multiline = True`.
 
-![](image-5.webp)
+![](image-5.png)
 
 ## NotifyIcon / Windows Notification Area
 
@@ -96,9 +96,9 @@ private void btnUseNotifyIcon_Click(object sender, EventArgs e)
 
 While this is convenient, it shouldn't be used for anything really vital because you have so little control over it. The user (depending on how much access they have on the system) can adjust notifications and even disable them altogether for individual (or all) apps.
 
-![](image-7.webp)
+![](image-7.png)
 
-![](image-8.webp)
+![](image-8.png)
 
 ## Use a separate Form
 
@@ -148,12 +148,12 @@ private void btnUseSeparateForm_Click(object sender, EventArgs e)
 
 The result is a small popup Form with some messages in them. Click a message to remove it. Remove all messages and the second Form hides itself until there's something else to display.
 
-![](image-9.webp)
+![](image-9.png)
 
 ## Everything all at once...
 
 And here's everything in one go.
 
-![](allthemessages.webp)
+![](allthemessages.gif)
 
 Like I said earlier, these are just little examples to be taken with a grain of salt. The point is, a `MessageBox` is not the _only_ way to send notifications to users. Depending on your needs, maybe something here will work or at least get the creative juices flowing.. and I'm sure there are _plenty_ of more robust ways out there for the intrepid dev. Good luck!

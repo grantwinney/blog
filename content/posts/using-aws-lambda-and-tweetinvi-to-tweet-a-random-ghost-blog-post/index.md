@@ -68,7 +68,7 @@ Open the [AWS Free Tier](https://aws.amazon.com/free) page and create an account
 
 Now you need to create a new Lambda function.
 
-1. Create a new function (author from scratch) and ![](image-2.png) Core 3.1)` for the runtime.
+1. Create a new function (author from scratch) and choose `C# (.NET Core 3.1)` for the runtime.
 2. The name of the function doesn't matter, nor does the role it makes you create.
 3. Under "Function code", upload the zip file you previously created.
 4. Under "Runtime settings", change the handler to: `TweetRandomFeedItem::TweetRandomFeedItem.Program::Main`

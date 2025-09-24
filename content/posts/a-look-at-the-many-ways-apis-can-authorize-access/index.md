@@ -99,7 +99,7 @@ The [Trello API](https://grantwinney.com/what-is-trello-api/) supports two metho
 
 Here's an app trying to authorize with Trello:
 
-![App trying to authorize with Trello](trello-authorize-hubstaff.webp)
+![](trello-authorize-hubstaff.png)
 
 The upsides include users of a service not having to hand any personally identifiable information to third-party applications, and access can (or should be able to) be revoked at any time from the API provider's side.
 

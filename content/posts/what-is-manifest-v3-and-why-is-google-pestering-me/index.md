@@ -22,7 +22,7 @@ For quite awhile now, whenever I visit the Chrome dashboard, I get a notice at t
 
 ![](image.png)
 
-Apparently though tha![](image.png)t enough to make developers care, because they've sent emails with links to blog posts, and now when I load an extension to debug it, it immediately reports an error. Hm, is it related to the issue I wanted to debug? Nope, just Chromium abusing functionality to send me more reminders.
+Apparently though that notice wasn't enough to make developers care, because they've sent emails with links to blog posts, and now when I load an extension to debug it, it immediately reports an error. Hm, is it related to the issue I wanted to debug? Nope, just Chromium abusing functionality to send me more reminders.
 
 ![](image-3.png)
 

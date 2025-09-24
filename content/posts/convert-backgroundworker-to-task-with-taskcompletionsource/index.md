@@ -190,9 +190,9 @@ public partial class frmCallBackgroundWorker : Form
 
 If things run successfully, the user gets a nice message using the data returned from the two API calls.
 
-![](image.webp)
+![](image.png)
 
-![](image-1.webp)
+![](image-1.png)
 
 ## Approach #2: Wrapping the BackgroundWorker in a Task
 
@@ -300,11 +300,11 @@ private async void btnGetData_Click(object sender, EventArgs e)
 }
 ```
 
-![](image-4.webp)
+![](image-4.png)
 
-![](image-2.webp)
+![](image-2.png)
 
-![](image-3.webp)
+![](image-3.png)
 
 [Grab the example from GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Threading/TaskCompletion) and try it out yourself. Good luck!
 

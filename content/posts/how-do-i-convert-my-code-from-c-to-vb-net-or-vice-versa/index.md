@@ -30,7 +30,7 @@ That's right. It's been possible for a [long time](https://stackoverflow.com/que
 
 All you need to do is open the project with the language you want to use, and add references to the projects that use the other .NET languages. Here's a C# project with references to F# and VB.NET projects:
 
-![netlanguagereferences](netlanguagereferences.webp)
+![netlanguagereferences](netlanguagereferences.png)
 
 If you check out my sample app, you'll see the modules in the other two languages are treated by C# like any other C# static class.
 

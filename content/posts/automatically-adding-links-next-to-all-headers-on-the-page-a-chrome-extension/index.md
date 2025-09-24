@@ -26,7 +26,7 @@ This weekend I wrote an extension for the Chrome browser to make this easier. Wh
 
 ### See it in action
 
-![seeing the extension in action](show-header-with-links.webp)
+![seeing the extension in action](show-header-with-links.gif)
 
 ## Random resources and notes
 

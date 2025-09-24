@@ -21,7 +21,9 @@ The same team that designed RequestBin _(which seems to be abandoned, but more o
 
 Fortunately, the makers of RequestBin also made it really easy to deploy on your own. Just create a [DigitalOcean](https://m.do.co/c/448f25462030) droplet with [Docker](https://marketplace.digitalocean.com/apps/docker) preinstalled; unless you know you're going to need more resources, the basic $5/mo plan is sufficient. It should only take a minute or so to spin up.
 
-![](2020-01-03-10_28_35-DigitalOcean-![](2020-01-03-10_28_35-DigitalOcean---Create-Droplets---Brave.webp) with `ssh root@<your-droplet-ip-address>`, and then run the commands in the [readme](https://github.com/Runscope/requestbin/blob/master/README.md). The `build` command takes a few minutes on its own, but the `up` command should only take a few seconds.
+![](2020-01-03-10_28_35-DigitalOcean---Create-Droplets---Brave.png)
+
+Connect to your new VM, most likely with `ssh root@<your-droplet-ip-address>`, and then run the commands in the [readme](https://github.com/Runscope/requestbin/blob/master/README.md). The `build` command takes a few minutes on its own, but the `up` command should only take a few seconds.
 
 ```NONE
 git clone git://github.com/Runscope/requestbin.git
@@ -32,17 +34,17 @@ sudo docker-compose up -d
 
 Assuming no errors in the output, just paste `<your-droplet-ip-address>:8000` into your favorite browser, and away you go!
 
-![](2020-01-03-14_47_54-RequestBin---Collect--inspect-and-debug-HTTP-requests-and-webhooks---Brave.webp)
+![](2020-01-03-14_47_54-RequestBin---Collect--inspect-and-debug-HTTP-requests-and-webhooks---Brave.png)
 
 Create your first RequestBin and `POST` some data with a simple curl command like they suggest. Update the page and you should see your data listed.
 
-![](2020-01-03-14_59_47-RequestBin---zb6acbzb---Brave.webp)
+![](2020-01-03-14_59_47-RequestBin---zb6acbzb---Brave.png)
 
-![](2020-01-03-15_02_01-RequestBin---zb6acbzb---Brave.webp)
+![](2020-01-03-15_02_01-RequestBin---zb6acbzb---Brave.png)
 
 You can also use a tool like [Postman](https://www.getpostman.com/) to make requests to the endpoint, and even save them for future use - something I've made extensive use of while learning and writing about various [APIs](https://grantwinney.com/tags/api/).
 
-![](2020-01-04-21_58_44-RequestBin---11g07061---Brave.webp)
+![](2020-01-04-21_58_44-RequestBin---11g07061---Brave.png)
 
 ## Changing Built-in Settings (i.e. max TTL, max requests, and port)
 
@@ -80,9 +82,9 @@ While you're at it, you could make it so you don't have to enter a port either, 
 - Remove the current `requestbin_app` image with `docker image rm`
 - Run `sudo docker-compose up -d` again and verify your changes took effect
 
-![](2020-01-03-15_29_59-root@docker-s-1vcpu-1gb-nyc3-01_--_requestbin.webp)
+![](2020-01-03-15_29_59-root@docker-s-1vcpu-1gb-nyc3-01_--_requestbin.png)
 
-![](2020-01-03-16_03_30-RequestBin---Collect--inspect-and-debug-HTTP-requests-and-webhooks---Brave.webp)
+![](2020-01-03-16_03_30-RequestBin---Collect--inspect-and-debug-HTTP-requests-and-webhooks---Brave.png)
 
 Some of the values are also hard-coded into the HTML page, so even after doing all the above, the _page_ will probably still tell you you're limited to 20 requests. It lies. If you run the `CURL` command 30 times now, you'll see 30 requests on the page.
 
@@ -94,14 +96,14 @@ So, hopefully you haven't been passing anything too sensitive to your RequestBin
 
 _Small side note:_ If you go into "Insights", "Dependency Graph", and click "Enable", GitHub warns you of security vulnerabilities _(even on a fork)_... and then opens PRs on your behalf, which you can merge in or close at your discretion! 👍
 
-![](2020-01-03-17_45_20-grantwinney_requestbin_-Inspect-HTTP-requests.-Debug-webhooks.-Originally-create.webp)
+![](2020-01-03-17_45_20-grantwinney_requestbin_-Inspect-HTTP-requests.-Debug-webhooks.-Originally-create.png)
 
-![](2020-01-03-17_45_35-grantwinney_requestbin_-Inspect-HTTP-requests.-Debug-webhooks.-Originally-create.webp)
+![](2020-01-03-17_45_35-grantwinney_requestbin_-Inspect-HTTP-requests.-Debug-webhooks.-Originally-create.png)
 
-![](2020-01-03-17_45_46-Security-Alerts---grantwinney_requestbin---Brave.webp)
+![](2020-01-03-17_45_46-Security-Alerts---grantwinney_requestbin---Brave.png)
 
-![](2020-01-20-11_25_22-.webp)
+![](2020-01-20-11_25_22-.png)
 
-![](2020-01-03-17_46_00-Pull-Requests---grantwinney_requestbin---Brave.webp)
+![](2020-01-03-17_46_00-Pull-Requests---grantwinney_requestbin---Brave.png)
 
 I'd love to update the dependencies (i.e. Python2 is dead), merge the pending PRs, and even try addressing some of the issues myself, but that's probably a fool's errand... at least for this fool. It's a complex project and I don't have the time to dedicate to properly understanding it and bringing it up to speed.

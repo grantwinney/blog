@@ -45,7 +45,11 @@ This process involves entering a few details on their side, and then they assign
 
 Follow their [Python Quickstart](https://developers.google.com/gmail/api/quickstart/python). Note the other languages on the left too, if you’d rather try one of those. After you authenticate, their sample script prints a list of your email tags:
 
-![gmail api setup 4](gmail-api-setup-![gmail api setup 4](gmail-api-setup-4.webp)Once authenticated, their API gives you access to all kinds of useful info about your account. We’ll just modify the [sample script](https://developers.google.com/gmail/api/quickstart/python#step_3_set_up_the_sample) they provided.
+![gmail api setup 4](gmail-api-setup-4.png)
+
+### Getting the Unread Mail Count
+
+Once authenticated, their API gives you access to all kinds of useful info about your account. We’ll just modify the [sample script](https://developers.google.com/gmail/api/quickstart/python#step_3_set_up_the_sample) they provided.
 
 Most of their script is just about authenticating to Gmail, so don’t touch any of that. The following two lines got the list of labels above, and those are the ones we’ll change.
 
@@ -183,13 +187,13 @@ Once we’ve got a script that’ll connect to an email account, retrieve the da
 
 It’s a fairly simple one, limited to just an LED and a resistor, connecting board pin 35 to ground. I’ve also added a button (and second resistor) to the circuit, connected to board pin 12, that allows us to immediately check for new email without waiting for the interval. That way, we can change `CHECK_INTERVAL` to some less-frequent number like 60 (a minute), but then press the button if we don’t feel like waiting. That’s what the `add_event_detect` line is for in the above code.
 
-![New Mail Indicator](New-Mail-Indicator.webp)
+![New Mail Indicator](New-Mail-Indicator.png)
 
 Here are some photos of the actual circuit.
 
-![IMG_2022](IMG_2022.webp)
+![IMG_2022](IMG_2022.jpg)
 
-![IMG_2023](IMG_2023.webp)
+![IMG_2023](IMG_2023.jpg)
 
 Questions? Comments? Hit me up in the comments section below.
 

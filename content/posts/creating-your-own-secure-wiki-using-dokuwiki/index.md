@@ -34,7 +34,7 @@ Create a new [DigitalOcean](https://m.do.co/c/448f25462030) account. They call t
 
 Give the droplet a name if you'd like, then click "create" at the bottom. After a minute or so, the droplet is created and you get an email with the root password for logging in.
 
-![create-an-ubuntu-17.10-droplet](create-an-ubuntu-17.10-droplet.webp)
+![create-an-ubuntu-17.10-droplet](create-an-ubuntu-17.10-droplet.png)
 
 ## Configure Ubuntu
 
@@ -86,7 +86,7 @@ Look for the last `Directory` block:
 Step 10:  
 **Don't actually do this step yet**, but visit the setup link. If everything is good so far, you should see a page like this one:
 
-![dokuwiki-installer](dokuwiki-installer.webp)
+![dokuwiki-installer](dokuwiki-installer.png)
 
 ## Secure Your Droplet
 
@@ -110,11 +110,11 @@ After allowing 'Apache Full' in the firewall, I was done. There was no separate 
 
 After following the rest of the document, refresh the DokuWiki install page from earlier (or reopen it). It should redirect you from the secure (https) version of the site, and (in most browsers) throw up a nice big red warning page.
 
-![self-signed-cert-warning-1](self-signed-cert-warning.webp)
+![self-signed-cert-warning-1](self-signed-cert-warning.png)
 
 Just bypass it using whatever method your browser gives you. That's the downside of a self-signed certificate, and why you should never use one for a production site. Your communication with the server is encrypted though, so let's continue with setting up the wiki.
 
-![self-signed-cert-bypass](self-signed-cert-bypass.webp)
+![self-signed-cert-bypass](self-signed-cert-bypass.png)
 
 ## Configure DokuWiki
 
@@ -125,7 +125,7 @@ Now that the line to the server is encrypted, let's continue setting up DokuWiki
 Step 10:  
 Here's how I recommend configuring your installation, but you may want something different. Click "Enable ACL" to setup the initial user, which you can then use to login and change other options. I also chose to disable sending anonymous usage data because I tend to be a tad paranoid about exactly what data is being sent, but ymmv.
 
-![dokuwiki-initial-setup](dokuwiki-initial-setup.webp)
+![dokuwiki-initial-setup](dokuwiki-initial-setup.png)
 
 Step 12:  
 I didn't bother setting up postfix for sending email because I don't plan on giving anyone else access. If I do run through it, I'll update these instructions. If you're interested in trying it, [this tutorial for using Gmail looks pretty comprehensive](https://linode.com/docs/email/postfix/configure-postfix-to-send-mail-using-gmail-and-google-apps-on-debian-or-ubuntu/).
@@ -140,13 +140,13 @@ If you truly want a private wiki that no one else can register an account for, o
 
 Login, go to `Admin / Configuration Settings` and look for the following panel. I'd suggest disabling the following options, but you may want to experiment on your own and see how it affects the site when you're logged out.
 
-![disable-dokuwiki-actions](disable-dokuwiki-actions.webp)
+![disable-dokuwiki-actions](disable-dokuwiki-actions.png)
 
 ### Increase Maximum Upload Size
 
 If you try to upload a file to your new wiki, you'll see something like this. Notice the 2MB limit on uploads. If you were setting up a server for a bunch of people to use, this might be reasonable; however, if it's for you then you might want to upload much larger files.
 
-![upload-media-files](upload-media-files.webp)
+![upload-media-files](upload-media-files.png)
 
 To fix this, let's make a couple changes to the `php.ini` file, which can be found here. _(This is one advantage of hosting our own server. You often cannot edit the php.ini file in a shared environment.)_
 
@@ -192,13 +192,13 @@ post_max_size = 0
 
 Restart your server with `sudo service apache2 restart` and try uploading again.
 
-![upload-media-files-larger](upload-media-files-larger.webp)
+![upload-media-files-larger](upload-media-files-larger.png)
 
 ### Add Support for Markdown
 
 I use markdown all over - on my blog, Stack Overflow, GitHub, etc. If you'd like to add support for it to DokuWiki, click on the "Admin" link and go to "Extension Manager". From there, do a search for "markdown". As of this writing, [markdowku](https://www.dokuwiki.org/plugin:markdowku) appears to be the most recently maintained plugin. Click the "Install" link next to it and try it out - it seems to be working for me.
 
-![markdowku-search-results](markdowku-search-results.webp)
+![markdowku-search-results](markdowku-search-results.png)
 
 ### View Raw Wiki Files
 
@@ -210,7 +210,7 @@ cat /var/www/dokuwiki/data/pages/wiki/welcome.txt
 
 Here's a side-by-side view of the source file and the rendered page in the browser:
 
-![view-text-file](view-text-file.webp)
+![view-text-file](view-text-file.jpg)
 
 ### Regarding "Let's Encrypt"...
 

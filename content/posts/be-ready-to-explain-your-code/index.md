@@ -18,7 +18,7 @@ All of these things defend our code against being subpar, riddled with bugs.
 
 But there's another kind of defensive programming that benefits everyone - making sure you understand what you're writing and why you're writing it that way. That doesn't mean you can't lift a snippet from someone else.. there's no need to reinvent the wheel. But whether you invent your own wheel or use someone else's, anyone driving your car down the highway afterwards reasonably assumes you knew how the wheel works.
 
-![](Untitled.webp)
+![](Untitled.png)
 
 Imagine someone on your team asking you, genuinely and in the spirit of learning, why'd you write that piece of code that way.. can you explain it to me? What do you tell them?
 

@@ -33,7 +33,9 @@ Make any changes you'd like to the theme. I made small tweaks to add more social
 
 Compress the local directory so you end up with a `Casper-YOUR-USERNAME.zip` file, and then use the Design tab under settings in the Ghost admin to upload your new theme. Activate it (it should prompt you). Restart Ghost using `ghost restart` if you don't see the changes applied (but they should be).
 
-![](ghost-upload-t![](ghost-upload-theme-1.webp)g that [there's instructions for automating this process](https://github.com/marketplace/actions/deploy-ghost-theme) too, where pushing changes to a custom theme in GitHub will cause it to be automatically deployed to a working Ghost blog. Very convenient!
+![](ghost-upload-theme-1.png)
+
+It's worth noting that [there's instructions for automating this process](https://github.com/marketplace/actions/deploy-ghost-theme) too, where pushing changes to a custom theme in GitHub will cause it to be automatically deployed to a working Ghost blog. Very convenient!
 
 ## Fetch latest official changes, periodically
 

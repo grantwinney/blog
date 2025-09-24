@@ -92,7 +92,7 @@ Here's what we get. Ouch.
 
 ![](image-13.png)
 
-With the new `TaskDi![](image-13.png)so much more:
+With the new `TaskDialog`, we can do so much more:
 
 ```csharp
 var submitError = new TaskDialogButton("Submit Error");

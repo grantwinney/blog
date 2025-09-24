@@ -52,7 +52,7 @@ Here are the rules regarding timing, for relaying a message in morse code.
 
 The wikipedia page also includes a [morse code reference chart](https://en.wikipedia.org/wiki/File:International_Morse_Code.svg) we can use for translating.
 
-![](International_Morse_Code.webp)
+![](International_Morse_Code.png)
 
 That should be enough information to get started.
 
@@ -64,7 +64,7 @@ Here are a few notable notes about the approach I took.
 
 A closeup of the circuit I created. _Pin 21 » LED » resistor » ground_
 
-![breadboard single led circuit](breadboard-single-led-circuit.webp)
+![breadboard single led circuit](breadboard-single-led-circuit.jpg)
 
 ### Mapping Characters to Morse Code
 

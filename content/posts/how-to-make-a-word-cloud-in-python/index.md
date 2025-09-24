@@ -65,6 +65,8 @@ It ain't the prettiest, but I think it's passable for a non-pythonista in under 
 
 ![](2020-06-04-13_20_37-Welcome-to-LikeGeeks-app.webp)
 
-![](2020-06-04-13_29_16-Welcome-to-LikeGeeks-app.webp)
+![](2020-06-04-13_54_50-Welcome-to-LikeGeeks-app.png)
 
-![](2020-06-04-13_56_51-Welcome-to-LikeGeeks-app.webp)
+![](2020-06-04-13_29_16-Welcome-to-LikeGeeks-app.png)
+
+![](2020-06-04-13_56_51-Welcome-to-LikeGeeks-app.png)

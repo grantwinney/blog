@@ -29,7 +29,7 @@ Now let's see what we can do!
 
 [Sign up for a DigitalOcean account](https://m.do.co/c/448f25462030) if you don't already have one, or login to your existing account, and create a new Ubuntu box. You can spin up a vm wherever you'd like, but I use DO for this blog and playing around with new ideas, and I'd recommend them to anyone - they've got an awesome service. For this little exercise, a minimal $5/mo box will work just fine, and you can always increase it later if you'd like.
 
-![](image.webp)
+![](image.png)
 
 It takes a minute or two to create it, and then you'll get an email telling you how to login as root. The first thing I'd suggest doing after you login and change your root password is to [create a new user with sudo access](https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart), and then do everything as _that_ user instead.
 
@@ -64,7 +64,7 @@ Start by [generating a new SSH key](https://help.github.com/articles/generating-
 
 After you've [confirmed that the key works](https://help.github.com/articles/testing-your-ssh-connection/#platform-linux), clone the wiki repo into your home directory. You can find the link near the bottom of the wiki, in the lower-right corner (unlike the main project, which lists the "clone" link right at the top).
 
-![](github-clone-wiki-link.webp)
+![](github-clone-wiki-link.png)
 
 You'll want to change the link to an SSH format, which they provide for you on a repo but (unhelpfully) not on a wiki repo. That's okay, just manually change it.
 
@@ -89,7 +89,7 @@ Switch to the "your-repo.wiki" directory and type "gollum" to fire up the Gollum
 
 Open your browser to `http://your-ip-address:4567` (replacing the IP address with whatever is in your DigitalOcean dashboard). You should see the cloned wiki being displayed by Gollum. As I mentioned earlier, be aware that this is very insecure - anyone with access to the URL can edit your wiki!
 
-![](gollum-showing-wiki.webp)
+![](gollum-showing-wiki.png)
 
 Edit a page in Gollum, and it'll automatically commit your changes. Unfortunately, it doesn't _push_ your changes automatically, so that they're reflected on GitHub right away, but we'll fix that soon. Hit ctrl-c to exit Gollum for now.
 
@@ -129,7 +129,7 @@ We can make changes to the wiki in the vm and they get pushed to GitHub, but wha
 
 On GitHub, find the Settings tab for your repository, and configure it to send out notifications when your wiki is updated. _(I removed some available events from the screenshot below for readability - you'll see many more.)_ The `/wiki_update` endpoint is what we'll create next, using Sinatra.
 
-![](github-webhook-setup.webp)
+![](github-webhook-setup.png)
 
 ### Receive notifications with Sinatra
 
@@ -170,7 +170,7 @@ You should see something like this, if all goes well:
 
 ### Create a page and see the notifications
 
-If you open two terminal windows, and start Gollum in one and your "receive_updates" app in the other, you should be able to make updates on the GitHub side and see them in your vm, and vice-versa. [Click here to see a short demo of what it should look like](remote_wiki_test1.webp). _(caution, the file is about 4mb)_
+If you open two terminal windows, and start Gollum in one and your "receive_updates" app in the other, you should be able to make updates on the GitHub side and see them in your vm, and vice-versa. [Click here to see a short demo of what it should look like](remote_wiki_test1.gif). _(caution, the file is about 4mb)_
 
 ---
 
@@ -216,7 +216,7 @@ These are just the downsides / limitations that I noticed... I'm sure there's mo
 - If someone clones the repo to their machine, then edits a file manually and pushes the change, GitHub kicks off a notification for that file and the vm pulls in the change. However, if someone just uploads an image or other file, without editing a page, no notification is sent.
 - If two people are editing a wiki page in GitHub, when one saves the other gets a warning that the page has been updated. This doesn't occur in Gollum, so it's possible to save your changes and blow away someone else's edit.
 
-![](someone-has-edited.webp)
+![](someone-has-edited.png)
 
 ---
 

@@ -20,7 +20,7 @@ If you buy a kit with random LEDs, wires, switches, etc, you’re likely to end 
 
 It’s a special kind of LED that consists of 3 separate LEDs – red, green and blue. By adjusting each color independently, you can create any color (similar to how a TV works). By lighting all 3 in the right proportions, you can even create white.
 
-![RGB_Light-emitting_diode](RGB_Light-emitting_diode.webp)
+![RGB_Light-emitting_diode](RGB_Light-emitting_diode.png)
 
 If you haven’t played around with single-color LEDs yet, [you may want to try that first](https://grantwinney.com/raspberry-pi-making-an-led-blink/), although the process for an RGB LED is hardly more complicated.
 
@@ -36,7 +36,7 @@ Placing a resistor in your circuit when you’re using an LED is always a good i
 
 When you bought the LED, did it come with a data sheet? It’ll look something like the image below, which I pulled out of one of the [SparkFun data sheets for an RGB LED](https://www.sparkfun.com/datasheets/Components/YSL-R596CR3G4B5C-C10.pdf). If it didn’t come with one (mine didn't), the values below are pretty typical and safe to use, at least as a starting point _(more on that later)_.
 
-![RGB Triple Color LED Specs](RGB-Triple-Color-LED-Specs.webp)
+![RGB Triple Color LED Specs](RGB-Triple-Color-LED-Specs.png)
 
 There’s a lot of info there, but the values we’re interested in are _“forward current”_ and _“forward voltage”_. Oh, and you know the Raspberry Pi outputs 3.3v, right? That’s important too.
 
@@ -55,7 +55,7 @@ Using that, we can calculate our resistors:
 
 If you don’t want to memorize Ohm’s Law, bookmark one of the many calculators out there, like [this one](http://ledcalculator.net/) or [this other one](http://www.ohmslawcalculator.com/led-resistor-calculator).
 
-![led calculator result](led-calculator-result.webp)
+![led calculator result](led-calculator-result.png)
 
 Hopefully you’ve got a nice variety of resistors. If not, Amazon's got some nice little sets. The closest matches I have that don’t go under the amounts calculated above is 100Ω and 10Ω, so I started with those.
 
@@ -63,17 +63,17 @@ Hopefully you’ve got a nice variety of resistors. If not, Amazon's got some ni
 
 Take a close look at that LED – notice the four wires are not all the same length. The longest is the singular cathode, and it connects to ground. The other three (anodes) connect to red, green and blue, assuming you have your RGB LED oriented as in the image below.
 
-![rgb multicolor led](rgb-multicolor-led.webp)
+![rgb multicolor led](rgb-multicolor-led.png)
 
 Now we can lay everything out on a breadboard. Here’s the layout I chose, using GPIO18, 12 and 13 for red, blue and green respectively.
 
-![RGB LED PWM_bb](RGB-LED-PWM_bb.webp)
+![RGB LED PWM_bb](RGB-LED-PWM_bb.png)
 
 And a couple photos, if that makes it easier to see…
 
-![rgb led pwm 1](rgb-led-pwm-1.webp)
+![rgb led pwm 1](rgb-led-pwm-1.jpg)
 
-![rgb led pwm 2](rgb-led-pwm-2.webp)
+![rgb led pwm 2](rgb-led-pwm-2.jpg)
 
 I like using the [T-cobbler that comes from the Canakit package](http://amzn.to/1WkhpD1), which takes up some of the board but is more convenient than a bunch of wires leading directly back to the GPIO pins. Plus, I have a half-dozen breadboards, so I can unplug the cobbler from one project and set it aside, and connect it to another breadboard holding a different project. Like I said, convenient.
 

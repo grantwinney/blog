@@ -46,7 +46,8 @@ Like everything, it depends. The most popular platform is currently GitHub, but 
 ![](image-13.png)
 
 ![](image-15.png)
-![](image-13.png))
+
+![](image-16.png)
 
 GitHub, Azure DevOps, and Bitbucket
 

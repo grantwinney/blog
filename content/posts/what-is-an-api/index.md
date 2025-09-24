@@ -78,7 +78,7 @@ If you want to see something kind of neat, download [Postman](https://www.getpos
 
 ![](image.png)
 
-Perform![](image.png) Postman
+Performing a GET with Postman
 
 Just like the browser issues REST commands to get, update, and delete data from around the world, our own apps can too. We can do a "GET" request to a certain endpoint URL such as "http://www.example.com/users/1234", and some server somewhere in the world can do whatever it does and return the data for user 1234 to us. The difference is that instead of returning HTML markup like with the browser, it's likely to return your data in JSON format. Going anymore deeply into REST and JSON will have to be saved for another post though.. this one's already long enough as-is.
 

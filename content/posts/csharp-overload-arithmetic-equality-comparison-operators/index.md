@@ -153,7 +153,7 @@ public class ColorSwatch
 
 This one's a little tougher to imagine the result of, so I wrote a quick little app that creates a colored square for each of the shades, and then a square for each "mixed" color. I won't throw the code for that here, but it's on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericMathSupport/GenericMathSupport) too if you want to see it.
 
-![](image-1.webp)
+![](image-1.png)
 
 ## Comparison Operators
 

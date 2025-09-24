@@ -45,7 +45,8 @@ class BarberShopCustomer
 ![](image-13.png)
 
 ![](image-14.png)
-![](image-13.png)ee other examples of attribute usage, here's an article I wrote a few years ago, but today I want to look at a new feature we got in C# 11 called generic attributes.
+
+If you want to see other examples of attribute usage, here's an article I wrote a few years ago, but today I want to look at a new feature we got in C# 11 called generic attributes.
 
 The new [generic attribute](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#generic-attributes) brings (as the name suggests) the power of generics to attributes; in other words, an Attribute that can apply to more than one type. When I read this, it wasn't immediately obvious to me how this would be useful. I mean, I get how assigning metadata to an element to indicate that it's obsolete, or is an initializer for tests, or should be serialized is beneficial... but what do we get from passing the _type_ to the Attribute?
 

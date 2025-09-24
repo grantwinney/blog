@@ -52,7 +52,7 @@ Watch below how, while the job is running, the UI is completely unresponsive. I 
 
 ![](1mainthreadani.gif)
 
-## Example 2![](1mainthreadani.webp)arate thread
+## Example 2: Moving logic to a separate thread
 
 So how easy is it to take advantage of async/await, in order to not block the UI? You can change the second line in the above example to this, which tells it to run the code in a separate thread but then wait for it.
 
@@ -62,7 +62,7 @@ await Task.Run(() => bmt.MakeBreakfast());
 
 Now the UI thread is left available to process other events, so the progress bar animates, buttons are responsive, and the window can be resized and moved. You can disable anything you don't want the user to do (like I did with the button), but the UI itself doesn't lock up. _With one line of code!_
 
-![](2separatethreadani.webp)
+![](2separatethreadani.gif)
 
 ## Example 3: Moving logic to many separate threads
 
@@ -75,59 +75,59 @@ To support multiple threads, I rewrote the previous class and named it [Breakfas
 - The method signatures have changed from `void` to `async Task`. If you try to use `void Task`, you'll get a syntax error and VS will offer to change it for you.
 - The main "work" in each method (a sleepy thread) is moved inside a separate task. When the task is complete (we `await` it), the message is printed. I could've called `await Task.Delay(2000)` but felt the way I did it made it clearer that we could've been running other (more realistic) code.
 
-![](2021-06-06-21_53_00-SurvivingWinForms---Microsoft-Visual-Studio.webp)
+![](2021-06-06-21_53_00-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
 Before
 
-![](2021-06-06-21_53_22-SurvivingWinForms---Microsoft-Visual-Studio.webp)
+![](2021-06-06-21_53_22-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
 After
 
 - Methods that called several other methods one at a time in order, like the steps for brewing a cup of coffee, still call them in order, but now we `await` for each task to complete before proceeding.
 - Not all methods were converted to async though. The steps for cooking eggs were not, so they're all grouped inside a single task together.
 
-![](2021-06-06-21_55_37-SurvivingWinForms---Microsoft-Visual-Studio.webp)
+![](2021-06-06-21_55_37-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
 Before
 
-![](2021-06-06-21_55_50-SurvivingWinForms---Microsoft-Visual-Studio.webp)
+![](2021-06-06-21_55_50-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
 After
 
-![](2021-06-06-22_00_38-SurvivingWinForms---Microsoft-Visual-Studio.webp)
+![](2021-06-06-22_00_38-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
 Before
 
-![](2021-06-06-22_01_07-SurvivingWinForms---Microsoft-Visual-Studio.webp)
+![](2021-06-06-22_01_07-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
 After
 
 - Methods that can be executed at the same time, like cooking bacon and eggs, or pouring the orange juice while the coffee brews, are run in separate tasks at the same time. _**(big win!)**_
 - Obviously certain things just can't be. You can't make the sandwich until everything's cooked. You can't pour the coffee while it's still brewing.
 
-![](2021-06-06-22_06_03-SurvivingWinForms---Microsoft-Visual-Studio.webp)
+![](2021-06-06-22_06_03-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
 Before
 
-![](2021-06-06-22_06_13-SurvivingWinForms---Microsoft-Visual-Studio.webp)
+![](2021-06-06-22_06_13-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
 After
 
-![](2021-06-06-22_06_39-SurvivingWinForms---Microsoft-Visual-Studio.webp)
+![](2021-06-06-22_06_39-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
 Before
 
-![](2021-06-06-22_06_54-SurvivingWinForms---Microsoft-Visual-Studio.webp)
+![](2021-06-06-22_06_54-SurvivingWinForms---Microsoft-Visual-Studio.png)
 
 After
 
 The real time saver here is running multiple tasks. We're no longer staring at the coffee machine, or waiting on the bacon until the eggs are fried. We're doing everything pretty much how we'd make an actual breakfast, getting one thing going and then starting another while that finishes.
 
-![](3multiplethreadsani.webp)
+![](3multiplethreadsani.gif)
 
 The result is pretty drastic! Even though I picked random sleep values that don't mean much by themselves, it's easy to see that multithreading is faster. If you look at the order of things in the last pane though, you'll see that it never finishes steps out of order, because I was careful about what I told it to kick off in parallel, and when to `await` for steps to finish before proceeding.
 
-![](3multiplethreads.webp)
+![](3multiplethreads.png)
 
 I made one more change too. In the second example, I sent messages back to the UI thread to write them out, but when that happens, it pauses my task for a moment while the UI handles it. In the third example, I used the [`Progress<T>` class](https://docs.microsoft.com/en-us/dotnet/api/system.progress-1?view=net-5.0) that was introduced in .NET 4.5 instead.
 
@@ -158,7 +158,7 @@ I don't know the ins and outs of how this differs yet, but the effects are prett
 1. The example using `Progress<T>` immediately prints out all the rest of its messages as if no time has elapsed, and completes. It's clear that it continued running and completed, but its updates for the UI were stored.
 2. The example _not_ using it was frozen in place, waiting on the main UI thread. When it continues, the stopwatch reports that 16.4 seconds has elapsed - the time it took the first example to complete.
 
-![](4allatonce.webp)
+![](4allatonce.gif)
 
 ![](4allatonce.png)
 

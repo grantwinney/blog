@@ -21,7 +21,7 @@ I like this name a lot more. I've no idea who Demeter was, or why he was making 
 
 ![](pirates.jpg)
 
-Basic![](pirates.webp) classes (modules, libraries, whatever) not exposing more about themselves than needed for other classes to use them. The term the authors use is writing "shy" code, in that a piece of code shouldn't interact more than it has to, and shouldn't let other bits of code see more than they have to.
+Basically, it's about classes (modules, libraries, whatever) not exposing more about themselves than needed for other classes to use them. The term the authors use is writing "shy" code, in that a piece of code shouldn't interact more than it has to, and shouldn't let other bits of code see more than they have to.
 
 I found a great example in an article written by [David Bock](https://www.linkedin.com/in/davidbock/), called [The Paperboy, the Wallet, and the Law of Demeter](https://www2.ccs.neu.edu/research/demeter/demeter-method/LawOfDemeter/paper-boy/demeter.pdf). He presents a fictional story, where a paperboy needs to collect money from one of his customers, and he represents the process in code with something kinda like this, which I think is something most of us have seen.
 

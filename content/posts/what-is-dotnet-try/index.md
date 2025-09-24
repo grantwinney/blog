@@ -53,7 +53,7 @@ Open the QuickStart.md file in VSCode or some other editor, change the markdown 
 
 ![](image-10.png)
 
-The cool bit is wh![](image-10.png)ode fence". You specify a source file to read from, and give it the name of region in the file, and it parses whatever's inside the region, displays it on the page, and makes it executable.
+The cool bit is what they call a "code fence". You specify a source file to read from, and give it the name of region in the file, and it parses whatever's inside the region, displays it on the page, and makes it executable.
 
 ````none
 ```csharp --source-file ./Snippets/Program.cs --project ./Snippets/Snippets.csproj --region run1

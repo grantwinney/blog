@@ -204,17 +204,17 @@ Here are images and diagrams of the circuit I created. It connects four GPIO pin
 
 The resistors connecting the bottom button to 3.3v and the GPIO pin are just there because wires would’ve been too large, and in the way of my fingers.
 
-![simon clone 1](simon-clone-1.webp)
+![simon clone 1](simon-clone-1.jpg)
 
-![simon clone 2](simon-clone-2.webp)
+![simon clone 2](simon-clone-2.jpg)
 
-![simon clone 3](simon-clone-3.webp)
+![simon clone 3](simon-clone-3.jpg)
 
 ### Diagram
 
 Here's the [fritzing](http://fritzing.org/) diagram for the circuit:
 
-![simon clone diagram](simon-clone-diagram-1.webp)
+![simon clone diagram](simon-clone-diagram-1.png)
 
 ### Demonstration
 
