@@ -4,8 +4,7 @@ categories:
 date: 2016-08-29T22:34:44Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-iot-image.webp
 slug: raspberry-pi-flickering-candle
 tags:
   - raspberry-pi

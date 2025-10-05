@@ -4,8 +4,7 @@ categories:
 date: 2016-03-26T16:37:30Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-iot-image.webp
 slug: raspberry-pi-making-an-led-blink
 summary: I unboxed my Raspberry Pi a few weeks ago and started learning Python. Let's code the "Hello World" of the Pi, and make an LED blink.
 tags:
