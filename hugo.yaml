@@ -125,11 +125,11 @@ params:
     # imageTitle: "<title of image as alt>"
     imageWidth: 200
     imageHeight: 200
-    buttons:
-      - name: LinkedIn
-        url: "https://www.linkedin.com/in/grantwinney"
-      - name: Github
-        url: "https://github.com/grantwinney"
+    # buttons:
+    #   - name: LinkedIn
+    #     url: "https://www.linkedin.com/in/grantwinney"
+    #   - name: Github
+    #     url: "https://github.com/grantwinney"
 
  # analytics:
  #   google:
