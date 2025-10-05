@@ -3,7 +3,7 @@ description: 'A dev with questions... and answers too.'
 languageCode: 'en-us'
 title: 'Grant Winney'
 theme:
-  - 'PaperMod'
+  - 'hugo-papermod'
 
 # Force tag names to lowercase when displayed on site
 capitalizeListTitles: false
@@ -11,7 +11,7 @@ capitalizeListTitles: false
 enableGitInfo: true
 enableInlineShortcodes: true
 enableEmoji: true
-mainsections: ["posts", "PaperMod"]
+mainsections: ["posts", "hugo-papermod"]
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
