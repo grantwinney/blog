@@ -5,7 +5,7 @@ summary: It's common to compare two objects in C# for equality, such as for a sa
 description: ""
 date: 2016-10-31T13:23:44Z
 draft: false
-postimage: generic-coding-image.jpg
+postimage: /banners/generic-coding-image.jpg
 categories:
   - Learn
 tags:
