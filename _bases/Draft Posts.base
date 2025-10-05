@@ -1,0 +1,26 @@
+formulas:
+  post-title: link(file, note["title"])
+  Title: link(file, note["title"])
+  Created: file.ctime.format("MMM D, yyyy")
+  Modified: file.mtime.format("MMM D, yyyy")
+properties:
+  formula.Title:
+    displayName: Post Title
+  note.tags:
+    displayName: Tags
+  note.categories:
+    displayName: Category
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - draft == true
+        - file.folder.contains("content")
+    order:
+      - formula.Title
+      - categories
+      - tags
+    columnSize:
+      formula.Title: 240
+      file.ctime: 202
