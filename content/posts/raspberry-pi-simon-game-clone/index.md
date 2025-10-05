@@ -4,8 +4,7 @@ categories:
 date: 2016-07-28T08:09:41Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-iot-image.webp
 slug: raspberry-pi-simon-game-clone
 summary: Let's recreate the Simon game of the 1980s using a Raspberry Pi and Sonic Pi!
 tags:
