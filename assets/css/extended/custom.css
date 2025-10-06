@@ -78,13 +78,6 @@ hyvor-talk-comment-count {
     font-size: smaller;
 }
 
-/* Crop banner images to 800px vertical */
-
-.entry-cover {
-  height: 800px;              /* height of visible area */
-  overflow: hidden;           /* hide anything outside the box */
-}
-
 
 /** FOOTER AREA **/
 
