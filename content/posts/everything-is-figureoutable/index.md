@@ -6,8 +6,6 @@ description:
 date:
 draft: true
 postimage: /banners/generic-thoughts-banner.webp
-  alt: banner image for post
-  caption:
 categories:
   - Reflect
 tags:
