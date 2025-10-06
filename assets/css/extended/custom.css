@@ -1,4 +1,4 @@
-/** THEME (copied from thme-vars.css **/
+/** THEME (copied from theme-vars.css **/
 
 :root {
     --gap: 24px;
@@ -76,6 +76,22 @@ hyvor-talk-comment-count {
 
 #TableOfContents {
     font-size: smaller;
+}
+
+/* Crop banner images to 800px vertical */
+
+.entry-cover {
+  height: 600px;              /* height of visible area */
+  width: 100%;                /* optional */
+  overflow: hidden;           /* hide anything outside the box */
+  position: relative;
+}
+
+.entry-cover img {
+  width: 100%;                /* scale to container width */
+  position: absolute;
+  top: 50%;                   /* move the image’s center to the box’s center */
+  transform: translateY(-50%);
 }
 
 
