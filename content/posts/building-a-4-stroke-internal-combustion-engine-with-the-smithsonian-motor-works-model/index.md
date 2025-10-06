@@ -4,8 +4,7 @@ categories:
 date: 2016-02-06T11:55:48Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: pexels-sejio402-29226626.webp
 slug: building-a-4-stroke-internal-combustion-engine-with-the-smithsonian-motor-works-model
 summary: Last summer, I found this “Smithsonian Motor-Works” set at a garage sale. Once built, it models a 4-stroke internal combustion engine. I’d shelved it for a rainy day and rediscovered it last weekend while cleaning the basement. Time for a little father/son bonding!
 tags:
