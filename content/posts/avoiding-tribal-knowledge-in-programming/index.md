@@ -4,8 +4,7 @@ categories:
 date: 2021-07-05T19:20:06Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-thoughts-banner.webp
 slug: avoiding-tribal-knowledge-in-programming
 summary: When I was less skilled as a developer, it was enough to just stay afloat, learning what I needed for the current day or project. As my skill and confidence grows, I've come to appreciate the extra things in life - like a decent set of docs.
 tags:

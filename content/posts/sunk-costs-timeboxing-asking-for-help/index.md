@@ -4,8 +4,7 @@ categories:
 date: 2021-12-20T12:00:00Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-thoughts-banner.webp
 slug: sunk-costs-timeboxing-asking-for-help
 summary: One of the biggest struggles I have with programming is knowing when to ask for help. A little struggle is necessary for growth, but when am I just wasting time when I could be learning from others?
 tags:

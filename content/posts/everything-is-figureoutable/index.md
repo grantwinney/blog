@@ -5,8 +5,7 @@ summary:
 description:
 date:
 draft: true
-cover:
-  image:
+postimage: /banners/generic-thoughts-banner.webp
   alt: banner image for post
   caption:
 categories:

@@ -4,8 +4,7 @@ categories:
 date: 2020-09-15T03:52:08Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-thoughts-banner.webp
 slug: how-do-you-know-when-youre-a-programmer
 summary: How do you know when you've finally arrived, and are officially a programmer? Is it a set of skills, a certain amount of time? Can you ever really arrive, when it's a race of one with no finish line?
 tags:
