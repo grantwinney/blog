@@ -10,6 +10,7 @@ tags:
 - csharp
 - coding
 title: An Extension Method to Pass a Column Name to SqlDataReader.GetFieldValue
+postimage: /banners/generic-build-banner.webp
 ---
 The [SqlDataReader.GetFieldValue](http://msdn.microsoft.com/en-us/library/hh485652\(v=vs.110\).aspx) method uses generics to return the value of a column as the requested data type, which is nice, but it also requires us to know and pass the column index instead of just using its name, which is less nice.
 
