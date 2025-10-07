@@ -4,8 +4,7 @@ categories:
 date: 2020-11-28T04:15:10Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-learning-banner.webp
 slug: what-is-a-code-review
 summary: Does the idea of submitting to a code review make you sweat bullets? Or do you brush it off as a necessary evil? It should be a (hopefully positive) conversation, wherein the team agrees to the code they're all going to have to help maintain, and maybe learns something new too.
 tags:

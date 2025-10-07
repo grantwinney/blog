@@ -4,8 +4,7 @@ categories:
 date: 2023-08-23T15:52:21Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-learning-banner.webp
 slug: what-are-generic-attributes
 summary: Generic attributes increase the flexibility of a very early .NET feature. Let's try using them and see how it keeps our code DRY.
 tags:

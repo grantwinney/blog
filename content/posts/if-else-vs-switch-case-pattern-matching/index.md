@@ -4,8 +4,7 @@ categories:
 date: 2023-11-03T16:35:50Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-learning-banner.webp
 slug: if-else-vs-switch-case-pattern-matching
 summary: "A look at if/else, switch/case, pattern matching, other options ... and which is best. (spoiler: none ;) )"
 tags:

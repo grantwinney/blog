@@ -4,8 +4,7 @@ categories:
 date: 2020-05-22T03:59:32Z
 description:
 draft: false
-cover:
-  image:
+postimage: /banners/generic-learning-banner.webp
 slug: where-should-i-store-app-data-in-windows
 summary: Windows sets certain locations aside for apps, and makes them easily discoverable for devs to use. Let's see how.
 tags:

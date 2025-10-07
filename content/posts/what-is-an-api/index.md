@@ -4,8 +4,7 @@ categories:
 date: 2017-07-23T19:41:19Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-learning-banner.webp
 slug: what-is-an-api
 summary: An API is an Application Programming Interface, but what's that really mean? In a more practical sense, it's one programmer hiding the (possibly messy) details of their own code behind a nice veneer, in order to make it easier for another programmer to consume it in their own program.
 tags:

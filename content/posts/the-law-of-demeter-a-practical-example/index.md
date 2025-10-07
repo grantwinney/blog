@@ -4,8 +4,7 @@ categories:
 date: 2020-05-02T03:59:22Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-learning-banner.webp
 slug: the-law-of-demeter-a-practical-example
 tags:
   - software-design

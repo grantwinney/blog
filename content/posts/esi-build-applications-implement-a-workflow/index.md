@@ -4,8 +4,7 @@ categories:
 date: 2022-07-16T18:48:55Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-learning-banner.webp
 slug: esi-build-applications-implement-a-workflow
 summary: Continuing with Microsoft's ESI, I spent some time this week learning about workflows, reusable elements, and protecting and monitoring the code.
 tags:

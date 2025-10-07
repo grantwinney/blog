@@ -4,8 +4,7 @@ categories:
 date: 2022-07-30T11:00:15Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-learning-banner.webp
 slug: esi-building-apps-with-azure-devops-manage-dependencies
 summary: Continuing with Microsoft's ESI lessons, I learned about Azure Artifacts and the benefits of package managers. They're good. Use them. ;)
 tags:

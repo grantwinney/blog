@@ -4,8 +4,7 @@ categories:
 date: 2020-06-04T21:43:00Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-learning-banner.webp
 slug: how-to-make-a-word-cloud-in-python
 summary: We've all seen word clouds, like in the sidebars of blogs, but let's see how we might create our own with a little bit of code!
 tags:

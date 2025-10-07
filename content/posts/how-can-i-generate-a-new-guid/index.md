@@ -4,8 +4,7 @@ categories:
 date: 2023-07-27T22:12:21Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-learning-banner.webp
 slug: how-can-i-generate-a-new-guid
 summary: GUIDs are heavily used in the world of development, so let's look at a few quick and easy ways to generate them whenever we need them.
 tags:

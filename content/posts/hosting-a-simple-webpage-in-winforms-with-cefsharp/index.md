@@ -4,8 +4,7 @@ categories:
 date: 2022-06-28T23:07:09Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-learning-banner.webp
 slug: hosting-a-simple-webpage-in-winforms-with-cefsharp
 summary: WinForms and the web. Like oil and water, they don't mix well. But with CEFSharp, they mix a LOT better. Let's check it out.
 tags:

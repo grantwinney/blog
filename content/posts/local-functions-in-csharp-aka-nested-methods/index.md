@@ -4,8 +4,7 @@ categories:
 date: 2022-10-08T18:40:48Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-learning-banner.webp
 slug: local-functions-in-csharp-aka-nested-methods
 summary: C# 7 introduced a new tool for the belt - local functions. Let's take a look at what they are, how to use them, and why we might not want to.
 tags:

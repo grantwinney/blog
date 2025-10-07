@@ -4,8 +4,7 @@ categories:
 date: 2022-01-07T04:12:17Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-learning-banner.webp
 slug: mocking-messagebox-in-winforms
 summary: Unit testing a WinForms app is an uphill battle in the best of times, before you add in classes like MessageBox. Let's make the best of it.
 tags:

@@ -4,8 +4,7 @@ categories:
 date: 2019-03-14T11:03:00Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-learning-banner.webp
 slug: keep-your-eunit-teardown-logic-as-simple
 summary: Ever had an EUnit test fixture fail with meck reporting it was "already_started"? Well I did, and here's why...
 tags:

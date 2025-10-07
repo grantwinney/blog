@@ -4,8 +4,7 @@ categories:
 date: 2019-10-06T03:55:19Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-learning-banner.webp
 slug: first-look-github-package-registry-beta
 summary: Most of us host something (and some of us everything) on GitHub, especially since they host private repos for free too now. I've been eager to try the GitHub Package Registry since they announced it last May. Well, I just got access to the beta, so let's see what we can do!
 tags:
