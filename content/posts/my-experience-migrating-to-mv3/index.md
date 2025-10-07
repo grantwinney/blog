@@ -1,11 +1,9 @@
 ---
 categories:
-  - Coding
 date: 2022-11-19T22:09:03Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-thoughts-banner.webp
 slug: my-experience-migrating-to-mv3
 summary: I migrated my addons to MV3, and learned that version numbers increase, DRY is overrated, and 3 and 15 are probably important but I have no idea why. What I didn't learn is how MV3 made my addon better.
 tags:

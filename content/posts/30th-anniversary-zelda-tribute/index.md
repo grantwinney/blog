@@ -4,14 +4,13 @@ categories:
 date: 2020-09-09T16:28:52Z
 description: ""
 draft: false
-cover:
-  image:
 slug: 30th-anniversary-zelda-tribute
 summary: A few years ago, on the 30th anniversary of the Legend of Zelda, Scott Lininger and Mike Magee open sourced a 3D version of the original LoZ. The site was taken down, but the code's still available to run!
 tags:
   - retro
   - nodejs
 title: A 30th anniversary Zelda tribute, in Node.js
+postimage: ales-krivec-OY46PtnSfYQ-unsplash.webp
 ---
 Nearly 30 years ago, I remember being at one family thing or another, when my cousin brought out his new SNES game console and hooked it up to a little color TV. He popped in a game that I immediately fell in love with (hey I was like 12), although I had no idea who or what Zelda was.
 

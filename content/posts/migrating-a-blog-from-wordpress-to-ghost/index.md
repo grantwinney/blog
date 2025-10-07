@@ -3,8 +3,7 @@ categories:
 date: 2017-03-26T02:43:14Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-build-banner.webp
 slug: migrating-a-blog-from-wordpress-to-ghost
 tags:
   - ghost-blog

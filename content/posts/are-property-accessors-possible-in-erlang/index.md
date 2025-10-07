@@ -9,6 +9,7 @@ summary: I ran into a problem in Erlang yesterday that made me think... is there
 tags:
   - erlang
 title: Are property accessors possible in Erlang records?
+postimage: /banners/generic-explore-banner.webp
 ---
 I was tackling a new requirement the other day, which needed a new record. One of the fields is a list of items, while another happens to represent a count of those items - not that the consumer of the record would necessarily be aware of that relationship.
 
