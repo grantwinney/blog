@@ -4,8 +4,7 @@ categories:
 date: 2017-12-29T15:33:04Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-explore-banner.webp
 slug: what-is-openweathermap-api
 summary: OpenWeatherMap provides free access to extensive weather data - current conditions, 5-day forecast, uv index, weather alerts, etc. Let's check out their API!
 tags:

@@ -4,8 +4,7 @@ categories:
 date: 2022-12-31T17:18:11Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-explore-banner.webp
 slug: why-do-i-need-to-install-an-extension-just-to-copy-paste
 summary: I was creating a document in Office365 the other day - something I've done a hundred times - but when I tried to paste with their custom right-click menu I was greeted with a popup telling me to download a browser addon. Well, that's weird.
 tags:
