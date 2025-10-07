@@ -4,8 +4,7 @@ categories:
 date: 2021-12-07T15:37:03Z
 description: ""
 draft: false
-cover:
-  image:
+postimage: /banners/generic-build-banner.webp
 slug: the-helpful-exception-box
 summary: If you're in a legacy codebase with a centralized "message box" form, why not add some features that make it work for you? 😏
 tags:
