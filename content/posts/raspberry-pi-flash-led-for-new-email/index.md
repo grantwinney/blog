@@ -4,7 +4,7 @@ categories:
 date: 2016-05-28T21:19:25Z
 description: ""
 draft: false
-postimage: /banners/generic-iot-banner.webp
+postimage: /banners/default-iot-banner.webp
 slug: raspberry-pi-flash-led-for-new-email
 summary: Let's learn how to flash an LED on the Raspberry Pi when someone sends us a new email.
 tags:

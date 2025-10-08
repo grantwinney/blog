@@ -4,7 +4,7 @@ categories:
 date: 2016-08-22T07:28:52Z
 description: ""
 draft: false
-postimage: /banners/generic-iot-banner.webp
+postimage: /banners/default-iot-banner.webp
 slug: raspberry-pi-pulse-width-modulation
 tags:
   - raspberry-pi

@@ -4,7 +4,7 @@ categories:
 date: 2017-04-01T18:47:23Z
 description: ""
 draft: false
-postimage: /banners/generic-build-banner.webp
+postimage: /banners/default-build-banner.webp
 slug: 5-quick-hacks-for-your-ghost-theme
 summary: These "hacks" for Ghost add some cool features to any blog, and should be usable with any theme.
 tags:

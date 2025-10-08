@@ -4,7 +4,7 @@ categories:
 date: 2019-12-01T01:51:59Z
 description: ""
 draft: false
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/default-learn-banner.webp
 slug: how-do-i-add-seconds-minutes-or-hours-to-a-datetime-structure-in-erlang
 summary: I was trying to add times in Erlang, but couldn't find an existing function, so I wrote my own.
 tags:

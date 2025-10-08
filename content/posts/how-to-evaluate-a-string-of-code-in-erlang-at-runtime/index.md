@@ -4,7 +4,7 @@ categories:
 date: 2017-03-05T18:56:30Z
 description: ""
 draft: false
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/default-learn-banner.webp
 slug: how-to-evaluate-a-string-of-code-in-erlang-at-runtime
 tags:
   - erlang

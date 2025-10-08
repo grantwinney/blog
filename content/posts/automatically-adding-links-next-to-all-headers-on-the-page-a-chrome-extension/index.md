@@ -4,7 +4,7 @@ categories:
 date: 2018-02-25T21:33:09Z
 description: ""
 draft: false
-postimage: /banners/generic-build-banner.webp
+postimage: /banners/default-build-banner.webp
 slug: automatically-adding-links-next-to-all-headers-on-the-page-a-chrome-extension
 summary: Ever needed to link directly to one section of a webpage? You can, as long as there's a header (or another element nearby like a div) with an ID assigned to it. Getting the ID isn't tough, but it's a bit of a pain. It doesn't have to be that hard.
 tags:

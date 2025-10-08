@@ -4,7 +4,7 @@ categories:
 date: 2023-06-26T10:45:44Z
 description: ""
 draft: false
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/default-learn-banner.webp
 slug: nunit-constraint-model
 summary: I recently discovered the constraint model in NUnit. It's been there for years, hiding in plain sight! What is it? Is it worth using? Let's check it out.
 tags:

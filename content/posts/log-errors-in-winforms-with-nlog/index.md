@@ -4,7 +4,7 @@ categories:
 date: 2021-10-09T15:53:15Z
 description: ""
 draft: false
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/default-learn-banner.webp
 slug: log-errors-in-winforms-with-nlog
 summary: Logs are a great tool for squashing bugs and tracing errors. Let's see how to add NLog to our project.
 tags:

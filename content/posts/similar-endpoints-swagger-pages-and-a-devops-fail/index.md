@@ -4,7 +4,7 @@ categories:
 date: 2023-12-12T22:48:16Z
 description: ""
 draft: false
-postimage: /banners/generic-thoughts-banner.webp
+postimage: /banners/default-thoughts-banner.webp
 slug: similar-endpoints-swagger-pages-and-a-devops-fail
 summary: After an unexpected debugging session, some thoughts on APIs, similar endpoints, swagger, and an ugly DevOps fail.
 tags:

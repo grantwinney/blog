@@ -4,7 +4,7 @@ categories:
 date: 2018-01-22T03:41:27Z
 description: ""
 draft: false
-postimage: /banners/generic-build-banner.webp
+postimage: /banners/default-build-banner.webp
 slug: ghost-blog-autolink-images-to-full-resolution
 tags:
   - ghost-blog

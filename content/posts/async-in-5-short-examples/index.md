@@ -4,7 +4,7 @@ categories:
 date: 2024-10-07T02:43:55Z
 description: ""
 draft: false
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/default-learn-banner.webp
 slug: async-in-5-short-examples
 summary: Async code isn't always intuitive, but practicing helps. Let's take a look at Async, CancellationToken, and IProgress, in a few short examples.
 tags:

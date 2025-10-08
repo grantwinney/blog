@@ -9,7 +9,7 @@ summary: Concatenating strings and binaries in Erlang can get ugly quick. Let's 
 tags:
   - erlang
 title: Concatenate Binaries and Strings in Erlang
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/default-learn-banner.webp
 ---
 ## The Problem
 

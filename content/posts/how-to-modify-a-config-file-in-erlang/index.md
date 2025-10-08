@@ -9,7 +9,7 @@ summary: Modifying an Erlang config file at runtime wasn't as easy (or obvious) 
 tags:
   - erlang
 title: Modify a config file in Erlang
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/default-learn-banner.webp
 ---
 I found myself recently needing to write an [escript](http://erlang.org/doc/man/escript.html) to modify a [config file](https://www.erlang.org/docs/19/man/config). All I needed was to read it in, make a couple updates, and write it back out. Should be easy, right? Please make it easy Erlang. No? Okay... 😢
 

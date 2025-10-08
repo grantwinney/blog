@@ -4,7 +4,7 @@ categories:
 date: 2019-02-09T21:10:27Z
 description: ""
 draft: false
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/default-learn-banner.webp
 slug: common-dialyzer-errors-and-solutions-in-erlang
 summary: When dealing with a dynamically typed language, any effort to tame the beast can pay off. For Erlang, that means Dialyzer specs. The more specs added, the more helpful the tool becomes - but getting to that point can be painful. Here are some warnings I've seen, what they mean and how I solved them.
 tags:

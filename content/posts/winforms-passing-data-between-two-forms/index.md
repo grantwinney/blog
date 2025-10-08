@@ -4,7 +4,7 @@ categories:
 date: 2014-12-12T07:57:57Z
 description: ""
 draft: false
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/default-learn-banner.webp
 slug: winforms-passing-data-between-two-forms
 summary: Passing data between two Forms is very common in WinForms. There's a couple ways to do it, and one's better than the other. Let's take a look.
 tags:

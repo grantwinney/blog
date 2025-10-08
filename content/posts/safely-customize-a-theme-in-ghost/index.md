@@ -4,7 +4,7 @@ categories:
 date: 2017-07-24T18:57:36Z
 description: ""
 draft: false
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/default-learn-banner.webp
 slug: safely-customize-a-theme-in-ghost
 tags:
   - ghost-blog

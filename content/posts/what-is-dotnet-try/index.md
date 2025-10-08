@@ -4,7 +4,7 @@ categories:
 date: 2021-05-29T21:40:16Z
 description: ""
 draft: false
-postimage: /banners/generic-explore-banner.webp
+postimage: /banners/default-explore-banner.webp
 slug: what-is-dotnet-try
 summary: Do you prefer reading or doing? How about both? DotNet Try pulls in C# code from your project and turns your docs into an interactive experience.
 tags:

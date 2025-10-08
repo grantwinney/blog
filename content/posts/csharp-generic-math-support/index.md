@@ -4,7 +4,7 @@ categories:
 date: 2023-04-05T03:50:14Z
 description: ""
 draft: false
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/default-learn-banner.webp
 slug: csharp-generic-math-support
 summary: What is Generic Math support in C# 11, and how do we take advantage of it? Let's dig in and find out! (part 3 of 3)
 tags:

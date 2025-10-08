@@ -4,7 +4,7 @@ categories:
 date: 2020-01-05T12:39:14Z
 description: ""
 draft: false
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/default-learn-banner.webp
 slug: deploy-requestbin-in-under-5-minutes
 summary: If you need to consume a webhook from another service, or verify the payload being sent from your own REST API endpoint, RequestBin can help. It intercepts and displays the contents of any call made to it. Here's how to deploy your own instance in just a few minutes.
 tags:

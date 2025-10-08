@@ -4,7 +4,7 @@ categories:
 date: 2020-12-09T13:19:00Z
 description: ""
 draft: false
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/default-learn-banner.webp
 slug: what-is-mocking-a-dependency
 summary: When you're writing tests, you generally don't want to write to the database, email customers, and hit third-party API's. That's why we need to know how to mock dependencies!
 tags:

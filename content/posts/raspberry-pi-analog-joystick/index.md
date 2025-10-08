@@ -4,7 +4,7 @@ categories:
 date: 2016-09-24T13:30:49Z
 description: ""
 draft: false
-postimage: /banners/generic-iot-banner.webp
+postimage: /banners/default-iot-banner.webp
 slug: raspberry-pi-analog-joystick
 tags:
   - raspberry-pi

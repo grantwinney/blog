@@ -4,7 +4,7 @@ categories:
 date: 2023-08-31T23:04:38Z
 description: ""
 draft: false
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/default-learn-banner.webp
 slug: whats-a-list-pattern-in-csharp
 summary: C# has been getting a lot of pattern matching love in recent years, like with list patterns in C# 11. The problem is knowing where and how to use it.
 tags:

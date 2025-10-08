@@ -4,7 +4,7 @@ categories:
 date: 2018-06-06T18:18:06Z
 description: ""
 draft: false
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/default-learn-banner.webp
 slug: getting-rid-of-unused-function-errors-when-using-timers-in-erlang
 summary: Have you ever tried to execute a function at some future time in Erlang? You can, with a timer, but the compiler may complain that the function you're calling via the timer is unused. Why is that and what can you do?
 tags:

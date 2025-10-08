@@ -4,7 +4,7 @@ categories:
 date: 2019-05-04T14:35:40Z
 description: ""
 draft: false
-postimage: /banners/generic-build-banner.webp
+postimage: /banners/default-build-banner.webp
 slug: running-windows-xp-in-virtualbox
 summary: Just got an MSDN account, which always comes with some old treasures (hey, beauty's in the eye of the beholder). Take a trip back with me, to the days of Windows XP, the beginning of the .NET Framework, and even further... ;)
 tags:

@@ -4,7 +4,7 @@ categories:
 date: 2019-09-26T03:38:30Z
 description: ""
 draft: false
-postimage: /banners/generic-api-banner.webp
+postimage: /banners/default-api-banner.webp
 slug: using-graphiql-to-access-a-graphql-api
 summary: GraphQL is bundled with GraphiQL, which lets us run queries right in the browser! Let's see how GitHub uses it and try kicking the tires.
 tags:

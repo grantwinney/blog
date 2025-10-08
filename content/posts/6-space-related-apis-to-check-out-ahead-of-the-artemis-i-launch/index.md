@@ -4,7 +4,7 @@ categories:
 date: 2022-08-28T18:23:48Z
 description: ""
 draft: false
-postimage: /banners/generic-api-banner.webp
+postimage: /banners/default-api-banner.webp
 slug: 6-space-related-apis-to-check-out-ahead-of-the-artemis-i-launch
 summary: The week of NASA launching Artemis I is a good time to check a few of the many APIs that make tons of raw space data accessible for anyone to use.
 tags:

@@ -4,7 +4,7 @@ categories:
 date: 2018-04-01T02:46:32Z
 description: ""
 draft: false
-postimage: /banners/generic-build-banner.webp
+postimage: /banners/default-build-banner.webp
 slug: creating-your-own-secure-wiki-using-dokuwiki
 summary: I've been thinking for awhile now that I wanted to setup a wiki. I wanted something light-weight, with support for uploading images and files. And I wanted to retain control over the data and configuration, as well as encrypt access to it. Here's how to install DokuWiki on Ubuntu with DigitalOcean.
 tags:

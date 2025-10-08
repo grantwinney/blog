@@ -4,7 +4,7 @@ categories:
 date: 2022-10-12T22:09:47Z
 description: ""
 draft: false
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/default-learn-banner.webp
 slug: csharp-named-arguments
 summary: Named arguments in C#.. they've been around a long time, but does anyone use them? Let's check out another feature that helps tame wild code.
 tags:

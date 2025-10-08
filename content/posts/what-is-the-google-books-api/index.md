@@ -4,7 +4,7 @@ categories:
 date: 2018-01-31T00:07:00Z
 description: ""
 draft: false
-postimage: /banners/generic-api-banner.webp
+postimage: /banners/default-api-banner.webp
 slug: what-is-the-google-books-api
 summary: The Google Books API provides access to Google Books, which lets you search for any book and, at a bare minimium, see meta data about it. Depending on copyright status, you might also be able to see sample pages or read the entire book. You can also buy books.
 tags:

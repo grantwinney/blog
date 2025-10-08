@@ -5,7 +5,7 @@ summary:
 description:
 date:
 draft: true
-postimage: /banners/generic-thoughts-banner.webp
+postimage: /banners/default-thoughts-banner.webp
 categories:
   - Reflect
 tags:

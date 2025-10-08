@@ -4,7 +4,7 @@ categories:
 date: 2019-12-30T17:49:59Z
 description: ""
 draft: false
-postimage: /banners/generic-explore-banner.webp
+postimage: /banners/default-explore-banner.webp
 slug: websites-requesting-access-to-motion-sensors
 summary: I was checking the status of a FedEx order when Brave warned me that "this site has been blocked from accessing your motion sensors". I'm struggling to understand why a website would need that access. Do I get a different experience if I drop my device? Tip my monitor over? Spin the mouse around?
 tags:

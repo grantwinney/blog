@@ -4,7 +4,7 @@ categories:
 date: 2019-05-22T02:23:58Z
 description: ""
 draft: false
-postimage: /banners/generic-explore-banner.webp
+postimage: /banners/default-explore-banner.webp
 slug: keeping-your-github-code-secure
 summary: GitHub, GitLab, and Bitbucket just released a joint statement on a widespread ransomware attack that resulted  in compromised accounts. That got me thinking, what can a person do to protect his or her code on GitHub? As it turns out, a lot...
 tags:

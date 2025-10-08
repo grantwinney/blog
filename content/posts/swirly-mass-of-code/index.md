@@ -4,7 +4,7 @@ categories:
 date: 2023-11-14T04:31:52Z
 description: ""
 draft: false
-postimage: /banners/generic-thoughts-banner.webp
+postimage: /banners/default-thoughts-banner.webp
 slug: swirly-mass-of-code
 tags:
 title: A swirly mass of shared code

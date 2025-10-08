@@ -4,7 +4,7 @@ categories:
 date: 2023-07-02T03:09:24Z
 description: ""
 draft: false
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/default-learn-banner.webp
 slug: how-to-log-messages-to-multiple-targets-with-nlog
 summary: When it comes to finding a bug in an app, few things beat a good trail of logs. And for writing those logs, few tools beat NLog in simplicity or flexibility. I rarely appreciate just how flexible it is though, so it's worth spending a little time taking a closer look.
 tags:

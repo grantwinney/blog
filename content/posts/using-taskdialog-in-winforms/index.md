@@ -4,7 +4,7 @@ categories:
 date: 2024-12-31T23:41:30Z
 description: ""
 draft: false
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/default-learn-banner.webp
 slug: using-taskdialog-in-winforms
 summary: In .NET 5, WinForms got a major upgrade to the MessageBox called TaskDialog. It's way more flexible and powerful - let's check it out!
 tags:

@@ -4,7 +4,7 @@ categories:
 date: 2017-08-16T10:27:33Z
 description: ""
 draft: false
-postimage: /banners/generic-explore-banner.webp
+postimage: /banners/default-explore-banner.webp
 slug: making-your-first-chrome-extension
 summary: We all have our favorite web browser with our favorite extensions loaded, but have you ever considered writing your own? In the past few months I've created a couple extensions to suit my own needs. Here's what I've learned!
 tags:

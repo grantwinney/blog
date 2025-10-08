@@ -4,7 +4,7 @@ categories:
 date: 2013-10-23T01:26:46Z
 description: ""
 draft: false
-postimage: /banners/generic-build-banner.webp
+postimage: /banners/default-build-banner.webp
 slug: installing-dos-6-22-in-vmware-player
 summary: While looking for a copy of Windows 98 on MSDN to install some old software (compatibility mode under Windows 7 didn’t work), I came across Windows 3.11. I just had to try installing it! But first, DOS 6.22...
 tags:

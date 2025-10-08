@@ -4,7 +4,7 @@ categories:
 date: 2020-04-04T19:01:02Z
 description: ""
 draft: false
-postimage: /banners/generic-explore-banner.webp
+postimage: /banners/default-explore-banner.webp
 slug: 13-addons-that-power-up-your-github-game
 summary: GitHub is an amazing set of tools around Git, but it's lacking in certain areas. Where it fails to impress, browser addons often pick up the slack. Here's 13 addons (plus a few honorable mentions) that will take your GitHub experience to the next level!
 tags:
