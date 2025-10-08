@@ -4,7 +4,7 @@ categories:
 date: 2018-06-19T13:45:34Z
 description: ""
 draft: false
-postimage: /banners/generic-learning-banner.webp
+postimage: /banners/generic-api-banner.webp
 slug: a-look-at-the-many-ways-apis-can-authorize-access
 summary: After writing about so many APIs and having to figure out the auth process for each, I wanted to compare and contrast how some of these services approach authentication and authorization, and why they might've decided to do it the way they did.
 tags:

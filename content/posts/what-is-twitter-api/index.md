@@ -4,7 +4,7 @@ categories:
 date: 2017-12-16T04:58:47Z
 description: ""
 draft: false
-postimage: /banners/generic-explore-banner.webp
+postimage: /banners/generic-api-banner.webp
 slug: what-is-twitter-api
 summary: The Twitter API lets you access tweets, users who tweet, metadata, manipulate lists, and more. Let's check it out!
 tags:

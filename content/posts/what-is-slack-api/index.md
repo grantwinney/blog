@@ -4,7 +4,7 @@ categories:
 date: 2017-12-21T18:09:09Z
 description: ""
 draft: false
-postimage: /banners/generic-explore-banner.webp
+postimage: /banners/generic-api-banner.webp
 slug: what-is-slack-api
 summary: Slack is a popular communication and collaboration tool, and their API gives us access to channels, messages, and more. Let's check it out!
 tags:

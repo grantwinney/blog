@@ -4,7 +4,7 @@ categories:
 date: 2017-12-23T04:10:01Z
 description: ""
 draft: false
-postimage: /banners/generic-explore-banner.webp
+postimage: /banners/generic-api-banner.webp
 slug: what-is-google-maps-api
 summary: The Google Maps API is a series of APIs for multiple platforms, each focused on a small set of tasks. At first it all seems a bit overwhelming, but each of them is pretty easy to use. Let's check a few out!
 tags:
