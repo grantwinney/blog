@@ -23,6 +23,9 @@ markup:
     # guessSyntax: true
     lineNos: true
     # style: monokai
+  goldmark:
+    renderer:
+      unsafe: true  # to allow raw HTML in markdown
 
 languages:
   en:
