@@ -4,7 +4,7 @@ categories:
 date: 2023-12-04T22:22:49Z
 description: ""
 draft: false
-postimage: swirly_code.png
+postimage: ludemeula-fernandes-9UUoGaaHtNE-unsplash.jpg
 slug: diligence-laziness-or-both
 summary: Funny how a little due diligence mixes so well with a healthy interest in avoiding unnecessary future work.
 tags:
