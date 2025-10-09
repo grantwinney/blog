@@ -8,7 +8,7 @@ postimage: /banners/default-build-banner.webp
 slug: ghost-blog-autolink-images-to-full-resolution
 tags:
   - ghost-blog
-title: How to Autolink All Images in Ghost to the Full Resolution
+title: How to autolink all images in Ghost to the full resolution
 ---
 ## The Problem
 
