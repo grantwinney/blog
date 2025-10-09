@@ -5,6 +5,7 @@ date: 2019-02-10T18:58:54Z
 description: ""
 draft: false
 postimage: elsa-tonkinwise-wYQRdcjxL2E-unsplash.webp
+postimagecaption: Photo by <a href="https://unsplash.com/@elsatkw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Elsa Tonkinwise</a> on <a href="https://unsplash.com/photos/peanuts-comic-strip-open-on-a-book-wYQRdcjxL2E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 slug: web-comics-for-devs
 summary: Need a comic break? Here's some web comics I've stumbled upon over the years - the funny, sarcastic, informative, and just plain weird.
 tags:

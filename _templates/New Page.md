@@ -1,9 +1,11 @@
 ---
-title: 
-slug: 
-summary: 
-description: 
-date: 
+title:
+slug:
+summary:
+description:
+date:
 draft: true
 postimage:
+postimagealt:
+postimagecaption:
 ---
