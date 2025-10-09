@@ -4,7 +4,7 @@ categories:
 date: 2015-11-12T07:27:00Z
 description: ""
 draft: false
-postimage: /banners/default-thoughts-banner.webp
+postimage: joseph-gonzalez-E-EEQSjDdck-unsplash.webp
 slug: hacktoberfest-and-making-my-first-oss-contributions
 summary: I made my first OSS contributions during HacktoberFest, gaining experience (and swag!) with the help of DigitalOcean and GitHub. :)
 tags:
