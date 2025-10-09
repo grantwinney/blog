@@ -4,7 +4,7 @@ categories:
 date: 2019-02-10T18:58:54Z
 description: ""
 draft: false
-postimage: /banners/default-thoughts-banner.webp
+postimage: elsa-tonkinwise-wYQRdcjxL2E-unsplash.webp
 slug: web-comics-for-devs
 summary: Need a comic break? Here's some web comics I've stumbled upon over the years - the funny, sarcastic, informative, and just plain weird.
 tags:
