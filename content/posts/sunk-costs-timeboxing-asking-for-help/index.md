@@ -4,13 +4,13 @@ categories:
 date: 2021-12-20T12:00:00Z
 description: ""
 draft: false
-postimage: /banners/default-thoughts-banner.webp
+postimage: analytics-3088958_1920.webp
 slug: sunk-costs-timeboxing-asking-for-help
 summary: One of the biggest struggles I have with programming is knowing when to ask for help. A little struggle is necessary for growth, but when am I just wasting time when I could be learning from others?
 tags:
 title: Sunk costs, timeboxing, and asking for help
 ---
-One of the biggest struggles I have with programming (or anything I'm trying to learn) is knowing when to ask for help. Ask too soon, and I might miss an opportunity to grow in self-reliance and self-confidence. A little struggle is necessary for growth. But ask too late, and I might just be wasting time and missing the opportunity to learn from others.
+One of the biggest struggles I have with programming (or anything I'm trying to learn) is knowing when to ask for help. Ask too soon, and I might miss an opportunity to grow in self-reliance and self-confidence. A little struggle is necessary for growth. But ask tsoo late, and I might just be wasting time and missing the opportunity to learn from others.
 
 Last week, I was updating some of our DevOps builds for a new environment (if that's a new term for you, [read more here](https://azure.microsoft.com/en-us/overview/what-is-devops)), when one of our team's jobs to deploy some code to a server began failing. I thought maybe the wrong version of the code was being deployed, but that wasn't it. I redeployed a couple times, then started digging into the logs on the server.
 
