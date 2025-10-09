@@ -11,6 +11,7 @@ summary: I made my first OSS contributions during HacktoberFest, gaining experie
 tags:
   - oss
 title: HacktoberFest and my first OSS contributions
+postimagecaption: test2
 ---
 All last month, DigitalOcean carried out an event called HacktoberFest. In their own words…
 
