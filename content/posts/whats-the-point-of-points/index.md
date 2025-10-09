@@ -5,7 +5,7 @@ date: 2023-03-22T10:32:44Z
 description: ""
 draft: false
 postimage: /banners/default-thoughts-banner.webp
-slug: whats-the-point-of-points
+slug: dice-7270763_1920.webp
 summary: Points aren't hours, but they sorta represent hours. Or do they? 🤔 If you're as perplexed as I used to be, here's a few thoughts about points.
 tags:
   - agile
