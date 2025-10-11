@@ -53,7 +53,7 @@ Updating files: 100% (802/802), done.
 
 And then... \<insert the sounds of angelic choirs here\>
 
-![](image.png)
+![](content/posts/retro/30th-anniversary-zelda-tribute/image.png)
 
 ## Play it remote
 
@@ -61,7 +61,7 @@ If you don't want to install NodeJS locally, you can host it remotely on Digital
 
 If you don't already have an account, [sign up](https://m.do.co/c/448f25462030) for one. They provide one-click servers (droplets), and there's a [NodeJS droplet](https://do.co/2PQEqgd) that'll work perfectly. Just click the blue "Create NodeJS Droplet" button and choose the most minimal server config available. After a few minutes, you should be able to open the IP address in your browser and see the sample NodeJS app running.
 
-![](image-1.png)
+![](content/posts/retro/30th-anniversary-zelda-tribute/image-1.png)
 
 ![](2020-09-05-23_05_43-Create-Droplets---DigitalOcean---Brave.png)
 
@@ -69,7 +69,7 @@ If you don't already have an account, [sign up](https://m.do.co/c/448f25462030) 
 
 Once it's up and running, use your favorite terminal tool like [Git Bash](https://git-scm.com/downloads) to connect to your new VM. Type in `ssh root@your-ip` to connect, and then type in the "root" password you set during the setup process. If you get a prompt asking if you're sure you want to continue, I'd suggest typing yes or the rest of this is going to be really boring.
 
-![](image-2.png)
+![](content/posts/retro/30th-anniversary-zelda-tribute/image-2.png)
 
 You can run the same file as for the local version, with two changes - opening the port in UFW and _not_ opening the site. And don't forget to `chmod +x your-file.sh` so you can execute the script.
 

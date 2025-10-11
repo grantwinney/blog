@@ -18,7 +18,7 @@ To briefly recap, [Google is spearheading a change](https://developer.chrome.com
 
 What it means is that every developer who writes an addon now needs to spend time figuring out how MV3 works, what changes are required, and make those changes [before June 2023](https://developer.chrome.com/docs/extensions/mv3/mv2-sunset/) when Google unlists MV2 addons from their store. Don't be shocked if some of your favorite browser addons simply vanish next summer.
 
-![](image.png)
+![](content/posts/misc/my-experience-migrating-to-mv3/image.png)
 
 Google keeps extending the deadline
 
@@ -26,7 +26,7 @@ Firefox, which isn't built on Chromium, is attempting to [support both](https://
 
 The first thing I tried was just bumping up the version number. Maybe I'd get lucky? Nope. I was greeted by a looong line of errors.
 
-![](image-1.png)
+![](content/posts/misc/my-experience-migrating-to-mv3/image-1.png)
 
 Yep, looks pretty good.
 

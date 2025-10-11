@@ -100,17 +100,17 @@ To see the issue:
 3. Rebuild the solution.
 4. Open the Forms again. They're broken in the designer when targeting x86 (but the app runs), they show in the designer for x64 (but it won't run), and everything is just peachy when targeting Any CPU.
 
-![](image-28.png)
+![](content/posts/explore/why-doesnt-vs2022-show-my-winforms-ui/image-28.png)
 
-![](image-27.png)
+![](content/posts/explore/why-doesnt-vs2022-show-my-winforms-ui/image-27.png)
 
-![](image-29.png)
+![](content/posts/explore/why-doesnt-vs2022-show-my-winforms-ui/image-29.png)
 
 Targeting x86 for class library (designer broken; project runs)
 
-![](image-30.png)
+![](content/posts/explore/why-doesnt-vs2022-show-my-winforms-ui/image-30.png)
 
-![](image-31.png)
+![](content/posts/explore/why-doesnt-vs2022-show-my-winforms-ui/image-31.png)
 
 ![](content/posts/why-doesnt-vs2022-show-my-winforms-ui/image-32.png)
 

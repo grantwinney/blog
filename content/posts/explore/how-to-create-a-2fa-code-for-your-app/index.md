@@ -8,7 +8,7 @@ postimage: /banners/default-explore-banner.webp
 slug: how-to-create-a-2fa-code-for-your-app
 summary: I use 2FA on every site that supports it, but I'd never given much thought to how a 2FA code is generated. Let's learn how!
 tags:
-  - 2fa
+  - mfa
   - security
 title: Create a TOTP 2FA code for your app
 aliases:
@@ -62,7 +62,7 @@ If someone guesses your password, or hacks your email and requests a password re
 
 From the user's perspective, it starts with a QR code that represents a URI, as I mentioned above. Using a service like [ZXing Decoder](https://zxing.org/w/decode.jspx) on one of those QR codes, we see it holds a few pieces of data, as outlined here: [Key URI Format](https://github.com/google/google-authenticator/wiki/Key-Uri-Format)
 
-![](qr-code-decrypted.png)
+![](content/posts/explore/how-to-create-a-2fa-code-for-your-app/qr-code-decrypted.png)
 
 ### Dissecting a QR code
 
@@ -154,4 +154,4 @@ One of the recommendations, as I mentioned previously, is to allow ±1 step to h
 
 During the elapsed time between the two screenshots, you can see a new "Current Code" has been generated, and the previous "Current Code" is now the current "Previous Code". lol
 
-![](image-2.png)
+![](content/posts/explore/how-to-create-a-2fa-code-for-your-app/image-2.png)

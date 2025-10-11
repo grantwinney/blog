@@ -10,7 +10,7 @@ summary: GitHub, GitLab, and Bitbucket just released a joint statement on a wide
 tags:
   - github
   - security
-  - 2fa
+  - mfa
 title: Protect your GitHub account to keep your code secure
 ---
 A few days ago, [GitHub](https://github.blog/2019-05-14-git-ransom-campaign-incident-report/) (along with [Bitbucket](https://bitbucket.org/blog/git-ransom-campaign-incident-report-atlassian-bitbucket-github-gitlab) and [GitLab](https://about.gitlab.com/2019/05/14/git-ransom-campaign-incident-report-atlassian-bitbucket-github-gitlab/)) reported that numerous users across their platforms had repos hacked, their code forcibly overwritten and held for ransom. You can read the whole thing in any of their blog posts (they're all the same), but here's a few takeaways:
@@ -82,7 +82,7 @@ Briefly, how it works is a site generates a unique QR code, which you'll scan wi
 
 Using an [online decoder](https://zxing.org/w/decode.jspx) on the above QR code, the contents include the site and a unique "secret". The only way this works is if the service stores the secret too and (by combining it with the current time) generates the same code your app does, in order to verify it. This keeps you safe in the event a third party leaks your credentials (like happened with GitHub et al), or a different site gets hacked and you reused the same password, or someone discovers your password scrawled under your keyboard. It's unlikely to help if the site itself gets hacked and the secret is discovered along with your password.
 
-![](qr-code-decrypted.png)
+![](content/posts/explore/keeping-your-github-code-secure/qr-code-decrypted.png)
 
 [Learn more about what 2FA is](https://authy.com/what-is-2fa/), the [pros and cons of various 2FA methods](https://web.archive.org/web/20181121184020/https://auth0.com/learn/two-factor-authentication/), or just see [what a typical setup process for enabling 2FA looks like](https://www.namecheap.com/support/knowledgebase/article.aspx/10073/45/how-can-i-use-the-totp-method-for-twofactor-authentication). 1Password can [store and track your 2FA codes for you](https://support.1password.com/one-time-passwords/) too, which seemed a little odd when I first heard about it... but then, if someone hacks them and gets anything useful we're screwed anyway.
 

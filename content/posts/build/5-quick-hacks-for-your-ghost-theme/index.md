@@ -54,7 +54,7 @@ But what about posts? If there isn't a cover image for a post, the `post.hbs` te
 
 Here's a post that has no cover image assigned to it, so it's loading my blog cover image instead.
 
-![Post with no cover image](image-3.png)
+![Post with no cover image](content/posts/build/5-quick-hacks-for-your-ghost-theme/image-3.png)
 
 ---
 

@@ -59,11 +59,11 @@ Open up the browser to [http://localhost:4567](http://localhost:4567) and check 
 
 ![](image-12-1.png)
 
-![](image-13.png)
+![](content/posts/explore/5-things-you-can-do-with-a-locally-cloned-github-wiki/image-13.png)
 
-![](image-16.png)
+![](content/posts/explore/5-things-you-can-do-with-a-locally-cloned-github-wiki/image-16.png)
 
-![](image-17.png)
+![](content/posts/explore/5-things-you-can-do-with-a-locally-cloned-github-wiki/image-17.png)
 
 The wiki files are just plain markdown files, so while we _could_ use any editor with these, it's nice to have access to something that looks similar to GitHub. There's some minor differences of course, but it's largely the same.
 
@@ -79,7 +79,7 @@ Wiki pages can be run through tools that generate HTML pages, which can then be 
 
 The [installation page](http://pandoc.org/installing.html) for Pandoc has instructions for different systems – for Windows, it's just a simple msi file that runs in under a minute. After it installs, we can verify the version in a terminal window:
 
-![Console output showing the Pandoc version installed](image-18.png)
+![Console output showing the Pandoc version installed](content/posts/explore/5-things-you-can-do-with-a-locally-cloned-github-wiki/image-18.png)
 
 Verifying the Pandoc version
 
@@ -89,7 +89,7 @@ Running a conversion can be as simple as specifying two files and letting Pandoc
 
 Here's how the main page of one of my project wikis looks. On the left is the GitHub hosted version, then the local Gollum version in the middle, and finally the Pandoc HTML one on the right.
 
-![Rendered outputs of a wiki page, on GitHub, in Gollum, and converted by Pandoc](image-19.png)
+![Rendered outputs of a wiki page, on GitHub, in Gollum, and converted by Pandoc](content/posts/explore/5-things-you-can-do-with-a-locally-cloned-github-wiki/image-19.png)
 
 Various rendered outputs of the same wiki page
 

@@ -19,11 +19,11 @@ The manifest file tells them what name and version to display, who the author is
 
 For quite awhile now, whenever I visit the Chrome dashboard, I get a notice at the top about migrating to Manifest V3 (aka MV3). Fair enough.
 
-![](image.png)
+![](content/posts/explore/what-is-manifest-v3-and-why-is-google-pestering-me/image.png)
 
 Apparently though that notice wasn't enough to make developers care, because they've sent emails with links to blog posts, and now when I load an extension to debug it, it immediately reports an error. Hm, is it related to the issue I wanted to debug? Nope, just Chromium abusing functionality to send me more reminders.
 
-![](image-3.png)
+![](content/posts/explore/what-is-manifest-v3-and-why-is-google-pestering-me/image-3.png)
 
 What they're badgering extension authors about though is _much_ more than just a change in format for a single file. Google is spearheading major changes to how extensions are written and interact with the browser, in the name of privacy and security, and those changes are coming soon. As of writing this post, no one can publish new extensions using version 2 (MV2) anymore. In 6 months, everyone has to update if they want to continue hosting their extension in the Chrome web store and having it work in Chromium-based browsers.
 

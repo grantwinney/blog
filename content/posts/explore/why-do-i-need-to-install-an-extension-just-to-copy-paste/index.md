@@ -27,17 +27,17 @@ Are the comments fair though? People assume that Microsoft has somehow managed t
 
 ![](content/posts/explore/why-do-i-need-to-install-an-extension-just-to-copy-paste/image-10.png)
 
-![](image-16.png)
+![](content/posts/explore/why-do-i-need-to-install-an-extension-just-to-copy-paste/image-16.png)
 
-![](image-17.png)
+![](content/posts/explore/why-do-i-need-to-install-an-extension-just-to-copy-paste/image-17.png)
 
 The last one is really amusing. It's much easier to write a scathing review than spend 10 seconds checking the obvious thing first. Google Docs has a custom context menu too.. do they know something Microsoft doesn't?
 
 Nope.
 
-![](image-19.png)
+![](content/posts/explore/why-do-i-need-to-install-an-extension-just-to-copy-paste/image-19.png)
 
-![](image-20.png)
+![](content/posts/explore/why-do-i-need-to-install-an-extension-just-to-copy-paste/image-20.png)
 
 The [Google Docs Offline](https://chrome.google.com/webstore/detail/google-docs-offline/ghbmnnjooekpmoecnnnilnnbdlolhkhi) extension bundles way more than just enabling copy/paste into their addon. They have a similar number of users as Microsoft's, but 10x as many poor reviews, because apparently it's all kinds of broken. But the copy/paste functionality is required for the same reason as Microsoft's - they created a custom context menu.
 
@@ -144,9 +144,9 @@ Even though installing the addon adds the ability to read from your clipboard in
 
 What's interesting to me is how Microsoft and Google have chosen to handle the issue. There's a whole [Clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API) that would eliminate the need for these addons, and it seems far easier to use than what they've created. The [clipboard.readText](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/readText) function, for example, just requests the browser to allow access to the clipboard. Then the browser prompts you, and asks if you'd like to honor that request, and if so then for how long?
 
-![](image-17.png)
+![](content/posts/explore/why-do-i-need-to-install-an-extension-just-to-copy-paste/image-17.png)
 
-![](image-18.png)
+![](content/posts/explore/why-do-i-need-to-install-an-extension-just-to-copy-paste/image-18.png)
 
 You can easily use it yourself with very minimal coding, like I did below. Before you play with it, two things:
 
@@ -170,7 +170,7 @@ document.getElementById("testButton").addEventListener('click', () =>
 
 If you need to read other [mime types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types) (like images), then there's a more general [clipboard.read](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/read) API call. It does more, allowing you to iterate through all the various types of items on the clipboard, but it's more complicated to implement. Per the MDN link above, it looks like there's decent support for it, but not full support yet. Edge and Opera seem to support it, Chrome supports it somewhat, and Firefox doesn't really yet.
 
-![](image-28.png)
+![](content/posts/explore/why-do-i-need-to-install-an-extension-just-to-copy-paste/image-28.png)
 
 And that, I think, is why Microsoft and Chrome still need their extensions. They probably wrote them before the above API existed in any form, and even now they can't really dump them because the support isn't fully there. Hopefully it will be soon.
 

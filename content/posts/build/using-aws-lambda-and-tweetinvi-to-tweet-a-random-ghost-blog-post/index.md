@@ -63,7 +63,7 @@ Under "App permissions", change the default "read" permissions to "read and writ
 
 Open the [AWS Free Tier](https://aws.amazon.com/free) page and create an account if you don't already have one. Then open the Products dropdown and look for AWS Lambda, or [just go here](https://aws.amazon.com/lambda). Click the button in middle of the page, leave "root" selected, and enter your credentials. You should end up at [console.aws.amazon.com/lambda](https://console.aws.amazon.com/lambda), on a screen like this:
 
-![](image-2.png)
+![](content/posts/build/using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post/image-2.png)
 
 Now you need to create a new Lambda function.
 
@@ -116,7 +116,7 @@ If it seems to have done nothing, press "Test" again. Hopefully everything goes 
 
 ![successful-lambda-run](successful-lambda-run.jpg)
 
-![](image-11.png)
+![](content/posts/build/using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post/image-11.png)
 
 ### Schedule it
 
@@ -126,7 +126,7 @@ If you're ready to let it do your work for you, schedule it to run via cron.
 - Select "Create a new rule" from the drop-down and give the new rule some random name.
 - Enter a cron command in the "Schedule expression" box, such as `cron(0 12 * * ? *)` to run your job at 12 UTC every day. You can find more help in their developer guide: [Schedule expressions using rate or cron](https://docs.aws.amazon.com/lambda/latest/dg/services-cloudwatchevents-expressions.html)
 
-![](image-12.png)
+![](content/posts/build/using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post/image-12.png)
 
 ---
 
