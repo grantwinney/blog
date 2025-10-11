@@ -43,17 +43,17 @@ Installing Gollum differs based on the environment it's going to run in, which i
 
 First, head to the [Java download page](https://www.java.com/en/) and install the JRE, which includes the JVM that JRuby needs. Next, head to the [JRuby download page](https://www.jruby.org/download) and install the x64 Windows exe with Ruby 3.1.x support and accept the defaults. At this point, we can verify in PowerShell that they're both installed:
 
-![A terminal window showing Java and JRuby are installed](content/posts/5-things-you-can-do-with-a-locally-cloned-github-wiki/image-7.png)
+![A terminal window showing Java and JRuby are installed](image-7.png)
 
 Verifying Java and JRuby are installed
 
 Finally, start Windows PowerShell as an administrator and run `gem install gollum` to install Gollum – in other terminals, or in a non-admin PS window, it may fail. This took awhile for me, and seemed to lag on certain steps, but it eventually completed:
 
-![Console output from installing the Gollum gem](content/posts/explore/5-things-you-can-do-with-a-locally-cloned-github-wiki/image-9.png)
+![Console output from installing the Gollum gem](image-9.png)
 
 Let's change to the directory where the wiki is cloned and type "gollum" to fire up the Gollum server, which should show us which port it's running the site on:
 
-![Console output showing that Gollum is running](content/posts/explore/5-things-you-can-do-with-a-locally-cloned-github-wiki/image-10.png)
+![Console output showing that Gollum is running](image-10.png)
 
 Open up the browser to [http://localhost:4567](http://localhost:4567) and check it out. I used the wiki in my [Hide Comments Everywhere](https://github.com/grantwinney/hide-comments-everywhere/wiki) repo – GitHub hosted is on the left, and Gollum local is on the right.
 
@@ -79,7 +79,7 @@ Wiki pages can be run through tools that generate HTML pages, which can then be 
 
 The [installation page](http://pandoc.org/installing.html) for Pandoc has instructions for different systems – for Windows, it's just a simple msi file that runs in under a minute. After it installs, we can verify the version in a terminal window:
 
-![Console output showing the Pandoc version installed](content/posts/explore/5-things-you-can-do-with-a-locally-cloned-github-wiki/image-18.png)
+![Console output showing the Pandoc version installed](image-18.png)
 
 Verifying the Pandoc version
 
@@ -89,7 +89,7 @@ Running a conversion can be as simple as specifying two files and letting Pandoc
 
 Here's how the main page of one of my project wikis looks. On the left is the GitHub hosted version, then the local Gollum version in the middle, and finally the Pandoc HTML one on the right.
 
-![Rendered outputs of a wiki page, on GitHub, in Gollum, and converted by Pandoc](content/posts/explore/5-things-you-can-do-with-a-locally-cloned-github-wiki/image-19.png)
+![Rendered outputs of a wiki page, on GitHub, in Gollum, and converted by Pandoc](image-19.png)
 
 Various rendered outputs of the same wiki page
 

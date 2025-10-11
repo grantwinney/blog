@@ -111,7 +111,7 @@ public Form1()
 
 What do you see when you fire it up? Does it load the page after a few moments? My sample's a little elaborate, with a few fields on the Form, and a few matching fields in the website too, and here's what it looks like. Because next... we're gonna take a peek at those handlers.
 
-![JavaScript Alert](content/posts/learn/_frameworks/_winforms/hosting-a-simple-webpage-in-winforms-with-cefsharp/image-31.png)
+![JavaScript Alert](image-31.png)
 
 ## What are CefSharp handlers?
 

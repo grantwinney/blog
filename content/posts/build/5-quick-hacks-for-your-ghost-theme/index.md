@@ -129,7 +129,7 @@ You can modify that to check for the presence of a `meta_title` and `meta_descri
 
 And here's how it renders. The first post has a meta title _and_ meta description specified, but the second has neither.
 
-![Rendering meta data on page](content/posts/5-quick-hacks-for-your-ghost-theme/image-4.png)
+![Rendering meta data on page](image-4.png)
 
 ---
 

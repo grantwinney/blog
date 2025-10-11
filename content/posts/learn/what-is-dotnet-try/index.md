@@ -24,7 +24,7 @@ Download the SDKs like they suggest. .NET Core 3.0 is outdated now, but you can 
 
 ![](image-12.png)
 
-![500](content/posts/learn/what-is-dotnet-try/image-11.png)
+![500](image-11.png)
 
 When that's done, you can use the `dotnet` command line tool to [install other tools](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet#global-tool-path-and-local-tools-commands), like DotNet Try. Open the command line of your choice and run this command:
 
