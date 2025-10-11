@@ -4,7 +4,8 @@ categories:
 date: 2018-06-07T03:44:14Z
 description: ""
 draft: false
-postimage: /banners/default-build-banner.webp
+postimage: pexels-nascimento-jr-1451812733-27409729.webp
+postimagecaption: Photo by [Nascimento Jr.](https://www.pexels.com/photo/dice-game-on-black-and-white-background-27409729/)
 slug: writing-a-random-selection-algorithm-that-factors-in-the-age-of-an-item
 summary: Have you ever had a collection of items and needed to select a random one from the lot? What if you have a class with some property (i.e. 'age' or 'weight') that you want to take into account when doing the random selection? Let's see how we might approach that...
 tags:
