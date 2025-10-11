@@ -30,9 +30,9 @@ Open your solution, go to "Manage NuGet Packages", and search for NLog. You shou
 
 What's the NLog.Extensions.Logging one that I glossed over? Something to do with new features in .NET Core and .NET Standard, and probably not something you're worried about in a WinForms app.
 
-![](content/posts/learn/_tools/nlog-log-errors-in-winforms/image-17.png)
+![](image-17.png)
 
-![](content/posts/learn/_tools/nlog-log-errors-in-winforms/image-19.png)
+![](image-19.png)
 
 ## Configure NLog
 
@@ -74,7 +74,7 @@ Those lines about archiving aren't strictly needed for this basic demo, but I th
 
 To use it, just create a new instance of the logger. Since we didn't give it a name in the config file, it doesn't matter what name you specify here - even an empty string works. Then write whatever you want, and check for the file in the "bin" folder where `${basedir}` points to.
 
-![](content/posts/learn/_tools/nlog-log-errors-in-winforms/image-20.png)
+![](image-20.png)
 
 That's it!
 

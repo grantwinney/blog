@@ -121,7 +121,7 @@ public record Automobile(string Make, string Model, int Year)
 
 And if we try to overload the equality operators, we can't. It warns us that they're already defined.
 
-![](content/posts/learn/_csharp/csharp-records-classes-and-equality/image-1.png)
+![](image-1.png)
 
 So now this works with just the original one-liner defining the record:
 

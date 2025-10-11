@@ -54,7 +54,7 @@ private async void timer1_Tick(object sender, EventArgs e)
 
 The result is a simple message, out of the way yet still visible from anywhere, easily-readable yet not popping up in the user's face and stopping them in their tracks until they acknowledge it.
 
-![](content/posts/other-ways-to-notify-user-besides-messagebox/image-4.png)
+![](image-4.png)
 
 ## FlowLayoutPanel
 
@@ -79,7 +79,7 @@ private async Task AddMessageToPanel(string message)
 
 The result is a stack of messages in labels, aligned for us by the `FlowLayoutPanel`. No calculations of heights and positions to align everything, or using a single TextBox with `Multiline = True`.
 
-![](content/posts/other-ways-to-notify-user-besides-messagebox/image-5.png)
+![](image-5.png)
 
 ## NotifyIcon / Windows Notification Area
 
@@ -95,9 +95,9 @@ private void btnUseNotifyIcon_Click(object sender, EventArgs e)
 
 While this is convenient, it shouldn't be used for anything really vital because you have so little control over it. The user (depending on how much access they have on the system) can adjust notifications and even disable them altogether for individual (or all) apps.
 
-![](content/posts/other-ways-to-notify-user-besides-messagebox/image-7.png)
+![](image-7.png)
 
-![](content/posts/other-ways-to-notify-user-besides-messagebox/image-8.png)
+![](image-8.png)
 
 ## Use a separate Form
 
@@ -147,7 +147,7 @@ private void btnUseSeparateForm_Click(object sender, EventArgs e)
 
 The result is a small popup Form with some messages in them. Click a message to remove it. Remove all messages and the second Form hides itself until there's something else to display.
 
-![](content/posts/explore/other-ways-to-notify-user-besides-messagebox/image-9.png)
+![](image-9.png)
 
 ## Everything all at once...
 

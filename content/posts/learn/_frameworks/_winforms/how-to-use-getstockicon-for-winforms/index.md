@@ -51,7 +51,7 @@ toolStrip1.Items.AddRange(imageList2.Images.Keys.Cast<string>().Select(x =>
     new ToolStripButton(imageList2.Images[x]) { ToolTipText = x }).ToArray());
 ```
 
-![](content/posts/how-to-use-getstockicon-for-winforms/image-6.png)
+![](image-6.png)
 
 ## Pros and Cons
 

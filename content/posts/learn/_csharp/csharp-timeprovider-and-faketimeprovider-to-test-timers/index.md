@@ -130,13 +130,13 @@ Console.ReadLine();
 
 That's all we need to run the app, which does just absolutely _amazing_ things all by itself. Really, what a work of beauty. A true labor of love. If you run it on a Friday evening, the message will be different, but it isn't Friday right now so we have to wait. Or do we..?
 
-![](content/posts/learn/_csharp/csharp-timeprovider-and-faketimeprovider-to-test-timers/currenttime.gif)
+![](currenttime.gif)
 
 ## A sample timer test (or several)
 
 In order to test the abstract `TimeProvider` class, you'll need to write your own class that overrides some things, and then adds some other methods that make the whole thing easily testable, in a flexible sort of way. Or you could just grab the `FakeTimeProvider` class that the .NET team wrote. 😅
 
-![](content/posts/how-to-use-timeprovider-and-faketimeprovider-to-test-timers/image-7.png)
+![](image-7.png)
 
 You can see more examples of it being used in [my previous post](https://grantwinney.com/how-to-use-timeprovider-and-faketimeprovider/), but basically you just pass it in place of `TimeProvider.System`. It's just another implementation of the abstract `TimeProvider` class, and isn't tied down to any particular test suite, so you can use it with NUnit, xUnit, or anything else you'd like.
 
@@ -226,7 +226,7 @@ Set day to Fri, right before 5p, and make sure both messages printed
 
 Everything works, and 4 tests that should've taken 20 seconds to run (in realtime) ran in _less than half a second._
 
-![](content/posts/learn/_csharp/csharp-timeprovider-and-faketimeprovider-to-test-timers/image-13.png)
+![](image-13.png)
 
 ## Caveat?
 
@@ -262,11 +262,11 @@ public void PrintTime(object? _)
 
 Here's the result of running the tests again, first with a 10 ms sleep, and then a 100 ms sleep. The durations get longer and longer, which makes sense.
 
-![](content/posts/learn/_csharp/csharp-timeprovider-and-faketimeprovider-to-test-timers/image-14.png)
+![](image-14.png)
 
 Running the tests, with a 10 ms sleep in the PrintTime method
 
-![](content/posts/learn/_csharp/csharp-timeprovider-and-faketimeprovider-to-test-timers/image-16.png)
+![](image-16.png)
 
 Running the tests again, after increasing the sleep to 100 ms
 

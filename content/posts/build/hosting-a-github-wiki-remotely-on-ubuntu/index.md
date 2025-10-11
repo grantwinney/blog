@@ -28,7 +28,7 @@ Now let's see what we can do!
 
 [Sign up for a DigitalOcean account](https://m.do.co/c/448f25462030) if you don't already have one, or login to your existing account, and create a new Ubuntu box. You can spin up a vm wherever you'd like, but I use DO for this blog and playing around with new ideas, and I'd recommend them to anyone - they've got an awesome service. For this little exercise, a minimal $5/mo box will work just fine, and you can always increase it later if you'd like.
 
-![](content/posts/build/hosting-a-github-wiki-remotely-on-ubuntu/image.png)
+![](image.png)
 
 It takes a minute or two to create it, and then you'll get an email telling you how to login as root. The first thing I'd suggest doing after you login and change your root password is to [create a new user with sudo access](https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart), and then do everything as _that_ user instead.
 

@@ -24,7 +24,7 @@ GitHub uses a wiki system called [Gollum](https://github.com/gollum/gollum), whi
 
 To clone a wiki, we can find the link conveniently shoved into the lower-right corner of the page, way near the bottom if there's already a lot of wiki pages in it.
 
-![](content/posts/5-things-you-can-do-with-a-locally-cloned-github-wiki/image-4.png)
+![](image-4.png)
 
 We're presented with the "https" link, but can change it to the SSH link if needed.
 
@@ -59,11 +59,11 @@ Open up the browser to [http://localhost:4567](http://localhost:4567) and check 
 
 ![](image-12-1.png)
 
-![](content/posts/explore/5-things-you-can-do-with-a-locally-cloned-github-wiki/image-13.png)
+![](image-13.png)
 
-![](content/posts/explore/5-things-you-can-do-with-a-locally-cloned-github-wiki/image-16.png)
+![](image-16.png)
 
-![](content/posts/explore/5-things-you-can-do-with-a-locally-cloned-github-wiki/image-17.png)
+![](image-17.png)
 
 The wiki files are just plain markdown files, so while we _could_ use any editor with these, it's nice to have access to something that looks similar to GitHub. There's some minor differences of course, but it's largely the same.
 

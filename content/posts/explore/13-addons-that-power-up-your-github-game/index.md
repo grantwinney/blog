@@ -146,9 +146,9 @@ Did you know you can store any type of file on GitHub, with [files up to 100 MB 
 
 [Enhanced GitHub](https://chrome.google.com/webstore/detail/enhanced-github/anlikcnbgdeidpacdbdljnabclhahhmd) displays the size of the repo right above the"Clone" button. It also displays sizes of individual files, which is cool although I don't find that as useful. Another feature that I do like though is "Copy File", which.. um... copies the current file to your clipboard. Kinda self-explanatory, now that I think about it.
 
-![](content/posts/explore/13-addons-that-power-up-your-github-game/image-9.png)
+![](image-9.png)
 
-![](content/posts/explore/13-addons-that-power-up-your-github-game/image-10.png)
+![](image-10.png)
 
 View a repository's size before deciding to clone
 

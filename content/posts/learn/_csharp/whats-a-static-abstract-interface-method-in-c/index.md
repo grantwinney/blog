@@ -123,7 +123,7 @@ public interface IBaseReport
 
 The other method, the one that references the interface to get the `ReportName`, will suggest you use an actual instance to get to the static member. Ok sure... except this is an interface so you _can't_ just instantiate it. Maybe you could add some code in the `GetReportInfo` method below, to check for every possible report type that implements `IBaseReport` but then that'd make for some repetitive, hard-to-maintain code.
 
-![](content/posts/learn/_csharp/whats-a-static-abstract-interface-method-in-c/image-38.png)
+![](image-38.png)
 
 On top of that, the classes that implement the `IBaseReport` interface don't have to include that static member to satisfy the contract with the interface anymore. This _(which doesn't define ReportName)_ won't throw a compilation error:
 
@@ -279,7 +279,7 @@ public void ISwearImAnInterestingClass_ReturnsExpectedValues_ForVendorReport()
 
 Unfortunately, this new construct doesn't seem to play nicely yet with the popular [Moq](https://github.com/Moq/moq4?ref=grant-winney) framework that helps you mock out interface calls during testing. I'm most familiar with Moq, but maybe [JustMock](https://www.telerik.com/products/mocking.aspx?ref=grant-winney) or [TypeMock](http://www.typemock.com/?ref=grant-winney) supports it?
 
-![](content/posts/learn/_csharp/whats-a-static-abstract-interface-method-in-c/image-39.png)
+![](image-39.png)
 
 Next up, we'll check out another C# feature we've had for a long time - [operator overloading](https://grantwinney.com/csharp-overload-arithmetic-equality-comparison-operators/). After that, we'll take a closer look at what this [Generic Math](https://grantwinney.com/csharp-generic-math-support/) thing is all about.
 

@@ -27,7 +27,7 @@ While I'm on the topic, some _individuals_ shouldn't share their code with the w
 
 It's pretty easy to setup a new "feed" in Azure DevOps, and they provide instructions on how to connect to the feed from a variety of sources. Being that I'm primarily a .NET developer, I went right to Visual Studio. I've already used this before at work, to connect to our private feed, but it's interesting to "officially" read about it here.
 
-![](content/posts/misc/esi-building-apps-with-azure-devops-manage-dependencies/image-38.png)
+![](image-38.png)
 
 ![](image-43.png)
 
@@ -49,7 +49,7 @@ Oh, and bonus points, the code built and ran, right out of the gate. In the last
 
 I don't know what was wrong for sure, but I deleted one of the user permission settings (below), then re-added the same user with the same default permission, and voila. As usual, I'll just pretend it was intentional and I knew exactly what I was doing. ;)
 
-![](content/posts/misc/esi-building-apps-with-azure-devops-manage-dependencies/image-39.png)
+![](image-39.png)
 
 ![](image-40.png)
 

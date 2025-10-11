@@ -45,7 +45,7 @@ fix it and submit a [pull request][pulls].
   [pulls]:     https://github.com/grantwinney/BlogCodeSamples/pulls
 ```
 
-![](content/posts/explore/cool-markdown-tricks-for-github/image-1.png)
+![](image-1.png)
 
 You can use the same technique with images too!
 

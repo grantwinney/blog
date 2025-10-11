@@ -189,9 +189,9 @@ public partial class frmCallBackgroundWorker : Form
 
 If things run successfully, the user gets a nice message using the data returned from the two API calls.
 
-![](content/posts/learn/_csharp/csharp-convert-backgroundworker-to-task/image.png)
+![](image.png)
 
-![](content/posts/learn/_csharp/csharp-convert-backgroundworker-to-task/image-1.png)
+![](image-1.png)
 
 ## Approach #2: Wrapping the BackgroundWorker in a Task
 
@@ -299,11 +299,11 @@ private async void btnGetData_Click(object sender, EventArgs e)
 }
 ```
 
-![](content/posts/convert-backgroundworker-to-task-with-taskcompletionsource/image-4.png)
+![](image-4.png)
 
-![](content/posts/learn/_csharp/csharp-convert-backgroundworker-to-task/image-2.png)
+![](image-2.png)
 
-![](content/posts/learn/_csharp/csharp-convert-backgroundworker-to-task/image-3.png)
+![](image-3.png)
 
 [Grab the example from GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Threading/TaskCompletion) and try it out yourself. Good luck!
 

@@ -22,7 +22,7 @@ This leads to a nice, predictable experience, unlike ye olden days when [IE](htt
 
 ![](bvw-ie-4x-1.gif)
 
-![](content/posts/explore/can-i-write-my-own-html-tags/image.png)
+![](image.png)
 
 But now, standards and standards-compliance is the name of the game, and the differences between the major browsers are in the features they provide (sync'ing bookmarks, ad blocking, etc), not in how they display web pages. It's a win-win for everyone.
 
@@ -75,7 +75,7 @@ The limitation here is that you can't extend existing elements, or just invent n
 
 But css can do a _lot._ You can have div's that behave much like tables, then create an errortable, errorrow, etc. I'm not saying that's a great idea. In fact, it doesn't offer much of anything over just assigning a class to the table, especially if you're not writing the site by hand using HTML. It's just an interesting oddity.
 
-![](content/posts/explore/can-i-write-my-own-html-tags/image-1.png)
+![](image-1.png)
 
 Because? Why not? Actually, the idea for writing about this came from [Leon Arnott's neocities site](https://leonarnott.neocities.org/), which I stumbled on at random while hopping around the geocities replacement the other day. The sites on there are _seriously_ bad.. in a wow-websites-were-ugly-so-why-do-i-still-feel-nostalgic sorta way.
 

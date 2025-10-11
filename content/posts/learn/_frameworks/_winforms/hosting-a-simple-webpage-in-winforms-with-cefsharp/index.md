@@ -26,17 +26,17 @@ There's a library called [CEF](https://bitbucket.org/chromiumembedded/cef/src/ma
 
 Fire up a new WinForms app, then search for CefSharp in the NuGet gallery and add the one for WinForms.
 
-![](content/posts/learn/_frameworks/_winforms/hosting-a-simple-webpage-in-winforms-with-cefsharp/image-27.png)
+![](image-27.png)
 
 After a few moments and some output in the bottom pane, you'll see a few references on the right and a couple new design components in the toolbox on the left. If you're one of those people who customizes everything, then check for output on the top, references on the left, and the components on your other monitor.
 
-![](content/posts/learn/_frameworks/_winforms/hosting-a-simple-webpage-in-winforms-with-cefsharp/image-29.png)
+![](image-29.png)
 
-![](content/posts/learn/_frameworks/_winforms/hosting-a-simple-webpage-in-winforms-with-cefsharp/image-28.png)
+![](image-28.png)
 
 Add a new file to your project, choose "text file", and name it "sample.html". Throw some html in there, and maybe some JavaScript. Anything will do. There are few absolute rules in web development, and having 20 ways to do any one thing is something I _love_ as a developer. It's just.. it's great. 😢
 
-![](content/posts/learn/_frameworks/_winforms/hosting-a-simple-webpage-in-winforms-with-cefsharp/image-30.png)
+![](image-30.png)
 
 Here's what mine looks like:
 

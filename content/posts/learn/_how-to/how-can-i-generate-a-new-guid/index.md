@@ -43,7 +43,7 @@ Somewhere on my long list of things to get more familiar with is [PowerShell](ht
 
 Running the command by itself presents a column header, which seems a little weird to me .. it's not like I'm going to think that value is something _else._ Using the value in a string (whether it's saved in a variable first or just called inline), it outputs only the GUID, as I'd expect it to.
 
-![](content/posts/learn/_how-to/how-can-i-generate-a-new-guid/image-18.png)
+![](image-18.png)
 
 ## APIs
 
@@ -67,6 +67,6 @@ The privacy-friendly search engine is well known (among those of us who use it) 
 
 Just do a search for "guid" and above the search results you get a new one. It's a little more convenient if you have DDG setup as your default search engine, and then you can just type "guid" in the address bar.
 
-![](content/posts/learn/_how-to/how-can-i-generate-a-new-guid/image-10.png)
+![](image-10.png)
 
 If you have a better way to generate GUIDs on-the-fly, for your app, personal use, or whatever else, feel free to share below. I'd love to add a few more tools to my toolbox!

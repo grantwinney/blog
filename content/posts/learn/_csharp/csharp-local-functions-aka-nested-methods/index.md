@@ -22,7 +22,7 @@ As I said, local functions are methods that are nested inside of other methods. 
 
 Imagine a form loaded with text boxes for collecting information about employees. For some reason, the powers that be want certain fields to be set to "N/A" upon saving, if they're empty. Weird, but hey I don't make the rules...
 
-![](content/posts/learn/_csharp/csharp-local-functions-aka-nested-methods/image.png)
+![](image.png)
 
 Here's the code that checks every field individually and sets them to "N/A":
 
@@ -114,7 +114,7 @@ Another interesting use for local functions is recursion, where you normally nee
 
 For instance, if you had a small app that finds the factorial of a number, you could place the method that method that recursively calculates that factorial inside the button event method.
 
-![](content/posts/learn/_csharp/csharp-local-functions-aka-nested-methods/image-1.png)
+![](image-1.png)
 
 ```csharp
 private void btnCalcFactorial_Click(object sender, EventArgs e)
@@ -133,7 +133,7 @@ private void btnCalcFactorial_Click(object sender, EventArgs e)
 
 Or if you had a form that calculates how much someone will eventually repay on a loan, you might want to apply the same percentage to some starting number for x months.
 
-![](content/posts/learn/_csharp/csharp-local-functions-aka-nested-methods/image-2.png)
+![](image-2.png)
 
 ```csharp
 private void btnCalcTotalRepaid(object sender, EventArgs e)

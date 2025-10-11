@@ -37,7 +37,7 @@ Enjoy! _(I know I will...)_
 
 ![](https://imgs.xkcd.com/comics/compiling.png)
 
-![](content/posts/reflections/web-comics-for-devs/image-32.png)
+![](image-32.png)
 
 [Estimation](https://xkcd.com/612/) / [Compiling](https://xkcd.com/303/) / [Nerd Sniping](https://xkcd.com/356/) (XKCD)
 
@@ -49,11 +49,11 @@ Once in awhile an O RLY? _(parody of O'Reilly)_ book cover pops up somewhere onl
 
 Here's [a collection of book covers](https://boyter.org/2016/04/collection-orly-book-covers/), and you can even [generate your own](https://dev.to/rly).
 
-![](content/posts/reflections/web-comics-for-devs/image-33.png)
+![](image-33.png)
 
-![](content/posts/reflections/web-comics-for-devs/image-34.png)
+![](image-34.png)
 
-![](content/posts/reflections/web-comics-for-devs/image-35.png)
+![](image-35.png)
 
   
 

@@ -34,7 +34,7 @@ public class Dinosaur
 
 The `error` flag is set to `true`, so it'll throw a compiler error:
 
-![](content/posts/csharp-obsolete-attribute-on-class-ignored-when-interface-is-involved/image-5.png)
+![](image-5.png)
 
 Now let's say we have a couple other classes with their own `Move()` methods, without the `Obsolete` attribute:
 
@@ -96,7 +96,7 @@ public class Dinosaur : IAnimal
 
 If we instantiate each of the animals against the new interface, we don't get a compiler error anymore. The `Obsolete` attribute seems to be getting ignored for dinos.
 
-![](content/posts/csharp-obsolete-attribute-on-class-ignored-when-interface-is-involved/image-6.png)
+![](image-6.png)
 
 In case you're wondering, it doesn't result in a runtime error either:
 
@@ -120,7 +120,7 @@ public interface IAnimal
 
 The caveat is that, **if we add the** *`*Obsolete*`* **attribute to the interface, then every class implementing the interface will inherit the attribute too**, regardless of whether each of those classes actually has the attribute set on it.
 
-![](content/posts/csharp-obsolete-attribute-on-class-ignored-when-interface-is-involved/image-7.png)
+![](image-7.png)
 
 ## Final Thoughts
 

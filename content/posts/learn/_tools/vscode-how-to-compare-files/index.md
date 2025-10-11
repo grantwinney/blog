@@ -17,11 +17,11 @@ I recently found myself in need of comparing two versions of an XML file for a m
 
 If the files are saved to disk in the same folder, open the folder, either with the "Open Folder" button on the left (if the "Explorer" pane is open), or with the "Open Folder" option in the "File" menu, or with the "ctrl-k, ctrl-o" shortcut (in Windows):
 
-![](content/posts/learn/_tools/vscode-how-to-compare-files/image-12.png)
+![](image-12.png)
 
 Then select both files, right click, and choose "Compare Selected":
 
-![](content/posts/learn/_tools/vscode-how-to-compare-files/image-13.png)
+![](image-13.png)
 
 We get a nice little side-by-side that collapses into an inline comparison if the window's too small:
 
@@ -33,14 +33,14 @@ Whether your files are saved to disk or not, the first thing you'll need to do i
 
 Open the "Explorer" pane on the left, then press the "..." item in the top corner and select "Open Editors". Select both files, right click, and choose "Compare Selected" from the context menu:
 
-![](content/posts/learn/_tools/vscode-how-to-compare-files/image-15.png)
+![](image-15.png)
 
-![](content/posts/learn/_tools/vscode-how-to-compare-files/image-16.png)
+![](image-16.png)
 
-![](content/posts/learn/_tools/vscode-how-to-compare-files/image-17.png)
+![](image-17.png)
 
 This works just as well for files that aren't saved too:
 
-![](content/posts/learn/_tools/vscode-how-to-compare-files/image-19.png)
+![](image-19.png)
 
-![](content/posts/learn/_tools/vscode-how-to-compare-files/image-18.png)
+![](image-18.png)

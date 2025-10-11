@@ -138,7 +138,7 @@ DateTime birthdate = (DateTime)birthday;
 
 If they don't cast it, the compiler throws an error:
 
-![](content/posts/csharp-implicit-vs-explicit-conversion/image-8.png)
+![](image-8.png)
 
 ## Final Thoughts
 

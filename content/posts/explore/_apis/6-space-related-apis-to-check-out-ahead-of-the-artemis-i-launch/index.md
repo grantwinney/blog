@@ -48,11 +48,11 @@ When I wrote about this before, the Perseverance wasn't around yet (it launched 
 https://api.nasa.gov/mars-photos/api/v1/rovers/perseverance/photos?sol=531&api_key=your-api-key
 ```
 
-![](content/posts/explore/_apis/6-space-related-apis-to-check-out-ahead-of-the-artemis-i-launch/image-21.png)
+![](image-21.png)
 
-![](content/posts/explore/_apis/6-space-related-apis-to-check-out-ahead-of-the-artemis-i-launch/image-22.png)
+![](image-22.png)
 
-![](content/posts/explore/_apis/6-space-related-apis-to-check-out-ahead-of-the-artemis-i-launch/image-23.png)
+![](image-23.png)
 
 There's a lot of other endpoints, some of which I don't fully understand, but here's one that returns the weather on Mars as reported by [Insight](https://mars.nasa.gov/insight/).
 
@@ -242,7 +242,7 @@ GET https://api.le-systeme-solaire.net/rest/bodies/lune?data=isPlanet,englishNam
 
 This is where the Swagger page really comes in handy. Click "Try it out" next to an endpoint, play around with different combinations of data, and hit "Execute" to see the results and (especially helpful) the exact API call that you can use in your app or whatever.
 
-![](content/posts/explore/_apis/6-space-related-apis-to-check-out-ahead-of-the-artemis-i-launch/image-24.png)
+![](image-24.png)
 
 ## RocketLaunch.Live
 

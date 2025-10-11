@@ -17,7 +17,7 @@ Every time I'm about to update some part of a system, my brain starts playing tu
 
 Bear in mind that the absolute _best case scenario_ after any huge refactor is that everything works _exactly_ as before and goes completely unnoticed by the end-user. While being applauded by your fellow devs, of course. Let's be honest now, we're hoping for a little praise when we make ourselves code martyrs, right? Riiiight..
 
-![Next week, when someone digs into my refactored code](content/posts/reflections/beware-the-refactor-bug/abstrusegoose-432.png)
+![Next week, when someone digs into my refactored code](abstrusegoose-432.png)
 
 There's a certain wisdom in touching as little as possible. Imagine a hundred different people working on an (old yet vital) building over the years, applying patches and stopgaps, retaining walls and scaffolding. A piece of coat wire hanger here, and a few mysterious yet deliberately placed nails there. You don't know the reason for them all, and it might be ugly as sin, but there's a reason for each one of them. It's similar with code - just ripping those modifications down and rearranging everything is asking for a world of hurt. Code that's working is, well, working... and every line was added to solve some problem or fix some bug.
 

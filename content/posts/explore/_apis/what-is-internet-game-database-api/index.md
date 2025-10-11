@@ -32,15 +32,15 @@ There's a "[Getting Started](https://api-docs.igdb.com/#getting-started)" guide 
 
 Create an "application":
 
-![](content/posts/what-is-internet-game-database-api/image-8.png)
+![](image-8.png)
 
 Click "Manage":
 
-![](content/posts/explore/_apis/what-is-internet-game-database-api/image-9.png)
+![](image-9.png)
 
 Get a Client ID and Client Secret so you can use the API:
 
-![](content/posts/explore/_apis/what-is-internet-game-database-api/image-10.png)
+![](image-10.png)
 
 ## Authorization
 
