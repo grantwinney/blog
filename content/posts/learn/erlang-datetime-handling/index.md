@@ -6,8 +6,8 @@ description: ""
 draft: false
 postimage: /banners/default-learn-banner.webp
 slug: erlang-datetime-handling
-redirect_from:
-  - /a-few-thoughts-on-datetime-handling-in-erlang
+aliases:
+  - a-few-thoughts-on-datetime-handling-in-erlang
 summary: Handling date and times is a thorn in every experienced developer's side. If you haven't had the pleasure yet, you will. ;) Coming off a week of standardizing some datetimes across an Erlang app, here's a few personal thoughts.
 tags:
   - erlang
