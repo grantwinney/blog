@@ -62,6 +62,14 @@ hyvor-talk-comment-count {
     font-size: smaller;
 }
 
+/* Caption under the cover image at top of post */
+.entry-cover figcaption {
+    color: gray;
+}
+.entry-cover figcaption a {
+    color: gray;
+}
+
 /* Center images in posts */
 .post-content img {
     margin: auto;
