@@ -147,7 +147,7 @@ private void btnUseSeparateForm_Click(object sender, EventArgs e)
 
 The result is a small popup Form with some messages in them. Click a message to remove it. Remove all messages and the second Form hides itself until there's something else to display.
 
-![](image-9.png)
+![](content/posts/explore/other-ways-to-notify-user-besides-messagebox/image-9.png)
 
 ## Everything all at once...
 

@@ -46,11 +46,11 @@ To understand what's going on, find the directory where you ran the `dotnet try 
 
 _(If you're not familiar with markdown, find a good tutorial and get familiar with it. It's used on GitHub as well as a lot of forums, commenting systems, blogs, etc. But I digress...)_
 
-![](image-9.png)
+![](content/posts/explore/what-is-dotnet-try/image-9.png)
 
 Open the QuickStart.md file in VSCode or some other editor, change the markdown a bit, and refresh the page in your browser. You should see the changes. So they're parsing the markdown into HTML... neat but not earth shattering.
 
-![](image-10.png)
+![](content/posts/explore/what-is-dotnet-try/image-10.png)
 
 The cool bit is what they call a "code fence". You specify a source file to read from, and give it the name of region in the file, and it parses whatever's inside the region, displays it on the page, and makes it executable.
 

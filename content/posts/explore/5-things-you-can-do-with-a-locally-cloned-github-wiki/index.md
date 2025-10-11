@@ -49,11 +49,11 @@ Verifying Java and JRuby are installed
 
 Finally, start Windows PowerShell as an administrator and run `gem install gollum` to install Gollum – in other terminals, or in a non-admin PS window, it may fail. This took awhile for me, and seemed to lag on certain steps, but it eventually completed:
 
-![Console output from installing the Gollum gem](image-9.png)
+![Console output from installing the Gollum gem](content/posts/explore/5-things-you-can-do-with-a-locally-cloned-github-wiki/image-9.png)
 
 Let's change to the directory where the wiki is cloned and type "gollum" to fire up the Gollum server, which should show us which port it's running the site on:
 
-![Console output showing that Gollum is running](image-10.png)
+![Console output showing that Gollum is running](content/posts/explore/5-things-you-can-do-with-a-locally-cloned-github-wiki/image-10.png)
 
 Open up the browser to [http://localhost:4567](http://localhost:4567) and check it out. I used the wiki in my [Hide Comments Everywhere](https://github.com/grantwinney/hide-comments-everywhere/wiki) repo – GitHub hosted is on the left, and Gollum local is on the right.
 

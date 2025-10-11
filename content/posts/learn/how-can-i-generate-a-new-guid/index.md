@@ -67,6 +67,6 @@ The privacy-friendly search engine is well known (among those of us who use it) 
 
 Just do a search for "guid" and above the search results you get a new one. It's a little more convenient if you have DDG setup as your default search engine, and then you can just type "guid" in the address bar.
 
-![](image-10.png)
+![](content/posts/learn/how-can-i-generate-a-new-guid/image-10.png)
 
 If you have a better way to generate GUIDs on-the-fly, for your app, personal use, or whatever else, feel free to share below. I'd love to add a few more tools to my toolbox!

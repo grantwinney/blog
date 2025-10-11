@@ -57,7 +57,7 @@ Under "App permissions", change the default "read" permissions to "read and writ
 
 ![](content/posts/using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post/image-4.png)
 
-![](image-10.png)
+![](content/posts/build/using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post/image-10.png)
 
 ### Setup AWS Lambda
 

@@ -29,9 +29,9 @@ The private one, called the [Admin API](https://docs.ghost.org/admin-api), provi
 
 Generating keys to use either of them is in site settings, under Advanced / Integrations, by choosing to add a custom integration. Even though we're only trying things out in Postman, it's the same process you'd have others go through for an integration of your own.
 
-![](image-23.png)
+![](content/posts/explore/_apis/what-is-the-ghost-api/image-23.png)
 
-![](image-21.png)
+![](content/posts/explore/_apis/what-is-the-ghost-api/image-21.png)
 
 ## Try the Content API
 

@@ -17,15 +17,15 @@ I was creating a document in Office365 the other day - something I've done a hun
 
 Apparently, every time I've pasted into a document the past few years, I've just hit Ctrl+V without thinking about it? That seems unlikely, but it's even less likely that the online app was just upgraded and was using the native context menu before. Either way, I don't know why I decided to right-click this time, but since I did and got an oddball popup, it begs the question... _why_?
 
-![](image-21.png)
+![](content/posts/explore/why-do-i-need-to-install-an-extension-just-to-copy-paste/image-21.png)
 
-![](image-22.png)
+![](content/posts/explore/why-do-i-need-to-install-an-extension-just-to-copy-paste/image-22.png)
 
 Judging by the ten million users of the [Office - Enable Copy and Paste](https://chrome.google.com/webstore/detail/office-enable-copy-and-pa/ifbmcpbgkhlpfcodhjhdbllhiaomkdej/related) extension, versus a few hundred reviews, it's pretty obvious most people just figure whatever, you present a hoop so I jump. Can't blame them.. technology is weird and confusing, and getting weirder and more confusing all the time.
 
 Are the comments fair though? People assume that Microsoft has somehow managed to screw up something as basic as copy/paste, and instead of fixing said basic issue, they've decided to write an entire extension that simply shouldn't be required.
 
-![](image-10.png)
+![](content/posts/explore/why-do-i-need-to-install-an-extension-just-to-copy-paste/image-10.png)
 
 ![](image-16.png)
 
@@ -55,7 +55,7 @@ Just as nefarious sites, and legit sites with nefarious code, can no longer acce
 
 If they had stuck with the standard context menu like practically every other site does, there wouldn't be an issue. The browser handles the copy/paste, you trust the browser, and it won't just send that stuff to a website without your manual intervention (i.e. pressing Ctrl+V).
 
-![](image-23.png)
+![](content/posts/explore/why-do-i-need-to-install-an-extension-just-to-copy-paste/image-23.png)
 
 Instead, they decided to write lengthy addons that allow their custom context menus to work by requesting access to the [clipboardRead permission](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard#reading_from_the_clipboard).
 
@@ -138,7 +138,7 @@ Then in a separate section, they request the clipboard permissions. I can't find
 
 Even though installing the addon adds the ability to read from your clipboard in Google Docs, you don't get a prompt warning you of that fact when you install it.
 
-![](image-9.png)
+![](content/posts/explore/why-do-i-need-to-install-an-extension-just-to-copy-paste/image-9.png)
 
 ## The Clipboard API - a better solution?
 
@@ -153,7 +153,7 @@ You can easily use it yourself with very minimal coding, like I did below. Befor
 1. The code below is entirely client-side.. I don't know what's on your clipboard, nor do I care.
 2. After you try it, you can open settings and set Clipboard back to the default "ask" here: chrome://settings/content/siteDetails?site=https%3A%2F%2Fgrantwinney.com%2F
 
-![](image-24.png)
+![](content/posts/explore/why-do-i-need-to-install-an-extension-just-to-copy-paste/image-24.png)
 
 Back to the example. Select some text from somewhere (anywhere), and press "Read Clipboard". You'll be prompted to allow this site to access your clipboard, which is the whole point. You're in control. If you allow access, it'll read whatever text is on the clipboard and display it in the input field.
 

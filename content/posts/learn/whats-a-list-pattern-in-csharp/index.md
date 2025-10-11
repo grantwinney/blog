@@ -161,7 +161,7 @@ foreach (var filePath in Directory.GetFiles("c:\somefilepath\"))
 }
 ```
 
-![](image-22.png)
+![](content/posts/learn/whats-a-list-pattern-in-csharp/image-22.png)
 
 ## Matching on arguments passed to a console app
 
