@@ -4,7 +4,8 @@ categories:
 date: 2020-04-04T19:01:02Z
 description: ""
 draft: false
-postimage: /banners/default-explore-banner.webp
+postimage: geeky-shots-hQ4BQ3wdHsQ-unsplash.webp
+postimagecaption: Photo by <a href="https://unsplash.com/@geekyshots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Geeky Shots</a> on <a href="https://unsplash.com/photos/person-holding-super-mushroom-hQ4BQ3wdHsQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: 13-addons-that-power-up-your-github-game
 summary: GitHub is an amazing set of tools around Git, but it's lacking in certain areas. Where it fails to impress, browser addons often pick up the slack. Here's 13 addons (plus a few honorable mentions) that will take your GitHub experience to the next level!
 tags:
