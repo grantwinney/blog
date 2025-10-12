@@ -63,11 +63,12 @@ hyvor-talk-comment-count {
 }
 
 /* Caption under the cover image at top of post */
-.entry-cover figcaption {
-    color: gray;
-}
+.entry-cover figcaption,
 .entry-cover figcaption a {
+    box-shadow: none;
     color: gray;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 /* Center images in posts */
