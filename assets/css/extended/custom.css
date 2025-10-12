@@ -68,6 +68,8 @@ hyvor-talk-comment-count {
     box-shadow: none;
     color: gray;
     font-style: italic;
+}
+.entry-cover figcaption a {
     text-decoration: underline;
 }
 
