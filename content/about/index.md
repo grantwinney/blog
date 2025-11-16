@@ -12,15 +12,12 @@ Is there anything more satisfying than trying to figure something out, _finally_
 
 For over a decade, I've been developing software in a variety of settings and industries, focusing primarily on C# and the .NET stack, but branching into React, Erlang, and whatever else the job calls for. I'm a constant learner with an appreciation for good docs, DevOps, and the Agile process. I enjoy a good challenge, producing clear and maintainable code, and sharing what I learn with others.
 
-If you found something interesting and want to reach out, leave a comment on the article that brought you here or at the [bottom](#comments) of this page. And if something was really helpful and you'd like to thank me, [I won't turn down a cup of java](https://www.buymeacoffee.com/fhnVUiB19)! ☕
-
 ## Pet Projects
 
-I don't have time for a lot of side projects, especially since each one requires some level of tlc forever to stay relevant, but I've got a few:
+I don't have time for a lot of side projects, especially since each one requires some level of tlc forever to stay relevant, but I've got a couple browser addons:
 
-- [Generate Links for Headers](https://grantwinney.com/generate-links-for-headers/) (browser addon)
-- [Hide Comments Everywhere](https://grantwinney.com/hide-comments-everywhere/) (browser addon)
-- [GhostSharp](https://grantwinney.com/ghostsharp/) _(C#_ [_wrapper_](https://grantwinney.com/what-is-an-api-wrapper/) _around the_ [_Ghost API_](https://docs.ghost.org/api/)_)_
+- [Generate Links for Headers](https://grantwinney.com/generate-links-for-headers/)
+- [Hide Comments Everywhere](https://grantwinney.com/hide-comments-everywhere/)
 
 ## Experience
 
