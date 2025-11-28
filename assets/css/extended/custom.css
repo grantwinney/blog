@@ -49,9 +49,23 @@ a[title^='Search']::after {
     display: none;
 }
 
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .recent-posts-list {
     display: flex;
     gap: 10px;
+}
+
+.recent-posts-list .card-body {
+    font-size: smaller;
+}
+
+.recent-posts-list .entry-cover img {
+    border-radius: var(--radius);
 }
 
 
