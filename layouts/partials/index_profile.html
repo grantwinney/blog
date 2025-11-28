@@ -90,7 +90,25 @@
   <h2>Recent Posts</h2>
   <div class="post-list">
     {{ range first 3 .Site.RegularPages.ByDate.Reverse }}
-     <article class="{{ $class }}">
+      <article class="post-entry">
+        <!-- <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3> -->
+        <div class="card-cover">
+            {{ with .Params.cover }}
+              <img src="{{ .image | relURL }}" alt="{{ .Title }}">
+            {{ else }}
+              <img src="/images/noimage.jpg" alt="no image">
+            {{ end }}
+            {{ with .Params.categories }}
+              <span class="card-badge">{{ index . 0 }}</span>
+            {{ end }}
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">{{ .Title }}</h3>
+            <p class="card-date">{{ .Date.Format "Jan 2, 2006" }}</p>
+          </div>
+      </article>
+
+          <!-- <article class="{{ $class }}">
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   <header class="entry-header">
@@ -118,7 +136,7 @@
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
-{{- end }}
+{{- end }} -->
 
     {{ end }}
   </div>
