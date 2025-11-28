@@ -49,6 +49,27 @@ a[title^='Search']::after {
     display: none;
 }
 
+.recent-posts {
+  margin-top: 2rem;
+}
+
+.tiles-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.post-entry {
+  height: 100%;
+}
+
+.entry-cover img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
 
 /** POSTS **/
 
