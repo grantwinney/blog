@@ -58,7 +58,7 @@
 </div>
 
 {{/* Recent posts section styled like PaperMod cards */}}
-<section class="recent-posts">
+<!-- <section class="recent-posts">
   <h2>Recent Posts</h2>
 
   <div class="tiles-container">
@@ -67,7 +67,7 @@
         <a class="entry-link" href="{{ .RelPermalink }}">
           <div class="card-cover">
             {{ with .Params.cover }}
-              <img src="{{ .postimage | relURL }}" alt="{{ .Title }}">
+              <img src="{{ .image | relURL }}" alt="{{ .Title }}">
             {{ else }}
               <img src="/images/noimage.jpg" alt="no image">
             {{ end }}
@@ -83,7 +83,7 @@
       </article>
     {{ end }}
   </div>
-</section>
+</section> -->
 
 {{/* Custom: Show 3 latest posts */}}
 <!-- <section class="recent-posts">
