@@ -55,9 +55,11 @@ a[title^='Search']::after {
     gap: 15px;
 }
 
-.recent-posts-list {
-    display: flex;
-    gap: 10px;
+@media screen and (min-width: 769px) {
+    .recent-posts-list {
+        display: flex;
+        gap: 10px;
+    }
 }
 
 .recent-posts-list .card-body {
