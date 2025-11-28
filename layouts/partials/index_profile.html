@@ -1,5 +1,4 @@
 <div class="profile">
-    <div>
     {{- with site.Params.profileMode }}
     <div class="profile_inner">
         {{- if .imageUrl -}}
@@ -57,27 +56,25 @@
     </div>
     {{- end}}
 </div>
-<div>
-    {{/* Show recent posts */}}
-    <section class="recent-posts">
-    <h2>Recent Posts</h2>
-    <div class="recent-posts-list">
-        {{ range first 3 .Site.RegularPages.ByDate.Reverse }}
 
-        <article class="post-entry">
-            <div class="card-cover">
-                {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
-                {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
-            </div>
-            <div class="card-body">
-                <h3 class="card-title">{{ .Title }}</h3>
-                <p class="card-date">{{ .Date.Format "Jan 2, 2006" }}</p>
-            </div>
-            <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-        </article>
+{{/* Show recent posts */}}
+<section class="recent-posts">
+  <h2>Recent Posts</h2>
+  <div class="recent-posts-list">
+    {{ range first 3 .Site.RegularPages.ByDate.Reverse }}
 
-        {{ end }}
-    </div>
-    </section>
-</div>
-</div>
+      <article class="post-entry">
+        <div class="card-cover">
+            {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
+            {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">{{ .Title }}</h3>
+            <p class="card-date">{{ .Date.Format "Jan 2, 2006" }}</p>
+          </div>
+          <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+      </article>
+
+    {{ end }}
+  </div>
+</section>
