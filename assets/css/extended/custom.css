@@ -45,27 +45,25 @@ a[title^='Search']::after {
 
 /** FRONT PAGE **/
 
-.profile_inner > h1 {
-    display: none;
-}
-
 .profile {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+.profile_inner > h1 {
+    display: none;
+}
 
+/* Recent post list under profile section */
 @media screen and (min-width: 769px) {
     .recent-posts-list {
         display: flex;
         gap: 10px;
     }
 }
-
 .recent-posts-list .card-body {
     font-size: smaller;
 }
-
 .recent-posts-list .entry-cover img {
     border-radius: var(--radius);
 }
