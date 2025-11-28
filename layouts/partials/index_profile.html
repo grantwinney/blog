@@ -69,8 +69,11 @@
                 </div>
                 <div class="card-body">
                     <h3 class="card-title">{{ .Title }}</h3>
-                    <p class="card-date">
-                        {{ .Date.Format "Jan 2, 2006" }} &middot;
+                    <p class="card-body-meta">
+                        <span class="card-date">
+                            {{ .Date.Format "Jan 2, 2006" }}
+                        </span>
+                        &middot;
                         {{ with .Params.categories }}
                             <span class="card-cat">{{ index . 0 }}</span>
                         {{ end }}

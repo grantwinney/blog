@@ -67,6 +67,10 @@ a[title^='Search']::after {
 .recent-posts-list .entry-cover img {
     border-radius: var(--radius);
 }
+.recent-posts-list .card-body-meta {
+    font-size: smaller;
+    font-style: italic;
+}
 
 
 /** POSTS **/
