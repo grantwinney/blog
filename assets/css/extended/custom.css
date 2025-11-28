@@ -49,7 +49,7 @@ a[title^='Search']::after {
     display: none;
 }
 
-.recent-posts {
+/* .recent-posts {
   margin-top: 2rem;
 }
 
@@ -68,7 +68,7 @@ a[title^='Search']::after {
   height: 150px;
   object-fit: cover;
   border-radius: 0.5rem;
-}
+} */
 
 
 /** POSTS **/
