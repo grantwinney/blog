@@ -49,6 +49,16 @@ a[title^='Search']::after {
     display: none;
 }
 
+.recent-posts-list {
+    display: flex;;
+}
+
+.recent-posts-list .post-entry:nth-child(2)
+{
+    margin-left:10px;
+    margin-right: 10px;
+}
+
 
 /** POSTS **/
 

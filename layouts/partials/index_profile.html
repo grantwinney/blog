@@ -57,42 +57,13 @@
     {{- end}}
 </div>
 
-{{/* Recent posts section styled like PaperMod cards */}}
-<!-- <section class="recent-posts">
-  <h2>Recent Posts</h2>
-
-  <div class="tiles-container">
-    {{ range first 3 .Site.RegularPages.ByDate.Reverse }}
-      <article class="card post-entry">
-        <a class="entry-link" href="{{ .RelPermalink }}">
-          <div class="card-cover">
-            {{ with .Params.cover }}
-              <img src="{{ .image | relURL }}" alt="{{ .Title }}">
-            {{ else }}
-              <img src="/images/noimage.jpg" alt="no image">
-            {{ end }}
-            {{ with .Params.categories }}
-              <span class="card-badge">{{ index . 0 }}</span>
-            {{ end }}
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">{{ .Title }}</h3>
-            <p class="card-date">{{ .Date.Format "Jan 2, 2006" }}</p>
-          </div>
-        </a>
-      </article>
-    {{ end }}
-  </div>
-</section> -->
-
-{{/* Custom: Show 3 latest posts */}}
+{{/* Show recent posts */}}
 <section class="recent-posts">
   <h2>Recent Posts</h2>
-  <div class="post-list">
+  <div class="recent-posts-list">
     {{ range first 3 .Site.RegularPages.ByDate.Reverse }}
 
       <article class="post-entry">
-        <!-- <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3> -->
         <div class="card-cover">
             {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
             {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
