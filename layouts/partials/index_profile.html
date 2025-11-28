@@ -94,7 +94,7 @@
         <!-- <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3> -->
         <div class="card-cover">
             {{ with .Params.cover }}
-              <img src="{{ .postimage | relURL }}" alt="{{ .Title }}">
+              <img src="{{ .Params.postimage | relURL }}" alt="{{ .Title }}">
             {{ else }}
               <img src="/images/noimage.jpg" alt="no image">
             {{ end }}
