@@ -67,7 +67,7 @@
         <a class="entry-link" href="{{ .RelPermalink }}">
           <div class="card-cover">
             {{ with .Params.cover }}
-              <img src="{{ .image | relURL }}" alt="{{ .Title }}">
+              <img src="{{ .postimage | relURL }}" alt="{{ .Title }}">
             {{ else }}
               <img src="/images/noimage.jpg" alt="no image">
             {{ end }}
@@ -84,3 +84,40 @@
     {{ end }}
   </div>
 </section>
+
+{{/* Custom: Show 3 latest posts */}}
+<!-- <section class="recent-posts">
+  <h2>Recent Posts</h2>
+  <div class="post-list">
+    {{ range first 3 .Site.RegularPages.ByDate.Reverse }}
+      <article class="post-entry">
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      </article>
+    {{ end }}
+  </div>
+</section> -->
+
+
+ <!--
+  <div class="tiles-container">
+    {{ range first 3 .Site.RegularPages.ByDate.Reverse }}
+      <article class="post-entry">
+        <a class="entry-link" href="{{ .RelPermalink }}">
+          <div class="entry-cover">
+            {{ with .Params.cover }}
+              <img src="{{ .image | relURL }}" alt="{{ $.Title }}">
+            {{ else }}
+              <img src="/images/noimage.jpg" alt="no image">
+            {{ end }}
+          </div>
+          <header class="entry-header">
+            <h3>{{ .Title }}</h3>
+          </header>
+          <section class="entry-content">
+            {{ .Summary }}
+          </section>
+        </a>
+      </article>
+    {{ end }}
+  </div>
+-->
