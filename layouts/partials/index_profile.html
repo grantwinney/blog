@@ -60,7 +60,7 @@
     <div>
         <section class="recent-posts">
         <div class="recent-posts-list">
-            {{ range last 3 .Site.RegularPages.ByDate }}
+            {{ range first 3 .Site.RegularPages.ByDate.Reverse }}
 
             <article class="post-entry">
                 <div class="card-cover">
