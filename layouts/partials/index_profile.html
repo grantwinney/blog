@@ -68,16 +68,12 @@
                     {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
                 </div>
                 <div class="card-body">
-                    <h3 class="card-title">{{ .Title }}</h3>
                     <p class="card-body-meta">
                         <span class="card-date">
                             {{ .Date.Format "Jan 2, 2006" }}
                         </span>
-                        &middot;
-                        {{ with .Params.categories }}
-                            <span class="card-cat">{{ index . 0 }}</span>
-                        {{ end }}
                     </p>
+                    <h3 class="card-title">{{ .Title }}</h3>
                 </div>
                 <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
             </article>

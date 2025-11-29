@@ -62,13 +62,13 @@ a[title^='Search']::after {
     }
 }
 .recent-posts-list .card-body {
-    font-size: smaller;
+    font-size: 14px;
 }
 .recent-posts-list .entry-cover img {
     border-radius: var(--radius);
 }
 .recent-posts-list .card-body-meta {
-    font-size: smaller;
+    font-size: 12px;
     font-style: italic;
 }
 
