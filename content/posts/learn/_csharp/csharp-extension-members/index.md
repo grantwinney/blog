@@ -1,5 +1,5 @@
 ---
-title: Using Extension Members in C# 14 / .NET 10
+title: Using Extension Members in C# 14
 slug: csharp-extension-members
 summary: Extension members take extension methods to the next level. Let's see how to use this new C# 14 feature.
 description:
