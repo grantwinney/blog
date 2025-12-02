@@ -74,6 +74,10 @@ a[title^='Search']::after {
     font-size: 12px;
     font-style: italic;
 }
+.recent-posts-list .post-entry {
+    font-size: small;
+    font-style: italic;
+}
 
 /** POSTS **/
 
