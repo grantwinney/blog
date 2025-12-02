@@ -3,8 +3,8 @@ title: Using Extension Members in C# 14 / .NET 10
 slug: csharp-extension-members
 summary: Extension members take extension methods to the next level. Let's see how to use this new C# 14 feature.
 description:
-date: 2025-12-01T10:58:00
-draft: true
+date: 2025-12-02T12:58:00
+draft: false
 postimage: /banners/default-learn-banner.webp
 postimagealt:
 postimagecaption:
