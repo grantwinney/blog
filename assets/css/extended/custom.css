@@ -64,19 +64,19 @@ a[title^='Search']::after {
         margin-bottom: unset;
     }
 }
+.recent-posts-list {
+    font-size: small;
+    font-style: italic;
+}
 .recent-posts-list .card-body {
     font-size: 14px;
-}
-.recent-posts-list .entry-cover img {
-    border-radius: var(--radius);
 }
 .recent-posts-list .card-body-meta {
     font-size: 12px;
     font-style: italic;
 }
-.recent-posts-list .post-entry {
-    font-size: small;
-    font-style: italic;
+.recent-posts-list .entry-cover img {
+    border-radius: var(--radius);
 }
 
 /** POSTS **/
