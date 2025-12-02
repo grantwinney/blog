@@ -60,6 +60,9 @@ a[title^='Search']::after {
         display: flex;
         gap: 10px;
     }
+    .recent-posts-list .post-entry {
+        margin-bottom: unset;
+    }
 }
 .recent-posts-list .card-body {
     font-size: 14px;
@@ -71,10 +74,6 @@ a[title^='Search']::after {
     font-size: 12px;
     font-style: italic;
 }
-.recent-posts-list .post-entry {
-    margin-bottom: unset;
-}
-
 
 /** POSTS **/
 
