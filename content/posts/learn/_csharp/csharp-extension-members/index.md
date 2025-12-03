@@ -13,7 +13,7 @@ categories:
 tags:
   - csharp-14
 ---
-Visual Studio 2026 was [released a week ago](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes), so it's time to checkout [.NET 14](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14) and see what new and interesting goodies we got, starting with [extension members](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods)! If you'd like, you can check out [my thoughts on other .NET 14 features](https://grantwinney.com/tags/csharp-14), as well as download the source code for this post from my [CSharpDotNetFeatures](https://github.com/grantwinney/CSharpDotNetFeatures) repo on GitHub.
+Visual Studio 2026 was [released a week ago](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes), so it's time to checkout [C# 14](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14) and see what new and interesting goodies we got, starting with [extension members](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods)! If you'd like to mess around with the code on here, it's available in my [CSharpDotNetFeatures](https://github.com/grantwinney/CSharpDotNetFeatures) repo on GitHub.
 
 ## Extension Methods (a review)
 
