@@ -64,7 +64,7 @@ a[title^='Search']::after {
         margin-bottom: unset;
     }
 }
-.recent-posts-list {
+.recent-posts > a {
     font-size: small;
     font-style: italic;
 }
