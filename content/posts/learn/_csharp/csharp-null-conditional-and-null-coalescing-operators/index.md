@@ -1,16 +1,16 @@
 ---
-categories:
-  - Learn
-date: 2022-09-27T01:13:39Z
+title: Checking for null in C#, using the null conditional and null coalescing operators
+slug: null-conditional-and-null-coalescing-operators
+summary: Checking for nulls in C# is tedious, but C# 6 gave us the null-conditional operator. Let's see what we can do with it!
 description: ""
+date: 2022-09-27T01:13:39Z
 draft: false
 postimage: /banners/default-learn-banner.webp
-slug: null-conditional-and-null-coalescing-operators
-summary: Checking for nulls in C# is tedious, but C# 6 gave us the null-conditional and null-coalescing operators. Let's see how they've improved things.
+categories:
+  - Learn
 tags:
   - csharp-6
   - csharp
-title: Checking for null in C#, using the null-conditional and null-coalescing operators
 ---
 Boy, that's a catchy title. Sometimes they just roll off the tongue, ya know? 🙄
 
@@ -26,7 +26,7 @@ if (employee != null && employee.Name != null &&
 }
 ```
 
-That is just so long-winded and _boring._ We shouldn't have to type all that repetitive code out, and we don't. C# 6 gave us a couple new tools - the null-conditional and null-coalescing operators.
+That is just so long-winded and _boring._ We shouldn't have to type all that repetitive code out, and we don't. C# 6 gave us a new tool - the null-conditional operator.
 
 > The code in this article is available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/ClarityConciseness/NullHandlingOperators), if you'd like to use it in your own projects or just follow along while you read.
 
@@ -101,7 +101,7 @@ public Company DefineCompany()
 
 The [null-conditional operator](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/member-access-operators#null-conditional-operators--and-) allows you to call a deeply-nested class member, where anything in the chain of objects might be null, and it returns null instead of throwing an exception.
 
-In the above code, for example, the Company has a name. But what if it didn't, and you tried to get the length of it for some reason? It would throw an exception if you didn't check for null first. Null conditional operator to the rescue.
+In the above code, for example, the Company has a name. But what if it didn't, and you tried to get the length of it for some reason? It would throw an exception if you didn't check for null first. Null conditional `??` operator to the rescue!
 
 ```csharp
 // Returns a valid company name
@@ -136,7 +136,9 @@ var invalidCount = emptyCompany.Departments?[0].Employees.Count();  // null
 
 ## Null Coalescing operator
 
-Using the null coalescing operator with the null conditional gives you even more power, but it's still concise enough for a single line. It lets you define what the default value should be when a value is null. For example, you can replace this:
+Using the null coalescing operator (which we've had for a long time) in tandem with the null conditional operator gives you even more power, but it's still concise enough for a single line. It lets you define what the default value should be when a value is null.
+
+For example, you can replace this:
 
 ```csharp
 string companyName;
@@ -147,13 +149,13 @@ else
     companyName = "unknown";
 ```
 
-Or even this:
+With this:
 
 ```csharp
 var companyName = company.Name != null ? company.Name ? "unknown";
 ```
 
-With this:
+And finally, with this:
 
 ```csharp
 var companyName = company.Name ?? "unknown";
@@ -208,4 +210,4 @@ if (employee?.Name != null && employee?.Department?.Manager != null)
 }
 ```
 
-If you found this content useful, and want to learn more about a variety of C# features, check out [my GitHub repo](https://github.com/grantwinney/CSharpDotNetExamples), where you'll find links to plenty more blog posts and practical examples!
+If you found this content useful, and want to learn more about a variety of C# features, check out my [CSharpDotNetExamples repo on GitHub](https://github.com/grantwinney/CSharpDotNetExamples), where you'll find links to plenty more blog posts and practical examples!
