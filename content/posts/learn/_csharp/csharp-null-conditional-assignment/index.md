@@ -4,7 +4,7 @@ slug: csharp-null-conditional-assignment
 summary: The null conditional operator just got an upgrade.. we can do assignments with it now! Let's see it in action.
 description:
 date: 2025-12-03T12:09:00
-draft: true
+draft: false
 postimage: /banners/default-learn-banner.webp
 postimagealt:
 postimagecaption:
