@@ -3,7 +3,7 @@ title: Contact Me
 slug: contact
 summary:
 description:
-date: 2025-12-15T10:14:00
+date: 2025-11-01T10:14:00
 draft: false
 postimage:
 postimagealt:
