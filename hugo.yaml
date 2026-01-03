@@ -68,6 +68,19 @@ outputs:
     - RSS
     - JSON
 
+outputFormats:
+  RSS:
+    mediaType: application/rss+xml
+    baseName: index
+    isPlainText: true
+    rel: alternate
+
+  RSS2:
+    mediaType: application/rss+xml
+    baseName: rss
+    isPlainText: true
+    rel: alternate
+
 params:
   env: production
   ShowReadingTime: true
