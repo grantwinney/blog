@@ -69,9 +69,6 @@ outputs:
     - RSS2
     - JSON
 
-  rss:
-    - HTML
-
 outputFormats:
   RSS:
     mediaType: application/rss+xml
