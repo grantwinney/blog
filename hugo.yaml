@@ -132,7 +132,7 @@ params:
       url: "https://www.linkedin.com/in/grantwinney"
     - name: rss
       title: Subscribe to RSS
-      url: "https://grantwinney.com/index.xml"
+      url: "https://grantwinney.com/rss/"
 
   # https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/#profile-mode
   profileMode:
