@@ -12,11 +12,12 @@ aliases:
 
 ## Privacy
 
-My policy on privacy? It's good! So in the interest of full disclosure...
+My policy on privacy? It's good! So in the interest of full disclosure:
 
-- I use [Hyvor Talk](https://talk.hyvor.com/privacy) for comments.
-- I partner with the privacy-friendly [EthicalAds](https://www.ethicalads.io/privacy-policy/) that adheres to the [Acceptable Ads Standard](https://acceptableads.com/standard/).
-- I may (rarely) include affiliate links for products or services I find useful and want to share. They don't increase your cost and using them helps pay for the time I put into this blog.
+- I use privacy-friendly, analytics-and-tracking-free [Hyvor Talk](https://talk.hyvor.com/privacy) for comments.
+- I partner with privacy-friendly [EthicalAds](https://www.ethicalads.io/privacy-policy/), who adheres to the [Acceptable Ads Standard](https://acceptableads.com/standard/).
+- I ***don't*** feed the Google Analytics beast.
+- I may (rarely) include affiliate links for products or services I find useful and want to share.
 
 ## License / Fair-Use
 
