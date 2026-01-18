@@ -1,7 +1,4 @@
 ---
-title: Archives
-slug: archives
-draft: false
+title: "Home"
+layout: "archives"
 ---
-
-{{< archive-list >}}
