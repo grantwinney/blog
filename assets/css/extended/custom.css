@@ -141,13 +141,9 @@ hyvor-talk-comment-count {
 .footer_links {
     margin-bottom: 10px;
 }
-.footer_links > a:first-child {
-    margin-right: 5px;
-}
 .footer_links > a:not(:first-child):not(:last-child) {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 1px;
 }
 .footer_links > a:last-child {
-    margin-left: 5px;
+    margin-left: 1px;
 }
