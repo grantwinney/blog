@@ -138,6 +138,10 @@ hyvor-talk-comment-count {
 }
 
 /* Links at bottom of footer area */
+.footer > a:first-child {
+    margin-left: 2px;
+}
+
 .footer_links {
     margin-bottom: 10px;
 }
