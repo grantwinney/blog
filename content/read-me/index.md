@@ -17,6 +17,7 @@ My policy on privacy? It's good! So in the interest of full disclosure:
 - I use privacy-friendly, analytics-and-tracking-free [Hyvor Talk](https://talk.hyvor.com/privacy) for comments.
 - I partner with privacy-friendly [EthicalAds](https://www.ethicalads.io/privacy-policy/), who adheres to the [Acceptable Ads Standard](https://acceptableads.com/standard/).
 - I ***don't*** feed the Google Analytics beast.
+- I may (rarely) include affiliate links for products or services I find useful and want to share. They don't increase your cost, but using them helps me out. TIA.
 
 ## License / Fair-Use
 
