@@ -23,11 +23,11 @@ My policy on privacy? It's good! So in the interest of full disclosure:
 
 ### Text
 
-Writing content takes a considerable investment of time, so please don't go beyond "[fair use](https://allendyer.com/how-copyright-law-affects-blog-posts/)". Small excerpts and quotes are perfectly reasonable, but copying a whole post is not. In that case, please just link back to the original post.
+Writing content takes a considerable investment of time, so please don't go beyond "[fair use](https://allendyer.com/how-copyright-law-affects-blog-posts/)". Small excerpts and quotes are perfectly reasonable, but copying a whole post is not. In that case, please just link back to the original post on here.
 
 ### Code
 
-Unless I note otherwise in individual posts, all code samples are licensed with the [MIT License](https://opensource.org/licenses/MIT) posted below. Use them for whatever you'd like, but give credit where it's due. Thanks!
+Unless I note otherwise in individual posts, all code samples on this site are licensed with the [MIT License](https://opensource.org/licenses/MIT) posted below. Use them for whatever you'd like, but give credit where it's due. Thanks!
 
 ```
 MIT License
@@ -40,3 +40,5 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
+
+Code that lives on GitHub will have its own license, but if it's mine then it's probably using the MIT license as well.
