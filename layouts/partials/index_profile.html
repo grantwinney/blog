@@ -82,5 +82,12 @@
         <a href="https://grantwinney.com/posts">Read more...</a>
         </section>
     </div>
-    {{< archive-list >}}
+    <div>
+    {{ range (where site.RegularPages "Type" "in" site.Params.mainSections).GroupByDate "2006" }}
+    ### {{ .Key }}
+    {{ range .Pages }}
+    - [{{ .Title }}]({{ .RelPermalink }}) — {{ .Date.Format "Jan 2" }}
+    {{ end }}
+    {{ end }}
+    </div>
 </div>
