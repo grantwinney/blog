@@ -15,14 +15,14 @@ aliases:
 My policy on privacy? It's good! So in the interest of full disclosure...
 
 - I use [Hyvor Talk](https://talk.hyvor.com/privacy) for comments.
-- I'm partnered with [EthicalAds](https://www.ethicalads.io/privacy-policy/) to display small and unobtrusive, technical (mostly software development) ads. Unlike other ad networks, they strive to be privacy-friendly and adhere to the [Acceptable Ads Standard](https://acceptableads.com/standard/).
-- I may occasionally include affiliate links for products or services I find useful and want to share. They don't increase your cost at all, and using them helps pay for the time I put into this blog. TIA.
+- I partner with the privacy-friendly [EthicalAds](https://www.ethicalads.io/privacy-policy/) that adheres to the [Acceptable Ads Standard](https://acceptableads.com/standard/).
+- I may (rarely) include affiliate links for products or services I find useful and want to share. They don't increase your cost and using them helps pay for the time I put into this blog.
 
 ## License / Fair-Use
 
 ### Text
 
-Writing content takes a considerable investment of time, so please don't go beyond "[fair use](https://legalclarity.org/how-to-use-content-from-other-blogs-without-violating-copyright/)". Small excerpts and quotes are perfectly reasonable, but copying a whole post is not. In that case, please just link back to the original post.
+Writing content takes a considerable investment of time, so please don't go beyond "[fair use](https://allendyer.com/how-copyright-law-affects-blog-posts/)". Small excerpts and quotes are perfectly reasonable, but copying a whole post is not. In that case, please just link back to the original post.
 
 ### Code
 
