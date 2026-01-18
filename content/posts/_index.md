@@ -1,4 +1,4 @@
 ---
-title: "Posts"
+title: "All Posts"
 layout: "list"
 ---
