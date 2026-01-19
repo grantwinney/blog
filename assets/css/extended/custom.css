@@ -118,6 +118,16 @@ hyvor-talk-comment-count {
     font-size: smaller;
 }
 
+/* Bulleted lists aren't indented enough */
+.post-content li {
+    margin-left: 15px;
+}
+
+/* The body text was defaulting to 18px, and looked too big */
+.post-content {
+    font-size: 16px;
+}
+
 
 /** FOOTER AREA **/
 
