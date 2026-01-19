@@ -14,13 +14,13 @@ _(Getting it to work on Facebook was a pain, and required constant updates, so I
 
 Available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/hide-comments-everywhere/) and [Chrome](https://chrome.google.com/webstore/detail/hide-comments-everywhere/bmhkdngdngchlneelllmdennfpmepbnc), and works on Brave _([natively](https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-))_, Opera, and Edge too.
 
-![](https://grantwinney.com/content/images/2019/07/hide-comments-2.jpg)
+![](hide-comments-2.jpg)
 
-![](https://grantwinney.com/content/images/2022/03/popup.png)
+![](popup.png)
 
-![](https://grantwinney.com/content/images/2022/03/options1.png)
+![](options1.png)
 
-![](https://grantwinney.com/content/images/2022/03/options2.png)
+![](options2.png)
 
 ## How's it work?
 
