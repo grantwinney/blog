@@ -9,7 +9,6 @@ aliases:
 - /license
 - /privacy-policy
 ---
-
 ## Privacy
 
 My policy on privacy? It's good! So in the interest of full disclosure:
