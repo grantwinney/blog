@@ -72,15 +72,15 @@ I hope it goes as great as they say it will, but I can imagine how it might _not
 
 Right now, VS 2026 can't be quickly found in the start menu. Typing "Visual Studio 2026" shows nothing, and typing "Visual Studio" shows *every* version of VS that's installed (and VS Code). Maybe eventually as the older versions become unnecessary this won't be an issue, but for now it's annoying.
 
-![](search-for-visual-studio-2026.png)
+![](search-for-visual-studio-2026.jpg)
 
-![](search-for-visual-studio.png)
+![](search-for-visual-studio.jpg)
 
 It shows up as 2026 in the Visual Studio Installer app and on the splash screen. Why not just show the shortcut like that too, and then replace it with "Visual Studio 2027" in November? Why make the shortcut generic when nothing else is?
 
 ![](visual-studio-installer.png)
 
-![](vs2026-splash.png)
+![](vs2026-splash.jpg)
 
 Ironically, this seems to fly in the face of what was said [when VS 2022 was released](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022):
 
