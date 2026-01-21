@@ -76,7 +76,11 @@ Right now, VS 2026 can't be quickly found in the start menu. Typing "Visual Stud
 
 ![](search-for-visual-studio.jpg)
 
-It shows up as 2026 in the Visual Studio Installer app and on the splash screen. Why not just show the shortcut like that too, and then replace it with "Visual Studio 2027" in November? Why make the shortcut generic when nothing else is?
+As Dave noted in the comments below, the context menu item in File Explorer has the same issue.
+
+![](context-menu-sln.png)
+
+It shows up as 2026 in the Visual Studio Installer app and on the splash screen. Why not just show the shortcut and menu item like that too, and then replace them with "Visual Studio 2027" in November? Why make these parts generic and nothing else?
 
 ![](visual-studio-installer.png)
 

@@ -22,7 +22,7 @@ My policy on privacy? It's good! So in the interest of full disclosure:
 
 ### Text
 
-Writing content takes a considerable investment of time, so please don't go beyond "[fair use](https://allendyer.com/how-copyright-law-affects-blog-posts/)". Small excerpts and quotes are perfectly reasonable, but copying a whole post is not. In that case, please just link back to the original post on here.
+Writing content takes a considerable investment of time, so please don't go beyond "[fair use](https://allendyer.com/how-copyright-law-affects-blog-posts/)". Excerpts and quotes are perfectly reasonable, but copying a whole post is not. In that case, please just link back to the original post on here.
 
 ### Code
 
