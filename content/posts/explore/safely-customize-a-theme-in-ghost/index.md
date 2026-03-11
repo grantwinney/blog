@@ -54,6 +54,10 @@ If you're a fan of [git aliases](https://grantwinney.com/creating-a-git-alias/),
 updatecasper = !cd your/casper/location && git fetch upstream && git pull upstream master && git push
 ```
 
-**NOTE:**
+**NOTES:**
 
-This method of updating my local fork worked perfectly fine for me, but you may also want to checkout the [official doc on Syncing a fork](https://help.github.com/articles/syncing-a-fork/) which suggests a `git merge` instead of a `git pull`. There's also a [comment](https://gist.github.com/CristinaSolana/1885435#gistcomment-2114661) under the gist I linked to above, that suggests a way to keep forks up-to-date all through GitHub.
+1. You might have to replace "git://github.com" with the "https://github.com" URL instead. When I use the "git://" one, I sometimes get a fatal error that says it *"does not appear to be a git repository"*. Maybe I'm doing something wrong?
+
+2. Replace "master" with "main" or whatever the branch is in the repo you're merging from.
+
+3. This method of updating my local fork worked perfectly fine for me, but you may also want to checkout the [official doc on Syncing a fork](https://help.github.com/articles/syncing-a-fork/) which suggests a `git merge` instead of a `git pull`. There's also a [comment](https://gist.github.com/CristinaSolana/1885435#gistcomment-2114661) under the gist I linked to above, that suggests a way to keep forks up-to-date all through GitHub.
