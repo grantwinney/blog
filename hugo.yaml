@@ -101,7 +101,6 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  hideSummaryImage: true
   showtoc: true
   tocopen: true
 
