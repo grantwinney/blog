@@ -87,7 +87,7 @@ hyvor-talk-comment-count {
 }
 
 a:has(hyvor-talk-comment-count) {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .modifiedDate {
