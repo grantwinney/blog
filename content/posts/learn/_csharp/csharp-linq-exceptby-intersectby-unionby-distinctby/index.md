@@ -9,8 +9,8 @@ slug: set-based-linq-exceptby-intersectby-unionby-distinctby
 summary: The .NET team has made some helpful additions to LINQ in recent years. Today let's check out the various set-based updates from C# 10 / .NET 6.
 tags:
   - linq
-  - csharp-10
-  - dotnet-6
+  - c#10
+  - .net6
   - csharp
 title: Set-based LINQ - ExceptBy, IntersectBy, UnionBy, DistinctBy
 ---
