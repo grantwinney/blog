@@ -86,6 +86,10 @@ hyvor-talk-comment-count {
     color: var(--secondary);
 }
 
+a:has(hyvor-talk-comment-count) {
+    text-decoration: none;
+}
+
 .modifiedDate {
     font-style: italic;
     font-size: smaller;
