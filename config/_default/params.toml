@@ -28,7 +28,6 @@ imagePosition = ""
 highlightCurrentMenuArea = false
 enableStyledScrollbar = ""
 defaultBackgroundImage = "/images/default-featured.webp"
-backgroundImageWidth = ""
 
 [header]
 layout = "fixed"
