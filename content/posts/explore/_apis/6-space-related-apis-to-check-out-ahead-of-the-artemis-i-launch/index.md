@@ -2,10 +2,10 @@
 categories:
   - Explore
 date: 2022-08-28T18:23:48Z
-description: ""
+dateModified:
 draft: false
-postimage: guillermo-ferla-Oze6U2m1oYU-unsplash.webp
-postimagecaption: Photo by <a href="https://unsplash.com/@gferla?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Guillermo Ferla</a> on <a href="https://unsplash.com/photos/black-hole-galaxy-illustration-Oze6U2m1oYU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+featureImage: guillermo-ferla-Oze6U2m1oYU-unsplash.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@gferla?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Guillermo Ferla</a> on <a href="https://unsplash.com/photos/black-hole-galaxy-illustration-Oze6U2m1oYU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 slug: 6-space-related-apis-to-check-out-ahead-of-the-artemis-i-launch
 summary: The week of NASA launching Artemis I is a good time to check a few of the many APIs that make tons of raw space data accessible for anyone to use.
 tags:

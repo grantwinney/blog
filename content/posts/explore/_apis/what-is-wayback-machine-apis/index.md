@@ -2,9 +2,9 @@
 categories:
   - Explore
 date: 2018-06-24T20:02:24Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-api-banner.webp
+featureImage: https://grantwinney.com/banners/default-api-banner.webp
 slug: access-yesterdays-internet-with-the-wayback-machine-apis
 summary: The Wayback Machine, a product of the Internet Archive, is an ambitious tool that's been documenting websites for many years. It's useful when a page you need is removed by the original author. Let's take a look at their API and how we might make use of it.
 tags:

@@ -2,9 +2,9 @@
 categories:
   - Build
 date: 2016-05-19T06:10:28Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-iot-banner.webp
+featureImage: https://grantwinney.com/banners/default-iot-banner.webp
 slug: raspberry-pi-morse-code-transmitter-v2
 summary: I created a morse code generator before based on entering a string at the console. Now I extended it to generate a message by clicking a button.
 tags:

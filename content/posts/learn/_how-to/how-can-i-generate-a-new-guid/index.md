@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2023-07-27T22:12:21Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-can-i-generate-a-new-guid
 summary: GUIDs are heavily used in the world of development, so let's look at a few quick and easy ways to generate them whenever we need them.
 tags:

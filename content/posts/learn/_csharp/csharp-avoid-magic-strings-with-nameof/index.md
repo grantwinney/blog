@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2021-12-30T01:53:29Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: using-nameof-to-avoid-magic-strings
 summary: There's a lot of ways to make our code work for us. Let's check out using the nameof operator to avoid magic strings.
 tags:

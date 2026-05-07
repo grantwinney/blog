@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2019-09-21T02:48:40Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: what-is-graphql-and-how-does-it-differ-from-rest
 summary: GraphQL is an alternative for REST, not a replacement. Let's take a brief look at how they differ.
 tags:

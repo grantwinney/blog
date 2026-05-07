@@ -2,9 +2,9 @@
 categories:
   - Explore
 date: 2017-07-24T18:57:36Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: safely-customize-a-theme-in-ghost
 tags:
   - ghost-blog

@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2015-02-11T19:42:36Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: csharp-implicit-vs-explicit-conversion
 summary: We use implicit and explicit conversion in C# all the time, without even realizing it. Let's learn more about them and look at examples of each.
 tags:

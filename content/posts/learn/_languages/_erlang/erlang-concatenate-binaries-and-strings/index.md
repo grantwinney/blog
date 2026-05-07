@@ -2,14 +2,14 @@
 categories:
   - Learn
 date: 2017-09-26T16:09:00Z
-description: ""
+dateModified:
 draft: false
 slug: erlang-concatenate-binaries-and-strings
 summary: Concatenating strings and binaries in Erlang can get ugly quick. Let's make it easier.
 tags:
   - erlang
 title: Concatenate Binaries and Strings in Erlang
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 ---
 ## The Problem
 

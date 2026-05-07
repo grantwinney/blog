@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2024-02-05T05:07:51Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: using-timeprovider-and-faketimeprovider-in-winforms
 summary: Testing .NET code involving time has always been a pain, but the TimeProvider class (backported to the .NET Framework) gives us awesome new tools.
 tags:

@@ -2,11 +2,10 @@
 categories:
   - Reflect
 date: 2015-11-12T07:27:00Z
-description: ""
+dateModified:
 draft: false
-postimage: joseph-gonzalez-E-EEQSjDdck-unsplash.webp
-postimagealt:
-postimagecaption: Photo by <a href="https://unsplash.com/@miracletwentyone?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Joseph Gonzalez</a> on <a href="https://unsplash.com/photos/squash-near-hey-E-EEQSjDdck?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+featureImage: joseph-gonzalez-E-EEQSjDdck-unsplash.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@miracletwentyone?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Joseph Gonzalez</a> on <a href="https://unsplash.com/photos/squash-near-hey-E-EEQSjDdck?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 slug: hacktoberfest-and-making-my-first-oss-contributions
 summary: I made my first OSS contributions during HacktoberFest, gaining experience (and swag!) with the help of DigitalOcean and GitHub. :)
 tags:

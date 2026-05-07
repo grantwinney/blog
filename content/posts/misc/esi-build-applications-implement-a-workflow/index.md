@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2022-07-16T18:48:55Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: esi-build-applications-implement-a-workflow
 summary: Continuing with Microsoft's ESI, I spent some time this week learning about workflows, reusable elements, and protecting and monitoring the code.
 tags:

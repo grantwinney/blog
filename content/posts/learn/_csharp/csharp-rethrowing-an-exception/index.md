@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2020-09-17T04:08:32Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: rethrowing-an-exception-in-csharp
 summary: All programming languages have gotchas to trip you up, and C# is no exception. Today, let's check out the subtle (but significant) difference between "throw" and "throw ex".
 tags:

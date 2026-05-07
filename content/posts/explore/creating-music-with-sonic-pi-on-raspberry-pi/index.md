@@ -2,9 +2,9 @@
 categories:
   - Explore
 date: 2016-06-21T13:02:00Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-iot-banner.webp
+featureImage: https://grantwinney.com/banners/default-iot-banner.webp
 slug: creating-music-with-sonic-pi-on-raspberry-pi
 summary: After watching Scott Fradkin live-code Sonic Pi for an hour at a conference, it inspired me to make a little music of my own.
 tags:

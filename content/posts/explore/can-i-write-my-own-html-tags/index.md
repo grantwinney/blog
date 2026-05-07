@@ -2,9 +2,9 @@
 categories:
   - Explore
 date: 2021-07-15T21:46:32Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-explore-banner.webp
+featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: can-i-write-my-own-html-tags
 summary: Can you create your own HTML tags? The answer is..... sorta. Yes and no. Not completely, but a little. Typical, I know.
 tags:

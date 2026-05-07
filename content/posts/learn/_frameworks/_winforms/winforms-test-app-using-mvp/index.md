@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2021-06-09T02:12:00Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: its-possible-to-test-a-winforms-app-using-mvp
 summary: If you find yourself supporting a WinForms application, you're likely to notice the tests... or lack thereof. Just because we may not have been so focused on automated tests and continuous integration when WinForms was younger, that doesn't mean we can't introduce them now. Better late than never!
 tags:

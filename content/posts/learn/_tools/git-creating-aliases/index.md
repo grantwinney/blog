@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2017-01-28T13:07:51Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: creating-a-git-alias
 summary: If you're unfamiliar with Git's "alias" feature, it provides a way to create shortcuts for other Git commands, which can save you a lot of time. They’re easy to setup and maintain too. Let's see how.
 tags:

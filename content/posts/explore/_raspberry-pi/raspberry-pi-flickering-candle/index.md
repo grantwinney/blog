@@ -2,9 +2,9 @@
 categories:
   - Build
 date: 2016-08-29T22:34:44Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-iot-banner.webp
+featureImage: https://grantwinney.com/banners/default-iot-banner.webp
 slug: raspberry-pi-flickering-candle
 tags:
   - raspberry-pi

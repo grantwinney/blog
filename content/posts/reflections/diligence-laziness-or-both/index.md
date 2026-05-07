@@ -2,10 +2,10 @@
 categories:
   - Reflect
 date: 2023-12-04T22:22:49Z
-description: ""
+dateModified:
 draft: false
-postimage: ludemeula-fernandes-9UUoGaaHtNE-unsplash.jpg
-postimagecaption: Photo by <a href="https://unsplash.com/@ludemeula?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ludemeula Fernandes</a> on <a href="https://unsplash.com/photos/orange-persian-cat-sleeping-9UUoGaaHtNE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+featureImage: ludemeula-fernandes-9UUoGaaHtNE-unsplash.jpg
+featureImageAttr: Photo by <a href="https://unsplash.com/@ludemeula?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ludemeula Fernandes</a> on <a href="https://unsplash.com/photos/orange-persian-cat-sleeping-9UUoGaaHtNE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 slug: diligence-laziness-or-both
 summary: Funny how a little due diligence mixes so well with a healthy interest in avoiding unnecessary future work.
 tags:

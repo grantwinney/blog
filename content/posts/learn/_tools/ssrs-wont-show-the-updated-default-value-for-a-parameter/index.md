@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2024-01-31T02:40:31Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: ssrs-wont-show-the-updated-default-value-for-a-parameter
 summary: Changed the default value for a report parameter, but it's not actually updating in SSRS? That's by design. Let's find a way around it.
 tags:

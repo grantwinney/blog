@@ -2,9 +2,9 @@
 categories:
   - Explore
 date: 2019-08-13T03:54:37Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-explore-banner.webp
+featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: how-to-create-a-2fa-code-for-your-app
 summary: I use 2FA on every site that supports it, but I'd never given much thought to how a 2FA code is generated. Let's learn how!
 tags:

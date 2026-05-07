@@ -1,0 +1,14 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Grant Winney"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+logo = ""
+description = "A dev with questions... and answers too."
+copyright = ""

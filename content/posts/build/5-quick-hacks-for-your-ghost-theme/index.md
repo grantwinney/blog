@@ -2,9 +2,9 @@
 categories:
   - Build
 date: 2017-04-01T18:47:23Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-build-banner.webp
+featureImage: https://grantwinney.com/banners/default-build-banner.webp
 slug: 5-quick-hacks-for-your-ghost-theme
 summary: These "hacks" for Ghost add some cool features to any blog, and should be usable with any theme.
 tags:

@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2022-08-16T03:56:47Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: displaying-an-iis-hosted-site-in-cefsharp
 summary: Thanks to CEFSharp, we can finally bring WinForms to the web! That didn't sound right. Okay, let's just look at hosting a site in IIS and showing it.
 tags:

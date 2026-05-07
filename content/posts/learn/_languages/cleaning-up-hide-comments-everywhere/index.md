@@ -5,9 +5,8 @@ summary: I spent a weekend cleaning up a personal project, and learned more abou
 description:
 date: 2026-04-28T18:51:00
 draft: false
-postimage: /banners/default-learn-banner.webp
-postimagealt:
-postimagecaption:
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr:
 categories:
   - Learn
 tags:

@@ -2,9 +2,9 @@
 categories:
   - Reflect
 date: 2023-03-22T10:32:44Z
-description: ""
+dateModified:
 draft: false
-postimage: dice-7270763_1920.webp
+featureImage: dice-7270763_1920.webp
 slug: whats-the-point-of-points
 summary: Points aren't hours, but they sorta represent hours. Or do they? 🤔 If you're as perplexed as I used to be, here's a few thoughts about points.
 tags:

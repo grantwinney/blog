@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2022-09-19T10:30:18Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: using-string-interpolation-to-craft-readable-strings
 summary: The longer I write software, the more I come to appreciate clear code. String interpolation in C# is just one more way to help us do that.
 tags:

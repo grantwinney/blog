@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2017-03-05T18:56:30Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-to-evaluate-a-string-of-code-in-erlang-at-runtime
 tags:
   - erlang

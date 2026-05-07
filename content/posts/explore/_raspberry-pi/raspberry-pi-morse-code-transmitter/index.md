@@ -2,9 +2,9 @@
 categories:
   - Build
 date: "2016-04-03T09:03:25Z"
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-iot-banner.webp
+featureImage: https://grantwinney.com/banners/default-iot-banner.webp
 slug: raspberry-pi-morse-code-transmitter
 summary: Making the Pi blink an LED a few times is thrilling, but what about building something.. more? Let's build a morse code transmitter!
 tags:

@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2019-12-18T22:21:00Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: hands-on-ansible-using-digitalocean-ubuntu-droplets
 summary: Today I'm wrapping my head around a build tool called Ansible, used for deploying machines in a scriptable, repeatable manner. Follow along as I step through an excellent tutorial from DigitalOcean, applying what I learn to a couple DO Ubuntu VMs... the $5/mo ones - nothing fancy needed!
 tags:

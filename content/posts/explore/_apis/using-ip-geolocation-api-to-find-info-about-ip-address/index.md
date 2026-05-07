@@ -2,9 +2,9 @@
 categories:
   - Explore
 date: 2019-02-12T11:47:00Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-api-banner.webp
+featureImage: https://grantwinney.com/banners/default-api-banner.webp
 slug: using-the-ip-geolocation-api-to-find-info-about-an-ip-address
 summary: Last year I caught an article about a simple, free service called ipify that returns your IP address. It became so popular the author soon found himself dealing with billions of requests per month! Here's a look at that API and the IP Geolocation API that it spawned.
 tags:

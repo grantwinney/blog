@@ -2,9 +2,9 @@
 categories:
   - Explore
 date: 2016-09-24T13:30:49Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-iot-banner.webp
+featureImage: https://grantwinney.com/banners/default-iot-banner.webp
 slug: raspberry-pi-analog-joystick
 tags:
   - raspberry-pi

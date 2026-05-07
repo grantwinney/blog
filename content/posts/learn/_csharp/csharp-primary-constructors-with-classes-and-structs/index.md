@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2024-12-13T02:05:42Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: using-primary-constructors-with-classes-and-structs-in-csharp
 summary: As part of C# 12, we got a new feature called primary constructors. Let's see how they work and what we can do with them.
 tags:

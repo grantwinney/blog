@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2018-01-25T04:59:32Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-api-banner.webp
+featureImage: https://grantwinney.com/banners/default-api-banner.webp
 slug: what-is-an-api-wrapper
 summary: When you find an API to use in your app, you'll need to access it in a specific language - not always an easy or straightforward task. As long as you're doing all that work, why keep it to yourself? Let's look at creating an API wrapper that you can share with others!
 tags:

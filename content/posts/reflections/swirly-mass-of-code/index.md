@@ -2,9 +2,9 @@
 categories:
   - Reflect
 date: 2023-11-14T04:31:52Z
-description: ""
+dateModified:
 draft: false
-postimage: swirly_code.png
+featureImage: swirly_code.png
 slug: swirly-mass-of-code
 tags:
 title: A swirly mass of shared code

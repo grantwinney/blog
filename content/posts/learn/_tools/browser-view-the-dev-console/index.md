@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2019-03-26T14:47:54Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-do-i-view-the-dev-console-in-my-browser
 summary: Most people will never even know their browser hides a great set of tools, mostly used by web developers, but which can be useful for anyone trying to figure out why their browser is misbehaving.
 tags:

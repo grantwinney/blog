@@ -1,4 +1,3 @@
 ---
-title: "All Posts"
-layout: "list"
+type: posts
 ---

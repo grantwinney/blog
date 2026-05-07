@@ -5,9 +5,8 @@ summary: Pull requests are a chance to ask, learn, and make sure that the code b
 description:
 date: 2025-11-02T01:04:00
 draft: false
-postimage: pexels-towfiqu-barbhuiya-3440682-11412596.webp
-postimagealt:
-postimagecaption: Photo by <a href="https://www.pexels.com/photo/a-marker-near-checked-circles-on-white-paper-11412596/">Towfiqu barbhuiya</a>
+featureImage: pexels-towfiqu-barbhuiya-3440682-11412596.webp
+featureImageAttr: Photo by <a href="https://www.pexels.com/photo/a-marker-near-checked-circles-on-white-paper-11412596/">Towfiqu barbhuiya</a>
 categories:
   - Reflect
 tags:

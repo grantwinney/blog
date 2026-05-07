@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2020-02-28T03:42:32Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-to-find-the-ical-address-for-a-public-google-calendar
 summary: Every Google calendar URL has an iCal file you can use... here's how to find it.
 tags:

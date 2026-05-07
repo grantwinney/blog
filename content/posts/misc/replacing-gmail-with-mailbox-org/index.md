@@ -1,9 +1,9 @@
 ---
 categories:
 date: 2019-12-09T23:44:00Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-build-banner.webp
+featureImage: https://grantwinney.com/banners/default-build-banner.webp
 slug: replacing-gmail-with-mailbox-org
 summary: Google provides some amazing tools, but at what cost to privacy? One of the biggest blockers in eliminating them has been finding a reliable and affordable replacement for email (and ideally, calendar, documents, tasks, etc too). Well I may have finally found it, in Mailbox.org.
 tags:

@@ -2,9 +2,9 @@
 categories:
   - Explore
 date: 2023-01-14T20:36:55Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-explore-banner.webp
+featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: why-doesnt-vs2022-show-my-winforms-ui
 summary: Someone at work asked about whether we'd be able to use VS 2022 to work on our main WinForms app. It works just fine in VS 2019, so it should work in VS 2022, right? Except it doesn't. What we get is white screens of brokenness whenever we try to open a Form in the designer. But why?
 tags:

@@ -5,9 +5,8 @@ summary: Extension members take extension methods to the next level. Let's see h
 description:
 date: 2025-12-02T12:58:00
 draft: false
-postimage: /banners/default-learn-banner.webp
-postimagealt:
-postimagecaption:
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr:
 categories:
   - Learn
 tags:

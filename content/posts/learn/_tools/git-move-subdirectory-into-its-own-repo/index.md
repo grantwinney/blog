@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2021-07-30T03:38:23Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-to-move-a-subdirectory-of-one-repo-into-its-own-repository
 summary: Need to pull a subdirectory out of repo A and create a new repo B out with it? Including full history and branches? Okay, here's how.
 tags:

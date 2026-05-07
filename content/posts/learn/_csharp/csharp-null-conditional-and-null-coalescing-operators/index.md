@@ -2,10 +2,10 @@
 title: Checking for null in C#, using the null conditional and null coalescing operators
 slug: null-conditional-and-null-coalescing-operators
 summary: Checking for nulls in C# is tedious, but C# 6 gave us the null-conditional operator. Let's see what we can do with it!
-description: ""
+dateModified:
 date: 2022-09-27T01:13:39Z
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 categories:
   - Learn
 tags:

@@ -2,9 +2,9 @@
 categories:
   - Reflect
 date: 2021-02-03T13:28:48Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-thoughts-banner.webp
+featureImage: https://grantwinney.com/banners/default-thoughts-banner.webp
 slug: be-ready-to-explain-your-code
 summary: Does the mere thought of explaining your code cause anxiety? Be confident! We should all understand what we're writing and why. It's an opportunity (for everyone) to learn!
 tags:

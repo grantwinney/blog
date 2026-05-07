@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2023-07-26T22:15:20Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-to-compare-files-using-vs-code
 summary: VS Code is a great editor with a lot of useful features, like being able to compare two random files for differences. Let's see how.
 tags:

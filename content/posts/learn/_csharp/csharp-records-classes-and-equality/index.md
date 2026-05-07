@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2024-12-10T12:35:55Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: records-classes-and-equality-in-csharp
 summary: The record modifier can define properties and equality in our classes for us, saving time and keeping our code cleaner. Let's see how it works!
 tags:

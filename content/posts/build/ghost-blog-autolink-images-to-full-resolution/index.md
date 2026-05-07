@@ -2,9 +2,9 @@
 categories:
   - Build
 date: 2018-01-22T03:41:27Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-build-banner.webp
+featureImage: https://grantwinney.com/banners/default-build-banner.webp
 slug: ghost-blog-autolink-images-to-full-resolution
 tags:
   - ghost-blog

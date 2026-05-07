@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2018-09-03T14:48:51Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: a-few-thoughts-on-datetime-handling-in-erlang
 aliases:
 summary: Handling date and times is a thorn in every experienced developer's side. If you haven't had the pleasure yet, you will. ;) Coming off a week of standardizing some datetimes across an Erlang app, here's a few personal thoughts.

@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2022-12-06T00:20:13Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: convert-backgroundworker-to-task-with-taskcompletionsource
 summary: Sometimes the safer way to "update" old code is to leave it be and paint over it with a newer construct. Let's see how to modernize a BackgroundWorker using Tasks and TaskCompletionSource.
 tags:

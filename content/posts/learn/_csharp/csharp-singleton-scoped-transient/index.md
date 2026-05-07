@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2023-07-28T21:41:00Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: difference-between-singleton-scoped-transient
 summary: It's trivial to register a dependency in a .NET API, but it's important to clarify a few terms that drastically change a dependency's lifetime.
 tags:

@@ -1,9 +1,9 @@
 ---
 categories:
 date: 2019-03-13T03:29:29Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: lost-access-to-your-mozilla-addons-account
 summary: I recently realized that somehow, in the 6 months since I last logged into my Mozilla developer account, none of my short list of emails would let me back in. Here's how I regained access.
 tags:

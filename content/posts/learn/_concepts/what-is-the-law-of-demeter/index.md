@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2020-05-02T03:59:22Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: the-law-of-demeter-a-practical-example
 tags:
   - software-design

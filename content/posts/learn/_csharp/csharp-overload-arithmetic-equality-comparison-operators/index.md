@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2023-04-01T03:54:20Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: csharp-overload-arithmetic-equality-comparison-operators
 summary: What's it mean to overload operators in C#? And what's that have to do with Generic Math in C# 11? Let's find out! (part 2 of 3)
 tags:

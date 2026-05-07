@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2021-06-07T12:56:43Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: using-async-await-and-task-to-keep-the-winforms-ui-more-responsive
 summary: Using the async/await pattern in WinForms is an easy win, helping prevent one of the most annoying user experiences - a frozen UI.
 tags:

@@ -2,9 +2,9 @@
 categories:
   - Reflect
 date: 2022-01-22T22:45:01Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-thoughts-banner.webp
+featureImage: https://grantwinney.com/banners/default-thoughts-banner.webp
 slug: beware-the-refactor-bug
 summary: Refactoring code is part of the dev life, and can even help keep the code healthy, but going too far can do more harm than good. Ever after a decade of writing code, I still have to remind myself from time to time!
 tags:

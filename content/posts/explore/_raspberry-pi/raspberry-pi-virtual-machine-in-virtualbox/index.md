@@ -2,9 +2,9 @@
 categories:
   - Explore
 date: 2016-06-08T06:01:18Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-iot-banner.webp
+featureImage: https://grantwinney.com/banners/default-iot-banner.webp
 slug: raspberry-pi-virtual-machine-in-virtualbox
 summary: I was flipping through The MagPi back-issues and came across an article about setting up a virtual Raspberry Pi environment. It got me thinking... I’ve been playing around a lot on the Pi itself, but it’d be nice to experiment with code even when I don’t have access to a physical Pi.
 tags:

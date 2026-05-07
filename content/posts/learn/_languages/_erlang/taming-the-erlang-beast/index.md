@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2017-11-01T16:50:27Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: taming-the-erlang-beast
 summary: Becoming an Erlang developer has not always been easy, but over the last couple of years I've learned a few ways to tame the beast. It doesn't need to become any other language, but there's definitely room for improving the developer experience!
 tags:

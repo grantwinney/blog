@@ -2,9 +2,9 @@
 categories:
   - Learn
 date: 2023-08-11T03:59:55Z
-description: ""
+dateModified:
 draft: false
-postimage: /banners/default-learn-banner.webp
+featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: call-an-async-method-from-a-synchronous-one
 summary: Writing async code whenever possible is great, but how do we do it when we're stuck with legacy (and very synchronous) code?
 tags:

@@ -2,9 +2,9 @@
 categories:
   - Explore
 date: 2017-12-31T20:20:17Z
-description: ""
+dateModified:
 draft: false
-postimage: pexels-pixabay-415078.webp
+featureImage: pexels-pixabay-415078.webp
 slug: what-is-penguin-random-house-api
 summary: Penguin Random House is a book publisher, and their API can be used to get data about books, authors and events. Let's check it out!
 tags:
