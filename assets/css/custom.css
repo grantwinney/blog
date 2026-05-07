@@ -7,17 +7,20 @@ div.thumbnail_card {
     display: none;
 }
 
-
 /**************************
     Posts
  ************/
+
+/* Align comment counter with date in basic.html */
+#comment_count {
+    padding-left: 5px;
+}
 
 div.max-w-prose {
     max-width: 75ch;
 }
 
 /* Around line 50 of single.html */
-
 div.feature-image-attribution {
     font-size: small;
     font-style: italic;
