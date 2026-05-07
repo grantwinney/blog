@@ -1,7 +1,27 @@
-.max-w-prose {
-    max-width: 75ch;
-}
+
+/**************************
+    Homepage
+ ************/
 
 div.thumbnail_card {
     display: none;
+}
+
+
+/**************************
+    Posts
+ ************/
+
+div.max-w-prose {
+    max-width: 75ch;
+}
+
+/* Around line 50 of single.html */
+
+div.feature-image-attribution {
+    font-size: small;
+    font-style: italic;
+    opacity: 0.7;
+    padding-top: 20px;
+    text-align: right;
 }
