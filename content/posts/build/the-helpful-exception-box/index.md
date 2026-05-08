@@ -2,7 +2,7 @@
 categories:
   - Build
 date: 2021-12-07T15:37:03Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-build-banner.webp
 slug: the-helpful-exception-box

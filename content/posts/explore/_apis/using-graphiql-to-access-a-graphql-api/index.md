@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2019-09-26T03:38:30Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-api-banner.webp
 slug: using-graphiql-to-access-a-graphql-api

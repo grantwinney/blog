@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2024-12-18T15:50:31Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-to-use-getstockicon-for-winforms

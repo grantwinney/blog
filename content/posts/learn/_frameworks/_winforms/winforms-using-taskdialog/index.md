@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2024-12-31T23:41:30Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: using-taskdialog-in-winforms

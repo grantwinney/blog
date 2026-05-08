@@ -2,7 +2,7 @@
 categories:
   - Build
 date: 2018-06-02T12:32:54Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-build-banner.webp
 slug: using-aws-lambda-to-tweet-random-posts-from-an-rss-feed

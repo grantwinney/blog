@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2022-12-31T17:18:11Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: why-do-i-need-to-install-an-extension-just-to-copy-paste

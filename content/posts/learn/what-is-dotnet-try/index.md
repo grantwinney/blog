@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2021-05-29T21:40:16Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: what-is-dotnet-try

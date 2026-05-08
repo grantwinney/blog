@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2022-08-28T18:23:48Z
-dateModified:
+lastmod:
 draft: false
 featureImage: guillermo-ferla-Oze6U2m1oYU-unsplash.webp
 featureImageAttr: Photo by <a href="https://unsplash.com/@gferla?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Guillermo Ferla</a> on <a href="https://unsplash.com/photos/black-hole-galaxy-illustration-Oze6U2m1oYU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>

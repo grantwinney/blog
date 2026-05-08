@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2024-12-08T22:59:12Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: set-based-linq-exceptby-intersectby-unionby-distinctby

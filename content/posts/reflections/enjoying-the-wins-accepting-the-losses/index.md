@@ -2,7 +2,7 @@
 categories:
   - Reflect
 date: 2022-08-09T13:07:49Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-thoughts-banner.webp
 slug: enjoying-the-wins-accepting-the-losses

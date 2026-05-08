@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2019-12-18T22:21:00Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: hands-on-ansible-using-digitalocean-ubuntu-droplets

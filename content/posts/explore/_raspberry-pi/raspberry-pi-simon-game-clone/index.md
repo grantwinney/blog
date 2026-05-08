@@ -2,7 +2,7 @@
 categories:
   - Build
 date: 2016-07-28T08:09:41Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-iot-banner.webp
 slug: raspberry-pi-simon-game-clone

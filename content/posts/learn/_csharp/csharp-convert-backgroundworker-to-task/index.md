@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2022-12-06T00:20:13Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: convert-backgroundworker-to-task-with-taskcompletionsource

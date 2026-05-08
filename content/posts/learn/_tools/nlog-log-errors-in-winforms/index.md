@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2021-10-09T15:53:15Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: log-errors-in-winforms-with-nlog

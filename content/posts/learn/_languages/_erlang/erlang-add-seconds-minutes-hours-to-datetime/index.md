@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2019-12-01T01:51:59Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-do-i-add-seconds-minutes-or-hours-to-a-datetime-structure-in-erlang

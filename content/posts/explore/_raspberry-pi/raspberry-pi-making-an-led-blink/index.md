@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2016-03-26T16:37:30Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-iot-banner.webp
 slug: raspberry-pi-making-an-led-blink

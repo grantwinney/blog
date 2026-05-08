@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2022-06-06T11:30:43Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: what-is-manifest-v3-and-why-is-google-pestering-me

@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2023-08-16T01:35:54Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: other-ways-to-notify-user-besides-messagebox

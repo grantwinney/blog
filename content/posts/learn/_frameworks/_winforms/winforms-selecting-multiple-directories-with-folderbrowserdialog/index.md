@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2024-12-19T22:41:10Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: selecting-multiple-directories-with-the-winforms-folderbrowserdialog-in-dotnet

@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2019-09-21T02:48:40Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: what-is-graphql-and-how-does-it-differ-from-rest

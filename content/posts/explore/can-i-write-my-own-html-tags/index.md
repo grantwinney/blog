@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2021-07-15T21:46:32Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: can-i-write-my-own-html-tags

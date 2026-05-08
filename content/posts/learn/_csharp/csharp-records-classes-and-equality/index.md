@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2024-12-10T12:35:55Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: records-classes-and-equality-in-csharp

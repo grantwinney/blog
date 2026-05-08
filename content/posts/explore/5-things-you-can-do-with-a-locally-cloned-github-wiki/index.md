@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2017-01-16T07:52:51Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: 5-things-you-can-do-with-a-locally-cloned-github-wiki

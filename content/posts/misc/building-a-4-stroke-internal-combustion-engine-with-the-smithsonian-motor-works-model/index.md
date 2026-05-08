@@ -1,7 +1,7 @@
 ---
 categories:
 date: 2016-02-06T11:55:48Z
-dateModified:
+lastmod:
 draft: false
 featureImage: pexels-sejio402-29226626.webp
 featureImageAttr: Photo by [Sergei Starostin](https://www.pexels.com/photo/close-up-of-camshaft-in-engine-assembly-29226626/)

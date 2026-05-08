@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2016-08-22T07:28:52Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-iot-banner.webp
 slug: raspberry-pi-pulse-width-modulation

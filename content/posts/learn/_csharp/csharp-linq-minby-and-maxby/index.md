@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2024-12-05T22:24:55Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: using-minby-and-maxby-in-csharp

@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2023-07-26T22:15:20Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-to-compare-files-using-vs-code

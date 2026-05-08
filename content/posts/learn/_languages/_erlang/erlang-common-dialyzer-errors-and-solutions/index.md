@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2019-02-09T21:10:27Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: common-dialyzer-errors-and-solutions-in-erlang

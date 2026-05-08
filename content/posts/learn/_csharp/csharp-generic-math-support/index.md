@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2023-04-05T03:50:14Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: csharp-generic-math-support

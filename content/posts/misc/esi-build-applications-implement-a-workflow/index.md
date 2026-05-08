@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2022-07-16T18:48:55Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: esi-build-applications-implement-a-workflow

@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2017-12-29T15:33:04Z
-dateModified:
+lastmod:
 draft: false
 featureImage: mark-konig-OsYYPaPgIjw-unsplash.webp
 featureImageAttr: Photo by <a href="https://unsplash.com/@markkoenig?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mark König</a> on <a href="https://unsplash.com/photos/red-and-white-flag-under-blue-sky-during-daytime-OsYYPaPgIjw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

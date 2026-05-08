@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2016-06-21T13:02:00Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-iot-banner.webp
 slug: creating-music-with-sonic-pi-on-raspberry-pi

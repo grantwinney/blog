@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2018-09-03T14:48:51Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: a-few-thoughts-on-datetime-handling-in-erlang

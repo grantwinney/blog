@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2023-07-02T03:09:24Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-to-log-messages-to-multiple-targets-with-nlog

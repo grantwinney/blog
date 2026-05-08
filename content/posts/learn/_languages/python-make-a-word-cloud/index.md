@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2020-06-04T21:43:00Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-to-make-a-word-cloud-in-python

@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2017-02-17T09:03:29Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: what-is-charlieplexing-a-short-demo-using-the-raspberry-pi

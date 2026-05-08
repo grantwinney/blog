@@ -2,7 +2,7 @@
 categories:
   - Reflect
 date: 2020-09-15T03:52:08Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-thoughts-banner.webp
 slug: how-do-you-know-when-youre-a-programmer

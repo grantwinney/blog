@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2022-10-08T18:40:48Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: local-functions-in-csharp-aka-nested-methods

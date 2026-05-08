@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2024-01-31T02:40:31Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: ssrs-wont-show-the-updated-default-value-for-a-parameter

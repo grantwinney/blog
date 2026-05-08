@@ -2,7 +2,7 @@
 categories:
   - Reflect
 date: 2023-08-24T21:30:16Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-thoughts-banner.webp
 slug: even-in-failure-success

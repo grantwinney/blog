@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2024-10-07T02:43:55Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: async-in-5-short-examples

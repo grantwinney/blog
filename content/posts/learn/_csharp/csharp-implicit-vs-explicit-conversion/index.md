@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2015-02-11T19:42:36Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: csharp-implicit-vs-explicit-conversion

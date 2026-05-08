@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2023-08-23T15:52:21Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: what-are-generic-attributes

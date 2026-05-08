@@ -1,7 +1,7 @@
 ---
 categories:
 date: 2019-12-09T23:44:00Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-build-banner.webp
 slug: replacing-gmail-with-mailbox-org

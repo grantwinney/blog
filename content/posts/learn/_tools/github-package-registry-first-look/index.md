@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2019-10-06T03:55:19Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: first-look-github-package-registry-beta

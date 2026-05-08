@@ -2,7 +2,7 @@
 categories:
   - Reflect
 date: 2023-03-22T10:32:44Z
-dateModified:
+lastmod:
 draft: false
 featureImage: dice-7270763_1920.webp
 slug: whats-the-point-of-points

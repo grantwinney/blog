@@ -2,7 +2,7 @@
 categories:
   - Retro
 date: 2013-10-23T01:26:46Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-build-banner.webp
 slug: installing-dos-6-22-in-vmware-player

@@ -1,7 +1,7 @@
 ---
 categories:
 date: 2017-03-26T02:43:14Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-build-banner.webp
 slug: migrating-a-blog-from-wordpress-to-ghost

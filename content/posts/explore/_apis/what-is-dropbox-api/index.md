@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2017-12-20T04:59:25Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-api-banner.webp
 slug: what-is-dropbox-api

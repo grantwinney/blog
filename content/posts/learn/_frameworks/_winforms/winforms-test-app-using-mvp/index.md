@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2021-06-09T02:12:00Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: its-possible-to-test-a-winforms-app-using-mvp

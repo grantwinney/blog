@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2019-10-03T17:09:27Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: whats-a-package-manager

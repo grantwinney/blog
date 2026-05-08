@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2019-11-07T18:04:08Z
-dateModified:
+lastmod:
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 draft: false
 slug: where-are-my-logs-in-aws-lambda

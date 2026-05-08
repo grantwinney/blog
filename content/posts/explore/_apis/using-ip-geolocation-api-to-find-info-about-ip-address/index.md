@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2019-02-12T11:47:00Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-api-banner.webp
 slug: using-the-ip-geolocation-api-to-find-info-about-an-ip-address

@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2022-09-19T10:30:18Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: using-string-interpolation-to-craft-readable-strings

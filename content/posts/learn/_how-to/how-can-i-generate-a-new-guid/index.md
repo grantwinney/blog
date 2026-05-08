@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2023-07-27T22:12:21Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-can-i-generate-a-new-guid

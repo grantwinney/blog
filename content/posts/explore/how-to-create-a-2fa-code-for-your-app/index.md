@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2019-08-13T03:54:37Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: how-to-create-a-2fa-code-for-your-app

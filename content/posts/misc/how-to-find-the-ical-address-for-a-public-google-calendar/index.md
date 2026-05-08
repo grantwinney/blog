@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2020-02-28T03:42:32Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-to-find-the-ical-address-for-a-public-google-calendar

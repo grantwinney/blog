@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2020-12-09T13:19:00Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: what-is-mocking-a-dependency

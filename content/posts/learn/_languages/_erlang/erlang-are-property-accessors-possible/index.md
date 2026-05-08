@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2018-05-22T16:55:18Z
-dateModified:
+lastmod:
 draft: false
 slug: are-property-accessors-possible-in-erlang
 summary: I ran into a problem in Erlang yesterday that made me think... is there anyway to implement a property accessor on a record?

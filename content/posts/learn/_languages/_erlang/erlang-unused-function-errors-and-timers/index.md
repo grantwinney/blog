@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2018-06-06T18:18:06Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: getting-rid-of-unused-function-errors-when-using-timers-in-erlang

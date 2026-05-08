@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2018-06-24T20:02:24Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-api-banner.webp
 slug: access-yesterdays-internet-with-the-wayback-machine-apis

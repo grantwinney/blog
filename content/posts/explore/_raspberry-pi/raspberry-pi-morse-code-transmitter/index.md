@@ -2,7 +2,7 @@
 categories:
   - Build
 date: "2016-04-03T09:03:25Z"
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-iot-banner.webp
 slug: raspberry-pi-morse-code-transmitter

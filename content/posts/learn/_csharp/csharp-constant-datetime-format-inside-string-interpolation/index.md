@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2019-04-04T20:06:50Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: csharp-constant-datetime-format-inside-string-interpolation

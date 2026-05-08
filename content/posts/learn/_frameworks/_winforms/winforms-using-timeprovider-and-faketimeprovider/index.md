@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2024-02-05T05:07:51Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: using-timeprovider-and-faketimeprovider-in-winforms

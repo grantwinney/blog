@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2019-11-12T00:30:00Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-can-i-find-the-state-of-numlock-capslock-scrolllock-in-wpf

@@ -2,7 +2,7 @@
 categories:
   - Build
 date: 2020-02-13T23:50:42Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-to-make-a-dark-mode-with-css

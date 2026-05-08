@@ -1,7 +1,7 @@
 ---
 categories:
 date: 2019-03-13T03:29:29Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: lost-access-to-your-mozilla-addons-account

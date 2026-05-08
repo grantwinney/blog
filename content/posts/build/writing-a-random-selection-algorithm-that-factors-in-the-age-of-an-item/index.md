@@ -2,7 +2,7 @@
 categories:
   - Build
 date: 2018-06-07T03:44:14Z
-dateModified:
+lastmod:
 draft: false
 featureImage: pexels-nascimento-jr-1451812733-27409729.webp
 featureImageAttr: Photo by [Nascimento Jr.](https://www.pexels.com/photo/dice-game-on-black-and-white-background-27409729/)

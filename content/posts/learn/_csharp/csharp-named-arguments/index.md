@@ -2,7 +2,7 @@
 title: Named arguments in C#
 slug: csharp-named-arguments
 summary: Named arguments in C#.. they've been around a long time, but does anyone use them? Let's check out another feature that helps tame wild code.
-dateModified:
+lastmod:
 categories:
   - Learn
 date: 2022-10-12T22:09:47Z

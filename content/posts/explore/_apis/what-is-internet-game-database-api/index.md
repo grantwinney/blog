@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2018-01-01T05:00:00Z
-dateModified:
+lastmod:
 draft: false
 featureImage: jeshoots-com-5chl44BAOvk-unsplash.webp
 featureImageAttr: Photo by <a href="https://unsplash.com/@jeshoots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">jeshoots.com</a> on <a href="https://unsplash.com/photos/person-holding-black-game-controller-5chl44BAOvk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

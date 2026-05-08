@@ -2,7 +2,7 @@
 categories:
   - Build
 date: 2018-06-01T17:28:01Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-build-banner.webp
 slug: using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post

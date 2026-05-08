@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2015-02-04T17:49:31Z
-dateModified:
+lastmod:
 draft: false
 slug: csharp-obsolete-attribute-on-class-ignored-when-interface-is-involved
 summary: The Obsolete attribute on a class is ignored when an interface is involved. It caught me by surprise, but makes sense. Let's see why.

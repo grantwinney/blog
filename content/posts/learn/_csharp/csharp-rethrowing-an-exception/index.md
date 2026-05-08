@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2020-09-17T04:08:32Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: rethrowing-an-exception-in-csharp

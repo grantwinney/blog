@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2019-04-15T14:37:19Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-to-use-an-app-config-file-with-a-net-standard-app-and-nunit-3

@@ -2,7 +2,7 @@
 categories:
   - Retro
 date: 2019-05-04T14:35:40Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-build-banner.webp
 slug: running-windows-xp-in-virtualbox

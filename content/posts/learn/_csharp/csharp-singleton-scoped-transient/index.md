@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2023-07-28T21:41:00Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: difference-between-singleton-scoped-transient

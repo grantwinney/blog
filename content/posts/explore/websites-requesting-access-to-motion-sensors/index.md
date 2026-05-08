@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2019-12-30T17:49:59Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: websites-requesting-access-to-motion-sensors

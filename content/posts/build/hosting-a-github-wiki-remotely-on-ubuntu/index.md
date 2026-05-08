@@ -2,7 +2,7 @@
 categories:
   - Build
 date: 2018-10-29T12:19:38Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-build-banner.webp
 slug: hosting-a-github-wiki-remotely-on-ubuntu

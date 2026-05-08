@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2022-07-30T11:00:15Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: esi-building-apps-with-azure-devops-manage-dependencies

@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2017-11-01T16:50:27Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: taming-the-erlang-beast

@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2019-03-26T14:47:54Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-do-i-view-the-dev-console-in-my-browser

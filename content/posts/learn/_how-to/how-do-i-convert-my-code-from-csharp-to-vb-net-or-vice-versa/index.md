@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2018-07-18T04:41:38Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-do-i-convert-my-code-from-c-to-vb-net-or-vice-versa

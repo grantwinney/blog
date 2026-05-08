@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2018-02-06T12:36:34Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-api-banner.webp
 slug: passwordrandom-api

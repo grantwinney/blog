@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2022-01-07T04:12:17Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: mocking-messagebox-in-winforms

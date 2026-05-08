@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2024-01-11T04:34:20Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-to-use-timeprovider-and-faketimeprovider-to-test-timers

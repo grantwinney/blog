@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2023-08-31T23:04:38Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: whats-a-list-pattern-in-csharp

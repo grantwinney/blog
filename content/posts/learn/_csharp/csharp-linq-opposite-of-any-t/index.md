@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2019-11-11T23:36:00Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: what-is-the-opposite-method-of-any-t-in-linq

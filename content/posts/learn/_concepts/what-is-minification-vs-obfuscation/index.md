@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2019-06-14T16:14:00Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: minification-vs-obfuscation

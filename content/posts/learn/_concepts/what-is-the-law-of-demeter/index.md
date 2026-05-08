@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2020-05-02T03:59:22Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: the-law-of-demeter-a-practical-example

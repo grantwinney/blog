@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2017-12-31T20:20:17Z
-dateModified:
+lastmod:
 draft: false
 featureImage: pexels-pixabay-415078.webp
 slug: what-is-penguin-random-house-api

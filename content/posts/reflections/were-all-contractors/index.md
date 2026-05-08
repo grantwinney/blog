@@ -2,7 +2,7 @@
 categories:
   - Reflect
 date: 2021-10-19T03:37:36Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-thoughts-banner.webp
 slug: were-all-contractors

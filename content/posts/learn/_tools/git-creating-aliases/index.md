@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2017-01-28T13:07:51Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: creating-a-git-alias

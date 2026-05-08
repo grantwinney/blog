@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2014-12-12T07:57:57Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: winforms-passing-data-between-two-forms

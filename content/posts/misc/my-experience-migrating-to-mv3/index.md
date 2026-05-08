@@ -1,7 +1,7 @@
 ---
 categories:
 date: 2022-11-19T22:09:03Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-thoughts-banner.webp
 slug: my-experience-migrating-to-mv3

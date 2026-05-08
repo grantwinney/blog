@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2021-01-19T04:28:00Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: scratch-that-itch-for-coding

@@ -2,7 +2,7 @@
 categories:
   - Reflect
 date: 2022-01-22T22:45:01Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-thoughts-banner.webp
 slug: beware-the-refactor-bug

@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2024-12-03T19:23:03Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: using-linq-countby-and-aggregateby-in-csharp

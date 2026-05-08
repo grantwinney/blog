@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2017-07-06T12:15:51Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: tdd-test-driven-development-using-visual-studio-for-mac

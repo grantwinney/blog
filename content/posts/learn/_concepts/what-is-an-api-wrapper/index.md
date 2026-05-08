@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2018-01-25T04:59:32Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-api-banner.webp
 slug: what-is-an-api-wrapper

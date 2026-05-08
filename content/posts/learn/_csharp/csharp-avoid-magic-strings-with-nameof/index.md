@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2021-12-30T01:53:29Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: using-nameof-to-avoid-magic-strings

@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2017-12-23T04:10:01Z
-dateModified:
+lastmod:
 draft: false
 featureImage: pexels-jmark-32307.webp
 featureImageAttr: Photo by [John-Mark Smith](https://www.pexels.com/photo/map-of-the-world-book-laid-open-on-brown-wooden-surface-32307/)

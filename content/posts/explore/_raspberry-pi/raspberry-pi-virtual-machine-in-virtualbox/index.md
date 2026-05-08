@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2016-06-08T06:01:18Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-iot-banner.webp
 slug: raspberry-pi-virtual-machine-in-virtualbox

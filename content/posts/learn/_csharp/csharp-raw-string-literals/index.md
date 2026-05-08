@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2024-12-14T22:32:43Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: using-raw-string-literals-in-csharp

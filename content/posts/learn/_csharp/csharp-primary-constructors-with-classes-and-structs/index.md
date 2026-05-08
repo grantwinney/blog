@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2024-12-13T02:05:42Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: using-primary-constructors-with-classes-and-structs-in-csharp

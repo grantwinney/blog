@@ -2,7 +2,7 @@
 categories:
   - Reflect
 date: 2023-12-12T22:48:16Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-thoughts-banner.webp
 slug: similar-endpoints-swagger-pages-and-a-devops-fail

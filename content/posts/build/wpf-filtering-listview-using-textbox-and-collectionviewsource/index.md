@@ -2,7 +2,7 @@
 categories:
   - Build
 date: 2014-12-07T09:13:17Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-build-banner.webp
 slug: wpf-filtering-listview-using-textbox-and-collectionviewsource

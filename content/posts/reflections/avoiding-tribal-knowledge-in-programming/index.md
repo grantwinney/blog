@@ -2,7 +2,7 @@
 categories:
   - Reflect
 date: 2021-07-05T19:20:06Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-thoughts-banner.webp
 slug: avoiding-tribal-knowledge-in-programming

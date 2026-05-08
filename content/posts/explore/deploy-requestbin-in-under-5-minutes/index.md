@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2020-01-05T12:39:14Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: deploy-requestbin-in-under-5-minutes

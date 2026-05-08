@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2023-01-14T20:36:55Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: why-doesnt-vs2022-show-my-winforms-ui

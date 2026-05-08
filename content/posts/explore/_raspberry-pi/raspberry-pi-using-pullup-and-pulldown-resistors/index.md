@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2016-05-09T07:30:30Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-iot-banner.webp
 slug: raspberry-pi-using-pullup-and-pulldown-resistors

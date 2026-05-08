@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2019-05-22T02:23:58Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: keeping-your-github-code-secure

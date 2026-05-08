@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2019-11-14T17:25:00Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: only-assignment-call-increment-decrement-await-and-new-object-expressions-can-be-used-as-a-statement

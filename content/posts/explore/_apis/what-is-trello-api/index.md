@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2017-12-27T20:45:59Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-api-banner.webp
 slug: what-is-trello-api

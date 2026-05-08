@@ -2,7 +2,7 @@
 categories:
   - Reflect
 date: 2021-12-20T12:00:00Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-thoughts-banner.webp
 slug: sunk-costs-timeboxing-asking-for-help

@@ -2,7 +2,7 @@
 categories:
   - Build
 date: 2018-04-01T02:46:32Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-build-banner.webp
 slug: creating-your-own-secure-wiki-using-dokuwiki

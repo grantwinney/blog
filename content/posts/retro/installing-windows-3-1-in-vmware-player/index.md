@@ -2,7 +2,7 @@
 categories:
   - Retro
 date: 2013-10-24T22:14:08Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-build-banner.webp
 slug: installing-windows-3-1-in-vmware-player

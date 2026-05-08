@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2023-06-26T10:45:44Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: nunit-constraint-model

@@ -2,7 +2,7 @@
 categories:
   - Build
 date: 2016-05-28T21:19:25Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-iot-banner.webp
 slug: raspberry-pi-flash-led-for-new-email

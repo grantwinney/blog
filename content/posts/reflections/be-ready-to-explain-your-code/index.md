@@ -2,7 +2,7 @@
 categories:
   - Reflect
 date: 2021-02-03T13:28:48Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-thoughts-banner.webp
 slug: be-ready-to-explain-your-code

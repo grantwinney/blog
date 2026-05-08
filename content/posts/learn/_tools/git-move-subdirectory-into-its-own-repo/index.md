@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2021-07-30T03:38:23Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: how-to-move-a-subdirectory-of-one-repo-into-its-own-repository

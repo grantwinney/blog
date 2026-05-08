@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2019-02-06T11:54:00Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: cool-markdown-tricks-for-github

@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2023-04-01T03:54:20Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: csharp-overload-arithmetic-equality-comparison-operators

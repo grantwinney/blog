@@ -2,7 +2,7 @@
 categories:
   - Build
 date: 2018-02-25T21:33:09Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-build-banner.webp
 slug: automatically-adding-links-next-to-all-headers-on-the-page-a-chrome-extension

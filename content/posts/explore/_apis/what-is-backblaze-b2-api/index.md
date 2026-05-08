@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2017-12-17T19:37:29Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-api-banner.webp
 slug: what-is-backblaze-b2-api

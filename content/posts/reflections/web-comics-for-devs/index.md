@@ -2,7 +2,7 @@
 categories:
   - Reflect
 date: 2019-02-10T18:58:54Z
-dateModified:
+lastmod:
 draft: false
 featureImage: elsa-tonkinwise-wYQRdcjxL2E-unsplash.webp
 featureImageAttr: Photo by <a href="https://unsplash.com/@elsatkw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Elsa Tonkinwise</a> on <a href="https://unsplash.com/photos/peanuts-comic-strip-open-on-a-book-wYQRdcjxL2E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>

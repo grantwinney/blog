@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2023-06-15T22:12:31Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: csharp-deconstructors

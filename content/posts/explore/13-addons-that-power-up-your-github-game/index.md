@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2020-04-04T19:01:02Z
-dateModified:
+lastmod:
 draft: false
 featureImage: geeky-shots-hQ4BQ3wdHsQ-unsplash.webp
 featureImageAttr: Photo by <a href="https://unsplash.com/@geekyshots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Geeky Shots</a> on <a href="https://unsplash.com/photos/person-holding-super-mushroom-hQ4BQ3wdHsQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

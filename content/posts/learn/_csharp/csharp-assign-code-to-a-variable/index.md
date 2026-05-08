@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2019-11-13T17:45:00Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: csharp-assign-code-to-a-variable

@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2023-08-11T03:59:55Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: call-an-async-method-from-a-synchronous-one

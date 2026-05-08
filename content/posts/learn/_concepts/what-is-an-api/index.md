@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2017-07-23T19:41:19Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-api-banner.webp
 slug: what-is-an-api

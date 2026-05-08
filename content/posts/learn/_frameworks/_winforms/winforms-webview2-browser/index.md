@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2025-01-17T22:41:08Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: webview2-a-browser-for-winforms

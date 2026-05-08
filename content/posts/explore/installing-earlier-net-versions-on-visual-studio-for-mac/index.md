@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2018-08-20T16:20:12Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: installing-earlier-net-versions-on-visual-studio-for-mac

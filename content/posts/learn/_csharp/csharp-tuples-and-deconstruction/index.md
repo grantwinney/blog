@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2023-01-05T00:38:03Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: using-tuple-and-deconstruction-to-return-multiple-values

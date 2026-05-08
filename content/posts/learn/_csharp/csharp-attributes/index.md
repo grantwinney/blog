@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2019-04-04T15:57:19Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: csharp-attributes

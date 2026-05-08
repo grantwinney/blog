@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2019-03-14T11:03:00Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: keep-your-eunit-teardown-logic-as-simple

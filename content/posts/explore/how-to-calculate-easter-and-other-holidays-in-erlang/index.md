@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2018-07-01T00:32:52Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: how-to-calculate-easter-and-other-holidays-in-erlang

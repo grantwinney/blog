@@ -2,7 +2,7 @@
 categories:
   - Learn
 date: 2023-03-31T03:59:47Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-learn-banner.webp
 slug: whats-a-static-abstract-interface-method-in-c

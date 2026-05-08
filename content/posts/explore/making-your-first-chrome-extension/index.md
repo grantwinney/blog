@@ -2,7 +2,7 @@
 categories:
   - Explore
 date: 2017-08-16T10:27:33Z
-dateModified:
+lastmod:
 draft: false
 featureImage: https://grantwinney.com/banners/default-explore-banner.webp
 slug: making-your-first-chrome-extension
