@@ -5,11 +5,11 @@
 <script src="https://talk.hyvor.com/embed/comment-counts.js"></script>
 <script>
     hyvorTalkCommentCounts.load({
-    "mode": "number",
-    "website-id": 906
-    },
-    function(count, el) {
-    return count == 0 ? "" :
-        `&nbsp;·&nbsp;<i class="fa fa-comment"></i> ${count} ${count == 1 ? "Comment" : "Comments"}`
-    })
+        "website-id": 906,
+        "mode": "text",
+        "language": "en"
+        },
+        function(count, el) {
+            return count === "0 Comments" ? "" : `<span class="mid">&middot;</span>${count}`
+        })
 </script>

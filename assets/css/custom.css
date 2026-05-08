@@ -11,9 +11,9 @@ div.thumbnail_card {
     Posts
  ************/
 
-/* Align comment counter with date in basic.html */
-#comment_count {
-    padding-left: 5px;
+.mid {
+    color: rgba(var(--color-primary-500),1);
+    padding-inline: calc(var(--spacing) * 2);
 }
 
 div.max-w-prose {
