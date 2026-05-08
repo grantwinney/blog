@@ -22,6 +22,12 @@ identifier = "mHrXNYXipB"
 weight = 40
 
 [[main]]
+pre = "email"
+url = "contact"
+identifier = "jwjWIFj76z"
+weight = 45
+
+[[main]]
 pre = "rss"
 url = "index.xml"
 identifier = "Npb6xugTVb"
