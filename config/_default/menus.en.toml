@@ -23,7 +23,7 @@ weight = 40
 
 [[main]]
 pre = "email"
-pageRef = "contact"
+url = "https://grantwinney.com/contact"
 identifier = "jwjWIFj76z"
 weight = 45
 
