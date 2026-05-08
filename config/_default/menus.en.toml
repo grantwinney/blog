@@ -23,7 +23,7 @@ weight = 40
 
 [[main]]
 pre = "email"
-url = "contact"
+pageRef = "contact"
 identifier = "jwjWIFj76z"
 weight = 45
 
