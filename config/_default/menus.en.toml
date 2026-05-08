@@ -29,9 +29,3 @@ weight = 50
 
 [[footer]]
 none = "none"
-
-[[footer]]
-name = "Archives"
-pageRef = "archives"
-identifier = "lIQHpXXFtr"
-weight = 9_999
