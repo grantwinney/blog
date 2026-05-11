@@ -4,7 +4,7 @@ categories:
 date: 2018-07-18T04:41:38Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@grimstad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Håkon Grimstad</a> on <a href="https://unsplash.com/photos/blue-and-black-butterfly-on-brown-stick-hteXWSF9jA4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: how-do-i-convert-my-code-from-c-to-vb-net-or-vice-versa
 summary: If you work with the .NET Framework long enough, you may eventually find yourself tasked with converting one language to another, either by request or necessity. But conversion isn't always necessary - it's possible (and easy!) to have one solution with multiple languages.
 tags:
