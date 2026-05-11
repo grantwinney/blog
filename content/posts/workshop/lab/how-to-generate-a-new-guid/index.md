@@ -4,7 +4,7 @@ categories:
 date: 2023-07-27T22:12:21Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/oleksandrpidvalnyi-4638469/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6865967">Oleksandr Pidvalnyi</a>
 slug: how-can-i-generate-a-new-guid
 summary: GUIDs are heavily used in the world of development, so let's look at a few quick and easy ways to generate them whenever we need them.
 tags:
@@ -23,11 +23,11 @@ Let's look at some of the different tools at our disposal.
 
 There's a tiny utility for generating GUIDs that gets installed with every version of Visual Studio, going back to at least VS 2005 (the earliest I have installed). It's accessible in the VS menu but it's also a stand-alone exe, so you can just pin it or create a shortcut to it, and then assign a shortcut key to it if that's what you want.
 
-![](2023-07-26-15_11_00-Microsoft-Visual-Studio.png)
+![](visual-studio-create-guid-1.png)
 
-![](2023-07-26-15_12_31-Create-GUID.png)
+![](visual-studio-create-guid-2.png)
 
-![](2023-07-26-15_49_49-Microsoft---GUIDGEN-Application-Properties.png)
+![](visual-studio-create-guid-shortcut.png)
 
 ## VS Code
 
@@ -43,7 +43,7 @@ Somewhere on my long list of things to get more familiar with is [PowerShell](ht
 
 Running the command by itself presents a column header, which seems a little weird to me .. it's not like I'm going to think that value is something _else._ Using the value in a string (whether it's saved in a variable first or just called inline), it outputs only the GUID, as I'd expect it to.
 
-![](image-18.png)
+![](powershell-new-guid.png)
 
 ## APIs
 
@@ -67,6 +67,6 @@ The privacy-friendly search engine is well known (among those of us who use it) 
 
 Just do a search for "guid" and above the search results you get a new one. It's a little more convenient if you have DDG setup as your default search engine, and then you can just type "guid" in the address bar.
 
-![](image-10.png)
+![](duckduckgo-guid.png)
 
 If you have a better way to generate GUIDs on-the-fly, for your app, personal use, or whatever else, feel free to share below. I'd love to add a few more tools to my toolbox!

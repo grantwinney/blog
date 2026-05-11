@@ -52,7 +52,7 @@ A website generates a QR code to scan with an app like [andOTP](https://github.c
 
 ![](qr-code-setup.png)
 
-![](Backup-Codes-.png)
+![](totp-backup-codes.png)
 
 If someone guesses your password, or hacks your email and requests a password recovery, they still can't login unless they also have access to your 2FA app (which usually means having physical access to your phone as well).
 
