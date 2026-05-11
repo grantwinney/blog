@@ -4,7 +4,7 @@ categories:
 date: 2019-04-15T14:37:19Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@zyangdev?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zheng Yang</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-metal-object-on-a-blue-surface-Mh5y8htZ3SM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: how-to-use-an-app-config-file-with-a-net-standard-app-and-nunit-3
 summary: Porting .NET Framework code to .NET Standard has been a learning experience, with some challenges too. This time I had a .NET Standard library that expected an application config file, but loading one from an NUnit test suite proved to be more difficult than it sounded at first.
 tags:
