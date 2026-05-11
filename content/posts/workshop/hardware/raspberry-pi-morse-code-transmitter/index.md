@@ -10,6 +10,7 @@ summary: Making the Pi blink an LED a few times is thrilling, but what about bui
 tags:
   - coding
   - python
+  - raspberry-pi
 title: Building a Morse Code Transmitter on a Raspberry Pi
 aliases:
   - /building-a-morse-code-transmitter-on-a-raspberry-pi
