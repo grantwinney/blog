@@ -4,7 +4,8 @@ categories:
 date: 2016-08-29T22:34:44Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-iot-banner.webp
+featureImage:
+featureImageAttr: Photo by <a href="https://unsplash.com/@labrum777?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mike Labrum</a> on <a href="https://unsplash.com/photos/low-angle-photo-of-lightened-candles-fvl4b1gjpbk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: raspberry-pi-flickering-candle
 tags:
   - raspberry-pi
@@ -72,7 +73,7 @@ Grab some milk and cookies and join me on the floor for a lesson on the color wh
 
 To create the yellow/orange of a candle, we’ll start with lots of red. Then we’ll add enough green to pull the balance towards orange or yellow. We don’t need any blue at all. As the candle “burns down”, we can remove some of the red (to make it look dimmer) and a lot more of the green (to change it from yellow to orange and finally red).
 
-![rgb_color_wheel_400px](rgb_color_wheel_400px.jpg)
+![](rgb_color_wheel_400px.webp)
 
 ### Algorithms
 
@@ -114,7 +115,7 @@ Using an LED with multiple colors is a little more complicated than a single-col
 
 The RGB LED in the diagram below is oriented with the flat side on the left. If you take a close look at your own LED, there should be a flat side too. The pins, from left to right, are **red**, ground, **green**, **blue**.
 
-![Flickering Candle with RGB LED and PWM_bb](Flickering-Candle-with-RGB-LED-and-PWM_bb.png)
+![Flickering Candle with RGB LED and PWM_bb](fritz-diagram.png)
 
 The red LED is connected through a 100Ω resistor to pin 37. The green LED is connected through a 470Ω resistor to pin 33. Both pins are set to output, in order to light the LED. Since we don’t need the blue LED, there’s nothing connected to it.
 
