@@ -5,8 +5,7 @@ summary: I spent a weekend cleaning up a personal project, and learned more abou
 description:
 date: 2026-04-28T18:51:00
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
-featureImageAttr:
+featureImageAttr: Photo by [cottonbro studio](https://www.pexels.com/photo/brown-wooden-brush-on-brown-wooden-table-4108711/)
 categories:
   - Learn
 tags:
