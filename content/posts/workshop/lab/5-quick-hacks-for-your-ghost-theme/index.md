@@ -4,7 +4,7 @@ categories:
 date: 2017-04-01T18:47:23Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-build-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@tandemxvisuals?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tandem X Visuals</a> on <a href="https://unsplash.com/photos/woman-in-white-coat-standing-on-brown-grass-field-during-daytime-FZOOxR2auVI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: 5-quick-hacks-for-your-ghost-theme
 summary: These "hacks" for Ghost add some cool features to any blog, and should be usable with any theme.
 tags:
