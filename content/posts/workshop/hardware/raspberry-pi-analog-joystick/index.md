@@ -4,7 +4,7 @@ categories:
 date: 2016-09-24T13:30:49Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-iot-banner.webp
+featureImage:
 slug: raspberry-pi-analog-joystick
 tags:
   - raspberry-pi
