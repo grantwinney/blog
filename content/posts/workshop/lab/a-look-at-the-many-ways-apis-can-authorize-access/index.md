@@ -4,7 +4,7 @@ categories:
 date: 2018-06-19T13:45:34Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-api-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/colinfoo-5471721/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5380624">Colinfoo</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5380624">Pixabay</a>
 slug: a-look-at-the-many-ways-apis-can-authorize-access
 summary: After writing about so many APIs and having to figure out the auth process for each, I wanted to compare and contrast how some of these services approach authentication and authorization, and why they might've decided to do it the way they did.
 tags:
