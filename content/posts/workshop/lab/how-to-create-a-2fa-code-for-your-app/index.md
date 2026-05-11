@@ -4,7 +4,7 @@ categories:
 date: 2019-08-13T03:54:37Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-explore-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@sasun1990?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sasun Bughdaryan</a> on <a href="https://unsplash.com/photos/a-combination-lock-rests-on-a-computer-keyboard-WUJmdr8pNwk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: how-to-create-a-2fa-code-for-your-app
 summary: I use 2FA on every site that supports it, but I'd never given much thought to how a 2FA code is generated. Let's learn how!
 tags:
@@ -50,7 +50,7 @@ A time-based one-time password (TOTP) is just one way to do 2FA... but it's very
 
 A website generates a QR code to scan with an app like [andOTP](https://github.com/andOTP/andOTP), [Microsoft Authenticator](https://support.microsoft.com/en-us/account-billing/download-microsoft-authenticator-351498fc-850a-45da-b7b6-27e523b8702a), [1Password](https://support.1password.com/one-time-passwords/), etc. The QR code represents a URI with a few pieces of data, including a random string that's unique to you, which is encoded in base32 _(more on that later)_. From then on, the app generates a new random code every 30 seconds, which you use at login. And in case your [phone catches fire](https://time.com/4485396/samsung-note-7-battery-fire-why/), they provide some recovery codes to print and save.
 
-![](QR-code.png)
+![](qr-code-setup.png)
 
 ![](Backup-Codes-.png)
 
@@ -154,4 +154,4 @@ One of the recommendations, as I mentioned previously, is to allow ±1 step to h
 
 During the elapsed time between the two screenshots, you can see a new "Current Code" has been generated, and the previous "Current Code" is now the current "Previous Code". lol
 
-![](image-2.png)
+![](spaceballs.png)
