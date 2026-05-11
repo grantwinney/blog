@@ -4,7 +4,7 @@ categories:
 date: 2020-01-05T12:39:14Z
 lastmod:
 draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/alexas_fotos-686414/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3179133">Alexa</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3179133">Pixabay</a>
+featureImageAttr: Image by <a href="https://pixabay.com/users/alexas_fotos-686414/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3179133">Alexa</a>
 slug: deploy-requestbin-in-under-5-minutes
 summary: If you need to consume a webhook from another service, or verify the payload being sent from your own REST API endpoint, RequestBin can help. It intercepts and displays the contents of any call made to it. Here's how to deploy your own instance in just a few minutes.
 tags:

@@ -4,7 +4,7 @@ categories:
 date: 2019-02-06T11:54:00Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImage: Photo by [Tima Miroshnichenko](https://www.pexels.com/photo/close-up-shot-of-a-person-playing-cards-6254944/)
 slug: cool-markdown-tricks-for-github
 summary: Here's a few tricks for rendering markdown in GitHub that most people wouldn't know about. Oh, and they work for new Issues, Pull Requests, and in the Wiki too!
 tags:
