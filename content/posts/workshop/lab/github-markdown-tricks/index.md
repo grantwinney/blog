@@ -126,7 +126,7 @@ You can't color your text using markdown, but you _can_ use an image placeholder
 
 The above markdown is rendered like this:
 
-![](color.png)
+![](markdown-colors.png)
 
 ---
 
