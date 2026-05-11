@@ -4,7 +4,7 @@ categories:
 date: 2018-10-29T12:19:38Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-build-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@choys_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Conny Schneider</a> on <a href="https://unsplash.com/photos/a-blue-background-with-lines-and-dots-xuTJZ7uD7PI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: hosting-a-github-wiki-remotely-on-ubuntu
 summary: I've always been a fan of wikis, but GitHub's is so poorly designed it doesn't get much love. I once wrote about cloning a wiki locally and editing it using Gollum, but now I'm taking a look at hosting it externally on DigitalOcean, using Gollum and keeping it in sync with the repo hosted on GitHub.
 tags:
