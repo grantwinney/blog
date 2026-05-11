@@ -5,6 +5,7 @@ date: 2016-09-24T13:30:49Z
 lastmod:
 draft: false
 featureImage:
+featureImageAttr: Photo by [Piotr Baranowski](https://www.pexels.com/photo/vintage-video-game-joystick-22763607/)
 slug: raspberry-pi-analog-joystick
 tags:
   - raspberry-pi

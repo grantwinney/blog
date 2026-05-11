@@ -4,7 +4,8 @@ categories:
 date: 2016-05-28T21:19:25Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-iot-banner.webp
+featureImage:
+featureImageAttr: Photo by <a href="https://unsplash.com/@brett_jordan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brett Jordan</a> on <a href="https://unsplash.com/photos/blue-and-white-logo-guessing-game-LPZy4da9aRo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: raspberry-pi-flash-led-for-new-email
 summary: Let's learn how to flash an LED on the Raspberry Pi when someone sends us a new email.
 tags:
@@ -186,13 +187,13 @@ Once we’ve got a script that’ll connect to an email account, retrieve the da
 
 It’s a fairly simple one, limited to just an LED and a resistor, connecting board pin 35 to ground. I’ve also added a button (and second resistor) to the circuit, connected to board pin 12, that allows us to immediately check for new email without waiting for the interval. That way, we can change `CHECK_INTERVAL` to some less-frequent number like 60 (a minute), but then press the button if we don’t feel like waiting. That’s what the `add_event_detect` line is for in the above code.
 
-![New Mail Indicator](New-Mail-Indicator.png)
+![](fritz-diagram.png)
 
 Here are some photos of the actual circuit.
 
-![IMG_2022](IMG_2022.jpg)
+![](breadboard1.webp)
 
-![IMG_2023](IMG_2023.jpg)
+![](breadboard2.webp)
 
 Questions? Comments? Hit me up in the comments section below.
 
