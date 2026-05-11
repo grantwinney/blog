@@ -1,18 +1,18 @@
 ---
 categories:
   - Build
-date: "2016-04-03T09:03:25Z"
+date: 2016-04-03T09:03:25Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-iot-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@amsterdamcityarchives?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Amsterdam City Archives</a> on <a href="https://unsplash.com/photos/vintage-film-projector-with-perforations-on-film-strip-Tq21GZcLt60?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: raspberry-pi-morse-code-transmitter
 summary: Making the Pi blink an LED a few times is thrilling, but what about building something.. more? Let's build a morse code transmitter!
 tags:
-- coding
-- python
+  - coding
+  - python
 title: Building a Morse Code Transmitter on a Raspberry Pi
 aliases:
-- /building-a-morse-code-transmitter-on-a-raspberry-pi
+  - /building-a-morse-code-transmitter-on-a-raspberry-pi
 ---
 Last week, [I made the Raspberry Pi blink an LED a few times](https://grantwinney.com/raspberry-pi-making-an-led-blink/). As thrilling as that was, I almost immediately wanted something more. Building a morse code transmitter seemed like a nice little challenge.
 

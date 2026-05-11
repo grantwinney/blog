@@ -47,17 +47,15 @@ Now let’s decide what we need in a circuit, based on the rules we just laid ou
 
 Here’s the kind of layout I planned out.
 
-![Morse Code Button Click Fritzing Diagram](Morse-Code-Button-Click-Fritzing-Diagram.png)
+![Morse Code Button Click Fritzing Diagram](frtiz-diagram.png)
 
 In retrospect, that resistor connecting the cathode side of the yellow LED to ground won’t hurt, but it’s unnecessary, since there’s already a resistor connecting 3.3v to the button.
 
 And here are a few pictures of the actual board after I wired it up:
 
-![](morse-code-button-click-3.jpg)
+![](morse-code-button-click-3.webp)
 
-![](morse-code-button-click-2.jpg)
-
-![](morse-code-button-click-1.jpg)
+![](morse-code-button-click-2.webp)
 
 ## Writing the Script
 

@@ -4,7 +4,7 @@ categories:
 date: 2016-03-26T16:37:30Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-iot-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@msohebzaidi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Soheb Zaidi</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-traffic-light-with-a-blurry-background-uNAU5srG8xo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: raspberry-pi-making-an-led-blink
 summary: I unboxed my Raspberry Pi a few weeks ago and started learning Python. Let's code the "Hello World" of the Pi, and make an LED blink.
 tags:
@@ -38,7 +38,7 @@ Sounds like the villain in a Batman movie…
 
 The cobbler is the black T-shaped device above, sitting on the red padding material. They can come in different shapes and sizes, like [this smaller one for the original Pi](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/the-gpio-connector). The images below, from the CanaKit product page, show it in more detail. It plugs into the breadboard, bridging all 40 pins from your Pi to the breadboard.
 
-![](canakit-cable-1.png)
+![](canakit-cable-1.webp)
 
   
 Cobbler and ribbon, connected to the Pi  
