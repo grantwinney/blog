@@ -4,7 +4,7 @@ categories:
 date: 2016-07-28T08:09:41Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-iot-banner.webp
+featureImageAttr: Photo by [ELIAS HERBING](https://www.pexels.com/photo/red-yellow-blue-and-green-ball-4034455/)
 slug: raspberry-pi-simon-game-clone
 summary: Let's recreate the Simon game of the 1980s using a Raspberry Pi and Sonic Pi!
 tags:
