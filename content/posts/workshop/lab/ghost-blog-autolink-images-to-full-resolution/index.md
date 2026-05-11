@@ -4,7 +4,7 @@ categories:
 date: 2018-01-22T03:41:27Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-build-banner.webp
+featureImageAttr: Photo by [Viktor Hanacek](https://picjumbo.com/author/viktorhanacek/)
 slug: ghost-blog-autolink-images-to-full-resolution
 tags:
   - ghost-blog
