@@ -4,7 +4,7 @@ categories:
 date: 2016-06-21T13:02:00Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-iot-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@marcelalaskoski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marcela Laskoski</a> on <a href="https://unsplash.com/photos/selective-focus-silhouette-photography-of-man-playing-red-lighted-dj-terminal-YrtFlrLo2DQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: creating-music-with-sonic-pi-on-raspberry-pi
 summary: After watching Scott Fradkin live-code Sonic Pi for an hour at a conference, it inspired me to make a little music of my own.
 tags:
@@ -15,7 +15,6 @@ aliases:
   - /creating-music-with-sonic-pi-on-the-raspberry-pi
 ---
 Back in May, at the [Stir Trek conference](http://stirtrek.com/) in Columbus OH, I got to watch Scott Fradkin live-code using Sonic Pi for nearly an hour, not only explaining what it was capable of, but showing it too.
-
 He kept building it up as the session went on, and everyone in the room had a chance to see _and_ hear what he was creating. By the end of the session, he had a good beat going! If you want to see the script he used, it's on [GitHub](https://github.com/sfradkin/presentations/tree/master/sonic-pi-programming-fun-profit).
 
 If you've never heard of it before though, you're probably wondering.. what _is_ Sonic Pi?
