@@ -4,7 +4,7 @@ categories:
 date: 2019-12-30T17:49:59Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-explore-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@robinpierre?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Robin Pierre</a> on <a href="https://unsplash.com/photos/high-angle-photography-of-road-at-nighttime-dPgPoiUIiXk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: websites-requesting-access-to-motion-sensors
 summary: I was checking the status of a FedEx order when Brave warned me that "this site has been blocked from accessing your motion sensors". I'm struggling to understand why a website would need that access. Do I get a different experience if I drop my device? Tip my monitor over? Spin the mouse around?
 tags:
@@ -17,7 +17,7 @@ I was checking the status of a FedEx order in Brave, when I noticed a notificati
 
 I'm struggling to understand why a website would need access to a motion sensor on a _mobile_ device, let alone the fact I was using a _desktop_. Do I get a different experience if I knock my PC off the desk? Tip my monitor on its side? Grab the mouse cord and spin it around my head really fast?
 
-![](2019-12-27-23_12_42-FedEx-_-Tracking--Shipping--and-Locations---Brave.png)
+![](brave-motion-sensors-blocked.png)
 
 After a few cursory online searches, I'm coming up with little other than a few threads on [Reddit](https://www.reddit.com/r/brave_browser/comments/e9jclw/recently_seeing_a_sensors_blocked_notification_in/) and [Brave](https://community.brave.com/t/motion-sensors/98594) that indicate people are also seeing this on [Kayo Sports](http://kayosports.com.au) and [Twitch](https://www.twitch.tv/directory), as well as Experian and Tutanota.
 
