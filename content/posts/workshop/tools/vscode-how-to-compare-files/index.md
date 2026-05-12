@@ -4,7 +4,7 @@ categories:
 date: 2023-07-26T22:15:20Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@fiteka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Raquel Martínez</a> on <a href="https://unsplash.com/photos/shallow-focus-photography-of-red-apples-SQM0sS0htzw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: how-to-compare-files-using-vs-code
 summary: VS Code is a great editor with a lot of useful features, like being able to compare two random files for differences. Let's see how.
 tags:
@@ -17,15 +17,15 @@ I recently found myself in need of comparing two versions of an XML file for a m
 
 If the files are saved to disk in the same folder, open the folder, either with the "Open Folder" button on the left (if the "Explorer" pane is open), or with the "Open Folder" option in the "File" menu, or with the "ctrl-k, ctrl-o" shortcut (in Windows):
 
-![](image-12.png)
+![](vscode-open-folder.png)
 
 Then select both files, right click, and choose "Compare Selected":
 
-![](image-13.png)
+![](vscode-compare-selected.png)
 
 We get a nice little side-by-side that collapses into an inline comparison if the window's too small:
 
-![](xmlcompare1.gif)
+![](vscode-xml-compare.gif)
 
 ## Files that _aren't_ in the same folder.. or aren't saved at all
 
@@ -33,14 +33,14 @@ Whether your files are saved to disk or not, the first thing you'll need to do i
 
 Open the "Explorer" pane on the left, then press the "..." item in the top corner and select "Open Editors". Select both files, right click, and choose "Compare Selected" from the context menu:
 
-![](image-15.png)
+![](vscode-open-editors.png)
 
-![](image-16.png)
+![](vscode-compare-selected2.png)
 
-![](image-17.png)
+![](vscode-xml-compare2.png)
 
 This works just as well for files that aren't saved too:
 
-![](image-19.png)
+![](vscode-compare-selected3.png)
 
-![](image-18.png)
+![](vscode-compare-files.png)
