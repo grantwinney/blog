@@ -4,7 +4,7 @@ categories:
 date: 2021-05-29T21:40:16Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-explore-banner.webp
+featureImageAttr: Photo by [Daniil Komov](https://www.pexels.com/photo/close-up-of-programming-code-on-computer-screen-34803988/)
 slug: what-is-dotnet-try
 summary: Do you prefer reading or doing? How about both? DotNet Try pulls in C# code from your project and turns your docs into an interactive experience.
 tags:
