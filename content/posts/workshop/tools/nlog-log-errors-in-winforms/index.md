@@ -4,7 +4,7 @@ categories:
 date: 2021-10-09T15:53:15Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@earl_plannerzone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Earl Wilcox</a> on <a href="https://unsplash.com/photos/a-bunch-of-books-that-are-on-a-shelf-BBB43pd1U2A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: log-errors-in-winforms-with-nlog
 summary: Logs are a great tool for squashing bugs and tracing errors. Let's see how to add NLog to our project.
 tags:
@@ -30,9 +30,9 @@ Open your solution, go to "Manage NuGet Packages", and search for NLog. You shou
 
 What's the NLog.Extensions.Logging one that I glossed over? Something to do with new features in .NET Core and .NET Standard, and probably not something you're worried about in a WinForms app.
 
-![](image-17.png)
+![](vs-nlog-pkg.png)
 
-![](image-19.png)
+![](vs-nlog-config.png)
 
 ## Configure NLog
 
@@ -74,7 +74,7 @@ Those lines about archiving aren't strictly needed for this basic demo, but I th
 
 To use it, just create a new instance of the logger. Since we didn't give it a name in the config file, it doesn't matter what name you specify here - even an empty string works. Then write whatever you want, and check for the file in the "bin" folder where `${basedir}` points to.
 
-![](image-20.png)
+![](vs-use-nlog.png)
 
 That's it!
 
@@ -101,7 +101,7 @@ NLog can do a _lot_ more, way more than I could cover here. Before wrapping thin
 
 I wrote a little UI that logs a few different types of messages, and you can see the result here. If this is new to you, [get the code](https://github.com/grantwinney/SurvivingWinForms/tree/master/Debugging/Logging/NLogUtility), play around with it, change it, break it, revert the code.. lol.
 
-![](HLTikX4GEv.gif)
+![](winforms-nlog-example.gif)
 
 The [NLog wiki on GitHub](https://github.com/NLog/NLog/wiki) is really comprehensive too - hundreds of pages on there covering everything imaginable. And if you're interested in logging to several targets at once, [check this out](https://grantwinney.com/how-to-log-messages-to-multiple-targets-with-nlog/).
 
