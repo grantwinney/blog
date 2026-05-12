@@ -4,7 +4,7 @@ categories:
 date: 2019-05-04T14:35:40Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-build-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@hugo_cmt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hugo Clément</a> on <a href="https://unsplash.com/photos/a-row-of-black-computers-sitting-on-top-of-a-table-IvUCu_u5hjI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: running-windows-xp-in-virtualbox
 summary: Just got an MSDN account, which always comes with some old treasures (hey, beauty's in the eye of the beholder). Take a trip back with me, to the days of Windows XP, the beginning of the .NET Framework, and even further... ;)
 tags:
