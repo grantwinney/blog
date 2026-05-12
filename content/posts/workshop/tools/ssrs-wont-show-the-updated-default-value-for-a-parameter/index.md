@@ -4,7 +4,7 @@ categories:
 date: 2024-01-31T02:40:31Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/mariakray-23567841/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6765401">Mariakray</a>
 slug: ssrs-wont-show-the-updated-default-value-for-a-parameter
 summary: Changed the default value for a report parameter, but it's not actually updating in SSRS? That's by design. Let's find a way around it.
 tags:
