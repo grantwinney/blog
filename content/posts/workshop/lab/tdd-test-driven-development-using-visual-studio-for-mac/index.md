@@ -4,7 +4,7 @@ categories:
 date: 2017-07-06T12:15:51Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-explore-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@rubaitulazad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rubaitul Azad</a> on <a href="https://unsplash.com/photos/a-white-dice-with-a-purple-letter-on-it-xgcCGDGIcfY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: tdd-test-driven-development-using-visual-studio-for-mac
 summary: Are you a Mac user and .NET fan? Did you know there's a native VS app now? Writing tests is important, so I decided to try out NUnit in @vs4mac.
 tags:

@@ -4,7 +4,7 @@ categories:
 date: 2018-06-01T17:28:01Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-build-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=155281">OpenClipart-Vectors</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=155281">Pixabay</a>
 slug: using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post
 summary: If you've got a Twitter account, and a blog with a lot of content, sharing your posts can be a nice way to help someone out, and drive a little extra traffic to your site. Here's how you can automate the process on your Ghost blog - for free!
 tags:
@@ -49,7 +49,7 @@ Other stuff to think about:
 
 [Register a new app with Twitter](https://developer.twitter.com/en/apps)... yeah, it'll be an app with one user. You'll get a prompt to "please apply for a Twitter developer account", so pick "something else" as the reason, share how you'll use it, deselect everything but _"Will your app use Tweet ... functionality?",_ and paste something similar in again for that field.
 
-![](2020-11-18-21_03_20-Apply---Twitter-Developers---Brave.png)
+![](twitter-app-purpose.png)
 
 When you get the email for your new developer account (mine was nearly immediate), click the link and give your app a unique name. I just used [a random GUID](https://www.passwordrandom.com/query?command=guid) - the name doesn't really matter. I think it creates the app outside of a project. If it does, delete it, create a project, and then create the app inside that. Note the API key and secret for your app - you'll need those in a bit.
 
