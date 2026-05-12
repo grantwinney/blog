@@ -4,7 +4,7 @@ categories:
 date: 2017-08-16T10:27:33Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-explore-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=773216">Gerd Altmann</a>
 slug: making-your-first-chrome-extension
 summary: We all have our favorite web browser with our favorite extensions loaded, but have you ever considered writing your own? In the past few months I've created a couple extensions to suit my own needs. Here's what I've learned!
 tags:
