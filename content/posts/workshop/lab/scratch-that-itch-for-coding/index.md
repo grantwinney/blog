@@ -4,7 +4,7 @@ categories:
 date: 2021-01-19T04:28:00Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-explore-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@robowunderkind?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Robo Wunderkind</a> on <a href="https://unsplash.com/photos/person-holding-white-ipad-on-white-table-hLvQ4-QEBAE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: scratch-that-itch-for-coding
 summary: Learning a little about programming could benefit anyone. If you want a fun intro to coding and logical thinking, check out Scratch!
 tags:
@@ -37,7 +37,7 @@ Despite that, the design and implementation in Scratch teaches some concepts mos
 
 You can create your own "blocks" that accept parameters and contain other blocks, just like methods and parameters. You can run multiple blocks concurrently, so it introduces users to threading. And like [Sonic Pi](https://grantwinney.com/creating-music-with-sonic-pi-on-raspberry-pi/), it supports "live coding". Users can modify their code on the fly, without needing to wait for compilation.
 
-![](gUQ1e1R4TS.gif)
+![](scratch-ui.gif)
 
 As for the tech stack, it was originally written in Squeak (yeah, never heard of it either), probably due to it's cross-platform portability, then ported to Flash and AIR ([dead](https://www.adobe.com/products/flashplayer/end-of-life.html) and [dying](https://blog.adobe.com/en/2019/05/30/the-future-of-adobe-air.html#gs.qyix8o)), and finally to [HTML 5 and JavaScript](https://bocoup.com/blog/porting-scratch-from-flash-to-javascript-performance-interoperability-and-extensions)... which means a much greater compatibility with various systems. If you want to check out the code, [it's available on GitHub](https://github.com/LLK).
 
