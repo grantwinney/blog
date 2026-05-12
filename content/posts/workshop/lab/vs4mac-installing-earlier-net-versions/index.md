@@ -4,7 +4,7 @@ categories:
 date: 2018-08-20T16:20:12Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-explore-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@rubaitulazad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rubaitul Azad</a> on <a href="https://unsplash.com/photos/a-white-dice-with-a-purple-letter-on-it-xgcCGDGIcfY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: installing-earlier-net-versions-on-visual-studio-for-mac
 summary: Despite its marketing, Visual Studio for Mac is not the Visual Studio that millions love, ported to the Mac. Something that's absolutely trivial in standard VS, switching between .NET Frameworks, wasted several of my evenings. Maybe it'll help someone else.
 tags:
