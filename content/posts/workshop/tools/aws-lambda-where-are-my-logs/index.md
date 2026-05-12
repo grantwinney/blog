@@ -3,7 +3,7 @@ categories:
   - Learn
 date: 2019-11-07T18:04:08Z
 lastmod:
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@wesleyphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wesley Tingey</a> on <a href="https://unsplash.com/photos/stack-of-books-on-table-snNHKZ-mGfE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 slug: where-are-my-logs-in-aws-lambda
 summary: In a new AWS Lambda function, logging is initially disabled. Lets see how to enable it, for those times where additional detail is needed.
