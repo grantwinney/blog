@@ -5,7 +5,6 @@ summary:
 description:
 date: 2026-04-30T16:49:00
 draft: false
-featureImage: banner.webp
 featureImageAttr: Photo by <a href="https://unsplash.com/@egorkomarov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Egor Komarov</a> on <a href="https://unsplash.com/photos/abstract-glitch-art-with-digital-code-fragments-vpWRUwL39FQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 categories:
   - 
