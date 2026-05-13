@@ -4,7 +4,7 @@ categories:
 date: 2022-08-09T13:07:49Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-thoughts-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/ylanite-2218222/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3061507">Ylanite Koppens</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3061507">Pixabay</a>
 slug: enjoying-the-wins-accepting-the-losses
 summary: When our code isn't clicking, negativity can quickly overshadow all the positive. That's when we need to remember our victories!
 tags:
