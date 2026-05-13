@@ -4,7 +4,7 @@ categories:
 date: 2021-02-03T13:28:48Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-thoughts-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/startupstockphotos-690514/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=849812">StartupStockPhotos</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=849812">Pixabay</a>
 slug: be-ready-to-explain-your-code
 summary: Does the mere thought of explaining your code cause anxiety? Be confident! We should all understand what we're writing and why. It's an opportunity (for everyone) to learn!
 tags:
