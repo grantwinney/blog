@@ -4,7 +4,7 @@ categories:
 date: 2020-09-15T03:52:08Z
 lastmod:
 draft: false
-featureImageAttr: "Photo by Ivan S: https://www.pexels.com/photo/woman-writing-on-blackboard-7213507/"
+featureImageAttr: Photo by [Ivan S](https://www.pexels.com/photo/woman-writing-on-blackboard-7213507/)
 slug: how-do-you-know-when-youre-a-programmer
 summary: How do you know when you've finally arrived, and are officially a programmer? Is it a set of skills, a certain amount of time? Can you ever really arrive, when it's a race of one with no finish line?
 tags:
