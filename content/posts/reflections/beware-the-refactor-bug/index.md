@@ -4,7 +4,7 @@ categories:
 date: 2022-01-22T22:45:01Z
 lastmod:
 draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/congerdesign-509903/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=514998">congerdesign</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=514998">Pixabay</a>
+featureImageAttr: Photo by [Erik Karits](https://www.pexels.com/photo/macro-shot-of-a-black-and-red-striped-bug-8238389/)
 slug: beware-the-refactor-bug
 summary: Refactoring code is part of the dev life, and can even help keep the code healthy, but going too far can do more harm than good. Ever after a decade of writing code, I still have to remind myself from time to time!
 tags:
