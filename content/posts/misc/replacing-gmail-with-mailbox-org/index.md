@@ -3,7 +3,7 @@ categories:
 date: 2019-12-09T23:44:00Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-build-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/gabrielle_cc-4448339/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3070472">gabrielle_cc</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3070472">Pixabay</a>
 slug: replacing-gmail-with-mailbox-org
 summary: Google provides some amazing tools, but at what cost to privacy? One of the biggest blockers in eliminating them has been finding a reliable and affordable replacement for email (and ideally, calendar, documents, tasks, etc too). Well I may have finally found it, in Mailbox.org.
 tags:
