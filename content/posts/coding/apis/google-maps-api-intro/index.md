@@ -4,7 +4,6 @@ categories:
 date: 2017-12-23T04:10:01Z
 lastmod:
 draft: false
-featureImage: pexels-jmark-32307.webp
 featureImageAttr: Photo by [John-Mark Smith](https://www.pexels.com/photo/map-of-the-world-book-laid-open-on-brown-wooden-surface-32307/)
 slug: what-is-google-maps-api
 summary: The Google Maps API is a series of APIs for multiple platforms, each focused on a small set of tasks. At first it all seems a bit overwhelming, but each of them is pretty easy to use. Let's check a few out!
