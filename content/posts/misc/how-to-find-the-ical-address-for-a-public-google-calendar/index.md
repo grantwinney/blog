@@ -4,7 +4,7 @@ categories:
 date: 2020-02-28T03:42:32Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by [Leeloo The First](https://www.pexels.com/photo/brown-framed-eyeglasses-on-a-calendar-5386754/)
 slug: how-to-find-the-ical-address-for-a-public-google-calendar
 summary: Every Google calendar URL has an iCal file you can use... here's how to find it.
 tags:
