@@ -3,7 +3,7 @@ categories:
 date: 2017-03-26T02:43:14Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-build-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/alexas_fotos-686414/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1746354">Alexa</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1746354">Pixabay</a>
 slug: migrating-a-blog-from-wordpress-to-ghost
 tags:
   - ghost-blog
