@@ -4,8 +4,7 @@ categories:
 date: 2019-02-10T18:58:54Z
 lastmod:
 draft: false
-featureImage: elsa-tonkinwise-wYQRdcjxL2E-unsplash.webp
-featureImageAttr: Photo by <a href="https://unsplash.com/@elsatkw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Elsa Tonkinwise</a> on <a href="https://unsplash.com/photos/peanuts-comic-strip-open-on-a-book-wYQRdcjxL2E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+featureImageAttr: Photo by <a href="https://unsplash.com/@miikalaaksonen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Miika Laaksonen</a> on <a href="https://unsplash.com/photos/person-holding-opened-book-nUL9aPgGvgM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: web-comics-for-devs
 summary: Need a comic break? Here's some web comics I've stumbled upon over the years - the funny, sarcastic, informative, and just plain weird.
 tags:
@@ -33,11 +32,11 @@ Enjoy! _(I know I will...)_
 
 [XKCD](https://xkcd.com/) by Randall Munroe is one of those comics it's tough to avoid, assuming you wanted to try. Like Seinfeld, they're so numerous and relatable they're quoted everywhere. He also writes [What If?](https://what-if.xkcd.com/)... serious scientific answers to absurd questions.
 
-![](https://imgs.xkcd.com/comics/estimation.png)
+![|297x335](https://imgs.xkcd.com/comics/estimation.png)
 
 ![](https://imgs.xkcd.com/comics/compiling.png)
 
-![](image-32.png)
+![](xkcd-nerd-sniping.png)
 
 [Estimation](https://xkcd.com/612/) / [Compiling](https://xkcd.com/303/) / [Nerd Sniping](https://xkcd.com/356/) (XKCD)
 
@@ -49,11 +48,11 @@ Once in awhile an O RLY? _(parody of O'Reilly)_ book cover pops up somewhere onl
 
 Here's [a collection of book covers](https://boyter.org/2016/04/collection-orly-book-covers/), and you can even [generate your own](https://dev.to/rly).
 
-![](image-33.png)
+![](orly-resolving-broken-deps.png)
 
-![](image-34.png)
+![](orly-six-git-commands.png)
 
-![](image-35.png)
+![](orly-change-stuff-what-happens.png)
 
   
 
@@ -67,7 +66,7 @@ Here's [a collection of book covers](https://boyter.org/2016/04/collection-orly-
 
 [Programming for Non-Programmers - PHD Comics](http://phdcomics.com/comics.php?f=1690)
 
-![](http://phdcomics.com/comics/archive/phd020116_part1_600.jpg)
+![|600x1762](http://phdcomics.com/comics/archive/phd020116_part1_600.jpg)
 
 [Gravitational Waves Explained - PHD Comics](http://phdcomics.com/comics/archive.php?comicid=1853)
 
@@ -79,7 +78,7 @@ Here's [a collection of book covers](https://boyter.org/2016/04/collection-orly-
 
 [The Oatmeal](https://theoatmeal.com/) by Matthew Inman is hit or miss for me personally, but the degradation of social skills of a remote worker is pretty darned funny. 🧦
 
-![](https://s3.amazonaws.com/theoatmeal-img/comics/working_home/6.png)
+![|645x758](https://s3.amazonaws.com/theoatmeal-img/comics/working_home/6.png)
 
 [Why working at home is both awesome and horrible - The Oatmeal](http://theoatmeal.com/comics/working_home)
 
@@ -99,7 +98,7 @@ Here's [a collection of book covers](https://boyter.org/2016/04/collection-orly-
 
 [Julia Evans' zines](https://jvns.ca/zines/) are a really cool idea. What better way to learn about an array of topics than in graphic form? Go check them out and learn something new!
 
-![](cover_hua1af9e015eb4e2e9607c1b0edc7f43b3_63451_800x0_resize_q75_box.jpg)
+![](julia-evans-zines.jpg)
 
 [Linux Debugging Tools You'll Love - Julia Evans](https://jvns.ca/debugging-zine.pdf)
 
