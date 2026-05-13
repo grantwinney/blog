@@ -4,7 +4,7 @@ categories:
 date: 2020-09-15T03:52:08Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-thoughts-banner.webp
+featureImageAttr: "Photo by Ivan S: https://www.pexels.com/photo/woman-writing-on-blackboard-7213507/"
 slug: how-do-you-know-when-youre-a-programmer
 summary: How do you know when you've finally arrived, and are officially a programmer? Is it a set of skills, a certain amount of time? Can you ever really arrive, when it's a race of one with no finish line?
 tags:
@@ -12,7 +12,7 @@ title: How will I know when I'm a programmer?
 ---
 In the early 2000s, I worked for a small business where part of my job involved writing some software our clients used for uploading data to us. Still in college, I bought the academic version of .NET 2003 to get familiar with programming at home. I remember the excitement I felt opening that large honking package, with a thick book and 6 CDs, when it finally arrived in the mail. I was on my way to becoming a programmer!
 
-![](image-4.png)
+![](vs-2003-box.png)
 
 A few years later, on a help desk at a much larger company, I'd occasionally wander into other areas of the campus, as we called it, to check out where the developers worked. There were whiteboards all over, with drawings and flowcharts. I didn't know what Agile and kanban were at the time, but I figured if I could decipher what it all meant, well... _then_ I'd be able to become a programmer.
 
@@ -30,9 +30,8 @@ You'll learn new things, you'll learn from your mistakes, you'll learn from othe
 
 To be a programmer is to improve, better today than you were yesterday.
 
-![](image-5.png)
-
-https://xkcd.com/208
+![](perl-to-the-rescue.png)
+[xkcd: Regular Expressions](https://xkcd.com/208/)
 
 ## You'll grow
 
@@ -42,9 +41,8 @@ Devs will come and go, each with their own best practices and favorite tools, mo
 
 To be a programmer is to continually grow, better tomorrow than you are today.
 
-![](image-6.png)
-
-https://xkcd.com/378/
+![](real-programmers.png)
+[xkcd: Real Programmers](https://xkcd.com/378/)
 
 ## You're more
 
