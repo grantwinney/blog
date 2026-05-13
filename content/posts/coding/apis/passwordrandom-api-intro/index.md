@@ -4,7 +4,7 @@ categories:
 date: 2018-02-06T12:36:34Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-api-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/jakob5200-10067216/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5078866">jakob5200</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5078866">Pixabay</a>
 slug: passwordrandom-api
 summary: The PasswordRandom API provides random values - and not just passwords as the name would seem to suggest. It also generates GUIDs, random numbers, characters, etc.
 tags:
