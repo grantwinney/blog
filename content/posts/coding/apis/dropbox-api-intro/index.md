@@ -4,7 +4,7 @@ categories:
 date: 2017-12-20T04:59:25Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-api-banner.webp
+featureImageAttr: Photo by [Suzy Hazelwood](https://www.pexels.com/photo/close-up-photo-of-tied-blue-box-1178562/)
 slug: what-is-dropbox-api
 summary: Dropbox provides file storage that syncs between your devices, and their API gives you access to that. Let's check it out!
 tags:
