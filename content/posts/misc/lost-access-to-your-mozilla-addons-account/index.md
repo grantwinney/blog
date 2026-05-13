@@ -3,7 +3,7 @@ categories:
 date: 2019-03-13T03:29:29Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=773217">Gerd Altmann</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=773217">Pixabay</a>
 slug: lost-access-to-your-mozilla-addons-account
 summary: I recently realized that somehow, in the 6 months since I last logged into my Mozilla developer account, none of my short list of emails would let me back in. Here's how I regained access.
 tags:
@@ -27,6 +27,6 @@ There you have it. If you lose access, try emailing the amo-admins list. Or if y
 
 I'm glad I didn't dead-end in a public forum where some other user had the same problem 10 years ago and no one ever answered. 😅
 
-![](image-36.png)
+![](xkcd-wisdom-of-the-ancients.png)
 
 [xkcd: Wisdom of the Ancients](https://xkcd.com/979/)
