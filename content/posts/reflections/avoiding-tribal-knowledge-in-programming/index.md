@@ -4,7 +4,7 @@ categories:
 date: 2021-07-05T19:20:06Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-thoughts-banner.webp
+featureImageAttr: Photo by [Sigmund](https://unsplash.com/@sigmund?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
 slug: avoiding-tribal-knowledge-in-programming
 summary: When I was less skilled as a developer, it was enough to just stay afloat, learning what I needed for the current day or project. As my skill and confidence grows, I've come to appreciate the extra things in life - like a decent set of docs.
 tags:
@@ -17,9 +17,7 @@ No one person has all the answers, who _does_ have the answers can be unclear, a
 
 Eventually though, sometimes slowly and painfully, the answers come, the gaps are filled in, and the pieces fall into place. And then the next new hire comes aboard and it happens again.
 
-![](https://images.unsplash.com/photo-1611329857570-f02f340e7378?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDR8fHB1enpsZXxlbnwwfHx8fDE2MjU1MDY2Nzg&ixlib=rb-1.2.1&q=80&w=2000)
-
-Photo by [Sigmund](https://unsplash.com/@sigmund?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+---
 
 But is it really even our job to write documentation? Isn't a company just hiring us to write code? The electrician I hired to wire up our basement and garage didn't request a full electrical blueprint, nor did he leave me with a wiring diagram afterward. He investigated what was there, built on top of it, and handed me a bill.
 
@@ -27,9 +25,7 @@ Maybe if you're just doing contract work, you can get away with that, but if you
 
 When someone asks you about the work you did 6 months ago, how quickly can you answer them? Wouldn't it be nice to just send them a link to a document, instead of having to rack your brain and sift through code and notes? And hopefully, when they're done, they add their own notes in a version of the "leave the place cleaner than you found it" motto.
 
-![Colorful Stack](https://images.unsplash.com/photo-1541692641319-981cc79ee10a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDJ8fGJsb2Nrc3xlbnwwfHx8fDE2MjU1MDk2MTg&ixlib=rb-1.2.1&q=80&w=2000)
-
-Photo by [La-Rel Easter](https://unsplash.com/@lastnameeaster?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+---
 
 If you're thinking, "who has the time for that?!", then you're thinking about it wrong. Documentation, like writing tests, reviewing requirements, and everything else about coding that's not _strictly_ coding, is best done as you go along. If you wait until the very end of the project, it'll be much more difficult. Eh, let's be honest - it won't happen at all.
 
