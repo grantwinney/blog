@@ -4,7 +4,7 @@ categories:
 date: 2019-11-12T00:30:00Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@mikafromdenmark?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mika H. Laybourn</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-purple-keyboard-on-a-table-ZPDXoTrPAso?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: how-can-i-find-the-state-of-numlock-capslock-scrolllock-in-wpf
 summary: If you're writing a WPF application and need to find the state of the Num Lock, Caps Lock, or Scroll Lock keys, you're in luck - there's a method for that.
 tags:
