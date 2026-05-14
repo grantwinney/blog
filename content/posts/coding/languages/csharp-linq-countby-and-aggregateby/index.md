@@ -4,7 +4,7 @@ categories:
 date: 2024-12-03T19:23:03Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@shs521?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Susan Holt Simpson</a> on <a href="https://unsplash.com/photos/brown-wooden-toy-blocks-GQ327RPuxhI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: using-linq-countby-and-aggregateby-in-csharp
 summary: It's great to see Microsoft still giving us new things in LINQ. With C# 13 / .NET 9, we get CountBy and AggregateBy, so let's see how to use them.
 tags:
