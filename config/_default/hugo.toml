@@ -24,7 +24,7 @@ enableEmoji = true
   posts = "/:slug/"
 
 [pagination]
-  pagerSize = 100
+  pagerSize = 20
 
 [imaging]
   anchor = 'Center'
