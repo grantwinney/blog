@@ -5,8 +5,7 @@ summary: Extension members take extension methods to the next level. Let's see h
 description:
 date: 2025-12-02T12:58:00
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
-featureImageAttr:
+featureImageAttr: Photo by <a href="https://unsplash.com/@brett_jordan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brett Jordan</a> on <a href="https://unsplash.com/photos/brown-wooden-ladder-beside-brown-concrete-building-during-daytime-PFr50OBMowU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 categories:
   - Learn
 tags:
