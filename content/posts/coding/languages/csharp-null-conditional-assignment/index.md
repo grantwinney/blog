@@ -5,8 +5,7 @@ summary: The null conditional operator just got an upgrade.. we can do assignmen
 description:
 date: 2025-12-03T12:09:00
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
-featureImageAttr:
+featureImageAttr: Photo by [Markus Kranich](https://www.pexels.com/photo/colorful-abstract-light-swirl-on-black-background-37389791/)
 categories:
   - Learn
 tags:

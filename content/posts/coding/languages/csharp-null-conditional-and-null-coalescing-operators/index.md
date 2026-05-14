@@ -5,7 +5,7 @@ summary: Checking for nulls in C# is tedious, but C# 6 gave us the null-conditio
 lastmod:
 date: 2022-09-27T01:13:39Z
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by [Uroš Drljača](https://www.pexels.com/photo/abstract-light-painting-with-tunnel-effect-29431263/)
 categories:
   - Learn
 tags:
