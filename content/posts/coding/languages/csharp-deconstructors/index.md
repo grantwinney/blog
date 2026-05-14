@@ -4,7 +4,7 @@ categories:
 date: 2023-06-15T22:12:31Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@genefoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gene Gallin</a> on <a href="https://unsplash.com/photos/yellow-and-black-excavator-on-brown-brick-wall-during-daytime-E6KM98Q_d4o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: csharp-deconstructors
 summary: We can deconstruct tuples in C#, but does it work with other types? And assuming it does (spoiler - it does), is it worth bothering with?
 tags:
