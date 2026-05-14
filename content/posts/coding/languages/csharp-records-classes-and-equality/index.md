@@ -4,7 +4,7 @@ categories:
 date: 2024-12-10T12:35:55Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/niro9-40649225/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9180482">niro9</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9180482">Pixabay</a>
 slug: records-classes-and-equality-in-csharp
 summary: The record modifier can define properties and equality in our classes for us, saving time and keeping our code cleaner. Let's see how it works!
 tags:
@@ -121,7 +121,7 @@ public record Automobile(string Make, string Model, int Year)
 
 And if we try to overload the equality operators, we can't. It warns us that they're already defined.
 
-![](image-1.png)
+![](overload-equality-operator-warning.png)
 
 So now this works with just the original one-liner defining the record:
 
