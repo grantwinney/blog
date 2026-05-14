@@ -4,7 +4,7 @@ categories:
 date: 2022-06-06T11:30:43Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-explore-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/dendoktoor-14802912/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8146623">Freddy</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8146623">Pixabay</a>
 slug: what-is-manifest-v3-and-why-is-google-pestering-me
 tags:
   - browser-extension
