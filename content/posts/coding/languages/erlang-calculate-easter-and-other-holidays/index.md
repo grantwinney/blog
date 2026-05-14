@@ -4,7 +4,7 @@ categories:
 date: 2018-07-01T00:32:52Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-explore-banner.webp
+featureImageAttr: Photo by [Towfiqu barbhuiya](https://www.pexels.com/photo/drawing-pin-on-calendar-11333728/)
 slug: how-to-calculate-easter-and-other-holidays-in-erlang
 summary: I wrote a small library for calculating Easter and other holidays in Erlang. Here's how I did it and what I learned.
 tags:
