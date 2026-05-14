@@ -4,7 +4,7 @@ categories:
 date: 2020-02-13T23:50:42Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pawel Czerwinski</a> on <a href="https://unsplash.com/photos/a-black-background-with-a-pink-and-blue-swirl-ZkzobNDayXo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: how-to-make-a-dark-mode-with-css
 summary: Every time I learn some new piece of CSS I'm amazed at how flexible and powerful it is. Like how easy it is to tailor your site for your visitor's "dark mode" preference!
 tags:
