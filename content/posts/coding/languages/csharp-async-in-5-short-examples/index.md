@@ -4,7 +4,7 @@ categories:
 date: 2024-10-07T02:43:55Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/tumisu-148124/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7303815">Tumisu</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7303815">Pixabay</a>
 slug: async-in-5-short-examples
 summary: Async code isn't always intuitive, but practicing helps. Let's take a look at Async, CancellationToken, and IProgress, in a few short examples.
 tags:
