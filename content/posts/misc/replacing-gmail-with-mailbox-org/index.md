@@ -1,15 +1,16 @@
 ---
-categories:
-date: 2019-12-09T23:44:00Z
-lastmod:
-draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/gabrielle_cc-4448339/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3070472">gabrielle_cc</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3070472">Pixabay</a>
+title: Replacing Gmail (and its office suite) with Mailbox.org
 slug: replacing-gmail-with-mailbox-org
 summary: Google provides some amazing tools, but at what cost to privacy? One of the biggest blockers in eliminating them has been finding a reliable and affordable replacement for email (and ideally, calendar, documents, tasks, etc too). Well I may have finally found it, in Mailbox.org.
+featureImageAttr: Image by <a href="https://pixabay.com/users/gabrielle_cc-4448339/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3070472">gabrielle_cc</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3070472">Pixabay</a>
+draft: false
+date: 2019-12-09T23:44:00Z
+lastmod: 
+categories:
 tags:
   - google
   - privacy
-title: Replacing Gmail (and its office suite) with Mailbox.org
+aliases:
 ---
 I had a gmail account for 10 years, and was perfectly happy but for the nagging issue of privacy and [gobbling up](https://www.nytimes.com/2019/11/11/business/google-ascension-health-data.html) [our data](https://www.cnbc.com/2019/11/01/google-to-acquire-fitbit-valuing-the-smartwatch-maker-at-about-2point1-billion.html). Finding a reliable and affordable replacement with a full suite of office tools wasn't easy though.
 

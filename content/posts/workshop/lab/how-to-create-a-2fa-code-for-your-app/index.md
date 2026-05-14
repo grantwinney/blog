@@ -1,16 +1,15 @@
 ---
-categories:
-  - Explore
-date: 2019-08-13T03:54:37Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@sasun1990?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sasun Bughdaryan</a> on <a href="https://unsplash.com/photos/a-combination-lock-rests-on-a-computer-keyboard-WUJmdr8pNwk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Create a TOTP 2FA code for your app
 slug: how-to-create-a-2fa-code-for-your-app
 summary: I use 2FA on every site that supports it, but I'd never given much thought to how a 2FA code is generated. Let's learn how!
+featureImageAttr: Photo by <a href="https://unsplash.com/@sasun1990?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sasun Bughdaryan</a> on <a href="https://unsplash.com/photos/a-combination-lock-rests-on-a-computer-keyboard-WUJmdr8pNwk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2019-08-13T03:54:37Z
+lastmod: 
+categories:
 tags:
   - mfa
   - security
-title: Create a TOTP 2FA code for your app
 aliases:
   - /a-sample-csharp-app-for-generating-and-verifying-totp-2fa-codes
 ---

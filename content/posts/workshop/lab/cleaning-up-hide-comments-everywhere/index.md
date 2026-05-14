@@ -2,15 +2,15 @@
 title: A weekend spent cleaning house
 slug: cleaning-up-hide-comments-everywhere
 summary: I spent a weekend cleaning up a personal project, and learned more about JavaScript in the process.
-description:
-date: 2026-04-28T18:51:00
-draft: false
 featureImageAttr: Photo by [cottonbro studio](https://www.pexels.com/photo/brown-wooden-brush-on-brown-wooden-table-4108711/)
+draft: false
+date: 2026-04-28T18:51:00
+lastmod: 
 categories:
-  - Learn
 tags:
-  - javascript
   - browser-extension
+  - javascript
+aliases:
 ---
 It's probably a good sign that you've found the right career for yourself, when you spend time over the weekend on a small project that uses the same skills you spent all week using professionally! Or maybe it's unhealthy, who's to say? 🙄
 

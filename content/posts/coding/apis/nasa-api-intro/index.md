@@ -1,15 +1,14 @@
 ---
-categories:
-  - Explore
-date: 2017-12-24T19:06:14Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@nasa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">NASA</a> on <a href="https://unsplash.com/photos/space-shuttle-challenger-launches-from-kennedy-space-center-dCgbRAQmTQA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: View the Mars Rover, Landsat Images, and More with the NASA API
 slug: what-is-nasa-api
 summary: NASA's API makes their data (such as Mars rover photos) available to anyone who wants to consume it. It's an unprecedented wealth of knowledge, so let's dig in!
+featureImageAttr: Photo by <a href="https://unsplash.com/@nasa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">NASA</a> on <a href="https://unsplash.com/photos/space-shuttle-challenger-launches-from-kennedy-space-center-dCgbRAQmTQA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2017-12-24T19:06:14Z
+lastmod: 
+categories:
 tags:
   - astronomy
-title: View the Mars Rover, Landsat Images, and More with the NASA API
 aliases:
   - /day-8-nasa-api
 ---

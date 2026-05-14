@@ -1,17 +1,17 @@
 ---
-categories:
-  - Learn
-date: 2023-08-11T03:59:55Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@mbeero?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matt Bero</a> on <a href="https://unsplash.com/photos/grayscale-photo-of-person-in-hoodie-holding-round-ball-t6w2xpAI12g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: How to call an async method from a synchronous one, without deadlocking
 slug: call-an-async-method-from-a-synchronous-one
 summary: Writing async code whenever possible is great, but how do we do it when we're stuck with legacy (and very synchronous) code?
+featureImageAttr: Photo by <a href="https://unsplash.com/@mbeero?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matt Bero</a> on <a href="https://unsplash.com/photos/grayscale-photo-of-person-in-hoodie-holding-round-ball-t6w2xpAI12g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2023-08-11T03:59:55Z
+lastmod: 
+categories:
 tags:
   - async
-  - threading
   - surviving-winforms
-title: How to call an async method from a synchronous one, without deadlocking
+  - threading
+aliases:
 ---
 The async/await model introduced with [C# 5.0](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-50) (over a decade ago) is probably one of the best things added to the language, right up there with LINQ (introduced a few years earlier in [C# 3.0](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-30)). In the last few years, as I've read up more on async/await and understand it better, I try to implement it where I reasonably can. In fresh code, like a new API or a side project, that's relatively easy. Not so much in older code.
 

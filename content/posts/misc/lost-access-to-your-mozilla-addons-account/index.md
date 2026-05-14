@@ -1,15 +1,16 @@
 ---
-categories:
-date: 2019-03-13T03:29:29Z
-lastmod:
-draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=773217">Gerd Altmann</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=773217">Pixabay</a>
+title: Regaining access to a Mozilla Addons account
 slug: lost-access-to-your-mozilla-addons-account
 summary: I recently realized that somehow, in the 6 months since I last logged into my Mozilla developer account, none of my short list of emails would let me back in. Here's how I regained access.
+featureImageAttr: Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=773217">Gerd Altmann</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=773217">Pixabay</a>
+draft: false
+date: 2019-03-13T03:29:29Z
+lastmod: 
+categories:
 tags:
   - mozilla
   - security
-title: Regaining access to a Mozilla Addons account
+aliases:
 ---
 I recently realized that somehow, in the 6 months since I last logged into my Mozilla developer account, none of my short list of emails would let me back in.
 

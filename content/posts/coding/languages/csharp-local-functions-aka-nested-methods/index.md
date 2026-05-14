@@ -1,16 +1,16 @@
 ---
-categories:
-  - Learn
-date: 2022-10-08T18:40:48Z
-lastmod:
-draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/couleur-1195798/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1666132">Couleur</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1666132">Pixabay</a>
+title: Local functions in C# (aka nested methods)
 slug: local-functions-in-csharp-aka-nested-methods
 summary: C# 7 introduced a new tool for the belt - local functions. Let's take a look at what they are, how to use them, and why we might not want to.
+featureImageAttr: Image by <a href="https://pixabay.com/users/couleur-1195798/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1666132">Couleur</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1666132">Pixabay</a>
+draft: false
+date: 2022-10-08T18:40:48Z
+lastmod: 
+categories:
 tags:
-  - csharp-7
   - csharp
-title: Local functions in C# (aka nested methods)
+  - csharp-7
+aliases:
 ---
 I've recently been refreshing myself on some of the goodies we got with [C# 6](https://grantwinney.com/tags/c-6-0/), like [null safety operators](https://grantwinney.com/null-conditional-and-null-coalescing-operators/) and [string interpolation](https://grantwinney.com/using-string-interpolation-to-craft-readable-strings/). I find a use for them from time to time, but I'd bet there's a lot of people besides me who could use a refresher too... if they've heard of them at all.
 

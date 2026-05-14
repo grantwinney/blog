@@ -1,17 +1,17 @@
 ---
-categories:
-  - Learn
-date: 2021-12-30T01:53:29Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@aaronlee224?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aaron Lee</a> on <a href="https://unsplash.com/photos/white-and-beige-string-light-sndE-_S92R8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Using nameof to avoid magic strings in C#
 slug: using-nameof-to-avoid-magic-strings
 summary: There's a lot of ways to make our code work for us. Let's check out using the nameof operator to avoid magic strings.
+featureImageAttr: Photo by <a href="https://unsplash.com/@aaronlee224?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aaron Lee</a> on <a href="https://unsplash.com/photos/white-and-beige-string-light-sndE-_S92R8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2021-12-30T01:53:29Z
+lastmod: 
+categories:
 tags:
-  - surviving-winforms
-  - csharp-6
   - csharp
-title: Using nameof to avoid magic strings in C#
+  - csharp-6
+  - surviving-winforms
+aliases:
 ---
 Having magic strings in your code is definitely something to watch out for. What's a magic string? It's any string containing a value that might change, like an application setting, a timeout value, a method or class name, etc.
 

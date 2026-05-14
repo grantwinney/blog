@@ -1,15 +1,15 @@
 ---
-categories:
-  - Explore
-date: 2019-02-06T11:54:00Z
-lastmod:
-draft: false
-featureImage: Photo by [Tima Miroshnichenko](https://www.pexels.com/photo/close-up-shot-of-a-person-playing-cards-6254944/)
+title: 5 Markdown Tricks for GitHub
 slug: cool-markdown-tricks-for-github
 summary: Here's a few tricks for rendering markdown in GitHub that most people wouldn't know about. Oh, and they work for new Issues, Pull Requests, and in the Wiki too!
+featureImageAttr: 
+draft: false
+date: 2019-02-06T11:54:00Z
+lastmod: 
+categories:
 tags:
   - github
-title: 5 Markdown Tricks for GitHub
+aliases:
 ---
 If you frequently use GitHub, then you know any directory with a Readme markdown file in it automagically displays it, making it a convenient place to let visitors know helpful information about a project... about setting it up, how to contact the author, where to turn for help, etc.
 

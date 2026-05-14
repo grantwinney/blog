@@ -1,13 +1,10 @@
 ---
-date: "2019-07-08T19:16:16Z"
+title: Generate Links for Headers
+slug: generate-links-for-headers
+summary: Ever wanted to share a link, not just to a webpage, but to a particular section of a webpage? This extension automatically generates links for all headers on the page, to make it easier to share links that jump to a specific section.
+date: 2019-07-08T19:16:16Z
 description: ""
 draft: false
-image: https://images.unsplash.com/photo-1619468129361-605ebea04b44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDMzfHxwaW5zfGVufDB8fHx8MTYzNDA0NjgyOQ&ixlib=rb-1.2.1&q=80&w=2000
-slug: generate-links-for-headers
-summary: Ever wanted to share a link, not just to a webpage, but to a particular section
-  of a webpage? This extension automatically generates links for all headers on the
-  page, to make it easier to share links that jump to a specific section.
-title: Generate Links for Headers
 ---
 Ever wanted to share a link, not just to a webpage, but to a particular _section_ of a webpage? GLfH automatically generates links for all headers on the page, to make it easier to share links that jump to a specific section.
 

@@ -1,13 +1,15 @@
 ---
-categories:
-date: 2017-03-26T02:43:14Z
-lastmod:
-draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/alexas_fotos-686414/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1746354">Alexa</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1746354">Pixabay</a>
+title: Migrating a Blog from WordPress to Ghost
 slug: migrating-a-blog-from-wordpress-to-ghost
+summary: 
+featureImageAttr: Image by <a href="https://pixabay.com/users/alexas_fotos-686414/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1746354">Alexa</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1746354">Pixabay</a>
+draft: false
+date: 2017-03-26T02:43:14Z
+lastmod: 
+categories:
 tags:
   - ghost-blog
-title: Migrating a Blog from WordPress to Ghost
+aliases:
 ---
 About a week ago I decided to migrate my blog to the Ghost platform. I'd been thinking about it for awhile - even installed it once or twice to play around with it - but never fully committed. Truth is, I didn't really _want_ to switch. I knew that, however little, the process would certainly be more painful than doing nothing. So the pain of going through the switch had to be outweighed by the pain of _not_ switching. I guess that finally happened.
 

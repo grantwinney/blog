@@ -1,15 +1,14 @@
 ---
-categories:
-  - Explore
-date: 2017-12-29T15:33:04Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@markkoenig?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mark König</a> on <a href="https://unsplash.com/photos/red-and-white-flag-under-blue-sky-during-daytime-OsYYPaPgIjw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Access Current and Historical Weather Data with the OpenWeatherMap API
 slug: what-is-openweathermap-api
 summary: OpenWeatherMap provides free access to extensive weather data - current conditions, 5-day forecast, uv index, weather alerts, etc. Let's check out their API!
+featureImageAttr: Photo by <a href="https://unsplash.com/@markkoenig?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mark König</a> on <a href="https://unsplash.com/photos/red-and-white-flag-under-blue-sky-during-daytime-OsYYPaPgIjw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2017-12-29T15:33:04Z
+lastmod: 
+categories:
 tags:
   - climate
-title: Access Current and Historical Weather Data with the OpenWeatherMap API
 aliases:
   - /day-12-openweathermap-api
 ---

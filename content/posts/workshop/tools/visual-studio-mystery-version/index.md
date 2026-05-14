@@ -2,15 +2,15 @@
 title: Missing year on the VS 2026 shortcut hints at big change
 slug: visual-studio-mystery-version
 summary: On installing VS 2026, I noticed the year's missing on the shortcut. It's no bug, and the way VS is being developed, released and supported is changing in a big way.
-description:
-date: 2026-01-19T11:52:00
-lastmod:
-draft: false
 featureImageAttr: Photo by [Rubaitul Azad](https://unsplash.com/@rubaitulazad) on [Unsplash](https://unsplash.com/photos/a-white-dice-with-a-purple-letter-on-it-xgcCGDGIcfY)
+draft: false
+date: 2026-01-19T11:52:00
+lastmod: 
 categories:
 tags:
   - visual-studio
   - vs2026
+aliases:
 ---
 After installing Visual Studio 2026 recently, which rolled out this past November, the first thing I noticed when I went to start it was the shortcut. Specifically, the version.. or lack of one.
 

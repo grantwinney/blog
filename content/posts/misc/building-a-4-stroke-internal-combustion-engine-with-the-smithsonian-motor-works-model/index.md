@@ -1,14 +1,15 @@
 ---
-categories:
-date: 2016-02-06T11:55:48Z
-lastmod:
-draft: false
-featureImageAttr: Photo by [Sergei Starostin](https://www.pexels.com/photo/close-up-of-camshaft-in-engine-assembly-29226626/)
+title: Building the model 4-stroke combustion engine from Smithsonian
 slug: building-a-4-stroke-internal-combustion-engine-with-the-smithsonian-motor-works-model
 summary: Last summer, I found this “Smithsonian Motor-Works” set at a garage sale. Once built, it models a 4-stroke internal combustion engine. I’d shelved it for a rainy day and rediscovered it last weekend while cleaning the basement. Time for a little father/son bonding!
+featureImageAttr: Photo by [Sergei Starostin](https://www.pexels.com/photo/close-up-of-camshaft-in-engine-assembly-29226626/)
+draft: false
+date: 2016-02-06T11:55:48Z
+lastmod: 
+categories:
 tags:
   - stem
-title: Building the model 4-stroke combustion engine from Smithsonian
+aliases:
 ---
 Garage sales are great for finding random, interesting things to do with the kids, usually for dirt cheap. Last summer, I found this “Smithsonian Motor-Works” set for $5, which I figured was a steal. Once built, it’s supposed to model a 4-stroke internal combustion engine.
 

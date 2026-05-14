@@ -2,14 +2,13 @@
 title: New (old) Beginnings
 slug: new-old-beginnings
 summary: A month into a new job, and a return to a company I was at 20 years ago, there's a lot to be thankful for.
-description:
-categories:
-  - Reflect
-date: 2025-11-27T08:39:00
-draft: false
 featureImageAttr: Photo by <a href="https://unsplash.com/@meganwatson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Megan Watson</a> on <a href="https://unsplash.com/photos/brown-wooden-board-p2OQW69vXP4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2025-11-27T08:39:00
+lastmod: 
+categories:
 tags:
-  -
+aliases:
 ---
 It's Thanksgiving in the US, and one of the many things I'm thankful for this year is to be back where I started my career nearly 20 years ago, working at a company with a product people need, that rewards hard work, embraces new tech, and provides opportunities to learn and grow. The only reason I left was that I knew I wanted to be a programmer, but I was very green and there weren't any positions I qualified for. I tried for a year, then left, got the experience I needed, and returned. I can't say that was always my plan, but I'm glad it worked out the way it did.
 

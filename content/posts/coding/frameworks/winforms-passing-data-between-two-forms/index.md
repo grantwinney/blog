@@ -1,16 +1,16 @@
 ---
-categories:
-  - Learn
-date: 2014-12-12T07:57:57Z
-lastmod:
-draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2556925">Gerd Altmann</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2556925">Pixabay</a>
+title: Passing Data Between Forms in WinForms
 slug: winforms-passing-data-between-two-forms
 summary: Passing data between two Forms is very common in WinForms. There's a couple ways to do it, and one's better than the other. Let's take a look.
+featureImageAttr: Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2556925">Gerd Altmann</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2556925">Pixabay</a>
+draft: false
+date: 2014-12-12T07:57:57Z
+lastmod: 
+categories:
 tags:
-  - winforms
   - csharp
-title: Passing Data Between Forms in WinForms
+  - winforms
+aliases:
 ---
 In any but the smallest of WinForms apps, we'll have multiple Forms interacting with one another. And while every app we write will be different, there's really only a couple of ways for two Forms to pass data back and forth.
 

@@ -1,17 +1,17 @@
 ---
-categories:
-  - Explore
-date: 2019-05-22T02:23:58Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@sasun1990?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sasun Bughdaryan</a> on <a href="https://unsplash.com/photos/padlock-and-keys-resting-on-a-computer-keyboard-cX8kNl8X0Ys?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Protect your GitHub account to keep your code secure
 slug: keeping-your-github-code-secure
 summary: GitHub, GitLab, and Bitbucket just released a joint statement on a widespread ransomware attack that resulted  in compromised accounts. That got me thinking, what can a person do to protect his or her code on GitHub? As it turns out, a lot...
+featureImageAttr: Photo by <a href="https://unsplash.com/@sasun1990?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sasun Bughdaryan</a> on <a href="https://unsplash.com/photos/padlock-and-keys-resting-on-a-computer-keyboard-cX8kNl8X0Ys?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2019-05-22T02:23:58Z
+lastmod: 
+categories:
 tags:
   - github
-  - security
   - mfa
-title: Protect your GitHub account to keep your code secure
+  - security
+aliases:
 ---
 A few days ago, [GitHub](https://github.blog/2019-05-14-git-ransom-campaign-incident-report/) (along with [Bitbucket](https://bitbucket.org/blog/git-ransom-campaign-incident-report-atlassian-bitbucket-github-gitlab) and [GitLab](https://about.gitlab.com/2019/05/14/git-ransom-campaign-incident-report-atlassian-bitbucket-github-gitlab/)) reported that numerous users across their platforms had repos hacked, their code forcibly overwritten and held for ransom. You can read the whole thing in any of their blog posts (they're all the same), but here's a few takeaways:
 

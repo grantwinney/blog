@@ -1,15 +1,15 @@
 ---
-categories:
-  - Explore
-date: 2018-01-31T00:07:00Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@syinq?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Susan Q Yin</a> on <a href="https://unsplash.com/photos/books-on-brown-wooden-shelf-2JIvboGLeho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Manage your books with the Google Books API
 slug: what-is-the-google-books-api
 summary: The Google Books API provides access to Google Books, which lets you search for any book and, at a bare minimium, see meta data about it. Depending on copyright status, you might also be able to see sample pages or read the entire book. You can also buy books.
+featureImageAttr: Photo by <a href="https://unsplash.com/@syinq?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Susan Q Yin</a> on <a href="https://unsplash.com/photos/books-on-brown-wooden-shelf-2JIvboGLeho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2018-01-31T00:07:00Z
+lastmod: 
+categories:
 tags:
   - google
-title: Manage your books with the Google Books API
+aliases:
 ---
 There's a staggering amount of data out there - and a lot of it free - but accessing it isn't always easy. A good API hides the complexities of accessing that data, and can save you a ton of development time too. After writing about [15 APIs in 15 days](https://grantwinney.com/tags/15-apis-in-15-days/) over the holidays, I've decided to find a different [API](https://grantwinney.com/tags/api/) to write about every Monday _(okay, so I'm a day late this week...)_.
 

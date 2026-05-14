@@ -1,15 +1,15 @@
 ---
-categories:
-  - Explore
-date: 2018-06-24T20:02:24Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@_staticvoid?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lucas Santos</a> on <a href="https://unsplash.com/photos/gold-and-silver-round-chronograph-watch-r-UaSYUqF9o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Access yesterday's Internet with the Wayback Machine API
 slug: access-yesterdays-internet-with-the-wayback-machine-apis
 summary: The Wayback Machine, a product of the Internet Archive, is an ambitious tool that's been documenting websites for many years. It's useful when a page you need is removed by the original author. Let's take a look at their API and how we might make use of it.
+featureImageAttr: Photo by <a href="https://unsplash.com/@_staticvoid?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lucas Santos</a> on <a href="https://unsplash.com/photos/gold-and-silver-round-chronograph-watch-r-UaSYUqF9o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2018-06-24T20:02:24Z
+lastmod: 
+categories:
 tags:
   - archiving
-title: Access yesterday's Internet with the Wayback Machine API
+aliases:
 ---
 Today I'm checking out the Wayback Machine APIs from the Internet Archive. If you haven't heard of the IA before, it's a site that's aiming to... well.. archive everything. They're probably best known for helping people find [archived versions of deleted pages](https://web.archive.org/), but they have a lot of [old software and games](https://archive.org/details/software), [books](https://openlibrary.org/), and [much more](https://archive.org/projects/). Unfortunately, they only have a [demo version](https://archive.org/details/F19StealthFighter_1020) of F-19 stealth fighter, the first game I ever played... well, other than [Oregon Trail](https://archive.org/details/msdos_Oregon_Trail_The_1990). And [Number Munchers](https://archive.org/details/msdos_Number_Munchers_1990)!!
 

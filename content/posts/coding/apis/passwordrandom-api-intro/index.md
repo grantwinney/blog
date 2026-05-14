@@ -1,16 +1,16 @@
 ---
-categories:
-  - Explore
-date: 2018-02-06T12:36:34Z
-lastmod:
-draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/jakob5200-10067216/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5078866">jakob5200</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5078866">Pixabay</a>
+title: Generate random passwords, numbers and GUIDs with the PasswordRandom API
 slug: passwordrandom-api
 summary: The PasswordRandom API provides random values - and not just passwords as the name would seem to suggest. It also generates GUIDs, random numbers, characters, etc.
+featureImageAttr: Image by <a href="https://pixabay.com/users/jakob5200-10067216/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5078866">jakob5200</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5078866">Pixabay</a>
+draft: false
+date: 2018-02-06T12:36:34Z
+lastmod: 
+categories:
 tags:
   - guid
   - password
-title: Generate random passwords, numbers and GUIDs with the PasswordRandom API
+aliases:
 ---
 Some of the API's I've written about give you access to data - public data like [ISS sightings](https://grantwinney.com/what-is-iss-notify-api/) and personal data like your [Dropbox files](https://grantwinney.com/what-is-dropbox-api/) - but an API can return other things too. Here's an API that returns random numbers, GUIDs and other values, and provides an opportunity to customize what it returns.
 

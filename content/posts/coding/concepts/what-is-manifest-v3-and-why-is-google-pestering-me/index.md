@@ -1,17 +1,18 @@
 ---
-categories:
-  - Explore
-date: 2022-06-06T11:30:43Z
-lastmod:
-draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/dendoktoor-14802912/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8146623">Freddy</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8146623">Pixabay</a>
+title: What is Manifest V3 and why is Google pestering me about it?
 slug: what-is-manifest-v3-and-why-is-google-pestering-me
+summary: 
+featureImageAttr: Image by <a href="https://pixabay.com/users/dendoktoor-14802912/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8146623">Freddy</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8146623">Pixabay</a>
+draft: false
+date: 2022-06-06T11:30:43Z
+lastmod: 
+categories:
 tags:
   - browser-extension
+  - code-review
   - google
   - mv3
-  - code-review
-title: What is Manifest V3 and why is Google pestering me about it?
+aliases:
 ---
 If you've ever dug into the underpinnings of a browser extension, or maybe even [created one yourself](https://grantwinney.com/making-your-first-chrome-extension), you've seen the manifest.json file that acts as a sort of usage guide for an extension. Not the kind of usage guide most people would want to read, but it's vital for browsers.
 

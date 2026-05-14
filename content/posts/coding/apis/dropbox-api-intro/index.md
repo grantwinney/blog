@@ -1,14 +1,13 @@
 ---
-categories:
-  - Explore
-date: 2017-12-20T04:59:25Z
-lastmod:
-draft: false
-featureImageAttr: Photo by [Suzy Hazelwood](https://www.pexels.com/photo/close-up-photo-of-tied-blue-box-1178562/)
+title: Managing Files and Folders Using the Dropbox API
 slug: what-is-dropbox-api
 summary: Dropbox provides file storage that syncs between your devices, and their API gives you access to that. Let's check it out!
+featureImageAttr: Photo by [Suzy Hazelwood](https://www.pexels.com/photo/close-up-photo-of-tied-blue-box-1178562/)
+draft: false
+date: 2017-12-20T04:59:25Z
+lastmod: 
+categories:
 tags:
-title: Managing Files and Folders Using the Dropbox API
 aliases:
   - /day-4-dropbox-api
 ---

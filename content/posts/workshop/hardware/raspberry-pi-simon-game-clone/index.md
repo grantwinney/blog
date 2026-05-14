@@ -1,17 +1,16 @@
 ---
-categories:
-  - Build
-date: 2016-07-28T08:09:41Z
-lastmod:
-draft: false
-featureImageAttr: Photo by [ELIAS HERBING](https://www.pexels.com/photo/red-yellow-blue-and-green-ball-4034455/)
+title: A Simon Game Clone for the Raspberry Pi
 slug: raspberry-pi-simon-game-clone
 summary: Let's recreate the Simon game of the 1980s using a Raspberry Pi and Sonic Pi!
+featureImageAttr: Photo by [ELIAS HERBING](https://www.pexels.com/photo/red-yellow-blue-and-green-ball-4034455/)
+draft: false
+date: 2016-07-28T08:09:41Z
+lastmod: 
+categories:
 tags:
+  - python
   - raspberry-pi
   - sonic-pi
-  - python
-title: A Simon Game Clone for the Raspberry Pi
 aliases:
   - /creating-a-simon-game-clone-on-the-raspberry-pi
 ---

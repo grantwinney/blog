@@ -2,17 +2,17 @@
 title: Named arguments in C#
 slug: csharp-named-arguments
 summary: Named arguments in C#.. they've been around a long time, but does anyone use them? Let's check out another feature that helps tame wild code.
-lastmod:
-categories:
-  - Learn
-date: 2022-10-12T22:09:47Z
-draft: false
 featureImageAttr: Photo by <a href="https://unsplash.com/@an_doich?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anastasiya Doicheva</a> on <a href="https://unsplash.com/photos/a-red-cloth-with-a-white-tag-hanging-from-it-J_UuEa_aIeI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2022-10-12T22:09:47Z
+lastmod: 
+categories:
 tags:
-  - surviving-winforms
+  - csharp
   - csharp-4
   - csharp-7
-  - csharp
+  - surviving-winforms
+aliases:
 ---
 I've recently been spending time _(for my benefit and hopefully yours too!)_ reviewing some of the goodies C# has given us [over the years](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history). They mostly help make our code clearer and more concise, like [local functions](https://grantwinney.com/local-functions-in-csharp-aka-nested-methods/) and [string interpolation](https://grantwinney.com/using-string-interpolation-to-craft-readable-strings/), [safe null handling](https://grantwinney.com/null-conditional-and-null-coalescing-operators/) and the [nameof](https://grantwinney.com/using-nameof-to-avoid-magic-strings/) operator. Others have been complete game changers, like LINQ and [async/await](https://grantwinney.com/using-async-await-and-task-to-keep-the-winforms-ui-more-responsive/). If you find yourself supporting a legacy app, as many of us do, I've been writing a lot about [surviving WinForms](https://grantwinney.com/tags/surviving-winforms/) in general. 😉
 

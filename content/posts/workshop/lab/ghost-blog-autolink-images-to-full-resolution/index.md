@@ -1,14 +1,15 @@
 ---
-categories:
-  - Build
-date: 2018-01-22T03:41:27Z
-lastmod:
-draft: false
-featureImageAttr: Photo by [Viktor Hanacek](https://picjumbo.com/author/viktorhanacek/)
+title: How to autolink all images in Ghost to the full resolution
 slug: ghost-blog-autolink-images-to-full-resolution
+summary: 
+featureImageAttr: Photo by [Viktor Hanacek](https://picjumbo.com/author/viktorhanacek/)
+draft: false
+date: 2018-01-22T03:41:27Z
+lastmod: 
+categories:
 tags:
   - ghost-blog
-title: How to autolink all images in Ghost to the full resolution
+aliases:
 ---
 ## The Problem
 

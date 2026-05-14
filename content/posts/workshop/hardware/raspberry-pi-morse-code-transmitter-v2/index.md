@@ -1,16 +1,16 @@
 ---
-categories:
-  - Build
-date: 2016-05-19T06:10:28Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@sandratansh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sandra Tan</a> on <a href="https://unsplash.com/photos/brown-crank-tool-k9WWliLDUgc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Building a Morse Code Transmitter on a Raspberry Pi (version 2)
 slug: raspberry-pi-morse-code-transmitter-v2
 summary: I created a morse code generator before based on entering a string at the console. Now I extended it to generate a message by clicking a button.
+featureImageAttr: Photo by <a href="https://unsplash.com/@sandratansh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sandra Tan</a> on <a href="https://unsplash.com/photos/brown-crank-tool-k9WWliLDUgc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2016-05-19T06:10:28Z
+lastmod: 
+categories:
 tags:
-  - raspberry-pi
   - python
-title: Building a Morse Code Transmitter on a Raspberry Pi (version 2)
+  - raspberry-pi
+aliases:
 ---
 Last month, [I created a morse code generator](https://grantwinney.com/raspberry-pi-morse-code-transmitter/). It accepts user input from the console, translates it into morse code, and blinks an LED to “transmit” the message.
 

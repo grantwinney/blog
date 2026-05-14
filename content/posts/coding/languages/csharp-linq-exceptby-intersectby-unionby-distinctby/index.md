@@ -1,18 +1,18 @@
 ---
-categories:
-  - Learn
-date: 2024-12-08T22:59:12Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@marcsm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marc Sendra Martorell</a> on <a href="https://unsplash.com/photos/closeup-photo-of-two-bubbles-2BrdNFxW0UY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Set-based LINQ - ExceptBy, IntersectBy, UnionBy, DistinctBy
 slug: set-based-linq-exceptby-intersectby-unionby-distinctby
 summary: The .NET team has made some helpful additions to LINQ in recent years. Today let's check out the various set-based updates from C# 10 / .NET 6.
+featureImageAttr: Photo by <a href="https://unsplash.com/@marcsm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marc Sendra Martorell</a> on <a href="https://unsplash.com/photos/closeup-photo-of-two-bubbles-2BrdNFxW0UY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2024-12-08T22:59:12Z
+lastmod: 
+categories:
 tags:
-  - linq
+  - csharp
   - csharp-10
   - dotnet-6
-  - csharp
-title: Set-based LINQ - ExceptBy, IntersectBy, UnionBy, DistinctBy
+  - linq
+aliases:
 ---
 Microsoft recently released C# 13 with a couple new additions to LINQ, which [I wrote about last week](https://grantwinney.com/using-linq-countby-and-aggregateby-in-csharp/). That got me thinking about other recent additions to LINQ, like [MaxBy and MinBy](https://grantwinney.com/using-minby-and-maxby-in-csharp/). Continuing down the list, let's check out some set-based methods, including ExceptBy, IntersectBy, UnionBy, and DistinctBy.
 

@@ -1,17 +1,17 @@
 ---
-categories:
-  - Explore
-date: 2023-01-14T20:36:55Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@rubaitulazad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rubaitul Azad</a> on <a href="https://unsplash.com/photos/a-white-dice-with-a-purple-letter-on-it-xgcCGDGIcfY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Why doesn't VS 2022 show my WinForms UI at design time?
 slug: why-doesnt-vs2022-show-my-winforms-ui
 summary: Someone at work asked about whether we'd be able to use VS 2022 to work on our main WinForms app. It works just fine in VS 2019, so it should work in VS 2022, right? Except it doesn't. What we get is white screens of brokenness whenever we try to open a Form in the designer. But why?
+featureImageAttr: Photo by <a href="https://unsplash.com/@rubaitulazad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rubaitul Azad</a> on <a href="https://unsplash.com/photos/a-white-dice-with-a-purple-letter-on-it-xgcCGDGIcfY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2023-01-14T20:36:55Z
+lastmod: 
+categories:
 tags:
-  - winforms
-  - vs2022
   - visual-studio
-title: Why doesn't VS 2022 show my WinForms UI at design time?
+  - vs2022
+  - winforms
+aliases:
 ---
 After migrating some newer projects at work from .NET Core 3.1 (which reached [end of support](https://devblogs.microsoft.com/dotnet/net-core-3-1-will-reach-end-of-support-on-december-13-2022/) a month ago) to .NET 6, I sent a quick message to my teammates about installing VS 2022, which is required to work on .NET 6 apps. That naturally brought up the question about whether we'd be able to use VS 2022 to work on the WinForms app that is our main bread and butter. It works just fine in VS 2019, so it should work in VS 2022, right? Except it doesn't.
 

@@ -1,15 +1,15 @@
 ---
-categories:
-  - Learn
-date: 2017-09-26T16:09:00Z
-lastmod:
-draft: false
+title: Concatenate Binaries and Strings in Erlang
 slug: erlang-concatenate-binaries-and-strings
 summary: Concatenating strings and binaries in Erlang can get ugly quick. Let's make it easier.
+featureImageAttr: Photo by <a href="https://unsplash.com/@d_kah?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">d kah</a> on <a href="https://unsplash.com/photos/gray-rock-formation-on-green-grass-field-under-white-clouds-during-daytime-P6zZw3bvNBM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2017-09-26T16:09:00Z
+lastmod: 
+categories:
 tags:
   - erlang
-title: Concatenate Binaries and Strings in Erlang
-featureImageAttr: Photo by <a href="https://unsplash.com/@d_kah?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">d kah</a> on <a href="https://unsplash.com/photos/gray-rock-formation-on-green-grass-field-under-white-clouds-during-daytime-P6zZw3bvNBM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+aliases:
 ---
 ## The Problem
 

@@ -1,16 +1,16 @@
 ---
-categories:
-  - Explore
-date: 2018-08-20T16:20:12Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@rubaitulazad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rubaitul Azad</a> on <a href="https://unsplash.com/photos/a-white-dice-with-a-purple-letter-on-it-xgcCGDGIcfY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: "How to select an earlier .NET version on Visual Studio for Mac (tl;dr: you can't)"
 slug: installing-earlier-net-versions-on-visual-studio-for-mac
 summary: Despite its marketing, Visual Studio for Mac is not the Visual Studio that millions love, ported to the Mac. Something that's absolutely trivial in standard VS, switching between .NET Frameworks, wasted several of my evenings. Maybe it'll help someone else.
+featureImageAttr: Photo by <a href="https://unsplash.com/@rubaitulazad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rubaitul Azad</a> on <a href="https://unsplash.com/photos/a-white-dice-with-a-purple-letter-on-it-xgcCGDGIcfY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2018-08-20T16:20:12Z
+lastmod: 
+categories:
 tags:
   - visual-studio
   - vs4mac
-title: "How to select an earlier .NET version on Visual Studio for Mac (tl;dr: you can't)"
+aliases:
 ---
 I saw an implementation of some C# code this week that looked like it _should_ work, but wasn't producing the expected results for me using .NET 4.6. I thought I'd setup a local project in [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/) and then turn the clock back a bit to see if maybe how the code was implemented changed between .NET versions. That'd actually be pretty unusual, since .NET values backwards compatibility, but [it's not unheard of](https://blogs.msdn.microsoft.com/ericlippert/2009/11/16/closing-over-the-loop-variable-part-two/).
 

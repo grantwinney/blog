@@ -1,16 +1,16 @@
 ---
-categories:
-  - Learn
-date: 2024-12-31T23:41:30Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/photos/a-person-holding-a-pen-over-a-piece-of-paper-3uygRrmQq28?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: TaskDialog, a new message box for WinForms in .NET 5
 slug: using-taskdialog-in-winforms
 summary: In .NET 5, WinForms got a major upgrade to the MessageBox called TaskDialog. It's way more flexible and powerful - let's check it out!
+featureImageAttr: Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/photos/a-person-holding-a-pen-over-a-piece-of-paper-3uygRrmQq28?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2024-12-31T23:41:30Z
+lastmod: 
+categories:
 tags:
-  - winforms
   - dotnet-5
-title: TaskDialog, a new message box for WinForms in .NET 5
+  - winforms
+aliases:
 ---
 Since the earliest versions of .NET, the [MessageBox](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.messagebox) class has given WinForms developers a way to send notifications _(usually alerts and warnings)_ to users. It's always been a very limited control though. Besides the message itself, we can change the icon and choose from a few different button combinations, but that's about it.
 

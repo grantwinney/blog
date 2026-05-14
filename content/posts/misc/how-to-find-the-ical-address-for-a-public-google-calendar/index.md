@@ -1,15 +1,15 @@
 ---
-categories:
-  - Learn
-date: 2020-02-28T03:42:32Z
-lastmod:
-draft: false
-featureImageAttr: Photo by [Leeloo The First](https://www.pexels.com/photo/brown-framed-eyeglasses-on-a-calendar-5386754/)
+title: How to find the iCal address for a public Google calendar
 slug: how-to-find-the-ical-address-for-a-public-google-calendar
 summary: Every Google calendar URL has an iCal file you can use... here's how to find it.
+featureImageAttr: Photo by [Leeloo The First](https://www.pexels.com/photo/brown-framed-eyeglasses-on-a-calendar-5386754/)
+draft: false
+date: 2020-02-28T03:42:32Z
+lastmod: 
+categories:
 tags:
   - google
-title: How to find the iCal address for a public Google calendar
+aliases:
 ---
 If you already know why you're here, then visit the CodePen link below, plug-in the public URL (or the calendar ID) from the calendar settings page, and click the appropriate button to get the iCal link.
 

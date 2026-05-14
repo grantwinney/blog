@@ -1,15 +1,15 @@
 ---
-categories:
-  - Learn
-date: 2019-06-14T16:14:00Z
-lastmod:
-draft: false
-featureImageAttr: Photo by [Anni Roenkae](https://www.pexels.com/photo/a-multi-colored-abstract-art-piece-with-shapes-7120424/)
+title: What is minification vs obfuscation?
 slug: minification-vs-obfuscation
 summary: Mozilla announced they'll no longer accept extensions with obfuscated code. It's good news for users, maybe not so much for developers. Obfuscated code is (intentionally) nearly impossible to understand, and could easily be malicious. Let's unpack and break down a few concepts.
+featureImageAttr: Photo by [Anni Roenkae](https://www.pexels.com/photo/a-multi-colored-abstract-art-piece-with-shapes-7120424/)
+draft: false
+date: 2019-06-14T16:14:00Z
+lastmod: 
+categories:
 tags:
   - security
-title: What is minification vs obfuscation?
+aliases:
 ---
 Mozilla recently announced that they'll [no longer accept extensions with obfuscated code](https://blog.mozilla.org/addons/2019/05/02/add-on-policy-and-process-updates/). This is good news for anyone who uses browser extensions in Firefox, since such code is _(intentionally)_ nearly impossible to understand, and could easily (but not necessarily, as I'll explain later) be malicious.
 

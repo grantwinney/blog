@@ -1,15 +1,15 @@
 ---
-categories:
-  - Learn
-date: 2018-06-06T18:18:06Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@marceloleal80?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marcelo Leal</a> on <a href="https://unsplash.com/photos/black-and-white-analog-egg-timer-vZawEq0Eexo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Getting rid of unused function errors when using timers in Erlang
 slug: getting-rid-of-unused-function-errors-when-using-timers-in-erlang
 summary: Have you ever tried to execute a function at some future time in Erlang? You can, with a timer, but the compiler may complain that the function you're calling via the timer is unused. Why is that and what can you do?
+featureImageAttr: Photo by <a href="https://unsplash.com/@marceloleal80?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marcelo Leal</a> on <a href="https://unsplash.com/photos/black-and-white-analog-egg-timer-vZawEq0Eexo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2018-06-06T18:18:06Z
+lastmod: 
+categories:
 tags:
   - erlang
-title: Getting rid of unused function errors when using timers in Erlang
+aliases:
 ---
 ## The Problem
 

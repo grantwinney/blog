@@ -1,16 +1,15 @@
 ---
-categories:
-  - Explore
-date: 2016-06-21T13:02:00Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@marcelalaskoski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marcela Laskoski</a> on <a href="https://unsplash.com/photos/selective-focus-silhouette-photography-of-man-playing-red-lighted-dj-terminal-YrtFlrLo2DQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Creating Music with Sonic Pi on a Raspberry Pi
 slug: creating-music-with-sonic-pi-on-raspberry-pi
 summary: After watching Scott Fradkin live-code Sonic Pi for an hour at a conference, it inspired me to make a little music of my own.
+featureImageAttr: Photo by <a href="https://unsplash.com/@marcelalaskoski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marcela Laskoski</a> on <a href="https://unsplash.com/photos/selective-focus-silhouette-photography-of-man-playing-red-lighted-dj-terminal-YrtFlrLo2DQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2016-06-21T13:02:00Z
+lastmod: 
+categories:
 tags:
   - raspberry-pi
   - sonic-pi
-title: Creating Music with Sonic Pi on a Raspberry Pi
 aliases:
   - /creating-music-with-sonic-pi-on-the-raspberry-pi
 ---

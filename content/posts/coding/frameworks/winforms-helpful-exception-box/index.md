@@ -1,16 +1,16 @@
 ---
-categories:
-  - Build
-date: 2021-12-07T15:37:03Z
-lastmod:
-draft: false
-featureImageAttr: Photo by [Fernando Arcos](https://www.pexels.com/photo/white-caution-cone-on-keyboard-211151/)
+title: A more helpful exception box for WinForms apps
 slug: the-helpful-exception-box
 summary: If you're in a legacy codebase with a centralized "message box" form, why not add some features that make it work for you? 😏
+featureImageAttr: Photo by [Fernando Arcos](https://www.pexels.com/photo/white-caution-cone-on-keyboard-211151/)
+draft: false
+date: 2021-12-07T15:37:03Z
+lastmod: 
+categories:
 tags:
-  - surviving-winforms
   - debugging
-title: A more helpful exception box for WinForms apps
+  - surviving-winforms
+aliases:
 ---
 I saw a suggestion like a week or two ago that had me cracking up, and I can't for the life of me remember _where_ I saw it. Maybe LinkedIn, maybe Twitter.. I didn't mark it, so it's buried deep in my timeline never to be seen again. But the gist of it was someone asking whether just slapping a button on an error prompt that led straight to stack overflow was a legit way to help the end user.
 

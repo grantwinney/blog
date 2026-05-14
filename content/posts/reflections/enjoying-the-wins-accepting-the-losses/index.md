@@ -1,14 +1,14 @@
 ---
-categories:
-  - Reflect
-date: 2022-08-09T13:07:49Z
-lastmod:
-draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/ylanite-2218222/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3061507">Ylanite Koppens</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3061507">Pixabay</a>
+title: Enjoying the wins, accepting the losses
 slug: enjoying-the-wins-accepting-the-losses
 summary: When our code isn't clicking, negativity can quickly overshadow all the positive. That's when we need to remember our victories!
+featureImageAttr: Image by <a href="https://pixabay.com/users/ylanite-2218222/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3061507">Ylanite Koppens</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3061507">Pixabay</a>
+draft: false
+date: 2022-08-09T13:07:49Z
+lastmod: 
+categories:
 tags:
-title: Enjoying the wins, accepting the losses
+aliases:
 ---
 Sometimes, when I try to code something, pouring extra hours of effort into it, I can just _feel_ how close all the pieces are to falling into place. Then I realize I'm going in circles, spending more time than I meant to, and a solution, whatever it might be, has escaped me at the moment. [Git checkout](https://www.delftstack.com/howto/git/git-remove-uncommitted-changes/#use-git-checkout-to-remove-uncommitted-changes-in-git), try again later.
 

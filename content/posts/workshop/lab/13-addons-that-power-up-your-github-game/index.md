@@ -1,16 +1,15 @@
 ---
-categories:
-  - Explore
-date: 2020-04-04T19:01:02Z
-lastmod:
-draft: false
-featureImage:
-featureImageAttr: Photo by <a href="https://unsplash.com/@geekyshots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Geeky Shots</a> on <a href="https://unsplash.com/photos/person-holding-super-mushroom-hQ4BQ3wdHsQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: 13 addons to power up your GitHub game
 slug: 13-addons-that-power-up-your-github-game
 summary: GitHub is an amazing set of tools around Git, but it's lacking in certain areas. Where it fails to impress, browser addons often pick up the slack. Here's 13 addons (plus a few honorable mentions) that will take your GitHub experience to the next level!
+featureImageAttr: Photo by <a href="https://unsplash.com/@geekyshots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Geeky Shots</a> on <a href="https://unsplash.com/photos/person-holding-super-mushroom-hQ4BQ3wdHsQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2020-04-04T19:01:02Z
+lastmod: 
+categories:
 tags:
   - github
-title: 13 addons to power up your GitHub game
+aliases:
 ---
 Git is the defacto vcs for most developers today. It happens to lend itself well to all kinds of not-strictly-code-related things too, like [collaborative list making](https://grantwinney.com/github-a-tool-for-collaborative-list-making/) and [other surprising purposes](https://reclaimthenet.org/china-github-coronavirus-censorship/).
 

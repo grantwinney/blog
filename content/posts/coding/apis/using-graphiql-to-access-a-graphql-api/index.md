@@ -1,15 +1,15 @@
 ---
-categories:
-  - Explore
-date: 2019-09-26T03:38:30Z
-lastmod:
-draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/placidplace-25572496/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7776034">Iris,Helen,silvy</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7776034">Pixabay</a>
+title: Using the GraphiQL IDE to access a GraphQL API
 slug: using-graphiql-to-access-a-graphql-api
 summary: GraphQL is bundled with GraphiQL, which lets us run queries right in the browser! Let's see how GitHub uses it and try kicking the tires.
+featureImageAttr: Image by <a href="https://pixabay.com/users/placidplace-25572496/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7776034">Iris,Helen,silvy</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7776034">Pixabay</a>
+draft: false
+date: 2019-09-26T03:38:30Z
+lastmod: 
+categories:
 tags:
   - graphql
-title: Using the GraphiQL IDE to access a GraphQL API
+aliases:
 ---
 In [my last post](https://grantwinney.com/what-is-graphql-and-how-does-it-differ-from-rest/), I just wanted to understand what GraphQL is versus REST. I learned that it's about flexibility, and getting exactly what you need in the format you need it. Now I want to look at an actual implementation.
 

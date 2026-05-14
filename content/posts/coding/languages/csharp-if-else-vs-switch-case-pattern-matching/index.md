@@ -1,15 +1,15 @@
 ---
-categories:
-  - Learn
-date: 2023-11-03T16:35:50Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@koushikc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Koushik Chowdavarapu</a> on <a href="https://unsplash.com/photos/brown-white-and-yellow-floral-pattern-aWBPk_GBaCk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: If/else vs switch/case pattern matching
 slug: if-else-vs-switch-case-pattern-matching
 summary: "A look at if/else, switch/case, pattern matching, other options ... and which is best. (spoiler: none ;) )"
+featureImageAttr: Photo by <a href="https://unsplash.com/@koushikc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Koushik Chowdavarapu</a> on <a href="https://unsplash.com/photos/brown-white-and-yellow-floral-pattern-aWBPk_GBaCk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2023-11-03T16:35:50Z
+lastmod: 
+categories:
 tags:
   - csharp
-title: If/else vs switch/case pattern matching
+aliases:
 ---
 I stumbled on a pull request recently, in which the suggestion was made to replace an `if/else` block with a `switch/case`. The reviewer seemed to feel it was "better". In reality, these are just two approaches to organizing conditional logic, and using one or the other mostly comes down to a matter of taste.. especially with changes to C# in the last few years, but more on that below.
 

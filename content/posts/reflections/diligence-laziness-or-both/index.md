@@ -1,14 +1,14 @@
 ---
-categories:
-  - Reflect
-date: 2023-12-04T22:22:49Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@ludemeula?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ludemeula Fernandes</a> on <a href="https://unsplash.com/photos/orange-persian-cat-sleeping-9UUoGaaHtNE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+title: Diligence, laziness.. or both?
 slug: diligence-laziness-or-both
 summary: Funny how a little due diligence mixes so well with a healthy interest in avoiding unnecessary future work.
+featureImageAttr: Photo by <a href="https://unsplash.com/@ludemeula?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ludemeula Fernandes</a> on <a href="https://unsplash.com/photos/orange-persian-cat-sleeping-9UUoGaaHtNE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+draft: false
+date: 2023-12-04T22:22:49Z
+lastmod: 
+categories:
 tags:
-title: Diligence, laziness.. or both?
+aliases:
 ---
 Over the last few years, I've noticed a change in how I approach my work as a developer. When the team gets together to review upcoming work, I'm more willing to ask questions when something doesn't sound right, instead of just convincing myself that everyone else "gets it". When someone [opens a pull request](https://grantwinney.com/what-is-a-code-review/), I spend more time reviewing the original requirements and looking at every change. When I learn something new about a project I'm involved with, like where the code will be deployed, or why certain requirements exist, [I document it](https://grantwinney.com/avoiding-tribal-knowledge-in-programming/).
 

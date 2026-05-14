@@ -1,17 +1,17 @@
 ---
-categories:
-  - Learn
-date: 2024-12-14T22:32:43Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@sergeykotenev?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sergey Kotenev</a> on <a href="https://unsplash.com/photos/a-slab-of-raw-meat-on-a-cutting-board-with-vegetables-and-a-bowl-of-sauce-ZKv9WGWMOLk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Using Raw String Literals in C# 11 / .NET 7
 slug: using-raw-string-literals-in-csharp
 summary: C# 11 added raw string literals, not a life-altering new feature, but they could be useful in the right circumstances. Let's see how to use them.
+featureImageAttr: Photo by <a href="https://unsplash.com/@sergeykotenev?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sergey Kotenev</a> on <a href="https://unsplash.com/photos/a-slab-of-raw-meat-on-a-cutting-board-with-vegetables-and-a-bowl-of-sauce-ZKv9WGWMOLk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2024-12-14T22:32:43Z
+lastmod: 
+categories:
 tags:
-  - csharp-11
   - csharp
+  - csharp-11
   - dotnet-7
-title: Using Raw String Literals in C# 11 / .NET 7
+aliases:
 ---
 Some of the many additions to C# and the .NET Framework are huge (like LINQ or async), while others are much smaller. I'd definitely place raw string literals in the latter group, but then maybe I'm missing something. They're still worth a look though.
 

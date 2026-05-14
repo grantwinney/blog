@@ -1,14 +1,14 @@
 ---
-categories:
-  - Reflect
-date: 2020-10-11T03:00:46Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@cherstve_pechivo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Liana S</a> on <a href="https://unsplash.com/photos/abstract-swirls-of-smoke-against-a-dark-background-2I-k5FuJo0s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+title: The transient nature of code
 slug: the-transient-nature-of-code
 summary: I just deleted my coworkers code. 😱 It was good code that wasn't needed anymore, and he understood why. The nature of coding is that it's a progression, and any individual code is transient by nature. Today's code is subject to tomorrow's refactoring.
+featureImageAttr: Photo by <a href="https://unsplash.com/@cherstve_pechivo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Liana S</a> on <a href="https://unsplash.com/photos/abstract-swirls-of-smoke-against-a-dark-background-2I-k5FuJo0s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+draft: false
+date: 2020-10-11T03:00:46Z
+lastmod: 
+categories:
 tags:
-title: The transient nature of code
+aliases:
 ---
 I just did one of the most painful things a dev can do to another dev. I deleted his code! I mean, it wasn't out of spite or anything, lol. It was good, solid code, covered by dozens of tests, which made it _that_ much harder to pull the trigger. But it wasn't needed anymore.
 

@@ -1,15 +1,15 @@
 ---
-categories:
-  - Reflect
-date: 2021-02-03T13:28:48Z
-lastmod:
-draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/startupstockphotos-690514/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=849812">StartupStockPhotos</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=849812">Pixabay</a>
+title: Be ready to explain your code
 slug: be-ready-to-explain-your-code
 summary: Does the mere thought of explaining your code cause anxiety? Be confident! We should all understand what we're writing and why. It's an opportunity (for everyone) to learn!
+featureImageAttr: Image by <a href="https://pixabay.com/users/startupstockphotos-690514/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=849812">StartupStockPhotos</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=849812">Pixabay</a>
+draft: false
+date: 2021-02-03T13:28:48Z
+lastmod: 
+categories:
 tags:
   - code-review
-title: Be ready to explain your code
+aliases:
 ---
 When we're programming, there's all kinds of ways to code defensively. We surround blocks of code with "try / catch" structures that prevent our apps from crashing. We log errors, to help track down problems later on. We include tests to help make sure next week's changes don't break last weeks' code. We document our work so that other devs, business, end-users etc will find it when they (or you and me in 6 months!) need to figure out why something works the way it does.
 

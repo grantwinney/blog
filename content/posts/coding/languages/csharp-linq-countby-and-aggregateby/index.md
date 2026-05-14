@@ -1,18 +1,18 @@
 ---
-categories:
-  - Learn
-date: 2024-12-03T19:23:03Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@shs521?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Susan Holt Simpson</a> on <a href="https://unsplash.com/photos/brown-wooden-toy-blocks-GQ327RPuxhI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Using CountBy and AggregateBy in C# 13 / .NET 9
 slug: using-linq-countby-and-aggregateby-in-csharp
 summary: It's great to see Microsoft still giving us new things in LINQ. With C# 13 / .NET 9, we get CountBy and AggregateBy, so let's see how to use them.
+featureImageAttr: Photo by <a href="https://unsplash.com/@shs521?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Susan Holt Simpson</a> on <a href="https://unsplash.com/photos/brown-wooden-toy-blocks-GQ327RPuxhI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2024-12-03T19:23:03Z
+lastmod: 
+categories:
 tags:
+  - csharp
   - csharp-13
   - dotnet-9
-  - csharp
   - linq
-title: Using CountBy and AggregateBy in C# 13 / .NET 9
+aliases:
 ---
 Personally, I've been a big fan of LINQ ever since it was added in C# 3 over 15 years ago. I prefer the sleek SQL-like syntax to verbose, nested `foreach` blocks. It's nice to see that Microsoft still values it enough to keep adding new things.
 

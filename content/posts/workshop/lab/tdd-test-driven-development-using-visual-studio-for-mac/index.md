@@ -1,16 +1,16 @@
 ---
-categories:
-  - Explore
-date: 2017-07-06T12:15:51Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@rubaitulazad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rubaitul Azad</a> on <a href="https://unsplash.com/photos/a-white-dice-with-a-purple-letter-on-it-xgcCGDGIcfY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Unit Testing in Visual Studio for Mac
 slug: tdd-test-driven-development-using-visual-studio-for-mac
 summary: Are you a Mac user and .NET fan? Did you know there's a native VS app now? Writing tests is important, so I decided to try out NUnit in @vs4mac.
+featureImageAttr: Photo by <a href="https://unsplash.com/@rubaitulazad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rubaitul Azad</a> on <a href="https://unsplash.com/photos/a-white-dice-with-a-purple-letter-on-it-xgcCGDGIcfY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2017-07-06T12:15:51Z
+lastmod: 
+categories:
 tags:
-  - vs4mac
   - testing
-title: Unit Testing in Visual Studio for Mac
+  - vs4mac
+aliases:
 ---
 Last month at a user group, they selected the [magic square kata](https://github.com/gigasquid/wonderland-clojure-katas/tree/master/magic-square), which was a new one for me. Basically, you arrange 9 unique numbers in a 3x3 grid such that they add up to the same number horizontally, vertically and diagonally. I paired up with someone else who knew C#, and we tackled the kata in Visual Studio for Mac.
 

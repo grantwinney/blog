@@ -1,15 +1,15 @@
 ---
-categories:
-  - Build
-date: 2018-02-25T21:33:09Z
-lastmod:
-draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/analogicus-8164369/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3481377">Tom</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3481377">Pixabay</a>
+title: Automatically add links to all headers on a website (a Chrome extension)
 slug: automatically-adding-links-next-to-all-headers-on-the-page-a-chrome-extension
 summary: Ever needed to link directly to one section of a webpage? You can, as long as there's a header (or another element nearby like a div) with an ID assigned to it. Let's see how.
+featureImageAttr: Image by <a href="https://pixabay.com/users/analogicus-8164369/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3481377">Tom</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3481377">Pixabay</a>
+draft: false
+date: 2018-02-25T21:33:09Z
+lastmod: 
+categories:
 tags:
   - browser-extension
-title: Automatically add links to all headers on a website (a Chrome extension)
+aliases:
 ---
 Ever needed to link directly to one section of a webpage? You can, as long as there's a header (or another element nearby like a div) with an ID assigned to it. The presence of an ID isn't guaranteed for every website, but a lot of personal blogs and technical doc sites use them.
 

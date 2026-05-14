@@ -1,15 +1,14 @@
 ---
-categories:
-  - Learn
-date: 2023-04-01T03:54:20Z
-lastmod:
-draft: false
-featureImageAttr: Photo by [kaboompics](https://www.pexels.com/photo/close-up-photo-of-person-writing-on-paper-beside-calculator-5877591/)
+title: Overloading arithmetic, equality, and comparison operators in C#
 slug: csharp-overload-arithmetic-equality-comparison-operators
 summary: What's it mean to overload operators in C#? And what's that have to do with Generic Math in C# 11? Let's find out! (part 2 of 3)
+featureImageAttr: Photo by [kaboompics](https://www.pexels.com/photo/close-up-photo-of-person-writing-on-paper-beside-calculator-5877591/)
+draft: false
+date: 2023-04-01T03:54:20Z
+lastmod: 
+categories:
 tags:
   - csharp
-title: Overloading arithmetic, equality, and comparison operators in C#
 aliases:
   - /how-do-i-overload-operators-in-csharp
 ---

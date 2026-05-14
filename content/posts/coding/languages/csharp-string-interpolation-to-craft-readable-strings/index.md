@@ -1,17 +1,17 @@
 ---
-categories:
-  - Learn
-date: 2022-09-19T10:30:18Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@emmages?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emmanuel Ikwuegbu</a> on <a href="https://unsplash.com/photos/a-red-knot-on-a-blue-background-Xn4PKeYa0Eg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Using string interpolation to craft readable strings in C#
 slug: using-string-interpolation-to-craft-readable-strings
 summary: The longer I write software, the more I come to appreciate clear code. String interpolation in C# is just one more way to help us do that.
+featureImageAttr: Photo by <a href="https://unsplash.com/@emmages?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emmanuel Ikwuegbu</a> on <a href="https://unsplash.com/photos/a-red-knot-on-a-blue-background-Xn4PKeYa0Eg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2022-09-19T10:30:18Z
+lastmod: 
+categories:
 tags:
-  - surviving-winforms
-  - csharp-6
   - csharp
-title: Using string interpolation to craft readable strings in C#
+  - csharp-6
+  - surviving-winforms
+aliases:
 ---
 The longer I've been writing software, the more I've come to appreciate clear code. One of the toughest challenges in software development is understanding someone else's code - or your own after a few months, heh. If you're supporting an older app, you're spending as much (or more) time understanding what someone wrote 20 years ago than writing new code. Anything that makes it easier is a welcome thing!
 

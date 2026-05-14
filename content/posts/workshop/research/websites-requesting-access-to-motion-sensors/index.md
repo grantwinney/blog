@@ -1,17 +1,17 @@
 ---
-categories:
-  - Explore
-date: 2019-12-30T17:49:59Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@robinpierre?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Robin Pierre</a> on <a href="https://unsplash.com/photos/high-angle-photography-of-road-at-nighttime-dPgPoiUIiXk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Why are websites requesting access to motion sensors... on my desktop?
 slug: websites-requesting-access-to-motion-sensors
 summary: I was checking the status of a FedEx order when Brave warned me that "this site has been blocked from accessing your motion sensors". I'm struggling to understand why a website would need that access. Do I get a different experience if I drop my device? Tip my monitor over? Spin the mouse around?
+featureImageAttr: Photo by <a href="https://unsplash.com/@robinpierre?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Robin Pierre</a> on <a href="https://unsplash.com/photos/high-angle-photography-of-road-at-nighttime-dPgPoiUIiXk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2019-12-30T17:49:59Z
+lastmod: 
+categories:
 tags:
-  - privacy
   - bots
   - code-review
-title: Why are websites requesting access to motion sensors... on my desktop?
+  - privacy
+aliases:
 ---
 I was checking the status of a FedEx order in Brave, when I noticed a notification in the address bar that I've never seen before. It was warning me that _"this site has been blocked from accessing your motion sensors"_. Wut? It doesn't even need to be an order status - [their home page](https://www.fedex.com/) kicks it up too.
 

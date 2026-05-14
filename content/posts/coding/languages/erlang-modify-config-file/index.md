@@ -1,15 +1,15 @@
 ---
-categories:
-  - Learn
-date: 2019-05-16T11:22:49Z
-lastmod:
-draft: false
+title: Modify a config file in Erlang
 slug: how-to-modify-a-config-file-in-erlang
 summary: Modifying an Erlang config file at runtime wasn't as easy (or obvious) as I'd thought it'd be. So I wrote a script to hopefully make it easier.
+featureImageAttr: Photo by <a href="https://unsplash.com/@sasun1990?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sasun Bughdaryan</a> on <a href="https://unsplash.com/photos/two-wooden-gears-sitting-on-top-of-a-keyboard-4pgAJnR8q8o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2019-05-16T11:22:49Z
+lastmod: 
+categories:
 tags:
   - erlang
-title: Modify a config file in Erlang
-featureImageAttr: Photo by <a href="https://unsplash.com/@sasun1990?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sasun Bughdaryan</a> on <a href="https://unsplash.com/photos/two-wooden-gears-sitting-on-top-of-a-keyboard-4pgAJnR8q8o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+aliases:
 ---
 I found myself recently needing to write an [escript](http://erlang.org/doc/man/escript.html) to modify a [config file](https://www.erlang.org/docs/19/man/config). All I needed was to read it in, make a couple updates, and write it back out. Should be easy, right? Please make it easy Erlang. No? Okay... 😢
 

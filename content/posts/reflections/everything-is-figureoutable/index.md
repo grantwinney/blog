@@ -1,12 +1,13 @@
 ---
 title: Everything is figureoutable
 slug: everything-is-figureoutable
-summary:
-description:
-date:
+summary: 
+featureImageAttr: 
 draft: true
-featureImage: https://grantwinney.com/banners/default-thoughts-banner.webp
+date: 
+lastmod: 
 categories:
-  - Reflect
 tags:
+aliases:
 ---
+

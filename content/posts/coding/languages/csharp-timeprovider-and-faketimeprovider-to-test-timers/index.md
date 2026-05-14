@@ -1,17 +1,17 @@
 ---
-categories:
-  - Learn
-date: 2024-01-11T04:34:20Z
-lastmod:
-draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/sunbeamphoto-16431709/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5235953">Rocco Stoppoloni</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5235953">Pixabay</a>
+title: How to use (and test) TimeProvider timers in .NET
 slug: how-to-use-timeprovider-and-faketimeprovider-to-test-timers
 summary: Testing timers in C# is difficult, but .NET 8 (C# 12) adds an abstract TimeProvider class that makes it easier. Let's take a closer look.
+featureImageAttr: Image by <a href="https://pixabay.com/users/sunbeamphoto-16431709/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5235953">Rocco Stoppoloni</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5235953">Pixabay</a>
+draft: false
+date: 2024-01-11T04:34:20Z
+lastmod: 
+categories:
 tags:
   - csharp-12
   - testing
   - time-provider
-title: How to use (and test) TimeProvider timers in .NET
+aliases:
 ---
 The .NET 8 (C# 12) [release](https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/) included new constructs for abstracting time and timers, two things that have traditionally been a pain when it comes to testing. A few days ago, [I took a first look at time abstraction](https://grantwinney.com/how-to-use-timeprovider-and-faketimeprovider/) using the new [TimeProvider](https://learn.microsoft.com/en-us/dotnet/api/system.timeprovider) abstract class, and then wrote some tests using the new [FakeTimeProvider](https://github.com/dotnet/extensions/blob/d5d15f9fb777ff5572dc3fa1673c2e2704da0193/src/Libraries/Microsoft.Extensions.TimeProvider.Testing/FakeTimeProvider.cs#L16) class provided by the [Microsoft.Extensions.TimeProvider.Testing](https://www.nuget.org/packages/Microsoft.Extensions.TimeProvider.Testing) NuGet package.
 

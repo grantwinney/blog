@@ -1,16 +1,15 @@
 ---
-categories:
-  - Explore
-date: 2022-08-28T18:23:48Z
-lastmod:
-draft: false
-featureImage: guillermo-ferla-Oze6U2m1oYU-unsplash.webp
-featureImageAttr: Photo by <a href="https://unsplash.com/@gferla?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Guillermo Ferla</a> on <a href="https://unsplash.com/photos/black-hole-galaxy-illustration-Oze6U2m1oYU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+title: 6 space-related APIs to check out ahead of the Artemis I launch
 slug: 6-space-related-apis-to-check-out-ahead-of-the-artemis-i-launch
 summary: The week of NASA launching Artemis I is a good time to check a few of the many APIs that make tons of raw space data accessible for anyone to use.
+featureImageAttr: Photo by <a href="https://unsplash.com/@gferla?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Guillermo Ferla</a> on <a href="https://unsplash.com/photos/black-hole-galaxy-illustration-Oze6U2m1oYU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+draft: false
+date: 2022-08-28T18:23:48Z
+lastmod: 
+categories:
 tags:
   - astronomy
-title: 6 space-related APIs to check out ahead of the Artemis I launch
+aliases:
 ---
 NASA is set to launch the first of a series of Orion rockets that will eventually take us back to the moon for the first time in 50 years. It seems the goal this time around is much more than visiting the moon. I won't say "just" visiting the moon because, c'mon, visiting the moon is still mind-blowing!
 

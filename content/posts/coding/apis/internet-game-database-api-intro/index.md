@@ -1,14 +1,13 @@
 ---
-categories:
-  - Explore
-date: 2018-01-01T05:00:00Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@jeshoots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">jeshoots.com</a> on <a href="https://unsplash.com/photos/person-holding-black-game-controller-5chl44BAOvk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Access Game Data with the IGDB API v4
 slug: what-is-internet-game-database-api
 summary: The Internet Game Database is a community-driven site that collects and shares information about games and game-related data. Let's check out the IGDB API!
+featureImageAttr: Photo by <a href="https://unsplash.com/@jeshoots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">jeshoots.com</a> on <a href="https://unsplash.com/photos/person-holding-black-game-controller-5chl44BAOvk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2018-01-01T05:00:00Z
+lastmod: 
+categories:
 tags:
-title: Access Game Data with the IGDB API v4
 aliases:
   - /day-15-igdb-api-internet-game-database
 ---

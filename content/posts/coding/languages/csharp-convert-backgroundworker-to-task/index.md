@@ -1,16 +1,16 @@
 ---
-categories:
-  - Learn
-date: 2022-12-06T00:20:13Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@glenncarstenspeters?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Glenn Carstens-Peters</a> on <a href="https://unsplash.com/photos/person-writing-bucket-list-on-book-RLw-UC03Gwc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Converting a BackgroundWorker to a Task with TaskCompletionSource
 slug: convert-backgroundworker-to-task-with-taskcompletionsource
 summary: Sometimes the safer way to "update" old code is to leave it be and paint over it with a newer construct. Let's see how to modernize a BackgroundWorker using Tasks and TaskCompletionSource.
+featureImageAttr: Photo by <a href="https://unsplash.com/@glenncarstenspeters?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Glenn Carstens-Peters</a> on <a href="https://unsplash.com/photos/person-writing-bucket-list-on-book-RLw-UC03Gwc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2022-12-06T00:20:13Z
+lastmod: 
+categories:
 tags:
   - async
   - surviving-winforms
-title: Converting a BackgroundWorker to a Task with TaskCompletionSource
+aliases:
 ---
 The reality about working with an application that's years - maybe even decades - old is that we don't have the time or resources to rewrite everything to be modern, nor would that be wise. Every legacy app, and the different areas within it, represents ideas and business functions that a company has paid dozens or hundreds of employees millions of dollars for, over the course of many years.
 

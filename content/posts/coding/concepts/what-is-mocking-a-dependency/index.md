@@ -1,15 +1,15 @@
 ---
-categories:
-  - Learn
-date: 2020-12-09T13:19:00Z
-lastmod:
-draft: false
-featureImageAttr: Photo by [Andrea Piacquadio](https://www.pexels.com/photo/happy-man-funny-sticking-tongue-out-3799761/)
+title: What is mocking a dependency?
 slug: what-is-mocking-a-dependency
 summary: When you're writing tests, you generally don't want to write to the database, email customers, and hit third-party API's. That's why we need to know how to mock dependencies!
+featureImageAttr: Photo by [Andrea Piacquadio](https://www.pexels.com/photo/happy-man-funny-sticking-tongue-out-3799761/)
+draft: false
+date: 2020-12-09T13:19:00Z
+lastmod: 
+categories:
 tags:
   - testing
-title: What is mocking a dependency?
+aliases:
 ---
 Ever taken your car for an e-check and had it placed on those rollers for testing? It's part of a gadget called a dynamometer, and it's used to test your car at high speeds without having to move it an inch.
 

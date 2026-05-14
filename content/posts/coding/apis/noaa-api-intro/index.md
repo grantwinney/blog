@@ -1,14 +1,13 @@
 ---
-categories:
-  - Explore
-date: 2017-12-24T03:44:02Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@noaa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">NOAA</a> on <a href="https://unsplash.com/photos/silhouette-of-trees-during-daytime-QRBe3Ithczs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Access Climate Data With the NOAA API
 slug: what-is-noaa-api
 summary: The NOAA API lets us query weather and climate data from NOAA, an agency that studies and charts conditions in the oceans and atmosphere. Let's check it out!
+featureImageAttr: Photo by <a href="https://unsplash.com/@noaa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">NOAA</a> on <a href="https://unsplash.com/photos/silhouette-of-trees-during-daytime-QRBe3Ithczs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2017-12-24T03:44:02Z
+lastmod: 
+categories:
 tags:
-title: Access Climate Data With the NOAA API
 aliases:
   - /day-7-noaa-api
 ---

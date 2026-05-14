@@ -1,15 +1,15 @@
 ---
-categories:
-  - Retro
-date: 2019-05-04T14:35:40Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@hugo_cmt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hugo Clément</a> on <a href="https://unsplash.com/photos/a-row-of-black-computers-sitting-on-top-of-a-table-IvUCu_u5hjI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Running Windows XP in VirtualBox
 slug: running-windows-xp-in-virtualbox
 summary: Just got an MSDN account, which always comes with some old treasures (hey, beauty's in the eye of the beholder). Take a trip back with me, to the days of Windows XP, the beginning of the .NET Framework, and even further... ;)
+featureImageAttr: Photo by <a href="https://unsplash.com/@hugo_cmt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hugo Clément</a> on <a href="https://unsplash.com/photos/a-row-of-black-computers-sitting-on-top-of-a-table-IvUCu_u5hjI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2019-05-04T14:35:40Z
+lastmod: 
+categories:
 tags:
   - virtualization
-title: Running Windows XP in VirtualBox
+aliases:
 ---
 I just got access to an MSDN account with keys for various versions of Windows and Visual Studio, so.... it's retro time! Isn't it funny how something brand new comes out and we get excited, then we get annoyed with it's deficiencies, then it's forgotten when something better comes out, and finally after enough time we get all nostalgic and pull it out of mothballs?
 

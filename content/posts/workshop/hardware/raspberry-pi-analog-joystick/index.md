@@ -1,16 +1,16 @@
 ---
-categories:
-  - Explore
-date: 2016-09-24T13:30:49Z
-lastmod:
-draft: false
-featureImage:
-featureImageAttr: Photo by [Piotr Baranowski](https://www.pexels.com/photo/vintage-video-game-joystick-22763607/)
-slug: raspberry-pi-analog-joystick
-tags:
-  - raspberry-pi
-  - python
 title: Connecting an Analog Joystick to the Raspberry Pi
+slug: raspberry-pi-analog-joystick
+summary: 
+featureImageAttr: Photo by [Piotr Baranowski](https://www.pexels.com/photo/vintage-video-game-joystick-22763607/)
+draft: false
+date: 2016-09-24T13:30:49Z
+lastmod: 
+categories:
+tags:
+  - python
+  - raspberry-pi
+aliases:
 ---
 One of the best things about the Raspberry Pi is its GPIO pins. They’re just sitting there, waiting to be connected to all kinds of interesting peripherals so your Pi can interact with the world around it. We can [send alerts](https://grantwinney.com/raspberry-pi-flash-led-for-new-email/), attach sensors, and even plug cards like the [Sense HAT](https://www.raspberrypi.org/products/sense-hat/) over top of the pins to do even more.
 

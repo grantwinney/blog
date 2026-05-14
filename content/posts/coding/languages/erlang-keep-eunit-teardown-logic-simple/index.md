@@ -1,16 +1,16 @@
 ---
-categories:
-  - Learn
-date: 2019-03-14T11:03:00Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@abdulellahalena?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">مقاول هدم مباني</a> on <a href="https://unsplash.com/photos/a-bulldozer-digging-through-the-rubble-of-a-building-Of1y9InUMI0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Keep your EUnit teardown logic as simple as possible!
 slug: keep-your-eunit-teardown-logic-as-simple
 summary: Ever had an EUnit test fixture fail with meck reporting it was "already_started"? Well I did, and here's why...
+featureImageAttr: Photo by <a href="https://unsplash.com/@abdulellahalena?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">مقاول هدم مباني</a> on <a href="https://unsplash.com/photos/a-bulldozer-digging-through-the-rubble-of-a-building-Of1y9InUMI0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2019-03-14T11:03:00Z
+lastmod: 
+categories:
 tags:
   - erlang
   - testing
-title: Keep your EUnit teardown logic as simple as possible!
+aliases:
 ---
 When you use [test fixtures](https://learnyousomeerlang.com/eunit#fixtures) in EUnit, you'll likely define a `setup` and a `teardown` function, for doing initialization and cleanup work before and after each test. If you're familiar with `try/catch/finally` blocks in other languages, the teardown function is similar to a `finally` block; that is, it should always run even when a test throws an exception. But like a `finally` block, you want to be careful about what you're doing in your cleanup.
 

@@ -1,16 +1,16 @@
 ---
-categories:
-  - Explore
-date: 2018-07-01T00:32:52Z
-lastmod:
-draft: false
-featureImageAttr: Photo by [Towfiqu barbhuiya](https://www.pexels.com/photo/drawing-pin-on-calendar-11333728/)
+title: Calculate Easter and other holidays in Erlang
 slug: how-to-calculate-easter-and-other-holidays-in-erlang
 summary: I wrote a small library for calculating Easter and other holidays in Erlang. Here's how I did it and what I learned.
+featureImageAttr: Photo by [Towfiqu barbhuiya](https://www.pexels.com/photo/drawing-pin-on-calendar-11333728/)
+draft: false
+date: 2018-07-01T00:32:52Z
+lastmod: 
+categories:
 tags:
-  - erlang
   - datetime-handling
-title: Calculate Easter and other holidays in Erlang
+  - erlang
+aliases:
 ---
 On a whim, I created an Erlang module for calculating holidays, and things were going okay until it came to Easter. Have you ever tried to calculate Easter? It's surprisingly difficult.
 

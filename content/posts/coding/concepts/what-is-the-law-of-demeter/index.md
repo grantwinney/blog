@@ -1,14 +1,15 @@
 ---
-categories:
-  - Learn
-date: 2020-05-02T03:59:22Z
-lastmod:
-draft: false
-featureImageAttr: Photo by [Samidarefle](https://www.pexels.com/photo/mystical-book-in-forest-with-autumn-leaves-28847938/)
+title: What is the Law of Demeter?
 slug: the-law-of-demeter-a-practical-example
+summary: 
+featureImageAttr: Photo by [Samidarefle](https://www.pexels.com/photo/mystical-book-in-forest-with-autumn-leaves-28847938/)
+draft: false
+date: 2020-05-02T03:59:22Z
+lastmod: 
+categories:
 tags:
   - software-design
-title: What is the Law of Demeter?
+aliases:
 ---
 At work, we're running through [The Pragmatic Programmer](https://amzn.to/2KNdr4i) - the original, not the 2nd edition published last year. If anyone is reading that, I'd love to know if it really updates things for modern programming and whether it seems necessary. The original seems pretty timeless.
 

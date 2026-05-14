@@ -1,15 +1,15 @@
 ---
-categories:
-  - Learn
-date: 2019-11-07T18:04:08Z
-lastmod:
-featureImageAttr: Photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-book-with-white-pages-IOgRrMSarlg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-draft: false
+title: Enable logging for an AWS Lambda job
 slug: where-are-my-logs-in-aws-lambda
 summary: In a new AWS Lambda function, logging is initially disabled. Lets see how to enable it, for those times where additional detail is needed.
+featureImageAttr: Photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-book-with-white-pages-IOgRrMSarlg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2019-11-07T18:04:08Z
+lastmod: 
+categories:
 tags:
   - aws-lambda
-title: Enable logging for an AWS Lambda job
+aliases:
 ---
 I setup an AWS Lambda job recently, and then added a trigger to run it every morning. I checked it one morning and realized:
 

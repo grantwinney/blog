@@ -1,13 +1,12 @@
 ---
-date: "2020-02-12T18:10:41Z"
-description: ""
-draft: false
-slug: read-me
 title: Readme
+slug: read-me
+draft: false
+date: 2020-02-12T18:10:41Z
 aliases:
-- /cross-posting-policy
-- /license
-- /privacy-policy
+  - /cross-posting-policy
+  - /license
+  - /privacy-policy
 ---
 ## Privacy
 

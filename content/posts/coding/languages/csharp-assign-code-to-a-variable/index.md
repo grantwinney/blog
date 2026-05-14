@@ -1,15 +1,15 @@
 ---
-categories:
-  - Learn
-date: 2019-11-13T17:45:00Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@florianolv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Florian Olivo</a> on <a href="https://unsplash.com/photos/lines-of-html-codes-4hbJ-eymZ1o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Assign C# code to a variable and then run it
 slug: csharp-assign-code-to-a-variable
 summary: Did you know most languages have a way to pass around code to other functions, so you can call (invoke) it in other parts of your application? In C#, it's called a delegate.
+featureImageAttr: Photo by <a href="https://unsplash.com/@florianolv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Florian Olivo</a> on <a href="https://unsplash.com/photos/lines-of-html-codes-4hbJ-eymZ1o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2019-11-13T17:45:00Z
+lastmod: 
+categories:
 tags:
   - csharp
-title: Assign C# code to a variable and then run it
+aliases:
 ---
 It'd be ridiculous for a language to not have a way for you to reference a particular value, so you could pass it around in your application.
 

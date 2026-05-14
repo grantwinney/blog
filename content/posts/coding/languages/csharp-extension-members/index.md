@@ -2,15 +2,15 @@
 title: Using Extension Members in C# 14
 slug: csharp-extension-members
 summary: Extension members take extension methods to the next level. Let's see how to use this new C# 14 feature.
-description:
-date: 2025-12-02T12:58:00
-draft: false
 featureImageAttr: Photo by <a href="https://unsplash.com/@brett_jordan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brett Jordan</a> on <a href="https://unsplash.com/photos/brown-wooden-ladder-beside-brown-concrete-building-during-daytime-PFr50OBMowU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2025-12-02T12:58:00
+lastmod: 
 categories:
-  - Learn
 tags:
-  - csharp-14
   - csharp
+  - csharp-14
+aliases:
 ---
 Visual Studio 2026 was [released a week ago](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes), so it's time to checkout [C# 14](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14) and see what new and interesting goodies we got, starting with [extension members](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods)! If you'd like to mess around with the code on here, it's available in my [CSharpDotNetFeatures](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2014/ExtensionMembers) repo on GitHub.
 

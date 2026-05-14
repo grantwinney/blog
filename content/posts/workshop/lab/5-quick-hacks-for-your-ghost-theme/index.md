@@ -1,15 +1,15 @@
 ---
-categories:
-  - Build
-date: 2017-04-01T18:47:23Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@tandemxvisuals?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tandem X Visuals</a> on <a href="https://unsplash.com/photos/woman-in-white-coat-standing-on-brown-grass-field-during-daytime-FZOOxR2auVI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: 5 Quick Hacks for Your Ghost Theme
 slug: 5-quick-hacks-for-your-ghost-theme
 summary: These "hacks" for Ghost add some cool features to any blog, and should be usable with any theme.
+featureImageAttr: Photo by <a href="https://unsplash.com/@tandemxvisuals?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tandem X Visuals</a> on <a href="https://unsplash.com/photos/woman-in-white-coat-standing-on-brown-grass-field-during-daytime-FZOOxR2auVI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2017-04-01T18:47:23Z
+lastmod: 
+categories:
 tags:
   - ghost-blog
-title: 5 Quick Hacks for Your Ghost Theme
+aliases:
 ---
 As of this writing, I'm using the default "Casper" theme that installs with Ghost (read more about [my migration from WordPress to Ghost](https://grantwinney.com/migrating-a-blog-from-wordpress-to-ghost/)), but these hacks should be usable in any theme (with adjustments) as needed. Using these requires that you're able to SSH into your Ghost installation, or otherwise have access to upload and modify files.
 

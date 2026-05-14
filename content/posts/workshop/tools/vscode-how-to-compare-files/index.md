@@ -1,15 +1,15 @@
 ---
-categories:
-  - Learn
-date: 2023-07-26T22:15:20Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@fiteka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Raquel Martínez</a> on <a href="https://unsplash.com/photos/shallow-focus-photography-of-red-apples-SQM0sS0htzw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Comparing files in VS Code
 slug: how-to-compare-files-using-vs-code
 summary: VS Code is a great editor with a lot of useful features, like being able to compare two random files for differences. Let's see how.
+featureImageAttr: Photo by <a href="https://unsplash.com/@fiteka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Raquel Martínez</a> on <a href="https://unsplash.com/photos/shallow-focus-photography-of-red-apples-SQM0sS0htzw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2023-07-26T22:15:20Z
+lastmod: 
+categories:
 tags:
   - vscode
-title: Comparing files in VS Code
+aliases:
 ---
 I recently found myself in need of comparing two versions of an XML file for a merge, something that seems to frequently confuse git. Even better, this particular file was generated as a [minified file](https://grantwinney.com/minification-vs-obfuscation/), which _really_ confuses git. Fortunately, VS Code helps with formatting _and_ comparing files, but let's stick to comparing.
 

@@ -1,14 +1,13 @@
 ---
-categories:
-  - Explore
-date: 2017-12-17T19:37:29Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@abject?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">benjamin lehman</a> on <a href="https://unsplash.com/photos/black-and-silver-turntable-on-brown-wooden-table-GNyjCePVRs8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Access Buckets and Files on Backblaze With the B2 Cloud Storage API
 slug: what-is-backblaze-b2-api
 summary: The Backblaze B2 Storage API, built on top of Backblaze's cloud storage, lets you access and manage your buckets. Let's check it out!
+featureImageAttr: Photo by <a href="https://unsplash.com/@abject?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">benjamin lehman</a> on <a href="https://unsplash.com/photos/black-and-silver-turntable-on-brown-wooden-table-GNyjCePVRs8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2017-12-17T19:37:29Z
+lastmod: 
+categories:
 tags:
-title: Access Buckets and Files on Backblaze With the B2 Cloud Storage API
 aliases:
   - /day-3-backblaze-b2-api
 ---

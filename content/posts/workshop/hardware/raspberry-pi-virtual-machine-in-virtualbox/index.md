@@ -1,16 +1,16 @@
 ---
-categories:
-  - Explore
-date: 2016-06-08T06:01:18Z
-lastmod:
-draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/djovan-36764943/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9038410">omar sahel</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9038410">Pixabay</a>
+title: Create a Raspberry Pi Virtual Machine (VM) in VirtualBox
 slug: raspberry-pi-virtual-machine-in-virtualbox
 summary: I was flipping through The MagPi back-issues and came across an article about setting up a virtual Raspberry Pi environment. It got me thinking... I’ve been playing around a lot on the Pi itself, but it’d be nice to experiment with code even when I don’t have access to a physical Pi.
+featureImageAttr: Image by <a href="https://pixabay.com/users/djovan-36764943/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9038410">omar sahel</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9038410">Pixabay</a>
+draft: false
+date: 2016-06-08T06:01:18Z
+lastmod: 
+categories:
 tags:
   - raspberry-pi
   - virtualization
-title: Create a Raspberry Pi Virtual Machine (VM) in VirtualBox
+aliases:
 ---
 I recently started flipping through [The MagPi back-issues](https://www.raspberrypi.org/magpi/issues/), and came across an article where someone talked about setting up a virtual Raspberry Pi environment. At the time he wrote his article, I don’t think the Pi was even really available to the public yet.
 

@@ -1,15 +1,15 @@
 ---
-categories:
-  - Learn
-date: 2019-10-06T03:55:19Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@magicunsplash?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Magic Fan</a> on <a href="https://unsplash.com/photos/a-pile-of-brown-paper-packages-WYJrRinnABY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: What's the GitHub Package Registry?
 slug: first-look-github-package-registry-beta
 summary: Most of us host something (and some of us everything) on GitHub, especially since they host private repos for free too now. I've been eager to try the GitHub Package Registry since they announced it last May. Well, I just got access to the beta, so let's see what we can do!
+featureImageAttr: Photo by <a href="https://unsplash.com/@magicunsplash?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Magic Fan</a> on <a href="https://unsplash.com/photos/a-pile-of-brown-paper-packages-WYJrRinnABY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2019-10-06T03:55:19Z
+lastmod: 
+categories:
 tags:
   - github
-title: What's the GitHub Package Registry?
+aliases:
 ---
 A few prerequisites before we dig in...
 

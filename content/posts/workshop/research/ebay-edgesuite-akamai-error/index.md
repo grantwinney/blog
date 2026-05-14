@@ -5,11 +5,10 @@ summary: When eBay went down the other day, everyone started getting edgesuite e
 featureImageAttr: Photo by <a href="https://unsplash.com/@egorkomarov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Egor Komarov</a> on <a href="https://unsplash.com/photos/abstract-glitch-art-with-digital-code-fragments-vpWRUwL39FQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2026-04-30T16:49:00
-lastmod:
+lastmod: 
 categories:
-  - 
 tags:
-  -
+aliases:
 ---
 Just a warning, if you're reading this (and you must be, unless you're tasting or smelling it somehow) I can't promise you'll learn anything. I just stumbled on something and felt like looking into it a bit.
 

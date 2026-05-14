@@ -1,18 +1,18 @@
 ---
-categories:
-  - Learn
-date: 2022-08-16T03:56:47Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/photos/yellow-click-pen-on-white-printer-paper-gcHFXsdcmJE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Displaying an IIS hosted site in CEFSharp
 slug: displaying-an-iis-hosted-site-in-cefsharp
 summary: Thanks to CEFSharp, we can finally bring WinForms to the web! That didn't sound right. Okay, let's just look at hosting a site in IIS and showing it.
+featureImageAttr: Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/photos/yellow-click-pen-on-white-printer-paper-gcHFXsdcmJE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2022-08-16T03:56:47Z
+lastmod: 
+categories:
 tags:
-  - surviving-winforms
-  - winforms
   - cef
   - cefsharp
-title: Displaying an IIS hosted site in CEFSharp
+  - surviving-winforms
+  - winforms
+aliases:
 ---
 A few weeks ago I shared how you can use [CEFSharp](http://cefsharp.github.io/) to display an html page. I called it hosting, but uh, it was really just displaying a single html page that was baked into the project itself. Yeah, cutting edge, I know. It's WinForms, the bar is low folks.
 

@@ -1,17 +1,16 @@
 ---
-categories:
-  - Learn
-date: 2023-04-05T03:50:14Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@saadahmad_umn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Saad Ahmad</a> on <a href="https://unsplash.com/photos/text-BQLw0OrA6F4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Generic Math Support in C# 11
 slug: csharp-generic-math-support
 summary: What is Generic Math support in C# 11, and how do we take advantage of it? Let's dig in and find out! (part 3 of 3)
+featureImageAttr: Photo by <a href="https://unsplash.com/@saadahmad_umn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Saad Ahmad</a> on <a href="https://unsplash.com/photos/text-BQLw0OrA6F4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2023-04-05T03:50:14Z
+lastmod: 
+categories:
 tags:
-  - csharp-11
   - csharp
+  - csharp-11
   - generic-math
-title: Generic Math Support in C# 11
 aliases:
   - /whats-generic-math-support-in-csharp
 ---

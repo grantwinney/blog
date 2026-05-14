@@ -1,16 +1,16 @@
 ---
-categories:
-  - Learn
-date: 2021-05-29T21:40:16Z
-lastmod:
-draft: false
-featureImageAttr: Photo by [Daniil Komov](https://www.pexels.com/photo/close-up-of-programming-code-on-computer-screen-34803988/)
+title: What is DotNet Try?
 slug: what-is-dotnet-try
 summary: Do you prefer reading or doing? How about both? DotNet Try pulls in C# code from your project and turns your docs into an interactive experience.
+featureImageAttr: Photo by [Daniil Komov](https://www.pexels.com/photo/close-up-of-programming-code-on-computer-screen-34803988/)
+draft: false
+date: 2021-05-29T21:40:16Z
+lastmod: 
+categories:
 tags:
   - documentation
   - dotnet
-title: What is DotNet Try?
+aliases:
 ---
 Some of my favorite sources of documentation are the ones that include interactive code snippets you can run right on the site. For example, any of the fantastic MDN web docs, like this one for [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map). They've really figured out how to do documentation right. 👍
 

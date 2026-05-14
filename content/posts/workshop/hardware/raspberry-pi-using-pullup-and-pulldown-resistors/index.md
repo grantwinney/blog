@@ -1,16 +1,15 @@
 ---
-categories:
-  - Explore
-date: 2016-05-09T07:30:30Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@harrisonbroadbent?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Harrison Broadbent</a> on <a href="https://unsplash.com/photos/black-and-yellow-audio-mixer-afZVP8xbbw0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Using PullUp and PullDown Resistors on the Raspberry Pi
 slug: raspberry-pi-using-pullup-and-pulldown-resistors
 summary: When you start out creating circuits with the Raspberry Pi and its GPIO pins, there's an unexpected but important concept to understand, called "floating". To adjust for it, you need to understand how to use pullup and pulldown resistors.
+featureImageAttr: Photo by <a href="https://unsplash.com/@harrisonbroadbent?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Harrison Broadbent</a> on <a href="https://unsplash.com/photos/black-and-yellow-audio-mixer-afZVP8xbbw0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2016-05-09T07:30:30Z
+lastmod: 
+categories:
 tags:
-  - raspberry-pi
   - python
-title: Using PullUp and PullDown Resistors on the Raspberry Pi
+  - raspberry-pi
 aliases:
   - /using-pullup-and-pulldown-resistors-on-the-raspberry-pi
 ---

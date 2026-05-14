@@ -1,15 +1,15 @@
 ---
-categories:
-  - Explore
-date: 2021-07-15T21:46:32Z
-lastmod:
-draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=386614">Gerd Altmann</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=386614">Pixabay</a>
+title: Can I write my own HTML tags?
 slug: can-i-write-my-own-html-tags
 summary: Can you create your own HTML tags? The answer is..... sorta. Yes and no. Not completely, but a little. Typical, I know.
+featureImageAttr: Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=386614">Gerd Altmann</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=386614">Pixabay</a>
+draft: false
+date: 2021-07-15T21:46:32Z
+lastmod: 
+categories:
 tags:
   - html
-title: Can I write my own HTML tags?
+aliases:
 ---
 As usual, the answer is... yes and no.
 

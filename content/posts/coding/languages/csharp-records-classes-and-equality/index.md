@@ -1,16 +1,16 @@
 ---
-categories:
-  - Learn
-date: 2024-12-10T12:35:55Z
-lastmod:
-draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/niro9-40649225/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9180482">niro9</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9180482">Pixabay</a>
+title: Records, Classes and Equality in C# 9 / .NET 5
 slug: records-classes-and-equality-in-csharp
 summary: The record modifier can define properties and equality in our classes for us, saving time and keeping our code cleaner. Let's see how it works!
+featureImageAttr: Image by <a href="https://pixabay.com/users/niro9-40649225/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9180482">niro9</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9180482">Pixabay</a>
+draft: false
+date: 2024-12-10T12:35:55Z
+lastmod: 
+categories:
 tags:
-  - csharp-9
   - csharp
-title: Records, Classes and Equality in C# 9 / .NET 5
+  - csharp-9
+aliases:
 ---
 When C# 9 was released in 2020, one of the main focuses was on "removing ceremony", as they put it. I'm sure that's a regular focus with each release, but this time they called it out specifically. As a result, some of the tedious, boilerplate types of syntax we find ourselves writing were removed.
 

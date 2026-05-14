@@ -1,15 +1,14 @@
 ---
-categories:
-  - Explore
-date: 2017-12-16T04:58:47Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@rubaitulazad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rubaitul Azad</a> on <a href="https://unsplash.com/photos/a-white-cube-with-a-blue-twitter-logo-on-it-ryR-_1kgja8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Accessing Tweets and More With the Twitter API
 slug: what-is-twitter-api
 summary: The Twitter API lets you access tweets, users who tweet, metadata, manipulate lists, and more. Let's check it out!
+featureImageAttr: Photo by <a href="https://unsplash.com/@rubaitulazad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rubaitul Azad</a> on <a href="https://unsplash.com/photos/a-white-cube-with-a-blue-twitter-logo-on-it-ryR-_1kgja8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2017-12-16T04:58:47Z
+lastmod: 
+categories:
 tags:
   - twitter
-title: Accessing Tweets and More With the Twitter API
 aliases:
   - /day-1-twitter-api
 ---

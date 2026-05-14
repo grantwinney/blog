@@ -1,17 +1,17 @@
 ---
-categories:
-  - Learn
-date: 2023-01-05T00:38:03Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Winkler</a> on <a href="https://unsplash.com/photos/white-and-black-jigsaw-puzzle-aYPtEknQmXE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Using Tuples and deconstruction to return multiple values in C#
 slug: using-tuple-and-deconstruction-to-return-multiple-values
 summary: A big challenge with any language is trying to group and organize things sensibly, and returning multiple values is no exception. Let's check out Tuples and deconstruction, and see how they can help us out.
+featureImageAttr: Photo by <a href="https://unsplash.com/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Winkler</a> on <a href="https://unsplash.com/photos/white-and-black-jigsaw-puzzle-aYPtEknQmXE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2023-01-05T00:38:03Z
+lastmod: 
+categories:
 tags:
+  - csharp
   - csharp-7
   - surviving-winforms
-  - csharp
-title: Using Tuples and deconstruction to return multiple values in C#
+aliases:
 ---
 One of the biggie challenges when programming in any language is figuring how to group and organize things sensibly. Even a small project can get out of hand quickly, and once you've got a dozen devs working in something for years, all bets are off.
 

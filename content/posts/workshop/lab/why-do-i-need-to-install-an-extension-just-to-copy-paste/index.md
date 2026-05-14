@@ -1,17 +1,17 @@
 ---
-categories:
-  - Explore
-date: 2022-12-31T17:18:11Z
-lastmod:
-draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/isromar-2181419/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1265309">Isabel R</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1265309">Pixabay</a>
+title: Why do I need to install an extension just to copy/paste?
 slug: why-do-i-need-to-install-an-extension-just-to-copy-paste
 summary: I was creating a document in Office365 the other day, and when I tried to paste with their custom right-click menu I got a popup telling me to download a browser addon. Well, that's weird.
+featureImageAttr: Image by <a href="https://pixabay.com/users/isromar-2181419/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1265309">Isabel R</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1265309">Pixabay</a>
+draft: false
+date: 2022-12-31T17:18:11Z
+lastmod: 
+categories:
 tags:
-  - security
   - browser-extension
   - code-review
-title: Why do I need to install an extension just to copy/paste?
+  - security
+aliases:
 ---
 I was creating a document in Office365 the other day - something I've done a hundred times - but when I tried to paste something into the document with their custom right-click menu (the keyword here is "custom", but more on that later), I was greeted with the following popup. Well, that's weird.
 

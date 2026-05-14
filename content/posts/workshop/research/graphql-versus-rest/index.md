@@ -1,15 +1,15 @@
 ---
-categories:
-  - Learn
-date: 2019-09-21T02:48:40Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@choys_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Conny Schneider</a> on <a href="https://unsplash.com/photos/a-blue-background-with-lines-and-dots-xuTJZ7uD7PI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: What is GraphQL and how does it differ from REST?
 slug: what-is-graphql-and-how-does-it-differ-from-rest
 summary: GraphQL is an alternative for REST, not a replacement. Let's take a brief look at how they differ.
+featureImageAttr: Photo by <a href="https://unsplash.com/@choys_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Conny Schneider</a> on <a href="https://unsplash.com/photos/a-blue-background-with-lines-and-dots-xuTJZ7uD7PI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2019-09-21T02:48:40Z
+lastmod: 
+categories:
 tags:
   - graphql
-title: What is GraphQL and how does it differ from REST?
+aliases:
 ---
 Finding a new [API](https://grantwinney.com/what-is-an-api/) can be like discovering a gateway to a vast amount of data that might be otherwise inaccessible. A couple of my favorites have led to [photos from the Mars Rover](https://grantwinney.com/what-is-nasa-api/) and [300 year old newspapers](https://grantwinney.com/searching-historical-newspapers-with-the-chronicling-america-api/). These APIs are often implemented using [REST](https://en.wikipedia.org/wiki/Representational_state_transfer), the standard for making web resources accessible for over a decade, but there's a different way to access resources called [GraphQL](https://en.wikipedia.org/wiki/GraphQL).
 

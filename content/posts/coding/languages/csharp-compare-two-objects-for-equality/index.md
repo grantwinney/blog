@@ -2,14 +2,14 @@
 title: Comparing Two Objects for Equality in C#
 slug: csharp-compare-two-objects-for-equality
 summary: It's common to compare two objects in C# for equality, such as for a save operation. Let's take a closer look at how we define what equal means.
-lastmod:
-date: 2016-10-31T13:23:44Z
-draft: false
 featureImageAttr: Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1632919">Gerd Altmann</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1632919">Pixabay</a>
+draft: false
+date: 2016-10-31T13:23:44Z
+lastmod: 
 categories:
-  - Learn
 tags:
   - csharp
+aliases:
 ---
 We compare values for equality all the time in C#, so frequently that we rarely think about it most of the time:
 

@@ -1,17 +1,17 @@
 ---
-categories:
-  - Learn
-date: 2019-12-18T22:21:00Z
-lastmod:
-draft: false
-featureImageAttr: Photo by <a href="https://unsplash.com/@hamburgmeinefreundin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wolfgang Weiser</a> on <a href="https://unsplash.com/photos/water-droplets-reflect-a-vibrant-colorful-background-iEeYNNM9oHw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title: Hands-on Ansible, using two DigitalOcean Ubuntu droplets
 slug: hands-on-ansible-using-digitalocean-ubuntu-droplets
 summary: Today I'm wrapping my head around a build tool called Ansible, used for deploying machines in a scriptable, repeatable manner. Follow along as I step through an excellent tutorial from DigitalOcean, applying what I learn to a couple DO Ubuntu VMs... the $5/mo ones - nothing fancy needed!
+featureImageAttr: Photo by <a href="https://unsplash.com/@hamburgmeinefreundin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wolfgang Weiser</a> on <a href="https://unsplash.com/photos/water-droplets-reflect-a-vibrant-colorful-background-iEeYNNM9oHw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+draft: false
+date: 2019-12-18T22:21:00Z
+lastmod: 
+categories:
 tags:
   - ansible
   - devops
   - digitalocean
-title: Hands-on Ansible, using two DigitalOcean Ubuntu droplets
+aliases:
 ---
 For the uninitiated, Docker allows you to build VMs in a predictable, repeatable manner as a series of layers called images. Automation is where it's at – if you think you'll have to deploy a box several times, your future self will thank you for scripting it out.
 

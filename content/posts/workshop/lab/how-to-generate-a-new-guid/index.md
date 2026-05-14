@@ -1,15 +1,15 @@
 ---
-categories:
-  - Learn
-date: 2023-07-27T22:12:21Z
-lastmod:
-draft: false
-featureImageAttr: Image by <a href="https://pixabay.com/users/oleksandrpidvalnyi-4638469/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6865967">Oleksandr Pidvalnyi</a>
+title: How can I generate a new GUID?
 slug: how-can-i-generate-a-new-guid
 summary: GUIDs are heavily used in the world of development, so let's look at a few quick and easy ways to generate them whenever we need them.
+featureImageAttr: Image by <a href="https://pixabay.com/users/oleksandrpidvalnyi-4638469/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6865967">Oleksandr Pidvalnyi</a>
+draft: false
+date: 2023-07-27T22:12:21Z
+lastmod: 
+categories:
 tags:
   - guid
-title: How can I generate a new GUID?
+aliases:
 ---
 GUIDs, or globally unique identifiers, are heavily used in the world of development. And while they certainly are unique (32 hex characters means all 8 billion people on Earth could generate a billion GUIDs every second, and there'd still be enough for 1.3 _trillion_ years), in reality no GUID _needs_ to be unique across the world - just your system.
 
