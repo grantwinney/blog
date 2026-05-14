@@ -4,7 +4,7 @@ categories:
 date: 2019-11-11T23:36:00Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/analogicus-8164369/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8332727">Tom</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8332727">Pixabay</a>
 slug: what-is-the-opposite-method-of-any-t-in-linq
 summary: One of the many nice functions in LINQ is a single word that iterates through a collection, returning true if at least one item in the collection matches the condition you specify. But what's the opposite of the Any keyword in LINQ?
 tags:

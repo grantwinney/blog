@@ -4,7 +4,7 @@ categories:
 date: 2024-12-08T22:59:12Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@marcsm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marc Sendra Martorell</a> on <a href="https://unsplash.com/photos/closeup-photo-of-two-bubbles-2BrdNFxW0UY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: set-based-linq-exceptby-intersectby-unionby-distinctby
 summary: The .NET team has made some helpful additions to LINQ in recent years. Today let's check out the various set-based updates from C# 10 / .NET 6.
 tags:
