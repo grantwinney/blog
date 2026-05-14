@@ -1,16 +1,16 @@
 ---
 categories:
-- Build
-date: "2015-01-15T00:45:22Z"
+  - Build
+date: 2015-01-15T00:45:22Z
 lastmod:
 draft: false
 slug: csharp-extension-method-to-pass-column-name-to-getfieldvalue
 summary: Let's combine the SqlDataReader's GetFieldValue and GetOrdinal methods into an extension method that lets us pass a column name and get back a specific type.
 tags:
-- csharp
-- coding
+  - csharp
+  - coding
 title: An Extension Method to Pass a Column Name to SqlDataReader.GetFieldValue
-featureImage: https://grantwinney.com/banners/default-build-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@jannerboy62?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Fewings</a> on <a href="https://unsplash.com/photos/black-metal-frame-on-brown-sand-L0Z2r8gcEiw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ---
 The [SqlDataReader.GetFieldValue](http://msdn.microsoft.com/en-us/library/hh485652\(v=vs.110\).aspx) method uses generics to return the value of a column as the requested data type, which is nice, but it also requires us to know and pass the column index instead of just using its name, which is less nice.
 
