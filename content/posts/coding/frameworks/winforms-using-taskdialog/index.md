@@ -4,7 +4,7 @@ categories:
 date: 2024-12-31T23:41:30Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/photos/a-person-holding-a-pen-over-a-piece-of-paper-3uygRrmQq28?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: using-taskdialog-in-winforms
 summary: In .NET 5, WinForms got a major upgrade to the MessageBox called TaskDialog. It's way more flexible and powerful - let's check it out!
 tags:
