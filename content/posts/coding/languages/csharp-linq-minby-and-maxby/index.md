@@ -4,7 +4,7 @@ categories:
 date: 2024-12-05T22:24:55Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@aryatulsyan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Arya Tulsyan</a> on <a href="https://unsplash.com/photos/a-large-elephant-and-two-small-elephants-in-a-field-tK9Cwzslpi0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: using-minby-and-maxby-in-csharp
 summary: The .NET team has made some helpful additions to LINQ over the last few years. Today let's check out MinBy and MaxBy from C# 10 / .NET 6.
 tags:
