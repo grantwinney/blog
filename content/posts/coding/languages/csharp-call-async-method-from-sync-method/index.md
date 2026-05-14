@@ -4,7 +4,7 @@ categories:
 date: 2023-08-11T03:59:55Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@mbeero?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matt Bero</a> on <a href="https://unsplash.com/photos/grayscale-photo-of-person-in-hoodie-holding-round-ball-t6w2xpAI12g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: call-an-async-method-from-a-synchronous-one
 summary: Writing async code whenever possible is great, but how do we do it when we're stuck with legacy (and very synchronous) code?
 tags:
