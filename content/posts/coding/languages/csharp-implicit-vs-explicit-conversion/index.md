@@ -4,7 +4,7 @@ categories:
 date: 2015-02-11T19:42:36Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@jkaloc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jiří Kaloč</a> on <a href="https://unsplash.com/photos/butterflies-emerge-from-their-chrysalises-in-succession-ohLnplP80_0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: csharp-implicit-vs-explicit-conversion
 summary: We use implicit and explicit conversion in C# all the time, without even realizing it. Let's learn more about them and look at examples of each.
 tags:
@@ -138,7 +138,7 @@ DateTime birthdate = (DateTime)birthday;
 
 If they don't cast it, the compiler throws an error:
 
-![](image-8.png)
+![](implicit-conversion-compiler-error.png)
 
 ## Final Thoughts
 
