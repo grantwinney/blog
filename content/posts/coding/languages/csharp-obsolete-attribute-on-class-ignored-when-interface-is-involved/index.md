@@ -11,7 +11,7 @@ tags:
   - attributes
   - metadata
 title: Obsolete Attribute on a Class is Ignored When an Interface is Involved
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by [Berre Açıkdeniz](https://www.pexels.com/photo/vintage-tvs-abandoned-by-the-roadside-28744471/)
 ---
 While marking some code as [obsolete](https://msdn.microsoft.com/en-us/library/system.obsoleteattribute\(v=vs.110\).aspx) the other day, it seemed that the attribute was being ignored. As it turns out, there's a reasonable explanation, but it took me by surprise at first.
 
@@ -34,7 +34,7 @@ public class Dinosaur
 
 The `error` flag is set to `true`, so it'll throw a compiler error:
 
-![](image-5.png)
+![](obsolete-code-error.png)
 
 Now let's say we have a couple other classes with their own `Move()` methods, without the `Obsolete` attribute:
 
@@ -96,7 +96,7 @@ public class Dinosaur : IAnimal
 
 If we instantiate each of the animals against the new interface, we don't get a compiler error anymore. The `Obsolete` attribute seems to be getting ignored for dinos.
 
-![](image-6.png)
+![](no-obsolete-for-interface.png)
 
 In case you're wondering, it doesn't result in a runtime error either:
 
@@ -120,7 +120,7 @@ public interface IAnimal
 
 The caveat is that, **if we add the** *`*Obsolete*`* **attribute to the interface, then every class implementing the interface will inherit the attribute too**, regardless of whether each of those classes actually has the attribute set on it.
 
-![](image-7.png)
+![](interface-marked-obsolete.png)
 
 ## Final Thoughts
 
