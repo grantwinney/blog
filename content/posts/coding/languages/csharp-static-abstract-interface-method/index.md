@@ -4,7 +4,7 @@ categories:
 date: 2023-03-31T03:59:47Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@steve_j?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Steve A Johnson</a> on <a href="https://unsplash.com/photos/abstract-art-painting-eVaxJVA2zHI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: whats-a-static-abstract-interface-method-in-c
 summary: What are static abstract members (new in C# 11), what can we do with them, and how are they related to Generic Math? (part 1 of 3)
 tags:
