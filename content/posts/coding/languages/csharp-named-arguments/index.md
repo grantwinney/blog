@@ -7,8 +7,7 @@ categories:
   - Learn
 date: 2022-10-12T22:09:47Z
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
-featureImageAttr:
+featureImageAttr: Photo by <a href="https://unsplash.com/@an_doich?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anastasiya Doicheva</a> on <a href="https://unsplash.com/photos/a-red-cloth-with-a-white-tag-hanging-from-it-J_UuEa_aIeI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 tags:
   - surviving-winforms
   - csharp-4
@@ -87,7 +86,7 @@ The risk is that you end up passing "null" to a string, like the "message" param
 
 And so the message, which was part of a prompt to the user, looks like this:
 
-![](image-3.png)
+![](empty-messagebox-prompt.png)
 
 As of C# 4.0 (ye not so but still fairly olden days), we can call out parameters we're interested in, and omit the optional parameters that we aren't. So you can pass in values for the mandatory ones first (which was required), then just set three to 5. Naturally.
 
