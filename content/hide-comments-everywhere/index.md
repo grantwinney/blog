@@ -2,7 +2,7 @@
 title: Hide Comments Everywhere
 slug: hide-comments-everywhere
 summary: Hides various commenting systems across the web, including (but not limited to) Disqus, YouTube, various news sites and forums, etc.
-featureImageAttr: Image by <a href="https://pixabay.com/users/alexas_fotos-686414/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3444212">Alexa</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3444212">Pixabay</a>
+featureImageAttr: Photo by <a href="https://unsplash.com/@dcejoshe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Josh Eckstein</a> on <a href="https://unsplash.com/photos/black-red-green-and-blue-device-634KBk3AXNA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2019-07-08T20:14:34Z
 ---
