@@ -4,7 +4,7 @@ categories:
 date: 2017-12-27T20:45:59Z
 lastmod:
 draft: false
-featureImageAttr: Photo by [cottonbro studio](https://www.pexels.com/photo/sticky-notes-on-the-task-board-wall-6804093/)
+featureImageAttr: Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7680312">Gerd Altmann</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7680312">Pixabay</a>
 slug: what-is-trello-api
 summary: Trello is a virtual kanban board... or a nice to-do list if you're going solo. I like it, maybe you will too, and their API makes nearly all areas accessible to devs.
 tags:
