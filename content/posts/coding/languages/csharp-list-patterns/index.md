@@ -91,7 +91,7 @@ Console.WriteLine(string.Join(", ", stores));
 
 The slice pattern is a special pattern that matches 0 or more elements, so we get only the values we're interested in, and toss out the rest.
 
-![](image-17.png)
+![](console-output-1.png)
 
 ## Matching on lists in an XML node
 
@@ -126,7 +126,7 @@ foreach (var student in xdoc.Root.Elements("student"))
 }
 ```
 
-![](image-18.png)
+![](console-output-2.png)
 
 ## Matching on the header in some text files
 
@@ -161,7 +161,7 @@ foreach (var filePath in Directory.GetFiles("c:\somefilepath\"))
 }
 ```
 
-![](image-22.png)
+![](console-output-3.png)
 
 ## Matching on arguments passed to a console app
 
@@ -193,7 +193,7 @@ else if (args is [..])
 
 By passing in different parameter values, you can see the different results.
 
-![](image-20.png)
+![](console-output-4.png)
 
 Are these examples more realistic? At the very least, I hope these show off more opportunities for using the list patterns feature than just a random series of numbers.
 
