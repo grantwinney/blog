@@ -9,7 +9,7 @@ summary: I ran into a problem in Erlang yesterday that made me think... is there
 tags:
   - erlang
 title: Are property accessors possible in Erlang records?
-featureImage: https://grantwinney.com/banners/default-explore-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/stocksnap-894430/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=924920">StockSnap</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=924920">Pixabay</a>
 ---
 I was tackling a new requirement the other day, which needed a new record. One of the fields is a list of items, while another happens to represent a count of those items - not that the consumer of the record would necessarily be aware of that relationship.
 

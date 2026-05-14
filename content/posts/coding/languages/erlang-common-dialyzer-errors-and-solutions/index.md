@@ -4,7 +4,7 @@ categories:
 date: 2019-02-09T21:10:27Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6984855">Mohamed Hassan</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6984855">Pixabay</a>
 slug: common-dialyzer-errors-and-solutions-in-erlang
 summary: When dealing with a dynamically typed language, any effort to tame the beast can pay off. For Erlang that means Dialyzer specs, but they can be a pain. Here's some warnings I've seen and how to solve them.
 tags:
