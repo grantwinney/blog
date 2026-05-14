@@ -4,7 +4,7 @@ categories:
 date: 2018-01-25T04:59:32Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-api-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/milpek75-1430832/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=953904">Vlasto</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=953904">Pixabay</a>
 slug: what-is-an-api-wrapper
 summary: When you find an API to use in your app, you'll need to access it in a specific language - not always an easy or straightforward task. As long as you're doing all that work, why keep it to yourself? Let's look at creating an API wrapper that you can share with others!
 tags:
