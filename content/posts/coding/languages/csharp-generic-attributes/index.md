@@ -4,7 +4,7 @@ categories:
 date: 2023-08-23T15:52:21Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by [Markus Winkler](https://www.pexels.com/photo/metadata-wooden-block-letters-on-a-table-30885765/)
 slug: what-are-generic-attributes
 summary: Generic attributes increase the flexibility of a very early .NET feature. Let's try using them and see how it keeps our code DRY.
 tags:
@@ -41,9 +41,9 @@ class BarberShopCustomer
 }
 ```
 
-![](image-13.png)
+![](method-is-obsolete-1.png)
 
-![](image-14.png)
+![](method-is-obsolete-2.png)
 
 If you want to see other examples of attribute usage, here's an article I wrote a few years ago, but today I want to look at a new feature we got in C# 11 called generic attributes.
 
@@ -128,7 +128,7 @@ foreach (var vr in validationResults)
 
 The output correctly reports that DiscoveryYear and OrbitEccentricity are invalid, because the former is past the current year (2023), and the latter is a negative value.
 
-![](image-15.png)
+![](results-of-validationattributionexample.png)
 
 ## A generic attribute that keeps things DRYer
 
@@ -174,6 +174,6 @@ class NumberValidation<T> : ValidationAttribute where T : INumber<T>
 
 The output is the same as before, detecting that 2 of the 3 properties have values that are outside the acceptable range.
 
-![](image-16.png)
+![](results-of-genericattributeexample.png)
 
 If you find your own interesting use for generic attributes, feel free to share them in the comments below! And if you found this content useful, and want to learn more about a variety of [C#](https://grantwinney.com/tags/csharp/) features, check out my [CSharpDotNetExamples repo](https://github.com/grantwinney/CSharpDotNetExamples), where you'll find links to plenty more blog posts and practical examples.
