@@ -4,7 +4,7 @@ categories:
 date: 2023-04-01T03:54:20Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by [kaboompics](https://www.pexels.com/photo/close-up-photo-of-person-writing-on-paper-beside-calculator-5877591/)
 slug: csharp-overload-arithmetic-equality-comparison-operators
 summary: What's it mean to overload operators in C#? And what's that have to do with Generic Math in C# 11? Let's find out! (part 2 of 3)
 tags:
@@ -152,7 +152,7 @@ public class ColorSwatch
 
 This one's a little tougher to imagine the result of, so I wrote a quick little app that creates a colored square for each of the shades, and then a square for each "mixed" color. I won't throw the code for that here, but it's on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericMathSupport/GenericMathSupport) too if you want to see it.
 
-![](image-1.png)
+![](mix-colors-app.png)
 
 ## Comparison Operators
 
