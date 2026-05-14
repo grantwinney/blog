@@ -4,7 +4,7 @@ categories:
 date: 2022-06-28T23:07:09Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/hosting-a-simple-webpage-in-winforms-with-cefsharp/simplecef.gif
+featureImageAttr: Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/photos/yellow-click-pen-on-white-printer-paper-gcHFXsdcmJE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: hosting-a-simple-webpage-in-winforms-with-cefsharp
 summary: WinForms and the web. Like oil and water, they don't mix well. But with CEFSharp, they mix a LOT better. Let's check it out.
 tags:
