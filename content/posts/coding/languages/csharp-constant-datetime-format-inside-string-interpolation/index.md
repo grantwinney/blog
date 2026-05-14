@@ -4,7 +4,7 @@ categories:
 date: 2019-04-04T20:06:50Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by [Mat Brown](https://www.pexels.com/photo/round-silver-colored-chronograph-watch-552598/)
 slug: csharp-constant-datetime-format-inside-string-interpolation
 summary: I was upgrading some code to use string interpolation, a feature introduced in C# 6, when I ran into a small snag with DateTimes and a format string stored as a constant.
 tags:
