@@ -5,7 +5,7 @@ summary: Does the idea of submitting to a code review make you sweat bullets? Or
 lastmod:
 date: 2020-11-28T04:15:10Z
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by [Jakub Zerdzicki](https://www.pexels.com/photo/developer-reviewing-code-on-tablet-in-office-36598855/)
 categories:
   - Learn
 tags:
@@ -43,11 +43,11 @@ Ideally, there should be a back and forth, while you explain why you made a part
 
 Like everything, it depends. The most popular platform is currently GitHub, but there are others too, like Azure DevOps and Atlassian Bitbucket (pictured below). No matter the system your team uses, you should always try to answer the various what's, why's, and how's. When someone steps in to review your code, they shouldn't have to guess why it exists or what it's purpose is.
 
-![](image-13.png)
+![](github-pr.png)
 
-![](image-15.png)
+![](github-new-pr.png)
 
-![](image-16.png)
+![](bitbucket-pr.png)
 
 GitHub, Azure DevOps, and Bitbucket
 
