@@ -4,7 +4,7 @@ categories:
 date: 2019-11-14T17:25:00Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@egorkomarov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Egor Komarov</a> on <a href="https://unsplash.com/photos/abstract-blue-background-with-floating-symbols-blFJ_y7DEsQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: only-assignment-call-increment-decrement-await-and-new-object-expressions-can-be-used-as-a-statement
 summary: This error might look a little cryptic at first glance, but it's fairly descriptive in explaining what's wrong. You're likely to come across this one before your first cup of coffee.
 tags:
