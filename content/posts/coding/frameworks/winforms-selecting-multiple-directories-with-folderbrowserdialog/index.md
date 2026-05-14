@@ -4,7 +4,7 @@ categories:
 date: 2024-12-19T22:41:10Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by [Anete Lusina](https://www.pexels.com/photo/person-choosing-document-in-folder-4792285/)
 slug: selecting-multiple-directories-with-the-winforms-folderbrowserdialog-in-dotnet
 summary: One of the smaller updates to make it into .NET 9 for WinForms was allowing multi-selection in the FolderBrowserDialog. Let's see how.
 tags:
