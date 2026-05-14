@@ -4,7 +4,7 @@ categories:
 date: 2024-12-18T15:50:31Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Image by <a href="https://pixabay.com/users/gauravguptagkp-13556213/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6240469">GAURAV GUPTA</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6240469">Pixabay</a>
 slug: how-to-use-getstockicon-for-winforms
 summary: Buried deep in the list of .NET 8 improvements for WinForms is the GetStockIcon method. It gives us a way to access stock Windows icons at runtime for the OS the app is running on. Let's check it out.
 tags:
@@ -65,100 +65,100 @@ If you want to learn more, check out the [GetStockIcon](https://learn.microsoft.
 
 Lastly, since the StockIconId page doesn't include the actual _images_ of the icons, here's a list so you can see what they look like, at least in Windows 11:
 
-|Name|Value|Description|Image|
-|---|---|---|---|
-|DocumentNoAssociation|0|Document (blank page), no associated program.|![](DocumentNoAssociation-2.png)|
-|DocumentWithAssociation|1|Document with an associated program.|![](DocumentWithAssociation-2.png)|
-|Application|2|Generic application with no custom icon.|![](Application-2.png)|
-|Folder|3|Closed folder.|![](Folder-2.png)|
-|FolderOpen|4|Open folder.|![](FolderOpen-2.png)|
-|Drive525|5|5.25" floppy disk drive.|![](Drive525-2.png)|
-|Drive35|6|3.5" floppy disk drive.|![](Drive35-2.png)|
-|DriveRemovable|7|Removable drive.|![](DriveRemovable-2.png)|
-|DriveFixed|8|Fixed drive.|![](DriveFixed-2.png)|
-|DriveNet|9|Network drive.|![](DriveNet-2.png)|
-|DriveNetDisabled|10|Disabled network drive.|![](DriveNetDisabled-2.png)|
-|DriveCD|11|CD drive.|![](DriveCD-2.png)|
-|DriveRam|12|RAM disk drive.|![](DriveRam-2.png)|
-|World|13|Entire network.|![](World-2.png)|
-|Server|15|A computer on the network.|![](Server-2.png)|
-|Printer|16|Printer.|![](Printer-2.png)|
-|MyNetwork|17|My network places.|![](MyNetwork-2.png)|
-|Find|22|Find.|![](Find-2.png)|
-|Help|23|Help.|![](Help-2.png)|
-|Share|28|Overlay for shared items.|![](Share-2.png)|
-|Link|29|Overlay for shortcuts to items.|![](Link-2.png)|
-|SlowFile|30|Overlay for slow items.|![](SlowFile-2.png)|
-|Recycler|31|Empty recycle bin.|![](Recycler-2.png)|
-|RecyclerFull|32|Full recycle bin.|![](RecyclerFull-2.png)|
-|MediaCDAudio|40|Audio CD media.|![](MediaCDAudio-2.png)|
-|Lock|47|Security lock.|![](Lock-2.png)|
-|AutoList|49|AutoList.|![](AutoList-2.png)|
-|PrinterNet|50|Network printer.|![](PrinterNet-2.png)|
-|ServerShare|51|Server share.|![](ServerShare-2.png)|
-|PrinterFax|52|Fax printer.|![](PrinterFax-2.png)|
-|PrinterFaxNet|53|Networked fax printer.|![](PrinterFaxNet-2.png)|
-|PrinterFile|54|Print to file.|![](PrinterFile-2.png)|
-|Stack|55|Stack.|![](Stack-2.png)|
-|MediaSVCD|56|SVCD media.|![](MediaSVCD-2.png)|
-|StuffedFolder|57|Folder containing other items.|![](StuffedFolder-2.png)|
-|DriveUnknown|58|Unknown drive.|![](DriveUnknown-2.png)|
-|DriveDVD|59|DVD drive.|![](DriveDVD-2.png)|
-|MediaDVD|60|DVD media.|![](MediaDVD-2.png)|
-|MediaDVDRAM|61|DVD-RAM media.|![](MediaDVDRAM-2.png)|
-|MediaDVDRW|62|DVD-RW media.|![](MediaDVDRW-2.png)|
-|MediaDVDR|63|DVD-R media.|![](MediaDVDR-2.png)|
-|MediaDVDROM|64|DVD-ROM media.|![](MediaDVDROM-2.png)|
-|MediaCDAudioPlus|65|CD+ (Enhanced CD) media.|![](MediaCDAudioPlus-2.png)|
-|MediaCDRW|66|CD-RW media.|![](MediaCDRW-2.png)|
-|MediaCDR|67|CD-R media.|![](MediaCDR-2.png)|
-|MediaCDBurn|68|Burning CD.|![](MediaCDBurn-2.png)|
-|MediaBlankCD|69|Blank CD media.|![](MediaBlankCD-2.png)|
-|MediaCDROM|70|CD-ROM media.|![](MediaCDROM-2.png)|
-|AudioFiles|71|Audio files.|![](AudioFiles-2.png)|
-|ImageFiles|72|Image files.|![](ImageFiles-2.png)|
-|VideoFiles|73|Video files.|![](VideoFiles-2.png)|
-|MixedFiles|74|Mixed files.|![](MixedFiles-2.png)|
-|FolderBack|75|Folder back.|![](FolderBack-2.png)|
-|FolderFront|76|Folder front.|![](FolderFront-2.png)|
-|Shield|77|Security shield. Use for UAC prompts only.|![](Shield-2.png)|
-|Warning|78|Warning.|![](Warning-2.png)|
-|Info|79|Informational.|![](Info-2.png)|
-|Error|80|Error.|![](Error-2.png)|
-|Key|81|Key / secure.|![](Key-2.png)|
-|Software|82|Software.|![](Software-2.png)|
-|Rename|83|Rename.|![](Rename-2.png)|
-|Delete|84|Delete.|![](Delete-2.png)|
-|MediaAudioDVD|85|Audio DVD media.|![](MediaAudioDVD-2.png)|
-|MediaMovieDVD|86|Movied DVD media.|![](MediaMovieDVD-2.png)|
-|MediaEnhancedCD|87|Enhanced CD media.|![](MediaEnhancedCD-2.png)|
-|MediaEnhancedDVD|88|Enhanced DVD media.|![](MediaEnhancedDVD-2.png)|
-|MediaHDDVD|89|HD-DVD media.|![](MediaHDDVD-2.png)|
-|MediaBluRay|90|BluRay media.|![](MediaBluRay-2.png)|
-|MediaVCD|91|VCD media.|![](MediaVCD-2.png)|
-|MediaDVDPlusR|92|DVD+R media.|![](MediaDVDPlusR-2.png)|
-|MediaDVDPlusRW|93|DVD+RW media.|![](MediaDVDPlusRW-2.png)|
-|DesktopPC|94|Desktop computer.|![](DesktopPC-2.png)|
-|MobilePC|95|Mobile computer.|![](MobilePC-2.png)|
-|Users|96|Users.|![](Users-2.png)|
-|MediaSmartMedia|97|Smart media.|![](MediaSmartMedia-2.png)|
-|MediaCompactFlash|98|Compact Flash.|![](MediaCompactFlash-2.png)|
-|DeviceCellPhone|99|Cell phone.|![](DeviceCellPhone-2.png)|
-|DeviceCamera|100|Camera.|![](DeviceCamera-2.png)|
-|DeviceVideoCamera|101|Video camera.|![](DeviceVideoCamera-2.png)|
-|DeviceAudioPlayer|102|Audio player.|![](DeviceAudioPlayer-2.png)|
-|NetworkConnect|103|Connect to network.|![](NetworkConnect-2.png)|
-|Internet|104|Internet.|![](Internet-2.png)|
-|ZipFile|105|ZIP file.|![](ZipFile-2.png)|
-|Settings|106|Settings.|![](Settings-2.png)|
-|DriveHDDVD|132|HD-DVD drive.|![](DriveHDDVD-2.png)|
-|DriveBD|133|BluRay drive.|![](DriveBD-2.png)|
-|MediaHDDVDROM|134|HD-DVD-ROM media.|![](MediaHDDVDROM-2.png)|
-|MediaHDDVDR|135|HD-DVD-R media.|![](MediaHDDVDR-2.png)|
-|MediaHDDVDRAM|136|HD-DVD-RAM media.|![](MediaHDDVDRAM-2.png)|
-|MediaBDROM|137|BluRay-ROM media.|![](MediaBDROM-2.png)|
-|MediaBDR|138|BluRay-R media.|![](MediaBDR-2.png)|
-|MediaBDRE|139|BluRay-RE media.|![](MediaBDRE-2.png)|
-|ClusteredDrive|140|Clustered disk.|![](ClusteredDrive-2.png)|
+| Name                    | Value | Description                                   | Image                              |
+| ----------------------- | ----- | --------------------------------------------- | ---------------------------------- |
+| DocumentNoAssociation   | 0     | Document (blank page), no associated program. | ![](DocumentNoAssociation-2.png)   |
+| DocumentWithAssociation | 1     | Document with an associated program.          | ![](DocumentWithAssociation-2.png) |
+| Application             | 2     | Generic application with no custom icon.      | ![](Application-2.png)             |
+| Folder                  | 3     | Closed folder.                                | ![](Folder-2.png)                  |
+| FolderOpen              | 4     | Open folder.                                  | ![](FolderOpen-2.png)              |
+| Drive525                | 5     | 5.25" floppy disk drive.                      | ![](Drive525-2.png)                |
+| Drive35                 | 6     | 3.5" floppy disk drive.                       | ![](Drive35-2.png)                 |
+| DriveRemovable          | 7     | Removable drive.                              | ![](DriveRemovable-2.png)          |
+| DriveFixed              | 8     | Fixed drive.                                  | ![](DriveFixed-2.png)              |
+| DriveNet                | 9     | Network drive.                                | ![](DriveNet-2.png)                |
+| DriveNetDisabled        | 10    | Disabled network drive.                       | ![](DriveNetDisabled-2.png)        |
+| DriveCD                 | 11    | CD drive.                                     | ![](DriveCD-2.png)                 |
+| DriveRam                | 12    | RAM disk drive.                               | ![](DriveRam-2.png)                |
+| World                   | 13    | Entire network.                               | ![](World-2.png)                   |
+| Server                  | 15    | A computer on the network.                    | ![](Server-2.png)                  |
+| Printer                 | 16    | Printer.                                      | ![](Printer-2.png)                 |
+| MyNetwork               | 17    | My network places.                            | ![](MyNetwork-2.png)               |
+| Find                    | 22    | Find.                                         | ![](Find-2.png)                    |
+| Help                    | 23    | Help.                                         | ![](Help-2.png)                    |
+| Share                   | 28    | Overlay for shared items.                     | ![](Share-2.png)                   |
+| Link                    | 29    | Overlay for shortcuts to items.               | ![](Link-2.png)                    |
+| SlowFile                | 30    | Overlay for slow items.                       | ![](SlowFile-2.png)                |
+| Recycler                | 31    | Empty recycle bin.                            | ![](Recycler-2.png)                |
+| RecyclerFull            | 32    | Full recycle bin.                             | ![](RecyclerFull-2.png)            |
+| MediaCDAudio            | 40    | Audio CD media.                               | ![](MediaCDAudio-2.png)            |
+| Lock                    | 47    | Security lock.                                | ![](Lock-2.png)                    |
+| AutoList                | 49    | AutoList.                                     | ![](AutoList-2.png)                |
+| PrinterNet              | 50    | Network printer.                              | ![](PrinterNet-2.png)              |
+| ServerShare             | 51    | Server share.                                 | ![](ServerShare-2.png)             |
+| PrinterFax              | 52    | Fax printer.                                  | ![](PrinterFax-2.png)              |
+| PrinterFaxNet           | 53    | Networked fax printer.                        | ![](PrinterFaxNet-2.png)           |
+| PrinterFile             | 54    | Print to file.                                | ![](PrinterFile-2.png)             |
+| Stack                   | 55    | Stack.                                        | ![](Stack-2.png)                   |
+| MediaSVCD               | 56    | SVCD media.                                   | ![](MediaSVCD-2.png)               |
+| StuffedFolder           | 57    | Folder containing other items.                | ![](StuffedFolder-2.png)           |
+| DriveUnknown            | 58    | Unknown drive.                                | ![](DriveUnknown-2.png)            |
+| DriveDVD                | 59    | DVD drive.                                    | ![](DriveDVD-2.png)                |
+| MediaDVD                | 60    | DVD media.                                    | ![](MediaDVD-2.png)                |
+| MediaDVDRAM             | 61    | DVD-RAM media.                                | ![](MediaDVDRAM-2.png)             |
+| MediaDVDRW              | 62    | DVD-RW media.                                 | ![](MediaDVDRW-2.png)              |
+| MediaDVDR               | 63    | DVD-R media.                                  | ![](MediaDVDR-2.png)               |
+| MediaDVDROM             | 64    | DVD-ROM media.                                | ![](MediaDVDROM-2.png)             |
+| MediaCDAudioPlus        | 65    | CD+ (Enhanced CD) media.                      | ![](MediaCDAudioPlus-2.png)        |
+| MediaCDRW               | 66    | CD-RW media.                                  | ![](MediaCDRW-2.png)               |
+| MediaCDR                | 67    | CD-R media.                                   | ![](MediaCDR-2.png)                |
+| MediaCDBurn             | 68    | Burning CD.                                   | ![](MediaCDBurn-2.png)             |
+| MediaBlankCD            | 69    | Blank CD media.                               | ![](MediaBlankCD-2.png)            |
+| MediaCDROM              | 70    | CD-ROM media.                                 | ![](MediaCDROM-2.png)              |
+| AudioFiles              | 71    | Audio files.                                  | ![](AudioFiles-2.png)              |
+| ImageFiles              | 72    | Image files.                                  | ![](ImageFiles-2.png)              |
+| VideoFiles              | 73    | Video files.                                  | ![](VideoFiles-2.png)              |
+| MixedFiles              | 74    | Mixed files.                                  | ![](MixedFiles-2.png)              |
+| FolderBack              | 75    | Folder back.                                  | ![](FolderBack-2.png)              |
+| FolderFront             | 76    | Folder front.                                 | ![](FolderFront-2.png)             |
+| Shield                  | 77    | Security shield. Use for UAC prompts only.    | ![](Shield-2.png)                  |
+| Warning                 | 78    | Warning.                                      | ![](Warning-2.png)                 |
+| Info                    | 79    | Informational.                                | ![](Info-2.png)                    |
+| Error                   | 80    | Error.                                        | ![](Error-2.png)                   |
+| Key                     | 81    | Key / secure.                                 | ![](Key-2.png)                     |
+| Software                | 82    | Software.                                     | ![](Software-2.png)                |
+| Rename                  | 83    | Rename.                                       | ![](Rename-2.png)                  |
+| Delete                  | 84    | Delete.                                       | ![](Delete-2.png)                  |
+| MediaAudioDVD           | 85    | Audio DVD media.                              | ![](MediaAudioDVD-2.png)           |
+| MediaMovieDVD           | 86    | Movied DVD media.                             | ![](MediaMovieDVD-2.png)           |
+| MediaEnhancedCD         | 87    | Enhanced CD media.                            | ![](MediaEnhancedCD-2.png)         |
+| MediaEnhancedDVD        | 88    | Enhanced DVD media.                           | ![](MediaEnhancedDVD-2.png)        |
+| MediaHDDVD              | 89    | HD-DVD media.                                 | ![](MediaHDDVD-2.png)              |
+| MediaBluRay             | 90    | BluRay media.                                 | ![](MediaBluRay-2.png)             |
+| MediaVCD                | 91    | VCD media.                                    | ![](MediaVCD-2.png)                |
+| MediaDVDPlusR           | 92    | DVD+R media.                                  | ![](MediaDVDPlusR-2.png)           |
+| MediaDVDPlusRW          | 93    | DVD+RW media.                                 | ![](MediaDVDPlusRW-2.png)          |
+| DesktopPC               | 94    | Desktop computer.                             | ![](DesktopPC-2.png)               |
+| MobilePC                | 95    | Mobile computer.                              | ![](MobilePC-2.png)                |
+| Users                   | 96    | Users.                                        | ![](Users-2.png)                   |
+| MediaSmartMedia         | 97    | Smart media.                                  | ![](MediaSmartMedia-2.png)         |
+| MediaCompactFlash       | 98    | Compact Flash.                                | ![](MediaCompactFlash-2.png)       |
+| DeviceCellPhone         | 99    | Cell phone.                                   | ![](DeviceCellPhone-2.png)         |
+| DeviceCamera            | 100   | Camera.                                       | ![](DeviceCamera-2.png)            |
+| DeviceVideoCamera       | 101   | Video camera.                                 | ![](DeviceVideoCamera-2.png)       |
+| DeviceAudioPlayer       | 102   | Audio player.                                 | ![](DeviceAudioPlayer-2.png)       |
+| NetworkConnect          | 103   | Connect to network.                           | ![](NetworkConnect-2.png)          |
+| Internet                | 104   | Internet.                                     | ![](Internet-2.png)                |
+| ZipFile                 | 105   | ZIP file.                                     | ![](ZipFile-2.png)                 |
+| Settings                | 106   | Settings.                                     | ![](Settings-2.png)                |
+| DriveHDDVD              | 132   | HD-DVD drive.                                 | ![](DriveHDDVD-2.png)              |
+| DriveBD                 | 133   | BluRay drive.                                 | ![](DriveBD-2.png)                 |
+| MediaHDDVDROM           | 134   | HD-DVD-ROM media.                             | ![](MediaHDDVDROM-2.png)           |
+| MediaHDDVDR             | 135   | HD-DVD-R media.                               | ![](MediaHDDVDR-2.png)             |
+| MediaHDDVDRAM           | 136   | HD-DVD-RAM media.                             | ![](MediaHDDVDRAM-2.png)           |
+| MediaBDROM              | 137   | BluRay-ROM media.                             | ![](MediaBDROM-2.png)              |
+| MediaBDR                | 138   | BluRay-R media.                               | ![](MediaBDR-2.png)                |
+| MediaBDRE               | 139   | BluRay-RE media.                              | ![](MediaBDRE-2.png)               |
+| ClusteredDrive          | 140   | Clustered disk.                               | ![](ClusteredDrive-2.png)          |
 
 If you found this content useful, and would like to learn more about a variety of [C#](https://grantwinney.com/tags/csharp/) features, check out my [CSharpDotNetFeatures repo](https://github.com/grantwinney/CSharpDotNetFeatures), where you'll find links to plenty more blog posts and practical examples!
