@@ -4,7 +4,7 @@ categories:
 date: 2017-12-21T18:09:09Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-api-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@rubaitulazad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rubaitul Azad</a> on <a href="https://unsplash.com/photos/a-white-cube-with-colorful-shapes-on-a-green-and-yellow-background-WRTBo4wr4h8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: what-is-slack-api
 summary: Slack is a popular communication and collaboration tool, and their API gives us access to channels, messages, and more. Let's check it out!
 tags:
