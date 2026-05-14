@@ -4,7 +4,7 @@ categories:
 date: 2020-05-02T03:59:22Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by [Samidarefle](https://www.pexels.com/photo/mystical-book-in-forest-with-autumn-leaves-28847938/)
 slug: the-law-of-demeter-a-practical-example
 tags:
   - software-design
