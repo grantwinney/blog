@@ -4,7 +4,7 @@ categories:
 date: 2022-12-06T00:20:13Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@glenncarstenspeters?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Glenn Carstens-Peters</a> on <a href="https://unsplash.com/photos/person-writing-bucket-list-on-book-RLw-UC03Gwc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: convert-backgroundworker-to-task-with-taskcompletionsource
 summary: Sometimes the safer way to "update" old code is to leave it be and paint over it with a newer construct. Let's see how to modernize a BackgroundWorker using Tasks and TaskCompletionSource.
 tags:
@@ -189,9 +189,9 @@ public partial class frmCallBackgroundWorker : Form
 
 If things run successfully, the user gets a nice message using the data returned from the two API calls.
 
-![](image.png)
+![](call-backgroundworker-1.png)
 
-![](image-1.png)
+![](call-backgroundworker-2.png)
 
 ## Approach #2: Wrapping the BackgroundWorker in a Task
 
@@ -299,11 +299,11 @@ private async void btnGetData_Click(object sender, EventArgs e)
 }
 ```
 
-![](image-4.png)
+![](backgroundworker-task-1.png)
 
-![](image-2.png)
+![](backgroundworker-task-2.png)
 
-![](image-3.png)
+![](backgroundworker-task-3.png)
 
 [Grab the example from GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Threading/TaskCompletion) and try it out yourself. Good luck!
 
