@@ -2,12 +2,10 @@
 title:
 slug:
 summary:
-description:
-date:
+featureImageAttr:
 draft: true
-postimage:
-postimagealt:
-postimagecaption:
+date:
+lastmod:
 categories:
   - 
 tags:
