@@ -2,6 +2,7 @@
 title: Generate Links for Headers
 slug: generate-links-for-headers
 summary: Ever wanted to share a link, not just to a webpage, but to a particular section of a webpage? This extension automatically generates links for all headers on the page, to make it easier to share links that jump to a specific section.
+featureImageAttr: Photo by <a href="https://unsplash.com/@enginakyurt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">engin akyurt</a> on <a href="https://unsplash.com/photos/a-metal-object-sitting-on-top-of-a-sandy-beach-c4pr2doyAJo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 date: 2019-07-08T19:16:16Z
 description: ""
 draft: false
