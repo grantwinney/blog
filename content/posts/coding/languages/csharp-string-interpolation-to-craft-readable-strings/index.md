@@ -4,7 +4,7 @@ categories:
 date: 2022-09-19T10:30:18Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@emmages?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emmanuel Ikwuegbu</a> on <a href="https://unsplash.com/photos/a-red-knot-on-a-blue-background-Xn4PKeYa0Eg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: using-string-interpolation-to-craft-readable-strings
 summary: The longer I write software, the more I come to appreciate clear code. String interpolation in C# is just one more way to help us do that.
 tags:
