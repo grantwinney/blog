@@ -4,7 +4,7 @@ categories:
 date: 2024-12-14T22:32:43Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@sergeykotenev?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sergey Kotenev</a> on <a href="https://unsplash.com/photos/a-slab-of-raw-meat-on-a-cutting-board-with-vegetables-and-a-bowl-of-sauce-ZKv9WGWMOLk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: using-raw-string-literals-in-csharp
 summary: C# 11 added raw string literals, not a life-altering new feature, but they could be useful in the right circumstances. Let's see how to use them.
 tags:
