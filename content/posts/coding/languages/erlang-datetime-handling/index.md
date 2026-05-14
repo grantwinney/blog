@@ -4,7 +4,7 @@ categories:
 date: 2018-09-03T14:48:51Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by [Leeloo The First](https://www.pexels.com/photo/brown-framed-eyeglasses-on-a-calendar-5386754/)
 slug: a-few-thoughts-on-datetime-handling-in-erlang
 aliases:
 summary: Handling date and times is a thorn in every experienced developer's side. If you haven't had the pleasure yet, you will. ;) Coming off a week of standardizing some datetimes across an Erlang app, here's a few personal thoughts.
