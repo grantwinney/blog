@@ -4,7 +4,7 @@ categories:
 date: 2021-12-30T01:53:29Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@aaronlee224?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aaron Lee</a> on <a href="https://unsplash.com/photos/white-and-beige-string-light-sndE-_S92R8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: using-nameof-to-avoid-magic-strings
 summary: There's a lot of ways to make our code work for us. Let's check out using the nameof operator to avoid magic strings.
 tags:
@@ -89,7 +89,7 @@ private void btnSave_Click(object sender, EventArgs e)
 
 Then not only will you get a compiler error that _forces_ you to update those messages if the method name changes, but doing a "rename" through Visual Studio will highlight all those instances in the log messages and rename them at the same time.
 
-![](image-12.png)
+![](vs-rename-event-method.png)
 
 Try out the code yourself and check out the logs.
 
@@ -126,7 +126,7 @@ public class DatabaseLayer
 
 By using `nameof`, renaming the other method will cause a compilation error and force you to go changing the name everywhere.
 
-![](image-14.png)
+![](nameof-rename-warning.png)
 
 With C# 10, you're supposed to be able to use string interpolation in the Obsolete attribute itself, like this. But I tried it, and when I add the `$` to the string, it still marks the method as deprecated, but it ignores the message and the "error" flag when it's set to true. Hopefully they get that fixed.
 
@@ -152,7 +152,7 @@ public string UserId
 
 You could turn around and display that message to the user, or maybe just log it and display something a little more friendly.
 
-![](image-15.png)
+![](using-nameof-in-exception-msg.png)
 
 I'm sure there's a lot more places you could use this too. If you come up with any good ones (or any bad ones, lol) let me know in a comment below!
 
