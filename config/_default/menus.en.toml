@@ -29,7 +29,7 @@ weight = 45
 
 [[main]]
 pre = "rss"
-url = "index.xml"
+url = "https://grantwinney.com/index.xml"
 identifier = "Npb6xugTVb"
 weight = 50
 
