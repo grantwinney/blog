@@ -4,7 +4,7 @@ categories:
 date: 2023-01-05T00:38:03Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Winkler</a> on <a href="https://unsplash.com/photos/white-and-black-jigsaw-puzzle-aYPtEknQmXE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: using-tuple-and-deconstruction-to-return-multiple-values
 summary: A big challenge with any language is trying to group and organize things sensibly, and returning multiple values is no exception. Let's check out Tuples and deconstruction, and see how they can help us out.
 tags:
