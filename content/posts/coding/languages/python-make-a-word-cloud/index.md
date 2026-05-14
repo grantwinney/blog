@@ -4,7 +4,7 @@ categories:
 date: 2020-06-04T21:43:00Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@mawiswiss?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marc Wieland</a> on <a href="https://unsplash.com/photos/cloud-photo-zrj-TPjcRLA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: how-to-make-a-word-cloud-in-python
 summary: We've all seen word clouds, like in the sidebars of blogs, but let's see how we might create our own with a little bit of code!
 tags:
