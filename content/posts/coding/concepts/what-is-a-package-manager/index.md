@@ -4,7 +4,7 @@ categories:
 date: 2019-10-03T17:09:27Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-explore-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@iamrohitchoudhari?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rohit Choudhari</a> on <a href="https://unsplash.com/photos/a-large-pile-of-brown-cardboard-boxes-with-blue-tape-qO2ztAz5g7A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: whats-a-package-manager
 summary: If you've heard the term package manager, especially with GitHub announcing their own, you might be wondering what exactly it is. Well, it's a way to find, reuse, and share code, among other things.
 tags:
