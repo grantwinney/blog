@@ -4,7 +4,7 @@ categories:
 date: 2017-11-01T16:50:27Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@joel_herzog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">joel herzog</a> on <a href="https://unsplash.com/photos/gray-and-brown-lion-face-pQmu6_4VDaI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: taming-the-erlang-beast
 summary: Becoming an Erlang developer has not always been easy, but over the last couple of years I've learned a few ways to tame the beast. It doesn't need to become any other language, but there's definitely room for improving the developer experience!
 tags:
