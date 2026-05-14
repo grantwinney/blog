@@ -4,7 +4,7 @@ categories:
 date: 2021-12-07T15:37:03Z
 lastmod:
 draft: false
-featureImageAttr:
+featureImageAttr: Photo by [Fernando Arcos](https://www.pexels.com/photo/white-caution-cone-on-keyboard-211151/)
 slug: the-helpful-exception-box
 summary: If you're in a legacy codebase with a centralized "message box" form, why not add some features that make it work for you? 😏
 tags:
