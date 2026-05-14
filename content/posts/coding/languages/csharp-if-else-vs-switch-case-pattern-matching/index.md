@@ -4,7 +4,7 @@ categories:
 date: 2023-11-03T16:35:50Z
 lastmod:
 draft: false
-featureImage: https://grantwinney.com/banners/default-learn-banner.webp
+featureImageAttr: Photo by <a href="https://unsplash.com/@koushikc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Koushik Chowdavarapu</a> on <a href="https://unsplash.com/photos/brown-white-and-yellow-floral-pattern-aWBPk_GBaCk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 slug: if-else-vs-switch-case-pattern-matching
 summary: "A look at if/else, switch/case, pattern matching, other options ... and which is best. (spoiler: none ;) )"
 tags:
