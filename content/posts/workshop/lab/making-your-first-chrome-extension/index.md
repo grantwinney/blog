@@ -8,7 +8,7 @@ date: 2017-08-16T10:27:33Z
 lastmod: 
 categories:
 topics:
-  - browser-extension
+  - Browser Extension
 aliases:
   - /chrome-extensions-a-peek-under-the-hood
 ---

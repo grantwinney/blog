@@ -5,10 +5,9 @@ summary: Last summer, I found this “Smithsonian Motor-Works” set at a garage
 featureImageAttr: Photo by [Sergei Starostin](https://www.pexels.com/photo/close-up-of-camshaft-in-engine-assembly-29226626/)
 draft: false
 date: 2016-02-06T11:55:48Z
-lastmod: 
+lastmod:
 categories:
 topics:
-  - stem
 aliases:
 ---
 Garage sales are great for finding random, interesting things to do with the kids, usually for dirt cheap. Last summer, I found this “Smithsonian Motor-Works” set for $5, which I figured was a steal. Once built, it’s supposed to model a 4-stroke internal combustion engine.

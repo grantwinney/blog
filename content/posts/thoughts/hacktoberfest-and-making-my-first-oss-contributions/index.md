@@ -7,7 +7,7 @@ draft: false
 date: 2015-11-12T07:27:00Z
 lastmod:
 categories:
-  - Reflection
+  - Reflections
 topics:
   - OSS
 aliases:

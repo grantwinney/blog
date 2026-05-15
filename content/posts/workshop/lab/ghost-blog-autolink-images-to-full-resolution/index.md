@@ -8,7 +8,7 @@ date: 2018-01-22T03:41:27Z
 lastmod: 
 categories:
 topics:
-  - ghost-blog
+  - Ghost Blog
 aliases:
 ---
 ## The Problem

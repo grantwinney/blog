@@ -7,7 +7,7 @@ draft: false
 date: 2020-10-11T03:00:46Z
 lastmod:
 categories:
-  - Reflection
+  - Reflections
 topics:
 aliases:
 ---

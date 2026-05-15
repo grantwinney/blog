@@ -7,7 +7,7 @@ draft: false
 date: 2023-12-04T22:22:49Z
 lastmod:
 categories:
-  - Reflection
+  - Reflections
 topics:
   - Collaboration
 aliases:

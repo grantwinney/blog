@@ -8,7 +8,7 @@ date: 2026-04-28T18:51:00
 lastmod: 
 categories:
 topics:
-  - browser-extension
+  - Browser Extension
   - javascript
 aliases:
 ---

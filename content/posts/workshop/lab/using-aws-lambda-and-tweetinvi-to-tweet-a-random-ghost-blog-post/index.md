@@ -10,7 +10,7 @@ categories:
 topics:
   - aws
   - aws-lambda
-  - ghost-blog
+  - Ghost Blog
 aliases:
 ---
 If you've got a Twitter (now X) account, and a blog with a lot of content, sharing your posts from time to time can be a nice way to drive a little extra traffic to your site. Plus, sharing your experience and knowledge could very well help someone out who would not have found your post otherwise.

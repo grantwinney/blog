@@ -8,9 +8,9 @@ date: 2022-06-06T11:30:43Z
 lastmod:
 categories:
 topics:
-  - browser-extension
+  - Browser Extension
   - code-review
-  - google
+  - Google
   - mv3
 aliases:
 ---

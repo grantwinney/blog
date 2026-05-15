@@ -5,10 +5,10 @@ summary: Every Google calendar URL has an iCal file you can use... here's how to
 featureImageAttr: Photo by [Leeloo The First](https://www.pexels.com/photo/brown-framed-eyeglasses-on-a-calendar-5386754/)
 draft: false
 date: 2020-02-28T03:42:32Z
-lastmod: 
+lastmod:
 categories:
 topics:
-  - google
+  - Google
 aliases:
 ---
 If you already know why you're here, then visit the CodePen link below, plug-in the public URL (or the calendar ID) from the calendar settings page, and click the appropriate button to get the iCal link.

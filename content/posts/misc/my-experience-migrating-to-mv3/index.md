@@ -5,12 +5,11 @@ summary: I migrated my addons to MV3, and learned that version numbers increase,
 featureImageAttr: Photo by <a href="https://unsplash.com/@jorgetung?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jorge Tung</a> on <a href="https://unsplash.com/photos/herd-of-bulls-1pZJqQlgpsY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2022-11-19T22:09:03Z
-lastmod: 
+lastmod:
 categories:
 topics:
-  - browser-extension
-  - google
-  - mv3
+  - Browser Extension
+  - Google
 aliases:
 ---
 Over the summer [I wrote about Google's forced manifest v3 update](https://grantwinney.com/what-is-manifest-v3-and-why-is-google-pestering-me), and was up in the air about whether to bother figuring it out. Well, with only about 6 weeks left _(actually, things got_ [_pushed out even more_](https://developer.chrome.com/docs/extensions/mv3/mv2-sunset/) _since the_ [_original article_](https://web.archive.org/web/20210923221800/https://developer.chrome.com/docs/extensions/mv3/mv2-sunset/)_),_ I decided to give it another go, mostly because a good number of people have found [Hide Comments Everywhere](https://grantwinney.com/hide-comments-everywhere/) to be helpful.

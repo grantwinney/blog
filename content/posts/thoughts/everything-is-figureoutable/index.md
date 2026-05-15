@@ -7,7 +7,7 @@ draft: true
 date:
 lastmod:
 categories:
-  - Reflection
+  - Reflections
 topics:
 aliases:
 ---

@@ -5,11 +5,12 @@ summary: A few years ago, on the 30th anniversary of the Legend of Zelda, Scott 
 featureImageAttr: Photo by <a href="https://unsplash.com/@sunnydays22?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sun Cathuria</a> on <a href="https://unsplash.com/photos/link-from-legend-of-zelda-in-a-fighting-pose-PBxadn-ITg8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2020-09-09T16:28:52Z
-lastmod: 
+lastmod:
 categories:
 topics:
-  - nodejs
-  - retro
+  - NodeJS
+  - Retro
+  - Game
 aliases:
 ---
 Nearly 30 years ago, I remember being at one family thing or another, when my cousin brought out his new SNES game console and hooked it up to a little color TV. He popped in a game that I immediately fell in love with (hey I was like 12), although I had no idea who or what Zelda was.
