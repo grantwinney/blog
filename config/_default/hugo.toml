@@ -51,7 +51,7 @@ enableEmoji = true
   toLower = false
 
     [[related.indices]]
-        name = "tags"
+        name = "topics"
         weight = 100
 
     [[related.indices]]
