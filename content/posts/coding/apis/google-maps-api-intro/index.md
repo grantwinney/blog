@@ -8,7 +8,7 @@ date: 2017-12-23T04:10:01Z
 lastmod:
 categories:
   - API
-  - what ever
+  - C# 10
 tags:
   - google
 aliases:
