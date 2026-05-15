@@ -5,11 +5,13 @@ summary: One of the smaller updates to make it into .NET 9 for WinForms was allo
 featureImageAttr: Photo by [Anete Lusina](https://www.pexels.com/photo/person-choosing-document-in-folder-4792285/)
 draft: false
 date: 2024-12-19T22:41:10Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
+  - WinForms
+labels: .NET 9
 tags:
   - dotnet-9
-  - winforms
 aliases:
 ---
 It's great that, even after so many years, the teams at Microsoft continue to add updates to their oldest technologies with every .NET release. WinForms recently got a particularly small one, in .NET 9, that allows the FolderBrowserDialog to select multiple directories instead of one, so let's check it out (it won't take long, lol).
