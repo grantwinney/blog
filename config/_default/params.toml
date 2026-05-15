@@ -21,14 +21,13 @@ buymeacoffee = { }
 verification = { }
 rssnext = { }
 advertisement = { }
-disableImageZoom = ""
+disableImageZoom = "false"
 smartTOC = true
 smartTOCHideUnfocusedChildren = false
-imagePosition = ""
+imagePosition = "left"
 highlightCurrentMenuArea = false
-enableStyledScrollbar = ""
+enableStyledScrollbar = "true"
 defaultBackgroundImage = "/images/default-featured.webp"
-backgroundImageWidth = ""
 
 [header]
 layout = "fixed"
@@ -79,7 +78,7 @@ showAuthorsBadges = false
 showWordCount = false
 showZenMode = false
 showRelatedContent = true
-relatedContentLimit = "3"
+relatedContentLimit = 3
 showCategoryOnly = false
 showComments = true
 heroStyle = "background"
