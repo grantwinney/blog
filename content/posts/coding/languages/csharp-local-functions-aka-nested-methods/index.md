@@ -9,6 +9,7 @@ lastmod:
 categories:
   - Coding
 topics:
+  - C#
   - C# 7
 aliases:
 ---

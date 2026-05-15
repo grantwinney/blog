@@ -9,6 +9,7 @@ lastmod:
 categories:
   - Coding
 topics:
+  - C#
   - C# 7
 aliases:
   - /adding-deconstructors-in-csharp-is-it-worth-it

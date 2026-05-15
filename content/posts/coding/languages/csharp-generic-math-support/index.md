@@ -9,6 +9,7 @@ lastmod:
 categories:
   - Coding
 topics:
+  - C#
   - C# 11
 aliases:
   - /whats-generic-math-support-in-csharp

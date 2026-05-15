@@ -11,6 +11,7 @@ categories:
 topics:
   - C# 11
   - .NET 7
+  - C#
 aliases:
 ---
 Some of the many additions to C# and the .NET Framework are huge (like LINQ or async), while others are much smaller. I'd definitely place raw string literals in the latter group, but then maybe I'm missing something. They're still worth a look though.
