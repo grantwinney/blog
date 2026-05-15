@@ -9,7 +9,8 @@ lastmod:
 categories:
   - Coding
   - WinForms
-labels: .NET 9
+labels:
+  - .NET 9
 tags:
   - dotnet-9
 aliases:
