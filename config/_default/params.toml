@@ -83,6 +83,7 @@ relatedContentLimit = ""
 showCategoryOnly = false
 showComments = true
 heroStyle = "background"
+showSidebar = true
 
 [list]
 showHero = false
@@ -100,6 +101,7 @@ groupByYear = true
 cardView = false
 cardViewScreenWidth = false
 constrainItemsWidth = false
+showSidebar = true
 
 [sitemap]
 excludedKinds = [ "taxonomy", "term" ]
