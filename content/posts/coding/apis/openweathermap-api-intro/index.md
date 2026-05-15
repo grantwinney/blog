@@ -5,8 +5,9 @@ summary: OpenWeatherMap provides free access to extensive weather data - current
 featureImageAttr: Photo by <a href="https://unsplash.com/@markkoenig?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mark König</a> on <a href="https://unsplash.com/photos/red-and-white-flag-under-blue-sky-during-daytime-OsYYPaPgIjw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2017-12-29T15:33:04Z
-lastmod: 
+lastmod:
 categories:
+  - API
 tags:
   - climate
 aliases:

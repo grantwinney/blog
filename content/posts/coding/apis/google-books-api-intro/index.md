@@ -5,8 +5,9 @@ summary: The Google Books API provides access to Google Books, which lets you se
 featureImageAttr: Photo by <a href="https://unsplash.com/@syinq?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Susan Q Yin</a> on <a href="https://unsplash.com/photos/books-on-brown-wooden-shelf-2JIvboGLeho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2018-01-31T00:07:00Z
-lastmod: 
+lastmod:
 categories:
+  - API
 tags:
   - google
 aliases:

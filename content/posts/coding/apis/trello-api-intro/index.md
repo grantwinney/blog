@@ -5,8 +5,9 @@ summary: Trello is a virtual kanban board... or a nice to-do list if you're goin
 featureImageAttr: Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7680312">Gerd Altmann</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7680312">Pixabay</a>
 draft: false
 date: 2017-12-27T20:45:59Z
-lastmod: 
+lastmod:
 categories:
+  - API
 tags:
   - trello
 aliases:

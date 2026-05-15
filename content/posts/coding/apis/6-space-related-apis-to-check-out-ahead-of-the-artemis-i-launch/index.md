@@ -5,8 +5,9 @@ summary: The week of NASA launching Artemis I is a good time to check a few of t
 featureImageAttr: Photo by <a href="https://unsplash.com/@gferla?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Guillermo Ferla</a> on <a href="https://unsplash.com/photos/black-hole-galaxy-illustration-Oze6U2m1oYU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 draft: false
 date: 2022-08-28T18:23:48Z
-lastmod: 
+lastmod:
 categories:
+  - API
 tags:
   - astronomy
 aliases:

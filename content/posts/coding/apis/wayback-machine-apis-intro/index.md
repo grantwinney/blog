@@ -5,8 +5,9 @@ summary: The Wayback Machine, a product of the Internet Archive, is an ambitious
 featureImageAttr: Photo by <a href="https://unsplash.com/@_staticvoid?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lucas Santos</a> on <a href="https://unsplash.com/photos/gold-and-silver-round-chronograph-watch-r-UaSYUqF9o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2018-06-24T20:02:24Z
-lastmod: 
+lastmod:
 categories:
+  - API
 tags:
   - archiving
 aliases:

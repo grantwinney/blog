@@ -5,8 +5,9 @@ summary: The US Census Bureau APIs provide free access to geolocation data, as w
 featureImageAttr: Photo by [RDNE Stock project](https://www.pexels.com/photo/black-pen-on-blue-paper-7580843)
 draft: false
 date: 2017-12-30T23:01:30Z
-lastmod: 
+lastmod:
 categories:
+  - API
 tags:
 aliases:
   - /day-13-us-census-bureau-api

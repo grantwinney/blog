@@ -5,8 +5,9 @@ summary: The Twitter API lets you access tweets, users who tweet, metadata, mani
 featureImageAttr: Photo by <a href="https://unsplash.com/@rubaitulazad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rubaitul Azad</a> on <a href="https://unsplash.com/photos/a-white-cube-with-a-blue-twitter-logo-on-it-ryR-_1kgja8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2017-12-16T04:58:47Z
-lastmod: 
+lastmod:
 categories:
+  - API
 tags:
   - twitter
 aliases:

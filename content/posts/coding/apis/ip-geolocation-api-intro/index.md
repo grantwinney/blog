@@ -5,8 +5,9 @@ summary: Last year I caught an article about a simple, free service called ipify
 featureImageAttr: Photo by [Lara Jameson](https://www.pexels.com/photo/close-up-og-pins-in-a-world-map-8828584/)
 draft: false
 date: 2019-02-12T11:47:00Z
-lastmod: 
+lastmod:
 categories:
+  - API
 tags:
   - geolocation
 aliases:

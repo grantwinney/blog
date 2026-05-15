@@ -5,11 +5,11 @@ summary: Pull requests are a chance to ask, learn, and make sure that the code b
 featureImageAttr: Photo by <a href="https://www.pexels.com/photo/a-marker-near-checked-circles-on-white-paper-11412596/">Towfiqu barbhuiya</a>
 draft: false
 date: 2025-11-02T01:04:00
-lastmod: 
+lastmod:
 categories:
 tags:
   - code-review
-  - teamwork
+  - collaboration
 aliases:
 ---
 Despite a few side projects and a lot of playing around (like on this blog), the vast majority of the code I'll ever write will be for large projects shared by dozens or even hundreds of developers, all of them contributing to millions of lines written over *decades*. I'll come along, merge a few changes and add a few more layers to the code cake, and a hundred more developers (who knows, maybe even you?) will add even more in the years to come.

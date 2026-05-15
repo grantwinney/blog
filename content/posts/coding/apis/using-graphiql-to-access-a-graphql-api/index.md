@@ -5,8 +5,9 @@ summary: GraphQL is bundled with GraphiQL, which lets us run queries right in th
 featureImageAttr: Image by <a href="https://pixabay.com/users/placidplace-25572496/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7776034">Iris,Helen,silvy</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7776034">Pixabay</a>
 draft: false
 date: 2019-09-26T03:38:30Z
-lastmod: 
+lastmod:
 categories:
+  - API
 tags:
   - graphql
 aliases:
