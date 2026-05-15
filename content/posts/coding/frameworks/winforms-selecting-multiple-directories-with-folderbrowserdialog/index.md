@@ -11,8 +11,6 @@ categories:
   - WinForms
 topics:
   - .NET 9
-topics:
-  - dotnet-9
 aliases:
 ---
 It's great that, even after so many years, the teams at Microsoft continue to add updates to their oldest technologies with every .NET release. WinForms recently got a particularly small one, in .NET 9, that allows the FolderBrowserDialog to select multiple directories instead of one, so let's check it out (it won't take long, lol).
