@@ -5,10 +5,10 @@ summary: Changed the default value for a report parameter, but it's not actually
 featureImageAttr: Image by <a href="https://pixabay.com/users/mariakray-23567841/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6765401">Mariakray</a>
 draft: false
 date: 2024-01-31T02:40:31Z
-lastmod: 
+lastmod:
 categories:
+  - Tools
 topics:
-  - ssrs
 aliases:
 ---
 I recently had to figure out why a minor change to an SSRS report wasn't deploying correctly. It was just a minor change to the default value of a parameter on one report, nothing special.

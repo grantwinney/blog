@@ -5,10 +5,11 @@ summary: If you're unfamiliar with Git's "alias" feature, it provides a way to 
 featureImageAttr: Photo by [DS stories](https://www.pexels.com/photo/opposite-wooden-arrows-7679937/)
 draft: false
 date: 2017-01-28T13:07:51Z
-lastmod: 
+lastmod:
 categories:
+  - Tools
 topics:
-  - git
+  - Git
 aliases:
   - /what-is-a-git-alias-and-how-do-i-use-it
 ---

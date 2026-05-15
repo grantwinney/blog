@@ -8,7 +8,7 @@ date: 2020-04-04T19:01:02Z
 lastmod: 
 categories:
 topics:
-  - github
+  - GitHub
 aliases:
 ---
 Git is the defacto vcs for most developers today. It happens to lend itself well to all kinds of not-strictly-code-related things too, like [collaborative list making](https://grantwinney.com/github-a-tool-for-collaborative-list-making/) and [other surprising purposes](https://reclaimthenet.org/china-github-coronavirus-censorship/).

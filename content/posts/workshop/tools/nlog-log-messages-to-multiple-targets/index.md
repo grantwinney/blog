@@ -5,13 +5,13 @@ summary: When it comes to finding a bug in an app, few things beat a good trail 
 featureImageAttr: Image by <a href="https://pixabay.com/users/wal_172619-12138562/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7218191">wal_172619</a>
 draft: false
 date: 2023-07-02T03:09:24Z
-lastmod: 
+lastmod:
 categories:
+  - Tools
 topics:
-  - logging
-  - nlog
-  - surviving-winforms
-  - winforms
+  - WinForms
+  - NLog
+  - Logging
 aliases:
 ---
 When it comes to finding a bug in an app, few things beat a good trail of logs. And for writing those logs, few tools beat NLog in simplicity or flexibility. I rarely appreciate just _how_ flexible it is though, so it's worth spending a little time taking a closer look.

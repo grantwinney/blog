@@ -8,7 +8,7 @@ date: 2019-05-22T02:23:58Z
 lastmod: 
 categories:
 topics:
-  - github
+  - GitHub
   - mfa
   - security
 aliases:

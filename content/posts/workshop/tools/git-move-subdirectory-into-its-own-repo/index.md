@@ -5,10 +5,11 @@ summary: Need to pull a subdirectory out of repo A and create a new repo B out w
 featureImageAttr: Photo by [flavio ruiz segura](https://www.pexels.com/photo/vintage-van-moving-furniture-on-highway-36447640/)
 draft: false
 date: 2021-07-30T03:38:23Z
-lastmod: 
+lastmod:
 categories:
+  - Tools
 topics:
-  - git
+  - Git
 aliases:
 ---
 I moved a project that was in a subdirectory of a larger, pretty much unrelated, repository. I don't know who thought it belonged there to begin with, but it was my first go at pulling something like that out into its own repo.

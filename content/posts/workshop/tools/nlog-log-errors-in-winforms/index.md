@@ -5,13 +5,13 @@ summary: Logs are a great tool for squashing bugs and tracing errors. Let's see 
 featureImageAttr: Photo by <a href="https://unsplash.com/@earl_plannerzone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Earl Wilcox</a> on <a href="https://unsplash.com/photos/a-bunch-of-books-that-are-on-a-shelf-BBB43pd1U2A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2021-10-09T15:53:15Z
-lastmod: 
+lastmod:
 categories:
+  - Tools
 topics:
-  - logging
-  - nlog
-  - surviving-winforms
-  - winforms
+  - Logging
+  - WinForms
+  - NLog
 aliases:
 ---
 What's more annoying than a bug in your code? Not knowing _why_ there's a bug in your code! I've worked in code bases before that have little to no logging, and it's awful. When an exception is thrown, .NET tells us what and where, including the long chain of method calls (stack trace) all the way back to the origin. To not make a note of that somewhere is a shame.. and a waste of everyone's time! Some people love debugging. I'm not one of them.

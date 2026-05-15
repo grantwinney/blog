@@ -5,8 +5,9 @@ summary: Do you prefer reading or doing? How about both? DotNet Try pulls in C# 
 featureImageAttr: Photo by [Daniil Komov](https://www.pexels.com/photo/close-up-of-programming-code-on-computer-screen-34803988/)
 draft: false
 date: 2021-05-29T21:40:16Z
-lastmod: 
+lastmod:
 categories:
+  - Tools
 topics:
   - Documentation
   - .NET

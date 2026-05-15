@@ -8,8 +8,8 @@ date: 2017-01-16T07:52:51Z
 lastmod: 
 categories:
 topics:
-  - git
-  - github
+  - Git
+  - GitHub
 aliases:
 ---
 For software developers, GitHub is a useful (possibly even indispensable) tool. We use it for our personal projects, finding new libraries to use, and collaborating as a team. There’s a feature of every GitHub repo that I hear little about and rarely think about – the wiki.

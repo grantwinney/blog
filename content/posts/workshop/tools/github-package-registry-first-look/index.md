@@ -5,10 +5,11 @@ summary: Most of us host something (and some of us everything) on GitHub, especi
 featureImageAttr: Photo by <a href="https://unsplash.com/@magicunsplash?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Magic Fan</a> on <a href="https://unsplash.com/photos/a-pile-of-brown-paper-packages-WYJrRinnABY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2019-10-06T03:55:19Z
-lastmod: 
+lastmod:
 categories:
+  - Tools
 topics:
-  - github
+  - GitHub
 aliases:
 ---
 A few prerequisites before we dig in...

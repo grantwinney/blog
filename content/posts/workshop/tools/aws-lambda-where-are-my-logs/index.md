@@ -5,10 +5,11 @@ summary: In a new AWS Lambda function, logging is initially disabled. Lets see h
 featureImageAttr: Photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-book-with-white-pages-IOgRrMSarlg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2019-11-07T18:04:08Z
-lastmod: 
+lastmod:
 categories:
+  - Tools
 topics:
-  - aws-lambda
+  - AWS Lambda
 aliases:
 ---
 I setup an AWS Lambda job recently, and then added a trigger to run it every morning. I checked it one morning and realized:

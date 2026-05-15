@@ -5,8 +5,9 @@ summary: On installing VS 2026, I noticed the year's missing on the shortcut. It
 featureImageAttr: Photo by [Rubaitul Azad](https://unsplash.com/@rubaitulazad) on [Unsplash](https://unsplash.com/photos/a-white-dice-with-a-purple-letter-on-it-xgcCGDGIcfY)
 draft: false
 date: 2026-01-19T11:52:00
-lastmod: 
+lastmod:
 categories:
+  - Tools
 topics:
   - Visual Studio
   - VS2026

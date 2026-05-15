@@ -8,7 +8,7 @@ date: 2019-02-06T11:54:00Z
 lastmod: 
 categories:
 topics:
-  - github
+  - GitHub
 aliases:
 ---
 If you frequently use GitHub, then you know any directory with a Readme markdown file in it automagically displays it, making it a convenient place to let visitors know helpful information about a project... about setting it up, how to contact the author, where to turn for help, etc.

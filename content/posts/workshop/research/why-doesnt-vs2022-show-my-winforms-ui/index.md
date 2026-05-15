@@ -10,7 +10,7 @@ categories:
 topics:
   - Visual Studio
   - VS2022
-  - winforms
+  - WinForms
 aliases:
 ---
 After migrating some newer projects at work from .NET Core 3.1 (which reached [end of support](https://devblogs.microsoft.com/dotnet/net-core-3-1-will-reach-end-of-support-on-december-13-2022/) a month ago) to .NET 6, I sent a quick message to my teammates about installing VS 2022, which is required to work on .NET 6 apps. That naturally brought up the question about whether we'd be able to use VS 2022 to work on the WinForms app that is our main bread and butter. It works just fine in VS 2019, so it should work in VS 2022, right? Except it doesn't.

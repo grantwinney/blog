@@ -5,10 +5,10 @@ summary: I recently discovered the constraint model in NUnit. It's been there fo
 featureImageAttr: Image by <a href="https://pixabay.com/users/philippedelavie-2385047/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1336663">Philippe Delavie</a>
 draft: false
 date: 2023-06-26T10:45:44Z
-lastmod: 
+lastmod:
 categories:
+  - Tools
 topics:
-  - nunit
   - Testing
 aliases:
 ---

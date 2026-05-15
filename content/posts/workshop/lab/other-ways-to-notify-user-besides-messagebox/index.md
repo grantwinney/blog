@@ -10,7 +10,7 @@ categories:
 topics:
   - C#
   - surviving-winforms
-  - winforms
+  - WinForms
 aliases:
 ---
 I think all of us would agree that when we're notified about something, it's best to have it jammed in front of our faces, interrupting whatever else we're doing until we deal with it. The latest issue, whatever it is, is the most pressing and should demand our immediate attention. This is the way. 😑

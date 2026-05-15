@@ -5,12 +5,12 @@ summary: Today I'm wrapping my head around a build tool called Ansible, used for
 featureImageAttr: Photo by <a href="https://unsplash.com/@hamburgmeinefreundin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wolfgang Weiser</a> on <a href="https://unsplash.com/photos/water-droplets-reflect-a-vibrant-colorful-background-iEeYNNM9oHw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2019-12-18T22:21:00Z
-lastmod: 
+lastmod:
 categories:
+  - Tools
 topics:
   - Ansible
-  - devops
-  - digitalocean
+  - DevOps
 aliases:
 ---
 For the uninitiated, Docker allows you to build VMs in a predictable, repeatable manner as a series of layers called images. Automation is where it's at – if you think you'll have to deploy a box several times, your future self will thank you for scripting it out.
