@@ -9,7 +9,7 @@ lastmod:
 categories:
   - API
 topics:
-  - graphql
+  - GraphQL
 aliases:
 ---
 In [my last post](https://grantwinney.com/what-is-graphql-and-how-does-it-differ-from-rest/), I just wanted to understand what GraphQL is versus REST. I learned that it's about flexibility, and getting exactly what you need in the format you need it. Now I want to look at an actual implementation.

@@ -9,7 +9,7 @@ lastmod:
 categories:
   - API
 topics:
-  - space
+  - Space
 aliases:
   - /day-8-nasa-api
 ---

@@ -9,7 +9,7 @@ lastmod:
 categories:
   - API
 topics:
-  - weather
+  - Weather
 aliases:
   - /day-12-openweathermap-api
 ---

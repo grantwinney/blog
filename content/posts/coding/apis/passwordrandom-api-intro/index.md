@@ -9,7 +9,7 @@ lastmod:
 categories:
   - API
 topics:
-  - guid
+  - GUID
 aliases:
 ---
 Some of the API's I've written about give you access to data - public data like [ISS sightings](https://grantwinney.com/what-is-iss-notify-api/) and personal data like your [Dropbox files](https://grantwinney.com/what-is-dropbox-api/) - but an API can return other things too. Here's an API that returns random numbers, GUIDs and other values, and provides an opportunity to customize what it returns.

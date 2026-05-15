@@ -9,7 +9,7 @@ lastmod:
 categories:
   - API
 topics:
-  - space
+  - Space
 aliases:
   - /day-11-iss-notify-api
 ---

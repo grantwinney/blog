@@ -9,7 +9,7 @@ lastmod:
 categories:
   - API
 topics:
-  - weather
+  - Weather
 aliases:
   - /day-7-noaa-api
 ---
