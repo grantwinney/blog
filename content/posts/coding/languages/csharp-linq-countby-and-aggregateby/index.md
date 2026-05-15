@@ -8,8 +8,8 @@ date: 2024-12-03T19:23:03Z
 lastmod: 
 categories:
 topics:
-  - csharp
-  - csharp-13
+  - C#
+  - C# 13
   - dotnet-9
   - linq
 aliases:

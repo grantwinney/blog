@@ -8,9 +8,9 @@ date: 2025-12-03T12:09:00
 lastmod: 
 categories:
 topics:
-  - csharp
-  - csharp-14
-  - csharp-8
+  - C#
+  - C# 14
+  - C# 8
 aliases:
 ---
 We've had the [null conditional operator](https://grantwinney.com/null-conditional-and-null-coalescing-operators/) for years, since C# 6. You might want to skim that post (which I wrote a few years ago) before reading this one, if you're unfamiliar with it. Otherwise, I'll borrow a bit for a quick review, and then we'll look at what C# 14 added. And if you'd like to mess around with the code below, it's available in my [CSharpDotNetFeatures](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2014/NullConditionalAssignment) repo on GitHub.

@@ -8,7 +8,7 @@ date: 2020-09-17T04:08:32Z
 lastmod: 
 categories:
 topics:
-  - csharp
+  - C#
 aliases:
 ---
 All languages have gotchas, and C# is no different. A subtle one is the difference between `catch (Exception) throw;` and `catch (Exception ex) throw ex;`. On the surface, it seems like they'll do the same thing; in reality, the difference is really important if you care to know why your app is _really_ crashing.

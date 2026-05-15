@@ -131,7 +131,7 @@ Once that’s setup and working, it should work from the Python script too. The 
 Simon’s tones … were designed to always be harmonic, no matter what order they were played in, and consisted of an A major triad in second inversion which resembles a Trumpet fanfare:
 
 - E-note (blue, lower right)
-- csharp-note (yellow, lower left)
+- C# note (yellow, lower left)
 - A-note (red, upper right)
 - E-note (green, upper left, an octave lower than blue)
 

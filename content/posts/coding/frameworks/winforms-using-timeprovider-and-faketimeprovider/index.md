@@ -8,11 +8,11 @@ date: 2024-02-05T05:07:51Z
 lastmod:
 categories:
   - Coding
-  - WinForms
 topics:
   - C# 12
   - Testing
   - DateTime
+  - WinForms
 aliases:
 ---
 Each new version of .NET brings great new tools. We got generics and LINQ in .NET 2 and 3, the [async/await model](https://grantwinney.com/using-async-await-and-task-to-keep-the-winforms-ui-more-responsive/) in .NET 4.5, and [string interpolation](https://grantwinney.com/using-string-interpolation-to-craft-readable-strings) in .NET 4.6. Okay, that last one's not in the same league as the other ones, but I use string interpolation _all_ the time.

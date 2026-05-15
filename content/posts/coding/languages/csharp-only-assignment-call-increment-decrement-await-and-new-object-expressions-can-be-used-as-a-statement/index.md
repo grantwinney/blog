@@ -8,7 +8,7 @@ date: 2019-11-14T17:25:00Z
 lastmod: 
 categories:
 topics:
-  - csharp
+  - C#
 aliases:
 ---
 This error might look a little cryptic at first, but what it's basically telling you is that what you typed isn't a valid C# statement. It probably looks really close though, because usually you just have a small typo.

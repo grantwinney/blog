@@ -5,11 +5,12 @@ summary: Should you use DateTime or DateTimeOffset? Well, it depends...
 featureImageAttr: Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/photos/white-and-brown-analog-wall-clock-at-10-00-dm9EHhIZm-k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2025-09-06T17:16:00
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - csharp
-  - datetime-handling
+  - C#
+  - DateTime
 aliases:
 ---
 For the last 20 years, the .NET Framework (starting with 2.0 in 2005) has had two structures for storing date/time values - `DateTime` and `DateTimeOffset`. In the last 15+ years of programming, nearly every instance of any C# code I've seen dealing with dates and times uses `DateTime`, and I have no idea why. My guess is that a lot of intro books and official docs used `DateTime`, since it's a little simpler, and everyone just went with it and didn't look back.

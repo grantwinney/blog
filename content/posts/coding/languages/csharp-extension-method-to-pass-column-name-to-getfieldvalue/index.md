@@ -5,11 +5,11 @@ summary: Let's combine the SqlDataReader's GetFieldValue and GetOrdinal methods 
 featureImageAttr: Photo by <a href="https://unsplash.com/@jannerboy62?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Fewings</a> on <a href="https://unsplash.com/photos/black-metal-frame-on-brown-sand-L0Z2r8gcEiw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2015-01-15T00:45:22Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - coding
-  - csharp
+  - C#
 aliases:
 ---
 The [SqlDataReader.GetFieldValue](http://msdn.microsoft.com/en-us/library/hh485652\(v=vs.110\).aspx) method uses generics to return the value of a column as the requested data type, which is nice, but it also requires us to know and pass the column index instead of just using its name, which is less nice.

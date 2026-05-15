@@ -9,8 +9,8 @@ lastmod:
 categories:
 topics:
   - attributes
-  - csharp
-  - metadata
+  - C#
+  - Metadata
 aliases:
 ---
 While marking some code as [obsolete](https://msdn.microsoft.com/en-us/library/system.obsoleteattribute\(v=vs.110\).aspx) the other day, it seemed that the attribute was being ignored. As it turns out, there's a reasonable explanation, but it took me by surprise at first.

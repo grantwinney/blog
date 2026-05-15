@@ -8,7 +8,7 @@ date: 2015-02-11T19:42:36Z
 lastmod: 
 categories:
 topics:
-  - csharp
+  - C#
 aliases:
 ---
 If you’ve programmed in C# for awhile, you’ve likely used both implicit and explicit conversion without even realizing it. Let's take a look at examples of each.

@@ -5,12 +5,12 @@ summary: I was upgrading some code to use string interpolation, a feature introd
 featureImageAttr: Photo by [Mat Brown](https://www.pexels.com/photo/round-silver-colored-chronograph-watch-552598/)
 draft: false
 date: 2019-04-04T20:06:50Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - csharp
-  - csharp-6
-  - datetime-handling
+  - C# 6
+  - DateTime
 aliases:
 ---
 I was upgrading some code to use string interpolation, a feature [introduced in C# 6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6#string-interpolation), when I ran into a small snag with DateTimes and format strings.

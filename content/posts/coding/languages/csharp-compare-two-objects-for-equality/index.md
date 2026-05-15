@@ -5,10 +5,11 @@ summary: It's common to compare two objects in C# for equality, such as for a sa
 featureImageAttr: Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1632919">Gerd Altmann</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1632919">Pixabay</a>
 draft: false
 date: 2016-10-31T13:23:44Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - csharp
+  - C#
 aliases:
 ---
 We compare values for equality all the time in C#, so frequently that we rarely think about it most of the time:

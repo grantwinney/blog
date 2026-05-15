@@ -8,11 +8,10 @@ date: 2021-06-07T12:56:43Z
 lastmod:
 categories:
   - Coding
-  - WinForms
 topics:
-  - Async
   - C# 5
   - Multithreading
+  - WinForms
 aliases:
 ---
 For most of my dev career, I've been in C# shops. That doesn't mean _every_ project required C# exclusively, but most of them did. I've also used React, Ruby, C++, Erlang.. whatever's called for. But large company or small, if you're a C# dev, sooner or later you'll likely find yourself supporting a WinForms app. And crystal reports, but we shan't speak of that here. 😑

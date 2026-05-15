@@ -5,12 +5,12 @@ summary: There's a lot of ways to make our code work for us. Let's check out usi
 featureImageAttr: Photo by <a href="https://unsplash.com/@aaronlee224?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aaron Lee</a> on <a href="https://unsplash.com/photos/white-and-beige-string-light-sndE-_S92R8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2021-12-30T01:53:29Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - csharp
-  - csharp-6
-  - surviving-winforms
+  - C# 6
+  - C#
 aliases:
 ---
 Having magic strings in your code is definitely something to watch out for. What's a magic string? It's any string containing a value that might change, like an application setting, a timeout value, a method or class name, etc.

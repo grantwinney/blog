@@ -8,8 +8,8 @@ date: 2022-10-08T18:40:48Z
 lastmod: 
 categories:
 topics:
-  - csharp
-  - csharp-7
+  - C#
+  - C# 7
 aliases:
 ---
 I've recently been refreshing myself on some of the goodies we got with [C# 6](https://grantwinney.com/tags/c-6-0/), like [null safety operators](https://grantwinney.com/null-conditional-and-null-coalescing-operators/) and [string interpolation](https://grantwinney.com/using-string-interpolation-to-craft-readable-strings/). I find a use for them from time to time, but I'd bet there's a lot of people besides me who could use a refresher too... if they've heard of them at all.

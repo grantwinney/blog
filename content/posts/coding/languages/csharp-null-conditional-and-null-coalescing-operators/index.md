@@ -8,8 +8,8 @@ date: 2022-09-27T01:13:39Z
 lastmod: 
 categories:
 topics:
-  - csharp
-  - csharp-6
+  - C#
+  - C# 6
 aliases:
 ---
 Boy, that's a catchy title. Sometimes they just roll off the tongue, ya know? 🙄

@@ -8,8 +8,8 @@ date: 2024-01-07T04:14:00Z
 lastmod: 
 categories:
 topics:
-  - csharp-12
-  - datetime-handling
+  - C# 12
+  - DateTime
   - fake-time-provider
   - Testing
   - time-provider

@@ -8,7 +8,7 @@ date: 2024-01-11T04:34:20Z
 lastmod: 
 categories:
 topics:
-  - csharp-12
+  - C# 12
   - Testing
   - time-provider
 aliases:

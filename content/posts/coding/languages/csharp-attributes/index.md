@@ -5,12 +5,12 @@ summary: Ever thought it'd be convenient to attach metadata to your code at desi
 featureImageAttr: Photo by <a href="https://unsplash.com/@hologram01?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Damir Korotaj</a> on <a href="https://unsplash.com/photos/a-blurry-photo-of-a-bunch-of-lights-9xl14Wr_oL0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2019-04-04T15:57:19Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - attributes
-  - csharp
-  - metadata
+  - Metadata
+  - C#
 aliases:
   - /5-examples-of-attributes-in-c-and-why-youll-want-to-make-your-own
 ---

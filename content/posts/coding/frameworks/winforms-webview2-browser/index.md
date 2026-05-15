@@ -8,9 +8,9 @@ date: 2025-01-17T22:41:08Z
 lastmod:
 categories:
   - Coding
-  - WinForms
 topics:
   - .NET 5
+  - WinForms
 aliases:
 ---
 When one thinks of WinForms, one does _not_ generally think of the web at the same time, unless it's how they wish they could move their app from one to the other. However, there's a number of controls for displaying web pages in a WinForms app, and with .NET 5 we got a new one called [WebView2](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/whats-new/net50?view=netdesktop-9.0#new-controls).

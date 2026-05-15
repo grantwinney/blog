@@ -8,8 +8,8 @@ date: 2024-12-10T12:35:55Z
 lastmod: 
 categories:
 topics:
-  - csharp
-  - csharp-9
+  - C#
+  - C# 9
 aliases:
 ---
 When C# 9 was released in 2020, one of the main focuses was on "removing ceremony", as they put it. I'm sure that's a regular focus with each release, but this time they called it out specifically. As a result, some of the tedious, boilerplate types of syntax we find ourselves writing were removed.

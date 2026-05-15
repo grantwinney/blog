@@ -5,10 +5,11 @@ summary: Did you know most languages have a way to pass around code to other fun
 featureImageAttr: Photo by <a href="https://unsplash.com/@florianolv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Florian Olivo</a> on <a href="https://unsplash.com/photos/lines-of-html-codes-4hbJ-eymZ1o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2019-11-13T17:45:00Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - csharp
+  - C#
 aliases:
 ---
 It'd be ridiculous for a language to not have a way for you to reference a particular value, so you could pass it around in your application.

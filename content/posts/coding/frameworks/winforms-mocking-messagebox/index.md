@@ -8,9 +8,9 @@ date: 2022-01-07T04:12:17Z
 lastmod:
 categories:
   - Coding
-  - WinForms
 topics:
   - Testing
+  - WinForms
 aliases:
 ---
 Trying to integrate testing into a WinForms app can be an uphill battle, especially if it's a legacy app with most of the logic tightly coupled to the UI in the code-behind files of hundreds of forms. It doesn't help when you toss in portions of the .NET Framework that were designed in very test-unfriendly ways.

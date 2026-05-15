@@ -8,9 +8,9 @@ date: 2024-12-31T23:41:30Z
 lastmod:
 categories:
   - Coding
-  - WinForms
 topics:
   - .NET 5
+  - WinForms
 aliases:
 ---
 Since the earliest versions of .NET, the [MessageBox](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.messagebox) class has given WinForms developers a way to send notifications _(usually alerts and warnings)_ to users. It's always been a very limited control though. Besides the message itself, we can change the icon and choose from a few different button combinations, but that's about it.

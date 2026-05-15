@@ -8,8 +8,8 @@ date: 2014-12-12T07:57:57Z
 lastmod:
 categories:
   - Coding
-  - WinForms
 topics:
+  - WinForms
 aliases:
 ---
 In any but the smallest of WinForms apps, we'll have multiple Forms interacting with one another. And while every app we write will be different, there's really only a couple of ways for two Forms to pass data back and forth.

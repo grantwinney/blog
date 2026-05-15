@@ -8,8 +8,8 @@ date: 2022-09-19T10:30:18Z
 lastmod: 
 categories:
 topics:
-  - csharp
-  - csharp-6
+  - C#
+  - C# 6
   - surviving-winforms
 aliases:
 ---

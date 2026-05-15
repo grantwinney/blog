@@ -5,13 +5,12 @@ summary: Generic attributes increase the flexibility of a very early .NET featur
 featureImageAttr: Photo by [Markus Winkler](https://www.pexels.com/photo/metadata-wooden-block-letters-on-a-table-30885765/)
 draft: false
 date: 2023-08-23T15:52:21Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - attributes
-  - csharp
-  - csharp-11
-  - metadata
+  - C# 11
+  - Metadata
 aliases:
 ---
 For the uninitiated, [attributes](https://learn.microsoft.com/en-us/dotnet/csharp/advanced-topics/reflection-and-attributes/) provide a way to attach extra metadata to a variety of C# elements. They're built into the .NET Framework (like [Description](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.descriptionattribute)), third-party libraries (like NUnit's [TestFixture](https://docs.nunit.org/articles/nunit/writing-tests/attributes/testfixture.html)), and you can even [define your own](https://learn.microsoft.com/en-us/dotnet/csharp/advanced-topics/reflection-and-attributes/attribute-tutorial). While they don't directly affect your code, per se, they generally affect your application in some way, like how it compiles or what the user sees at runtime.
