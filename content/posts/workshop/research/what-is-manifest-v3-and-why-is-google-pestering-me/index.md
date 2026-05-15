@@ -1,11 +1,11 @@
 ---
 title: What is Manifest V3 and why is Google pestering me about it?
 slug: what-is-manifest-v3-and-why-is-google-pestering-me
-summary: 
+summary:
 featureImageAttr: Image by <a href="https://pixabay.com/users/dendoktoor-14802912/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8146623">Freddy</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8146623">Pixabay</a>
 draft: false
 date: 2022-06-06T11:30:43Z
-lastmod: 
+lastmod:
 categories:
 topics:
   - browser-extension
@@ -149,7 +149,7 @@ Since Firefox is supporting both, you could write an extension with MV2, for whi
 
 It's nearly summer, so grab your beverage of choice and go hang outside for awhile. Okay, not a great longterm plan, and I hope that doesn't come off glibly, but the view right now from my swinging chair is warm sunlight streaming through green leaves, while a gentle breeze blows cottonwood fluff around like it's snowing. It's easy at the moment to forget about one company's arrogant behavior.
 
-![](lazyday.jpg.jpg)
+![](lazyday.jpg)
 
 If you do decide to go for it, here's some solid places to start:
 

@@ -5,10 +5,12 @@ summary: If you've heard the term package manager, especially with GitHub announ
 featureImageAttr: Photo by <a href="https://unsplash.com/@iamrohitchoudhari?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rohit Choudhari</a> on <a href="https://unsplash.com/photos/a-large-pile-of-brown-cardboard-boxes-with-blue-tape-qO2ztAz5g7A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2019-10-03T17:09:27Z
-lastmod: 
+lastmod:
 categories:
+  - Coding Concepts
 topics:
-  - nuget
+  - NuGet
+  - Package Manager
 aliases:
 ---
 None of us writes code in a vacuum.

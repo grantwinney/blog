@@ -5,10 +5,10 @@ summary: When you find an API to use in your app, you'll need to access it in a 
 featureImageAttr: Photo by [Rafeeque Kodungookaran](https://www.pexels.com/photo/fountain-in-a-park-18755926/)
 draft: false
 date: 2018-01-25T04:59:32Z
-lastmod: 
+lastmod:
 categories:
+  - Coding Concepts
 topics:
-  - api
 aliases:
   - /what-is-an-api-wrapper-and-how-do-i-write-one
 ---

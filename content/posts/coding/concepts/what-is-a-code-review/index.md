@@ -5,10 +5,12 @@ summary: Does the idea of submitting to a code review make you sweat bullets? Or
 featureImageAttr: Photo by [Jakub Zerdzicki](https://www.pexels.com/photo/developer-reviewing-code-on-tablet-in-office-36598855/)
 draft: false
 date: 2020-11-28T04:15:10Z
-lastmod: 
+lastmod:
 categories:
+  - Coding Concepts
 topics:
-  - code-review
+  - Collaboration
+  - Code Reviews
 aliases:
 ---
 Has someone told you to submit your code for a review? Or to review someone else's code? You might be worrying about the criticism you'll receive, or that you won't have anything constructive to share. You might be concerned they'll poke holes in your code, or fear you're not good enough. Or maybe you feel it's all ridiculous - why should it matter anyway? If the code compiles, ship it! 🚢

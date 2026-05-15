@@ -5,8 +5,9 @@ summary: When you're writing tests, you generally don't want to write to the dat
 featureImageAttr: Photo by [Andrea Piacquadio](https://www.pexels.com/photo/happy-man-funny-sticking-tongue-out-3799761/)
 draft: false
 date: 2020-12-09T13:19:00Z
-lastmod: 
+lastmod:
 categories:
+  - Coding Concepts
 topics:
   - Testing
 aliases:
