@@ -5,10 +5,11 @@ summary: A table of contents is convenient for visitors, so I wrote a script to 
 featureImageAttr: Photo by <a href="https://unsplash.com/@jamesbold?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">James Bold</a> on <a href="https://unsplash.com/photos/selective-focus-photography-of-opened-textbook-lMQv3xVa8X4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2018-02-03T14:08:21Z
-lastmod: 
+lastmod:
 categories:
 topics:
   - Ghost Blog
+  - JavaScript
 aliases:
 ---
 I wrote about [5 quick hacks for your Ghost theme](https://grantwinney.com/5-quick-hacks-for-your-ghost-theme) last year, after switching to Ghost as a blogging platform. The last hack I mentioned was generating a "table of contents" using a handlebars script I'd found. Ghost was still considered beta at the time, and when 1.0 was released, the script stopped working correctly. I never bothered going back to figure out why.

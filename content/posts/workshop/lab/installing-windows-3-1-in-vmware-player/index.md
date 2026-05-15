@@ -5,10 +5,11 @@ summary: While looking for a copy of Windows 98 on MSDN to install some old soft
 featureImageAttr: Photo by [Ruben Boekeloo](https://www.pexels.com/photo/vintage-desktop-computer-with-monitor-and-keyboard-37148217/)
 draft: false
 date: 2013-10-24T22:14:08Z
-lastmod: 
+lastmod:
 categories:
 topics:
-  - virtualization
+  - VM
+  - Retro
 aliases:
 ---
 Every once in awhile it’s interesting in a nerdy way to check out some legacy technology and… I dunno… reminisce about the old days and how far we’ve come or some crap like that. Like the fact that the pen drive in my pocket is 10x bigger than the largest hard drives 15 years ago.

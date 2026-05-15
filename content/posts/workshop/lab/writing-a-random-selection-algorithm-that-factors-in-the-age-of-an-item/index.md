@@ -5,10 +5,11 @@ summary: Have you ever had a collection of items and needed to select a random o
 featureImageAttr: Photo by [Nascimento Jr.](https://www.pexels.com/photo/dice-game-on-black-and-white-background-27409729/)
 draft: false
 date: 2018-06-07T03:44:14Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - algorithms
+  - Algorithms
 aliases:
 ---
 ## Random Selection

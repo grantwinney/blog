@@ -5,8 +5,9 @@ summary: Despite its marketing, Visual Studio for Mac is not the Visual Studio t
 featureImageAttr: Photo by <a href="https://unsplash.com/@rubaitulazad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rubaitul Azad</a> on <a href="https://unsplash.com/photos/a-white-dice-with-a-purple-letter-on-it-xgcCGDGIcfY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2018-08-20T16:20:12Z
-lastmod: 
+lastmod:
 categories:
+  - Tools
 topics:
   - Visual Studio
   - VS4Mac

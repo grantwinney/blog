@@ -5,10 +5,11 @@ summary: While looking for a copy of Windows 98 on MSDN to install some old soft
 featureImageAttr: Photo by <a href="https://unsplash.com/@govizlora?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yuheng Ouyang</a> on <a href="https://unsplash.com/photos/an-old-computer-sitting-on-top-of-a-desk-okgMMgpliIk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2013-10-23T01:26:46Z
-lastmod: 
+lastmod:
 categories:
 topics:
-  - virtualization
+  - VM
+  - Retro
 aliases:
 ---
 I started off looking at my MSDN account for a copy of Windows 98 to install some old software (compatibility mode under Windows 7 didn’t work), and noticed the only versions of Windows available are 7, 8 and….. 3.11. Ooo, I already have Windows 8 running in a virtual machine. Why not fire up Win 3.11?

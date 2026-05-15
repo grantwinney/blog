@@ -5,12 +5,10 @@ summary: I've been thinking for awhile now that I wanted to setup a wiki. I want
 featureImageAttr: Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1635568">Gerd Altmann</a>
 draft: false
 date: 2018-04-01T02:46:32Z
-lastmod: 
+lastmod:
 categories:
 topics:
-  - digitalocean
   - Documentation
-  - wiki
 aliases:
 ---
 I've been thinking for awhile now that I wanted to throw together a wiki for my personal use. Something light-weight that supported uploading images and files - nothing too fancy. And I wanted to self-host it so I have greater control over the data and installation, and can restrict and secure access to it while still accessing it from anywhere.

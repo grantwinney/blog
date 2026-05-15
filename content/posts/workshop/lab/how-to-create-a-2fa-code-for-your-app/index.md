@@ -5,11 +5,11 @@ summary: I use 2FA on every site that supports it, but I'd never given much thou
 featureImageAttr: Photo by <a href="https://unsplash.com/@sasun1990?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sasun Bughdaryan</a> on <a href="https://unsplash.com/photos/a-combination-lock-rests-on-a-computer-keyboard-WUJmdr8pNwk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2019-08-13T03:54:37Z
-lastmod: 
+lastmod:
 categories:
 topics:
-  - mfa
-  - security
+  - Security
+  - MFA
 aliases:
   - /a-sample-csharp-app-for-generating-and-verifying-totp-2fa-codes
 ---

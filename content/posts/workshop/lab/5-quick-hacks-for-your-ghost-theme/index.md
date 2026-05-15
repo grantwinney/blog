@@ -7,8 +7,6 @@ draft: false
 date: 2017-04-01T18:47:23Z
 lastmod:
 categories:
-  - The Lab
-  - The Lab 🧪
 topics:
   - Ghost Blog
 aliases:

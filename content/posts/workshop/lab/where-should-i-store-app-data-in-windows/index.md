@@ -5,10 +5,10 @@ summary: Windows sets certain locations aside for apps, and makes them easily di
 featureImageAttr: Photo by [Yusuf P](https://www.pexels.com/photo/3d-render-of-a-window-9203157/)
 draft: false
 date: 2020-05-22T03:59:32Z
-lastmod: 
+lastmod:
 categories:
 topics:
-  - software-design
+  - Software Design
 aliases:
 ---
 When it comes to writing software and deciding where to store the files an application needs to run, Windows makes it easy by setting certain areas of the system aside, and grouping them into two general categories.

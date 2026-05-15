@@ -5,11 +5,10 @@ summary: I've always been a fan of wikis, but GitHub's is so poorly designed it 
 featureImageAttr: Photo by <a href="https://unsplash.com/@choys_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Conny Schneider</a> on <a href="https://unsplash.com/photos/a-blue-background-with-lines-and-dots-xuTJZ7uD7PI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2018-10-29T12:19:38Z
-lastmod: 
+lastmod:
 categories:
 topics:
   - GitHub
-  - wiki
 aliases:
 ---
 I've always been a fan of wikis for documentation and record-keeping. I even keep an instance of [Dokuwiki running on DigitalOcean](https://grantwinney.com/creating-your-own-secure-wiki-using-dokuwiki/) for personal notes, and before that I had Confluence running on a spare machine at home. GitHub uses wikis too, creating one for every project you spin up. Unfortunately it's so poorly designed that I don't think it gets much love. There's no built-in search, no file upload, no table of contents... it _could_ be a whole lot more.

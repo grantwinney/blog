@@ -9,9 +9,7 @@ lastmod:
 categories:
 topics:
   - Browser Extension
-  - code-review
   - Google
-  - mv3
 aliases:
 ---
 If you've ever dug into the underpinnings of a browser extension, or maybe even [created one yourself](https://grantwinney.com/making-your-first-chrome-extension), you've seen the manifest.json file that acts as a sort of usage guide for an extension. Not the kind of usage guide most people would want to read, but it's vital for browsers.

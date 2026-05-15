@@ -5,11 +5,10 @@ summary: After writing about so many APIs and having to figure out the auth proc
 featureImageAttr: Image by <a href="https://pixabay.com/users/colinfoo-5471721/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5380624">Colinfoo</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5380624">Pixabay</a>
 draft: false
 date: 2018-06-19T13:45:34Z
-lastmod: 
+lastmod:
 categories:
 topics:
-  - api
-  - security
+  - Security
 aliases:
 ---
 When you encounter an [API](https://grantwinney.com/what-is-an-api/) that gives you access to some data - maybe yours (tweets, photos), maybe someone else's (space photos, climate stats) - you'll usually encounter some form of required [authentication/authorization](https://www.cyberciti.biz/faq/authentication-vs-authorization/) before being allowed to access it. That's because the usual purpose of an API is to safely expose specific data for easy consumption by some other application that builds on top of it. Maybe it's an app that helps you schedule tweets like [Buffer](https://buffer.com/), or a browser extension that adds new functionality to your Trello boards like [Plus for Trello](https://chrome.google.com/webstore/detail/plus-for-trello-time-trac/gjjpophepkbhejnglcmkdnncmaanojkf). In the case of Ghost, the platform my blog runs on, [the consumer is Ghost itself](https://api.ghost.org/v1.22.0/docs) (although you could develop your own app on top of it too).

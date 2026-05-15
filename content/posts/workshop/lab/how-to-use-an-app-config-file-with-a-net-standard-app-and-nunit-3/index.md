@@ -5,8 +5,9 @@ summary: Porting .NET Framework code to .NET Standard has been a learning experi
 featureImageAttr: Photo by <a href="https://unsplash.com/@zyangdev?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zheng Yang</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-metal-object-on-a-blue-surface-Mh5y8htZ3SM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2019-04-15T14:37:19Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
   - C#
   - Testing

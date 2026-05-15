@@ -1,14 +1,16 @@
 ---
 title: Deploy your own RequestBin in under 5 minutes
-slug: deploy-requestbin-in-under-5-minutes
+slug: requestbin-deploy-in-5-minutes
 summary: If you need to consume a webhook from another service, or verify the payload being sent from your own REST API endpoint, RequestBin can help. It intercepts and displays the contents of any call made to it. Here's how to deploy your own instance in just a few minutes.
 featureImageAttr: Image by <a href="https://pixabay.com/users/alexas_fotos-686414/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3179133">Alexa</a>
 draft: false
 date: 2020-01-05T12:39:14Z
-lastmod: 
+lastmod:
 categories:
+  - Tools
 topics:
 aliases:
+  - /deploy-requestbin-in-under-5-minutes
 ---
 If you've ever needed to consume a webhook from another service, say from [Stripe](https://stripe.com/docs/webhooks) or [GitHub](https://developer.github.com/webhooks/), but you weren't completely sure what the payload was going to look like _(say, the docs are incomplete or missing),_ a tool like RequestBin can help. By setting it as the "target" for the webhook, it intercepts whatever happens to be thrown its way, and displays it.
 

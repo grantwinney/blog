@@ -5,11 +5,11 @@ summary: When sending notifications in a WinForms app, a MessageBox is the only 
 featureImageAttr: Photo by <a href="https://unsplash.com/@adhikari_s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sameep Adhikari</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-bell-KAf3tP7cdLs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2023-08-16T01:35:54Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
   - C#
-  - surviving-winforms
   - WinForms
 aliases:
 ---

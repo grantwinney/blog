@@ -5,11 +5,10 @@ summary: Learning a little about programming could benefit anyone. If you want a
 featureImageAttr: Photo by <a href="https://unsplash.com/@robowunderkind?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Robo Wunderkind</a> on <a href="https://unsplash.com/photos/person-holding-white-ipad-on-white-table-hLvQ4-QEBAE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2021-01-19T04:28:00Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - learn-to-code
-  - mit-scratch
 aliases:
 ---
 In the early 90's, when I first got the coding itch, there weren't many options for a curious kid. We had a family computer running Win 3.1 with QBasic on it. It's easy to get started with (hence the name), but not very easy to get excited about. The web of the early 90's cost a premium and was mostly mailing lists, so not much collaboration to be had for a kid either. It didn't matter though, little of what I learned was personally appealing - I was more interested in video games and music than input prompts and.. more input prompts. 🥱 💤

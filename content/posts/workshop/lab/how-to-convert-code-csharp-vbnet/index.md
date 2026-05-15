@@ -5,10 +5,9 @@ summary: If you work with the .NET Framework long enough, you may eventually fin
 featureImageAttr: Photo by <a href="https://unsplash.com/@grimstad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Håkon Grimstad</a> on <a href="https://unsplash.com/photos/blue-and-black-butterfly-on-brown-stick-hteXWSF9jA4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2018-07-18T04:41:38Z
-lastmod: 
+lastmod:
 categories:
 topics:
-  - code-conversion
 aliases:
 ---
 If you work with the .NET Framework long enough, you may eventually find yourself tasked with converting one .NET language to another. There are hundreds of questions on Stack Overflow for converting [C# to VB.NET](https://stackoverflow.com/questions/tagged/c%23-to-vb.net), [VB.NET to C#](https://stackoverflow.com/questions/tagged/vb.net-to-c%23), and even [C# to F#](https://stackoverflow.com/questions/tagged/c%23-to-f%23) - and maybe thousands more that aren't tagged. But first, ask yourself...

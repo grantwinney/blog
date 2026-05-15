@@ -8,6 +8,7 @@ date: 2026-04-30T16:49:00
 lastmod:
 categories:
 topics:
+  - Akamai
 aliases:
 ---
 Just a warning, if you're reading this (and you must be, unless you're tasting or smelling it somehow) I can't promise you'll learn anything. I just stumbled on something and felt like looking into it a bit.

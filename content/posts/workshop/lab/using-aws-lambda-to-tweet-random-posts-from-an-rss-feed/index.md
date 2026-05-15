@@ -5,11 +5,10 @@ summary: If you've got a Twitter account, and a blog with a lot of content, shar
 featureImageAttr: Image by <a href="https://pixabay.com/users/manfredrichter-4055600/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6619082">Manfred Richter</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6619082">Pixabay</a>
 draft: false
 date: 2018-06-02T12:32:54Z
-lastmod: 
+lastmod:
 categories:
 topics:
-  - aws
-  - aws-lambda
+  - AWS Lambda
 aliases:
 ---
 Following on the heels of writing a small app to [tweet random posts from a Ghost blog using AWS Lambda](https://grantwinney.com/using-aws-lambda-and-tweetinvi-to-tweet-a-random-ghost-blog-post/), I thought I'd write a similar implementation that operated on an RSS feed instead of specifically just Ghost.

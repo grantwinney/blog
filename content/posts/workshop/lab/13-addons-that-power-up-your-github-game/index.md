@@ -11,7 +11,7 @@ topics:
   - GitHub
 aliases:
 ---
-Git is the defacto vcs for most developers today. It happens to lend itself well to all kinds of not-strictly-code-related things too, like [collaborative list making](https://grantwinney.com/github-a-tool-for-collaborative-list-making/) and [other surprising purposes](https://reclaimthenet.org/china-github-coronavirus-censorship/).
+Git is the defacto VCS for most developers today. It happens to lend itself well to all kinds of not-strictly-code-related things too, like [collaborative list making](https://grantwinney.com/github-a-tool-for-collaborative-list-making/) and [other surprising purposes](https://reclaimthenet.org/china-github-coronavirus-censorship/).
 
 GitHub, in turn, is the defacto Git _platform,_ tacking on a bunch of fancy tooling around Git. So your issues and PR's are right there, you get a wiki for documentation, a "project" board, a UI that lets people manage their repos without resorting to the command line, etc, etc.
 
