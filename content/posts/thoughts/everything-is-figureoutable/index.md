@@ -1,12 +1,13 @@
 ---
 title: Everything is figureoutable
 slug: everything-is-figureoutable
-summary: 
-featureImageAttr: 
+summary:
+featureImageAttr:
 draft: true
-date: 
-lastmod: 
+date:
+lastmod:
 categories:
+  - Reflection
 topics:
 aliases:
 ---

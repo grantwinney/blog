@@ -5,10 +5,11 @@ summary: Refactoring code is part of the dev life, and can even help keep the co
 featureImageAttr: Photo by [Erik Karits](https://www.pexels.com/photo/macro-shot-of-a-black-and-red-striped-bug-8238389/)
 draft: false
 date: 2022-01-22T22:45:01Z
-lastmod: 
+lastmod:
 categories:
+  - Reflection
 topics:
-  - refactoring
+  - Refactoring
 aliases:
 ---
 It's been an interesting couple of weeks. After a break during Christmas, burning through unused PTO, I came back ready to extend some logic in an old screen. In other words, another day in monolithic WinForms paradise.🍹 And then I proceeded to commit one of the cardinal sins of development - rewriting too much at once. Never go full rewrite.

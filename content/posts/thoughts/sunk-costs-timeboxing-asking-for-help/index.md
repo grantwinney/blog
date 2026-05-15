@@ -5,8 +5,9 @@ summary: One of the biggest struggles I have with programming is knowing when to
 featureImageAttr: Photo by [Leonardo Lamas](https://www.pexels.com/photo/a-sunken-ship-at-the-bottom-of-the-sea-7001550/)
 draft: false
 date: 2021-12-20T12:00:00Z
-lastmod: 
+lastmod:
 categories:
+  - Reflection
 topics:
 aliases:
 ---

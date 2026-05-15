@@ -5,10 +5,11 @@ summary: I made my first OSS contributions during HacktoberFest, gaining experie
 featureImageAttr: Photo by <a href="https://unsplash.com/@miracletwentyone?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Joseph Gonzalez</a> on <a href="https://unsplash.com/photos/squash-near-hey-E-EEQSjDdck?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 draft: false
 date: 2015-11-12T07:27:00Z
-lastmod: 
+lastmod:
 categories:
+  - Reflection
 topics:
-  - oss
+  - OSS
 aliases:
 ---
 All last month, DigitalOcean carried out an event called HacktoberFest. In their own words…

@@ -1,12 +1,13 @@
 ---
 title: A swirly mass of shared code
 slug: swirly-mass-of-code
-summary: 
-featureImageAttr: 
+summary:
+featureImageAttr:
 draft: false
 date: 2023-11-14T04:31:52Z
-lastmod: 
+lastmod:
 categories:
+  - Reflection
 topics:
 aliases:
 ---

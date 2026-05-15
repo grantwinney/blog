@@ -5,8 +5,9 @@ summary: I just deleted my coworkers code. 😱 It was good code that wasn't nee
 featureImageAttr: Photo by <a href="https://unsplash.com/@cherstve_pechivo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Liana S</a> on <a href="https://unsplash.com/photos/abstract-swirls-of-smoke-against-a-dark-background-2I-k5FuJo0s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 draft: false
 date: 2020-10-11T03:00:46Z
-lastmod: 
+lastmod:
 categories:
+  - Reflection
 topics:
 aliases:
 ---

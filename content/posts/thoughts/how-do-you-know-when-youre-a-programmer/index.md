@@ -5,8 +5,9 @@ summary: How do you know when you've finally arrived, and are officially a progr
 featureImageAttr: Photo by [Ivan S](https://www.pexels.com/photo/woman-writing-on-blackboard-7213507/)
 draft: false
 date: 2020-09-15T03:52:08Z
-lastmod: 
+lastmod:
 categories:
+  - Reflection
 topics:
 aliases:
 ---

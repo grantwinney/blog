@@ -5,8 +5,9 @@ summary: A month into a new job, and a return to a company I was at 20 years ago
 featureImageAttr: Photo by <a href="https://unsplash.com/@meganwatson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Megan Watson</a> on <a href="https://unsplash.com/photos/brown-wooden-board-p2OQW69vXP4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2025-11-27T08:39:00
-lastmod: 
+lastmod:
 categories:
+  - Reflection
 topics:
 aliases:
 ---

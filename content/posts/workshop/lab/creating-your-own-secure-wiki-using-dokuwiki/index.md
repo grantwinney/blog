@@ -9,7 +9,7 @@ lastmod:
 categories:
 topics:
   - digitalocean
-  - documentation
+  - Documentation
   - wiki
 aliases:
 ---

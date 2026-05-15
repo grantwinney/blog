@@ -5,10 +5,11 @@ summary: When I was less skilled as a developer, it was enough to just stay aflo
 featureImageAttr: Photo by [Sigmund](https://unsplash.com/@sigmund?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
 draft: false
 date: 2021-07-05T19:20:06Z
-lastmod: 
+lastmod:
 categories:
+  - Reflection
 topics:
-  - documentation
+  - Documentation
 aliases:
 ---
 Whenever I've started a new job, the most overwhelming thing is getting up to speed with everything. How do I run this project; has anyone run into that problem before; how do I change the configuration? Do we have a license for such-and-such; what server hosts this website; am I running into a new issue or something we've already solved before?

@@ -5,8 +5,9 @@ summary: Seeing my full-time job as a long-term contract has helped me improve a
 featureImageAttr: Photo by <a href="https://unsplash.com/@sfkopstein?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">shraga kopstein</a> on <a href="https://unsplash.com/photos/a-construction-worker-is-working-on-the-side-of-a-building-E5S7Aks1fFY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2021-10-19T03:37:36Z
-lastmod: 
+lastmod:
 categories:
+  - Reflection
 topics:
 aliases:
 ---
