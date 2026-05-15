@@ -7,7 +7,7 @@ draft: false
 date: 2016-06-21T13:02:00Z
 lastmod: 
 categories:
-tags:
+topics:
   - raspberry-pi
   - sonic-pi
 aliases:

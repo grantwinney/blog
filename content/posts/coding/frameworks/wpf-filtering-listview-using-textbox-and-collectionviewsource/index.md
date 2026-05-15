@@ -7,7 +7,8 @@ draft: false
 date: 2014-12-07T09:13:17Z
 lastmod: 
 categories:
-tags:
+  - Coding
+topics:
   - csharp
   - wpf
 aliases:

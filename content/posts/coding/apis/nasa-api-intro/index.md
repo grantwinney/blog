@@ -8,7 +8,7 @@ date: 2017-12-24T19:06:14Z
 lastmod:
 categories:
   - API
-tags:
+topics:
   - space
 aliases:
   - /day-8-nasa-api

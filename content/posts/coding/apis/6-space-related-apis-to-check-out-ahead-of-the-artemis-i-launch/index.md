@@ -8,8 +8,8 @@ date: 2022-08-28T18:23:48Z
 lastmod:
 categories:
   - API
-tags:
-  - space
+topics:
+  - Space
 aliases:
 ---
 NASA is set to launch the first of a series of Orion rockets that will eventually take us back to the moon for the first time in 50 years. It seems the goal this time around is much more than visiting the moon. I won't say "just" visiting the moon because, c'mon, visiting the moon is still mind-blowing!

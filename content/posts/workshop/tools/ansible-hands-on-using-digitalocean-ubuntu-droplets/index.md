@@ -7,7 +7,7 @@ draft: false
 date: 2019-12-18T22:21:00Z
 lastmod: 
 categories:
-tags:
+topics:
   - ansible
   - devops
   - digitalocean

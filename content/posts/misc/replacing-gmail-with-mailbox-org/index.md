@@ -7,7 +7,7 @@ draft: false
 date: 2019-12-09T23:44:00Z
 lastmod: 
 categories:
-tags:
+topics:
   - google
   - privacy
 aliases:

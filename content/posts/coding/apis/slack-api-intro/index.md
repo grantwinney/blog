@@ -8,7 +8,7 @@ date: 2017-12-21T18:09:09Z
 lastmod:
 categories:
   - API
-tags:
+topics:
 aliases:
   - /day-5-slack-api
 ---

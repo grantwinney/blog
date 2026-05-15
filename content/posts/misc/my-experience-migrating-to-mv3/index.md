@@ -7,7 +7,7 @@ draft: false
 date: 2022-11-19T22:09:03Z
 lastmod: 
 categories:
-tags:
+topics:
   - browser-extension
   - google
   - mv3

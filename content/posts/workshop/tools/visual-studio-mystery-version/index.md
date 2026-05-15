@@ -7,7 +7,7 @@ draft: false
 date: 2026-01-19T11:52:00
 lastmod: 
 categories:
-tags:
+topics:
   - visual-studio
   - vs2026
 aliases:

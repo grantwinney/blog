@@ -7,7 +7,7 @@ draft: false
 date: 2015-02-04T17:49:31Z
 lastmod: 
 categories:
-tags:
+topics:
   - attributes
   - csharp
   - metadata

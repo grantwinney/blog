@@ -7,7 +7,7 @@ draft: false
 date: 2016-08-22T07:28:52Z
 lastmod: 
 categories:
-tags:
+topics:
   - python
   - raspberry-pi
 aliases:

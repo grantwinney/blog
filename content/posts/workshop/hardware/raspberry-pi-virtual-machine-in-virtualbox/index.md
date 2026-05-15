@@ -7,7 +7,7 @@ draft: false
 date: 2016-06-08T06:01:18Z
 lastmod: 
 categories:
-tags:
+topics:
   - raspberry-pi
   - virtualization
 aliases:

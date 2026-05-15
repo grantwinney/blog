@@ -7,7 +7,7 @@ draft: false
 date: 2018-06-01T17:28:01Z
 lastmod: 
 categories:
-tags:
+topics:
   - aws
   - aws-lambda
   - ghost-blog

@@ -7,7 +7,7 @@ draft: false
 date: 2018-06-02T12:32:54Z
 lastmod: 
 categories:
-tags:
+topics:
   - aws
   - aws-lambda
 aliases:

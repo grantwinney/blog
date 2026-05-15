@@ -11,7 +11,7 @@ categories:
   - WinForms
 topics:
   - .NET 9
-tags:
+topics:
   - dotnet-9
 aliases:
 ---

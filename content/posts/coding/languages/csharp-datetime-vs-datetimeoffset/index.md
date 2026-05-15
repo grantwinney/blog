@@ -7,7 +7,7 @@ draft: false
 date: 2025-09-06T17:16:00
 lastmod: 
 categories:
-tags:
+topics:
   - csharp
   - datetime-handling
 aliases:

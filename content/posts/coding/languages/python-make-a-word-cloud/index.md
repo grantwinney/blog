@@ -7,7 +7,7 @@ draft: false
 date: 2020-06-04T21:43:00Z
 lastmod: 
 categories:
-tags:
+topics:
   - python
 aliases:
 ---

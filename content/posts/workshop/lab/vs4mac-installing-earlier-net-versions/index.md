@@ -7,7 +7,7 @@ draft: false
 date: 2018-08-20T16:20:12Z
 lastmod: 
 categories:
-tags:
+topics:
   - visual-studio
   - vs4mac
 aliases:

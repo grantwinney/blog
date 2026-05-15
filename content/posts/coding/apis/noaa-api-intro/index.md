@@ -8,7 +8,7 @@ date: 2017-12-24T03:44:02Z
 lastmod:
 categories:
   - API
-tags:
+topics:
   - weather
 aliases:
   - /day-7-noaa-api

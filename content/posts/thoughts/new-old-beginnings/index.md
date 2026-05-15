@@ -7,7 +7,7 @@ draft: false
 date: 2025-11-27T08:39:00
 lastmod: 
 categories:
-tags:
+topics:
 aliases:
 ---
 It's Thanksgiving in the US, and one of the many things I'm thankful for this year is to be back where I started my career nearly 20 years ago, working at a company with a product people need, that rewards hard work, embraces new tech, and provides opportunities to learn and grow. The only reason I left was that I knew I wanted to be a programmer, but I was very green and there weren't any positions I qualified for. I tried for a year, then left, got the experience I needed, and returned. I can't say that was always my plan, but I'm glad it worked out the way it did.

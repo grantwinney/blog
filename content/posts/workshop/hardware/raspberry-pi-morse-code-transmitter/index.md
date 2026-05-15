@@ -7,7 +7,7 @@ draft: false
 date: 2016-04-03T09:03:25Z
 lastmod: 
 categories:
-tags:
+topics:
   - coding
   - python
   - raspberry-pi

@@ -5,13 +5,13 @@ summary: Buried deep in the list of .NET 8 improvements for WinForms is the GetS
 featureImageAttr: Image by <a href="https://pixabay.com/users/gauravguptagkp-13556213/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6240469">GAURAV GUPTA</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6240469">Pixabay</a>
 draft: false
 date: 2024-12-18T15:50:31Z
-lastmod: 
+lastmod:
 categories:
-tags:
-  - csharp
+  - Coding
+  - WinForms
+topics:
   - csharp-12
   - dotnet-8
-  - winforms
 aliases:
 ---
 Scouring the features that WinForms got in .NET 8, I found one slipped in near the very bottom of the list under "[miscellaneous improvements](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/whats-new/net80?view=netdesktop-9.0#miscellaneous-improvements)" called [GetStockIcon](https://learn.microsoft.com/en-us/dotnet/api/system.drawing.systemicons.getstockicon). It's a new method for grabbing Windows stock icons (i.e. save, folder, etc) at runtime, to use in the UI.

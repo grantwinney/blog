@@ -7,7 +7,7 @@ draft: false
 date: 2022-08-09T13:07:49Z
 lastmod: 
 categories:
-tags:
+topics:
 aliases:
 ---
 Sometimes, when I try to code something, pouring extra hours of effort into it, I can just _feel_ how close all the pieces are to falling into place. Then I realize I'm going in circles, spending more time than I meant to, and a solution, whatever it might be, has escaped me at the moment. [Git checkout](https://www.delftstack.com/howto/git/git-remove-uncommitted-changes/#use-git-checkout-to-remove-uncommitted-changes-in-git), try again later.

@@ -5,13 +5,13 @@ summary: WinForms and the web. Like oil and water, they don't mix well. But with
 featureImageAttr: Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/photos/yellow-click-pen-on-white-printer-paper-gcHFXsdcmJE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2022-06-28T23:07:09Z
-lastmod: 
+lastmod:
 categories:
-tags:
+  - Coding
+  - WinForms
+topics:
   - cef
   - cefsharp
-  - surviving-winforms
-  - winforms
 aliases:
 ---
 WinForms and the web. Like oil and water, they don't mix well. The web is the future, hands down. If I had an idea for an app that I wanted to share with the world, I'd make it a website, not a WinForms app. Who wants to worry about distribution and piracy and having to support nigh infinite number of slightly different machines it might run on? But WinForms isn't going away any time soon either.

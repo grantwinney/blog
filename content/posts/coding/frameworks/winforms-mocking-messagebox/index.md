@@ -5,12 +5,11 @@ summary: Unit testing a WinForms app is an uphill battle in the best of times, b
 featureImageAttr: Image by <a href="https://pixabay.com/users/raniramli-731298/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2853848">RaniRamli</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2853848">Pixabay</a>
 draft: false
 date: 2022-01-07T04:12:17Z
-lastmod: 
+lastmod:
 categories:
-tags:
-  - csharp
-  - surviving-winforms
-  - testing
+  - Coding
+  - WinForms
+topics:
 aliases:
 ---
 Trying to integrate testing into a WinForms app can be an uphill battle, especially if it's a legacy app with most of the logic tightly coupled to the UI in the code-behind files of hundreds of forms. It doesn't help when you toss in portions of the .NET Framework that were designed in very test-unfriendly ways.

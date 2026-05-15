@@ -7,7 +7,7 @@ draft: false
 date: 2023-08-24T21:30:16Z
 lastmod: 
 categories:
-tags:
+topics:
 aliases:
 ---
 Adding something new to an application is kind of exciting, especially when it's an obvious change, and even _moreso_ when it's something the users actually _want_. Then there's the behind-the-scenes kinda changes, where you solve some problem in the system, and even though (best case scenario) no one will know you were there, there's still a sense of accomplishment. And of course there's everything related to development too - implementing and figuring out issues with DevOps and git and installers and whatever programming tools you might want to use, etc.

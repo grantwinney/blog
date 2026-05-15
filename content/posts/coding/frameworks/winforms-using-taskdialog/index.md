@@ -7,7 +7,9 @@ draft: false
 date: 2024-12-31T23:41:30Z
 lastmod: 
 categories:
-tags:
+  - Coding
+  - WinForms
+topics:
   - dotnet-5
   - winforms
 aliases:

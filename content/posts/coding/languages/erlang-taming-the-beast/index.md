@@ -7,7 +7,7 @@ draft: false
 date: 2017-11-01T16:50:27Z
 lastmod: 
 categories:
-tags:
+topics:
   - erlang
 aliases:
   - /5-ways-to-tame-the-erlang-beast

@@ -8,8 +8,8 @@ date: 2017-12-23T04:10:01Z
 lastmod:
 categories:
   - API
-tags:
-  - google
+topics:
+  - Google
 aliases:
   - /day-6-google-maps-api
 ---

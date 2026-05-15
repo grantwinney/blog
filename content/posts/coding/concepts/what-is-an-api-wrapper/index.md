@@ -7,7 +7,7 @@ draft: false
 date: 2018-01-25T04:59:32Z
 lastmod: 
 categories:
-tags:
+topics:
   - api
 aliases:
   - /what-is-an-api-wrapper-and-how-do-i-write-one

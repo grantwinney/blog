@@ -8,7 +8,7 @@ date: 2017-12-29T15:33:04Z
 lastmod:
 categories:
   - API
-tags:
+topics:
   - weather
 aliases:
   - /day-12-openweathermap-api

@@ -7,7 +7,7 @@ draft: false
 date: 2023-07-28T21:41:00Z
 lastmod: 
 categories:
-tags:
+topics:
   - dependency-injection
 aliases:
 ---

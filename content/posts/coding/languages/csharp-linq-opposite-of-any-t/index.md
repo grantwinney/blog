@@ -7,7 +7,7 @@ draft: false
 date: 2019-11-11T23:36:00Z
 lastmod: 
 categories:
-tags:
+topics:
   - csharp
   - linq
 aliases:

@@ -7,7 +7,7 @@ draft: false
 date: 2017-01-28T13:07:51Z
 lastmod: 
 categories:
-tags:
+topics:
   - git
 aliases:
   - /what-is-a-git-alias-and-how-do-i-use-it

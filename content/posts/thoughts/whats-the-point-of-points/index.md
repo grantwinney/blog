@@ -7,7 +7,7 @@ draft: false
 date: 2023-03-22T10:32:44Z
 lastmod: 
 categories:
-tags:
+topics:
   - agile
   - scrum
 aliases:

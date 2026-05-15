@@ -5,13 +5,13 @@ summary: Thanks to CEFSharp, we can finally bring WinForms to the web! That didn
 featureImageAttr: Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/photos/yellow-click-pen-on-white-printer-paper-gcHFXsdcmJE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2022-08-16T03:56:47Z
-lastmod: 
+lastmod:
 categories:
-tags:
+  - Coding
+  - WinForms
+topics:
   - cef
   - cefsharp
-  - surviving-winforms
-  - winforms
 aliases:
 ---
 A few weeks ago I shared how you can use [CEFSharp](http://cefsharp.github.io/) to display an html page. I called it hosting, but uh, it was really just displaying a single html page that was baked into the project itself. Yeah, cutting edge, I know. It's WinForms, the bar is low folks.

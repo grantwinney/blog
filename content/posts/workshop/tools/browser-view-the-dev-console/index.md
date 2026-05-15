@@ -7,8 +7,8 @@ draft: false
 date: 2019-03-26T14:47:54Z
 lastmod: 
 categories:
-tags:
-  - debugging
+topics:
+  - debug
 aliases:
 ---
 Most people will never know their browser hides a great set of tools, mostly used by web developers, but which can be useful for anyone trying to figure out why their browser seems to be acting up.

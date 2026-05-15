@@ -7,7 +7,7 @@ draft: false
 date: 2020-01-05T12:39:14Z
 lastmod: 
 categories:
-tags:
+topics:
 aliases:
 ---
 If you've ever needed to consume a webhook from another service, say from [Stripe](https://stripe.com/docs/webhooks) or [GitHub](https://developer.github.com/webhooks/), but you weren't completely sure what the payload was going to look like _(say, the docs are incomplete or missing),_ a tool like RequestBin can help. By setting it as the "target" for the webhook, it intercepts whatever happens to be thrown its way, and displays it.

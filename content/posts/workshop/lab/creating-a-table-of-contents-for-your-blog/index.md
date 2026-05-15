@@ -7,7 +7,7 @@ draft: false
 date: 2018-02-03T14:08:21Z
 lastmod: 
 categories:
-tags:
+topics:
   - ghost-blog
 aliases:
 ---

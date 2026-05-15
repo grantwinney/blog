@@ -7,7 +7,7 @@ draft: false
 date: 2020-05-02T03:59:22Z
 lastmod: 
 categories:
-tags:
+topics:
   - software-design
 aliases:
 ---

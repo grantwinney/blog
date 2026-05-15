@@ -7,7 +7,7 @@ draft: false
 date: 2021-10-19T03:37:36Z
 lastmod: 
 categories:
-tags:
+topics:
 aliases:
 ---
 The work we do for any company in any role, even as full-time employees, is still just contract work, when you really think about it. It may be a very _long_ term contract - years or even decades - but eventually the contract ends. We pass the baton and someone else runs with it.

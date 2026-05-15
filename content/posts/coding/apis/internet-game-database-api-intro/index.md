@@ -8,7 +8,7 @@ date: 2018-01-01T05:00:00Z
 lastmod:
 categories:
   - API
-tags:
+topics:
 aliases:
   - /day-15-igdb-api-internet-game-database
 ---

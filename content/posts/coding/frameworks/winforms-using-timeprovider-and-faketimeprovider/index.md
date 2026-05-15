@@ -7,7 +7,9 @@ draft: false
 date: 2024-02-05T05:07:51Z
 lastmod: 
 categories:
-tags:
+  - Coding
+  - WinForms
+topics:
   - csharp-12
   - datetime-handling
   - fake-time-provider

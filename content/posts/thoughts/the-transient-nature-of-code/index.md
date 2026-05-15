@@ -7,7 +7,7 @@ draft: false
 date: 2020-10-11T03:00:46Z
 lastmod: 
 categories:
-tags:
+topics:
 aliases:
 ---
 I just did one of the most painful things a dev can do to another dev. I deleted his code! I mean, it wasn't out of spite or anything, lol. It was good, solid code, covered by dozens of tests, which made it _that_ much harder to pull the trigger. But it wasn't needed anymore.

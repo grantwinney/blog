@@ -7,7 +7,9 @@ draft: false
 date: 2021-06-09T02:12:00Z
 lastmod: 
 categories:
-tags:
+  - Coding
+  - WinForms
+topics:
   - mvp-design
   - surviving-winforms
   - testing
