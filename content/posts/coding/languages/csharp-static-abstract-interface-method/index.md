@@ -15,13 +15,7 @@ series:
   - Generic Math
 series_order: 1
 ---
-This is post 1 in a 3-part series building up to the new C# 11 feature called [Generic Math](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#generic-math-support). Before tackling that though, let's check out another new C# 11 feature - the [static abstract interface method](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/static-virtual-interface-members) (aka static virtual members).
-
-1. What is a static abstract interface method in C#? *(this post)*
-2. [Overloading arithmetic, equality, and comparison operators in C#](https://grantwinney.com/csharp-overload-arithmetic-equality-comparison-operators/)
-3. [Generic Math Support in C# 11](https://grantwinney.com/csharp-generic-math-support/)
-
-We'll look at how we use interfaces today, versus how we can use them with the new hotness in C# 11.
+This is part of a series building up to the new C# 11 feature called [Generic Math](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#generic-math-support). Before tackling that though, let's check out another new C# 11 feature called the [static abstract interface method](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/static-virtual-interface-members) (aka static virtual members), and compare it to what we've had up until now.
 
 > The code in this article is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericMathSupport/GenericMathSupport), if you'd like to use it in your own projects or just follow along while you read.
 

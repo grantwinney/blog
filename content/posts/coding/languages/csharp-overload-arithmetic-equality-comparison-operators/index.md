@@ -12,11 +12,10 @@ topics:
 aliases:
   - /how-do-i-overload-operators-in-csharp
 series:
-series_order:
+  - Generic Math
+series_order: 2
 ---
-This is post 2 in a 3-part series building up to a new C# 11 feature called [Generic Math](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#generic-math-support). Before tackling that though, I covered [static abstract members](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c/) (also new to C# 11), and now I want to look at overload operators (not new, but worth knowing).
-
-In C# you can [overload operators](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/operator-overloading), putting you in control of how two instances of an object are related to one another. We'll look at the different ways you can do that, but first...
+This is part of a series building up to the new C# 11 feature called [Generic Math](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#generic-math-support). Before tackling that though, let's check out [overload operators](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/operator-overloading) and how they put us in control of how two instances of an object are considered to be related.
 
 > The code in this post is available on [GitHub](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericMathSupport/GenericMathSupport), for you to use, expand upon, or just follow along while you read... and hopefully discover something new!
 
