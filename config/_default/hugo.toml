@@ -30,8 +30,8 @@ enableEmoji = true
   anchor = 'Center'
 
 [taxonomies]
-  label = "labels"
   category = "categories"
+  topics = "topics"
   author = "authors"
   series = "series"
 
