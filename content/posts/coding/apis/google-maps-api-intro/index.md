@@ -5,8 +5,10 @@ summary: The Google Maps API is a series of APIs for multiple platforms, each fo
 featureImageAttr: Photo by [John-Mark Smith](https://www.pexels.com/photo/map-of-the-world-book-laid-open-on-brown-wooden-surface-32307/)
 draft: false
 date: 2017-12-23T04:10:01Z
-lastmod: 
+lastmod:
 categories:
+  - API
+  - what ever
 tags:
   - google
 aliases:
