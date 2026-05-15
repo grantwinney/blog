@@ -9,7 +9,7 @@ lastmod:
 categories:
 topics:
   - csharp
-  - testing
+  - Testing
 aliases:
 ---
 I've been busy porting some .NET Framework 4.x code to individual [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard) libraries at work, in the hopes of modularizing some of our codebase and making it possible to build and run on different platforms. Since quite a few of our devs use OSX and there's a [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/), this could be a nice win... but it's led to some frustrating issues too. The whole idea of a .NET Standard app is that it's sort of a "lowest common denominator" of the .NET family, containing a minimum of API calls in order to work on more platforms than just Windows.

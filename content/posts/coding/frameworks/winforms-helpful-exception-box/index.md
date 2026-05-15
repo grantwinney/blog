@@ -10,10 +10,9 @@ categories:
   - Coding
   - WinForms
 topics:
-  - debug
 aliases:
 ---
-I saw a suggestion like a week or two ago that had me cracking up, and I can't for the life of me remember _where_ I saw it. Maybe LinkedIn, maybe Twitter.. I didn't mark it, so it's buried deep in my timeline never to be seen again. But the gist of it was someone asking whether just slapping a button on an error prompt that led straight to stack overflow was a legit way to help the end user.
+DeI saw a suggestion like a week or two ago that had me cracking up, and I can't for the life of me remember _where_ I saw it. Maybe LinkedIn, maybe Twitter.. I didn't mark it, so it's buried deep in my timeline never to be seen again. But the gist of it was someone asking whether just slapping a button on an error prompt that led straight to stack overflow was a legit way to help the end user.
 
 > If you'd like to follow along with the code in this post, it's available on [GitHub](https://github.com/grantwinney/Surviving-WinForms/tree/master/Debugging/Misc/MessageBoxForDevs).
 

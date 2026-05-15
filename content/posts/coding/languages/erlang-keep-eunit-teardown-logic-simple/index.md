@@ -9,7 +9,7 @@ lastmod:
 categories:
 topics:
   - erlang
-  - testing
+  - Testing
 aliases:
 ---
 When you use [test fixtures](https://learnyousomeerlang.com/eunit#fixtures) in EUnit, you'll likely define a `setup` and a `teardown` function, for doing initialization and cleanup work before and after each test. If you're familiar with `try/catch/finally` blocks in other languages, the teardown function is similar to a `finally` block; that is, it should always run even when a test throws an exception. But like a `finally` block, you want to be careful about what you're doing in your cleanup.
