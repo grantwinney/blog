@@ -5,10 +5,10 @@ summary: The record modifier can define properties and equality in our classes f
 featureImageAttr: Image by <a href="https://pixabay.com/users/niro9-40649225/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9180482">niro9</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9180482">Pixabay</a>
 draft: false
 date: 2024-12-10T12:35:55Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - C#
   - C# 9
 aliases:
 ---

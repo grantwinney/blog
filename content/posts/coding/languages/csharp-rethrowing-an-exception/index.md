@@ -5,8 +5,9 @@ summary: All programming languages have gotchas to trip you up, and C# is no exc
 featureImageAttr: Photo by [Iban Lopez Luna](https://www.pexels.com/photo/baseball-pitcher-in-action-on-tokyo-field-36780540/)
 draft: false
 date: 2020-09-17T04:08:32Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
   - C#
 aliases:

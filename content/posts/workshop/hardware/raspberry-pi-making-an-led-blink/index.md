@@ -8,7 +8,7 @@ date: 2016-03-26T16:37:30Z
 lastmod: 
 categories:
 topics:
-  - python
+  - Python
   - raspberry-pi
 aliases:
   - /hello-world-for-the-raspberry-pi-making-an-led-blink

@@ -5,13 +5,13 @@ summary: The .NET team has made some helpful additions to LINQ in recent years. 
 featureImageAttr: Photo by <a href="https://unsplash.com/@marcsm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marc Sendra Martorell</a> on <a href="https://unsplash.com/photos/closeup-photo-of-two-bubbles-2BrdNFxW0UY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2024-12-08T22:59:12Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - C#
   - C# 10
-  - dotnet-6
-  - linq
+  - .NET 6
+  - LINQ
 aliases:
 ---
 Microsoft recently released C# 13 with a couple new additions to LINQ, which [I wrote about last week](https://grantwinney.com/using-linq-countby-and-aggregateby-in-csharp/). That got me thinking about other recent additions to LINQ, like [MaxBy and MinBy](https://grantwinney.com/using-minby-and-maxby-in-csharp/). Continuing down the list, let's check out some set-based methods, including ExceptBy, IntersectBy, UnionBy, and DistinctBy.

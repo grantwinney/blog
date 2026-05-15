@@ -5,11 +5,12 @@ summary: Handling date and times is a thorn in every experienced developer's sid
 featureImageAttr: Photo by [Leeloo The First](https://www.pexels.com/photo/brown-framed-eyeglasses-on-a-calendar-5386754/)
 draft: false
 date: 2018-09-03T14:48:51Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
   - DateTime
-  - erlang
+  - Erlang
 aliases:
 ---
 Ask any programmer who's been at it awhile what their biggest aggravations are, and I'd bet handling dates and times is nearly always in the top 5. I'm just getting off of a week or so of standardizing some date/time handling across an Erlang application, so here's a few thoughts while it's still fresh in my mind _(and then I don't want to think about time ever again)_.

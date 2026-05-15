@@ -8,7 +8,7 @@ date: 2016-05-09T07:30:30Z
 lastmod: 
 categories:
 topics:
-  - python
+  - Python
   - raspberry-pi
 aliases:
   - /using-pullup-and-pulldown-resistors-on-the-raspberry-pi

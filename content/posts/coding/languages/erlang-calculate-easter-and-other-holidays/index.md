@@ -5,11 +5,12 @@ summary: I wrote a small library for calculating Easter and other holidays in Er
 featureImageAttr: Photo by [Towfiqu barbhuiya](https://www.pexels.com/photo/drawing-pin-on-calendar-11333728/)
 draft: false
 date: 2018-07-01T00:32:52Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
   - DateTime
-  - erlang
+  - Erlang
 aliases:
 ---
 On a whim, I created an Erlang module for calculating holidays, and things were going okay until it came to Easter. Have you ever tried to calculate Easter? It's surprisingly difficult.

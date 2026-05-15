@@ -5,12 +5,12 @@ summary: As part of C# 12, we got a new feature called primary constructors. Let
 featureImageAttr: Photo by <a href="https://unsplash.com/@yogidan2012?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniele Levis Pelusi</a> on <a href="https://unsplash.com/photos/a-multicolored-painting-on-a-wooden-surface-Qde0qvQAmaI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2024-12-13T02:05:42Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - C#
   - C# 12
-  - dotnet-8
+  - .NET 8
 aliases:
 ---
 The C# and .NET teams are always adding interesting, useful features, more frequently than ever since the norm has become annual releases. It's easy to lose track of [all the changes](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history) though, and whenever I go back and dig around I usually find something interesting to try out.

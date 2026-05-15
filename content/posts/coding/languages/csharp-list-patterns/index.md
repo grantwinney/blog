@@ -5,10 +5,10 @@ summary: C# has been getting a lot of pattern matching love in recent years, lik
 featureImageAttr: Photo by <a href="https://unsplash.com/@aridley88?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrew Ridley</a> on <a href="https://unsplash.com/photos/a-multicolored-tile-wall-with-a-pattern-of-small-squares-jR4Zf-riEjI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2023-08-31T23:04:38Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - C#
   - C# 11
 aliases:
 ---

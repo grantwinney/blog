@@ -5,10 +5,11 @@ summary: When dealing with a dynamically typed language, any effort to tame the 
 featureImageAttr: Image by <a href="https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6984855">Mohamed Hassan</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6984855">Pixabay</a>
 draft: false
 date: 2019-02-09T21:10:27Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - erlang
+  - Erlang
 aliases:
 ---
 When you're dealing with a dynamically typed language like Erlang, any effort to [tame the beast](https://grantwinney.com/taming-the-erlang-beast/#dialyzer) can pay off in spades. I'm currently focused on an Erlang app that has zero [Dialyzer specs](https://learnyousomeerlang.com/dialyzer) in it, so adding them is the hill I'm currently dying on. If you're new to it, check out [Learn You Some Erlang](https://learnyousomeerlang.com/dialyzer).

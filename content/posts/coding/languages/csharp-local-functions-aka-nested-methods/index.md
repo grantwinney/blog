@@ -5,10 +5,10 @@ summary: C# 7 introduced a new tool for the belt - local functions. Let's take a
 featureImageAttr: Image by <a href="https://pixabay.com/users/couleur-1195798/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1666132">Couleur</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1666132">Pixabay</a>
 draft: false
 date: 2022-10-08T18:40:48Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - C#
   - C# 7
 aliases:
 ---

@@ -8,7 +8,7 @@ date: 2016-05-19T06:10:28Z
 lastmod: 
 categories:
 topics:
-  - python
+  - Python
   - raspberry-pi
 aliases:
 ---

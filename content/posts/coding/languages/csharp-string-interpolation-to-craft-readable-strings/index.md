@@ -5,12 +5,11 @@ summary: The longer I write software, the more I come to appreciate clear code. 
 featureImageAttr: Photo by <a href="https://unsplash.com/@emmages?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emmanuel Ikwuegbu</a> on <a href="https://unsplash.com/photos/a-red-knot-on-a-blue-background-Xn4PKeYa0Eg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2022-09-19T10:30:18Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - C#
   - C# 6
-  - surviving-winforms
 aliases:
 ---
 The longer I've been writing software, the more I've come to appreciate clear code. One of the toughest challenges in software development is understanding someone else's code - or your own after a few months, heh. If you're supporting an older app, you're spending as much (or more) time understanding what someone wrote 20 years ago than writing new code. Anything that makes it easier is a welcome thing!

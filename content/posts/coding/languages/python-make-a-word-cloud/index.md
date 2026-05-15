@@ -5,10 +5,11 @@ summary: We've all seen word clouds, like in the sidebars of blogs, but let's se
 featureImageAttr: Photo by <a href="https://unsplash.com/@mawiswiss?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marc Wieland</a> on <a href="https://unsplash.com/photos/cloud-photo-zrj-TPjcRLA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2020-06-04T21:43:00Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - python
+  - Python
 aliases:
 ---
 You've most likely seen word clouds before, like in the sidebars of blogs. It's a fun, easy way to visualize which words in a group are more significant in some way. While you can [create your own](https://worditout.com/) online, there's no reason you can't write your own in the language of your choice too.

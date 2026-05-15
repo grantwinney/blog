@@ -9,7 +9,7 @@ lastmod:
 categories:
 topics:
   - coding
-  - python
+  - Python
   - raspberry-pi
 aliases:
   - /building-a-morse-code-transmitter-on-a-raspberry-pi

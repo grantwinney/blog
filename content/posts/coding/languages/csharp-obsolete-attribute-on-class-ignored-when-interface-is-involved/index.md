@@ -5,10 +5,10 @@ summary: The Obsolete attribute on a class is ignored when an interface is invol
 featureImageAttr: Photo by [Berre Açıkdeniz](https://www.pexels.com/photo/vintage-tvs-abandoned-by-the-roadside-28744471/)
 draft: false
 date: 2015-02-04T17:49:31Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - attributes
   - C#
   - Metadata
 aliases:

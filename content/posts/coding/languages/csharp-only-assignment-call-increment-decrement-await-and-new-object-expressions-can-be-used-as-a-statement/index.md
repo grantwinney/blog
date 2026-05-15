@@ -5,8 +5,9 @@ summary: This error might look a little cryptic at first glance, but it's fairly
 featureImageAttr: Photo by <a href="https://unsplash.com/@egorkomarov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Egor Komarov</a> on <a href="https://unsplash.com/photos/abstract-blue-background-with-floating-symbols-blFJ_y7DEsQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2019-11-14T17:25:00Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
   - C#
 aliases:

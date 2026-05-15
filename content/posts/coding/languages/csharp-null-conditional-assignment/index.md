@@ -5,10 +5,10 @@ summary: The null conditional operator just got an upgrade.. we can do assignmen
 featureImageAttr: Photo by [Markus Kranich](https://www.pexels.com/photo/colorful-abstract-light-swirl-on-black-background-37389791/)
 draft: false
 date: 2025-12-03T12:09:00
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - C#
   - C# 14
   - C# 8
 aliases:

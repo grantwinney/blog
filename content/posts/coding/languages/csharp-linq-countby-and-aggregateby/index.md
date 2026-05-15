@@ -5,13 +5,13 @@ summary: It's great to see Microsoft still giving us new things in LINQ. With C#
 featureImageAttr: Photo by <a href="https://unsplash.com/@shs521?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Susan Holt Simpson</a> on <a href="https://unsplash.com/photos/brown-wooden-toy-blocks-GQ327RPuxhI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2024-12-03T19:23:03Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - C#
   - C# 13
-  - dotnet-9
-  - linq
+  - .NET 9
+  - LINQ
 aliases:
 ---
 Personally, I've been a big fan of LINQ ever since it was added in C# 3 over 15 years ago. I prefer the sleek SQL-like syntax to verbose, nested `foreach` blocks. It's nice to see that Microsoft still values it enough to keep adding new things.

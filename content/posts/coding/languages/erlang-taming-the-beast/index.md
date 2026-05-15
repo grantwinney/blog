@@ -5,10 +5,11 @@ summary: Becoming an Erlang developer has not always been easy, but over the las
 featureImageAttr: Photo by <a href="https://unsplash.com/@joel_herzog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">joel herzog</a> on <a href="https://unsplash.com/photos/gray-and-brown-lion-face-pQmu6_4VDaI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2017-11-01T16:50:27Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - erlang
+  - Erlang
 aliases:
   - /5-ways-to-tame-the-erlang-beast
 ---

@@ -5,10 +5,11 @@ summary: Ever had an EUnit test fixture fail with meck reporting it was "already
 featureImageAttr: Photo by <a href="https://unsplash.com/@abdulellahalena?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">مقاول هدم مباني</a> on <a href="https://unsplash.com/photos/a-bulldozer-digging-through-the-rubble-of-a-building-Of1y9InUMI0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2019-03-14T11:03:00Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - erlang
+  - Erlang
   - Testing
 aliases:
 ---

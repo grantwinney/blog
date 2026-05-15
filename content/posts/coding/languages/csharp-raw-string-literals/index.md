@@ -5,12 +5,12 @@ summary: C# 11 added raw string literals, not a life-altering new feature, but t
 featureImageAttr: Photo by <a href="https://unsplash.com/@sergeykotenev?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sergey Kotenev</a> on <a href="https://unsplash.com/photos/a-slab-of-raw-meat-on-a-cutting-board-with-vegetables-and-a-bowl-of-sauce-ZKv9WGWMOLk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2024-12-14T22:32:43Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - C#
   - C# 11
-  - dotnet-7
+  - .NET 7
 aliases:
 ---
 Some of the many additions to C# and the .NET Framework are huge (like LINQ or async), while others are much smaller. I'd definitely place raw string literals in the latter group, but then maybe I'm missing something. They're still worth a look though.

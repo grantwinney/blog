@@ -5,10 +5,11 @@ summary: Have you ever tried to execute a function at some future time in Erlang
 featureImageAttr: Photo by <a href="https://unsplash.com/@marceloleal80?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marcelo Leal</a> on <a href="https://unsplash.com/photos/black-and-white-analog-egg-timer-vZawEq0Eexo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2018-06-06T18:18:06Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - erlang
+  - Erlang
 aliases:
 ---
 ## The Problem

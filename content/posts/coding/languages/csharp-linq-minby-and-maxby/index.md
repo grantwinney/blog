@@ -5,13 +5,13 @@ summary: The .NET team has made some helpful additions to LINQ over the last few
 featureImageAttr: Photo by <a href="https://unsplash.com/@aryatulsyan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Arya Tulsyan</a> on <a href="https://unsplash.com/photos/a-large-elephant-and-two-small-elephants-in-a-field-tK9Cwzslpi0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2024-12-05T22:24:55Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - C#
   - C# 10
-  - dotnet-6
-  - linq
+  - .NET 6
+  - LINQ
 aliases:
 ---
 Microsoft made a couple new additions to LINQ as part of the C# 13 / .NET 9 release a few weeks ago, and, since I happen to really like LINQ, I wrote about [how to use them](https://grantwinney.com/using-linq-countby-and-aggregateby-in-csharp/). That got me thinking about other recent additions I might've missed in the last few releases, so I started [looking back](https://learn.microsoft.com/en-us/dotnet/maui/whats-new). And whatdya know, we got a slew of updates to LINQ in C# 10 / .NET 6 a few years ago.

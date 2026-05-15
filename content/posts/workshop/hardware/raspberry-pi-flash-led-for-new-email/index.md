@@ -8,7 +8,7 @@ date: 2016-05-28T21:19:25Z
 lastmod: 
 categories:
 topics:
-  - python
+  - Python
   - raspberry-pi
 aliases:
   - /how-to-flash-an-led-on-your-raspberry-pi-when-you-get-new-email

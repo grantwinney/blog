@@ -5,10 +5,11 @@ summary: Every time I learn some new piece of CSS I'm amazed at how flexible and
 featureImageAttr: Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pawel Czerwinski</a> on <a href="https://unsplash.com/photos/a-black-background-with-a-pink-and-blue-swirl-ZkzobNDayXo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2020-02-13T23:50:42Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - css
+  - CSS
 aliases:
 ---
 Every time I learn some new piece of CSS I'm amazed at how flexible and powerful it is, and the [prefers-color-scheme media element](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) is no exception. The "dark mode" setting from a visitor's desktop or mobile device can be passed to the browser, which then applies it to your site according to your style sheets. So. Cool.

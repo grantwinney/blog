@@ -5,10 +5,11 @@ summary: Concatenating strings and binaries in Erlang can get ugly quick. Let's 
 featureImageAttr: Photo by <a href="https://unsplash.com/@d_kah?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">d kah</a> on <a href="https://unsplash.com/photos/gray-rock-formation-on-green-grass-field-under-white-clouds-during-daytime-P6zZw3bvNBM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2017-09-26T16:09:00Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - erlang
+  - Erlang
 aliases:
 ---
 ## The Problem

@@ -5,11 +5,11 @@ summary: One of the many nice functions in LINQ is a single word that iterates t
 featureImageAttr: Image by <a href="https://pixabay.com/users/analogicus-8164369/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8332727">Tom</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8332727">Pixabay</a>
 draft: false
 date: 2019-11-11T23:36:00Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - C#
-  - linq
+  - LINQ
 aliases:
 ---
 If you are (or hope to be) a .NET developer, knowing [LINQ](https://learn.microsoft.com/en-us/dotnet/csharp/linq/) is a _huge_ time-saver. It's a syntax that allows you to manipulate data in a fashion that'll be familiar to anyone who's worked in a database.

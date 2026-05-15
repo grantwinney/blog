@@ -5,10 +5,11 @@ summary: I ran into a problem in Erlang yesterday that made me think... is there
 featureImageAttr: Image by <a href="https://pixabay.com/users/stocksnap-894430/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=924920">StockSnap</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=924920">Pixabay</a>
 draft: false
 date: 2018-05-22T16:55:18Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - erlang
+  - Erlang
 aliases:
 ---
 I was tackling a new requirement the other day, which needed a new record. One of the fields is a list of items, while another happens to represent a count of those items - not that the consumer of the record would necessarily be aware of that relationship.

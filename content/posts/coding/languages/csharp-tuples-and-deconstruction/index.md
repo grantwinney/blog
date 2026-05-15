@@ -5,12 +5,11 @@ summary: A big challenge with any language is trying to group and organize thing
 featureImageAttr: Photo by <a href="https://unsplash.com/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Winkler</a> on <a href="https://unsplash.com/photos/white-and-black-jigsaw-puzzle-aYPtEknQmXE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2023-01-05T00:38:03Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - C#
   - C# 7
-  - surviving-winforms
 aliases:
 ---
 One of the biggie challenges when programming in any language is figuring how to group and organize things sensibly. Even a small project can get out of hand quickly, and once you've got a dozen devs working in something for years, all bets are off.

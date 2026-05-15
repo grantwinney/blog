@@ -5,10 +5,10 @@ summary: Checking for nulls in C# is tedious, but C# 6 gave us the null-conditio
 featureImageAttr: Photo by [Uroš Drljača](https://www.pexels.com/photo/abstract-light-painting-with-tunnel-effect-29431263/)
 draft: false
 date: 2022-09-27T01:13:39Z
-lastmod: 
+lastmod:
 categories:
+  - Coding
 topics:
-  - C#
   - C# 6
 aliases:
 ---
