@@ -9,7 +9,6 @@ lastmod:
 categories:
   - API
 tags:
-  - twitter
 aliases:
   - /day-1-twitter-api
 ---

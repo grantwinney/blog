@@ -9,7 +9,6 @@ lastmod:
 categories:
   - API
 tags:
-  - trello
 aliases:
   - /day-10-trello-api
 ---

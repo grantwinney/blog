@@ -9,7 +9,6 @@ lastmod:
 categories:
   - API
 tags:
-  - chat
 aliases:
   - /day-5-slack-api
 ---

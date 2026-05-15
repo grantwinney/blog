@@ -9,7 +9,6 @@ lastmod:
 categories:
   - API
 tags:
-  - books
 aliases:
   - /day-14-penguin-random-house-api
 ---

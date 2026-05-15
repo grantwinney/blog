@@ -9,7 +9,7 @@ lastmod:
 categories:
   - API
 tags:
-  - climate
+  - weather
 aliases:
   - /day-12-openweathermap-api
 ---
