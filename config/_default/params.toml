@@ -83,7 +83,6 @@ relatedContentLimit = ""
 showCategoryOnly = false
 showComments = true
 heroStyle = "background"
-showSidebar = true
 
 [list]
 showHero = false
@@ -101,7 +100,6 @@ groupByYear = true
 cardView = false
 cardViewScreenWidth = false
 constrainItemsWidth = false
-showSidebar = true
 
 [sitemap]
 excludedKinds = [ "taxonomy", "term" ]
@@ -134,3 +132,6 @@ name = "Grant Winney"
 image = "/images/profile_bw.png"
 headline = ""
 bio = "Welcome to my corner of the web..."
+
+[widgets]
+taxonomy = true
