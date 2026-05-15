@@ -132,6 +132,3 @@ name = "Grant Winney"
 image = "/images/profile_bw.png"
 headline = ""
 bio = "Welcome to my corner of the web..."
-
-[widgets]
-taxonomy = true
