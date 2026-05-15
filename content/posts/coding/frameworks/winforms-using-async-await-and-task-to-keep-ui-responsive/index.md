@@ -5,16 +5,14 @@ summary: Using the async/await pattern in WinForms is an easy win, helping preve
 featureImageAttr: Photo by <a href="https://unsplash.com/@amir_v_ali?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">amirali mirhashemian</a> on <a href="https://unsplash.com/photos/red-and-yellow-thread-in-needle-kiH-RBm08NQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2021-06-07T12:56:43Z
-lastmod: 
+lastmod:
 categories:
   - Coding
   - WinForms
 topics:
-  - async
-  - csharp
-  - csharp-5
-  - surviving-winforms
-  - threading
+  - Async
+  - C# 5
+  - Multithreading
 aliases:
 ---
 For most of my dev career, I've been in C# shops. That doesn't mean _every_ project required C# exclusively, but most of them did. I've also used React, Ruby, C++, Erlang.. whatever's called for. But large company or small, if you're a C# dev, sooner or later you'll likely find yourself supporting a WinForms app. And crystal reports, but we shan't speak of that here. 😑

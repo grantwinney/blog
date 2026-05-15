@@ -10,8 +10,8 @@ categories:
   - Coding
   - WinForms
 topics:
-  - MVP
   - Testing
+  - MVP Design
 aliases:
 ---
 If you find yourself in a position where you're supporting a WinForms application, you're likely to notice the tests... or lack thereof. Just because we may not have been so focused on automated tests and continuous integration when WinForms was younger, that doesn't mean we can't introduce them now. Better late than never!

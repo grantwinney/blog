@@ -5,12 +5,11 @@ summary: If you're writing a WPF application and need to find the state of the N
 featureImageAttr: Photo by <a href="https://unsplash.com/@mikafromdenmark?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mika H. Laybourn</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-purple-keyboard-on-a-table-ZPDXoTrPAso?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2019-11-12T00:30:00Z
-lastmod: 
+lastmod:
 categories:
   - Coding
 topics:
-  - csharp
-  - wpf
+  - WPF
 aliases:
 ---
 If you're writing a WPF application and need to find the state of the Num Lock, Caps Lock, or Scroll Lock keys, you can use the [Keyboard.IsToggled](https://msdn.microsoft.com/en-us/library/system.windows.input.keyboard.iskeytoggled\(v=vs.110\).aspx) method (introduced in .NET 3.0):

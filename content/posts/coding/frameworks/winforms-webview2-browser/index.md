@@ -5,14 +5,12 @@ summary: In .NET 5, WinForms got a WebView2 control for displaying web pages.. e
 featureImageAttr: Image by <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1867745">Pexels</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1867745">Pixabay</a>
 draft: false
 date: 2025-01-17T22:41:08Z
-lastmod: 
+lastmod:
 categories:
   - Coding
   - WinForms
 topics:
-  - dotnet-5
-  - winforms
-  - winforms
+  - .NET 5
 aliases:
 ---
 When one thinks of WinForms, one does _not_ generally think of the web at the same time, unless it's how they wish they could move their app from one to the other. However, there's a number of controls for displaying web pages in a WinForms app, and with .NET 5 we got a new one called [WebView2](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/whats-new/net50?view=netdesktop-9.0#new-controls).
