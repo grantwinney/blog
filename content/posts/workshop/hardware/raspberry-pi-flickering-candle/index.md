@@ -9,7 +9,7 @@ lastmod:
 categories:
 topics:
   - Python
-  - raspberry-pi
+  - Raspberry Pi
 aliases:
 ---
 After [getting PWM (pulse-width modulation) to work with an RGB LED](https://grantwinney.com/raspberry-pi-pulse-width-modulation/) last week, I was trying to think of what else I could do with an LED that demonstrated changes in color as well as intensity.

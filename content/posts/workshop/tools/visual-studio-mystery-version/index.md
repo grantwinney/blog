@@ -8,8 +8,8 @@ date: 2026-01-19T11:52:00
 lastmod: 
 categories:
 topics:
-  - visual-studio
-  - vs2026
+  - Visual Studio
+  - VS2026
 aliases:
 ---
 After installing Visual Studio 2026 recently, which rolled out this past November, the first thing I noticed when I went to start it was the shortcut. Specifically, the version.. or lack of one.

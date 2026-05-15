@@ -8,8 +8,8 @@ date: 2018-08-20T16:20:12Z
 lastmod: 
 categories:
 topics:
-  - visual-studio
-  - vs4mac
+  - Visual Studio
+  - VS4Mac
 aliases:
 ---
 I saw an implementation of some C# code this week that looked like it _should_ work, but wasn't producing the expected results for me using .NET 4.6. I thought I'd setup a local project in [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/) and then turn the clock back a bit to see if maybe how the code was implemented changed between .NET versions. That'd actually be pretty unusual, since .NET values backwards compatibility, but [it's not unheard of](https://blogs.msdn.microsoft.com/ericlippert/2009/11/16/closing-over-the-loop-variable-part-two/).

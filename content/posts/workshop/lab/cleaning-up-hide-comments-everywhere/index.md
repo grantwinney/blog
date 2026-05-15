@@ -9,7 +9,7 @@ lastmod:
 categories:
 topics:
   - Browser Extension
-  - javascript
+  - Javascript
 aliases:
 ---
 It's probably a good sign that you've found the right career for yourself, when you spend time over the weekend on a small project that uses the same skills you spent all week using professionally! Or maybe it's unhealthy, who's to say? 🙄

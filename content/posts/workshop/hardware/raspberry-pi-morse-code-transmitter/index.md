@@ -10,7 +10,7 @@ categories:
 topics:
   - coding
   - Python
-  - raspberry-pi
+  - Raspberry Pi
 aliases:
   - /building-a-morse-code-transmitter-on-a-raspberry-pi
 ---

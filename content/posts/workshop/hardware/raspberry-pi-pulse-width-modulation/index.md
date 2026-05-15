@@ -9,7 +9,7 @@ lastmod:
 categories:
 topics:
   - Python
-  - raspberry-pi
+  - Raspberry Pi
 aliases:
   - /how-to-use-an-rgb-multicolor-led-with-pulse-width-modulation-pwm-on-the-raspberry-pi
 ---

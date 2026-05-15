@@ -9,7 +9,7 @@ lastmod:
 categories:
 topics:
   - Python
-  - raspberry-pi
+  - Raspberry Pi
 aliases:
   - /hello-world-for-the-raspberry-pi-making-an-led-blink
 ---

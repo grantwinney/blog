@@ -8,8 +8,8 @@ date: 2016-06-21T13:02:00Z
 lastmod: 
 categories:
 topics:
-  - raspberry-pi
-  - sonic-pi
+  - Raspberry Pi
+  - Sonic Pi
 aliases:
   - /creating-music-with-sonic-pi-on-the-raspberry-pi
 ---

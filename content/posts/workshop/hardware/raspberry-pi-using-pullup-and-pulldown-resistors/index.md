@@ -9,7 +9,7 @@ lastmod:
 categories:
 topics:
   - Python
-  - raspberry-pi
+  - Raspberry Pi
 aliases:
   - /using-pullup-and-pulldown-resistors-on-the-raspberry-pi
 ---

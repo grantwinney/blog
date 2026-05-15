@@ -9,8 +9,8 @@ lastmod:
 categories:
 topics:
   - Python
-  - raspberry-pi
-  - sonic-pi
+  - Raspberry Pi
+  - Sonic Pi
 aliases:
   - /creating-a-simon-game-clone-on-the-raspberry-pi
 ---

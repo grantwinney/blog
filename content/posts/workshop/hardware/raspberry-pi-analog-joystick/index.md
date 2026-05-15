@@ -9,7 +9,7 @@ lastmod:
 categories:
 topics:
   - Python
-  - raspberry-pi
+  - Raspberry Pi
 aliases:
 ---
 One of the best things about the Raspberry Pi is its GPIO pins. They’re just sitting there, waiting to be connected to all kinds of interesting peripherals so your Pi can interact with the world around it. We can [send alerts](https://grantwinney.com/raspberry-pi-flash-led-for-new-email/), attach sensors, and even plug cards like the [Sense HAT](https://www.raspberrypi.org/products/sense-hat/) over top of the pins to do even more.

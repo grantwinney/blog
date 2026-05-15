@@ -9,7 +9,7 @@ lastmod:
 categories:
 topics:
   - Python
-  - raspberry-pi
+  - Raspberry Pi
 aliases:
   - /how-to-flash-an-led-on-your-raspberry-pi-when-you-get-new-email
 ---

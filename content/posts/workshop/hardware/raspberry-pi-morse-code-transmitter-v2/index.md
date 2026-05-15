@@ -9,7 +9,7 @@ lastmod:
 categories:
 topics:
   - Python
-  - raspberry-pi
+  - Raspberry Pi
 aliases:
 ---
 Last month, [I created a morse code generator](https://grantwinney.com/raspberry-pi-morse-code-transmitter/). It accepts user input from the console, translates it into morse code, and blinks an LED to “transmit” the message.

@@ -8,8 +8,8 @@ date: 2023-01-14T20:36:55Z
 lastmod: 
 categories:
 topics:
-  - visual-studio
-  - vs2022
+  - Visual Studio
+  - VS2022
   - winforms
 aliases:
 ---
