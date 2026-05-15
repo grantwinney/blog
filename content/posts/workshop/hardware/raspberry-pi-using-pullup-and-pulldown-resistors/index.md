@@ -5,8 +5,9 @@ summary: When you start out creating circuits with the Raspberry Pi and its GPIO
 featureImageAttr: Photo by <a href="https://unsplash.com/@harrisonbroadbent?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Harrison Broadbent</a> on <a href="https://unsplash.com/photos/black-and-yellow-audio-mixer-afZVP8xbbw0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2016-05-09T07:30:30Z
-lastmod: 
+lastmod:
 categories:
+  - Maker
 topics:
   - Python
   - Raspberry Pi

@@ -5,8 +5,9 @@ summary: I created a morse code generator before based on entering a string at t
 featureImageAttr: Photo by <a href="https://unsplash.com/@sandratansh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sandra Tan</a> on <a href="https://unsplash.com/photos/brown-crank-tool-k9WWliLDUgc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2016-05-19T06:10:28Z
-lastmod: 
+lastmod:
 categories:
+  - Maker
 topics:
   - Python
   - Raspberry Pi

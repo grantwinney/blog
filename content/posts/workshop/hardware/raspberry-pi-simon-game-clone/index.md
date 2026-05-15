@@ -5,8 +5,9 @@ summary: Let's recreate the Simon game of the 1980s using a Raspberry Pi and Son
 featureImageAttr: Photo by [ELIAS HERBING](https://www.pexels.com/photo/red-yellow-blue-and-green-ball-4034455/)
 draft: false
 date: 2016-07-28T08:09:41Z
-lastmod: 
+lastmod:
 categories:
+  - Maker
 topics:
   - Python
   - Raspberry Pi

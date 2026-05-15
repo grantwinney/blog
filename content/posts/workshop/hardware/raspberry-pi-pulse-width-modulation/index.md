@@ -1,12 +1,13 @@
 ---
 title: How to Use Pulse Width Modulation (PWM) on an RGB LED and the Raspberry Pi
 slug: raspberry-pi-pulse-width-modulation
-summary: 
+summary:
 featureImageAttr: Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pawel Czerwinski</a> on <a href="https://unsplash.com/photos/a-black-background-with-a-blue-wave-of-light-eybM9n4yrpE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2016-08-22T07:28:52Z
-lastmod: 
+lastmod:
 categories:
+  - Maker
 topics:
   - Python
   - Raspberry Pi

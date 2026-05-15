@@ -1,12 +1,13 @@
 ---
 title: Connecting an Analog Joystick to the Raspberry Pi
 slug: raspberry-pi-analog-joystick
-summary: 
+summary:
 featureImageAttr: Photo by [Piotr Baranowski](https://www.pexels.com/photo/vintage-video-game-joystick-22763607/)
 draft: false
 date: 2016-09-24T13:30:49Z
-lastmod: 
+lastmod:
 categories:
+  - Maker
 topics:
   - Python
   - Raspberry Pi

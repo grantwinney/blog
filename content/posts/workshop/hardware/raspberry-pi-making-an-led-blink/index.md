@@ -5,8 +5,9 @@ summary: I unboxed my Raspberry Pi a few weeks ago and started learning Python. 
 featureImageAttr: Photo by <a href="https://unsplash.com/@msohebzaidi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Soheb Zaidi</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-traffic-light-with-a-blurry-background-uNAU5srG8xo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2016-03-26T16:37:30Z
-lastmod: 
+lastmod:
 categories:
+  - Maker
 topics:
   - Python
   - Raspberry Pi

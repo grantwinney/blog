@@ -5,8 +5,9 @@ summary: Let's learn how to flash an LED on the Raspberry Pi when someone sends 
 featureImageAttr: Photo by <a href="https://unsplash.com/@brett_jordan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brett Jordan</a> on <a href="https://unsplash.com/photos/blue-and-white-logo-guessing-game-LPZy4da9aRo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2016-05-28T21:19:25Z
-lastmod: 
+lastmod:
 categories:
+  - Maker
 topics:
   - Python
   - Raspberry Pi

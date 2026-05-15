@@ -5,10 +5,10 @@ summary: Making the Pi blink an LED a few times is thrilling, but what about bui
 featureImageAttr: Photo by <a href="https://unsplash.com/@amsterdamcityarchives?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Amsterdam City Archives</a> on <a href="https://unsplash.com/photos/vintage-film-projector-with-perforations-on-film-strip-Tq21GZcLt60?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2016-04-03T09:03:25Z
-lastmod: 
+lastmod:
 categories:
+  - Maker
 topics:
-  - coding
   - Python
   - Raspberry Pi
 aliases:

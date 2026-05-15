@@ -1,12 +1,13 @@
 ---
 title: Creating a Flickering Candle Using an RGB LED on the Raspberry Pi
 slug: raspberry-pi-flickering-candle
-summary: 
+summary:
 featureImageAttr: Photo by <a href="https://unsplash.com/@labrum777?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mike Labrum</a> on <a href="https://unsplash.com/photos/low-angle-photo-of-lightened-candles-fvl4b1gjpbk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2016-08-29T22:34:44Z
-lastmod: 
+lastmod:
 categories:
+  - Maker
 topics:
   - Python
   - Raspberry Pi
