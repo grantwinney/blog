@@ -64,7 +64,7 @@ showBreadcrumbs = false
 showDraftLabel = true
 showEdit = false
 editAppendPath = true
-seriesOpened = false
+seriesOpened = true
 showHeadingAnchors = true
 showPagination = false
 invertPagination = false
@@ -82,6 +82,7 @@ relatedContentLimit = 3
 showCategoryOnly = false
 showComments = true
 heroStyle = "background"
+sharingLinks = ["email", "facebook", "linkedin", "pinterest", "reddit", "telegram", "twitter", "whatsapp" ]
 
 [list]
 showHero = false
