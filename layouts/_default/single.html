@@ -54,15 +54,6 @@
           <div class="feature-image-attribution">{{ .Params.featureImageAttr | $.Page.RenderString }}</div>
           {{ end }}
 
-          <div id="social_share">
-            <a href="https://x.com/intent/tweet/?text={{ .Params.title }}&url=https%3a%2f%2fgrantwinney.com%2f{{ .Params.slug }}" target="_blank">{{ partial "icon.html" "x-twitter" }}</a>
-            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fgrantwinney.com%2f{{ .Params.slug }}%2f&title={{ .Params.title }}&summary={{ .Params.title }}&source=https%3a%2f%2fgrantwinney.com%2f{{ .Params.slug }}" target="_blank">{{ partial "icon.html" "linkedin" }}</a>
-            <a href="https://reddit.com/submit?url=https%3a%2f%2fgrantwinney.com%2f{{ .Params.slug }}&title={{ .Params.title }}" target="_blank">{{ partial "icon.html" "reddit" }}</a>
-            <a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fgrantwinney.com%2f{{ .Params.slug }}" target="_blank">{{ partial "icon.html" "facebook" }}</a>
-            <a href="https://api.whatsapp.com/send?text={{ .Params.title }}%20-%20https%3a%2f%2fgrantwinney.com%2f{{ .Params.slug }}" target="_blank">{{ partial "icon.html" "whatsapp" }}</a>
-            <a href="https://telegram.me/share/url?text={{ .Params.title }}&url=https%3a%2f%2fgrantwinney.com%2f{{ .Params.slug }}" target="_blank">{{ partial "icon.html" "telegram" }}</a>
-            <a href="https://www.tumblr.com/widgets/share/tool?canonicalUrl=https://grantwinney.com/{{ .Params.slug }}/&title={{ .Params.title }}" target="_blank">{{ partial "icon.html" "tumblr" }}</a>
-          </div>
 
           {{ $defaultReplyByEmail := site.Params.replyByEmail }}
           {{ $replyByEmail := default $defaultReplyByEmail .Params.replyByEmail }}
