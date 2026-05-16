@@ -29,6 +29,13 @@ highlightCurrentMenuArea = false
 enableStyledScrollbar = "true"
 defaultBackgroundImage = "/images/default-featured.webp"
 
+[buymeacoffee]
+identifier = "1234"
+globalWidget = true
+globalWidgetMessage = "Hello"
+globalWidgetColor = "#FFDD00"
+globalWidgetPosition = "right"
+
 [header]
 layout = "fixed"
 
@@ -109,7 +116,7 @@ showTermCount = true
 showHero = true
 heroStyle = "background"
 layoutBackgroundBlur = true
-layoutBackgroundHeaderSpace = true
+layoutBackgroundHeaderSpace = false
 showBreadcrumbs = false
 showViews = false
 showLikes = false
