@@ -82,7 +82,7 @@ relatedContentLimit = 3
 showCategoryOnly = false
 showComments = true
 heroStyle = "background"
-sharingLinks = ["email", "facebook", "linkedin", "pinterest", "reddit", "telegram", "twitter", "whatsapp" ]
+sharingLinks = ["bluesky", "email", "facebook", "linkedin", "mastodon", "pinterest", "reddit", "telegram", "twitter", "whatsapp" ]
 
 [list]
 showHero = false
@@ -98,7 +98,7 @@ showCards = false
 orderByWeight = false
 groupByYear = true
 cardView = false
-cardViewScreenWidth = false
+cardViewScreenWidth = true
 constrainItemsWidth = false
 
 [sitemap]

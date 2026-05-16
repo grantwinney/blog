@@ -54,7 +54,6 @@
           <div class="feature-image-attribution">{{ .Params.featureImageAttr | $.Page.RenderString }}</div>
           {{ end }}
 
-
           {{ $defaultReplyByEmail := site.Params.replyByEmail }}
           {{ $replyByEmail := default $defaultReplyByEmail .Params.replyByEmail }}
           {{ if $replyByEmail }}
