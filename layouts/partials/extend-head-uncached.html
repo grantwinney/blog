@@ -1,0 +1,3 @@
+{{ with .Resources.GetMatch "*.css" }}
+  <style>{{ .Content | safeCSS }}</style>
+{{ end }}
