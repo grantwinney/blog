@@ -107,8 +107,10 @@ excludedKinds = [ "taxonomy", "term" ]
 [taxonomy]
 showTermCount = true
 showHero = true
+heroStyle = "background"
 layoutBackgroundBlur = true
-layoutBackgroundHeaderSpace = true
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = false
 showBreadcrumbs = false
 showViews = false
 showLikes = false
