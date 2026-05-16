@@ -98,7 +98,7 @@ showCards = false
 orderByWeight = false
 groupByYear = true
 cardView = false
-cardViewScreenWidth = true
+cardViewScreenWidth = false
 constrainItemsWidth = false
 
 [sitemap]
@@ -106,7 +106,7 @@ excludedKinds = [ "taxonomy", "term" ]
 
 [taxonomy]
 showTermCount = true
-showHero = false
+showHero = true
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
