@@ -1,0 +1,4 @@
+<!-- show attribution for feature image, if any -->
+{{ if (.Params.featureImageAttr) }}
+Attr: <div class="feature-image-attribution">{{ .Params.featureImageAttr | $.Page.RenderString }}</div>
+{{ end }}
