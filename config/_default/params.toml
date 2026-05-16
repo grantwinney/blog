@@ -28,12 +28,12 @@ highlightCurrentMenuArea = false
 enableStyledScrollbar = "true"
 defaultBackgroundImage = "/images/default-featured.webp"
 
-[buymeacoffee]
-identifier = "1234"
-globalWidget = true
-globalWidgetMessage = "Hello"
-globalWidgetColor = "#FFDD00"
-globalWidgetPosition = "right"
+# [buymeacoffee]
+# identifier = ""
+# globalWidget = true
+# globalWidgetMessage = "Hello"
+# globalWidgetColor = "#FFDD00"
+# globalWidgetPosition = "right"
 
 [header]
 layout = "fixed"
