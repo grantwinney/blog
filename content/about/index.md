@@ -5,6 +5,9 @@ featureImageAttr: Photo by <a href="https://unsplash.com/@octadan?utm_source=uns
 draft: false
 date: 2013-09-22T14:15:46Z
 lastmod: 2026-05-16T11:55:00
+aliases:
+  - /resume
+  - /cv
 ---
 For over a decade, I've been developing software in a variety of settings and industries, focusing primarily on C# and the .NET stack, but branching out whenever the job calls for it. I'm a constant learner with an appreciation for good docs, DevOps, and the Agile process.
 
