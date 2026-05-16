@@ -1,19 +1,19 @@
 ---
 title: Hi! I'm Grant.
 slug: about
+featureImageAttr: Photo by <a href="https://unsplash.com/@lemonvlad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vladislav Klapin</a> on <a href="https://unsplash.com/photos/person-holding-hello-sticker-SymZoeE8quA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2013-09-22T14:15:46Z
+lastmod: 2026-05-16T11:55:00
 css: resume.css
 ---
-Is there anything more satisfying than trying to figure something out, _finally_ getting it, and then sharing it with someone else who will appreciate it? Or taking some piece of knowledge, passing it on to someone, and getting to witness their ["ah ha" moment](https://xkcd.com/1053/)?
+For over a decade, I've been developing software in a variety of settings and industries, focusing primarily on C# and the .NET stack, but branching out whenever the job calls for it. I'm a constant learner with an appreciation for good docs, DevOps, and the Agile process.
 
-![XKCD - https://www.xkcd.com/1053](xkcd10000.png)
-
-For over a decade, I've been developing software in a variety of settings and industries, focusing primarily on C# and the .NET stack, but branching into React, Erlang, and whatever else the job calls for. I'm a constant learner with an appreciation for good docs, DevOps, and the Agile process. I enjoy a good challenge, producing clear and maintainable code, and sharing what I learn with others.
+I enjoy a good challenge, producing clear and maintainable code, and sharing what I learn with others. It's a great feeling, learning some new piece of knowledge and then getting to share it and maybe even witness someone's ["ah ha" moment](https://xkcd.com/1053/). It's why I do what I do here, and why I appreciate the comments visitors leave!
 
 ## Pet Projects
 
-I don't have time for a lot of side projects, especially since each one requires some level of tlc forever to stay relevant, but I've got a couple browser addons:
+I don't have time for a lot of side projects during this busy period in life, since each one requires some level of TLC forever to stay relevant, but I've got a couple addons:
 
 - [Generate Links for Headers](https://grantwinney.com/generate-links-for-headers/)
 - [Hide Comments Everywhere](https://grantwinney.com/hide-comments-everywhere/)
