@@ -17,13 +17,13 @@ weight = 30
 
 [[main]]
 pre = "email"
-url = "https://grantwinney.com/contact"
+url = "/contact"
 identifier = "jwjWIFj76z"
 weight = 45
 
 [[main]]
 pre = "rss"
-url = "https://grantwinney.com/index.xml"
+url = "/index.xml"
 identifier = "Npb6xugTVb"
 weight = 50
 

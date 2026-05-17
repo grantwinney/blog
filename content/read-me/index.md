@@ -7,6 +7,7 @@ aliases:
   - /cross-posting-policy
   - /license
   - /privacy-policy
+showRelatedContent: false
 ---
 ## Privacy
 

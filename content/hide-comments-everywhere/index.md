@@ -5,6 +5,7 @@ summary: Hides various commenting systems across the web, including (but not lim
 featureImageAttr: Photo by <a href="https://unsplash.com/@dcejoshe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Josh Eckstein</a> on <a href="https://unsplash.com/photos/black-red-green-and-blue-device-634KBk3AXNA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2019-07-08T20:14:34Z
+showRelatedContent: false
 ---
 The comments sections on most major news outlets and social media sites are full of vitriol. I just wanted the content, so I wrote an extension that hides various commenting systems across the web, including (but not limited to) Disqus, YouTube, Instagram, replies on Reddit and Twitter, etc.
 
