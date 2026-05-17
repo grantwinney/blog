@@ -14,14 +14,14 @@ For over a decade, I've been developing software in a variety of settings and in
 
 I enjoy a good challenge, producing clear and maintainable code, and sharing what I learn with others. It's a great feeling, learning some new piece of knowledge and then getting to share it and maybe even witness someone's ["ah ha" moment](https://xkcd.com/1053/). It's why I do what I do here, and why I appreciate the comments visitors leave!
 
-## Pet Projects
+## Projects
 
 I don't have time for a lot of side projects, since each one requires some level of TLC forever, but here's a couple of useful browser addons I created:
 
 - [Generate Links for Headers](https://grantwinney.com/generate-links-for-headers/)
 - [Hide Comments Everywhere](https://grantwinney.com/hide-comments-everywhere/)
 
-## Experience
+## Career
 
 |                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
