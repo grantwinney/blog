@@ -18,8 +18,10 @@ I enjoy a good challenge, producing clear and maintainable code, and sharing wha
 
 I don't have time for a lot of side projects, since each one requires some level of TLC forever, but here's a couple of useful browser addons I created:
 
-- [Generate Links for Headers](https://grantwinney.com/generate-links-for-headers/)
-- [Hide Comments Everywhere](https://grantwinney.com/hide-comments-everywhere/)
+|                     |                                                                                                                                                                                                           |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](proj-hce.webp)  | [Hide Comments Everywhere](https://grantwinney.com/hide-comments-everywhere/)<br>Hide comments across the web, including (but not limited to) Disqus, YouTube, news sites and forums, etc.                |
+| ![](proj-glfh.webp) | [Generate Links for Headers](https://grantwinney.com/generate-links-for-headers/)<br>Automatically generates links for all headers on the page, to make it easier to share specific sections of the page. |
 
 ## Career
 
