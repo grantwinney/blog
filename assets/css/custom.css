@@ -44,3 +44,12 @@ div.feature-image-attribution {
     border-radius: 2px;
     padding: 2px;
 }
+
+
+/**************************
+    Footer
+ ************/
+
+#site-footer > nav a {
+    font-size: smaller;
+}

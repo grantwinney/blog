@@ -37,10 +37,16 @@ weight = 50
 name = "Categories"
 pageRef = "categories"
 identifier = "kQFKIHZRN2"
-weight = 1
+weight = 10
 
 [[footer]]
 name = "Topics"
 pageRef = "topics"
 identifier = "kQLLIHZRN2"
-weight = 2
+weight = 20
+
+[[footer]]
+name = "Readme"
+pageRef = "read-me"
+identifier = "nWFKIHZ332"
+weight = 30
