@@ -34,4 +34,13 @@ identifier = "Npb6xugTVb"
 weight = 50
 
 [[footer]]
-none = "none"
+name = "Categories"
+pageRef = "categories"
+identifier = "kQFKIHZRN2"
+weight = 1
+
+[[footer]]
+name = "Topics"
+pageRef = "topics"
+identifier = "kQLLIHZRN2"
+weight = 2

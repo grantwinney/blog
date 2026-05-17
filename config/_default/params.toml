@@ -88,7 +88,7 @@ relatedContentLimit = 3
 showCategoryOnly = false
 showComments = true
 heroStyle = "background"
-sharingLinks = ["bluesky", "email", "facebook", "linkedin", "mastodon", "pinterest", "reddit", "telegram", "twitter", "whatsapp" ]
+sharingLinks = ["bluesky", "linkedin", "mastodon", "reddit", "twitter" ]
 
 [list]
 showHero = false
@@ -112,7 +112,7 @@ excludedKinds = [ "taxonomy", "term" ]
 
 [taxonomy]
 showTermCount = true
-showHero = true
+showHero = false
 heroStyle = "background"
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = false
@@ -120,7 +120,7 @@ showBreadcrumbs = false
 showViews = false
 showLikes = false
 showTableOfContents = false
-cardView = false
+cardView = true
 
 [term]
 showHero = false
