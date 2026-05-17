@@ -16,12 +16,6 @@ identifier = "IEzzirqXmL"
 weight = 30
 
 [[main]]
-pre = "linkedin"
-url = "https://www.linkedin.com/in/grantwinney/"
-identifier = "mHrXNYXipB"
-weight = 40
-
-[[main]]
 pre = "email"
 url = "https://grantwinney.com/contact"
 identifier = "jwjWIFj76z"
