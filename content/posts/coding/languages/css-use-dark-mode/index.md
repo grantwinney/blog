@@ -53,13 +53,15 @@ You specify your "base" styles first - whatever you want applied no matter the d
     @media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
         #pic {
             background-color: skyblue;
-            background-image: url("sun.png"); }
+            background-image: url("sun.png");
+        }
     }
 
     @media (prefers-color-scheme: dark) {
         #pic {
             background-color: midnightblue;
-            background-image: url("moon.png"); }
+            background-image: url("moon.png");
+        }
     }
 </style>
 
