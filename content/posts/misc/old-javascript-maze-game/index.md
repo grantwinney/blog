@@ -1,7 +1,7 @@
 ---
 title: Bringing a 25 year old JS maze back to life
 slug: old-js-maze-game
-summary:
+summary: I stumbled on a website 30 years in the making, and a little JS maze game that needed a bit of TLC.
 featureImageAttr: Photo by <a href="https://unsplash.com/@ijoelpitulikur?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hirzul Maulana</a> on <a href="https://unsplash.com/photos/a-complex-orange-maze-is-pictured-Lu3vZL2yd2o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2026-05-22T18:36:00
