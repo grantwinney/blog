@@ -1,15 +1,37 @@
-<div id="comments">
-    <script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
-    <hyvor-talk-comments website-id="906" page-id="{{.Params.Slug}}"></hyvor-talk-comments>
-</div>
+<script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
 <script src="https://talk.hyvor.com/embed/comment-counts.js"></script>
+
+<div id="comments"></div>
+
 <script>
-    hyvorTalkCommentCounts.load({
-        "website-id": 906,
-        "mode": "text",
-        "language": "en"
-        },
-        function(count, el) {
-            return count === "0 Comments" ? "" : `<span class="mid">&middot;</span>${count}`
-        })
+    function loadHyvorTalkComments() {
+        const script = document.createElement('script');
+        script.src = 'https://talk.hyvor.com/embed/embed.js';
+        script.type = 'module';
+        document.head.appendChild(script);
+
+        const comments = document.createElement("hyvor-talk-comments");
+        comments.setAttribute('website-id', '906');
+        comments.setAttribute('page-id', '{{.Params.Slug}}');
+        document.getElementById('comments').appendChild(comments);
+    }
+
+    function loadHyvorTalkCommentCounts() {
+        hyvorTalkCommentCounts.load({
+            "website-id": 906,
+            "mode": "text",
+            "language": "en"
+            },
+            function(count, el) {
+                return count === "0 Comments" ? "" : `<span class="mid">&middot;</span>${count}`
+            });
+    }
+
+    if (document.location.hostname === "grantwinney.com") {
+        loadHyvorTalkComments();
+        loadHyvorTalkCommentCounts();
+    } else {
+        document.getElementById('comments').innerHTML = 'COMMENTS AREA';
+    }
 </script>
+
