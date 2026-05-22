@@ -1,0 +1,14 @@
+#root {
+    text-align: center;
+}
+#viewport {
+    line-height: normal;
+    text-align: center;
+}
+#readout {
+    font-size: smaller;
+    width: 100%;
+}
+input[type="button"], button {
+    all: revert;
+}
