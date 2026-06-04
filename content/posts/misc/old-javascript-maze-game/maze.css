@@ -9,6 +9,6 @@
     font-size: smaller;
     width: 100%;
 }
-input[type="button"], button {
+#root button {
     all: revert;
 }

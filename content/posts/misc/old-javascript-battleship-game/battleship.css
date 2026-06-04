@@ -1,0 +1,57 @@
+.game {
+  font-family: system-ui, sans-serif;
+  text-align: center;
+}
+
+.board {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.heading {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(16, 16px);
+  grid-auto-rows: 16px;
+  gap: 1px;
+  background: #424242;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.cell {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background-color: #ff5555;
+}
+
+.cell.player {
+  cursor: default;
+}
+
+#status, #message {
+  margin-top: 12px;
+  font-size: smaller;
+}
+
+#message {
+  color: #ff5555;
+}
+
+.board img {
+  margin: 0px;
+}
+
+#newgame {
+  all: revert;
+}
+
+.intro {
+  font-size: smaller;
+  font-style: italic;
+}

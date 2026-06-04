@@ -11,9 +11,9 @@ categories:
 topics:
   - JavaScript
   - Retro
-  - Game
+  - Old JS Games
+  - MS Copilot
 aliases:
-css:
 ---
 I was trying to get something to work in IrfanView the other day, and for once, instead of being taken to reddit or stackexchange or a yt short, I was surprised to find myself on a homey website called [etherwork.net](https://etherwork.net/). I got my answer, but instead of jumping ship like I'd do with the other sites, I spent a couple hours just looking around.
 
@@ -49,9 +49,6 @@ Here it is, in all its ASCII glory. You can press the buttons (duh) or click on 
 </div>
 
 
-If you got this far, there's not really any "point" to this post, but maybe that _was_ the point.
+If you got this far, there's not really any "point" to this post, but maybe that _was_ the point. [Here's the code](https://github.com/grantwinney/BlogCodeSamples/tree/master/Languages/JavaScript/LegacyGames/LegacyJSMaze) if you want to mess around with it.
 
-It's just interesting to me, stumbling onto a site that's both changed and stood still, and then onto code that someone put time into making, only for it to be nearly lost to the shifting sands of the internet. And it happens every day, thousands of times over.
-
-
-
+It's interesting to me, stumbling onto code that someone put time into making, only for it to be nearly lost to the shifting sands of the internet. And it happens all the time, every day.
