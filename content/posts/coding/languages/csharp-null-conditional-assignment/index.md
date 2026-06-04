@@ -1,5 +1,5 @@
 ---
-title: Using null conditional and null coalescing operators for assignment in C#
+title: Using null conditional assignment in C# 14
 slug: csharp-null-conditional-assignment
 summary: The null conditional operator just got an upgrade.. we can do assignments with it now! Let's see it in action.
 featureImageAttr: Photo by [Markus Kranich](https://www.pexels.com/photo/colorful-abstract-light-swirl-on-black-background-37389791/)
@@ -14,7 +14,7 @@ topics:
   - C#
 aliases:
 ---
-We've had the [null conditional operator](https://grantwinney.com/null-conditional-and-null-coalescing-operators/) for years, since C# 6. You might want to skim that post (which I wrote a few years ago) before reading this one, if you're unfamiliar with it. Otherwise, I'll borrow a bit for a quick review, and then we'll look at what C# 14 added. And if you'd like to mess around with the code below, it's available in my [CSharpDotNetFeatures](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2014/NullConditionalAssignment) repo on GitHub.
+We've had the [null conditional operator](https://grantwinney.com/null-conditional-and-null-coalescing-operators/) for years, since C# 6. You might want to skim that post before reading this one, if you're unfamiliar with it. Otherwise, I'll borrow a bit for a quick review, and then we'll look at what C# 14 added. And if you'd like to mess around with the code below, it's available in my [CSharpDotNetFeatures](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2014/NullConditionalAssignment) repo on GitHub.
 
 ## Null Conditional (a review)
 
