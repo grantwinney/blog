@@ -49,6 +49,7 @@ class BattleshipGame {
     this.computerGrid = this.setupPlayer(true);
     this.buildGrids();
     this.updateStatus();
+    this.msgEl.textContent = "";
   }
 
   createEmptyGrid() {
