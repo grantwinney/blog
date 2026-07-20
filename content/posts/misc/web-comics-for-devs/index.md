@@ -18,7 +18,7 @@ Enjoy! _(I know I will...)_
 
 ## CommitStrip
 
-[CommitStrip](https://www.commitstrip.com/) is a fun comic about life as a developer, especially web development. The stories are the shared results of a group of devs from Europe and Asia, and if you've been a dev for any amount of time they'll hit close to home. 😃
+[CommitStrip](https://commitstrip.tumblr.com/) is a fun comic about life as a developer, especially web development. The stories are the shared results of a group of devs from Europe and Asia, and if you've been a dev for any amount of time they'll hit close to home. 😃
 
 ![](Strip-VIM-appla-650-finalenglish2-1.jpg)
 
@@ -88,7 +88,7 @@ Here's [a collection of book covers](https://boyter.org/2016/04/collection-orly-
 
 [MonkeyUser](https://www.monkeyuser.com/) by Cornel and Constantin is another funny comic about life as a dev. The comic below is completely believable with some of the test suites in old monolithic apps. 💀
 
-![](https://www.monkeyuser.com/assets/images/2018/110-test-optimization.png)
+![](110-test-optimization.webp)
 
 [Tests Optimization - MonkeyUser](https://www.monkeyuser.com/2018/test-optimization/)
 
