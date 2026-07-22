@@ -220,15 +220,7 @@ Here’s a short video showing it in action.
 
 ## What's Next?
 
-You can learn more about why Sam chose Ruby, the advanced concepts it can teach, and how it supports live coding.
-
-![](https://www.youtube.com/watch?v=7sEMKXrRaAs)
-
-Another good video of someone just having fun with it. 😄
-
-![](https://www.youtube.com/watch?v=QGLPinGZhfg)
-
-If you're interested in learning more, here's some links to other resources:
+If you're interested in learning more, a few links to other resources:
 
 - [Code Music with Sonic Pi](https://magpi.raspberrypi.com/books/essentials-sonic-pi-v1), an e-book by Sam Aaron
 - [Overtone](http://overtone.github.io/), Sonic-Pi’s “big brother”

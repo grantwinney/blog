@@ -10,6 +10,7 @@ categories:
   - 
 topics:
   - Planned Obsolescence
+  - Windows
 series:
 series_order:
 aliases:
