@@ -222,11 +222,11 @@ Here’s a short video showing it in action.
 
 You can learn more about why Sam chose Ruby, the advanced concepts it can teach, and how it supports live coding.
 
-{{< youtube 7sEMKXrRaAs >}}
+![](https://www.youtube.com/watch?v=7sEMKXrRaAs)
 
 Another good video of someone just having fun with it. 😄
 
-{{< youtube QGLPinGZhfg >}}
+![](https://www.youtube.com/watch?v=QGLPinGZhfg)
 
 If you're interested in learning more, here's some links to other resources:
 
