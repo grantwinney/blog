@@ -7,12 +7,16 @@ draft: false
 date: 2022-11-19T22:09:03Z
 lastmod:
 categories:
+  - Coding
 topics:
   - Browser Extension
   - Google
+  - MV3
+series:
+series_order:
 aliases:
 ---
-Over the summer [I wrote about Google's forced manifest v3 update](https://grantwinney.com/what-is-manifest-v3-and-why-is-google-pestering-me), and was up in the air about whether to bother figuring it out. Well, with only about 6 weeks left _(actually, things got_ [_pushed out even more_](https://developer.chrome.com/docs/extensions/mv3/mv2-sunset/) _since the_ [_original article_](https://web.archive.org/web/20210923221800/https://developer.chrome.com/docs/extensions/mv3/mv2-sunset/)_),_ I decided to give it another go, mostly because a good number of people have found [Hide Comments Everywhere](https://grantwinney.com/hide-comments-everywhere/) to be helpful.
+Over the summer [I wrote about Google's forced manifest v3 update](https://grantwinney.com/what-is-manifest-v3-and-why-is-google-pestering-me), and was up in the air about whether to bother figuring it out. Well, with only about 6 weeks left _(actually, things got_ [_pushed out even more_](https://developer.chrome.com/docs/extensions/mv3/mv2-sunset/) _since the_ [_original article_](https://web.archive.org/web/20210923221800/https://developer.chrome.com/docs/extensions/mv3/mv2-sunset/)_),_ I decided to give it another go, mostly because a good number of people have found [Hide Comments Everywhere](/hide-comments-everywhere) to be helpful.
 
 To briefly recap, [Google is spearheading a change](https://developer.chrome.com/docs/extensions/mv3/intro/platform-vision/) to the way browser extensions are written, claiming it increases security and privacy. However, it'll be deterimental to the way privacy extensions like [Ghostery](https://www.ghostery.com/blog/manifest-v3-the-ghostery-perspective) and [uBlock Origin](https://bugs.chromium.org/p/chromium/issues/detail?id=896897&desc=2#c23) work, and the [Electronic Frontier Foundation](https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening) is calling it harmful. Since [nearly all the major browsers are built on top of Chromium](https://en.wikipedia.org/wiki/Chromium_\(web_browser\)#Active) however, we're all along for the ride.
 

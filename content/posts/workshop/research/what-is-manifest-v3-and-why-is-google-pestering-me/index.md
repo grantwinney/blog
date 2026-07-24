@@ -10,11 +10,14 @@ categories:
 topics:
   - Browser Extension
   - Google
+  - MV3
+series:
+series_order:
 aliases:
 ---
 If you've ever dug into the underpinnings of a browser extension, or maybe even [created one yourself](https://grantwinney.com/making-your-first-chrome-extension), you've seen the manifest.json file that acts as a sort of usage guide for an extension. Not the kind of usage guide most people would want to read, but it's vital for browsers.
 
-The manifest file tells them what name and version to display, who the author is, what permissions to request access to, which icons to display, what css and js files to load and when. It's important, but once you get the hang of it, pretty simple to implement. You create it and move on, only ever reopening it to bump the version when you've got something new to publish, and maybe requesting a new permission.
+The manifest file tells them what name and version to display, who the author is, what permissions to request access to, which icons to display, what CSS and JS files to load and when. It's important, but once you get the hang of it, pretty simple to implement. You create it and move on, only ever reopening it to bump the version when you've got something new to publish, and maybe requesting a new permission.
 
 For quite awhile now, whenever I visit the Chrome dashboard, I get a notice at the top about migrating to Manifest V3 (aka MV3). Fair enough.
 
@@ -57,9 +60,9 @@ This is interesting. It's already possible to tell a background page to not "rem
 },
 ```
 
-It doesn't sound like this change offers much of a performance boost for end users, but for developers it'll be a hassle. Why not just force the persistent flag to false? Or add a new permission that asks the user to approve running the extension "persistently"?
+It doesn't sound like this change offers a performance boost for end users, but for developers it'll be a hassle. Why not just default the persistent flag to false when not specified? Or add a new permission that asks the user to approve running the extension "persistently"? Admittedly, the former might just lead to a flurry of updates setting it back to `true`, while the latter might lead to end-user confusion.
 
-I think most extensions are from people, like me, who had an idea to share and cranked something out in a weekend or two, but now I've got to learn about [what service workers are](https://developer.chrome.com/docs/workbox/service-worker-overview/), [how to migrate a background page to a service worker](https://developer.chrome.com/docs/extensions/mv3/migrating_to_service_workers/), and apparently about [ES modules in service workers](https://web.dev/es-modules-in-sw/) too because I have some shared code in a separate file that now needs to be imported instead of just listed out in the order they should be loaded (as in the snippet above). Best scenario, I spend a week or two learning new concepts and in the end, if all goes well, end users notice absolutely no change and don't get some weird error that breaks the extension.
+I think most extensions are from people who, like me, had an idea to share and cranked something out in a weekend or two, but now I've got to learn about [what service workers are](https://developer.chrome.com/docs/workbox/service-worker-overview/), [how to migrate a background page to a service worker](https://developer.chrome.com/docs/extensions/mv3/migrating_to_service_workers/), and apparently about [ES modules in service workers](https://web.dev/es-modules-in-sw/) too because I have some shared code in a separate file that now needs to be imported instead of just listed out in the order they should be loaded (as in the snippet above). Best scenario, I spend a week or two learning new concepts and in the end, if all goes well, end users notice absolutely no change and don't get some weird error that breaks things.
 
 ### Declarative APIs
 
@@ -81,7 +84,7 @@ Source: [_Web Request and Declarative Net Request: Explaining the impact on Exte
 
 That seems pretty smart at first glance, like a decoupling of concerns, but it leaves me wondering just what kind of rules can I create? How flexible are they? Is it possible to block content (ads, trackers, etc) being loaded by known third party sites? Do they each have to be listed in a separate internal "rule", changes requiring new uploads to the store, as opposed to [external block lists](https://help.getadblock.com/support/solutions/articles/6000066909-introduction-to-filter-lists/) that can be modified frequently by anyone who wishes to contribute? Per some other [docs](https://developer.chrome.com/docs/extensions/reference/declarativeNetRequest/), it _seems_ like there'll be a way in the [updateDynamicRules](https://developer.chrome.com/docs/extensions/reference/declarativeNetRequest/#method-updateDynamicRules) method... maybe.
 
-In the case of [Hide Comments Everywhere](https://chrome.google.com/webstore/detail/hide-comments-everywhere/bmhkdngdngchlneelllmdennfpmepbnc), I need to block any elements of a page that show comments. These might be hosted by a third party like Disqus, but more frequently they're just embedded in the page and selectable by using a [CSS selector](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors). Will that still work? Maybe, maybe not.
+In the case of [Hide Comments Everywhere](/hide-comments-everywhere), I need to block any elements of a page that show comments. These might be hosted by a third party like Disqus, but more frequently they're just embedded in the page and selectable by using a [CSS selector](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors). Will that still work? Maybe, maybe not.
 
 ## Does MV3 make things worse for us?
 
