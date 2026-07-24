@@ -27,11 +27,11 @@ First up, a [battleship game](https://web.archive.org/web/20000815214940/http://
   <div class="boards">
     <div class="board">
       <div class="heading">COMPUTER'S FLEET</div>
-      <div id="computer-grid" class="grid"></div>
+      <div id="computer-grid" class="ship_grid"></div>
     </div>
     <div class="board">
       <div class="heading">PLAYER'S FLEET</div>
-      <div id="player-grid" class="grid"></div>
+      <div id="player-grid" class="ship_grid"></div>
     </div>
   </div>
   <div id="status"></div>
