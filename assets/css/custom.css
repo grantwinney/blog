@@ -18,6 +18,13 @@ div.max-w-prose {
     max-width: 75ch;
 }
 
+div.article-content a {
+    text-decoration: underline;
+}
+div.article-content a:hover {
+    text-decoration: none;
+}
+
 /* Around line 50 of single.html */
 div.feature-image-attribution {
     font-size: small;
