@@ -54,8 +54,7 @@
       {{ end }}
       {{- $content := .Content | safeHTML -}}
       {{- $content = replaceRE `<span class="absolute[^>]*>.*?</span>` "" $content -}}
-      {{- $content = replace $content "]]>" "]]&gt;" -}}
-      <content:encoded><![CDATA[{{ $content }}]]></content:encoded>
+      <content:encoded>{{ $content }}</content:encoded>
     </item>
     {{ end }}
   </channel>
