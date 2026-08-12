@@ -53,7 +53,16 @@
         {{- end -}}
       {{ end }}
       {{- $content := .Content | safeHTML -}}
+
+      {{/* Remove Blowfish heading anchor div */}}
+      {{- $content = replaceRE `<div id="[^"]*" class="anchor"></div>` "" $content -}}
+
+      {{/* Remove Blowfish heading anchor span + link */}}
       {{- $content = replaceRE `<span class="absolute[^>]*>.*?</span>` "" $content -}}
+
+      {{/* Remove any leftover anchor links containing '#' */}}
+      {{- $content = replaceRE `<a[^>]*>#</a>` "" $content -}}
+
       <content:encoded>{{ $content }}</content:encoded>
     </item>
     {{ end }}
