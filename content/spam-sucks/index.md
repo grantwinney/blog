@@ -19,6 +19,8 @@ aliases:
   - /partnerships
   - /partnership
   - /sponsored
+excludeFromSearch: "true"
+xml: "false"
 ---
 We are currently reviewing opportunities for **guest posts**, **content contributions**, **sponsored articles**, **brand collaborations**, and **reciprocal link partnerships**.
 
