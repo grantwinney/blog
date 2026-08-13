@@ -140,5 +140,6 @@ image = "/images/profile_bw.png"
 headline = ""
 bio = "Welcome to my corner of the web..."
 
-[services.rss]
-limit = 20
+[services]
+  [services.rss]
+  limit = 20
