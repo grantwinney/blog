@@ -3,8 +3,6 @@
 <div class="feature-image-attribution">{{ .Params.featureImageAttr | $.Page.RenderString }}</div>
 {{ end }}
 
-if (!document.location.pathname.startsWith("/write-for-us")) {
-
 {{ with .Params.sharingLinks | default (.Site.Params.article.sharingLinks | default false) }}
   {{ $links := hugo.Data.sharing }}
   <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
@@ -22,5 +20,3 @@ if (!document.location.pathname.startsWith("/write-for-us")) {
     {{ end }}
   </section>
 {{ end }}
-
-}
