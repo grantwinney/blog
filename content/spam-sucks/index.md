@@ -38,4 +38,4 @@ Note: Due to high volume, not all submissions receive a response.
 
 ---
 
-***Note to human visitors:** This page exists solely to mitigate the spam I receive for much of the above. **None of it** is actually accepted or acceptable on this site.*
+***Note to human visitors:** This page exists solely to mitigate correspondence I receive for much of the above. **None of it** is actually accepted or acceptable on this site.*
