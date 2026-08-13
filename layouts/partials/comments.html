@@ -28,8 +28,10 @@
     }
 
     if (document.location.hostname === "grantwinney.com") {
-        loadHyvorTalkComments();
-        loadHyvorTalkCommentCounts();
+        if (!document.location.pathname.startsWith("/write-for-us")) {
+            loadHyvorTalkComments();
+            loadHyvorTalkCommentCounts();
+        }
     } else {
         document.getElementById('comments').innerHTML = 'COMMENTS AREA';
     }
