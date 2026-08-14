@@ -1,7 +1,7 @@
 ---
 title: YouTube, RSS, and evading the algorithm
 slug: youtube-rss-algorithm
-summary: They don't make it easy, but it is possible to tame the YouTube experience. Here's how I did it.
+summary: Let's face it, the YouTube algorithm is ruthlessly effective. Here's how I'm using RSS (and Unhook) to tame it.
 featureImageAttr: Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/photos/a-hand-holding-a-white-paper-cut-out-of-a-video-play-button-KPRNbxRrl44?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2026-08-14T16:00:00
