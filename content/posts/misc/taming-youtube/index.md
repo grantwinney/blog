@@ -142,6 +142,8 @@ This is all about trying to place some speed bumps in the way to limit how long 
 
 ![](unhooked.webp)
 
+![](unhooked2.webp)
+
 There were a few elements of the UX that Unhook didn't have an option for, but since I already use [Stylus](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), I just added a style for youtube.com that blocks the last of what it missed (a header bar, bit of a side bar, etc).
 
 ```css
