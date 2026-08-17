@@ -47,6 +47,6 @@ weight = 30
 
 [[footer]]
 name = "Blazor"
-href = "https://grantwinney.github.io/BlazorSamples/"
+url = "https://grantwinney.github.io/BlazorSamples"
 identifier = "nFFlIYZ377"
 weight = 40
