@@ -10,7 +10,7 @@ defaultContentLanguage = "en"
 # Force tag names to lowercase when displayed on site
 capitalizeListTitles = false
 
-enableRobotsTXT = true
+enableRobotsTXT = false
 summaryLength = 0
 
 buildDrafts = false
