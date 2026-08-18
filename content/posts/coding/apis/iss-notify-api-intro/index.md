@@ -13,7 +13,7 @@ topics:
 aliases:
   - /day-11-iss-notify-api
 ---
-<div style="background:#2085b7; padding:5px">As of 2026, this API still returns data, but it'd be better if it didn't. The crew members are outdated, and the position of the ISS is incorrect. Hopefully it's fixed in the future.</div>
+<div style="background: #ff780021; padding:5px; border: 3px solid #ff7f00; border-radius: 10px;">As of 2026, this API still returns data, but it'd better if it didn't. Crew members are outdated and the ISS position is incorrect. Hopefully it gets fixed in the future.</div>
 
 [Nathan Bergey](https://github.com/natronics) wrote the [ISS Notify API](http://open-notify.org/Open-Notify-API/) (or is it the Open Notify API?) for a competition called Science Hack Day. You can [learn more here](http://open-notify.org/about.html), or read on to try it out!
 
