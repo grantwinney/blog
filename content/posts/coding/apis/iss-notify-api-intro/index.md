@@ -5,7 +5,7 @@ summary: The ISS Notify API (or is it the Open Notify API?) was written by Natha
 featureImageAttr: Photo by <a href="https://unsplash.com/@nasa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">NASA</a> on <a href="https://unsplash.com/photos/international-space-station-orbits-earth-wAkLQnT2TC0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 draft: false
 date: 2017-12-28T12:03:00Z
-lastmod:
+lastmod: 2026-08-18T18:35:00
 categories:
   - API
 topics:
@@ -13,6 +13,8 @@ topics:
 aliases:
   - /day-11-iss-notify-api
 ---
+<div style="background:#2085b7; padding:5px">As of 2026, this API still returns data, but it'd be better if it didn't. The crew members are outdated, and the position of the ISS is incorrect. Hopefully it's fixed in the future.</div>
+
 [Nathan Bergey](https://github.com/natronics) wrote the [ISS Notify API](http://open-notify.org/Open-Notify-API/) (or is it the Open Notify API?) for a competition called Science Hack Day. You can [learn more here](http://open-notify.org/about.html), or read on to try it out!
 
 First though, two things to consider:
