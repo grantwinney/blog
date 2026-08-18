@@ -19,6 +19,7 @@ aliases:
   - /partnerships
   - /partnership
   - /sponsored
+showRelatedContent: false
 excludeFromSearch: "true"
 xml: "false"
 ---

@@ -12,4 +12,5 @@ topics:
 series:
 series_order:
 aliases:
+showRelatedContent: true
 ---
