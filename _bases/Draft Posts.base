@@ -20,7 +20,5 @@ views:
     order:
       - formula.Title
       - categories
-      - tags
     columnSize:
-      formula.Title: 240
-      file.ctime: 202
+      formula.Title: 164

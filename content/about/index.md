@@ -48,3 +48,20 @@ I don't have time for a lot of side projects, since each one requires some level
 | ![](logo-oas.jpg)            | **Judge** at [Believe in Ohio](http://www.believeinohio.org/) (The Ohio Academy of Science)<br>_2015, 2016, 2020_<br><br>Participated as a judge in the annual student STEM entrepreneurship program, assessing commercialization and business plans in the regional and state final competitions. |
 | ![](logo-exercism.svg)       | **Mentor** on [Exercism](https://exercism.io/about)<br>_July - Nov 2018_<br><br>As a mentor, I was able to help others learn more about C#. I get to meet them where they're at, and encourage them to take the next step... and in the process, I learned more too.                               |
 | ![](logo-stackoverflow.webp) | **Contributor** for Stack Overflow<br>_2011 - 2019_<br><br>I enjoyed helping others by sharing what I'd learned. Platforms like Stack Overflow allow developers to help one another through the tough spots, and it was nice to give back once in awhile.                                          |
+
+## Hobbies
+
+Outside of work / tech stuff, I enjoy building and gardening. It's a different kind of satisfaction, seeing something come to life before your eyes and being able to actually *hold* it, turn it over in your hands.. can't do that with code!
+
+{{< gallery >}}
+<img src="index-1792713353985.webp" class="grid-w33" />
+<img src="index-1792720987260.webp" class="grid-w33" />
+<img src="index-1792723462825.webp" class="grid-w33" />
+<img src="index-1792721507774.webp" class="grid-w33" />
+<img src="index-1792713420149.webp" class="grid-w33" />
+<img src="index-1792713836282.webp" class="grid-w33" />
+<img src="index-1792725734846.webp" class="grid-w33" />
+<img src="index-1792725302849.webp" class="grid-w33" />
+<img src="index-1792725497775.webp" class="grid-w33" />
+<img src="index-1792725962744.webp" class="grid-w33" />
+{{< /gallery >}}
