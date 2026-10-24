@@ -3,9 +3,10 @@
     Homepage
  ************/
 
-/* .thumbnail_card {
-    display: none !important;
-} */
+.thumbnail_card {
+    aspect-ratio: unset;
+    height: 150px;
+}
 
 
 /**************************
