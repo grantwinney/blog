@@ -182,7 +182,7 @@
   {{ end }}
   {{ if .Site.Params.enableSearch | default false }}
     {{/* https://www.fusejs.io/getting-started.html */}}
-    <script defer src="https://cdn.jsdelivr.net/npm/fuse.js@7.5.0"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/7.5.0/fuse.min.mjs"></script>
     <script defer src="{{ $search.RelPermalink }}" integrity="{{ $search.Data.Integrity }}"></script>
   {{ end }}
   {{ if .Site.Params.enableCodeCopy | default false }}
