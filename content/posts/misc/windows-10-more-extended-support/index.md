@@ -41,7 +41,9 @@ So why are they extending their own extension another year, just a few months be
 
 Looking at the data from StatCounter though, over a quarter of all Windows users are *still* on Windows 10! That's a lot, considering it's been 9 months since they flagged it EOL.
 
-<div id="desktop-windows_version-ww-monthly-202506-202606" height="350" width="600"></div><p style="font-decoration:italic">Source: <a href="https://gs.statcounter.com/windows-version-market-share/desktop/worldwide/" style="font-weight:normal">StatCounter Global Stats - Windows Version Market Share</a></p><script type="text/javascript" src="https://www.statcounter.com/js/fusioncharts.js"></script><script type="text/javascript" src="https://gs.statcounter.com/chart.php?desktop-windows_version-ww-monthly-202506-202606&chartWidth=600"></script>
+![](statcounter-windows.webp)
+
+Source: <a href="https://gs.statcounter.com/windows-version-market-share/desktop/worldwide/" style="font-weight:normal">StatCounter Global Stats - Windows Version Market Share</a></p>
 
 I wonder if they're worried about just how many of those users (millions? tens of millions?) will *actually* upgrade their computer (at a time when the AI craze has driven memory and disks prices wayyy up) and *then* buy a Windows 11 license on top of it? I bet more than a few will just stick with (or move to) a Chromebook, iPad or other tablet, etc.
 
