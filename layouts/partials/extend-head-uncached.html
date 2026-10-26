@@ -1,3 +1,7 @@
 {{ range .Resources.Match "*.css" }}
   <style>{{ .Content | safeCSS }}</style>
 {{ end }}
+
+{{ range .Resources.Match "*.js" }}
+  <script>{{ .Content | safeJS }}</script>
+{{ end }}
