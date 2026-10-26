@@ -182,7 +182,7 @@
   {{ end }}
   {{ if .Site.Params.enableSearch | default false }}
     {{/* https://www.fusejs.io/getting-started.html */}}
-    <script defer src="https://cdn.jsdelivr.net/npm/fuse.js@7.5.0"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/fuse.js@7.1.0/dist/fuse.min.js"></script>
     {{ $search := resources.Get "js/search.js" | resources.Fingerprint $alg }}
     <script defer src="{{ $search.RelPermalink }}" integrity="{{ $search.Data.Integrity }}"></script>
   {{ end }}
