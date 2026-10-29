@@ -65,6 +65,7 @@ showDateUpdated = true
 showAuthor = false
 showHero = true
 layoutBackgroundBlur = true
+layoutBackgroundBlurStyle = "classic"
 layoutBackgroundHeaderSpace = false
 showBreadcrumbs = false
 showDraftLabel = true

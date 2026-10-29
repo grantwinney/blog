@@ -56,6 +56,11 @@ div.feature-image-attribution {
     padding: 2px;
 }
 
+/* make featured image for posts less prominent */
+#hero-background > .opacity-60 {
+    opacity: 80%;
+}
+
 
 /**************************
     Footer
