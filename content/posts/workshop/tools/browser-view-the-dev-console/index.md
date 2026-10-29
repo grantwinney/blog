@@ -1,5 +1,5 @@
 ---
-title: Opening the developer console in every major browser
+title: How to open the developer console in every major browser (Chrome, Firefox, Opera, Brave, IE, Edge, Safari)
 slug: how-do-i-view-the-dev-console-in-my-browser
 summary: Most people will never even know their browser hides a great set of tools, mostly used by web developers, but which can be useful for anyone trying to figure out why their browser is misbehaving.
 featureImageAttr: Photo by <a href="https://unsplash.com/@florianolv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Florian Olivo</a> on <a href="https://unsplash.com/photos/lines-of-html-codes-4hbJ-eymZ1o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
