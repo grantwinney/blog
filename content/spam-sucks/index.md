@@ -21,6 +21,7 @@ aliases:
   - /sponsored
 showRelatedContent: false
 excludeFromSearch: "true"
+excludeFromRelated: "true"
 xml: "false"
 ---
 We are currently reviewing opportunities for **guest posts**, **content contributions**, **sponsored articles**, **brand collaborations**, and **reciprocal link partnerships**.
