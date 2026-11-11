@@ -61,11 +61,6 @@ div.feature-image-attribution {
     opacity: 80%;
 }
 
-/* Links in HT comments section */
-.comment-content a:not(.bookmark) {
-    color: unset !important;
-}
-
 
 /**************************
     Footer
