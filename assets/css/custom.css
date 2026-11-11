@@ -61,6 +61,13 @@ div.feature-image-attribution {
     opacity: 80%;
 }
 
+/* Links in HT comments section */
+.comment-content a:not(.bookmark), .ProseMirror a:not(.bookmark) {
+    color: var(--tw-prose-links);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
 
 /**************************
     Footer
