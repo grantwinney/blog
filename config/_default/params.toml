@@ -46,7 +46,8 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "profile"
+layout = "background"
+homepageImage = "images/homepagebkgd.webp"
 showRecent = true
 showRecentItems = 6
 showMoreLink = true
