@@ -65,3 +65,7 @@ Outside of work / tech stuff, I enjoy building and gardening. It's a different k
 <img src="index-1792725497775.webp" class="grid-w33" />
 <img src="index-1792725962744.webp" class="grid-w33" />
 {{< /gallery >}}
+
+## Other
+
+The background image on the homepage is _<a href="https://unsplash.com/photos/white-paper-on-brown-wooden-table-lPX6-ee-1zU?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Writer's Block</a>_ by <a href="https://unsplash.com/@steve_j?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Steve A Johnson</a>.

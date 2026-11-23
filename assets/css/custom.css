@@ -69,3 +69,8 @@ div.feature-image-attribution {
 #site-footer > nav a {
     font-size: smaller;
 }
+
+/* .thumbnail_card,
+.text-sm > div:nth-child(2) {
+    display: none;
+} */

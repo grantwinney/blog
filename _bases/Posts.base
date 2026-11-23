@@ -1,0 +1,103 @@
+filters:
+  and:
+    - file.path.startsWith("content/posts")
+    - file.name == "index"
+formulas:
+  Title: file.asLink(title)
+  Date: '" ".repeat(12-date.month) + date.format("MMM D")'
+  Year: date.year
+  URL: |-
+    [
+    link('http://localhost:1313/' + slug, '🧪'),
+    link('https://grantwinney.com/' + slug, '🌐')
+    ]
+properties:
+  formula.Year:
+    displayName: Published
+  note.categories:
+    displayName: Categories
+  note.topics:
+    displayName: Topics
+  note.summary:
+    displayName: Summary
+  formula.URL:
+    displayName: URL
+views:
+  - type: table
+    name: Published
+    filters:
+      and:
+        - draft == false
+    groupBy:
+      property: formula.Year
+      direction: DESC
+    order:
+      - formula.Title
+      - formula.URL
+      - formula.Date
+      - categories
+      - topics
+      - summary
+    sort:
+      - property: formula.Date
+        direction: ASC
+      - property: date
+        direction: DESC
+      - property: formula.Path
+        direction: ASC
+    columnSize:
+      formula.Title: 488
+      formula.URL: 61
+      formula.Date: 87
+      note.categories: 110
+      note.topics: 335
+      note.summary: 800
+  - type: table
+    name: Drafts
+    filters:
+      and:
+        - draft == true
+    order:
+      - formula.Title
+      - date
+      - categories
+      - topics
+      - summary
+    sort:
+      - property: formula.Title
+        direction: ASC
+      - property: date
+        direction: ASC
+    columnSize:
+      formula.Title: 319
+  - type: table
+    name: Categories
+    filters:
+      and:
+        - draft == false
+    groupBy:
+      property: categories
+      direction: ASC
+    order:
+      - formula.Title
+      - formula.URL
+      - formula.Date
+      - categories
+      - topics
+      - summary
+    sort:
+      - property: formula.Title
+        direction: ASC
+      - property: formula.Date
+        direction: ASC
+      - property: date
+        direction: DESC
+      - property: formula.Path
+        direction: ASC
+    columnSize:
+      formula.Title: 504
+      formula.Date: 87
+      formula.URL: 61
+      note.categories: 110
+      note.topics: 328
+      note.summary: 800
