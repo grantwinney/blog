@@ -71,7 +71,7 @@ views:
     columnSize:
       formula.Title: 319
   - type: table
-    name: Categories
+    name: By Category
     filters:
       and:
         - draft == false
