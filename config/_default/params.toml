@@ -96,6 +96,7 @@ sharingLinks = ["bluesky", "linkedin", "mastodon", "reddit", "twitter" ]
 showHero = true
 heroStyle = "background"
 layoutBackgroundBlur = true
+layoutBackgroundBlurStyle = "classic"
 layoutBackgroundHeaderSpace = false
 showBreadcrumbs = false
 showSummary = true
