@@ -93,10 +93,10 @@ heroStyle = "background"
 sharingLinks = ["bluesky", "linkedin", "mastodon", "reddit", "twitter" ]
 
 [list]
-showHero = false
-heroStyle = "basic"
+showHero = true
+heroStyle = "background"
 layoutBackgroundBlur = true
-layoutBackgroundHeaderSpace = true
+layoutBackgroundHeaderSpace = false
 showBreadcrumbs = false
 showSummary = true
 showViews = false
