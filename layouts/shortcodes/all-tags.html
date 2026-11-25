@@ -1,0 +1,15 @@
+{{ range .Site.Taxonomies.categories.Alphabetical }}
+  {{ if ge .Count 5 }}
+    <a href="{{ .Page.RelPermalink }}">
+      {{ .Page.Title }} ({{ .Count }})
+    </a>,
+  {{end}}
+{{ end }}
+<br><br>
+{{ range .Site.Taxonomies.topics.Alphabetical }}
+  {{ if ge .Count 5 }}
+    <a href="{{ .Page.RelPermalink }}">
+      {{ .Page.Title }} ({{ .Count }})
+    </a>,
+  {{end}}
+{{ end }}
